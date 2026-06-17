@@ -1,173 +1,221 @@
-#!/usr/bin/env python3
 """
-romanize.py — Romanize the first N (Query, Response) rows from
-data/oasst2_processed.csv into Hindi, Telugu and Kannada via the OpenAI API.
-Writes output/romanized_<lang>.csv per language.
-
-Reproducibility:
-    OPENAI_MODEL=gpt-4o    -> reproducible (temperature=0 + seed=42 both honored)
-    OPENAI_MODEL=gpt-5.5   -> NOT reproducible (temperature locked at 1, seed
-                              is ignored by reasoning models). Use only when
-                              you want best quality and don't need re-run match.
-
-Setup: pip install openai python-dotenv ; set OPENAI_API_KEY in .env
-Run:   python romanize.py [--rows 10] [--languages hindi telugu kannada]
+Romanization script using Claude API.
+Reads native script text from source CSVs and converts to Roman alphabet.
+Supports resume - skips already processed rows.
 """
 
-import argparse
 import csv
-import json
 import os
-import sys
 import time
+from pathlib import Path
 
-from dotenv import load_dotenv
-from openai import OpenAI
+import anthropic
 
-load_dotenv()
+# ── Configuration ────────────────────────────────────────────────────────────
 
-HERE = os.path.dirname(os.path.abspath(__file__))
-INPUT_CSV = os.path.join(HERE, "data", "oasst2_processed.csv")
-OUTPUT_DIR = os.path.join(HERE, "output")
+MODEL = "claude-opus-4-8"
 
-MODEL = os.getenv("OPENAI_MODEL", "gpt-4o")
-SEED = int(os.getenv("OPENAI_SEED", "42"))
-MAX_RETRIES = 4
+INPUT_FILES = [
+    "../hindi_xquad_native_50.csv",
+    "../kannada_indicqa_50.csv",
+    "../telugu_indicqa_50.csv",
+    # Add more files here, e.g.:
+    # "../greek_xquad_50.csv",
+]
 
-# Reasoning models (GPT-5 family, o-series) lock temperature at 1 and ignore
-# seed -> no determinism lever. gpt-4o/gpt-4.1 honor both.
-IS_REASONING_MODEL = MODEL.lower().startswith(("gpt-5", "o1", "o3", "o4"))
+OUTPUT_DIR = Path("output")
 
-LANGUAGES = {
-    "hindi":   {"name": "Hindi",
-                "example": 'e.g. "Namaste, aap kaise hain? Main theek hoon."'},
-    "telugu":  {"name": "Telugu",
-                "example": 'e.g. "Namaskaram, meeru ela unnaru? Nenu bagunnaanu."'},
-    "kannada": {"name": "Kannada",
-                "example": 'e.g. "Namaskara, neevu hegiddira? Naanu chennagiddini."'},
-}
+# Seconds to wait between API calls (avoids rate limits)
+DELAY_BETWEEN_CALLS = 0.5
 
+# ── System prompt ─────────────────────────────────────────────────────────────
 
-def build_system_prompt(lang_key: str) -> str:
-    m = LANGUAGES[lang_key]
-    return (
-        f"Translate English to natural conversational {m['name']}, then romanize "
-        f"in Latin letters only (a-z). {m['example']}\n\n"
-        f"Keep English loanwords speakers actually use (doctor, phone, office, etc.). "
-        f"Preserve formatting, line breaks, names, numbers, URLs.\n\n"
-        f"Input: English `query` and `response`. Output JSON only:\n"
-        f'{{"romanized_query": "...", "romanized_response": "..."}}'
-    )
+SYSTEM_PROMPT = """You are a romanization expert. Your task is to convert text written in a non-Latin script into Roman alphabet (Latin script) using standard romanization conventions.
+
+Rules:
+- Preserve the phonetic sounds accurately
+- Use conventional romanization schemes (e.g., IAST-inspired for Indic scripts)
+- Do NOT translate — only transliterate the sounds
+- Return ONLY the romanized text, with no explanation or extra text"""
 
 
-def build_user_prompt(query, response):
-    return ("Romanize the following English query and response as instructed.\n\n"
-            + json.dumps({"query": query, "response": response}, ensure_ascii=False))
+def make_prompt(text: str, language: str) -> str:
+    return f"Romanize this {language} text:\n\n{text}"
 
 
-def romanize_pair(client, lang_key, query, response):
-    system_prompt = build_system_prompt(lang_key)
-    user_prompt = build_user_prompt(query, response)
-    send_temperature = not IS_REASONING_MODEL
-    send_seed = True
-    send_reasoning_effort = IS_REASONING_MODEL  # only for gpt-5.x / o-series
+# ── Helpers ───────────────────────────────────────────────────────────────────
 
-    for attempt in range(1, MAX_RETRIES + 1):
+def load_existing(output_path: Path) -> set:
+    """Return set of already-processed IDs from output file."""
+    if not output_path.exists():
+        return set()
+    with open(output_path, newline="", encoding="utf-8") as f:
+        reader = csv.DictReader(f)
+        return {row["id"] for row in reader}
+
+
+def get_output_path(input_file: str) -> Path:
+    stem = Path(input_file).stem  # e.g. "hindi_xquad_native_50"
+    return OUTPUT_DIR / f"romanized_{stem}.csv"
+
+
+OUTPUT_FIELDNAMES = [
+    "id", "language", "script", "source",
+    "original_text", "romanized_text",
+    "input_tokens", "output_tokens",
+]
+
+
+def append_row(output_path: Path, row: dict, write_header: bool):
+    with open(output_path, "a", newline="", encoding="utf-8") as f:
+        writer = csv.DictWriter(f, fieldnames=OUTPUT_FIELDNAMES)
+        if write_header:
+            writer.writeheader()
+        writer.writerow(row)
+
+
+# ── Main processing ───────────────────────────────────────────────────────────
+
+def process_file(client: anthropic.Anthropic, input_file: str):
+    input_path = Path(input_file)
+    output_path = get_output_path(input_file)
+
+    if not input_path.exists():
+        print(f"  [SKIP] File not found: {input_path}")
+        return
+
+    # Load source rows
+    with open(input_path, newline="", encoding="utf-8") as f:
+        rows = list(csv.DictReader(f))
+
+    # Check which IDs are already done
+    done_ids = load_existing(output_path)
+    remaining = [r for r in rows if r["id"] not in done_ids]
+
+    print(f"\n{'─'*60}")
+    print(f"File   : {input_path.name}")
+    print(f"Total  : {len(rows)} rows")
+    print(f"Done   : {len(done_ids)} already processed")
+    print(f"To do  : {len(remaining)} remaining")
+
+    if not remaining:
+        print("  ✓ All rows already processed, skipping.")
+        return
+
+    total_input_tokens = 0
+    total_output_tokens = 0
+
+    for i, row in enumerate(remaining, 1):
+        text = row["text"]
+        language = row.get("language", "unknown")
+        row_id = row["id"]
+
+        print(f"  [{i}/{len(remaining)}] {row_id}: {text[:50]}...")
+
         try:
-            kwargs = {
-                "model": MODEL,
-                "response_format": {"type": "json_object"},
-                "messages": [
-                    {"role": "system", "content": system_prompt},
-                    {"role": "user", "content": user_prompt},
+            response = client.messages.create(
+                model=MODEL,
+                max_tokens=1024,
+                system=SYSTEM_PROMPT,
+                messages=[
+                    {"role": "user", "content": make_prompt(text, language)}
                 ],
+            )
+
+            romanized = response.content[0].text.strip()
+            input_tok = response.usage.input_tokens
+            output_tok = response.usage.output_tokens
+            total_input_tokens += input_tok
+            total_output_tokens += output_tok
+
+            out_row = {
+                "id": row_id,
+                "language": language,
+                "script": row.get("script", ""),
+                "source": row.get("source", ""),
+                "original_text": text,
+                "romanized_text": romanized,
+                "input_tokens": input_tok,
+                "output_tokens": output_tok,
             }
-            if send_temperature:
-                kwargs["temperature"] = 0
-            if send_seed:
-                kwargs["seed"] = SEED
-            if send_reasoning_effort:
-                kwargs["reasoning_effort"] = "low"
-            completion = client.chat.completions.create(**kwargs)
-            data = json.loads(completion.choices[0].message.content)
-            return {
-                "romanized_query": data.get("romanized_query", "").strip(),
-                "romanized_response": data.get("romanized_response", "").strip(),
-                "system_fingerprint": getattr(completion, "system_fingerprint", "") or "",
+
+            write_header = not output_path.exists()
+            append_row(output_path, out_row, write_header)
+
+            print(f"         → {romanized[:60]}")
+            print(f"           tokens: {input_tok} in / {output_tok} out")
+
+        except anthropic.RateLimitError:
+            print("  [RATE LIMIT] Waiting 60 seconds...")
+            time.sleep(60)
+            # Retry once
+            response = client.messages.create(
+                model=MODEL,
+                max_tokens=1024,
+                system=SYSTEM_PROMPT,
+                messages=[
+                    {"role": "user", "content": make_prompt(text, language)}
+                ],
+            )
+            romanized = response.content[0].text.strip()
+            out_row = {
+                "id": row_id,
+                "language": language,
+                "script": row.get("script", ""),
+                "source": row.get("source", ""),
+                "original_text": text,
+                "romanized_text": romanized,
+                "input_tokens": response.usage.input_tokens,
+                "output_tokens": response.usage.output_tokens,
             }
-        except Exception as err:
-            msg = str(err).lower()
-            if send_temperature and "temperature" in msg:
-                send_temperature = False
-                continue
-            if send_seed and "seed" in msg:
-                send_seed = False
-                continue
-            if send_reasoning_effort and "reasoning" in msg:
-                send_reasoning_effort = False
-                continue
-            if attempt == MAX_RETRIES:
-                raise
-            print(f"      attempt {attempt} failed ({err}); retrying...",
-                  file=sys.stderr)
-            time.sleep(2 ** attempt)
-    raise RuntimeError(f"romanize_pair exhausted all retries for {lang_key}")
+            write_header = not output_path.exists()
+            append_row(output_path, out_row, write_header)
 
+        except Exception as e:
+            print(f"  [ERROR] {row_id}: {e}")
+            # Write error row so we know it failed
+            out_row = {
+                "id": row_id,
+                "language": language,
+                "script": row.get("script", ""),
+                "source": row.get("source", ""),
+                "original_text": text,
+                "romanized_text": f"ERROR: {e}",
+                "input_tokens": 0,
+                "output_tokens": 0,
+            }
+            write_header = not output_path.exists()
+            append_row(output_path, out_row, write_header)
 
-def read_rows(path, n):
-    if not os.path.exists(path):
-        sys.exit(f"Input CSV not found: {path}")
-    with open(path, newline="", encoding="utf-8") as f:
-        return [row for i, row in enumerate(csv.DictReader(f)) if i < n]
+        time.sleep(DELAY_BETWEEN_CALLS)
 
-
-def write_output(lang_key, results):
-    os.makedirs(OUTPUT_DIR, exist_ok=True)
-    out_path = os.path.join(OUTPUT_DIR, f"romanized_{lang_key}.csv")
-    fields = ["message_id", "language", "query_en", "response_en",
-              "romanized_query", "romanized_response", "system_fingerprint"]
-    with open(out_path, "w", newline="", encoding="utf-8") as f:
-        w = csv.DictWriter(f, fieldnames=fields)
-        w.writeheader()
-        w.writerows(results)
-    return out_path
+    print(f"\n  ✓ Done: {output_path}")
+    print(f"  Total tokens: {total_input_tokens} input / {total_output_tokens} output")
+    cost_input = total_input_tokens / 1_000_000 * 5.00   # Opus 4.8 input rate
+    cost_output = total_output_tokens / 1_000_000 * 25.00  # Opus 4.8 output rate
+    print(f"  Estimated cost: ${cost_input + cost_output:.4f}")
 
 
 def main():
-    p = argparse.ArgumentParser(description="Romanize CSV prompts/responses.")
-    p.add_argument("--rows", type=int, default=10)
-    p.add_argument("--languages", nargs="+", default=list(LANGUAGES.keys()),
-                   choices=list(LANGUAGES.keys()))
-    args = p.parse_args()
+    OUTPUT_DIR.mkdir(exist_ok=True)
 
-    if not os.getenv("OPENAI_API_KEY"):
-        sys.exit("OPENAI_API_KEY is not set. Add it to .env.")
+    api_key = os.environ.get("ANTHROPIC_API_KEY")
+    if not api_key:
+        raise ValueError("ANTHROPIC_API_KEY environment variable not set")
 
-    client = OpenAI()
-    rows = read_rows(INPUT_CSV, args.rows)
-    repro = "NOT reproducible (reasoning model)" if IS_REASONING_MODEL \
-        else "reproducible (temperature=0 + seed)"
-    print(f"Model: {MODEL}  [{repro}]")
-    print(f"Loaded {len(rows)} rows from {INPUT_CSV}\n")
+    client = anthropic.Anthropic(api_key=api_key)
 
-    for lang_key in args.languages:
-        lang_name = LANGUAGES[lang_key]["name"]
-        print(f"=== {lang_name} ===")
-        results = []
-        for idx, row in enumerate(rows, start=1):
-            q = row.get("Query", "") or ""
-            r = row.get("Response", "") or ""
-            print(f"  [{idx}/{len(rows)}] {row.get('message_id', '')[:8]}...")
-            pair = romanize_pair(client, lang_key, q, r)
-            results.append({
-                "message_id": row.get("message_id", ""),
-                "language": lang_name,
-                "query_en": q,
-                "response_en": r,
-                **pair,
-            })
-        print(f"  -> {write_output(lang_key, results)}\n")
-    print("Done.")
+    print(f"Model : {MODEL}")
+    print(f"Files : {len(INPUT_FILES)}")
+
+    grand_total_cost = 0.0
+
+    for input_file in INPUT_FILES:
+        process_file(client, input_file)
+
+    print(f"\n{'='*60}")
+    print("All files processed.")
+    print(f"Output directory: {OUTPUT_DIR.resolve()}")
 
 
 if __name__ == "__main__":
