@@ -3,17 +3,20 @@
 run_claude_eval.py — Run romanized prompts through Claude and save responses
 with output token counts.
 
-Input:  data/prompts.csv  (columns: prompt_id, language, category, prompt_text)
-Output: output/claude_responses.csv
+Input (default): data/romanized_{hindi,telugu,kannada}_split.csv
+    Uses romanized_query as the prompt sent to Claude.
+    Also supports data/prompts.csv (columns: prompt_id, language, category, prompt_text).
+
+Output: output/<input_basename>_output.csv  (one file per input)
 
 Setup:
     pip install anthropic python-dotenv
     Set ANTHROPIC_API_KEY in .env
 
 Run:
-    python run_claude_eval.py                      # all rows
-    python run_claude_eval.py --rows 10            # first 10 (for testing)
-    python run_claude_eval.py --input my_file.csv  # custom input path
+    python run_claude_eval.py                      # all 3 split CSVs, all rows each
+    python run_claude_eval.py --rows 10            # first 10 rows per file (for testing)
+    python run_claude_eval.py --input data/romanized_hindi_split.csv  # one file only
 """
 
 import argparse
@@ -28,7 +31,12 @@ from dotenv import load_dotenv
 load_dotenv()
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-DEFAULT_INPUT = os.path.join(HERE, "data", "prompts.csv")
+DATA_DIR = os.path.join(HERE, "data")
+DEFAULT_INPUTS = [
+    os.path.join(DATA_DIR, "romanized_hindi_split.csv"),
+    os.path.join(DATA_DIR, "romanized_telugu_split.csv"),
+    os.path.join(DATA_DIR, "romanized_kannada_split.csv"),
+]
 OUTPUT_DIR = os.path.join(HERE, "output")
 
 # Current Claude model — update here if you want to switch
@@ -51,7 +59,7 @@ def run_prompt(client, prompt_text: str) -> dict:
         try:
             message = client.messages.create(
                 model=MODEL,
-                max_tokens=1024,
+                max_tokens=4096,
                 system=SYSTEM_PROMPT,
                 messages=[{"role": "user", "content": prompt_text}],
             )
@@ -71,12 +79,31 @@ def run_prompt(client, prompt_text: str) -> dict:
     raise RuntimeError("Exhausted retries")
 
 
+def normalize_row(row: dict, idx: int) -> dict:
+    """Map romanized-split or prompt-collection columns to a common shape."""
+    if "romanized_query" in row:
+        return {
+            "prompt_id": row.get("message_id", f"row_{idx}"),
+            "language": row.get("language", ""),
+            "category": row.get("category", ""),
+            "prompt_text": row.get("romanized_query", ""),
+        }
+    return {
+        "prompt_id": row.get("prompt_id", f"row_{idx}"),
+        "language": row.get("language", ""),
+        "category": row.get("category", ""),
+        "prompt_text": row.get("prompt_text", ""),
+    }
+
+
 def read_rows(path: str, n: int | None) -> list[dict]:
     if not os.path.exists(path):
         sys.exit(f"Input CSV not found: {path}\n"
-                 f"Expected columns: prompt_id, language, category, prompt_text")
+                 f"Expected romanized-split columns (message_id, language, romanized_query) "
+                 f"or prompt-collection columns (prompt_id, language, category, prompt_text)")
     with open(path, newline="", encoding="utf-8") as f:
-        rows = list(csv.DictReader(f))
+        raw_rows = list(csv.DictReader(f))
+    rows = [normalize_row(row, idx) for idx, row in enumerate(raw_rows, start=1)]
     if n:
         rows = rows[:n]
     return rows
@@ -106,40 +133,22 @@ def write_output(results: list[dict], input_path: str) -> str:
     return out_path
 
 
-def main():
-    p = argparse.ArgumentParser(description="Run prompts through Claude, save responses.")
-    p.add_argument("--rows", type=int, default=None,
-                   help="Limit to first N rows (omit for all)")
-    p.add_argument("--input", default=DEFAULT_INPUT,
-                   help=f"Path to input CSV (default: {DEFAULT_INPUT})")
-    args = p.parse_args()
-
-    api_key = os.getenv("ANTHROPIC_API_KEY")
-    if not api_key:
-        sys.exit("ANTHROPIC_API_KEY is not set. Add it to .env or export it.")
-
-    try:
-        import anthropic
-    except ImportError:
-        sys.exit("anthropic package not found. Run: pip install anthropic")
-
-    client = anthropic.Anthropic(api_key=api_key)
-
-    rows = read_rows(args.input, args.rows)
-    print(f"Model:  {MODEL}")
-    print(f"Input:  {args.input}  ({len(rows)} rows)")
+def process_input(client, input_path: str, n: int | None) -> str:
+    rows = read_rows(input_path, n)
+    print(f"Input:  {input_path}  ({len(rows)} rows)")
     print()
 
     results = []
     total_output_tokens = 0
 
     for idx, row in enumerate(rows, start=1):
-        prompt_id = row.get("prompt_id", f"row_{idx}")
-        prompt_text = row.get("prompt_text", "")
-        language = row.get("language", "")
-        category = row.get("category", "")
+        prompt_id = row["prompt_id"]
+        prompt_text = row["prompt_text"]
+        language = row["language"]
+        category = row["category"]
 
-        print(f"  [{idx:>4}/{len(rows)}]  {prompt_id}  ({language} / {category})")
+        label = f"{language} / {category}" if category else language
+        print(f"  [{idx:>4}/{len(rows)}]  {prompt_id}  ({label})")
 
         result = run_prompt(client, prompt_text)
         total_output_tokens += result["output_tokens"]
@@ -157,16 +166,44 @@ def main():
             "timestamp_utc": datetime.utcnow().isoformat(),
         })
 
-        # Small delay to stay within rate limits
         time.sleep(0.5)
 
-    out_path = write_output(results, args.input)
+    out_path = write_output(results, input_path)
 
     print()
-    print(f"Done.")
+    print(f"Done: {os.path.basename(input_path)}")
     print(f"Output:              {out_path}")
     print(f"Total output tokens: {total_output_tokens:,}")
     print(f"Avg output tokens:   {total_output_tokens / len(results):.1f}")
+    print()
+    return out_path
+
+
+def main():
+    p = argparse.ArgumentParser(description="Run prompts through Claude, save responses.")
+    p.add_argument("--rows", type=int, default=None,
+                   help="Limit to first N rows per input file (omit for all)")
+    p.add_argument("--input", nargs="+", default=DEFAULT_INPUTS,
+                   help="One or more input CSV paths (default: all 3 romanized split files)")
+    args = p.parse_args()
+
+    api_key = os.getenv("ANTHROPIC_API_KEY")
+    if not api_key:
+        sys.exit("ANTHROPIC_API_KEY is not set. Add it to .env or export it.")
+
+    try:
+        import anthropic
+    except ImportError:
+        sys.exit("anthropic package not found. Run: pip install anthropic")
+
+    client = anthropic.Anthropic(api_key=api_key)
+
+    print(f"Model:  {MODEL}")
+    print(f"Files:  {len(args.input)}")
+    print()
+
+    for input_path in args.input:
+        process_input(client, input_path, args.rows)
 
 
 if __name__ == "__main__":
