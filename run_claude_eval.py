@@ -1,0 +1,173 @@
+#!/usr/bin/env python3
+"""
+run_claude_eval.py — Run romanized prompts through Claude and save responses
+with output token counts.
+
+Input:  data/prompts.csv  (columns: prompt_id, language, category, prompt_text)
+Output: output/claude_responses.csv
+
+Setup:
+    pip install anthropic python-dotenv
+    Set ANTHROPIC_API_KEY in .env
+
+Run:
+    python run_claude_eval.py                      # all rows
+    python run_claude_eval.py --rows 10            # first 10 (for testing)
+    python run_claude_eval.py --input my_file.csv  # custom input path
+"""
+
+import argparse
+import csv
+import os
+import sys
+import time
+from datetime import datetime
+
+from dotenv import load_dotenv
+
+load_dotenv()
+
+HERE = os.path.dirname(os.path.abspath(__file__))
+DEFAULT_INPUT = os.path.join(HERE, "data", "prompts.csv")
+OUTPUT_DIR = os.path.join(HERE, "output")
+
+# Current Claude model — update here if you want to switch
+MODEL = os.getenv("CLAUDE_MODEL", "claude-opus-4-8")
+
+# System prompt — tells Claude to respond naturally to the user's language
+SYSTEM_PROMPT = (
+    "You are a helpful assistant. The user may write in romanized Indic script, "
+    "code-switched text, or colloquial register. Respond naturally and helpfully "
+    "in the language and register the user would find most useful. "
+    "Do not add meta-commentary about the language or script."
+)
+
+MAX_RETRIES = 4
+
+
+def run_prompt(client, prompt_text: str) -> dict:
+    """Send one prompt to Claude; return response text + token counts."""
+    for attempt in range(1, MAX_RETRIES + 1):
+        try:
+            message = client.messages.create(
+                model=MODEL,
+                max_tokens=1024,
+                system=SYSTEM_PROMPT,
+                messages=[{"role": "user", "content": prompt_text}],
+            )
+            return {
+                "response_text": message.content[0].text,
+                "input_tokens": message.usage.input_tokens,
+                "output_tokens": message.usage.output_tokens,
+                "stop_reason": message.stop_reason,
+            }
+        except Exception as err:
+            if attempt == MAX_RETRIES:
+                raise
+            wait = 2 ** attempt
+            print(f"      attempt {attempt} failed ({err}); retrying in {wait}s...",
+                  file=sys.stderr)
+            time.sleep(wait)
+    raise RuntimeError("Exhausted retries")
+
+
+def read_rows(path: str, n: int | None) -> list[dict]:
+    if not os.path.exists(path):
+        sys.exit(f"Input CSV not found: {path}\n"
+                 f"Expected columns: prompt_id, language, category, prompt_text")
+    with open(path, newline="", encoding="utf-8") as f:
+        rows = list(csv.DictReader(f))
+    if n:
+        rows = rows[:n]
+    return rows
+
+
+def write_output(results: list[dict], input_path: str) -> str:
+    os.makedirs(OUTPUT_DIR, exist_ok=True)
+
+    # Extract the original filename (e.g., "prompts.csv")
+    base_name = os.path.basename(input_path)
+    # Split name and extension (e.g., "prompts" and ".csv")
+    name, ext = os.path.splitext(base_name)
+
+    # Construct the new filename (e.g., "prompts_output.csv")
+    out_filename = f"{name}_output{ext}"
+    out_path = os.path.join(OUTPUT_DIR, out_filename)
+    fields = [
+        "prompt_id", "language", "category",
+        "prompt_text", "response_text",
+        "input_tokens", "output_tokens", "stop_reason",
+        "model", "timestamp_utc",
+    ]
+    with open(out_path, "w", newline="", encoding="utf-8") as f:
+        w = csv.DictWriter(f, fieldnames=fields, extrasaction="ignore")
+        w.writeheader()
+        w.writerows(results)
+    return out_path
+
+
+def main():
+    p = argparse.ArgumentParser(description="Run prompts through Claude, save responses.")
+    p.add_argument("--rows", type=int, default=None,
+                   help="Limit to first N rows (omit for all)")
+    p.add_argument("--input", default=DEFAULT_INPUT,
+                   help=f"Path to input CSV (default: {DEFAULT_INPUT})")
+    args = p.parse_args()
+
+    api_key = os.getenv("ANTHROPIC_API_KEY")
+    if not api_key:
+        sys.exit("ANTHROPIC_API_KEY is not set. Add it to .env or export it.")
+
+    try:
+        import anthropic
+    except ImportError:
+        sys.exit("anthropic package not found. Run: pip install anthropic")
+
+    client = anthropic.Anthropic(api_key=api_key)
+
+    rows = read_rows(args.input, args.rows)
+    print(f"Model:  {MODEL}")
+    print(f"Input:  {args.input}  ({len(rows)} rows)")
+    print()
+
+    results = []
+    total_output_tokens = 0
+
+    for idx, row in enumerate(rows, start=1):
+        prompt_id = row.get("prompt_id", f"row_{idx}")
+        prompt_text = row.get("prompt_text", "")
+        language = row.get("language", "")
+        category = row.get("category", "")
+
+        print(f"  [{idx:>4}/{len(rows)}]  {prompt_id}  ({language} / {category})")
+
+        result = run_prompt(client, prompt_text)
+        total_output_tokens += result["output_tokens"]
+
+        results.append({
+            "prompt_id": prompt_id,
+            "language": language,
+            "category": category,
+            "prompt_text": prompt_text,
+            "response_text": result["response_text"],
+            "input_tokens": result["input_tokens"],
+            "output_tokens": result["output_tokens"],
+            "stop_reason": result["stop_reason"],
+            "model": MODEL,
+            "timestamp_utc": datetime.utcnow().isoformat(),
+        })
+
+        # Small delay to stay within rate limits
+        time.sleep(0.5)
+
+    out_path = write_output(results, args.input)
+
+    print()
+    print(f"Done.")
+    print(f"Output:              {out_path}")
+    print(f"Total output tokens: {total_output_tokens:,}")
+    print(f"Avg output tokens:   {total_output_tokens / len(results):.1f}")
+
+
+if __name__ == "__main__":
+    main()
