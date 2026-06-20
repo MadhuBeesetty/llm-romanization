@@ -1,0 +1,4 @@
+language,query_raw_bertscore_f1,query_bge_cosine_similarity,response_raw_bertscore_f1,response_bge_cosine_similarity,query_rows_scored,response_rows_scored
+Hindi,0.649961,0.762160,0.663384,0.812388,142,142
+Telugu,0.721319,0.802233,0.745926,0.834186,118,115
+Kannada,0.639757,0.701474,0.759933,0.819542,142,103
