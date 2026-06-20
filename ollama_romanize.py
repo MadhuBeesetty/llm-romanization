@@ -33,6 +33,7 @@ import csv
 import json
 import os
 import re
+import socket
 import sys
 import time
 import urllib.error
@@ -247,6 +248,7 @@ def romanize_pair(args, lang_key, query, response):
             "model": args.model,
             "stream": False,
             "format": "json",
+            "think": False,
             "options": {
                 "temperature": args.temperature,
                 "num_predict": args.num_predict,
@@ -271,19 +273,34 @@ def romanize_pair(args, lang_key, query, response):
             if not romanized_response:
                 romanized_response = recover_json_value(content, "romanized_response")
             if not romanized_query or not romanized_response:
+                if attempt == MAX_RETRIES:
+                    output_tokens = int(result.get("eval_count") or 0)
+                    elapsed = time.time() - start_time
+                    missing = []
+                    if not romanized_query:
+                        missing.append("romanized_query")
+                    if not romanized_response:
+                        missing.append("romanized_response")
+                    print(
+                        "      warning: saving partial output; missing "
+                        + ", ".join(missing),
+                        file=sys.stderr,
+                    )
+                    return (
+                        romanized_query,
+                        romanized_response,
+                        output_tokens,
+                        elapsed,
+                    )
                 raise ValueError(f"Model did not return both JSON fields: {content[:300]}")
-            if looks_like_echoed_input(romanized_query, query):
-                raise ValueError(
-                    "Model echoed query instead of translating/romanizing."
-                )
-            if looks_like_echoed_input(romanized_response, response):
-                raise ValueError(
-                    "Model echoed response instead of translating/romanizing."
-                )
             output_tokens = int(result.get("eval_count") or 0)
             elapsed = time.time() - start_time
             return romanized_query, romanized_response, output_tokens, elapsed
-        except (urllib.error.URLError, TimeoutError) as err:
+        except (socket.timeout, TimeoutError) as err:
+            raise RuntimeError(
+                f"Ollama request exceeded the {args.timeout}s timeout."
+            ) from err
+        except urllib.error.URLError as err:
             if attempt == MAX_RETRIES:
                 raise RuntimeError(
                     "Could not reach Ollama. Make sure `ollama serve` is running "
@@ -386,12 +403,24 @@ def process_language(args, rows, lang_key, source_path):
             print(f"  [{idx}/{len(rows)}] {short_id}...", flush=True)
 
             print("      calling Ollama for query+response...", flush=True)
-            (
-                romanized_query,
-                romanized_response,
-                row_total_tokens,
-                elapsed,
-            ) = romanize_pair(args, lang_key, query, response)
+            row_start = time.time()
+            try:
+                (
+                    romanized_query,
+                    romanized_response,
+                    row_total_tokens,
+                    elapsed,
+                ) = romanize_pair(args, lang_key, query, response)
+            except Exception as err:
+                romanized_query = ""
+                romanized_response = ""
+                row_total_tokens = 0
+                elapsed = time.time() - row_start
+                print(
+                    f"      warning: row failed ({err}); saving blanks and continuing",
+                    file=sys.stderr,
+                    flush=True,
+                )
 
             output_total += row_total_tokens
             print(
