@@ -49,7 +49,7 @@ Even at half this estimate — **500 million people** — no major NLP benchmark
 
 **Task:** Each model (Anthropic, GPT, Gemini) was given 142 English OASST2 Q&A pairs and asked to translate + romanize both the query and response into Hindi, Telugu, and Kannada. The output is a parallel corpus of romanized translations — not model responses to romanized queries.  
 **Reference:** `romanized_{lang}_split.csv` — a Claude Opus 4.8 translation+romanization of the same OASST2 pairs, used as the reference for BLEU/BERTScore.  
-**Metrics:** BLEU (sacrebleu), BERTScore F1 (xlm-roberta-base, n=30), native-script leakage count, cross-lingual BERTScore (model romanized output vs OASST2 English GT).
+**Metrics:** BLEU (sacrebleu), BERTScore F1 (xlm-roberta-base, n=30), native-script leakage count, cross-lingual BERTScore (model romanized output vs OASST2 English GT), BGE-M3 cosine similarity (BAAI/bge-m3, full 142 rows, 2026-06-20).
 
 > **Methodology notes (read before citing the metrics):**
 > 1. **Specify every model/version.** The "anthropic" arm and the Opus 4.8 reference are both Claude-family. The exact model and snapshot for each of the three arms — and for the reference generator — must be stated. Using a Claude-generated reference to score a Claude arm is a conflict reviewers will flag. Mitigating fact from the data itself: there is **no self-preference** — GPT scores *higher* against the Claude reference than the Anthropic arm does (74.7 vs 60.7 on Hindi), the opposite of what bias would produce.
@@ -130,7 +130,42 @@ Gemini Telugu is the only model-language pair that drops below its ceiling (0.83
 
 ---
 
-## 5. What this means for the paper
+## 5. BGE-M3 Semantic Similarity (English GT vs Romanized Model Response)
+
+**Script:** `llm-romanization/bge_m3_eval.py` | **Model:** `BAAI/bge-m3` (dense embeddings, fp16) | **Date:** 2026-06-20  
+**What it measures:** cosine similarity between the English reference response (`response_en`) and the model's actual romanized output (`romanized_response`), using a state-of-the-art multilingual embedding model that handles 100+ languages.  
+**Why BGE-M3:** Unlike xlm-roberta-base (used in Section 4 BERTScore), BGE-M3 was explicitly trained for cross-lingual retrieval and has meaningful representations for romanized Indic text.
+
+| model | language | n | mean cosine | std | min | max |
+|-------|----------|---|-------------|-----|-----|-----|
+| anthropic | hindi | 142 | **0.839** | 0.074 | 0.499 | 0.951 |
+| anthropic | telugu | 142 | 0.813 | 0.065 | 0.571 | 0.940 |
+| anthropic | kannada | 142 | 0.763 | 0.084 | 0.428 | 0.915 |
+| gpt | hindi | 142 | 0.828 | 0.073 | 0.602 | 0.944 |
+| gpt | telugu | 142 | 0.795 | 0.063 | 0.519 | 0.916 |
+| gpt | kannada | 142 | 0.761 | 0.078 | 0.495 | 0.928 |
+| gemini | hindi | 142 | 0.821 | 0.079 | 0.582 | 0.952 |
+| gemini | telugu | 141 | 0.771 | 0.077 | 0.533 | 0.915 |
+| gemini | kannada | 141 | 0.769 | 0.077 | 0.502 | 1.001 |
+
+**Per-row scores:** `llm-romanization/bge_m3_results/{model}_{language}_bge_scores.csv`  
+**Summary CSV:** `llm-romanization/bge_m3_results/summary.csv`
+
+### Findings
+
+**Kannada consistently scores lowest** across all three models (0.761–0.769) vs Hindi (0.821–0.839). This is consistent with Kannada showing the most romanization spelling variation and the highest script-leakage from Gemini.
+
+**Hindi scores highest** for all models — likely because Hinglish has the most training-data coverage, so BGE-M3 has better representations for romanized Hindi.
+
+**Models are clustered** within each language. The inter-model spread within a language is ~0.01–0.04, much smaller than the inter-language spread (~0.07). Language is a stronger predictor of score than model choice.
+
+**The scores look superficially acceptable (0.76–0.84).** This is the key paper point: an automatic metric signals "decent quality" across all models and languages. This is the contrast point with the planned human evaluation — native speakers are expected to find failures that BGE-M3 cosine similarity cannot surface. The metric-blindness thesis holds even with a better cross-lingual embedder.
+
+**Gemini Telugu drops noticeably** (0.771 vs Anthropic 0.813), consistent with its 17% native-script corruption. BGE-M3 is more sensitive to this than xlm-roberta-base BERTScore (0.007 gap there vs 0.042 gap here) — but still not sensitive enough to flag it as an obvious failure.
+
+---
+
+## 6. What this means for the paper
 
 **Corrected framing:** This data measures how well each model translates English content into romanized Indic — not how models handle romanized input. The task is: given English Q&A, produce a fluent romanized Hindi/Telugu/Kannada version.
 
@@ -144,7 +179,7 @@ Gemini Telugu is the only model-language pair that drops below its ceiling (0.83
 
 ---
 
-## 6. What's still needed
+## 7. What's still needed
 
 - **Ship the reference file** (`romanized_{lang}_split.csv`) and **specify the exact model/version** of all three arms and the reference generator, so Section 1 and Section 4 become reproducible and the reference-circularity concern is resolved.
 - **Human ratings on 20–30 responses** — score on fluency, register, semantic accuracy, script usability. Show human scores vary while BERTScore stays flat at 0.90+. That table is the core finding.
