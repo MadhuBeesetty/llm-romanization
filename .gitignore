@@ -9,3 +9,5 @@ __pycache__/
 
 ollama_romanized_hindi_split.csv
 environment.yml
+
+extra/**/**
