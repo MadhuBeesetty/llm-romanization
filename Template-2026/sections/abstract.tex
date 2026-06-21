@@ -1,0 +1,14 @@
+\begin{abstract}
+Romanized text is a common interface for speakers of Indic languages, yet
+general-purpose language models are rarely evaluated on long-form generation
+in this representation. We present a preliminary evaluation of English-to-
+Romanized Hindi, Telugu, and Kannada generation using an open-weight
+Qwen3.5-35B model served locally through Ollama. We generate romanized versions
+of 142 English query--response pairs and evaluate semantic preservation with
+raw multilingual BERTScore F1 and BGE-M3 embedding cosine similarity. Hindi
+obtains the highest query and response cosine similarity, at 0.735 and 0.787,
+respectively. English-copy, blank, and malformed failures receive zero. Kannada
+obtains a response cosine similarity of 0.455 after all 142 stored rows enter
+the mean. These results illustrate how failure-aware scoring changes model
+assessment and motivate reporting failure policy alongside semantic metrics.
+\end{abstract}

@@ -1,0 +1,38 @@
+\section{Results}
+
+\begin{table}[t]
+\centering
+\small
+\begin{tabular}{lrrrrrr}
+\toprule
+ & \multicolumn{2}{c}{Query} & \multicolumn{2}{c}{Response}
+ & \multicolumn{2}{c}{Coverage} \\
+\cmidrule(lr){2-3}\cmidrule(lr){4-5}\cmidrule(lr){6-7}
+Language & BERT-F1 & Cosine & BERT-F1 & Cosine & Query & Resp. \\
+\midrule
+Hindi   & 0.622 & 0.735 & 0.639 & 0.787 & 142 & 142 \\
+Telugu  & 0.460 & 0.522 & 0.459 & 0.527 & 142 & 142 \\
+Kannada & 0.514 & 0.577 & 0.412 & 0.455 & 142 & 142 \\
+\bottomrule
+\end{tabular}
+\caption{Failure-aware mean automatic scores. All 142 samples enter each mean;
+BERT-F1 is raw multilingual BERTScore F1 and Cosine uses BGE-M3 embeddings.}
+\label{tab:main-results}
+\end{table}
+
+Table~\ref{tab:main-results} shows the automatic evaluation results. Rows
+containing an output identical to its English source receive zero for all
+metrics. Blank and malformed fields also receive zero. We retain the first
+Qwen3.5-35B result for each message identifier and remove duplicate reruns.
+Hindi has the highest query cosine similarity (0.735) and response cosine
+similarity (0.787).
+
+Kannada illustrates the importance of joint quality and reliability reporting.
+Its response BERTScore F1 is 0.412 and its response cosine similarity is 0.455
+when all 142 rows, including failures scored as zero, contribute to the mean.
+
+Telugu uses the same 142-sample denominator as the other languages. English
+copies, malformed JSON, truncated output, and repetition failures contribute
+zero.
+Consequently, Telugu's conditional semantic scores should not be interpreted as
+a 142-record success rate.

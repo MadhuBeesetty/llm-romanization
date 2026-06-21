@@ -1,0 +1,46 @@
+\documentclass{article}
+\usepackage[submission]{colm2026_conference}
+
+\usepackage{microtype}
+\usepackage{hyperref}
+\usepackage{url}
+\usepackage{booktabs}
+\usepackage{lineno}
+
+\definecolor{darkblue}{rgb}{0,0,0.5}
+\hypersetup{
+  colorlinks=true,
+  citecolor=darkblue,
+  linkcolor=darkblue,
+  urlcolor=darkblue
+}
+
+\title{Evaluating English-to-Romanized Indic Generation with an Open-Weight
+Language Model}
+
+% The submission style automatically hides author information.
+\author{Anonymous Authors}
+
+\begin{document}
+
+\ifcolmsubmission
+\linenumbers
+\fi
+
+\maketitle
+
+\input{sections/abstract}
+\input{sections/introduction}
+\input{sections/method}
+\input{sections/results}
+\input{sections/discussion}
+\input{sections/limitations}
+\input{sections/conclusion}
+
+\bibliography{references}
+\bibliographystyle{colm2026_conference}
+
+\appendix
+\input{sections/reproducibility}
+
+\end{document}

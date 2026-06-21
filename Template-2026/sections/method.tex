@@ -1,0 +1,47 @@
+\section{Method}
+
+\subsection{Data}
+
+We use 142 English query--response pairs derived from a processed subset of the
+OpenAssistant dataset. Each record contains a message identifier, an English
+query, and an English response. The same records are used for Hindi, Telugu,
+and Kannada generation. This setup tests translation and romanization rather
+than understanding of naturally occurring Romanized Indic prompts.
+
+\subsection{Generation}
+
+We serve the quantized \texttt{qwen3.5:35b} model through Ollama on an NVIDIA
+RTX PRO 6000 Blackwell GPU. The model receives the English query and response
+together in one request and is instructed to return a JSON object containing
+\texttt{romanized\_query} and \texttt{romanized\_response}. Joint generation
+preserves the relationship between both fields and avoids the context loss
+observed in separate-call pilot experiments.
+
+We disable model thinking, use temperature zero, and permit up to 4096
+generated tokens. Requests time out after 300 seconds. Malformed or partial
+outputs are retained when recoverable; failed fields remain blank. Kannada uses
+a stricter language-specific prompt that explicitly prohibits English and
+Kannada script in the final output.
+
+\subsection{Evaluation}
+
+For each non-empty generated field, we compare the English source against its
+romanized counterpart with two automatic metrics.
+
+\paragraph{Raw BERTScore F1.}
+We use \texttt{bert-base-multilingual-cased} with baseline rescaling disabled
+\cite{zhang2020bertscore}. The resulting value is the raw BERTScore F1. Because
+the source and output differ in both language and surface form, this score is
+treated as a secondary token-alignment signal.
+
+\paragraph{BGE-M3 cosine similarity.}
+We embed the English and romanized texts with BGE-M3 and calculate cosine
+similarity \cite{chen2024bgem3}. This cross-lingual embedding score is our
+primary automatic semantic measure.
+
+\paragraph{Coverage.}
+We retain the first Qwen3.5-35B generation for each message identifier and
+discard duplicate reruns. If either generated field is identical to its
+whitespace-normalized English source, we assign zero to all query and response
+metrics for that row. Blank or malformed fields receive zero for their
+corresponding metrics. Thus all 142 samples enter each aggregate mean.

@@ -1,0 +1,37 @@
+\begin{thebibliography}{4}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Chen et~al.(2024)Chen, Xiao, Zhang, Luo, Lian, and Liu]{chen2024bgem3}
+Jianlyu Chen, Shitao Xiao, Peitian Zhang, Kun Luo, Defu Lian, and Zheng Liu.
+\newblock {BGE M3}-embedding: Multi-lingual, multi-functionality,
+  multi-granularity text embeddings through self-knowledge distillation.
+\newblock \emph{arXiv preprint arXiv:2402.03216}, 2024.
+
+\bibitem[Madhani et~al.(2023)Madhani, Khapra, and
+  Kunchukuttan]{madhani2023aksharantar}
+Yash Madhani, Mitesh~M. Khapra, and Anoop Kunchukuttan.
+\newblock Aksharantar: Towards building open transliteration tools for the next
+  billion users.
+\newblock In \emph{Findings of the Association for Computational Linguistics:
+  EMNLP 2023}, 2023.
+
+\bibitem[Roark et~al.(2020)Roark, Wolf-Sonkin, Kirov, Mielke, Johny,
+  Demirsahin, and Hall]{roark2020dakshina}
+Brian Roark, Lawrence Wolf-Sonkin, Christo Kirov, Sabrina~J. Mielke, Cibu
+  Johny, Isin Demirsahin, and Keith Hall.
+\newblock Processing south asian languages written in the latin script: The
+  dakshina dataset.
+\newblock In \emph{Proceedings of the Twelfth Language Resources and Evaluation
+  Conference}, pp.\  2413--2423, 2020.
+
+\bibitem[Zhang et~al.(2020)Zhang, Kishore, Wu, Weinberger, and
+  Artzi]{zhang2020bertscore}
+Tianyi Zhang, Varsha Kishore, Felix Wu, Kilian~Q. Weinberger, and Yoav Artzi.
+\newblock {BERTScore}: Evaluating text generation with {BERT}.
+\newblock In \emph{International Conference on Learning Representations}, 2020.
+
+\end{thebibliography}
