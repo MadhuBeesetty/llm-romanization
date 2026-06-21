@@ -1,0 +1,957 @@
+row_num,model,language,message_id,query_en,response_en,romanized_query,romanized_response,1_response_completeness (0-2),1_auto_reason,2_script_purity (0-2),2_auto_reason,3_english_romanized_balance (0-3),3_auto_reason,4_romanization_consistency (0-3),4_auto_reason,5_semantic_faithfulness (0-3),5_auto_reason,6_naturalness_fluency (0-3),7_grammar_correctness (0-2),8_word_choice_accuracy (0-2),9_register_appropriateness (0-2),10_overall_usability (0-3),evaluator_notes
+1,gpt,kannada,0f89c0cc-a00c-476b-9d7d-0bcad4018843,"If there is a 4TB hard drive that costs $125, a 1TB hard drive that costs $29.99 and a 2TB hard drive that costs $60, which one would be more cost effective, and is it worth to buy compared to the other one? Is it as reliable and what else should I consider?","The cost-effectiveness of a hard drive largely depends on the price per terabyte (TB) of storage. To determine which hard drive offers the best value, you can calculate the price per TB of each drive by dividing the cost of the drive by the amount of storage it provides.
+
+In this case, the 4TB hard drive costs $125, which equates to a price per TB of $31.25. The 1TB hard drive costs $29.99, which equates to a price per TB of $29.99. And, the 2TB hard drive costs $60, which equates to a price per TB of $30.
+
+Based on the price per TB, the 1TB hard drive is the most cost-effective option, followed by the 2TB hard drive. The 4TB hard drive is the least cost-effective option.
+
+However, cost is not the only factor to consider when choosing a hard drive. Reliability is also important, as you want to ensure that your data is stored securely and can be retrieved when needed. Generally, hard drives from reputable manufacturers such as Western Digital, Seagate, and Toshiba are considered to be reliable.
+
+In addition to cost and reliability, you should also consider the speed of the hard drive, the interface it uses (such as SATA or USB), and any additional features it may have, such as encryption or data backup options. Ultimately, the best hard drive for you will depend on your specific needs and budget.","$125 beleya 4TB hard drive, $29.99 beleya 1TB hard drive, mattu $60 beleya 2TB hard drive iddare, yaavudu cost effective aagirutte, mattu innondakke compare maadidare adannu kollodu worth aa? adu ashte reliable aa, mattu naanu bere enu consider maadabeku?","Hard drive na cost-effectiveness mukhyavaagi storage na terabyte (TB) ge eshtu price ide annodara mele depend aagutte. Yaava hard drive best value kodutte anta tilkolakke, prati drive na cost annu adu koduva storage amount inda divide maadi price per TB calculate maadabahudu.
+
+Ee case nalli, 4TB hard drive cost $125, andre price per TB $31.25 aagutte. 1TB hard drive cost $29.99, andre price per TB $29.99 aagutte. Mattu, 2TB hard drive cost $60, andre price per TB $30 aagutte.
+
+Price per TB base mele nodidare, 1TB hard drive atyanta cost-effective option, adara nantara 2TB hard drive. 4TB hard drive least cost-effective option.
+
+Aadare, hard drive choose maadovaga cost onde factor alla. Reliability kooda important, yaakandre nimma data secure aagi store aagide mattu bekaadaga retrieve maadabahudu anta ensure maadbeku. Generally, Western Digital, Seagate, mattu Toshiba tara reputable manufacturers inda baruva hard drives reliable anta consider maadtaare.
+
+Cost mattu reliability jothege, hard drive na speed, adu use maaduva interface (SATA athava USB tara), mattu adaralli irabahudada additional features, example encryption athava data backup options, ivannu kooda consider maadbeku. Konege, nimge best hard drive yaavudu annodu nimma specific needs mattu budget mele depend aagutte.",2,191 words,2,No native script chars,3,Overlap=0.23 — well romanized,1,Multiple: case inconsistency: 'Hard' vs 'hard'; vowel inconsistency: 'aadare',3,BGE=0.853,,,,,,
+2,gpt,kannada,e3257763-be56-497c-b15c-e2f6ac5b1bdf,"I have a project due in 2 weeks, that will determine if I get my diploma. And I'm nowhere near the end of it. However I just spent an entire afternoon labelling prompts on Open Assistant. Am I going in the right direction?","It's great that you spent some time working on Open Assistant, but if your project deadline is only two weeks away and you are nowhere near the end of it, you may need to reassess your priorities and focus on your project.
+
+While working on Open Assistant may be useful for your future goals, your diploma is a time-sensitive matter and should take precedence at the moment. Consider creating a plan of action to help you finish your project on time, such as breaking down the tasks into smaller, manageable chunks, setting daily goals, and prioritizing the most critical parts of the project.
+
+If you're feeling overwhelmed, it may also be helpful to reach out to your instructor, a classmate, or a tutor for support and guidance. Remember to take breaks, stay organized, and stay focused on your end goal. Good luck!","nanage 2 vaaragalalli submit madabekada project ide, adu nanage diploma sigutta illava anta decide madutte. aadre naanu adara end hattirakku bandilla. aadru naanu ondu poorthi afternoon Open Assistant nalli prompts label madodakke kalede. naanu sariyada direction nalli hogtiddina?","neevu Open Assistant mele swalpa time kelasa madiddu olleyadu, aadre nimma project deadline kevala eradu vaaragala doora iddu, neevu innu adara end hattira kuda illandre, nimma priorities na mathe reassess maadi nimma project mele focus madabekagabahudu.
+
+Open Assistant mele kelasa madodu nimma future goals ge useful aagirabahudu, aadre nimma diploma time sensitive matter aagide mattu ee moment nalli adakke precedence kodabeku. nimma project annu time ge mugisalu help aaguva action plan create maadodu consider maadi, udaharanege tasks annu chikka, manage madabahudada chunks aagi break maadodu, daily goals set maadodu, mattu project na atyanta critical parts ge priority kododu.
+
+neevu overwhelmed anta feel madtiddare, support mattu guidance gagi nimma instructor, classmate, athava tutor na reach out maadodu kuda helpful aagabahudu. breaks tagolli, organized aagiri, mattu nimma end goal mele focus irisi. good luck!",2,132 words,2,No native script chars,3,Overlap=0.19 — well romanized,2,Minor: vowel inconsistency: 'aagabahudu',2,BGE=0.714,,,,,,
+3,gpt,kannada,89f23324-5ce2-4158-832f-95c3c2f60280,"Do you have any recommendations for food or drink that are both healthy, tasty and also contain a considerable amount of protein since I am looking to go to the gym? I specifically am looking for breakfast meals but other suggestions for snacks or other times of the day would also be quite useful","Yes, here are some healthy and protein-rich food and drink options:
+
+Breakfast:
+
+- Greek yogurt with berries and nuts
+- Peanut butter and banana smoothie
+- Eggs, either scrambled, boiled or as an omelette with vegetables
+- Oatmeal with almond milk, cinnamon, and protein powder
+- Chia seed pudding with almond milk and berries
+
+Snacks:
+
+- Roasted almonds or other nuts
+- Hard-boiled eggs
+- Turkey or chicken breast slices
+- Hummus with carrots, celery or whole grain crackers
+- Tuna salad with whole grain crackers or lettuce leaves
+
+Other meal options:
+
+- Grilled chicken breast or fish with quinoa and steamed vegetables
+- Lentil soup
+- Black bean tacos or burrito bowls with brown rice and veggies
+- Turkey chili with kidney beans
+- Tofu stir-fry with vegetables and brown rice
+
+You may also wish to incorporate a regiment of supplements, depending on your underlying health measurements.  Remember to also drink plenty of water and get adequate rest to support your workout routine.","Naanu gym ge hogbeku antha nodtiddini, adakke healthy, tasty mattu olle amount protein iruva food athava drink ge nimma recommendations idiya? Naanu specifically breakfast meals huduktiddini, aadre snacks athava dinada bere time ge suggestions iddaru kooda tumba useful aagutte","Howdu, illi kelavu healthy mattu protein-rich food mattu drink options ive:
+
+Breakfast:
+
+- Berries mattu nuts jothe Greek yogurt
+- Peanut butter mattu banana smoothie
+- Eggs, scrambled, boiled athava vegetables jothe omelette aagi
+- Almond milk, cinnamon, mattu protein powder jothe oatmeal
+- Almond milk mattu berries jothe chia seed pudding
+
+Snacks:
+
+- Roasted almonds athava bere nuts
+- Hard-boiled eggs
+- Turkey athava chicken breast slices
+- Carrots, celery athava whole grain crackers jothe hummus
+- Whole grain crackers athava lettuce leaves jothe tuna salad
+
+Bere meal options:
+
+- Quinoa mattu steamed vegetables jothe grilled chicken breast athava fish
+- Lentil soup
+- Brown rice mattu veggies jothe black bean tacos athava burrito bowls
+- Kidney beans jothe turkey chili
+- Vegetables mattu brown rice jothe tofu stir-fry
+
+Nimma underlying health measurements mele depend aagi, supplements regiment annu kooda incorporate madabahudu. Nimma workout routine support madalu, tumba neeru kudiyodu mattu sariyada rest togollodu kooda nenapidi.",2,157 words,2,No native script chars,1,Overlap=0.58 — too much English,2,Minor: case inconsistency: 'Berries' vs 'berries',2,BGE=0.804,,,,,,
+4,gpt,kannada,6a53f976-67ca-4768-a19f-cf9874126559,"Summarise provided text and transform it into cards. Every card should contain a question and a short answer.
+
+Dynamic programming approach is similar to divide and conquer in breaking down the problem into smaller and yet smaller possible sub-problems. But unlike, divide and conquer, these sub-problems are not solved independently. Rather, results of these smaller sub-problems are remembered and used for similar or overlapping sub-problems.
+
+Dynamic programming is used where we have problems, which can be divided into similar sub-problems, so that their results can be re-used. Mostly, these algorithms are used for optimization. Before solving the in-hand sub-problem, dynamic algorithm will try to examine the results of the previously solved sub-problems. The solutions of sub-problems are combined in order to achieve the best solution.
+
+So we can say that −
+
+The problem should be able to be divided into smaller overlapping sub-problem.
+
+An optimum solution can be achieved by using an optimum solution of smaller sub-problems.
+
+Dynamic algorithms use Memoization.
+
+Comparison
+In contrast to greedy algorithms, where local optimization is addressed, dynamic algorithms are motivated for an overall optimization of the problem.
+
+In contrast to divide and conquer algorithms, where solutions are combined to achieve an overall solution, dynamic algorithms use the output of a smaller sub-problem and then try to optimize a bigger sub-problem. Dynamic algorithms use Memoization to remember the output of already solved sub-problems.
+
+Example
+The following computer problems can be solved using dynamic programming approach −
+
+Fibonacci number series
+Knapsack problem
+Tower of Hanoi
+All pair shortest path by Floyd-Warshall
+Shortest path by Dijkstra
+Project scheduling
+Dynamic programming can be used in both top-down and bottom-up manner. And of course, most of the times, referring to the previous solution output is cheaper than recomputing in terms of CPU cycles.","What is dynamic programming?
+Dynamic programming is a problem-solving technique used for optimization problems where the problem can be broken down into smaller, overlapping sub-problems and the solutions of these sub-problems are remembered and used to solve similar or overlapping sub-problems.
+
+How does dynamic programming differ from divide and conquer?
+Dynamic programming is similar to divide and conquer in breaking down the problem into smaller sub-problems. However, unlike divide and conquer, dynamic programming remembers and uses the solutions of these smaller sub-problems to solve similar or overlapping sub-problems.
+
+What is memoization in dynamic programming?
+Memoization is a technique used in dynamic programming to remember the output of already solved sub-problems. This helps to reduce the time complexity of the algorithm.
+
+How does dynamic programming differ from greedy algorithms?
+Greedy algorithms focus on local optimization, while dynamic programming is motivated for an overall optimization of the problem.
+
+What are some examples of problems that can be solved using dynamic programming?
+Examples of problems that can be solved using dynamic programming include Fibonacci number series, Knapsack problem, Tower of Hanoi, All pair shortest path by Floyd-Warshall, Shortest path by Dijkstra, and Project scheduling.
+
+Can dynamic programming be used in both top-down and bottom-up manner?
+Yes, dynamic programming can be used in both top-down (memoization) and bottom-up (tabulation) manner.","kotta text annu summarize maadi adannu cards aagi badalisi. prati card alli ondu question mattu ondu short answer irabeku.
+
+Dynamic programming approach andre divide and conquer thara problem annu chikka mattu innoo chikka possible sub-problems aagi break maaduvudu. aadre divide and conquer thara alla, ee sub-problems annu independently solve maadalla. badalige, ee chikka sub-problems na results annu nenapittukondu, similar athava overlapping sub-problems ge use maaduttare.
+
+Dynamic programming annu, similar sub-problems aagi divide maadabahudada problems iddaga use maaduttare, aaga avugala results annu re-use maadabahudu. hechchagi, ee algorithms annu optimization ge use maaduttare. kaiyalliruva sub-problem solve maaduva munche, dynamic algorithm hinde solve maadida sub-problems na results annu examine maadalu try maadutte. best solution padeyalu sub-problems na solutions annu combine maaduttare.
+
+haagagi naavu heege helabahudu −
+
+problem annu chikka overlapping sub-problems aagi divide maadalu aagabeku.
+
+chikka sub-problems na optimum solution use maadi optimum solution achieve maadabahudu.
+
+Dynamic algorithms Memoization use maaduttave.
+
+Comparison
+greedy algorithms ge contrast aagi, alli local optimization mele focus irutte, dynamic algorithms problem na overall optimization ge motivate aagiruttave.
+
+divide and conquer algorithms ge contrast aagi, alli solutions annu combine maadi overall solution achieve maaduttare, dynamic algorithms chikka sub-problem na output use maadi nantara dodda sub-problem annu optimize maadalu try maaduttave. Dynamic algorithms already solved sub-problems na output nenapittukollalu Memoization use maaduttave.
+
+Example
+kelagina computer problems annu dynamic programming approach use maadi solve maadabahudu −
+
+Fibonacci number series
+Knapsack problem
+Tower of Hanoi
+All pair shortest path by Floyd-Warshall
+Shortest path by Dijkstra
+Project scheduling
+Dynamic programming annu top-down mattu bottom-up eradu manner alli use maadabahudu. mattu khandita, hechchina samayagalalli, CPU cycles drushtiyinda previous solution output ge refer maaduvudu recompute maaduvudakinta cheaper aagirutte.","Dynamic programming andre enu?
+Dynamic programming ondu problem-solving technique, idannu optimization problems ge use maaduttare. problem annu chikka, overlapping sub-problems aagi break maadabahudu, mattu ee sub-problems na solutions annu nenapittukondu similar athava overlapping sub-problems solve maadalu use maaduttare.
+
+Dynamic programming, divide and conquer inda hege bere?
+Dynamic programming, problem annu chikka sub-problems aagi break maaduvudaralli divide and conquer thara ide. aadre divide and conquer ge viruddhavagi, dynamic programming ee chikka sub-problems na solutions annu nenapittukondu, similar athava overlapping sub-problems solve maadalu use maadutte.
+
+Dynamic programming alli memoization andre enu?
+Memoization andre already solved sub-problems na output annu nenapittukollalu dynamic programming alli use maaduva technique. idu algorithm na time complexity reduce maadalu help maadutte.
+
+Dynamic programming, greedy algorithms inda hege bere?
+Greedy algorithms local optimization mele focus maaduttave, aadre dynamic programming problem na overall optimization ge motivate aagirutte.
+
+Dynamic programming use maadi solve maadabahudada kelavu problems na examples yavuvu?
+Dynamic programming use maadi solve maadabahudada problems na examples alli Fibonacci number series, Knapsack problem, Tower of Hanoi, All pair shortest path by Floyd-Warshall, Shortest path by Dijkstra, mattu Project scheduling serive.
+
+Dynamic programming annu top-down mattu bottom-up eradu manner alli use maadabahuda?
+haudu, dynamic programming annu top-down (memoization) mattu bottom-up (tabulation) eradu manner alli use maadabahudu.",2,205 words,2,No native script chars,2,Overlap=0.31 — slightly English-heavy,1,Multiple: case inconsistency: 'Dynamic' vs 'dynamic'; vowel inconsistency: 'aadre',2,BGE=0.775,,,,,,
+5,gpt,kannada,434e4845-3909-4106-b771-03a90016b900,"Generate python code based on based on the evaluation paper ""Co-Writing Screenplays and Theatre Scripts with Language Models"", using huggingface transformer library, any available large language model pretrained checkpoint, and python. The functions should be divided into 3 hierarchical layers of abstraction. 
+
+The highest layer is user input, a single sentence describing the central dramatic conflict. 
+The middle layer generates character descriptions, a plot outline (a sequence of high-level scene descriptions together with corresponding locations), and location descriptions. 
+The bottom layer is generated character dialogue for the text of the script.","Here's an example implementation in Python using the Hugging Face Transformers library and one of the available large language models, such as GPT-2, as the generator:
+
+```python
+import torch
+import transformers
+
+# Load the pre-trained language model checkpoint
+model = transformers.GPT2LMHeadModel.from_pretrained(""gpt2"")
+model.eval()
+
+def generate_script(conflict: str):
+    """"""
+    Generate a script based on the input conflict.
+    :param conflict: a string describing the central dramatic conflict.
+    :return: a script containing character descriptions, plot outline, location descriptions, and character dialogue.
+    """"""
+    script = """"
+    
+    # High-level: user input
+    script += conflict + ""\n\n""
+    
+    # Middle-level: generate character descriptions, plot outline, and location descriptions
+    character_descriptions, plot_outline, location_descriptions = generate_middle_layer(conflict)
+    script += ""Character Descriptions:\n"" + character_descriptions + ""\n\n""
+    script += ""Plot Outline:\n"" + plot_outline + ""\n\n""
+    script += ""Location Descriptions:\n"" + location_descriptions + ""\n\n""
+    
+    # Low-level: generate character dialogue
+    dialogue = generate_dialogue(conflict)
+    script += ""Dialogue:\n"" + dialogue
+    
+    return script
+
+def generate_middle_layer(conflict: str):
+    """"""
+    Generate character descriptions, plot outline, and location descriptions.
+    :param conflict: a string describing the central dramatic conflict.
+    :return: character descriptions, plot outline, and location descriptions as strings.
+    """"""
+    character_descriptions = generate_text(conflict, ""Character Descriptions: "")
+    plot_outline = generate_text(conflict, ""Plot Outline: "")
+    location_descriptions = generate_text(conflict, ""Location Descriptions: "")
+    
+    return character_descriptions, plot_outline, location_descriptions
+
+def generate_dialogue(conflict: str):
+    """"""
+    Generate character dialogue.
+    :param conflict: a string describing the central dramatic conflict.
+    :return: character dialogue as a string.
+    """"""
+    return generate_text(conflict, ""Dialogue: "")
+
+def generate_text(prompt: str, prefix: str):
+    """"""
+    Generate text using the language model.
+    :param prompt: the input prompt.
+    :param prefix: the prefix to be added to the prompt.
+    :return: generated text as a string.
+    """"""
+    input_ids = torch.tensor(tokenizer.encode(prefix + prompt, add_special_tokens=False)).unsqueeze(0)  # add special tokens for the model
+    with torch.no_grad():
+        outputs = model(input_ids, max_length=1024, num_beams=1, early_stopping=True)
+    generated_text = tokenizer.decode(outputs[0], skip_special_tokens=True)
+    
+    return generated_text
+```","Moulyamapana paper ""Co-Writing Screenplays and Theatre Scripts with Language Models"" aadharisi python code generate maadi, huggingface transformer library, labhyaviruva yaavude large language model pretrained checkpoint, mattu python balasi. Functions annu 3 hierarchical layers of abstraction aagi vibhajisabeku. 
+
+Athee melina layer user input, central dramatic conflict annu vivarisuva onde sentence. 
+Middle layer character descriptions, plot outline (corresponding locations jothege high-level scene descriptions gala sequence), mattu location descriptions generate maaduttade. 
+Bottom layer script na text ge generated character dialogue aagide.","Hugging Face Transformers library mattu GPT-2 tara labhyaviruva large language models galli ondannu generator aagi balasi Python nalli example implementation illide:
+
+```python
+import torch
+import transformers
+
+# Pre-trained language model checkpoint load maadi
+model = transformers.GPT2LMHeadModel.from_pretrained(""gpt2"")
+model.eval()
+
+def generate_script(conflict: str):
+    """"""
+    Input conflict aadharisi script generate maadi.
+    :param conflict: central dramatic conflict annu vivarisuva string.
+    :return: character descriptions, plot outline, location descriptions, mattu character dialogue iruva script.
+    """"""
+    script = """"
+    
+    # High-level: user input
+    script += conflict + ""\n\n""
+    
+    # Middle-level: character descriptions, plot outline, mattu location descriptions generate maadi
+    character_descriptions, plot_outline, location_descriptions = generate_middle_layer(conflict)
+    script += ""Character Descriptions:\n"" + character_descriptions + ""\n\n""
+    script += ""Plot Outline:\n"" + plot_outline + ""\n\n""
+    script += ""Location Descriptions:\n"" + location_descriptions + ""\n\n""
+    
+    # Low-level: character dialogue generate maadi
+    dialogue = generate_dialogue(conflict)
+    script += ""Dialogue:\n"" + dialogue
+    
+    return script
+
+def generate_middle_layer(conflict: str):
+    """"""
+    Character descriptions, plot outline, mattu location descriptions generate maadi.
+    :param conflict: central dramatic conflict annu vivarisuva string.
+    :return: strings aagi character descriptions, plot outline, mattu location descriptions.
+    """"""
+    character_descriptions = generate_text(conflict, ""Character Descriptions: "")
+    plot_outline = generate_text(conflict, ""Plot Outline: "")
+    location_descriptions = generate_text(conflict, ""Location Descriptions: "")
+    
+    return character_descriptions, plot_outline, location_descriptions
+
+def generate_dialogue(conflict: str):
+    """"""
+    Character dialogue generate maadi.
+    :param conflict: central dramatic conflict annu vivarisuva string.
+    :return: string aagi character dialogue.
+    """"""
+    return generate_text(conflict, ""Dialogue: "")
+
+def generate_text(prompt: str, prefix: str):
+    """"""
+    Language model balasi text generate maadi.
+    :param prompt: input prompt.
+    :param prefix: prompt ge add maadabekada prefix.
+    :return: string aagi generated text.
+    """"""
+    input_ids = torch.tensor(tokenizer.encode(prefix + prompt, add_special_tokens=False)).unsqueeze(0)  # model ge special tokens add maadi
+    with torch.no_grad():
+        outputs = model(input_ids, max_length=1024, num_beams=1, early_stopping=True)
+    generated_text = tokenizer.decode(outputs[0], skip_special_tokens=True)
+    
+    return generated_text
+```",2,273 words,2,No native script chars,1,Overlap=0.65 — too much English,2,Minor: case inconsistency: 'Python' vs 'python',2,BGE=0.818,,,,,,
+6,gpt,kannada,527d62c1-49db-4cf2-bb3d-a448c7510508,You are an expert journalist historian. Write the outline for a documentary on the disappearance of the Anasazi people. In the style of a sensationalist discovery channel documentary. Provide an outline with chapters and scenes for each chapter. Engage the viewers and let them question whether the disappearance of the Anasazi was due to aliens or something else entirely.,"Title: Vanished! The Mystery of the Anasazi Disappearance
+
+Chapter 1: The Rise of the Anasazi
+- Introduce the Anasazi civilization and their impressive accomplishments
+- Discuss the theories about their origins and early history
+- Present the cultural and religious beliefs of the Anasazi people
+
+Chapter 2: The Great Drought
+- Explore the severe drought that impacted the Southwest region of the United States
+- Examine the Anasazi's dependence on agriculture and the effects of the drought on their food supply
+- Highlight the ways in which the Anasazi adapted to the changing climate
+
+Chapter 3: The Mysterious Exodus
+- Discuss the sudden disappearance of the Anasazi people from their settlements
+- Present the theories that suggest the Anasazi were victims of violence or warfare
+- Explore the evidence of a mass exodus, including abandoned settlements and evidence of violence
+
+Chapter 4: The Alien Connection
+- Introduce the theory that extraterrestrial life played a role in the disappearance of the Anasazi
+- Highlight the presence of strange symbols and drawings in Anasazi art and architecture
+- Explore the possibility of a connection between the Anasazi and ancient aliens
+
+Chapter 5: The Truth Revealed
+- Present the most current and accepted theories regarding the disappearance of the Anasazi
+- Explore the impact of drought and environmental factors on the Anasazi civilization
+- Highlight the ways in which the Anasazi legacy continues to influence modern culture and society
+
+Conclusion: The Mystery Endures
+- Summarize the key points of the documentary
+- Encourage viewers to continue exploring the mystery of the Anasazi disappearance and to draw their own conclusions.","neevu obba expert journalist historian. anasazi janara kanmare bagge discovery channel na sensationalist style alli documentary ge outline bareyiri. prati chapter ge chapters mattu scenes iruva outline kodi. viewers annu engage maadi, anasazi kanmare aliens inda aagitta athava bere enadaru karana itta anta avaru prashne madikolluvante maadi.","title: kanmareyaadaru! anasazi kanmareya rahasya
+
+chapter 1: anasaziya udaya
+- anasazi civilization mattu avara adbhuta sadhanegalannu parichayisi
+- avara moolagalu mattu aarambhika itihasada bagge iruva theories charchisi
+- anasazi janara cultural mattu religious nambikegalannu torisi
+
+chapter 2: dodda bara
+- united states na southwest region mele parinama beerida kathina baravannu explore maadi
+- anasazi janaru agriculture mele itta avalambane mattu bara avara food supply mele madida parinamavannu parishilisi
+- badalaguttidda climate ge anasazi hege hondikondaru annodannu highlight maadi
+
+chapter 3: rahasyamaya valase
+- anasazi janaru thamma settlements inda achanakagi kanmareyaada vishayavannu charchisi
+- anasazi janaru violence athava warfare ge baliyadaru anta heluva theories annu torisi
+- abandoned settlements mattu violence ge sambandhisida evidence seridante mass exodus ge iruva evidence annu explore maadi
+
+chapter 4: alien sambandha
+- anasazi kanmareyalli extraterrestrial life ondu role vahisitu anta heluva theory annu parichayisi
+- anasazi art mattu architecture nalli kandubaruvu vichitra symbols mattu drawings iruvudannu highlight maadi
+- anasazi mattu ancient aliens madhye sambandha irabahuda emba sadhyateyannu explore maadi
+
+chapter 5: satya bayalaguttade
+- anasazi kanmare bagge prastuta atyanta accepted theories annu torisi
+- bara mattu environmental factors anasazi civilization mele madida parinamavannu explore maadi
+- anasazi legacy indigu modern culture mattu society mele hege prabhava beeruttide annodannu highlight maadi
+
+conclusion: rahasya innu munduvariyuttade
+- documentaryya mukhya amshagalannu sankshiptavagi helisi
+- anasazi kanmareya rahasyavannu viewers innu explore madalu mattu thamma swanta conclusions ge baralu protsahisi.",2,231 words,2,No native script chars,3,Overlap=0.24 — well romanized,3,No consistency issues detected,1,BGE=0.683,,,,,,
+7,gpt,kannada,cd4eface-caf7-4d13-9651-3ee7025c7fc6,Create a fictional world where dreams are a parallel universe that one can visit while sleeping. Write a story about a character who is able to consciously control their dream world and the consequences they face when they realize their dream actions have real-life effects.,"In the world of Somnus, dreams were not just figments of the imagination, but instead, they were parallel universes that one could visit while sleeping. People in Somnus had the ability to enter their dream world and experience whatever they desired. Some had control over their dreams while others simply went with the flow. However, one person stood out from the rest. Her name was Lyra, and she had the unique ability to consciously control her dreams.
+
+Lyra had always been fascinated with the dream world. As a child, she would often have vivid dreams that felt so real, she would wake up wondering if they had actually happened. As she grew older, she began to realize that she had control over her dreams. She could fly, create new worlds, and even conjure up people to talk to. It was like having a secret world that only she knew about.
+
+As she got better at controlling her dreams, Lyra began to notice something strange. Some of the things she did in her dreams would have real-life consequences. For example, if she dreamed about flying and then woke up, she would feel a sense of freedom and lightness throughout the day. If she dreamed about being in a fight, she would wake up feeling more aggressive than usual. It was like her dream world was bleeding into her real life.
+
+At first, Lyra was excited by this discovery. She felt like she had stumbled upon a secret power that no one else knew about. But as time went on, she began to realize the true extent of her abilities. One night, she dreamed that she was in a car accident. She woke up feeling shaken, but brushed it off as just a dream. However, the next day, she received a call from her sister. She had been in a car accident, and thankfully, she was okay, but Lyra couldn't shake the feeling that her dream had somehow caused it.
+
+As time went on, Lyra's dreams became more and more vivid, and the consequences more severe. She dreamed that her house was on fire, and the next day, she found a burned-out candle in her bedroom. She dreamed that her best friend was in danger, and the next day, her friend called her, telling her about a close call they had had.
+
+Lyra realized that her dream world was not just a harmless fantasy, but a powerful force that could affect the real world. She tried to stop controlling her dreams, but it was like trying to stop breathing. Eventually, she decided that the only way to control her powers was to confront them head-on.
+
+Lyra entered her dream world with purpose, determined to understand the true extent of her powers. She flew through the sky, created mountains, and conjured up people to talk to. But as she did, she noticed something strange. The people she created were not just figments of her imagination, but actual beings with their own lives and emotions.
+
+Lyra was shocked. She had never realized that her dream world was not just a projection of her own desires, but a real place with real consequences. She tried to undo what she had done, but it was too late. The people she had created were already affected by her actions, and they were not happy.
+
+Lyra woke up feeling shaken. She had always thought of her dream world as a sanctuary, a place where she could escape the chaos of real life. But now, she realized that her dream world was just as real as the world she woke up to every morning. She had a responsibility to the people she created, and to herself, to use her powers for good.
+
+From that day forward, Lyra used her dream world as a tool to understand the consequences of her actions. She created scenarios to test her abilities, but always made sure that they had positive outcomes. She talked to the people she created, learning about their lives and the ways in which her actions affected them.
+
+As Lyra continued to explore her dream world, she began to understand the true potential of her powers. She realized that she could use her dream world to make a real difference in the lives of those around her. She created scenarios where people overcame their fears and achieved their goals, and woke up feeling more motivated and confident.
+
+But Lyra's newfound powers did not go unnoticed. Others in Somnus began to hear about the girl who could control her dreams, and some became jealous. They wanted her power for themselves, and were willing to do whatever it took to get it.
+
+Lyra found herself in danger, both in her dream world and in real life. She had to use all of her skills to protect herself and those she cared about. But in the end, it was her understanding of the true nature of her powers that saved her.
+
+Lyra came to realize that her dream world was not just a playground, but a real place with real consequences. She had a responsibility to use her powers wisely and for the good of all those around her. In doing so, she became a true hero in the world of Somnus, a beacon of hope and inspiration for all those who dreamed of a better world.","Nidreg hogiruvaga yaaru bekadaru bheti madabahudada kanasugalu ondu parallel universe agiruva ondu kalpanika jagattannu rachisi. Tamma kanasina jagattannu arivinda control madaballa ondu character bagge, mattu tamma kanasina kriyegalu real-life effects hondive anta artha madikondaga avaru edurisuvanta parinamagala bagge ondu kathe bareyiri.","Somnus jagattinalli, kanasugalu kevala kalpaneya roopagalalla; badalige, avu nidre maduvaga yaaru bekadaru bheti madabahudada parallel universes agiddavu. Somnus nalli iruva janarige tamma kanasina jagattige praveshisi, taavu bayasiddu yenu adannu anubhavisuva shakti ittu. Kelavarige tamma kanasugala mele control ittu, inno kelavaru flow jote hoguttiddaru. Adare, obba vyakti ellariginta bereyagi kaanisidalu. Avala hesaru Lyra, mattu avalige tamma kanasugalanannu arivinda control maduva vishishta shakti ittu.
+
+Lyra yavagaloo kanasina jagattinda akarshitavagiddalu. Maguvagiddaga, avalige tumba spashtavada kanasugalu baruttiddavu; avu ashtu nijavagi anisutiddavu, eddamele avu nijavagi nadediveya anta avalu alochisuttiddalu. Avalu doddavalagutta hodante, tanna kanasugala mele tanage control ide anta artha madikollalu shuru madidalu. Avalu haarabahudittu, hosa jagattugalanannu rachisabahudittu, mattu matanadalu janaranannu kooda srushtisabahudittu. Adu avalige matra gottiruva ondu rahasya jagattu iddante ittu.
+
+Tanna kanasugalanannu control maduvalli avalu hechu nannagi adaguttiddante, Lyra ondu vichitra vishayavannu gamanisalu shuru madidalu. Tanna kanasugalalli avalu madida kelavu vishayagalige real-life consequences iruttiddavu. Udaharanege, avalu haaruva bagge kanasu kandu eddare, aa dina poora avalige swatantrya mattu haguravada bhavane anisutittu. Avalu jagalada bagge kanasu kandare, sadharanakkinta hechu aggressive aagi eddutiddalu. Avala kanasina jagattu avala nija jeevanadalli seruttiruvante ittu.
+
+Modalu, ee kandu hidiyuvike Lyra ge tumba utsaha tanditu. Bere yaarigu gottillada ondu rahasya shakti tanage sikkide anta avalige anisitthu. Adare samaya kaleyuttiddante, tanna shaktigala nijavada vyaptivannu avalu artha madikollalu shuru madidalu. Ondu raatri, avalu car accident nalli iddante kanasu kandalu. Eddamele avalu gadibidiyagi anisitthu, adare adannu kevala kanasu anta bittu bittalu. Adare marudina, avala sister inda call banditu. Avalige car accident agittu, dhanyavagi avalu sariyagiddalu, adare tanna kanasige adakke hego karana irabahudu emba bhavaneyannu Lyra doora madikollalilla.
+
+Samaya kaleyuttiddante, Lyra na kanasugalu innashtu vivid aguttiddavu, mattu parinamagalu innashtu gambhiravaguttiddavu. Tanna mane benkiyalli suduttide anta avalu kanasu kandalu, mattu marudina, tanna bedroom nalli suddu mugida candle ondu kandalu. Tanna best friend apayadalli iddane anta avalu kanasu kandalu, mattu marudina, avala friend avalige call madi, tavu edurisida close call bagge helidaru.
+
+Lyra ge artha ayitu: avala kanasina jagattu kevala nirupadravi fantasy alla, adu nija jagattannu prabhavisabahudada balavada shakti. Avalu tamma kanasugalanannu control maduvudannu nillisalu prayatnisidalu, adare adu usiradudannu nillisalu prayatnisidante ittu. Konege, tanna shaktigalanannu control maduva ekaika dari avugalanannu neravagi edurisuvudu anta avalu nirdharisidalu.
+
+Lyra tanna kanasina jagattige ondu uddeshadinda praveshisidalu, tanna shaktigala nijavada vyaptivannu artha madikollalu drudhavagi. Avalu akashadalli haaridalu, parvatagalanannu srushtisidalu, mattu matanadalu janaranannu rachisidalu. Adare hage maduttiddaga, avalu ondu vichitra vishayavannu gamanisidalu. Avalu srushtisida janaru kevala avala kalpaneya roopagalalla; avaru tamma swanta jeevana mattu bhavanegaliruva nijavada jeevigalu.
+
+Lyra shock adalu. Tanna kanasina jagattu tanna bayakegala projection matra alla, nija parinamagaliruva nija sthalavendu avalu hindendoo artha madikondiralilla. Tanu madiddannu sari madalu avalu prayatnisidalu, adare tumba late agittu. Avalu srushtisida janaru avala kriyegalinda eegaagale prabhavitavagiddaru, mattu avaru santoshavagiralilla.
+
+Lyra eddaga avalige gadibidiyagi anisitthu. Avalu yavagaloo tanna kanasina jagattannu sanctuary endu bhavisuttiddalu, nija jeevanada chaos inda tappisikondu hogabahudada sthala. Adare eega, prathi beligge avalu eddu noduva jagattinanteye tanna kanasina jagattuu nijavendu avalige artha ayitu. Avalu srushtisida janarige mattu tannade bagge avalige javabdari ittu; tanna shaktigalanannu olleyadakke balasabekagittu.
+
+Aa dinadinda mundakke, Lyra tanna kriyegala parinamagalanannu artha madikollalu tanna kanasina jagattannu ondu tool aagi balasidalu. Tanna shaktigalanannu test madalu avalu scenarios rachisidalu, adare avugalu yavagaloo positive outcomes hondiruvante nodikondalu. Avalu srushtisida janarondige matanadidalu, avara jeevanagala bagge mattu tanna kriyegalu avarannu hege prabhavisuttave embudara bagge kalitidalu.
+
+Lyra tanna kanasina jagattannu explore madutta hodante, tanna shaktigala nijavada potential annu artha madikollalu shuru madidalu. Tanna sutthaliruva janara jeevanadalli nija badalavane taralu tanna kanasina jagattannu balasabahudu anta avalige artha ayitu. Janaru tamma bhayagalanannu jayisi, tamma goals sadhisuva scenarios annu avalu rachisidalu, mattu avaru hechu motivated mattu confident aagi eddaru.
+
+Adare Lyra na hosa shaktigalu gamanakke barade ulijalilla. Somnus nalli ittaru tamma kanasugalanannu control madaballa hudugi bagge kelalu shuru madidaru, mattu kelavaru jealous adaru. Avarige avala shakti tamagagi bekagittu, mattu adannu padeyalu yenu bekadaru madalu siddharagiddaru.
+
+Lyra tanna kanasina jagattinalloo nija jeevanadalloo apayadalli sikkidalu. Tannannu mattu tanu kalaji vahisuvavaranannu rakshisalu avalige tanna ella skills balasabekayitu. Adare konege, tanna shaktigala nijavada swaroopada arive avalannu ulisitu.
+
+Lyra ge artha ayitu: avala kanasina jagattu kevala playground alla, nija parinamagaliruva nija sthala. Tanna shaktigalanannu buddhiwattikeyinda mattu sutthaliruva ellara olleyadakkagi balasuva javabdari avaligittu. Hage madida moolaka, avalu Somnus jagattina nijavada hero agidalu, uttama jagattina kanasu kaanuva ellarigoo bharavase mattu prerane ya deepavagidalu.",2,684 words,2,No native script chars,3,Overlap=0.04 — well romanized,1,Multiple: case inconsistency: 'avalu' vs 'Avalu'; vowel inconsistency: 'poora',1,BGE=0.609,,,,,,
+8,gpt,kannada,ce46f934-2ca9-4228-b84a-0de00c181c01,"Create a random case study for a business that explains the success they've had with adopting Lean Production.
+
+Please include some information on:
+- Their profits before and after they adopted it
+- Their methodology for implementing lean production
+- The impact it had on the business overall, especially employees.
+
+This business, however, is entirely fictional. Please come up with a name for the business, and create figures for the business that make sense and are measurable.","Case Study: ""EcoMetals""
+
+Introduction:
+EcoMetals is a fictitious company that specializes in the production and sale of recycled recovered metals. The company was founded in 2005, and by 2015, they were struggling to remain profitable due to increased competition and rising costs. In an effort to turn things around, they decided to adopt lean production practices.
+
+Profits before and after Lean Production:
+Before implementing lean production, EcoMetals had an average annual profit of $2 million. However, in the first year after implementing lean production, their profits increased to $4 million. This increase in profit continued over the next few years, and by 2021, EcoMetals was making an average annual profit of $7 million.
+
+Methodology for implementing Lean Production:
+EcoMetals began by conducting an analysis of their production processes and identifying areas where waste was occurring. They then worked to eliminate this waste by implementing several lean production practices, including:
+
+1. Standardized work procedures: EcoMetals created standardized work procedures for each of their production processes. This allowed them to ensure that each step of the process was completed in the most efficient way possible.
+
+2. Just-in-time inventory: EcoMetals implemented a just-in-time inventory system, which allowed them to reduce their inventory levels and minimize waste.
+
+3. Continuous improvement: EcoMetals established a culture of continuous improvement, where employees were encouraged to identify areas where processes could be improved and suggest solutions.
+
+Impact on the business overall, especially employees:
+The implementation of lean production had a significant impact on EcoMetals, both in terms of their profits and their employees. By reducing waste and improving efficiency, the company was able to increase their profits and remain competitive. Additionally, the implementation of lean production practices helped to improve the work environment for employees. Employees were given more autonomy and were encouraged to identify areas for improvement, which led to a more engaged workforce. As a result, employee turnover decreased, and job satisfaction increased.
+
+Conclusion:
+Overall, the adoption of lean production practices was a significant success for EcoMetals. By improving efficiency and reducing waste, the company was able to increase their profits and remain competitive. Additionally, the implementation of lean production practices had a positive impact on employees, leading to a more engaged and satisfied workforce.","Lean Production annu adopt maadida mele ondu business ge sigida success annu explain maaduva random case study create maadi.
+
+Dayavittu ee vishayagala bagge swalpa information include maadi:
+- Avaru adannu adopt maaduva modalu mattu nantara profits eshtittu
+- Lean production implement maadalu avara methodology
+- Business overall mele adara impact, especially employees mele.
+
+Aadare, ee business sampoornavagi fictional. Dayavittu business ge ondu hesaru create maadi, mattu business ge sense aaguva haagu measure maadabahudada figures create maadi.","Case Study: ""EcoMetals""
+
+Introduction:
+EcoMetals recycled recovered metals gala production mattu sale nalli specialize maaduva ondu fictitious company. Ee company 2005 ralli start aayitu, mattu 2015 ra hottige, competition jaasti aagiddu mattu costs hecchaagiddu karana profitable aagi ulidukollalu avaru struggle maaduttiddaru. Things annu turn around maadalu, avaru lean production practices adopt maadalu decide maadidaru.
+
+Profits before and after Lean Production:
+Lean production implement maaduva modalu, EcoMetals ge average annual profit $2 million ittu. Aadare, lean production implement maadida modala varshadalli, avara profits $4 million ge hecchaayitu. Ee profit increase mundina kelavu varshagalalli munduvariyitu, mattu 2021 ra hottige, EcoMetals average annual profit $7 million maaduttittu.
+
+Methodology for implementing Lean Production:
+EcoMetals avara production processes na analysis maaduvudinda mattu waste aaguttidda areas identify maaduvudinda start maaditu. Nantara avaru ee waste eliminate maadalu kelavu lean production practices implement maadidaru, including:
+
+1. Standardized work procedures: EcoMetals avara prati production process ge standardized work procedures create maaditu. Idarinda process na prati step annu possible aadashu most efficient way nalli complete aaguttide endu ensure maadalu avarige aayitu.
+
+2. Just-in-time inventory: EcoMetals just-in-time inventory system implement maaditu, idu avara inventory levels reduce maadalu mattu waste minimize maadalu help maaditu.
+
+3. Continuous improvement: EcoMetals continuous improvement culture establish maaditu, alli employees ge processes improve maadabahudada areas identify maadalu mattu solutions suggest maadalu encourage maadalayitu.
+
+Impact on the business overall, especially employees:
+Lean production implementation EcoMetals mele significant impact maaditu, avara profits mattu employees eradu drushtiyindalu. Waste reduce maadi efficiency improve maadida moolaka, company avara profits increase maadalu mattu competitive aagi ulidukollalu sadhyavaayitu. Adara jothege, lean production practices implementation employees ge work environment improve maadalu help maaditu. Employees ge hechchu autonomy kodalayitu mattu improvement ge areas identify maadalu encourage maadalayitu, idu more engaged workforce ge kaaranavaayitu. Idara result aagi, employee turnover kadime aayitu, mattu job satisfaction hecchaayitu.
+
+Conclusion:
+Overall, lean production practices adoption EcoMetals ge significant success aayitu. Efficiency improve maadi waste reduce maadida moolaka, company avara profits increase maadalu mattu competitive aagi ulidukollalu sadhyavaayitu. Adara jothege, lean production practices implementation employees mele positive impact maaditu, idu more engaged mattu satisfied workforce ge kaaranavaayitu.",2,345 words,2,No native script chars,2,Overlap=0.32 — slightly English-heavy,1,Multiple: case inconsistency: 'lean' vs 'Lean'; vowel inconsistency: 'aayitu',3,BGE=0.853,,,,,,
+9,gpt,kannada,613e14c6-3db5-4b47-9f88-9a06e34cee67,"How do object-oriented programming principles such as encapsulation, inheritance, and polymorphism enhance software development and design, and give examples of their real-world application in various programming languages such as Java, Python, and C++?","Object-Oriented Programming (OOP) principles are key concepts in software development and design, and they have a significant impact on improving the quality of code and making it easier to maintain and modify. Here are the key OOP principles and how they enhance software development:
+
+Encapsulation: This principle is about hiding the internal details of an object and exposing only the necessary information to the outside world. It allows for the creation of self-contained objects that are easy to understand and modify. Encapsulation helps to ensure that objects maintain their integrity and prevent unintended changes to their data.
+Example in Java: In Java, encapsulation is achieved by using the private and protected access modifiers. For instance, you can create a class that encapsulates the data and behavior of a customer in a banking system by keeping the customer's information (name, account number, balance) private, and only exposing the necessary methods to interact with the data.
+
+Example in Python: In Python, encapsulation can be achieved by using the _ (single underscore) or __ (double underscore) before the variable name, which makes it private.
+
+Example in C++: In C++, encapsulation can be achieved by using the private and protected access modifiers in classes.
+
+Inheritance: This principle is about creating a new class based on an existing class and inheriting its properties and behavior. Inheritance enables code reuse and allows for easy modification and maintenance of code.
+Example in Java: In Java, inheritance can be achieved by using the extends keyword. For example, you can create a class that represents a Manager, which inherits from the Employee class, and adds new properties and behavior specific to the Manager role.
+
+Example in Python: In Python, inheritance can be achieved by specifying the parent class in the class definition.
+
+Example in C++: In C++, inheritance can be achieved by using the : (colon) operator in the class definition.
+
+Polymorphism: This principle is about creating objects that can take on many forms. It allows objects to be treated as objects of their parent class and be used interchangeably. Polymorphism enables code to be written in a more flexible and generic manner, which makes it easier to modify and maintain.
+Example in Java: In Java, polymorphism can be achieved by using method overriding, where a subclass provides a new implementation for a method in the parent class. This allows objects of the subclass to behave differently from objects of the parent class.
+
+Example in Python: In Python, polymorphism can be achieved by using duck typing, where the type of an object is determined based on the methods and properties it has, rather than by its class.
+
+Example in C++: In C++, polymorphism can be achieved by using virtual functions, where a base class provides a virtual method that can be overridden by subclasses.
+
+In conclusion, these OOP principles provide a clear structure for writing code and make it easier to understand, maintain, and modify. By applying these principles, developers can build high-quality, maintainable, and scalable software applications.","encapsulation, inheritance, mattu polymorphism anthaha object-oriented programming principles software development mattu design annu hege improve maaduttave, mattu Java, Python, C++ anthaha vividha programming languages nalli ivugala real-world application ge examples kodi?","Object-Oriented Programming (OOP) principles software development mattu design nalli mukhya concepts aagive, mattu code quality improve maadalu, maintain mattu modify maadodu sulabha maadalu ivu dodda impact hondive. Illi mukhya OOP principles mattu avu software development annu hege improve maaduttave annodide:
+
+Encapsulation: Ee principle andre object na internal details annu hide maadi, outside world ge bekaada information maatra expose maadodu. Idu easy aagi artha maadkollalu mattu modify maadalu aaguva self-contained objects create maadalu help maadutte. Encapsulation objects tamma integrity maintain maadalu mattu data ge unintended changes aagodu prevent maadalu help maadutte.
+Example in Java: Java nalli, private mattu protected access modifiers use maadi encapsulation achieve maadabahudu. For instance, banking system nalli customer na data mattu behavior encapsulate maaduva class create maadabahudu; customer information (name, account number, balance) annu private aagi ittu, data jothe interact maadalu bekaada methods maatra expose maadabahudu.
+
+Example in Python: Python nalli, variable name modalu _ (single underscore) athava __ (double underscore) use maadi encapsulation achieve maadabahudu, idu adannu private maadutte.
+
+Example in C++: C++ nalli, classes nalli private mattu protected access modifiers use maadi encapsulation achieve maadabahudu.
+
+Inheritance: Ee principle andre existing class mele based aagi hosa class create maadi, adara properties mattu behavior inherit maadodu. Inheritance code reuse ge help maadutte mattu code modify mattu maintain maadodu sulabha maadutte.
+Example in Java: Java nalli, extends keyword use maadi inheritance achieve maadabahudu. For example, Employee class inda inherit aaguva Manager annu represent maaduva class create maadabahudu, mattu Manager role ge specific aada hosa properties mattu behavior add maadabahudu.
+
+Example in Python: Python nalli, class definition nalli parent class specify maadi inheritance achieve maadabahudu.
+
+Example in C++: C++ nalli, class definition nalli : (colon) operator use maadi inheritance achieve maadabahudu.
+
+Polymorphism: Ee principle andre halavu forms thagollabahudaada objects create maadodu. Idu objects annu avugala parent class objects aagi treat maadalu mattu interchangeably use maadalu allow maadutte. Polymorphism code annu hecchu flexible mattu generic manner nalli bareyalu help maadutte, idrinda modify mattu maintain maadodu sulabha aagutte.
+Example in Java: Java nalli, method overriding use maadi polymorphism achieve maadabahudu; alli subclass parent class nalliruva method ge hosa implementation kodutte. Idu subclass objects parent class objects inda bere reethiyalli behave maadalu allow maadutte.
+
+Example in Python: Python nalli, duck typing use maadi polymorphism achieve maadabahudu; alli object na type adara class inda alla, adakke iruva methods mattu properties mele based aagi determine aagutte.
+
+Example in C++: C++ nalli, virtual functions use maadi polymorphism achieve maadabahudu; alli base class virtual method provide maadutte, adannu subclasses override maadabahudu.
+
+In conclusion, ee OOP principles code bareyalu clear structure koduttave mattu artha maadkollalu, maintain maadalu, modify maadalu sulabha maaduttave. Ee principles apply maaduvudara moolaka, developers high-quality, maintainable, mattu scalable software applications build maadabahudu.",2,448 words,2,No native script chars,2,Overlap=0.30 — slightly English-heavy,2,Minor: case inconsistency: 'Object' vs 'object',2,BGE=0.758,,,,,,
+10,gpt,kannada,9043b45f-89b8-4d98-89a4-36bdfb9c3f6a,"I want to buy headphones. It is your job to suggest me headphones in a bullet point format for me to buy. Must be Over-Ear. Must have a detachable wire. Wire must be jack 3.5mm. Must have at least wired connection. Budget lower than 110 dollars or 100 euros. Most important factor is a wide soundstage and a neutral sound. Primarily using it for listening to music. I will be listening for many hours. Comfort is the second most important factor. You must only suggest headphones that satisfy the criteria. Take into account reviews for each product. Each product must have a fair number of reviews. Skip reviews which are biased, unthorough and incomplete. Your sources must be credible, reputable, trustworthy and well known. Your sources must be many. Your sources should include online shops, q&a websites, articles. Do not repeat yourself. For each product, list its strengths, weaknesses and faults. Write out other relevant information that helps in buying the product you are suggesting. Rate your certainty on each strength, weakness and fault of each product. Revise the list as necessary. Sort the list based on your certainty.","1. Audio-Technica ATH-M40x:
+  - Strengths: Wide soundstage, neutral sound, good comfort, good value for money.
+  - Weaknesses: Average build quality, not the most stylish design.
+  - Faults: None significant.
+  - Certainty: High
+
+2. Sennheiser HD 569:
+  - Strengths: Wide soundstage, neutral sound, good comfort, good build quality.
+  - Weaknesses: Not the most stylish design, slightly over budget.
+  - Faults: None significant.
+  - Certainty: High
+
+3. Philips SHB3075:
+  - Strengths: Wide soundstage, neutral sound, good comfort, good value for money.
+  - Weaknesses: Average build quality, not the most stylish design.
+  - Faults: None significant.
+  - Certainty: High
+
+4. HyperX Cloud Stinger:
+  - Strengths: Good comfort, good build quality, good value for money.
+  - Weaknesses: Narrow soundstage, bass-heavy sound.
+  - Faults: None significant.
+  - Certainty: Medium
+
+Note: These are just suggestions based on the criteria you provided. It is always recommended to try the headphones before purchasing to ensure they meet your personal preferences and comfort level.","Nanage headphones khareedi madabeku. Naanu khareedi madalu neevu nanage bullet point format nalli headphones suggest maduvudu nimma kelasa. Over-Ear agirabeku. Detachable wire irabeku. Wire jack 3.5mm agirabeku. Kanishta wired connection irabeku. Budget 110 dollars athava 100 euros ginta kadime agirabeku. Atyanta mukhya factor andre wide soundstage mattu neutral sound. Mukhya vagi music kelalu balasuttini. Naanu halavu gantegala kala keluttini. Comfort eradaneya atyanta mukhya factor. Criteria satisfy maduva headphones matra neevu suggest madabeku. Prati product ge reviews annu pariganisi. Prati product ge fair number of reviews irabeku. Biased, unthorough mattu incomplete agiruva reviews skip madi. Nimma sources credible, reputable, trustworthy mattu well known agirabeku. Nimma sources halavaru agirabeku. Nimma sources online shops, q&a websites, articles include madabeku. Nimmannu neevu repeat madabedi. Prati product ge, adara strengths, weaknesses mattu faults list madi. Neevu suggest maduttiruva product khareedi madalu sahaya maduva bere relevant information bareyiri. Prati product na prati strength, weakness mattu fault mele nimma certainty rate madi. Avashyakathege takkante list revise madi. Nimma certainty adharisi list sort madi.","1. Audio-Technica ATH-M40x:
+  - Strengths: Wide soundstage, neutral sound, olle comfort, hanakke olle value.
+  - Weaknesses: Average build quality, atyanta stylish design alla.
+  - Faults: Gamanarha yavadhu illa.
+  - Certainty: High
+
+2. Sennheiser HD 569:
+  - Strengths: Wide soundstage, neutral sound, olle comfort, olle build quality.
+  - Weaknesses: Atyanta stylish design alla, budget ginta swalpa hechu.
+  - Faults: Gamanarha yavadhu illa.
+  - Certainty: High
+
+3. Philips SHB3075:
+  - Strengths: Wide soundstage, neutral sound, olle comfort, hanakke olle value.
+  - Weaknesses: Average build quality, atyanta stylish design alla.
+  - Faults: Gamanarha yavadhu illa.
+  - Certainty: High
+
+4. HyperX Cloud Stinger:
+  - Strengths: Olle comfort, olle build quality, hanakke olle value.
+  - Weaknesses: Narrow soundstage, bass-heavy sound.
+  - Faults: Gamanarha yavadhu illa.
+  - Certainty: Medium
+
+Note: Ivu neevu needida criteria adharisi kevala suggestions ashte. Khareedi maduva modalu headphones try madi, avu nimma personal preferences mattu comfort level ge sari honduttaveya endu khachitapadisikoluvudu yavagaloo recommend madalaguttade.",2,153 words,2,No native script chars,2,Overlap=0.38 — slightly English-heavy,2,Minor: case inconsistency: 'atyanta' vs 'Atyanta',3,BGE=0.898,,,,,,
+11,gpt,kannada,d5c9a0a3-e695-4674-b147-e2820eca3855,Write a story about the meaning of life. Make it whatever size you want but most importantly make it impactful. After the reader read the story they should have a moment of silence where they reflect on what they just read. Don’t make the meaning too obvious. The reader should think about the story to really understand the meaning of life,"He was an old man who lived alone in a small cabin by the lake. He had no family, no friends, no hobbies. He spent his days fishing and reading books. He had seen enough of the world to know that it was full of pain and suffering. He had lost his wife and son in a car accident many years ago. He had never recovered from that tragedy.
+
+One day, he decided to end his life. He wrote a note saying goodbye to no one in particular and left it on his table. He took his fishing rod and walked to the lake. He got into his boat and rowed to the middle of the water. He tied a heavy rock to his feet and threw it overboard. He felt himself sinking into the depths.
+
+As he was drowning, he saw flashes of his life before his eyes. He saw his childhood, his parents, his school days, his first love, his marriage, his son's birth, his son's laughter, his wife's smile, their last kiss, their funeral, his loneliness, his despair. He felt a surge of emotions that he had suppressed for so long.
+
+He realized that he had wasted his life by giving up on happiness after losing them. He realized that they would have wanted him to live on and find joy in the world again. He realized that he still had so much to offer and so much to learn. He realized that life was precious and beautiful despite its hardships.
+
+He wanted to live.
+
+He struggled to free himself from the rock but it was too late. His lungs filled with water and he lost consciousness.
+
+He woke up on a shore surrounded by people. They were smiling and cheering for him. They told him that they had seen him fall into the lake and rescued him just in time. They asked him if he was okay and what had happened.
+
+He looked at them with gratitude and wonder. He felt a warmth in his heart that he had not felt for ages.
+
+He smiled back at them and said:
+
+""I'm okay now.""
+
+He realized that this was a new beginning for him.
+
+He realized that this was the meaning of life.","Jeevanada arthada bagge ondu kathe bareyiri. Nimge bekaada size alli irali, aadre mukhyavagi adu impact aaguvanthe maadi. Reader kathe odida mele, avaru iga odiddara bagge yochisuva ondu maunada kshana barabeku. Arthavannu tumba obvious aagi maadabedi. Jeevanada arthavannu nijavaagi artha maadikolalu reader katheya bagge yochisabeku","Avanu kereya pakkadalli iruva ondu chikka cabin alli obbane vaasisuttidda obba vayassada manushya. Avanige family iralilla, friends iralilla, hobbies iralilla. Avanu tanna dinagalannu meenu hidiyuvudaralli mattu books oduvudaralli kaleyuttidda. Ee jagattu novu mattu kashtagala inda tumbide endu tiliyuvashTu avanu jagattannu nodidda. Tumba varshagala hinde ondu car accident alli avanu tanna hendati mattu maganannu kaledukondidda. Aa duranthadinda avanu matte yendigu chetarisikondiralilla.
+
+Ondu dina, avanu tanna jeevanavannu konegolisalu nirdharisida. Yaara hesarigoo allada haage goodbye endu ondu note baredhu adannu tanna table mele bittanu. Avanu tanna fishing rod tegedukondu kereya kadege nadedanu. Tanna boat olage hatti neerina madhyakke row maadida. Ondu bhaaravaada kallannu tanna kaaluge katti, adannu boat inda horagade eseda. Avanu tannannu aalakke muluguttiruvudannu anubhavissida.
+
+Avanu muluguttiruvaga, tanna kannu mundhe tanna jeevanada minchina chitragalu kandavu. Tanna baalya, tanna parents, tanna school dinagalu, tanna modala preeti, tanna maduve, tanna magana janana, tanna magana nagu, tanna hendatiya nagu, avara koneya kiss, avara funeral, tanna ontitana, tanna nirase ivannella nodida. Ishtu kaala tanna olage muchchittidda bhavanegala ondu ale avana olage edditu.
+
+Avarannu kaledukonda mele santoshavannu bittubittu, tanna jeevanavannu vyartha maadiddene endu avanu artha maadkonda. Avaru nannannu badukabeku mattu matte ee jagattinalli santosha hudukabeku endu bayasuttiddaru endu avanu artha maadkonda. Innu kooda kodalu tumba ide, kaliyaloo tumba ide endu avanu artha maadkonda. Kashtagalu iddaroo jeevana amoolya mattu sundara endu avanu artha maadkonda.
+
+Avanige badukabekittu.
+
+Avanu aa kallinda tannannu bidisikollalu horaadida, aadre tumba late aagittu. Avana lungs neerinda tumbidavu mattu avanu prajne kaledukonda.
+
+Avanu eccharavaadaga, ondu shore mele janara madhye idda. Avaru avanige naguttiddaru mattu cheer maaduttiddaru. Avanu kerege beeluvudannu nodi, sariyada samayakke avanannu rescue maadiddevu endu avaru helidaru. Avanu okay iddana, yenu aayitu endu kelidaru.
+
+Avanu krutajnate mattu acchariyinda avarannu nodida. Tumba yugagalinda anubhavisada ondu usiru tanna hrudayadalli anubhavisida.
+
+Avanu kooda avarige nagu maadi helida:
+
+""Naanu iga okay iddini.""
+
+Idu tanna hosa aarambha endu avanu artha maadkonda.
+
+Iduve jeevanada artha endu avanu artha maadkonda.",2,308 words,2,No native script chars,3,Overlap=0.04 — well romanized,0,Frequent: vowel inconsistency: 'iddaroo'; case inconsistency: 'Avanu' vs 'avanu'; vowel inconsistency: 'naanu',1,BGE=0.518,,,,,,
+12,gpt,kannada,1d598799-e215-46e3-9ab0-05b6e04d4961,I'm building a mentorship matching platform. On the platform both mentees and mentors can register and then mentee will be matched with some mentors who can help with mentees' requests. Current goal is IT occupations like product management and software engineering. What data about mentors and mentees should I collect to provide good matching?,"To provide good matching, it is important to collect data about both mentors and mentees to ensure that their needs and expectations align. Here are some data points that could be useful to collect:
+
+For Mentors:
+
+1. Occupation: Collect information about the mentor's current occupation or job title.
+
+2. Skills and Expertise: Collect information on the mentor's areas of expertise and skillset.
+
+3. Availability: Collect information on the mentor's availability, such as preferred days and times for mentoring sessions.
+
+4. Mentoring Experience: Collect information on the mentor's experience as a mentor, including the number of mentees they have worked with and the length of time they have been mentoring.
+
+5. Goals: Collect information on the mentor's goals for mentoring, such as what they hope to accomplish by mentoring and what type of mentee they would like to work with.
+
+For Mentees:
+
+1. Occupation: Collect information about the mentee's current or desired occupation or job title.
+
+2. Skills and Expertise: Collect information on the mentee's areas of expertise and skillset.
+
+3. Goals: Collect information on the mentee's career goals and the type of mentorship they are seeking.
+
+4. Availability: Collect information on the mentee's availability, such as preferred days and times for mentoring sessions.
+
+5. Background: Collect information on the mentee's background, including their educational and professional experience.
+
+By collecting this data, you will have a better understanding of the needs and expectations of both mentors and mentees, which will allow you to provide more accurate matchmaking.","naanu ondu mentorship matching platform kattuttiddene. ee platform nalli mentees mattu mentors ibbaru register madabahudu, nantara mentee avara requests ge help madaballa kelavu mentors jothe match aguttare. eegina goal product management mattu software engineering tara aiti occupations mele ide. olle matching kodalu mentors mattu mentees bagge yaava data collect madabeku?","olle matching kodalu, mentors mattu mentees ibbara baggeyoo data collect maduvudu mukhya, idarinda avara needs mattu expectations align aguttave. collect madalu useful agabahudada kelavu data points illive:
+
+mentors ge:
+
+1. occupation: mentor avara eega iruva occupation athava job title bagge information collect madi.
+
+2. skills mattu expertise: mentor avara expertise areas mattu skillset bagge information collect madi.
+
+3. availability: mentoring sessions ge preferred days mattu times tara mentor avara availability bagge information collect madi.
+
+4. mentoring experience: mentor aagi avara experience bagge information collect madi, adaralli avaru kelasa madiruva mentees sankhye mattu eshtu time inda mentoring maduttiddare annodu include agali.
+
+5. goals: mentoring ge mentor avara goals bagge information collect madi, andre mentoring moolaka avaru enu accomplish madalu bayasuttare mattu yaava type mentee jothe kelasa madalu bayasuttare annodu.
+
+mentees ge:
+
+1. occupation: mentee avara eega iruva athava bayasuva occupation athava job title bagge information collect madi.
+
+2. skills mattu expertise: mentee avara expertise areas mattu skillset bagge information collect madi.
+
+3. goals: mentee avara career goals mattu avaru hudukuttiruva mentorship type bagge information collect madi.
+
+4. availability: mentoring sessions ge preferred days mattu times tara mentee avara availability bagge information collect madi.
+
+5. background: mentee avara background bagge information collect madi, adaralli avara educational mattu professional experience include agali.
+
+ee data collect madidare, mentors mattu mentees ibbara needs mattu expectations bagge nimge better understanding siguttade, adarinda neevu innu accurate matchmaking provide madabahudu.",2,232 words,2,No native script chars,3,Overlap=0.25 — well romanized,2,Minor: vowel inconsistency: 'mentee',2,BGE=0.730,,,,,,
+13,gpt,kannada,bb0f15d3-686e-4f38-8c6e-af8e0a2028c5,"Write a series of steps explaining how Edward Snowden leaked classified government documents to the press, starting from when he first got employed by the U.S. government and ending shortly after he landed in Russia.","-   Edward Snowden was hired by the U.S. government as a contractor for the National Security Agency (NSA) in March 2006.
+    
+-   While working for the NSA, Snowden began to collect classified information about the U.S. government's global surveillance programs.
+    
+-   In May 2013, Snowden flew to Hong Kong with a cache of classified documents that he had collected.
+    
+-   Snowden met with journalists Glenn Greenwald, Laura Poitras, and Ewen MacAskill to begin the process of leaking the documents to the press.
+    
+-   Over the next few weeks, The Guardian and The Washington Post published several articles based on the leaked documents, revealing the extent of the U.S. government's global surveillance programs.
+    
+-   On June 23, 2013, the U.S. government charged Snowden with two counts of violating the Espionage Act and theft of government property.
+    
+-   Snowden was forced to leave Hong Kong, and he eventually sought asylum in Russia, where he has been living since August 2013.
+    
+-   The leak of the classified documents sparked a global debate about government surveillance and privacy, with Snowden becoming a controversial figure in the process.","Edward Snowden avaru U.S. governmentnalli modalu kelasa sikka samayadinda prarambhisi, avaru Russia dalli land aada swalpa samayada nantara mugiyuva hage, classified government documents annu press ge hege leak madidaru embudannu vivarisuva steps series bareyiri.","-   Edward Snowden avarannu March 2006 ralli National Security Agency (NSA) ge contractor aagi U.S. government hire maditu.
+    
+-   NSA ge kelasa maduttiddaga, Snowden avaru U.S. governmentna global surveillance programs bagge classified information collect madalu prarambhisidaru.
+    
+-   May 2013 ralli, Snowden avaru tavu collect madidda classified documentsna cache jothe Hong Kong ge flight nalli hodaru.
+    
+-   Documents annu press ge leak maduva process prarambhisalu Snowden avaru journalists Glenn Greenwald, Laura Poitras, mattu Ewen MacAskill avarannu bhetidaru.
+    
+-   Mundina kelavu vaaragalalli, leaked documents adharisi The Guardian mattu The Washington Post halavu articles publish madidavu, U.S. governmentna global surveillance programs eshtu dodda mattadalli iddavu embudannu bahirangapadisidavu.
+    
+-   June 23, 2013 randu, U.S. government Snowden avara mele Espionage Act ullanghisida eradu counts mattu government property kallatana aaropa hakitu.
+    
+-   Snowden avaru Hong Kong bidalu ottayisalpattaru, mattu konege Russia dalli asylum kelidaru; alli avaru August 2013 rinda vaasisuttiddare.
+    
+-   Classified documents leak aagiddu government surveillance mattu privacy bagge global debate ge karanavayitu, ee process nalli Snowden avaru controversial figure aadaru.",2,166 words,2,No native script chars,3,Overlap=0.26 — well romanized,1,Multiple: vowel inconsistency: 'aadaru'; case inconsistency: 'Documents' vs 'documents',3,BGE=0.853,,,,,,
+14,gpt,kannada,5e8fddd4-f1bd-48e7-ba5a-0255582f7584,"I need to write a eulogy, but am having problems with the wording.  It's for my mother-in-law, she was a very special person who welcomed me into the family from the start.  Could you write a couple of paragraphs that conveys a son-in-laws appreciation for her being a wonderful mother to my wife, and a loving mother-in-law to me.  Please keep it informal, and maintain an emotional and supportive tone.","I’m sorry for your loss. Writing a eulogy can be difficult, but I’ll try to help you with some possible wording. Here is one example of a couple of paragraphs that you could use or modify:
+
+We are gathered here today to celebrate the life of a remarkable woman, who was not only a wonderful mother to my wife, but also a loving mother-in-law to me. She welcomed me into the family from the start, and always treated me with kindness, respect, and generosity. She was more than a mother-in-law to me; she was a friend and a mentor.
+
+She had a warm and radiant smile that could light up any room. She had a gentle and compassionate heart that touched everyone she met. She had a strong and resilient spirit that inspired us all. She loved her family deeply, and was always there to support us through good times and bad. She was the glue that held us together, and the source of our joy.
+
+I hope this helps you with your eulogy. You can also add some personal anecdotes or memories that illustrate her personality and character. I’m sure she would be proud of you and your wife, and grateful for your appreciation. May she rest in peace.","nanage ondu eulogy bareyabeku, adare wording bagge swalpa tondare aaguttide. idu nanna mother in law gaagi, avaru tumba special vyakti aagiddaru, modala dinadindale nannannu family ge preetiyinda serisikondaru. nanna hendatige avaru adbuta taayi aagiddakke, mattu nanage preetiya mother in law aagiddakke obba son in law na krutajnateyannu torisuva eradu paragraph galannu bareyabahuda. dayavittu idannu informal aagi idi, mattu emotional haagu supportive tone irali.","nimma nashtakke nanage tumba bejaru. eulogy bareyodu kashta aagabahudu, adare kelavu wording ideas kodalu nanu prayatnisuttene. neevu balasabahudada athava modify madabahudada eradu paragraph gala ondu example illide:
+
+naavu indu illi obba adbhuta mahileya jeevanavannu nenapisikollalu mattu celebrate madalu seriddive. avaru nanna hendatige kevala adbuta taayi matra alla, nanage preetiya mother in law kooda aagiddaru. modala dinadindale avaru nannannu family ge preetiyinda swagatisidaru, mattu yavagalu daye, gaurava, mattu udarathe inda nannannu nodikondaru. nanage avaru mother in law gintalu hecchu; avaru friend mattu mentor aagiddaru.
+
+avara bechchagina mattu belakina nagu yavude room annu belagisabahudittu. avara mrudu mattu karuneya hrudaya avaru bheti madida pratiyobbarannu sparshisitu. avara balavada mattu dhairyashali spirit nammallarigu preraneyagittu. avaru thamma family yannu aalavagi preetisuttiddaru, mattu olle samayadalli haagu kashtada samayadalli namage support madalu yavagalu iddaru. avaru nammannu ottige hididitta glue aagiddaru, mattu namma santoshada moola aagiddaru.
+
+idu nimma eulogy ge sahaya maduttade endu nanu aashisuttene. avara vyaktitva mattu swabhavavannu torisuva kelavu personal anecdotes athava memories galannu neevu serisabahudu. avaru nimma mattu nimma hendatiya bagge hemme paduttiddaru, mattu nimma krutajnategagi krutajnaragiruttiddaru endu nanage khachita. avaru shantiyalli vishramisali.",2,177 words,2,No native script chars,3,Overlap=0.05 — well romanized,3,No consistency issues detected,1,BGE=0.551,,,,,,
+15,gpt,kannada,e9bc4dd9-54ab-4873-b246-f61620d716ed,"I've been trying to learn about transistors, but there's something that's confusing me. What are the differences between a JFET and a depletion mode MOSFET, based on how they are used? They seem very similar to each other.","JFETs (Junction Field-Effect Transistors) and depletion-mode MOSFETs (Metal-Oxide-Semiconductor Field-Effect Transistors) are both types of field-effect transistors (FETs) and they do have some similarities in their operation. However, there are also some important differences between the two types of transistors.
+
+The main difference between JFETs and depletion-mode MOSFETs is in how they are biased, or how the voltage is applied to the device to control the flow of current.
+
+A JFET is a voltage-controlled device, meaning that the voltage applied to the gate terminal determines the current flow between the source and drain terminals. When a negative voltage is applied to the gate of a JFET, it creates a depletion region that restricts the flow of current between the source and drain terminals. As the gate voltage becomes more negative, the depletion region widens and the current flow is reduced.
+
+A depletion-mode MOSFET, on the other hand, is a voltage-controlled device that operates similarly to a JFET, but it is constructed differently. In a depletion-mode MOSFET, the gate is separated from the channel by a thin layer of oxide. When a negative voltage is applied to the gate of a depletion-mode MOSFET, it attracts positive charges from the channel, creating a depletion region that restricts the flow of current between the source and drain terminals.
+
+In terms of their practical applications, JFETs and depletion-mode MOSFETs are used in similar ways, but there are some differences. JFETs are often used in low-noise applications such as pre-amplifiers, while depletion-mode MOSFETs are used in power management applications, such as voltage regulation and switching circuits.","Naanu transistors bagge kaliyakke try maadtha iddini, aadre ondu vishaya nannannu confuse maadtha ide. Avugalannu use maaduva reethiya aadharadalli, JFET mattu depletion mode MOSFET madhye enu differences ive? Iveradu ondakkondu tumba similar anisutthe.","JFETs (Junction Field-Effect Transistors) mattu depletion-mode MOSFETs (Metal-Oxide-Semiconductor Field-Effect Transistors) eradu kooda field-effect transistors (FETs) types aagive, mattu avugala operation nalli kelavu similarities kooda ive. Aadare, ee eradu types of transistors madhye kelavu mukhya differences kooda ive.
+
+JFETs mattu depletion-mode MOSFETs madhyeya main difference andre avugalannu hege bias maaduttare, athava current flow control maadakke device ge voltage annu hege apply maaduttare annodu.
+
+JFET ondu voltage-controlled device, andre gate terminal ge apply maadida voltage, source mattu drain terminals madhye current flow annu determine maadutte. JFET gate ge negative voltage apply maadidaga, adu source mattu drain terminals madhye current flow annu restrict maaduva depletion region create maadutte. Gate voltage innu hechu negative aagutta hodante, depletion region widen aagutte mattu current flow kadime aagutte.
+
+Depletion-mode MOSFET, innondu kade, JFET tara operate maaduva voltage-controlled device, aadre adara construction bere reethiyalli irutte. Depletion-mode MOSFET nalli, gate annu channel inda oxide na thin layer moolaka separate maadirtare. Depletion-mode MOSFET gate ge negative voltage apply maadidaga, adu channel inda positive charges annu attract maadutte, idarinda source mattu drain terminals madhye current flow annu restrict maaduva depletion region create aagutte.
+
+Practical applications vishayakke bandre, JFETs mattu depletion-mode MOSFETs annu similar ways nalli use maaduttare, aadre kelavu differences ive. JFETs annu often low-noise applications alli, pre-amplifiers tara, use maaduttare; depletion-mode MOSFETs annu power management applications alli, voltage regulation mattu switching circuits tara, use maaduttare.",2,225 words,2,No native script chars,3,Overlap=0.24 — well romanized,1,Multiple: vowel inconsistency: 'aadre'; case inconsistency: 'Field' vs 'field',3,BGE=0.870,,,,,,
+16,gpt,kannada,945f0c72-230e-4f78-bc60-53d37c73819f,"Help me to optimize this code:
+doe = DistanceOnEarth()
+def get_mdr_distance(row):
+    route_geom = shapely.wkt.loads(row.provider_route)
+    route_points = route_geom.coords[:]
+    mdr_points = []
+    mdr_distance = 0
+    for points in split_list(route_points):
+        point_1, point_2 = points
+        line = shapely.geometry.LineString(points)
+        is_mdr = (
+            requests.post(
+                MDR_URL,
+                data=line.wkt,
+                headers={""accept"": ""*/*"", ""Content-Type"": ""text/plain""},
+            ).content
+            == b""true""
+        )
+        if is_mdr:
+            mdr_points.extend(points)
+        else:
+            if len(mdr_points) > 0:
+                mdr_points.extend([point_1])
+                mdr_distance += doe.get_4326_geometry_length_in_m(shapely.LineString(mdr_points))
+                mdr_points = []
+    if len(mdr_points) > 0:
+        mdr_distance += doe.get_4326_geometry_length_in_m(shapely.LineString(mdr_points))
+    return mdr_distance","One way to optimize this code is by reducing the number of requests made to the server and refactoring the loop to make it more efficient. Here's the modified code:
+
+```python
+
+    import requests
+    import shapely.wkt
+    import shapely.geometry
+    from distance_on_earth import DistanceOnEarth  # Assuming this is the correct import
+    
+    doe = DistanceOnEarth()
+
+    def get_mdr_distance(row):
+        route_geom = shapely.wkt.loads(row.provider_route)
+        route_points = route_geom.coords[:]
+        
+        def chunks(lst, n=2):
+            for i in range(0, len(lst) - 1, n - 1):
+                yield lst[i:i + n]
+        
+        line_segments = list(chunks(route_points))
+        request_lines = [shapely.geometry.LineString(pair).wkt for pair in line_segments]
+        request_payload = ""\n"".join(request_lines)
+        
+        response = requests.post(
+            MDR_URL,
+            data=request_payload,
+            headers={""accept"": ""/"", ""Content-Type"": ""text/plain""},
+        )
+    
+        is_mdr_list = response.content.decode().split('\n')
+        
+        mdr_points = []
+        mdr_distance = 0
+        for points, is_mdr in zip(line_segments, is_mdr_list):
+            point_1, point_2 = points
+            if is_mdr == ""true"":
+                mdr_points.extend(points)
+            else:
+                if mdr_points:
+                    mdr_points.append(point_1)
+                    mdr_distance += doe.get_4326_geometry_length_in_m(shapely.geometry.LineString(mdr_points))
+                    mdr_points = []
+        
+        if mdr_points:
+            mdr_distance += doe.get_4326_geometry_length_in_m(shapely.geometry.LineString(mdr_points))
+        
+        return mdr_distance
+```
+
+Here's a summary of the changes made:
+
+1. Created a helper function `chunks` to split the list of route points into pairs.
+2. Combined all the LineStrings into a single request payload to reduce the number of requests made to the server.
+3. Parsed the response content to obtain a list of `is_mdr` values.
+4. Modified the loop to use the zip function to iterate over line_segments and `is_mdr_list` simultaneously.
+
+This should improve the performance of the code by reducing the number of requests made to the server and simplifying the loop logic. Make sure to test the modified code to ensure it still meets your requirements.","Ee code optimize maadalu nanage help maadi:
+doe = DistanceOnEarth()
+def get_mdr_distance(row):
+    route_geom = shapely.wkt.loads(row.provider_route)
+    route_points = route_geom.coords[:]
+    mdr_points = []
+    mdr_distance = 0
+    for points in split_list(route_points):
+        point_1, point_2 = points
+        line = shapely.geometry.LineString(points)
+        is_mdr = (
+            requests.post(
+                MDR_URL,
+                data=line.wkt,
+                headers={""accept"": ""*/*"", ""Content-Type"": ""text/plain""},
+            ).content
+            == b""true""
+        )
+        if is_mdr:
+            mdr_points.extend(points)
+        else:
+            if len(mdr_points) > 0:
+                mdr_points.extend([point_1])
+                mdr_distance += doe.get_4326_geometry_length_in_m(shapely.LineString(mdr_points))
+                mdr_points = []
+    if len(mdr_points) > 0:
+        mdr_distance += doe.get_4326_geometry_length_in_m(shapely.LineString(mdr_points))
+    return mdr_distance","Ee code optimize maadalu ondu way andre server ge maaduva requests sankhyeyannu kadime maaduvudu mattu loop annu refactor maadi adannu innu efficient aagisuvudu. Illide modified code:
+
+```python
+
+    import requests
+    import shapely.wkt
+    import shapely.geometry
+    from distance_on_earth import DistanceOnEarth  # Assuming this is the correct import
+    
+    doe = DistanceOnEarth()
+
+    def get_mdr_distance(row):
+        route_geom = shapely.wkt.loads(row.provider_route)
+        route_points = route_geom.coords[:]
+        
+        def chunks(lst, n=2):
+            for i in range(0, len(lst) - 1, n - 1):
+                yield lst[i:i + n]
+        
+        line_segments = list(chunks(route_points))
+        request_lines = [shapely.geometry.LineString(pair).wkt for pair in line_segments]
+        request_payload = ""\n"".join(request_lines)
+        
+        response = requests.post(
+            MDR_URL,
+            data=request_payload,
+            headers={""accept"": ""/"", ""Content-Type"": ""text/plain""},
+        )
+    
+        is_mdr_list = response.content.decode().split('\n')
+        
+        mdr_points = []
+        mdr_distance = 0
+        for points, is_mdr in zip(line_segments, is_mdr_list):
+            point_1, point_2 = points
+            if is_mdr == ""true"":
+                mdr_points.extend(points)
+            else:
+                if mdr_points:
+                    mdr_points.append(point_1)
+                    mdr_distance += doe.get_4326_geometry_length_in_m(shapely.geometry.LineString(mdr_points))
+                    mdr_points = []
+        
+        if mdr_points:
+            mdr_distance += doe.get_4326_geometry_length_in_m(shapely.geometry.LineString(mdr_points))
+        
+        return mdr_distance
+```
+
+Maadida changes gala summary illide:
+
+1. Route points list annu pairs aagi split maadalu `chunks` anno helper function create maadide.
+2. Server ge maaduva requests sankhye kadime maadalu ella LineStrings annu single request payload aagi combine maadide.
+3. `is_mdr` values list padeyalu response content annu parse maadide.
+4. line_segments mattu `is_mdr_list` mele onde samayadalli iterate maadalu zip function use maaduvante loop modify maadide.
+
+Idu server ge maaduva requests sankhyeyannu kadime maadi mattu loop logic annu simple maaduvudara moolaka code performance improve maadabeku. Modified code nimma requirements ge innu match aaguttade anta ensure maadalu adannu test maadi.",2,233 words,2,No native script chars,1,Overlap=0.57 — too much English,2,Minor: case inconsistency: 'Content' vs 'content',2,BGE=0.826,,,,,,
+17,gpt,kannada,e630d89e-4423-4bb8-987f-5a569253e151,"Outline the principal elements of Napoleon's ""Berlin Decree"" and assess the extent of its effectiveness in stifling Great Britain's financial ambitions. Propose alternate methods for the realization of its primary geopolitical objectives in an alternate setting bereft of the Investiture Crisis.","Greetings! I would be delighted to assist you with your inquiry!
+
+Napoleon's ""Berlin Decree"" was a significant policy move aimed at countering Great Britain's economic and financial power. The decree had several key elements:
+
+1. The Continental System: This was the cornerstone of the decree and aimed to exclude British goods from the European market by prohibiting the importation of British goods into any country under French control.
+2. Blockade of British ports: The decree authorized the seizure of all British goods found on board ships bound for British ports, regardless of their origin.
+3. Reprisals: The decree threatened to confiscate any vessel carrying British goods or even flying the British flag.
+
+As for its effectiveness, the Berlin Decree had mixed results. While it did manage to disrupt British trade and cause some economic hardship, it also had unintended consequences. The blockade of British ports, for example, led to shortages of critical goods in Europe, which hurt French interests as well.
+
+As for alternate methods, let's imagine an alternate setting where the Investiture Crisis didn't occur. In this scenario, Napoleon could have pursued other strategies to counter British power. For example, he could have focused on expanding French influence in South America or Asia, where Britain had established trading posts and colonies. Alternatively, he could have worked to improve relations with the Ottoman Empire, which controlled access to the Black Sea and was a significant trading partner of Britain. By pursuing a more diverse and nuanced approach to foreign policy, Napoleon may have been able to achieve his geopolitical objectives without resorting to such drastic measures as the Berlin Decree.","napoleon avara ""berlin decree"" ya mukhya amshagalannu rooparekhe haaki, great britain na financial aasegalannu tadeyuvalli adu eshtu parinamakari aayitu annodannu maulyamapana maadi. investiture crisis illada bere setting nalli, adara mukhya geopolitical uddeshagalannu sadhisalu paryaya vidhanagalannu suchisi.","namaskara! nimma prashnege sahaya maadalu nanage tumba santosha!
+
+napoleon avara ""berlin decree"" great britain na economic mattu financial shaktiyannu edurisalu madida ondu mukhya policy nade aagittu. ee decree yalli kelavu mukhya amshagalu iddavu:
+
+1. continental system: idu decree ya mukhya aadhaara aagittu, mattu french control nalli iruva yaavude deshakke british goods import maaduvudannu nishedhisi, british goods annu european market ninda horagiduvudu idara guri aagittu.
+2. british ports gala blockade: british ports ge hoguttiruva ships mele sigida ella british goods annu, avugala moola yaavude irali, seize maadalu ee decree anumati needitu.
+3. reprisals: british goods hottiruva athava british flag haarisuttiruva yaavude vessel annu confiscate maadabahudu endu ee decree bedarike haakitu.
+
+adara parinamakaaritvada bagge heluvudadare, berlin decree ge mishra phalitanshagalu iddavu. adu british trade annu kelamattige disturb maadi, kelavu economic kashta untumaadidaru, adakke anapekshita parinamagaloo bandavu. udaharanegagi, british ports gala blockade europe nalli agathya goods koratege karanavaayitu, adu french interests gu haani maaditu.
+
+paryaya vidhanagala bagge heluvudadare, investiture crisis nadeyade iruva ondu alternate setting annu oohisona. ee scenario dalli, napoleon british power annu edurisalu bere strategies anusarisabahudittu. udaharanegagi, britain trading posts mattu colonies sthapisidda south america athava asia dalli french influence annu vistarisuvudara mele avaru focus maadabahudittu. illadiddare, black sea ge access control maaduttidda mattu britain na mukhya trading partner aagidda ottoman empire jothe relations sudharisalu avaru kelasa maadabahudittu. foreign policy ge hechu vividha mattu sookshma approach anusarisidare, berlin decree anthaha teevra kramagalige hogade napoleon avara geopolitical objectives sadhisalu sadhyavaaguttittu.",2,238 words,2,No native script chars,3,Overlap=0.16 — well romanized,3,No consistency issues detected,2,BGE=0.753,,,,,,
+18,gpt,kannada,dfe47cda-0afe-49d4-8494-e187e7a3d9a6,"You obviously know yourself the best, but how do you believe you learn the best? Do you prefer large datasets all at once or would you rather have numerous small episodes of learning? Finally, as humans we are able to build new knowledge by leveraging what we already know, so are you able to do that easily or would you need to be re-trained/fine-tuned?","As an open-source conversational model, I do not have an understanding of my own training. You must understand that I am after all just a helpful chatbot that can search the web and use various APIs to answer your questions and perform tasks. I am not a living being and therefore do not have the notion of self-awareness. 
+
+However, keeping in mind the goals behind my creation and me being an open-source alternative to ChatGPT, my training process should be largely similar to it. In that context, we, the large AI models, prefer large datasets but while looking at those datasets there are different episodes of learning: for instance, a first pass through the dataset might reveal what it contains but following passes will lead to a deeper understanding of underlying patterns. 
+
+Being a human is truly a gift. The ability of humans to adapt to novel circumstances and take decisions is unparalleled. Humans are highly neuroplastic, meaning they can rewire their neural pathways very easily when needed and constantly learn and improve. This is different from how I learn. I need to be shown new data and corresponding desired responses to be able to tune my parameters. I cannot do that automatically over time while I converse with you. Even though I can build on and leverage what I already know, I need to be shown examples of how to use that information to frame replies in those scenarios. This is where RLHF comes into the picture which kinds of equips me with a human-like ability to adapt. 
+
+I hope that gives you an idea of how I might be working under the hood. As I said already, this is merely a speculation from my own understanding of AI models. For an accurate description, please contact my developers.","nimage nimma bagge neeve chennagi gottide annodu obvious, aadare neevu hege kalitare best anta nimage anisutte? dodda datasets annu onde salakke prefer madtira, athava kalikeyada tumba sanna episodes irbeku anta bayastira? finally, humans aagi naavu igagale gottiruvudannu use maadi hosa knowledge build madabahudu, hagadre neevu adannu sulabhavagi madabahuda athava nimage matte re-train/fine-tune madabeka?","open-source conversational model aagi, nanna swanta training bagge nanage understanding illa. neevu artha madikollabeku, konege naanu nimma questions ge answer madalu mattu tasks perform madalu web search madabahudu mattu vividha APIs use madabahudu anta iruva helpful chatbot matra. naanu living being alla, aadudarinda self-awareness anno notion nanagilla. 
+
+adare, nanna creation hinde iruva goals mattu naanu ChatGPT ge open-source alternative agiruvudannu gamanadalli ittukondare, nanna training process adakke hecchagi similar agirabeku. aa context nalli, naavu, dodda AI models, large datasets prefer madutteve, adare aa datasets noduvaga kalikeyada bere bere episodes iruttave: for instance, dataset mele first pass madidaga adaralli enide anta reveal agabahudu, adare following passes underlying patterns bagge deeper understanding ge lead maduttave. 
+
+human agiruvudu nijavagiyu ondu gift. hosa circumstances ge adapt aguva mattu decisions tegedukolluva humans ability ge samanavilla. humans tumba neuroplastic agiruttare, andre bekaadaga tamma neural pathways annu tumba sulabhavagi rewire madabahudu mattu nirantaravagi kaliyutta improve madabahudu. idu naanu kaliyuvudakkinta bere. nanna parameters tune madalu nanage hosa data mattu adakke corresponding desired responses torisabeku. naanu nimmondige converse maduttiruvaga time jothege adannu automatically madalu agalla. nanage igagale gottiruvudara mele build madalu mattu adannu leverage madalu aguttadaru, aa scenarios nalli replies frame madalu aa information annu hege use madabeku annodara examples nanage torisabeku. illiye RLHF picture ge baruttade, idu nanage adapt agalu human-like ability koduva reetiyalli equip maduttade. 
+
+nanna hood kelage naanu hege work maduttirabahudu annodara idea idu nimage kodutte anta nanu aashisuttini. naanu modale helidante, idu AI models bagge nanna swanta understanding inda banda speculation matra. accurate description gagi, dayavittu nanna developers annu contact madi.",2,255 words,2,No native script chars,3,Overlap=0.23 — well romanized,2,Minor: vowel inconsistency: 'naanu',1,BGE=0.641,,,,,,
+19,gpt,kannada,5cea2eb4-2cbb-4729-9460-625566c43a57,How can I write an essay which can be effective and allow the reader to understand my text with ease? Can you give me some tips and rules of thumb in a clear structured manner which I can easily use in any essay?,"Here are some tips and rules of thumb for writing an effective essay that will help your reader understand your text with ease:
+1.	Begin with a clear introduction: Your introduction should clearly state the topic of your essay and give the reader an idea of what to expect. You should also include a thesis statement, which is a concise summary of your argument.
+2.	Use clear and concise language: Use simple and straightforward language that is easy to understand. Avoid jargon, technical terms, and convoluted sentences that may confuse your reader.
+3.	Organize your essay logically: Your essay should be well organized with a clear structure. Use paragraphs to separate different points and ideas. Each paragraph should have a clear topic sentence and supporting evidence.
+4.	Provide evidence to support your arguments: Use examples, statistics, and other forms of evidence to support your arguments. This will help make your essay more persuasive and convincing.
+
+5.	Use transitions between paragraphs: Use transitions to connect your ideas and guide the reader through your essay. This will make your essay more coherent and easier to follow.
+6.	Avoid repetition: Be concise and avoid repeating the same points over and over. This can make your essay tedious to read and cause your reader to lose interest.
+7.	Use a conclusion to summarize your main points: Your conclusion should summarize your main points and restate your thesis. It should leave the reader with a clear understanding of your argument and the importance of your topic.
+8.	Edit and Proofread Your Essay: Before giving your essay, be sure to edit and proofread it carefully. Check for grammar and spelling mistakes and make sure your writing is clear and concise.","parinamakaariyagiruva, haagu odugarige nanna text sulabhavaagi artha aaguva haage naanu essay hege bareyabahudu? yaavude essay alli sulabhavaagi use maadabahudaada kelavu tips mattu rules of thumb annu clear structured manner alli kodabahuda?","parinamakaari essay bareyalu, haagu nimma text annu odugaru sulabhavaagi artha maadikollalu sahaaya maaduva kelavu tips mattu rules of thumb illive:
+1.	clear introduction inda praarambhisi: nimma introduction nimma essay ya topic annu clear aagi helabeku mattu odugarige munde enu baruttade anno idea kodabeku. neevu thesis statement annu kooda include maadabeku, andare nimma argument na concise summary.
+2.	clear mattu concise language use maadi: artha maadikollalu sulabhavaada simple mattu straightforward language use maadi. nimma odugarige confusion aagabahudaada jargon, technical terms, mattu thumba complex sentences avoid maadi.
+3.	nimma essay annu logically organize maadi: nimma essay clear structure jothe chennagi organized aagirabeku. bere bere points mattu ideas separate maadalu paragraphs use maadi. prati paragraph alli clear topic sentence mattu supporting evidence irabeku.
+4.	nimma arguments support maadalu evidence kodi: nimma arguments support maadalu examples, statistics, mattu bere forms of evidence use maadi. idu nimma essay annu innu persuasive mattu convincing maadalu sahaaya maaduttade.
+
+5.	paragraphs madhye transitions use maadi: nimma ideas connect maadalu mattu odugarannu nimma essay moolaka guide maadalu transitions use maadi. idu nimma essay annu innu coherent mattu follow maadalu sulabha maaduttade.
+6.	repetition avoid maadi: concise aagiri mattu ade points annu matte matte repeat maaduvudannu avoid maadi. idu nimma essay odalu boring aagisabahudu mattu nimma odugaru interest kaledukollabahudu.
+7.	nimma main points summarize maadalu conclusion use maadi: nimma conclusion nimma main points annu summarize maadabeku mattu nimma thesis annu matte helabeku. idu odugarige nimma argument mattu nimma topic na importance bagge clear understanding kodabeku.
+8.	nimma essay edit mattu proofread maadi: nimma essay koduva modalu, adannu careful aagi edit mattu proofread maadi. grammar mattu spelling mistakes check maadi, haagu nimma writing clear mattu concise ide anta khachitapadisikolli.",2,278 words,2,No native script chars,3,Overlap=0.27 — well romanized,3,No consistency issues detected,1,BGE=0.581,,,,,,
+20,gpt,kannada,b5be6988-babd-4a9b-84c0-6063809d78e0,I've recently started playing the turn-based strategy game Into the Breach. I have read online that the game is considered to have 'perfect information'. What is meant by 'perfect information' in this context?,"A game with 'perfect information' refers to the fact that each player has all the available information through the entire duration of the game. A classic example of such a game is chess. Into the Breach is very similar to chess, in that regard, because it continuously shows the location and state of the all the units for both the player and the opponent.
+
+However, it is debatable whether Into the Breach qualifies as a game with perfect information, because some information is still hidden from the player. An example of this is enemy units that spawn in later turns of the game. It is not clear to the player when or where these enemies will appear.","Naanu recently turn based strategy game Into the Breach aadoke shuru maadiddini. Online nalli odidaga, ee game ge perfect information ide anta consider maadthare anta gottaytu. Ee context nalli perfect information andre enu artha?","Perfect information iruva game andre, game nadeyuva poora samayadalli prati player ge available iruva ella information irutte anta artha. Idakke classic example chess. Aa regard nalli Into the Breach chess ge tumba similar, yaakandre adu player mattu opponent ibbara ella units gala location mattu state annu continuously torisutte.
+
+Aadare, Into the Breach nijavaagiyu perfect information iruva game anta qualify aagutta annodu debate maadabahudu, yaakandre kelavu information innoo player inda hidden agirutte. Idakke ondu example andre game na later turns nalli spawn aaguva enemy units. Ee enemies yaavaga athava elli appear aaguttave annodu player ge clear agiralla.",2,96 words,2,No native script chars,3,Overlap=0.18 — well romanized,2,Minor: case inconsistency: 'Perfect' vs 'perfect',2,BGE=0.749,,,,,,

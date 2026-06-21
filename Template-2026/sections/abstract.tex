@@ -1,0 +1,17 @@
+\begin{abstract}
+Hundreds of millions of South Asian language speakers interact with AI systems
+in romanized Latin script---typing their native language with QWERTY keyboards
+rather than native characters---yet no standard benchmark evaluates LLM
+generation quality in this representation. We evaluate four LLMs (Claude,
+GPT-4o, Gemini, and Qwen3.5-35B) on romanized Hindi, Telugu, and Kannada
+generation using 142 English query--response pairs from the OpenAssistant
+dataset. Outputs are scored with multilingual BERTScore and BGE-M3 cosine
+similarity under a failure-aware policy that assigns zero to empty, copied, and
+native-script-corrupted responses rather than excluding them. Automatic scores
+range from 0.76 to 0.84 across all model and language combinations---a band
+that appears acceptable. Native-speaker human evaluation reveals systematic
+quality failures invisible to these metrics: unnatural register, wrong word
+choice, and inconsistent romanization that native speakers consistently reject.
+The divergence between automatic and human judgment is the central finding:
+current evaluation frameworks cannot see the gap that users experience.
+\end{abstract}

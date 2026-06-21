@@ -1,0 +1,28 @@
+\section{Discussion}
+
+\paragraph{Semantic quality and reliability are different axes.}
+Embedding similarity captures whether a completed output remains semantically
+close to its source. Our failure-aware means additionally penalize missing,
+unusable, and English-copy outputs with zero. Hindi's stronger aggregate scores
+therefore reflect both semantic preservation and more reliable completion.
+
+\paragraph{Structured generation is part of the task.}
+Several failures arise before linguistic quality can be evaluated. Long
+responses may exhaust the generation budget before the second JSON field,
+while repetition loops consume tokens without completing the requested
+structure. Evaluations that silently remove such records measure conditional
+quality rather than operational utility.
+
+\paragraph{Automatic metrics are insufficient for naturalness.}
+Neither BERTScore nor BGE-M3 evaluates whether a romanization sounds natural to
+a Hindi, Telugu, or Kannada speaker. High semantic similarity can coexist with
+awkward grammar, inconsistent spelling, inappropriate register, or excessive
+English borrowing. Native-speaker judgments are required to establish
+practical quality.
+
+\paragraph{Implications for multilingual evaluation.}
+Romanized generation should be evaluated with a metric bundle: semantic
+preservation, completion rate, script compliance, repetition rate, and
+native-speaker acceptability. The failure-scoring policy must be stated
+explicitly because excluding unsuccessful outputs can substantially inflate
+aggregate quality.

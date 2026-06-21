@@ -1,0 +1,1207 @@
+row_num,model,language,message_id,query_en,response_en,romanized_query,romanized_response,1_response_completeness (0-2),1_auto_reason,2_script_purity (0-2),2_auto_reason,3_english_romanized_balance (0-3),3_auto_reason,4_romanization_consistency (0-3),4_auto_reason,5_semantic_faithfulness (0-3),5_auto_reason,6_naturalness_fluency (0-3),7_grammar_correctness (0-2),8_word_choice_accuracy (0-2),9_register_appropriateness (0-2),10_overall_usability (0-3),evaluator_notes
+1,ollama,telugu,5e5001bf-382d-457a-86ce-a732ef671e4f,"I'd like to create a python script that reads .CSV bank statements, that collates a list of people I have paid money to and the amount of money I have paid to them in the statement. I would like that data to be saved into a new .CSV file. Could you write me some code that would do that?","Sure! Here's a script that should do what you're asking for:
+
+```python
+import csv
+
+def read_csv(filename):
+    with open(filename, 'r') as file:
+        reader = csv.reader(file)
+        header = next(reader)
+        transactions = []
+        for row in reader:
+            transactions.append(row)
+    return header, transactions
+
+def collate_data(header, transactions):
+    payees = {}
+    payee_index = header.index('Payee')
+    amount_index = header.index('Amount')
+    for transaction in transactions:
+        payee = transaction[payee_index]
+        amount = float(transaction[amount_index])
+        if payee in payees:
+            payees[payee] += amount
+        else:
+            payees[payee] = amount
+    return payees
+
+def save_to_csv(payees, filename):
+    with open(filename, 'w', newline='') as file:
+        writer = csv.writer(file)
+        writer.writerow(['Payee', 'Amount'])
+        for payee, amount in payees.items():
+            writer.writerow([payee, amount])
+
+if __name__ == '__main__':
+    header, transactions = read_csv('input.csv')
+    payees = collate_data(header, transactions)
+    save_to_csv(payees, 'output.csv')
+```
+
+You'll need to make the name of the input file input.csv, and the name of the output file will be output.csv. The script assumes that the header row of your input CSV file contains Payee and Amount columns, and collates the amounts paid to each payee in the transactions. The resulting data is saved in a new CSV file, with columns for Payee and Amount, and exactly one row for each payee.","Nenu .CSV bank statements ni padutunna, nenu emi pay chesina varu list ni, avvaru emi pay chesina amount ni collate chese python script create cheyali. Ippudu ee data ni naya .CSV file lo save cheyali. Dini kosam naku code rayandi.","Sure! Meeru adagina dani kosam ee script kaadu:
+
+```python
+import csv
+
+def read_csv(filename):
+    with open(filename, 'r') as file:
+        reader = csv.reader(file)
+        header = next(reader)
+        transactions = []
+        for row in reader:
+            transactions.append(row)
+    return header, transactions
+
+def collate_data(header, transactions):
+    payees = {}
+    payee_index = header.index('Payee')
+    amount_index = header.index('Amount')
+    for transaction in transactions:
+        payee = transaction[payee_index]
+        amount = float(transaction[amount_index])
+        if payee in payees:
+            payees[payee] += amount
+        else:
+            payees[payee] = amount
+    return payees
+
+def save_to_csv(payees, filename):
+    with open(filename, 'w', newline='') as file:
+        writer = csv.writer(file)
+        writer.writerow(['Payee', 'Amount'])
+        for payee, amount in payees.items():
+            writer.writerow([payee, amount])
+
+if __name__ == '__main__':
+    header, transactions = read_csv('input.csv')
+    payees = collate_data(header, transactions)
+    save_to_csv(payees, 'output.csv')
+```
+
+Meeru input file nammaku input.csv, output file nammaku output.csv anukovali. Ee script input CSV file header row lo 'Payee' mariyu 'Amount' columns unnayi anukuntundi. Ee transactions lo emi pay chesina varu mariyu avvaru emi pay chesina amount ni collate chesi, naya CSV file lo save chesedi. Ee file lo 'Payee' mariyu 'Amount' columns untayi, mariyu prathi payee ki oka row untundi.",2,167 words,2,No native script chars,2,Overlap=0.50 — slightly English-heavy,2,Minor: case inconsistency: 'Payee' vs 'payee',2,BGE=0.828,,,,,,
+2,ollama,telugu,dd33ca35-6058-4136-a663-6648d9b32615,Could you explain what an elliptic curve is and why it is useful in cryptography? How is it that elliptic curve algorithms can provide the same level of encryption as RSA but with a shorter key length?,"An elliptic curve is a smooth, non-degenerate curve defined by a mathematical equation involving x and y coordinates. Specifically, an elliptic curve follows the equation:
+
+y² = x³ + ax + b
+
+where a and b are constants that define the shape of the curve. Elliptic curves have some unique properties that make them useful in cryptography:
+
+1. Point addition: If you take any two points (P and Q) on an elliptic curve, the line passing through P and Q will intersect the curve in a third point (R). Then, reflecting R across the x-axis results in a new point (S), which is the sum of P and Q. This operation is called point addition.
+
+1. Scalar multiplication: You can add a point P to itself repeatedly (e.g., P + P + P...). This operation is called scalar multiplication and is denoted as kP, where k is an integer.
+
+The main reason elliptic curve cryptography (ECC) is useful in cryptography is due to the difficulty of the elliptic curve discrete logarithm problem (ECDLP). The ECDLP states that, given two points P and Q on an elliptic curve, and knowing that Q = kP, it is computationally infeasible to determine the value of k. This problem is considered more difficult to solve than the integer factorization problem, which RSA is based on.
+
+ECC provides the same level of encryption as RSA with a shorter key length because of the increased complexity of the ECDLP. Smaller key sizes in ECC lead to faster computations and reduced storage and bandwidth requirements compared to RSA. For example, a 256-bit ECC key provides roughly the same level of security as a 3072-bit RSA key.
+
+In summary, elliptic curves are useful in cryptography because they provide a foundation for cryptographic algorithms based on the elliptic curve discrete logarithm problem, which is considered more difficult to solve than the integer factorization problem used in RSA. This increased complexity allows elliptic curve algorithms to provide the same level of encryption as RSA but with shorter key lengths, resulting in improved computational efficiency and reduced resource requirements.","Elliptic curve enta, cryptography lo ela upayogipaduto, chudu. Elliptic curve algorithms RSA tho samam level encryption istu, kani chinnaga key length istu. Ela?","Elliptic curve ani mathematikal equation lo x mariyu y coordinates tho defined avunna smooth, non-degenerate curve. Specific ga, elliptic curve equation follow avtundi:
+
+y² = x³ + ax + b
+
+lo a mariyu b constant lu, curve shape ni define chesukuntayi. Elliptic curves lo cryptography lo upayogipadina unique properties untayi:
+
+1. Point addition: Elliptic curve lo emaina rendu points (P mariyu Q) teesukunte, P mariyu Q through pettina line curve ni muddu point (R) tho intersect avtundi. Danni, R ni x-axis across reflect chesina, naya point (S) vastundi, adi P mariyu Q sum. Idini point addition antaru.
+
+2. Scalar multiplication: Point P ni tana tho repeatedly add chesukovachu (e.g., P + P + P...). Idini scalar multiplication antaru, kP ani mark chesukovachu, lo k integer.
+
+Elliptic curve cryptography (ECC) cryptography lo upayogipadina mukhya karanam elliptic curve discrete logarithm problem (ECDLP) difficulty. ECDLP lo, elliptic curve lo rendu points P mariyu Q unna, mariyu Q = kP ani telusukunte, k value ni determine cheyadam computationally infeasible. Idini solve cheyadam RSA base ayyina integer factorization problem kante kante difficult.
+
+ECC RSA tho samam level encryption istu, kani chinnaga key length istu, ECDLP increased complexity valla. ECC lo chinnaga key sizes faster computations mariyu storage, bandwidth requirements reduce chesukuntayi RSA kante. Example ga, 256-bit ECC key roughly 3072-bit RSA key tho samam security level istundi.
+
+Summary lo, elliptic curves cryptography lo useful, elliptic curve discrete logarithm problem base ayyina cryptographic algorithms foundation istaru. Idi RSA lo use ayyina integer factorization problem kante solve cheyadam difficult. Idini valla elliptic curve algorithms RSA tho samam level encryption istu, kani chinnaga key lengths istu, computational efficiency improve chesi, resource requirements reduce chesukuntayi.",2,276 words,2,No native script chars,2,Overlap=0.32 — slightly English-heavy,2,Minor: case inconsistency: 'Elliptic' vs 'elliptic',3,BGE=0.853,,,,,,
+3,ollama,telugu,ce10d32a-6dde-49fa-ab67-489eeda83835,"Please correct the spelling and grammar of the following sentence, then explain the changes you've made:
+It was said: ""Have you established the measure through the measure, and you are bound by the fact that the measure is a branch and not a root? And if people disagree on a branch, it can only be established by a root with us and with you, and the root can only be a text. So, if half of you established the branches through the branches, is it also valid for you to prove to your opponent that what is right for you is false for him, with the same thing, without evidence from others, even if he denies what he denies before proving it.""","To be more helpful split the text into sentences and I will explain them one by one, case by case.
+
+""Did you establish the measurement using a branch instead of the root?""
+
+* Changed ""the measure through the measure"" to ""the measurement"" for clarity
+* Changed ""bound by the fact that the measure is a branch and not a root"" to ""using a branch instead of the root"" for simplicity
+* Changed active voice to passive voice for better readability.
+
+""In case of disagreement regarding a branch, it must be resolved through a shared root, which can only be in the form of a text.""
+
+* Changed ""with us and with you"" to ""shared"" for conciseness.
+* Changed ""it can only be established by a root"" to ""it must be resolved through a root"" for clarity.
+* Changed ""the root can only be a text"" to ""which can only be in the form of a text"" for a smoother flow.
+* Changed ""And if"" to ""In case of"" for clarity.
+* Used passive voice throughout the sentence for better readability.
+
+""Is it valid to prove to your opponent that what is right for you is false for them, using the same method, without evidence from others, even if they deny it beforehand?""
+
+* Changed ""established the branches through the branches"" to ""prove to your opponent"" for clarity
+* Changed ""what is right for you is false for him"" to ""what is right for you is false for them"" for gender-neutral language
+* Shortened the sentence to be more concise
+* Changed ""he denies what he denies before proving it"" to ""they deny it beforehand"" for brevity and clarity.
+* Changed the sentence structure to be in passive voice for improved readability.
+
+I hope this helps, is there anything else I can do for you?","Please correct the spelling and grammar of the following sentence, then explain the changes you've made:
+It was said: ""Have you established the measure through the measure, and you are bound by the fact that the measure is a branch and not a root? And if people disagree on a branch, it can only be established by a root with us and with you, and the root can only be a text. So, if half of you established the branches through the branches, is it also valid for you to prove to your opponent that what is right for you is false for him, with the same thing, without evidence from others, even if he denies what he denies before proving it.""","To be more helpful split the text into sentences and I will explain them one by one, case by case.
+
+""Did you establish the measurement using a branch instead of the root?""
+
+* Changed ""the measure through the measure"" to ""the measurement"" for clarity
+* Changed ""bound by the fact that the measure is a branch and not a root"" to ""using a branch instead of the root"" for simplicity
+* Changed active voice to passive voice for better readability.
+
+""In case of disagreement regarding a branch, it must be resolved through a shared root, which can only be in the form of a text.""
+
+* Changed ""with us and with you"" to ""shared"" for conciseness.
+* Changed ""it can only be established by a root"" to ""it must be resolved through a root"" for clarity.
+* Changed ""the root can only be a text"" to ""which can only be in the form of a text"" for a smoother flow.
+* Changed ""And if"" to ""In case of"" for clarity.
+* Used passive voice throughout the sentence for better readability.
+
+""Is it valid to prove to your opponent that what is right for you is false for them, using the same method, without evidence from others, even if they deny it beforehand?""
+
+* Changed ""established the branches through the branches"" to ""prove to your opponent"" for clarity
+* Changed ""what is right for you is false for him"" to ""what is right for you is false for them"" for gender-neutral language
+* Shortened the sentence to be more concise
+* Changed ""he denies what he denies before proving it"" to ""they deny it beforehand"" for brevity and clarity.
+* Changed the sentence structure to be in passive voice for improved readability.
+
+I hope this helps, is there anything else I can do for you?",2,304 words,2,No native script chars,0,Overlap=1.00 — barely romanized,2,Minor: case inconsistency: 'and' vs 'And',3,BGE=1.000,,,,,,
+4,ollama,telugu,cbd9cb0d-bfa5-4155-9019-bae71f789f2f,"Hello, Open Assistant. Could you give a few examples of beginner-friendly topics for a database structure to be created in a Information Systems and Databases course project? Please provide a short list of a couple of entities and relations these database schemas would contain, if at all possible. Thank you!","Certainly! Here are a few beginner-friendly topics for a database structure that you can use in an Information Systems and Databases course project, along with a short list of entities and relations:
+
+1. Library Management System:
+Entities: Book, Author, Publisher, Member
+Relations: Book-Author (one-to-many), Book-Publisher (one-to-many), Book-Member (many-to-many)
+
+2. Online Store:
+Entities: Customer, Order, Product, Category
+Relations: Customer-Order (one-to-many), Product-Category (one-to-many), Order-Product (many-to-many)
+
+3. Student Information System:
+Entities: Student, Course, Instructor, Department
+Relations: Student-Course (many-to-many), Course-Instructor (one-to-many), Course-Department (one-to-many)
+
+4. Hospital Management System:
+Entities: Patient, Doctor, Nurse, Department
+Relations: Patient-Doctor (many-to-many), Doctor-Department (one-to-many), Nurse-Department (one-to-many)
+
+5. Fitness Center Management System:
+Entities: Member, Trainer, Equipment, Workout
+Relations: Member-Trainer (many-to-many), Equipment-Workout (one-to-many), Workout-Trainer (one-to-many)
+
+These are just a few examples of beginner-friendly topics for a database structure. You can choose a topic that interests you and modify the entities and relations according to your needs.","Hello, Open Assistant. Meeru beginner-friendly topics ki chala examples istaru? Information Systems and Databases course project lo create cheyadaniki database structure ki. Chala entities mariyu relations list istaru, possible ante. Thank you!","Certainly! Here are a few beginner-friendly topics for a database structure that you can use in an Information Systems and Databases course project, along with a short list of entities and relations:
+
+1. Library Management System:
+Entities: Book, Author, Publisher, Member
+Relations: Book-Author (one-to-many), Book-Publisher (one-to-many), Book-Member (many-to-many)
+
+2. Online Store:
+Entities: Customer, Order, Product, Category
+Relations: Customer-Order (one-to-many), Product-Category (one-to-many), Order-Product (many-to-many)
+
+3. Student Information System:
+Entities: Student, Course, Instructor, Department
+Relations: Student-Course (many-to-many), Course-Instructor (one-to-many), Course-Department (one-to-many)
+
+4. Hospital Management System:
+Entities: Patient, Doctor, Nurse, Department
+Relations: Patient-Doctor (many-to-many), Doctor-Department (one-to-many), Nurse-Department (one-to-many)
+
+5. Fitness Center Management System:
+Entities: Member, Trainer, Equipment, Workout
+Relations: Member-Trainer (many-to-many), Equipment-Workout (one-to-many), Workout-Trainer (one-to-many)
+
+These are just a few examples of beginner-friendly topics for a database structure. You can choose a topic that interests you and modify the entities and relations according to your needs.",2,143 words,2,No native script chars,0,Overlap=1.00 — barely romanized,2,Minor: case inconsistency: 'entities' vs 'Entities',3,BGE=1.000,,,,,,
+5,ollama,telugu,b4903f21-c998-462e-b669-cf270bbcebae,"I'm completely overwhelmed with all the work I need to do. So many people expect stuff form me and I just can't handle it all. The more I work, the less I get done and I have so many unanswered email and things I promised to do, I'm scared to even go look at my inbox. What can I do?","It sounds like you're feeling overwhelmed with the amount of work and responsibilities you have. Here are a few things you can try:
+
+1.  Prioritize your tasks: Make a list of everything you need to do, and then prioritize the tasks based on their importance and urgency. Focus on the most important tasks first.
+
+2. Break tasks into smaller chunks: Large tasks can feel overwhelming, so try breaking them into smaller, more manageable pieces.
+
+3. Use a calendar or planner: Use a calendar or planner to schedule your tasks and deadlines. This can help you stay organized and make sure you're using your time effectively.
+
+4. Learn to say no: It's important to set boundaries and learn to say no to requests that are not a priority for you.
+
+5. Take breaks: Taking breaks can help you recharge and refocus. It's important to set aside time for yourself and to do things you enjoy.
+
+6. Seek help: if you are feeling overwhelmed and it's getting hard to handle, consider seeking help from a therapist or counselor, who can help you develop strategies for managing stress and anxiety.
+
+Remember, it's important to take care of yourself and to set realistic expectations for what you can accomplish.","Nenu cheppina sarala ga, nenu chala work ki overwhelmed ayyanu. Nannu chala mandalu chala cheppukuntaru, kani nenu ela handle chesukovadam ledu. Nenu chala work chestanu, kani nenu chala cheppukovadam ledu. Nenu chala emails ki reply cheyyaledu, nenu cheppina cheppukovadam ledu. Nenu inbox ki vellakunda, nenu chala scared ga unnanu. Nenu ela cheyyali?"", ""romanized_response"": ""Nenu cheppina sarala ga, nenu chala work ki overwhelmed ayyanu. Nannu chala mandalu chala cheppukuntaru, kani nenu ela handle chesukovadam ledu. Nenu chala work chestanu, kani nenu chala cheppukovadam ledu. Nenu chala emails ki reply cheyyaledu, nenu cheppina cheppukovadam ledu. Nenu inbox ki vellakunda, nenu chala scared ga unnanu. Nenu ela cheyyali? Nenu cheppina sarala ga, nenu chala work ki overwhelmed ayyanu. Nannu chala mandalu chala cheppukuntaru, kani nenu ela handle chesukovadam ledu. Nenu chala work chestanu, kani nenu chala cheppukovadam ledu. Nenu chala emails ki reply cheyyaledu, nenu cheppina cheppukovadam ledu. Nenu inbox ki vellakunda, nenu chala scared ga unnanu. Nenu ela cheyyali? Nenu cheppina sarala ga, nenu chala work ki overwhelmed ayyanu. Nannu chala mandalu chala cheppukuntaru, kani nenu ela handle chesukovadam ledu. Nenu chala work chestanu, kani nenu chala cheppukovadam ledu. Nenu chala emails ki reply cheyyaledu, nenu cheppina cheppukovadam ledu. Nenu inbox ki vellakunda, nenu chala scared ga unnanu. Nenu ela cheyyali?","Nenu cheppina sarala ga, nenu chala work ki overwhelmed ayyanu. Nannu chala mandalu chala cheppukuntaru, kani nenu ela handle chesukovadam ledu. Nenu chala work chestanu, kani nenu chala cheppukovadam ledu. Nenu chala emails ki reply cheyyaledu, nenu cheppina cheppukovadam ledu. Nenu inbox ki vellakunda, nenu chala scared ga unnanu. Nenu ela cheyyali? Nenu cheppina sarala ga, nenu chala work ki overwhelmed ayyanu. Nannu chala mandalu chala cheppukuntaru, kani nenu ela handle chesukovadam ledu. Nenu chala work chestanu, kani nenu chala cheppukovadam ledu. Nenu chala emails ki reply cheyyaledu, nenu cheppina cheppukovadam ledu. Nenu inbox ki vellakunda, nenu chala scared ga unnanu. Nenu ela cheyyali? Nenu cheppina sarala ga, nenu chala work ki overwhelmed ayyanu. Nannu chala mandalu chala cheppukuntaru, kani nenu ela handle chesukovadam ledu. Nenu chala work chestanu, kani nenu chala cheppukovadam ledu. Nenu chala emails ki reply cheyyaledu, nenu cheppina cheppukovadam ledu. Nenu inbox ki vellakunda, nenu chala scared ga unnanu. Nenu ela cheyyali?",2,156 words,2,No native script chars,3,Overlap=0.01 — well romanized,2,Minor: case inconsistency: 'Nenu' vs 'nenu',1,BGE=0.512,,,,,,
+6,ollama,telugu,6acf77db-6d0d-4ca7-a8ef-2c69ee4dc0fa,I want you to imagine that you are J. R. R. Tolkien. We know that Frodo enjoyed a practical joke or two and I want you to write a poem that you didn't include in the Lord of the Rings about how Frodo used the invisibility powers of the Ring to torment and scare local villagers.,"As the Ringbearer Frodo traveled far and wide,
+With the One Ring on his finger, he couldn't hide.
+His invisible form, a trickster's delight,
+He loved to play pranks, especially at night.
+
+In the Shire, he'd sneak around without a sound,
+Whispering in ears, making villagers astound.
+He'd pull on their hair, or give them a nudge,
+Making them jump, leaving them in a grudge.
+
+Frodo would appear in the middle of town,
+Invisible to all, except with a frown.
+He'd knock over carts, and scatter the goods,
+The locals were left, in confusion and moods.
+
+But the best trick of all, that Frodo did play,
+Was to pretend to be a ghost, in his own way.
+He'd make eerie noises, and wail in the night,
+Terrifying the villagers with all of his might.
+
+Oh, Frodo, you scamp, with your mischievous grin,
+Using the Ring's powers, to create such a din.
+But we forgive you, for you were a hero in the end,
+And your practical jokes, a legend that won't bend.","Nenu chaduvukovadam anukoni, meeaku J. R. R. Tolkien ga unnavu. Frodo ekkuva practical joke chesinaadu ani manam ardam chesukuntunnaru. Lord of the Rings lo unna poem kadu, Ring invisibility powers vadu local villagers ni torment chesi, scare chesina kadu ani ekkuva poem rachi.","Ringbearer Frodo baga travel chesinaadu,
+One Ring on his finger, hide chesukovadam kavalu.
+Invisible form, trickster delight,
+Pranks play chesinaadu, especially night.
+
+Shire lo, sound kavatam sneaky ga,
+Ears lo whisper chesi, villagers astound chesinaadu.
+Hair pull chesinaadu, nudge istinaadu,
+Jump chesi, grudge lo undinaadu.
+
+Frodo town middle lo appear avtadu,
+Allaki invisible, frown tho.
+Carts knock chesi, goods scatter chesinaadu,
+Locals confusion lo, moods lo undinaadu.
+
+Best trick of all, Frodo play chesinaadu,
+Ghost ga pretend chesinaadu, own way lo.
+Eerie noises, wail chesinaadu night lo,
+Villagers ni terror chesinaadu, all might tho.
+
+Oh, Frodo, scamp, mischievous grin tho,
+Ring powers vadu, din create chesinaadu.
+But manam forgive chesukuntunnaru, hero end lo,
+Practical jokes, legend ga bend avvadu.",2,119 words,2,No native script chars,3,Overlap=0.25 — well romanized,2,Minor: case inconsistency: 'Invisible' vs 'invisible',2,BGE=0.830,,,,,,
+7,ollama,telugu,155c12b0-659a-4dd2-93ba-cfbec514ba3f,"Rewrite this song to be about Programing
+[Verse 1]
+Steve walks warily down the street
+With the brim pulled way down low
+Ain't no sound but the sound of his feet
+Machine guns ready to go
+Are you ready? Hey, are you ready for this?
+Are you hanging on the edge of your seat?
+Out of the doorway the bullets rip
+To the sound of the beat, yeah
+[Chorus]
+Another one bites the dust
+Another one bites the dust
+And another one gone, and another one gone
+Another one bites the dust, yeah
+Hey, I'm gonna get you too
+Another one bites the dust
+
+[Verse 2]
+How do you think I'm going to get along
+Without you, when you're gone
+You took me for everything that I had
+And kicked me out on my own
+Are you happy, are you satisfied?
+How long can you stand the heat?
+Out of the doorway the bullets rip
+To the sound of the beat
+Look out
+
+[Chorus]
+Another one bites the dust
+Another one bites the dust
+And another one gone, and another one gone
+Another one bites the dust
+Hey, I'm gonna get you, too
+Another one bites the dust
+You might also like
+Don’t Stop Me Now
+Queen
+Flowers
+Miley Cyrus
+Bohemian Rhapsody
+Queen
+
+[Bridge]
+Hey
+Oh, take it
+Bite the dust, hey
+Another one bites the dust
+Another one bites the dust, ow
+Another one bites the dust, hey hey
+Another one bites the dust, hey-eh-eh
+Ooh
+
+[Verse 3]
+There are plenty of ways you can hurt a man
+And bring him to the ground
+You can beat him, you can cheat him, you can treat him bad
+And leave him when he's down, yeah
+But I'm ready, yes I'm ready for you
+I'm standing on my own two feet
+Out of the doorway the bullets rip
+Repeating the sound of the beat
+Oh yeah
+
+[Chorus]
+Another one bites the dust
+Another one bites the dust
+And another one gone, and another one gone
+Another one bites the dust, yeah
+Hey, I'm gonna get you, too
+Another one bites the dust","Yes Sir, I will do my best
+
+[Verse 1]
+Code walks warily down the line
+With a focus sharp and true
+No bugs or errors, everything's fine
+Programming skills on queue
+Are you ready? Hey, are you ready for this?
+Are you focused on each line you write?
+Out of the console, the output shines
+To the rhythm of the byte, yeah
+
+[Chorus]
+Another one bites the dust
+Another one bites the dust
+And another one gone, and another one gone
+Another one bites the dust, yeah
+Hey, I'm gonna debug you too
+Another one bites the dust
+
+[Verse 2]
+How do you think I'm going to survive
+Without a fix, when it's gone wrong
+You took my logic, now it's time
+To make it work before too long
+Are you confident, are you satisfied?
+How long can you handle the heat?
+Out of the console, the output shines
+To the rhythm of the beat
+Look out
+
+[Chorus]
+Another one bites the dust
+Another one bites the dust
+And another one gone, and another one gone
+Another one bites the dust
+Hey, I'm gonna debug you too
+Another one bites the dust
+
+[Bridge]
+Hey
+Oh, fix it
+Bite the dust, hey
+Another one bites the dust
+Another one bites the dust, ow
+Another one bites the dust, hey hey
+Another one bites the dust, hey-eh-eh
+Ooh
+
+[Verse 3]
+There are plenty of ways you can break a code
+And bring the system to its knees
+You can miss a semicolon, leave a logic unchecked
+And cause a crash with ease, yeah
+But I'm ready, yes I'm ready for you
+I've got my algorithms on their feet
+Out of the console, the output shines
+Repeating the rhythm of the beat
+Oh yeah
+
+[Chorus]
+Another one bites the dust
+Another one bites the dust
+And another one gone, and another one gone
+Another one bites the dust, yeah
+Hey, I'm gonna debug you too
+Another one bites the dust","Idi gaane Programming gurinchi marichu rayandi
+[Verse 1]
+Steve daggara street lo chala saavakamga chalu
+Brim ni chala tichchi chupistunnadu
+Paata ledu, kani paata ledu kani paata ledu
+Machine guns ready ga unnayi
+Ready ga unnaru? Hey, idi kosam ready ga unnaru?
+Chivari seat meeda unnaaru?
+Dooram lo nundi bullets rip
+Beat sound ki, yeah
+[Chorus]
+Meearu dust lo padaru
+Meearu dust lo padaru
+Meearu chala, meearu chala
+Meearu dust lo padaru, yeah
+Hey, nenu meeanni kuda padistha
+Meearu dust lo padaru
+
+[Verse 2]
+Nenu ee roju nundi eppudu chalu
+Meeru chala, meearu chala
+Nenu eppudu chalu, meearu chalu
+Nenu eppudu chalu, meearu chalu
+Ready ga unnaru? Hey, ready ga unnaru?
+Nenu eppudu chalu, meearu chalu
+Dooram lo nundi bullets rip
+Beat sound ki
+Look out
+
+[Chorus]
+Meearu dust lo padaru
+Meearu dust lo padaru
+Meearu chala, meearu chala
+Meearu dust lo padaru
+Hey, nenu meeanni kuda padistha
+Meearu dust lo padaru
+
+[Bridge]
+Hey
+Oh, take it
+Bite the dust, hey
+Meearu dust lo padaru
+Meearu dust lo padaru, ow
+Meearu dust lo padaru, hey hey
+Meearu dust lo padaru, hey-eh-eh
+Ooh
+
+[Verse 3]
+Meearu eppudu chalu, meearu chalu
+Meearu eppudu chalu, meearu chalu
+Meearu eppudu chalu, meearu chalu
+Meearu eppudu chalu, meearu chalu
+Ready ga unnaru? Yes, ready ga unnaru
+Nenu eppudu chalu, meearu chalu
+Dooram lo nundi bullets rip
+Beat sound ki
+Oh yeah
+
+[Chorus]
+Meearu dust lo padaru
+Meearu dust lo padaru
+Meearu chala, meearu chala
+Meearu dust lo padaru, yeah
+Hey, nenu meeanni kuda padistha
+Meearu dust lo padaru","Yes Sir, nenu chala kosam try chestha
+
+[Verse 1]
+Code daggara line lo chala saavakamga chalu
+Focus sharp ga, true ga
+Bugs ledu, errors ledu, ellam fine
+Programming skills on queue
+Ready ga unnaru? Hey, idi kosam ready ga unnaru?
+Nenu eppudu chalu, meearu chalu
+Console lo nundi output shines
+Byte rhythm ki, yeah
+
+[Chorus]
+Meearu dust lo padaru
+Meearu dust lo padaru
+Meearu chala, meearu chala
+Meearu dust lo padaru, yeah
+Hey, nenu debug chestha
+Meearu dust lo padaru
+
+[Verse 2]
+Nenu ee roju nundi eppudu chalu
+Fix ledu, wrong ga
+Logic chala, time chala
+Work chalu, long chalu
+Confident ga unnaru? Satisfied ga unnaru?
+Heat handle chalu
+Console lo nundi output shines
+Beat rhythm ki
+Look out
+
+[Chorus]
+Meearu dust lo padaru
+Meearu dust lo padaru
+Meearu chala, meearu chala
+Meearu dust lo padaru
+Hey, nenu debug chestha
+Meearu dust lo padaru
+
+[Bridge]
+Hey
+Oh, fix it
+Bite the dust, hey
+Meearu dust lo padaru
+Meearu dust lo padaru, ow
+Meearu dust lo padaru, hey hey
+Meearu dust lo padaru, hey-eh-eh
+Ooh
+
+[Verse 3]
+Meearu eppudu chalu, meearu chalu
+System knees lo padu
+Semicolon miss chalu, logic unchecked
+Crash chalu, ease chalu
+Ready ga unnaru? Yes, ready ga unnaru
+Algorithms on feet
+Console lo nundi output shines
+Beat rhythm ki
+Oh yeah
+
+[Chorus]
+Meearu dust lo padaru
+Meearu dust lo padaru
+Meearu chala, meearu chala
+Meearu dust lo padaru, yeah
+Hey, nenu debug chestha
+Meearu dust lo padaru",2,240 words,2,No native script chars,2,Overlap=0.34 — slightly English-heavy,2,Minor: case inconsistency: 'Ready' vs 'ready',2,BGE=0.733,,,,,,
+8,ollama,telugu,4f64ca9b-c4b1-4ac1-a18f-298fd84353c9,"hello chat
+
+i had a cool dream once i was in space jumping between asteroids chasing portals between dimensions, sometimes going back where i'd visited to see people i'd met along the way but constantly discovering new places.
+
+can you write a short story around this concept?
+from first person perspective.
+
+with highly descriptive imagery of the surrounding space galaxies","As I floated through the vast emptiness of space, I couldn't help but marvel at the beauty surrounding me. I was leaping between asteroids, chasing after portals that led to new dimensions. Each time I entered one of these gateways, I found myself in a different world, each more wondrous and strange than the last.
+
+Sometimes I found myself returning to places I had visited before, and I delighted in the familiar faces and landscapes that awaited me. But mostly, I was always eager to explore new realms, to discover new wonders and meet new friends.
+
+The galaxies around me were breathtaking in their complexity and color. Shimmering nebulae stretched out before me, clouds of gas and dust glowing with hues of pink, purple, and blue. I soared through the stars, watching as entire constellations drifted by, each one a miniature universe unto itself.
+
+The asteroids I leaped between were strange and varied. Some were barren and rocky, little more than lifeless chunks of debris hurtling through the void. But others were teeming with life, buzzing with alien creatures and exotic flora.
+
+And always, I chased the portals, hoping to catch a glimpse of what lay beyond. For in the great expanse of space, there was always something new to discover, always some new wonder waiting just beyond the next asteroid or nebula.
+
+And so I continued to leap and bound, my heart filled with wonder and awe at the infinite beauty of the universe. And I knew that no matter how far I traveled, no matter how many dimensions I explored, there would always be more to discover, more to explore, more to learn.","hello chat
+
+i had a cool dream once i was in space jumping between asteroids chasing portals between dimensions, sometimes going back where i'd visited to see people i'd met along the way but constantly discovering new places.
+
+can you write a short story around this concept?
+from first person perspective.
+
+with highly descriptive imagery of the surrounding space galaxies","As I floated through the vast emptiness of space, I couldn't help but marvel at the beauty surrounding me. I was leaping between asteroids, chasing after portals that led to new dimensions. Each time I entered one of these gateways, I found myself in a different world, each more wondrous and strange than the last.
+
+Sometimes I found myself returning to places I had visited before, and I delighted in the familiar faces and landscapes that awaited me. But mostly, I was always eager to explore new realms, to discover new wonders and meet new friends.
+
+The galaxies around me were breathtaking in their complexity and color. Shimmering nebulae stretched out before me, clouds of gas and dust glowing with hues of pink, purple, and blue. I soared through the stars, watching as entire constellations drifted by, each one a miniature universe unto itself.
+
+The asteroids I leaped between were strange and varied. Some were barren and rocky, little more than lifeless chunks of debris hurtling through the void. But others were teeming with life, buzzing with alien creatures and exotic flora.
+
+And always, I chased the portals, hoping to catch a glimpse of what lay beyond. For in the great expanse of space, there was always something new to discover, always some new wonder waiting just beyond the next asteroid or nebula.
+
+And so I continued to leap and bound, my heart filled with wonder and awe at the infinite beauty of the universe. And I knew that no matter how far I traveled, no matter how many dimensions I explored, there would always be more to discover, more to explore, more to learn.",2,275 words,2,No native script chars,0,Overlap=1.00 — barely romanized,2,Minor: case inconsistency: 'Each' vs 'each',3,BGE=1.000,,,,,,
+9,ollama,telugu,be94a630-2128-4ecb-8e84-fece73d662e9,"Write a short story about how Adder, a man with the power of teleportation, films a YouTube prank video wherein he asks people for a fist-bump and acts awfully hurt afterwards, kneeling on the floor and groaning in pain, then teleporting away as though he disintegrated into oblivion.","Adder adjusted the small camera strapped to his chest, ensuring the angle was just right for capturing his next YouTube prank video. He was known for his creative and harmless pranks, but this time he had something even more unique in mind. With the power of teleportation, Adder planned to ask unsuspecting strangers for a fist-bump and then pretend to be hurt. The twist would be his grand finale, where he would teleport away, seemingly disintegrating into oblivion, leaving his victims utterly bewildered.
+
+Adder surveyed the bustling city park, full of people enjoying the warm sunshine. He spotted his first target: a middle-aged man sitting on a bench, engrossed in a book. Adder approached the man, his adrenaline pumping with excitement.
+
+""Hey, man! How's it going?"" Adder said cheerfully.
+
+The man glanced up, clearly surprised but intrigued by Adder's energy. ""Uh, good, I guess,"" he replied.
+
+""Awesome!"" Adder exclaimed. ""Wanna give me a fist-bump?""
+
+The man hesitated for a moment before obliging, tapping his fist against Adder's. Instantly, Adder fell to the ground, clutching his hand and groaning in pain. The man's eyes widened in shock, unsure of how to react. Just as he leaned in to check on Adder, Adder vanished, teleporting a few meters away, hidden behind a tree. The man stared at the empty space, jaw dropped in disbelief.
+
+Adder couldn't help but chuckle quietly as he watched the man, who was now scanning the park, looking for some logical explanation. Satisfied with his first reaction, Adder set off to find his next unsuspecting victim.
+
+He spotted a group of college students lounging on the grass. He approached the group, his heart pounding with excitement.
+
+""Hey, guys! How's your day going?"" he asked.
+
+The group looked up, puzzled but entertained by Adder's sudden appearance. ""Pretty good, man,"" one of them answered.
+
+""Mind giving me a fist-bump?"" Adder inquired, holding out his fist.
+
+The students exchanged glances, shrugging their shoulders. They took turns bumping fists with Adder, and as the last student connected, Adder collapsed to the ground, howling in pain. The students gasped, taken aback by his sudden distress. But before they could even react, Adder vanished into thin air, leaving them dumbfounded.
+
+Peeking from his new hiding spot, Adder reveled in their bewildered expressions. He repeated his prank a few more times, teleporting away each time and recording the reactions of his victims. Their confusion and amazement fueled his enthusiasm.
+
+Finally, after a long day of filming, Adder returned home, eager to edit and upload his video. He knew this prank would be a hit, and he couldn't wait to see the reactions of his YouTube fans. As he pieced together the footage, he laughed out loud, knowing he had created something truly unforgettable.","Adder naama teleportation shakti unna manishi, YouTube prank video film chesina kadha chudu. Adder manushulni fist-bump kosu adagali, kadha kadha hurt ayyi, floor meeda kneel ayyi pain tho groaning chestunadu, kadha kadha disintegrated ayyi oblivion lo teleport ayyi pothunadu.","Adder chest meeda bandina chinnana camera ni adjust chesukoni, next YouTube prank video lo perfect angle raakadam chustunadu. Valla creative mariyu harmless pranks ki Adder prashamsa unnaadu, kani ithi varaku valla mind lo unna pranam unique ga unnaadu. Teleportation shakti tho, Adder unsuspicious strangers ni fist-bump kosu adagali, kadha kadha hurt ayyi pretend chestunadu. Twist valla grand finale lo, valla teleport ayyi, disintegrated ayyi oblivion lo pothunadu, valla victims ni utterly bewildered chestunadu.
+
+Adder bustling city park ni survey chesukunadu, warm sunshine enjoy chestunna manushulu unna park. Valla first target ni chustunadu: bench meeda sit chesukoni, book lo engrossed ayyina middle-aged man. Adder manishi ni approach chesukoni, valla adrenaline excitement tho pump ayyindi.
+
+""Hey, man! How's it going?"" Adder cheerfully adagali.
+
+Manishi glance chesi, Adder energy ki surprised ayyi, kani intrigued ayyadu. ""Uh, good, I guess,"" adagali.
+
+""Awesome!"" Adder exclaimed. ""Wanna give me a fist-bump?""
+
+Manishi moment hesit chesi, Adder fist ni tap chesi, fist-bump chesukunadu. Instantly, Adder ground meeda fell ayyi, hand ni clutch chesi, pain tho groaning chestunadu. Manishi eyes widened in shock, kani kavalu ledu. Just as valli Adder ni check chesukoni lean ayyadu, Adder vanish ayyi, tree behind lo teleport ayyi. Manishi empty space ni stare chesi, jaw dropped in disbelief.
+
+Adder manishi ni chusi, valla park lo logical explanation kosu scanning chestunadu, quietly chuckle chestunadu. First reaction tho satisfied ayyi, Adder next unsuspecting victim kosu set off ayyadu.
+
+Valla group of college students ni grass meeda lounging chestunna chustunadu. Valla group ni approach chesi, valla heart pounding with excitement.
+
+""Hey, guys! How's your day going?"" adagali.
+
+Group up chusi, Adder sudden appearance ki puzzled ayyi, kani entertained ayyaru. ""Pretty good, man,"" valla one adagali.
+
+""Mind giving me a fist-bump?"" Adder adagali, fist ni hold chesi.
+
+Students glances chesi, shoulders shrug chesi. Valla Adder tho fist-bump chesukunaru, last student connect ayyaka, Adder ground meeda collapse ayyi, pain tho howling chestunadu. Students gasped, sudden distress tho taken aback. Kani valla react chesukunaka, Adder thin air lo vanish ayyadu, valla dumbfounded ayyaru.
+
+New hiding spot lo peek chesi, Adder valla bewildered expressions tho revel chesukunadu. Valla prank ni few times repeat chesi, teleport ayyi, valla victims reactions ni record chestunadu. Valla confusion mariyu amazement valla enthusiasm ni fuel chestunadu.
+
+Finally, long day of filming kadha, Adder home return ayyadu, video ni edit chesi upload chesukoni eager ayyadu. Valla prank hit ayyadu, YouTube fans reactions chusi wait chesukunadu. Footage ni piece chesi, valla laugh out loud ayyadu, valla truly unforgettable something create chesukunadu.",2,414 words,2,No native script chars,3,Overlap=0.27 — well romanized,2,Minor: case inconsistency: 'Valla' vs 'valla',2,BGE=0.783,,,,,,
+10,ollama,telugu,95e49506-25d9-4cd7-b2f8-e3db32b7283d,"Please list the various phases in Intermittent Fasting ordered by when they occur after starting the fast, and provide a description of what happens in the body during each phase in about 150 words for each.","Intermittent fasting is an eating pattern that involves alternating periods of fasting and eating. Here are the various phases in Intermittent Fasting, ordered by when they occur after starting the fast:
+
+The Fed State: This is the period of time where the body is digesting and absorbing food, which typically lasts for 3-5 hours after eating. During this time, insulin levels are elevated, glucose is being metabolized, and fat storage is inhibited.
+
+The Post-Absorptive State: This phase starts after the Fed State and lasts for approximately 12-16 hours. During this time, insulin levels start to decline and the body starts to switch from glucose to fat as its primary source of energy.
+
+The Fasting State: This phase begins when the body has fully transitioned to using fat as its primary source of energy, which typically occurs after 12-16 hours of fasting. During this phase, the body ramps up the production of hormones and enzymes that promote fat burning and the breakdown of stored fat.
+
+The Re-Feeding State: This phase occurs when the individual breaks the fast and begins eating again. The insulin levels start to rise, glucose is once again metabolized, and fat storage is inhibited. This cycle repeats itself with each subsequent meal.
+
+It's important to note that the length of each phase can vary based on the individual's starting weight, age, gender, and activity level. Additionally, Intermittent Fasting is not appropriate for everyone, and it's always best to consult with a healthcare professional before starting any new diet or eating pattern.","Please list the various phases in Intermittent Fasting ordered by when they occur after starting the fast, and provide a description of what happens in the body during each phase in about 150 words for each.","Intermittent fasting is an eating pattern that involves alternating periods of fasting and eating. Here are the various phases in Intermittent Fasting, ordered by when they occur after starting the fast:
+
+The Fed State: This is the period of time where the body is digesting and absorbing food, which typically lasts for 3-5 hours after eating. During this time, insulin levels are elevated, glucose is being metabolized, and fat storage is inhibited.
+
+The Post-Absorptive State: This phase starts after the Fed State and lasts for approximately 12-16 hours. During this time, insulin levels start to decline and the body starts to switch from glucose to fat as its primary source of energy.
+
+The Fasting State: This phase begins when the body has fully transitioned to using fat as its primary source of energy, which typically occurs after 12-16 hours of fasting. During this phase, the body ramps up the production of hormones and enzymes that promote fat burning and the breakdown of stored fat.
+
+The Re-Feeding State: This phase occurs when the individual breaks the fast and begins eating again. The insulin levels start to rise, glucose is once again metabolized, and fat storage is inhibited. This cycle repeats itself with each subsequent meal.
+
+It's important to note that the length of each phase can vary based on the individual's starting weight, age, gender, and activity level. Additionally, Intermittent Fasting is not appropriate for everyone, and it's always best to consult with a healthcare professional before starting any new diet or eating pattern.",2,253 words,2,No native script chars,0,Overlap=1.00 — barely romanized,2,Minor: case inconsistency: 'fasting' vs 'Fasting',3,BGE=1.000,,,,,,
+11,ollama,telugu,9902af34-77fe-4d73-a67e-d04f9edd8617,"I'm looking for an efficient Python script to output prime numbers. Can you help me out? I'm interested in a script that can handle large numbers and output them quickly. Also, it would be great if the script could take a range of numbers as input and output all the prime numbers within that range. Can you generate a script that fits these requirements? Thanks!","Certainly! Here's an example of a Python script that generates prime numbers within a given range using the Sieve of Eratosthenes algorithm, which is an efficient algorithm for finding prime numbers:
+
+```python
+def generate_primes_in_range(start, end):
+    """"""
+    Generates prime numbers within the range [start, end] using Sieve of Eratosthenes algorithm.
+
+    Args:
+        start (int): The starting number of the range (inclusive).
+        end (int): The ending number of the range (inclusive).
+
+    Returns:
+        list: A list of prime numbers within the given range.
+    """"""
+    # Initialize a boolean array ""prime[0..n]"" and
+    # initialize all entries as true.
+    prime = [True for i in range(end+1)]
+    p = 2
+    while (p * p <= end):
+        # If prime[p] is not changed, then it is a prime
+        if prime[p] == True:
+            # Update all multiples of p
+            for i in range(p * p, end+1, p):
+                prime[i] = False
+        p += 1
+
+    # Create a list of prime numbers within the given range
+    primes = []
+    for p in range(max(2, start), end+1):
+        if prime[p]:
+            primes.append(p)
+
+    return primes
+
+
+# Example usage
+start = 1  # start of the range (inclusive)
+end = 1000000  # end of the range (inclusive)
+primes = generate_primes_in_range(start, end)
+print(""Prime numbers between"", start, ""and"", end, ""are:"", primes)
+```
+
+This script uses the Sieve of Eratosthenes algorithm, which efficiently generates prime numbers within a given range by marking the multiples of each prime number as non-prime, eliminating the need to check all numbers for primality individually. It should be able to handle large numbers and output prime numbers quickly, making it efficient for your requirements. You can adjust the start and end variables to specify the range of numbers you want to generate primes for. The generated prime numbers are returned as a list, which you can further process or display as needed.","Nenu efficient Python script chustunnanu, prime numbers ni output cheyadaniki. Meeru help cheyagalanu? Naku large numbers ni handle chesi, teevga output cheyadaniki script kavali. Kani, range ni input ga chesukoni, adhi lo unna ellaa prime numbers ni output cheyadaniki kuda script kavali. Meeru ee requirements ki fit ayye script generate cheyagalanu? Dhanyavadalu!","Sahajam! Sieve of Eratosthenes algorithm ni isthi, given range lo prime numbers ni generate chese Python script example isthunna: 
+
+```python
+def generate_primes_in_range(start, end):
+    """"""
+    Sieve of Eratosthenes algorithm ni isthi, [start, end] range lo prime numbers ni generate cheyadam.
+
+    Args:
+        start (int): Range start number (inclusive).
+        end (int): Range end number (inclusive).
+
+    Returns:
+        list: Given range lo unna prime numbers list.
+    """"""
+    # Boolean array ""prime[0..n]"" ni initialize chesi, ellaa entries ni true ga set chesukovadam.
+    prime = [True for i in range(end+1)]
+    p = 2
+    while (p * p <= end):
+        # prime[p] change kavatledu, adhi prime anukovadam.
+        if prime[p] == True:
+            # p ee multiples ni update cheyadam.
+            for i in range(p * p, end+1, p):
+                prime[i] = False
+        p += 1
+
+    # Given range lo unna prime numbers list ni create cheyadam.
+    primes = []
+    for p in range(max(2, start), end+1):
+        if prime[p]:
+            primes.append(p)
+
+    return primes
+
+
+# Example usage
+start = 1  # Range start (inclusive)
+end = 1000000  # Range end (inclusive)
+primes = generate_primes_in_range(start, end)
+print(""Prime numbers between"", start, ""and"", end, ""are:"", primes)
+```
+
+Ee script Sieve of Eratosthenes algorithm ni isthi, given range lo prime numbers ni efficiently generate cheyadam. Primes ee multiples ni mark chesi, ellaa numbers ni individually check cheyadaniki need ledu. Large numbers ni handle chesi, teevga prime numbers ni output cheyadam kavalante, ee script mee requirements ki fit ayye. Start, end variables ni adjust chesi, mee kavali range ni specify cheyagalanu. Generated prime numbers list ga return avuthayi, adhi ni mee kavali lo process chesi, display cheyagalanu.",2,257 words,2,No native script chars,1,Overlap=0.51 — too much English,2,Minor: case inconsistency: 'Python' vs 'python',2,BGE=0.787,,,,,,
+12,ollama,telugu,22cffd21-1f01-4d27-8a97-1659131c3659,"A statistical model is a mathematical model that embodies a set of statistical assumptions concerning the generation of sample data (and similar data from a larger population). A statistical model represents, often in considerably idealized form, the data-generating process.
+
+A statistical model is usually specified as a mathematical relationship between one or more random variables and other non-random variables. As such, a statistical model is ""a formal representation of a theory"" (Herman Adèr quoting Kenneth Bollen).
+
+All statistical hypothesis tests and all statistical estimators are derived via statistical models. More generally, statistical models are part of the foundation of statistical inference.
+
+Could you explain each sentence in simple terms?","Here are some simplified explanations and paraphrases of the sentences in the definition of a statistical model:
+
+1) A statistical model represents a theory or idea of how data is generated. It is a mathematical equation that assumes certain things about how the data came to be.
+
+2) The model specifies relationships between random variables (variables that can take on a range of values by chance) and non-random variables (variables that are determined or fixed). The model shows how the variables influence or relate to each other.
+
+3) Statistical hypothesis tests and estimators are tools used to analyze data and draw inferences. They are derived from or based on the assumptions and relationships specified in a statistical model.
+
+4) More broadly, statistical models are fundamental to statistics and statistical inference. They underlie the methods and techniques used to study and draw insights from data.
+
+The key purpose of a statistical model is to represent a data-generating process. It allows statisticians to make inferences about a larger group based on a smaller sample. The model makes assumptions and specifies variables/relationships that can then be used as a tool for analyzing data and results. Does this help explain the definition and role of statistical models? Let me know if you have any other questions!","Ek statistical model anu ek mathematical model, adhi sample data (mariyu baga jana prajalu nundi varina samana data) janana prasthuthi lanti statistical assumptions set ni embody chesedi. Ek statistical model, often baga idealized roopam lo, data janana prasthuthi ni represent chesedi.
+
+Ek statistical model usually ek mathematical relationship roopam lo specify chesedi, adhi one or more random variables mariyu other non-random variables ni chusukuntundi. Adhi prasthuthi lo, ek statistical model ""ek theory ni formal representation"" (Herman Adèr quoting Kenneth Bollen).
+
+All statistical hypothesis tests mariyu all statistical estimators statistical models dwara derived avuthayi. More generally, statistical models statistical inference foundation lo part.
+
+Meeru ela simple terms lo ela prathi sentence ni explain cheyachu?","Statistical model definition lo unna sentences ki simplified explanations mariyu paraphrases ivi:
+
+1) Ek statistical model data janana prasthuthi ni represent chesedi. Adhi ek mathematical equation, data ela janinchindi ani certain assumptions ni assume chesedi.
+
+2) Model random variables (chance dwara various values ni take chesina variables) mariyu non-random variables (determined or fixed ga unna variables) ni chusukuntundi. Model variables ela influence chesukuntundi mariyu ela relate chesukuntundi ani chupistundi.
+
+3) Statistical hypothesis tests mariyu estimators data ni analyze chesi inferences draw cheyadaniki use chesina tools. Adhi statistical model lo specified assumptions mariyu relationships dwara derived avuthayi.
+
+4) More broadly, statistical models statistics mariyu statistical inference ki fundamental. Data ni study chesi insights draw cheyadaniki use chesina methods mariyu techniques ni adhi underlie chesedi.
+
+Statistical model ki key purpose data janana prasthuthi ni represent cheyadam. Adhi statisticians ki smaller sample dwara larger group ni inferences cheyadaniki help chesedi. Model assumptions ni specify chesi, variables/relationships ni specify chesi, data mariyu results ni analyze cheyadaniki tool roopam lo use chesedi. Adhi definition mariyu statistical models role ni explain cheyadam lo help chesedi? Meeru emaina other questions unte tellandi!",2,185 words,2,No native script chars,2,Overlap=0.32 — slightly English-heavy,2,Minor: case inconsistency: 'Statistical' vs 'statistical',2,BGE=0.762,,,,,,
+13,ollama,telugu,9835c793-95dd-4db4-9d99-3209242f14b0,"I have written some code to get the rental data from a certain website here is the following javascript code.
+```javascript
+const axios = require('axios');
+const cheerio = require('cheerio');
+
+const getData = async () => {
+  const response = await axios.get('https://www.realestate.com.au/rent/in-sydney,+nsw/list-1');
+  const $ = cheerio.load(response.data);
+  
+  const properties = [];
+
+  $('.listing-result').each((i, el) => {
+    const property = {};
+
+    property.title = $(el)
+      .find('.property-title')
+      .text()
+      .trim();
+    property.address = $(el)
+      .find('.property-address')
+      .text()
+      .trim();
+    property.price = $(el)
+      .find('.priceText')
+      .text()
+      .trim();
+
+    properties.push(property);
+  });
+
+  return properties;
+};
+
+getData().then((properties) => {
+  console.log(properties);
+});
+```
+Why does the following error occur?
+""AxiosError: Request failed with status code 429""","The HTTP status code 429 Too Many Requests indicates that the server has some sort of rate limit and that your request exceeded it. This could be due to any of the following reasons:
+
+1. The code which makes this request was run many times in a short period, exceeding the rate limit.
+
+2. The website rejects requests which it suspects are spam with a 429 status code. This could mean that the user agent is not a common browser, which is a simple check some websites use. To rectify this, you could add the ""User-Agent"" header to the GET request like so:
+
+```
+const response = await axios.get('https://www.realestate.com.au/rent/in-sydney,+nsw/list-1', 
+     { headers: { 'User-Agent': 'browser.version' }  }
+);
+```
+
+Note that you will have to replace `""browser.version""` with an actual browser user agent string. Depending on the application this code is being run in, this could be considered user agent spoofing, which may be restricted under the laws of some countries or organizations (or the terms of service of the website that the code attempts to access).
+
+3. The website is rate limiting requests for some other reason. This could be due to the request being made through a proxy, in which case other users of the proxy may have been making too many requests, although this is unlikely.
+
+4. The website is rejecting all requests because it is under a denial of service attack. This is unlikely, as the typical behavior of a server under such an attack would be to route traffic to a non-existent server, or deny it completely, giving no valid response at all. However, even if the website did respond with an HTTP status code, it would likely be server error 503 Service Unavailable, given when the server is overloaded.","Nenu ee website nundi rental data teesukovadaniki some code rayanu. Idi javascript code:
+```javascript
+const axios = require('axios');
+const cheerio = require('cheerio');
+
+const getData = async () => {
+  const response = await axios.get('https://www.realestate.com.au/rent/in-sydney,+nsw/list-1');
+  const $ = cheerio.load(response.data);
+  
+  const properties = [];
+
+  $('.listing-result').each((i, el) => {
+    const property = {};
+
+    property.title = $(el)
+      .find('.property-title')
+      .text()
+      .trim();
+    property.address = $(el)
+      .find('.property-address')
+      .text()
+      .trim();
+    property.price = $(el)
+      .find('.priceText')
+      .text()
+      .trim();
+
+    properties.push(property);
+  });
+
+  return properties;
+};
+
+getData().then((properties) => {
+  console.log(properties);
+});
+```
+Idi error em karanam? ""AxiosError: Request failed with status code 429""","HTTP status code 429 Too Many Requests ante, server lo rate limit undi, mariyu meeru ayi exceed chesaru. Idi ee karanalu valla konni sarlu occur avachu:
+
+1. Idi request chesina code chala sarlu chala samayam lo run ayyindi, rate limit exceed ayyindi.
+
+2. Website spam ani suspect chese requests ni 429 status code tho reject chesedi. Idi user agent common browser kadhu karanamga, ee simple check ni websites use chesedi. Idi fix chesukovadaniki, GET request lo ""User-Agent"" header add chesukovali:
+
+```
+const response = await axios.get('https://www.realestate.com.au/rent/in-sydney,+nsw/list-1', 
+     { headers: { 'User-Agent': 'browser.version' }  }
+);
+```
+
+Note: Meeru `""browser.version""` ni actual browser user agent string tho replace chesukovali. Idi run ayyina application ni batti, idi user agent spoofing ani chivaru, ee laws of some countries or organizations (or website terms of service) lo restricted ga undi.
+
+3. Website ee karanam valla rate limit chesedi. Idi proxy through request chesina karanamga, proxy lo unna other users chala sarlu requests chesaru, kani idi unlikely.
+
+4. Website denial of service attack valla sarlu requests ni reject chesedi. Idi unlikely, kani server attack lo unna typical behavior non-existent server ki traffic route cheyadam, mariyu complete deny cheyadam, valid response kadhu. Kani, website HTTP status code tho respond chesina, server overloaded ga unna samayam lo 503 Service Unavailable status code vastundi.",2,215 words,2,No native script chars,2,Overlap=0.33 — slightly English-heavy,2,Minor: case inconsistency: 'Requests' vs 'requests',2,BGE=0.789,,,,,,
+14,ollama,telugu,fb80fb61-3a82-4a76-b27f-6daa3deb714f,Detail the benefits with pros and cons of a unified power grid and remote power generation. Include details about constantly changing/improving power generation methods without needing to rebuild the grid each time.,"A unified power grid refers to a connected network of power generation, transmission, and distribution infrastructure that enables the sharing of electricity across a large geographical area. Remote power generation, on the other hand, involves the production of electricity from a power source located far away from the area where the electricity is consumed.
+
+Benefits of a Unified Power Grid:
+
+1. Increased reliability: A unified power grid ensures that there is a reliable supply of electricity across a large geographical area. This is because the interconnected network enables power to be sourced from multiple generators, and in the event of a failure in one part of the grid, power can be rerouted from other sources to ensure continuity of supply.
+
+2. Improved efficiency: By allowing electricity to be generated and distributed across a large area, a unified power grid can reduce the need for individual power plants in different locations, leading to cost savings and improved efficiency.
+
+3. Access to renewable energy: A unified power grid can facilitate the integration of renewable energy sources into the grid, such as wind and solar power, which can be located in remote areas where they are most effective. This can help to reduce reliance on fossil fuels and promote sustainable energy production.
+
+4. Reduced carbon emissions: The integration of renewable energy sources into a unified power grid can help to reduce carbon emissions and promote a transition towards a more sustainable energy future.
+
+Cons of a Unified Power Grid:
+
+1. Vulnerability to outages: While a unified power grid can increase reliability by enabling power to be rerouted in the event of a failure, it can also make the grid vulnerable to outages if there is a failure in a critical part of the grid.
+
+2. High cost of infrastructure: Building and maintaining a unified power grid can be expensive, particularly in remote areas where the infrastructure needs to be more extensive to reach consumers.
+
+3. Political and regulatory challenges: Establishing a unified power grid requires coordination between different stakeholders, including government bodies, power companies, and consumers, which can be challenging in politically and geographically diverse regions.
+
+Benefits of Remote Power Generation:
+
+1. Flexibility: Remote power generation can be located in areas where it is most effective, such as in areas with abundant renewable energy resources. This can increase flexibility in terms of power generation and reduce reliance on centralized power plants.
+
+2. Reduced infrastructure costs: Remote power generation can reduce the need for extensive transmission and distribution infrastructure, leading to cost savings.
+
+3. Reduced environmental impact: By locating power generation in areas where it is most effective, remote power generation can help to reduce environmental impacts, such as carbon emissions.
+
+4. Innovation: Remote power generation can facilitate the development and deployment of new and innovative power generation technologies, without the need to retrofit existing infrastructure.
+
+Cons of Remote Power Generation:
+
+1. High initial costs: Remote power generation can require significant upfront capital costs, particularly for renewable energy sources such as wind and solar power.
+
+2. Limited transmission capacity: Remote power generation can be limited by the capacity of transmission infrastructure, which can limit the amount of electricity that can be produced and transmitted.
+
+3. Vulnerability to weather: Renewable energy sources such as wind and solar power are vulnerable to weather conditions, which can impact power generation.
+
+Overall, while both unified power grids and remote power generation have their advantages and disadvantages, combining the two can create a more flexible and sustainable energy system. By enabling the integration of renewable energy sources into a unified power grid, remote power generation can help to reduce reliance on fossil fuels and promote a more sustainable energy future. Additionally, a unified power grid can help to increase the reliability and efficiency of the energy system, while reducing infrastructure costs by enabling power to be sourced from multiple generators.","Unified power grid mariyu remote power generation lo benefits ni pros mariyu cons tho vishadanga cheppu. Grid ni marichina prasthuthi valla, constantly changing/improving power generation methods lo details ni add cheyyandi.","Unified power grid anedi power generation, transmission, mariyu distribution infrastructure lo connected network. Idi valla vishala bhoomi kshetram lo electricity sharing sambhavam. Remote power generation anedi, electricity consumption avvadaniki dooram unna power source nundi electricity production cheyadam.
+
+Unified Power Grid Benefits:
+
+1. Increased reliability: Unified power grid valla vishala bhoomi kshetram lo reliable electricity supply untundi. Interconnected network valla multiple generators nundi power source ga chusukovachu. Grid lo oka part lo failure aithe, mariyu sources nundi power reroute cheyadam valla supply continuity untundi.
+
+2. Improved efficiency: Vishala area lo electricity generate cheyadam mariyu distribute cheyadam valla, different locations lo individual power plants need reduce avtundi. Idi cost savings mariyu improved efficiency ni lead chestundi.
+
+3. Access to renewable energy: Unified power grid valla renewable energy sources like wind mariyu solar power ni grid lo integrate cheyadam sambhavam. Idi remote areas lo effective ga unna sources ni use cheyadam valla fossil fuels reliance reduce avtundi, sustainable energy production ni promote chestundi.
+
+4. Reduced carbon emissions: Renewable energy sources integration valla carbon emissions reduce avtundi, sustainable energy future ki transition ni promote chestundi.
+
+Unified Power Grid Cons:
+
+1. Vulnerability to outages: Unified power grid valla reliability increase ayyina, critical part lo failure aithe grid outages ki vulnerable ga undi.
+
+2. High cost of infrastructure: Unified power grid building mariyu maintenance expensive ga undi, particularly remote areas lo infrastructure extensive ga undali.
+
+3. Political and regulatory challenges: Unified power grid establish cheyadam valla government bodies, power companies, mariyu consumers ni coordinate cheyadam chala challenging ga undi, politically mariyu geographically diverse regions lo.
+
+Remote Power Generation Benefits:
+
+1. Flexibility: Remote power generation valla most effective ga unna areas lo location cheyadam sambhavam, like abundant renewable energy resources unna areas. Idi power generation lo flexibility increase chestundi, centralized power plants reliance reduce chestundi.
+
+2. Reduced infrastructure costs: Remote power generation valla extensive transmission mariyu distribution infrastructure need reduce avtundi, cost savings ni lead chestundi.
+
+3. Reduced environmental impact: Most effective ga unna areas lo power generation location valla environmental impacts like carbon emissions reduce avtundi.
+
+4. Innovation: Remote power generation valla new mariyu innovative power generation technologies development mariyu deployment sambhavam, existing infrastructure ni retrofit cheyadaniki need ledu.
+
+Remote Power Generation Cons:
+
+1. High initial costs: Remote power generation valla significant upfront capital costs require avtundi, particularly renewable energy sources like wind mariyu solar power.
+
+2. Limited transmission capacity: Remote power generation valla transmission infrastructure capacity limit avtundi, electricity production mariyu transmission limit avtundi.
+
+3. Vulnerability to weather: Renewable energy sources like wind mariyu solar power weather conditions ki vulnerable ga undi, power generation impact avtundi.
+
+Overall, unified power grids mariyu remote power generation lo advantages mariyu disadvantages undi, idi combine cheyadam valla more flexible mariyu sustainable energy system create avtundi. Unified power grid lo renewable energy sources integration valla, remote power generation fossil fuels reliance reduce chestundi, sustainable energy future ni promote chestundi. Unified power grid valla energy system reliability mariyu efficiency increase chestundi, multiple generators nundi power source cheyadam valla infrastructure costs reduce chestundi.",2,501 words,2,No native script chars,2,Overlap=0.40 — slightly English-heavy,2,Minor: case inconsistency: 'power' vs 'Power',2,BGE=0.821,,,,,,
+15,ollama,telugu,2453d1f8-7c43-4a9f-8cfa-6cb6f8d40bbc,"Hello Assistant, 
+
+Could you please outline a calm, optimised, morning routine, with time for a shower, a nutritional and healthy breakfast and 45 minutes for meditation. To prime me for a day of creative problem solving.","Sure, here's a calm, optimized morning routine that includes time for a shower, a nutritional and healthy breakfast, and 45 minutes for meditation to help you start your day right and prime you for a day of creative problem solving:
+
+5:30am - Wake up, stretch and take a few deep breaths to get your blood flowing.
+
+5:35am - Drink a glass of water to hydrate your body and jumpstart your metabolism.
+
+5:40am - Take a shower and use the time to wake up your senses and clear your mind.
+
+6:00am - Prepare a nutritious breakfast that includes protein, complex carbohydrates, and healthy fats, such as a vegetable omelet with avocado and whole-grain toast, or oatmeal with nuts and fruit.
+
+6:30am - Sit down for a mindful breakfast, taking the time to enjoy and savor your food without distractions. Use this time to set your intentions for the day and focus on your priorities.
+
+7:00am - Set aside 45 minutes for meditation or other calming practice, such as yoga or deep breathing exercises. Use this time to clear your mind, cultivate inner peace, and focus on your breath.
+
+7:45am - Finish your morning routine by reviewing your schedule for the day, setting your goals and priorities, and mentally preparing for the challenges and opportunities ahead.
+
+Remember, the key to a successful morning routine is to prioritize self-care and take the time to set your intentions for the day. By starting your day with a calm, focused mindset, you'll be better equipped to handle whatever challenges come your way and approach problem solving with creativity and clarity.","Hello Assistant, 
+
+Could you please outline a calm, optimised, morning routine, with time for a shower, a nutritional and healthy breakfast and 45 minutes for meditation. To prime me for a day of creative problem solving.","Sure, here's a calm, optimized morning routine that includes time for a shower, a nutritional and healthy breakfast, and 45 minutes for meditation to help you start your day right and prime you for a day of creative problem solving:
+
+5:30am - Wake up, stretch and take a few deep breaths to get your blood flowing.
+
+5:35am - Drink a glass of water to hydrate your body and jumpstart your metabolism.
+
+5:40am - Take a shower and use the time to wake up your senses and clear your mind.
+
+6:00am - Prepare a nutritious breakfast that includes protein, complex carbohydrates, and healthy fats, such as a vegetable omelet with avocado and whole-grain toast, or oatmeal with nuts and fruit.
+
+6:30am - Sit down for a mindful breakfast, taking the time to enjoy and savor your food without distractions. Use this time to set your intentions for the day and focus on your priorities.
+
+7:00am - Set aside 45 minutes for meditation or other calming practice, such as yoga or deep breathing exercises. Use this time to clear your mind, cultivate inner peace, and focus on your breath.
+
+7:45am - Finish your morning routine by reviewing your schedule for the day, setting your goals and priorities, and mentally preparing for the challenges and opportunities ahead.
+
+Remember, the key to a successful morning routine is to prioritize self-care and take the time to set your intentions for the day. By starting your day with a calm, focused mindset, you'll be better equipped to handle whatever challenges come your way and approach problem solving with creativity and clarity.",2,265 words,2,No native script chars,0,Overlap=1.00 — barely romanized,2,Minor: case inconsistency: 'take' vs 'Take',3,BGE=1.000,,,,,,
+16,ollama,telugu,8228234f-b459-4f01-be35-38de086ac5e4,"Please list me some ideas for magical abilities in a magic system for an epic fantasy novel, let the powers be inspired by the magic systems of Fantasy author Brandon Sanderson. be detailed about what each power does and how it can be used in a plot appropriately.","Here are some ideas for magical abilities inspired by Brandon Sanderson's magic systems, along with their descriptions and potential plot applications:
+
+1. Shardbinding: The ability to bond with powerful magical artifacts called shards, granting the user enhanced physical abilities, energy manipulation, and the ability to summon unique weapons. This power can be used to shape the outcome of battles, lead armies, and uncover ancient secrets hidden within shards.
+
+2. Soulforging: The ability to manipulate the souls of living beings. Soulforgers can infuse objects with fragments of souls, giving them temporary sentience or imbuing them with specific abilities. This power can be used to create intelligent weapons, forge alliances with elemental spirits, or heal wounds by repairing damaged souls.
+
+3. Essence Weaving: The ability to manipulate different forms of energy, such as light, heat, or sound. Essence Weavers can channel these energies to create illusions, manipulate the environment, or unleash devastating attacks. This power can be used to deceive enemies, create distractions, or unlock ancient gateways sealed by energy barriers.
+
+4. Bloodbinding: The ability to control and manipulate the life force within oneself and others. Bloodbinders can heal wounds, enhance physical attributes, or drain the life force of their opponents. This power can be used to save lives, perform miraculous healings, or delve into forbidden arts by sacrificing their own life force.
+
+5. Time Dilation: The ability to manipulate time, slowing it down or speeding it up in localized areas. Time Mages can gain incredible reflexes, predict their opponents' moves, or even freeze time for brief moments. This power can be used to perform impossible feats, escape dangerous situations, or uncover hidden truths by perceiving events at an accelerated rate.
+
+6. Elemental Mastery: The ability to control and manipulate one or multiple elements such as fire, water, air, or earth. Elemental Masters can summon and shape these elements, unleashing devastating attacks or manipulating the environment. This power can be used to defend against natural disasters, control the battlefield, or negotiate with elemental beings.
+
+7. Mindlinking: The ability to form mental connections with others, allowing the sharing of thoughts, emotions, and memories. Mindlinkers can communicate silently, form telepathic networks, or even temporarily take control of another's body. This power can be used to forge powerful alliances, extract information covertly, or infiltrate the minds of enemies to discover their secrets.
+
+8. Rune Engraving: The ability to inscribe magical runes onto surfaces or objects, granting them specific properties or abilities. Rune Engravers can create protective wards, enhance weapons, or create barriers that manipulate the flow of magic. This power can be used to unravel ancient inscriptions, decipher lost languages, or seal away dangerous entities.
+
+These magical abilities can serve as the foundation for a rich and diverse magic system within your epic fantasy novel, providing opportunities for thrilling action, character development, and exploration of the fantastical world you create. Remember to carefully consider how each power interacts with the plot and characters, ensuring a balance between their strengths and limitations to maintain tension and suspense.","Please list me some ideas for magical abilities in a magic system for an epic fantasy novel, let the powers be inspired by the magic systems of Fantasy author Brandon Sanderson. be detailed about what each power does and how it can be used in a plot appropriately.","Here are some ideas for magical abilities inspired by Brandon Sanderson's magic systems, along with their descriptions and potential plot applications:
+
+1. Shardbinding: The ability to bond with powerful magical artifacts called shards, granting the user enhanced physical abilities, energy manipulation, and the ability to summon unique weapons. This power can be used to shape the outcome of battles, lead armies, and uncover ancient secrets hidden within shards.
+
+2. Soulforging: The ability to manipulate the souls of living beings. Soulforgers can infuse objects with fragments of souls, giving them temporary sentience or imbuing them with specific abilities. This power can be used to create intelligent weapons, forge alliances with elemental spirits, or heal wounds by repairing damaged souls.
+
+3. Essence Weaving: The ability to manipulate different forms of energy, such as light, heat, or sound. Essence Weavers can channel these energies to create illusions, manipulate the environment, or unleash devastating attacks. This power can be used to deceive enemies, create distractions, or unlock ancient gateways sealed by energy barriers.
+
+4. Bloodbinding: The ability to control and manipulate the life force within oneself and others. Bloodbinders can heal wounds, enhance physical attributes, or drain the life force of their opponents. This power can be used to save lives, perform miraculous healings, or delve into forbidden arts by sacrificing their own life force.
+
+5. Time Dilation: The ability to manipulate time, slowing it down or speeding it up in localized areas. Time Mages can gain incredible reflexes, predict their opponents' moves, or even freeze time for brief moments. This power can be used to perform impossible feats, escape dangerous situations, or uncover hidden truths by perceiving events at an accelerated rate.
+
+6. Elemental Mastery: The ability to control and manipulate one or multiple elements such as fire, water, air, or earth. Elemental Masters can summon and shape these elements, unleashing devastating attacks or manipulating the environment. This power can be used to defend against natural disasters, control the battlefield, or negotiate with elemental beings.
+
+7. Mindlinking: The ability to form mental connections with others, allowing the sharing of thoughts, emotions, and memories. Mindlinkers can communicate silently, form telepathic networks, or even temporarily take control of another's body. This power can be used to forge powerful alliances, extract information covertly, or infiltrate the minds of enemies to discover their secrets.
+
+8. Rune Engraving: The ability to inscribe magical runes onto surfaces or objects, granting them specific properties or abilities. Rune Engravers can create protective wards, enhance weapons, or create barriers that manipulate the flow of magic. This power can be used to unravel ancient inscriptions, decipher lost languages, or seal away dangerous entities.
+
+These magical abilities can serve as the foundation for a rich and diverse magic system within your epic fantasy novel, providing opportunities for thrilling action, character development, and exploration of the fantastical world you create. Remember to carefully consider how each power interacts with the plot and characters, ensuring a balance between their strengths and limitations to maintain tension and suspense.",2,501 words,2,No native script chars,0,Overlap=1.00 — barely romanized,2,Minor: case inconsistency: 'The' vs 'the',3,BGE=1.000,,,,,,
+17,ollama,telugu,38ff4ff1-25a4-4823-b933-0c8371124a12,"Can you please provide a few observations that are disproving the flat earth theory with an explanation how exactly it contradicts the flatness argument and why.
+Please make at least seven points and provide the easiest to understand first.","1. Gravity: Gravity pulls objects towards the center of mass, which for a spherical Earth, would pull everything towards the center. If the Earth were flat, gravity would pull objects towards the edges, causing things to slide or roll in that direction. This does not happen, as objects fall straight down, consistent with a spherical Earth.
+2. Curvature of the horizon: When observing the horizon from a high altitude, such as on an airplane or a tall building, it is evident that the horizon curves. This curvature is consistent with a spherical Earth, not a flat one. Additionally, as ships sail away from the viewer, they disappear over the horizon bottom-first, indicating a curved surface.
+3. Earth's shadow on the Moon: During a lunar eclipse, Earth casts a round shadow on the Moon. This round shadow is consistent with a spherical Earth, not a flat one. A flat Earth would cast an elongated or irregular shadow on the Moon.
+4. Time zones: As the Earth rotates, different parts of the world experience daylight and nighttime at different times. If the Earth were flat, the entire world would experience daylight or nighttime simultaneously. This does not happen, which supports the spherical Earth theory.
+5. Satellite images and space travel: Astronauts, satellites, and space probes have provided countless images and videos of Earth from space, all showing a spherical Earth. If the Earth were flat, we would see a flat disc instead of a sphere.
+6. Coriolis effect: The Coriolis effect causes moving objects to be deflected based on their location on Earth, with different deflections occurring in the Northern and Southern Hemispheres. This effect is due to the rotation of the Earth and would not be observed on a flat Earth.
+7. Circumnavigation: People have traveled around the Earth, returning to their starting point without ever reversing direction. This is only possible because Earth is a sphere. On a flat Earth, it would be impossible to travel around the world and return to the starting point without turning around at some point.","Flat earth theory ni disprove chese kuchu observations ni, avu flatness argument ni exact ga contravadi chesina karanam mariyu karanam tho explain chesi provide cheyandi. Kani at least 7 points provide cheyandi mariyu easiest ga understand avune first provide cheyandi.","1. Gravity: Gravity objects ni mass center ki pull chesedi, spherical Earth ki aa center ki ellam pull avtayi. Earth flat aithe, gravity objects ni edges ki pull chesi, avu valla slide avvadam mariyu roll avvadam chesedi. Kani aa valla objects straight ga down ki padutayi, aa spherical Earth ki consistent ga undi.
+2. Horizon curvature: High altitude nundi, like airplane lo mariyu tall building lo, horizon ni observe cheseppudu, aa horizon curved ga undi ani clear ga telustundi. Aa curvature spherical Earth ki consistent ga undi, flat Earth ki kadhu. Adiga, ships viewer nundi dooram ga sail aithe, bottom-first ga horizon nundi disappear avtayi, aa curved surface ni indicate chesedi.
+3. Earth's shadow on Moon: Lunar eclipse samayam lo, Earth Moon ki round shadow cast chesedi. Aa round shadow spherical Earth ki consistent ga undi, flat Earth ki kadhu. Flat Earth aithe, Moon ki elongated mariyu irregular shadow cast avtundi.
+4. Time zones: Earth rotate aithe, world lo vaddi parts lo daylight mariyu nighttime vaddi samayam lo untayi. Earth flat aithe, entire world lo daylight mariyu nighttime simultaneously ga untayi. Kani aa valla spherical Earth theory ni support chesedi.
+5. Satellite images mariyu space travel: Astronauts, satellites, mariyu space probes Earth nundi space nundi countless images mariyu videos provide chesayi, ellam spherical Earth ni show chesayi. Earth flat aithe, sphere ki badulu flat disc ni chustam.
+6. Coriolis effect: Coriolis effect valla moving objects ni Earth lo unna location ni batti deflected avtayi, Northern mariyu Southern Hemispheres lo vaddi deflections untayi. Aa effect Earth rotation valla untundi, flat Earth lo aa effect observe avvadu.
+7. Circumnavigation: Manam Earth around ga travel chesi, starting point ki return chesam, direction ni reverse cheyadaniki kadhu. Aa possible kavalu Earth sphere ga undi karanam tho matrame. Flat Earth lo, world around ga travel chesi, starting point ki return cheyadaniki, vaddi point lo turn cheyadaniki impossible ga undi.",2,314 words,2,No native script chars,3,Overlap=0.30 — well romanized,2,Minor: case inconsistency: 'Gravity' vs 'gravity',2,BGE=0.832,,,,,,
+18,ollama,telugu,c10ee1ad-3e05-4987-af6d-96108785d151,"Is there a way to convert a .png or .svg into a .ai file? I am looking to laser cut something, and it basically only accepts .ai files. I don’t have an Adobe Illustrator licence, and wouldn’t be willing to buy one just for this.","Here are some ways to convert a PNG or SVG file into an AI file:
+
+Use an online file converter: There are many online file converters available that can convert PNG or SVG files into AI files. Simply upload your file to the website and choose AI as the output format.
+
+Use a file conversion software: There are many software programs available that can convert PNG or SVG files into AI files. Some popular options include Inkscape, CorelDRAW, and Xara Designer.
+
+Keep in mind that the quality of the converted AI file may vary depending on the original file and the conversion method used. It's always a good idea to double-check the converted file to make sure it looks the way you want it to.","A .png leda .svg ni .ai file lo convert cheyadaniki oka patha unda? Nenu laser cut cheyadaniki chustunna, adhi basic ga .ai files ni matrame accept chestundi. Naku Adobe Illustrator licence ledu, kani ee kaaryartham kosam matrame onekku istha. Ippudu nenu cheyadaniki oka patha unda?","PNG leda SVG file ni AI file lo convert cheyadaniki kai pathalu undi:
+
+Online file converter ni upayogichu: PNG leda SVG files ni AI files lo convert cheyadaniki kai online file converters untayi. Kevvu file ni website lo upload chesi, output format ga AI ni chusukondi.
+
+File conversion software ni upayogichu: PNG leda SVG files ni AI files lo convert cheyadaniki kai software programs untayi. Kuchap popular options lo Inkscape, CorelDRAW, Xara Designer untayi.
+
+Convert chesina AI file quality, original file meeda leda convert cheyadaniki upayogichina method meeda nirbhandistundi. Convert chesina file ni cheppina taruvata, adhi naku kavalsina taruvata unda ani cheppukovadam bagundi.",2,103 words,2,No native script chars,3,Overlap=0.20 — well romanized,2,Minor: case inconsistency: 'Online' vs 'online',2,BGE=0.826,,,,,,
+19,ollama,telugu,03932f04-c1bf-42c8-a916-07fa73ddf5ad,Pretend you are a computer science professor. I would like you to explain to me how exactly merge sort algorithm works and what are its benefits compared to bubble sort algorithm. Give an implementation example written in rust programming language,"Merge sort is a divide and conquer algorithm that works by recursively splitting the input array in half until the arrays are split into single elements. Then, the sorted arrays are merged back together in sorted order.
+
+The key benefits of merge sort over a simpler algorithm like bubble sort are:
+
+1. It is a stable sort that does not change the relative order of elements with equal keys.
+2. It has an efficiency of O(n log n) time complexity, making it a relatively efficient algorithm even for large input sizes. Bubble sort, on the other hand, has a quadratic time complexity of O(n^2), making it very inefficient for larger inputs.
+3. It is a generic algorithm that can sort any type of data for which a comparison function exists.
+
+Here is a Rust implementation example:
+```rust
+fn merge_sort(vec: &mut [i32]) {
+    if vec.len() < 2 {
+        return;
+    }
+
+    let mid = vec.len() / 2;
+    let (left, right) = vec.split_at_mut(mid);
+
+    merge_sort(left);
+    merge_sort(right);
+
+    merge(left, right, vec);
+}
+
+fn merge(left: &mut [i32], right: &mut [i32], vec: &mut [i32]) {
+    let mut i = 0;
+    let mut j = 0;
+    let mut k = 0;
+
+    while i < left.len() && j < right.len() {
+        if left[i] < right[j] {
+            vec[k] = left[i];
+            i += 1;
+        } else {
+            vec[k] = right[j];
+            j += 1;
+        }
+        k += 1;
+    }
+
+    while i < left.len() {
+        vec[k] = left[i];
+        i += 1;
+        k += 1;
+    }
+
+    while j < right.len() {
+        vec[k] = right[j];
+        j += 1;
+        k += 1;
+    }
+}
+```","Computer science professor ga pretend cheyandi. Merge sort algorithm exact ga ela kaam chesindo, bubble sort algorithm tho compare chesina benefits ela untayo naku explain cheyandi. Rust programming language lo implementation example ivvu.","Merge sort anedi divide and conquer algorithm. Input array ni recursive ga half ga split chesi, single elements varaku vachaka split chesedi. Danni, sorted arrays ni sorted order lo merge chesi combine chesedi.
+
+Bubble sort ni chudu chala simple algorithm kante merge sort ki unna mukhya benefits:
+
+1. Isthi stable sort. Equal keys unna elements relative order ni change cheyadu.
+2. O(n log n) time complexity tho efficiency untundi. Chala baga large input sizes ki kuda efficient algorithm. Bubble sort ki O(n^2) quadratic time complexity untundi, chala large inputs ki chala inefficient ga untundi.
+3. Comparison function unna prathi type data ni sort cheyadaniki generic algorithm.
+
+Idi Rust implementation example:
+```rust
+fn merge_sort(vec: &mut [i32]) {
+    if vec.len() < 2 {
+        return;
+    }
+
+    let mid = vec.len() / 2;
+    let (left, right) = vec.split_at_mut(mid);
+
+    merge_sort(left);
+    merge_sort(right);
+
+    merge(left, right, vec);
+}
+
+fn merge(left: &mut [i32], right: &mut [i32], vec: &mut [i32]) {
+    let mut i = 0;
+    let mut j = 0;
+    let mut k = 0;
+
+    while i < left.len() && j < right.len() {
+        if left[i] < right[j] {
+            vec[k] = left[i];
+            i += 1;
+        } else {
+            vec[k] = right[j];
+            j += 1;
+        }
+        k += 1;
+    }
+
+    while i < left.len() {
+        vec[k] = left[i];
+        i += 1;
+        k += 1;
+    }
+
+    while j < right.len() {
+        vec[k] = right[j];
+        j += 1;
+        k += 1;
+    }
+}
+```",2,232 words,2,No native script chars,1,Overlap=0.50 — too much English,2,Minor: case inconsistency: 'Merge' vs 'merge',3,BGE=0.853,,,,,,
+20,ollama,telugu,c6b44ac1-caf3-4f8d-b1df-b530644bb809,You are a physician seeing a patient in clinic with newly found anemia. This patient is a 60 year old biological male and has been feeling more short of breath in the last 3 months. What questions do you have for him?,"As a physician, when seeing a patient with newly found anemia and shortness of breath, there are several questions that I would like to ask the patient to help me better understand their symptoms and determine the appropriate course of action. These questions may include:
+
+1. How long have you been feeling more short of breath?
+
+2. Is the shortness of breath worse with exertion, lying down, or at rest?
+
+3. Have you noticed any chest pain or tightness, lightheadedness, or dizziness with the shortness of breath?
+
+4. Have you noticed any changes in your energy level or ability to complete your usual activities?
+
+5. Have you had any recent infections or illnesses?
+
+6. Have you had any recent surgeries or procedures?
+
+7. Have you recently lost weight without trying to do so?
+
+8. Have you had any recent changes in your diet or appetite?
+
+9. Do you have a history of any chronic medical conditions, such as heart disease, lung disease, or kidney disease?
+
+10. Have you ever had a history of bleeding disorders or problems with blood clotting?
+
+11. Are you taking any medications, including over-the-counter supplements?
+
+12. Have you ever had any blood transfusions or blood disorders in the past?
+
+These questions will help me understand the patient's medical history, potential underlying causes of their anemia, and any other possible contributing factors to their shortness of breath. Depending on their responses, further testing or referrals may be necessary to properly diagnose and treat their condition.","Meeru ekkuva anemia unna rogi ni clinic lo chustunnaru. Ee rogi 60 varshalu unna jeevitha purushudu, mariyu ichchada 3 mahulu lo shwasa lagnu chala vachindi. Meeku ee rogi ni kottina prashnalu emiti?","Ekkuva anemia mariyu shwasa lagnu unna rogi ni chustunna physician ga, rogi lakshanalu baga artham chesukoni, appropriate karyakram ni niyukchukoni, naaku rogi ni kottina kai prashnalu unnaayi. Ee prashnalu ivi kani:
+
+1. Meeru shwasa lagnu chala vachina samayam emiti?
+
+2. Shwasa lagnu vyayama, chivara, mariyu vishramam lo chala vachina prashna unnaayi?
+
+3. Shwasa lagnu kooda chest pain, tightness, lightheadedness, mariyu dizziness unnaayi?
+
+4. Meeru energy level lo mariyu usual activities ni complete cheyadam lo marpu chustunnara?
+
+5. Meeru ichchada infections mariyu illnesses unnaayi?
+
+6. Meeru ichchada surgeries mariyu procedures unnaayi?
+
+7. Meeru ichchada weight loss unnaayi?
+
+8. Meeru ichchada diet mariyu appetite lo marpu chustunnara?
+
+9. Meeru heart disease, lung disease, kidney disease mariyu chronic medical conditions unnaayi?
+
+10. Meeru bleeding disorders mariyu blood clotting problems unnaayi?
+
+11. Meeru medications, including over-the-counter supplements, chustunnara?
+
+12. Meeru ichchada blood transfusions mariyu blood disorders unnaayi?
+
+Ee prashnalu rogi medical history, anemia ki potential underlying causes, mariyu shwasa lagnu ki possible contributing factors ni artham chesukoni help avtayi. Ee prashnalu lo rogi uttaralu batti, further testing mariyu referrals ni niyukchukoni, condition ni properly diagnose mariyu treat cheyadam jaruguthundi.",2,185 words,2,No native script chars,3,Overlap=0.26 — well romanized,2,Minor: case inconsistency: 'shwasa' vs 'Shwasa',1,BGE=0.620,,,,,,

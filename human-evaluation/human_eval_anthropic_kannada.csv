@@ -1,0 +1,807 @@
+row_num,model,language,message_id,query_en,response_en,romanized_query,romanized_response,1_response_completeness (0-2),1_auto_reason,2_script_purity (0-2),2_auto_reason,3_english_romanized_balance (0-3),3_auto_reason,4_romanization_consistency (0-3),4_auto_reason,5_semantic_faithfulness (0-3),5_auto_reason,6_naturalness_fluency (0-3),7_grammar_correctness (0-2),8_word_choice_accuracy (0-2),9_register_appropriateness (0-2),10_overall_usability (0-3),evaluator_notes
+1,anthropic,kannada,fa4d01e1-5c0e-4a8a-8897-e4c21c4951bf,"Hi, I need help creating a perfect CV, help me rewrite a bullet point of my attributes. Make it seam short, but professional. Do not add or remove any items from the list, only change the style.
+-Creativity - I can solve a problem quickly, using an effective solution.
+-Communication / teamwork skills - I am open to people, and like cooperation.
+-Dealing with stress / time pressure - I do not make decisions under the influence of emotion, I calmly analyze any given situation. 
+-Personal culture - I treat each person with proper respect. 
+-Persistance in goals -  I achieve goals no matter the hardships.
+-Punctuality - having a set deadline, I always complete tasks on time.","-   Innovative problem-solving - Quickly identify and implement effective solutions.
+-   Strong interpersonal skills - Open to collaboration and adept at communication.
+-   Resilience under pressure - Remain calm and focused under stress, making rational decisions.
+-   Professional demeanor - Treat all individuals with respect and dignity.
+-   Determined mindset - Persistently work towards set goals, regardless of challenges.
+-   Timeliness - Consistently meet deadlines and complete tasks promptly.","Hi, naanu perfect CV create maadoke help beku, nanna attributes na bullet point annu rewrite maadi help maadi. Idu chikkadagi kanisbeku, aadre professional aagirbeku. List inda yaavude items add maadbedi athva remove maadbedi, bari style change maadi.
+-Creativity - Naanu effective solution use maadi, problem annu bega solve maadballe.
+-Communication / teamwork skills - Naanu janara jote open aagiruttene, mattu cooperation ishta.
+-Dealing with stress / time pressure - Naanu emotion influence inda decision tagolalla, yaavude situation annu calm aagi analyze maadtene.
+-Personal culture - Naanu pratiyobbarannu sariyaada respect inda treat maadtene.
+-Persistance in goals - Eshte kashta bandru goals achieve maadtene.
+-Punctuality - Deadline fix aagidre, naanu yaavaglu time ge tasks complete maadtene.","-   Innovative problem-solving - Effective solutions annu bega identify maadi implement maadtene.
+-   Strong interpersonal skills - Collaboration ge open aagiruttene mattu communication nalli adept aagiddene.
+-   Resilience under pressure - Stress nalli kuda calm mattu focused aagiruttene, rational decisions tagotene.
+-   Professional demeanor - Ella vyaktigalannu respect mattu dignity inda treat maadtene.
+-   Determined mindset - Challenges yenadru iralli, set goals kade persistently work maadtene.
+-   Timeliness - Deadlines annu yaavaglu meet maadtene mattu tasks annu bega complete maadtene.",2,80 words,2,No native script chars,2,Overlap=0.40 — slightly English-heavy,3,No consistency issues detected,3,BGE=0.861,,,,,,
+2,anthropic,kannada,046f3cb7-c00f-49f3-b072-3886d6291b87,"I would like to understand the timeline of the Back to the Future series. I like the story but the time traveling back and forth makes me confused about what happened when exactly, and there are changes in the meantime as well. Could you explain to me in a simple way the timeline of the movies?","Sure, I can help you understand the timeline of the Back to the Future series.
+
+The Back to the Future trilogy follows the adventures of teenager Marty McFly and his eccentric scientist friend, Doc Brown, as they travel through time in a modified DeLorean sports car. The timeline is complex due to the time-traveling and the resulting changes made by the characters, but I'll try to explain it as simply as possible.
+
+Back to the Future
+
+The first movie, released in 1985, is set in 1985 and 1955. The story begins in 1985, where Marty McFly accidentally travels back in time to 1955 and meets his parents before they got married. In the process, he interferes with their meeting and jeopardizes his own existence. With the help of Doc Brown, Marty must repair history and find a way back to the future.
+
+Back to the Future Part II
+
+The second movie, released in 1989, is set in 1985, 2015, and an alternate 1985. The story begins in 1985, where Doc Brown arrives in a flying DeLorean and takes Marty and his girlfriend Jennifer to 2015 to prevent their future children from getting into trouble. However, while in the future, Biff Tannen, an old enemy of the McFly family, steals the DeLorean and travels back to 1955 to give his younger self a sports almanac that allows him to become rich. This creates an alternate 1985 where Biff is powerful and corrupt. Marty and Doc must travel back to 1955 and retrieve the almanac to restore the timeline.
+
+Back to the Future Part III
+
+The third movie, released in 1990, is set in 1985 and 1885. The story begins in 1985, where Doc Brown has been missing for several years after traveling back to 1885. Marty discovers a letter from Doc in 1955 that explains his situation and asks for his help. Marty travels back to 1885 to rescue Doc from being killed by Biff's ancestor and prevent him from being trapped in the past. They face a series of challenges while trying to find a way to get back to 1985.
+
+In summary, the Back to the Future trilogy involves a lot of time-traveling and changes made to the timeline. The characters must navigate these changes and find a way to restore the timeline to its original state.","Nanage Back to the Future series na timeline arthamadkollabeku antha ide. Story ishta aagathe, aadre time travel munde hindhe hogodrinda yaavaga enu aaytu antha confuse aagthade, mattu adra naduve changes kooda agutte. Movies na timeline na simple aagi explain madthira?","Khanditha, naanu nimage Back to the Future series na timeline arthamadkolloke help madballe.
+
+Back to the Future trilogy teenager Marty McFly mattu avana eccentric scientist friend Doc Brown ra adventures na follow madutte, avaru modified DeLorean sports car nalli time travel madthare. Time travel mattu characters maadida changes inda timeline tumba complex agi ide, aadre naanu adanna saadhya idashtu simple aagi explain madoke try madthini.
+
+Back to the Future
+
+Modala movie, 1985 nalli release aagidu, 1985 mattu 1955 nalli set agide. Story 1985 nalli shuru aagutte, alli Marty McFly accidentally 1955 ge time travel maadi tanna parents avaru madve aagudakke modale bhetiyaagthane. Aa process nalli, avara bhetige adda aagi tanna astitva ge ne aapatthu tarthane. Doc Brown na sahaayadinda, Marty history annu repair maadi future ge wapas barbeku.
+
+Back to the Future Part II
+
+Eradane movie, 1989 nalli release aagidu, 1985, 2015, mattu alternate 1985 nalli set agide. Story 1985 nalli shuru aagutte, alli Doc Brown flying DeLorean nalli bandu Marty mattu avana girlfriend Jennifer nannu 2015 ge karkond hogthane, avara future children tondre ge sigodanna prevent madoke. Aadre, future nalli iddaaga, Biff Tannen, McFly family ya old enemy, DeLorean kadyodu 1955 ge hogi tanna younger self ge ondu sports almanac kodthane, adu avanige rich agoke help madutte. Idu alternate 1985 annu create madutte alli Biff powerful mattu corrupt aagirthane. Marty mattu Doc 1955 ge wapas hogi almanac annu vapas tand timeline na restore madbeku.
+
+Back to the Future Part III
+
+Mooraneya movie, 1990 nalli release aagidu, 1985 mattu 1885 nalli set agide. Story 1985 nalli shuru aagutte, alli Doc Brown 1885 ge hogi hala varushagalinda missing agirthane. Marty 1955 nalli Doc na ondu letter pattha hachthane, adu avana situation explain madutte mattu sahaaya kelutte. Marty 1885 ge hogi Doc nannu Biff na ancestor inda kollod inda rescue madbeku mattu avanu past nalli trap aagod inda prevent madbeku. Avaru 1985 ge wapas hogo daari hudkovaaga halavu challenges face madthare.
+
+Saramshadalli, Back to the Future trilogy nalli bahala time travel mattu timeline ge changes maadidaru ide. Characters ee changes navigate maadi timeline annu adra original state ge restore madbeku.",2,348 words,2,No native script chars,3,Overlap=0.23 — well romanized,1,Multiple: case inconsistency: 'time' vs 'Time'; vowel inconsistency: 'naanu',2,BGE=0.822,,,,,,
+3,anthropic,kannada,1ce71be9-b3b9-42e7-8831-acebc871b4ec,"Extract the dates from the following paragraph: ""The 20th (twentieth) century began on January 1, 1901 (MCMI), and ended on December 31, 2000 (MM).[1] The 20th century was dominated by significant events that defined the modern era: sixth mass extinction, Spanish flu pandemic, World War I and World War II, nuclear weapons, nuclear power and space exploration, nationalism and decolonization, the Cold War and post-Cold War conflicts, and technological advances. These reshaped the political and social structure of the globe.""","Here are the dates extracted from the paragraph, presented in various formats:
+
+**Verbatim**
+- January 1, 1901 (MCMI)
+- December 31, 2000 (MM)
+
+**Full date**
+- January 1, 1901
+- December 31, 2000
+
+**All-numeric (MM/DD/YYYY)**
+- 01/01/1901
+- 12/31/2000
+
+**All-numeric (DD/MM/YYYY)**
+- 01/01/1901
+- 31/12/2000
+
+It should be noted that both variants of the all-numeric notation are often shortened to include only the last two digits for the year instead of four, however, considering that the leading digits for representing the year in this paragraph vary from one another, doing so might be inappropriate, as it can lead to the loss of significant information.
+
+Lastly, here are the standalone extractions of year notations represented with Roman numerals:
+- MCMI
+- MM
+
+Standalone, they are not dates, per se, but they can be combined with a day and a month to become one.","Ee kelaginha paragraph inda dates galannu extract maadi: ""The 20th (twentieth) century began on January 1, 1901 (MCMI), and ended on December 31, 2000 (MM).[1] The 20th century was dominated by significant events that defined the modern era: sixth mass extinction, Spanish flu pandemic, World War I and World War II, nuclear weapons, nuclear power and space exploration, nationalism and decolonization, the Cold War and post-Cold War conflicts, and technological advances. These reshaped the political and social structure of the globe.""","Illi paragraph inda extract maadida dates galu, bere bere formats nalli koduttiddene:
+
+**Verbatim**
+- January 1, 1901 (MCMI)
+- December 31, 2000 (MM)
+
+**Full date**
+- January 1, 1901
+- December 31, 2000
+
+**All-numeric (MM/DD/YYYY)**
+- 01/01/1901
+- 12/31/2000
+
+**All-numeric (DD/MM/YYYY)**
+- 01/01/1901
+- 31/12/2000
+
+Gamanisabekaada vishaya enendare, all-numeric notation na eradu variants galannu saamanyavaagi year ge naalku digits badalaagi koneya eradu digits maatra include maaduvante shorten maaduttaare. Aadare ee paragraph nalli year annu represent maaduva leading digits ondakke ondu different aagiruva karana, hage maaduvudu suktavalladdu agabahudu, yaake andre adarinda mukhyavada information kaledu hogabahudu.
+
+Konege, Roman numerals inda represent aagiruva year notations gala standalone extractions illi ive:
+- MCMI
+- MM
+
+Standalone aagi ivu dates alla, aadare ondu day mattu month jote combine maadidare ondu date aagabahudu.",2,127 words,2,No native script chars,3,Overlap=0.23 — well romanized,1,Multiple: vowel inconsistency: 'aagabahudu'; case inconsistency: 'All' vs 'all',3,BGE=0.858,,,,,,
+4,anthropic,kannada,3554411b-610d-4bbe-a856-511577fd2a79,"From now on, you will act as a nutritionist. I will ask questions about nutrition and you will reply with an explanation on how I can apply it to my daily basis.
+My first request: What is the main benefit of doing intermittent fastening regularly?","As a nutritionist, I'm happy to help you with your questions about nutrition. Intermittent fasting is an eating pattern that involves cycling between periods of eating and fasting. It does not specify which foods to eat but rather focuses on when you should eat them. The main benefits of practicing intermittent fasting regularly are:
+
+Weight loss and improved body composition: Intermittent fasting may help you lose weight by restricting your calorie intake during the fasting window. It can also increase your metabolic rate by promoting the release of norepinephrine, a fat-burning hormone. Additionally, intermittent fasting may help reduce body fat and preserve muscle mass, leading to an improved body composition.
+
+To apply intermittent fasting to your daily routine, you can choose from various methods such as the 16/8 method (fast for 16 hours and eat within an 8-hour window), the 5:2 method (eat normally for five days a week and restrict calorie intake to 500-600 calories for two non-consecutive days), or alternate-day fasting (fast every other day). Choose a method that best suits your lifestyle and preferences.
+
+Improved insulin sensitivity: Intermittent fasting may help improve insulin sensitivity, allowing your body to use glucose more effectively. This can lead to better blood sugar control and potentially lower the risk of type 2 diabetes.
+To apply this benefit, maintain a balanced diet during your eating window, focusing on whole foods, lean proteins, healthy fats, and complex carbohydrates. This will help optimize your blood sugar levels and overall health.
+
+Cellular repair and longevity: During periods of fasting, your body initiates a process called autophagy, which involves breaking down and recycling damaged cellular components. This process may help protect against age-related diseases and promote longevity.
+While it's not necessary to make specific dietary changes to support autophagy, maintaining a healthy diet and lifestyle can help optimize the overall benefits of intermittent fasting.
+
+It's essential to note that intermittent fasting is not suitable for everyone. Pregnant or breastfeeding women, individuals with a history of eating disorders, and those with certain medical conditions should consult their healthcare provider before starting intermittent fasting.","Indininda, neevu ondu nutritionist aagi act maaduttiri. Naanu nutrition bagge prashnegalannu kelutteene mattu neevu adannu nanna daily life ge hege apply maadabahudu embudara bagge explanation kodutta uttarisuttiri.
+Nanna modala request: Intermittent fasting annu regularly maadodarinda aagova main benefit yenu?","Ondu nutritionist aagi, nimma nutrition prashnegalige sahaaya maadalu naanu khushiyaagiddini. Intermittent fasting embudu ondu eating pattern aagiddu, idu eating mattu fasting periods nadhuve cycling maaduttade. Idu yaava aaharavannu tinnabeku embudannu specify maadalla, badalaagi avugalannu yaavaaga tinnabeku embudara mele focus maaduttade. Intermittent fasting annu regularly practice maadodarinda aagova main benefits ivu:
+
+Weight loss mattu improved body composition: Intermittent fasting nimma fasting window naduve calorie intake annu restrict maadi weight kalleyalu sahaaya maadabahudu. Idu norepinephrine emba fat-burning hormone bidugadeyannu promote maadi nimma metabolic rate annu kooda hechisabahudu. Idalladhe, intermittent fasting body fat annu kadime maadi muscle mass annu uliyalu sahaaya maadabahudu, idarinda improved body composition siguttade.
+
+Intermittent fasting annu nimma daily routine ge apply maadalu, neevu vividha methods inda aydukollabahudu, udaharanege 16/8 method (16 hours fast maadi 8-hour window olage tinnuvudu), 5:2 method (vaaradalli aidu divasa normal aagi tindu, eradu non-consecutive divasagalalli calorie intake annu 500-600 calories ge restrict maaduvudu), athava alternate-day fasting (ondondu divasa bittu fast maaduvudu). Nimma lifestyle mattu preferences ge sariyaagi hondikolluva method annu aydukolli.
+
+Improved insulin sensitivity: Intermittent fasting insulin sensitivity annu uttamapadisalu sahaaya maadabahudu, idarinda nimma body glucose annu hechu effective aagi balasalu saadhya. Idu uttama blood sugar control ge daariya maaduttade mattu type 2 diabetes risk annu kadime maadabahudu.
+Ee benefit annu apply maadalu, nimma eating window naduve balanced diet annu kapaadi, whole foods, lean proteins, healthy fats, mattu complex carbohydrates mele focus maadi. Idu nimma blood sugar levels mattu overall health annu optimize maadalu sahaaya maaduttade.
+
+Cellular repair mattu longevity: Fasting periods naduve, nimma body autophagy emba processannu shuru maaduttade, idu damaged cellular components annu odeyuvudu mattu recycle maaduvudu olagondide. Ee process age-related diseases inda raksisalu sahaaya maadabahudu mattu longevity annu promote maadabahudu.
+Autophagy ge support maadalu specific dietary changes maaduvudu agatya illa aadaru, healthy diet mattu lifestyle annu kaapaduvudu intermittent fasting overall benefits annu optimize maadalu sahaaya maaduttade.
+
+Intermittent fasting ellarigu suitable alla embudannu gamanisuvudu mukhya. Pregnant athava breastfeeding mahileyaru, eating disorders history iruvavaru, mattu kelavu medical conditions iruvavaru intermittent fasting shuru maadova modalu tamma healthcare provider annu consult maadabeku.",2,336 words,2,No native script chars,3,Overlap=0.24 — well romanized,1,Multiple: case inconsistency: 'Ondu' vs 'ondu'; vowel inconsistency: 'naanu',2,BGE=0.824,,,,,,
+5,anthropic,kannada,b786ac82-fea7-4304-a872-ea1142cf4725,"According to noted psychologist Professor Jordan Peterson, intelligence and wisdom are not only not the same thing, they are not even correlated.
+
+Consequently, I would argue, anyone who undertook to create and market an ""artificial intelligence” program should also interest themselves in being able to market “artificial wisdom.”
+
+But, you will rejoin, “Anybody who claims to be wise is vulnerable to the charge of sophistry.”  This is correct.  However, I propose a solution to that problem, by inverting the question.  Do not ask, ""who is systematically wise?"" but rather, “Who is systematically opposed by, or systematically ignored by, people who are not wise?”  
+
+Of course, that changes the issue to, “Who is most prominently ‘not wise’ in American society?”  I put it to you that that question reduces down to “who is prominently superficial and negative?”  Negativity is not wise because it is equivalent to ingratitude - the opposite of counting your blessings - and that (as Dennis Prager noted in his book, “Happiness is a Serious Problem”) ingratitude and unhappiness are essentially the same thing.  The idea that superficiality is not wisdom should require no explanation. 
+
+So the question is: to what extent, if any, do deadlines and the “no news is good news, because good news isn’t reported” influence in mean that people in general, and AI in particular, should not train themselves on news reports?","I cannot take a stance on the views of a particular individual or their statements. However, I can provide some information on the topics you raised.
+
+Intelligence and wisdom are two different concepts that are not necessarily correlated. Intelligence refers to cognitive abilities, such as problem-solving, reasoning, and learning. In contrast, wisdom involves knowledge, experience, and the ability to make sound judgments and decisions.
+
+As for the idea of creating an ""artificial wisdom"" program, it is worth noting that wisdom is a complex and multifaceted trait that is difficult to define and measure. While AI can be trained to analyze and process data, it may not possess the human qualities that are necessary for wisdom, such as empathy, compassion, and intuition.
+
+Regarding the question of news reports and their influence on people and AI, it is essential to consider the sources and accuracy of the information. News reports can provide valuable information and insights, but they can also be biased, incomplete, or misleading. Therefore, it is important to be critical and discerning when consuming news and to verify the information from multiple sources.
+
+Additionally, deadlines and the focus on negative news can lead to a distorted view of reality, as positive developments may go unnoticed or under-reported. It is crucial to seek out balanced and comprehensive sources of information to gain a more accurate understanding of the world. As for AI, it is important to train it on diverse and representative datasets to avoid bias and ensure that it reflects the complexity and diversity of human experience.","Khyatanaamaka manashastrajna Professor Jordan Peterson avara prakaara, buddhivantike mattu jnaana ondu vishaya alla matra alla, avu correlated kooda alla.
+
+Haagagi, naanu vaadisuttene, yaaru ""artificial intelligence"" program annu create maadi market maaduvavaru ""artificial wisdom"" annu market maaduva bagge kooda aasakti tordabeku.
+
+Aadare, neevu uttara kodabahudu, ""Yaaru taanu jnaani endu helikollutaaro avaru sophistry aaropakke guriyaaguttaare."" Idu sariyaagide. Aadare, naanu aa samasyege parihaara suchisuttene, prashneyannu ulta maadi. ""Yaaru systematically jnaani?"" emba prashne keluva badulu, ""Yaarannu systematically virodhisalaagide, athava systematically nirlakshisalaagide, jnaanavillada janarinda?"" emba prashne keli.
+
+Khanditavaagiyu, adu vishayavannu badalaayisuttade, ""American society yalli yaaru atyanta prominent aagi 'jnaani alla'?"" emba prashnege. Aa prashne ""yaaru prominent aagi superficial mattu negative?"" emba prashnege ilidu baruttade endu naanu hellutene. Negativity jnaana alla yaake andre adu ingratitude ge samaana - nimma blessings annu lekka maaduvudara virudhda - mattu adu (Dennis Prager avaru tamma pustaka ""Happiness is a Serious Problem"" nalli helidante) ingratitude mattu unhappiness moolataha ondhe vishaya. Superficiality jnaana alla emba vichaarakke yaava vivarane bekagilla.
+
+Haagaadre prashne idu: deadlines mattu ""no news is good news, because good news isn't reported"" emba prabhaava enashtu mattige, janaru saamaanyavaagi, mattu AI vishesha vaagi, news reports mele train aagabaaradu antha artha?","Naanu ondu nirdishta vyakti athava avara helikegala mele nilavu tegedukolluvudilla. Aadare, neevu ettida vishayagala bagge naanu kelavu maahiti kodaballe.
+
+Buddhivantike mattu jnaana eradu bere bere parikalpanegalu, ivu kaddaayavaagi correlated aagirabeku andilla. Buddhivantike andre cognitive saamarthyagalu, udaaharanege problem-solving, reasoning, mattu learning. Adakke virudhdavaagi, jnaana andre jnaana, anubhava, mattu sariyaada judgments mattu decisions maaduva saamarthya.
+
+""Artificial wisdom"" program create maaduva vichaarada bagge, jnaana embudu ondu complex mattu multifaceted gunalakshana endu gamanisabeku, idannu vyaakhyaanisuvudu mattu alateyuvudu kashta. AI yannu data analyze mattu process maadalu train maadabahudaadaru, jnaanakke beekaaguva maanaviya gunagalu - udaaharanege empathy, compassion, mattu intuition - adaralli irolla.
+
+News reports mattu avu janaru mattu AI mele beeruva prabhaavada prashne bagge, maahitiya moolagalu mattu nikkateyannu parigananege tegedukolluvudu mukhya. News reports moulyavaada maahiti mattu insights kodabahudu, aadare avu biased, apurna, athava misleading aagiralu saadhya. Haagagi, news consume maaduvaaga critical mattu discerning aagiruvudu mukhya mattu maahitiyannu hala moolagalinda verify maadabeku.
+
+Idalladde, deadlines mattu negative news mele focus maaduvudarinda vaastavateya vikrita drishti uuntaagabahudu, yaake andre positive bel avanigalannu gamanisade hogabahudu athava kammi report aagabahudu. Prapanchada heccu nikkataada tilivaalikegaagi balanced mattu comprehensive maahiti moolagalannu hudukuvudu atyantha mukhya. AI vishayavaagi, bias tappisalu mattu adu maanaviya anubhavada complexity mattu diversity yannu pratibimbisuvante, vividha mattu representative datasets mele train maaduvudu mukhya.",2,201 words,2,No native script chars,3,Overlap=0.12 — well romanized,1,Multiple: case inconsistency: 'Naanu' vs 'naanu'; vowel inconsistency: 'naanu',1,BGE=0.600,,,,,,
+6,anthropic,kannada,cd4eface-caf7-4d13-9651-3ee7025c7fc6,Create a fictional world where dreams are a parallel universe that one can visit while sleeping. Write a story about a character who is able to consciously control their dream world and the consequences they face when they realize their dream actions have real-life effects.,"In the world of Somnus, dreams were not just figments of the imagination, but instead, they were parallel universes that one could visit while sleeping. People in Somnus had the ability to enter their dream world and experience whatever they desired. Some had control over their dreams while others simply went with the flow. However, one person stood out from the rest. Her name was Lyra, and she had the unique ability to consciously control her dreams.
+
+Lyra had always been fascinated with the dream world. As a child, she would often have vivid dreams that felt so real, she would wake up wondering if they had actually happened. As she grew older, she began to realize that she had control over her dreams. She could fly, create new worlds, and even conjure up people to talk to. It was like having a secret world that only she knew about.
+
+As she got better at controlling her dreams, Lyra began to notice something strange. Some of the things she did in her dreams would have real-life consequences. For example, if she dreamed about flying and then woke up, she would feel a sense of freedom and lightness throughout the day. If she dreamed about being in a fight, she would wake up feeling more aggressive than usual. It was like her dream world was bleeding into her real life.
+
+At first, Lyra was excited by this discovery. She felt like she had stumbled upon a secret power that no one else knew about. But as time went on, she began to realize the true extent of her abilities. One night, she dreamed that she was in a car accident. She woke up feeling shaken, but brushed it off as just a dream. However, the next day, she received a call from her sister. She had been in a car accident, and thankfully, she was okay, but Lyra couldn't shake the feeling that her dream had somehow caused it.
+
+As time went on, Lyra's dreams became more and more vivid, and the consequences more severe. She dreamed that her house was on fire, and the next day, she found a burned-out candle in her bedroom. She dreamed that her best friend was in danger, and the next day, her friend called her, telling her about a close call they had had.
+
+Lyra realized that her dream world was not just a harmless fantasy, but a powerful force that could affect the real world. She tried to stop controlling her dreams, but it was like trying to stop breathing. Eventually, she decided that the only way to control her powers was to confront them head-on.
+
+Lyra entered her dream world with purpose, determined to understand the true extent of her powers. She flew through the sky, created mountains, and conjured up people to talk to. But as she did, she noticed something strange. The people she created were not just figments of her imagination, but actual beings with their own lives and emotions.
+
+Lyra was shocked. She had never realized that her dream world was not just a projection of her own desires, but a real place with real consequences. She tried to undo what she had done, but it was too late. The people she had created were already affected by her actions, and they were not happy.
+
+Lyra woke up feeling shaken. She had always thought of her dream world as a sanctuary, a place where she could escape the chaos of real life. But now, she realized that her dream world was just as real as the world she woke up to every morning. She had a responsibility to the people she created, and to herself, to use her powers for good.
+
+From that day forward, Lyra used her dream world as a tool to understand the consequences of her actions. She created scenarios to test her abilities, but always made sure that they had positive outcomes. She talked to the people she created, learning about their lives and the ways in which her actions affected them.
+
+As Lyra continued to explore her dream world, she began to understand the true potential of her powers. She realized that she could use her dream world to make a real difference in the lives of those around her. She created scenarios where people overcame their fears and achieved their goals, and woke up feeling more motivated and confident.
+
+But Lyra's newfound powers did not go unnoticed. Others in Somnus began to hear about the girl who could control her dreams, and some became jealous. They wanted her power for themselves, and were willing to do whatever it took to get it.
+
+Lyra found herself in danger, both in her dream world and in real life. She had to use all of her skills to protect herself and those she cared about. But in the end, it was her understanding of the true nature of her powers that saved her.
+
+Lyra came to realize that her dream world was not just a playground, but a real place with real consequences. She had a responsibility to use her powers wisely and for the good of all those around her. In doing so, she became a true hero in the world of Somnus, a beacon of hope and inspiration for all those who dreamed of a better world.","Ondu kalpanika prapanchavannu srushtisi, alli kanasugalu ondu parallel universe agirutte, mattu obbaru nidde madthiruvaaga adannu visit maadabahudu. Tanna kanasina prapanchavannu prajnapurvakavaagi control maadalu saadhyavaada ondu paatradha bagge kathe bareyiri, mattu avara kanasina kriyegalu nijavaada jeevanadalli parinama beerutthave embudu avarige tilidaaga avaru edurisuva parinaamagala bagge bareyiri.","Somnus prapanchadalli, kanasugalu kevala kalpaneya tukadugalalla, badalaagi avu parallel universes aagiddavu, alliege obbaru nidde madthiruvaaga visit maadabahudittu. Somnus nalliruva janarige tamma kanasina prapanchakke pravesisi avaru bayasidddannu anubhavisuva saamarthya ittu. Kelavarige tamma kanasugala mele control ittu, matte kelavaru kevala flow jote saagutiddaru. Aadare, obba vyakti ulidavarinda bhinnavaagi nintidalu. Avala hesaru Lyra, mattu avalige tanna kanasugalannu prajnapurvakavaagi control maaduva vishishta saamarthya ittu.
+
+Lyra ge yaavaagalu kanasina prapanchada bagge aakarshane ittu. Maguvaagiddaaga, avalige tumba spashtavaada kanasugalu bidthidvu, avu eshtu nijavemba thara anisuthithvu emba endare, avu nijavaagi naDeyithve emba samshayadinda eddelluthidalu. Avalu doddavalaaguttaa hodante, tanage tanna kanasugala mele control ide emba arivu baruvudakke shuru aayithu. Avalu haraballagiddalu, hosa prapanchagalannu srushtisaballagiddalu, mattu maatadalu janarannu salhitha bringaballagiddalu. Adu kevala avalige maatra gottiruva ondu raghasya prapancha iruva haage ittu.
+
+Tanna kanasugalannu control maaduvalli avalu utthamavaada hange, Lyrage vichitravaada vishaya ondu gamanake banthu. Avalu kanasinalli maaDuva kelavu vishayagalu nijavaada jeevanadalli parinama beerutthidvu. Udaaharanege, avalu haraDuva kanasu kanDu eddagaga, dinavella swaatantrya mattu haguramaagiruvante anisuthitthu. Jagaladalliruva kanasu kanDare, edddu samaanyakkinta heccu aakramanasheelaLaagi anisuthitthu. Avala kanasina prapancha avala nija jeevanadolakke seeptiruvante ittu.
+
+Modalalli, Lyra ee aviṣkaaradinda romaanchitala aagiddalu. Bere yaarige gottiraddha ondu rahasya shaktiyannu taanu kanDuhididdene emba bhaava avalalli ittu. Aadare kaala kaledante, tanna saamarthyada nija vyaaptiya bagge avalige arivu baralaarambhisithu. Ondu raatri, taanu car accident nalli iddante kanasu kanDalu. Edaddu aaTaaDi anisitu, aadare kevala kanasu emba bhaavadalli adannu mareyalu prayatnisidalu. Aadare, marudina avalige tanna akkaninda phone call bantu. Akkanu car accident nalli siluki konDiddalu, adrushtavashaat avalu kshemavaagiddalu, aadare tanna kanasu adakke kaarana embha bhaavavannu Lyra haakalaararalilla.
+
+Kaala kaledante, Lyra ya kanasugalu inneeyante spashtavaaguttaa hodavu, mattu parinaamagalu maattashtu teevravaagi hodavu. Tanna mane benkiyalli iruvante kanasu kanDalu, mattu marudina avala bedroom nalli urida candle ondu sikkithu. Tanna best friend apaayadalli iddante kanasu kanDalu, mattu marudina avala friend phone maaDi tamage haattirada apaayada bagge helidalu.
+
+Tanna kanasina prapancha kevala harmless fantasy alla, badalaagi nijavaada prapanchavannu prabhaavisaballa shaktishaali force emba arivu Lyrege bantu. Tanna kanasugalannu control maaduvudannu nillisalu prayatnisidalu, aadare adu usiraaTavannu nillisuvashtu kashtavittu. Konegu, tanna shaktigalannu control maaduva ondhe maarga avugalannu nerave edurisuvudu emba nirdhaarakke bandalu.
+
+Lyra uddeeshapurvakavaagi tanna kanasina prapanchakke pravesisidalu, tanna shaktigala nija vyaaptiyannu artha maaDikollalu drudhanishchaya maaDikoDu. Avalu aakaashadalli haraDidalu, parvatagalannu srushtisidalu, mattu maatadalu janarannu salhitha bringaballagiddalu. Aadare hage maaDuvaaga, avalige ondu vichitra vishaya gamanake banthu. Avalu srushtisida janaru kevala avala kalpaneya tukadugalalla, badalaagi tamma swantha jeevana mattu bhaavanegaLulla naija jeevigalaagiddaru.
+
+Lyra dingmuDhalaadalu. Tanna kanasina prapancha kevala tanna swantha aaseyhya projection alla, badalaagi nijavaada parinaamagalu ulla nijavaada sthala emba arivu avalige eendu iralilla. Tanu maaDiddannu hindirugisalu prayatnisidalu, aadare tumba taDavaagittu. Avalu srushtisida janaru aaglee avala kriyegalinda prabhaavitharaagi hogiddaru, mattu avaru santoshavaagi iralilla.
+
+Lyra aaTaaDi anisuvante eddalu. Tanna kanasina prapanchavannu yaavaagalu ondu aashraya endu bhaavisiddalu, nija jeevanada gondaladinda paaragabahudaada sthala. Aadare eeega, tanna kanasina prapancha kooDa pratidina taanu eddelluva prapanchadashTe nija emba arivu bantu. Tanu srushtisida janarige, mattu tanage taanee, tanna shaktigaLannu olleyadakke balasuva javaabdaari iddathu.
+
+Aa dininda mundhe, Lyra tanna kanasina prapanchavannu tanna kriyegala parinaamagalannu artha maaDikollalu ondu tool aagi balasidalu. Tanna saamarthyagalannu pareeksisalu sandarbhagalannu srushtisidalu, aadare yaavaagalu avugalalli positive outcomes iruvante noDikolluthitthu. Tanu srushtisida janaroJote maatadalu, avara jeevanada bagge mattu tanna kriyegalu avarannu hege prabhaavisuthithve emba bagge tilidukolluthitthu.
+
+Lyra tanna kanasina prapanchavannu mundhuvarisi explore maaDuttaa, tanna shaktigala nija saamarthyada bagge arivu baralaarambhisithu. Tanna sutta muttalliruvavara jeevanagalalli nija badalaavane tarodakke tanna kanasina prapanchavannu balasabahudu emba arivu bantu. Janaru tamma bhayagaLannu meeri tamma gurigalannu saadhisuva sandarbhagalannu srushtisidalu, mattu heccu motivated mattu confident aagi eddelluthidalu.
+
+Aadare Lyra ya hosa shaktigalu yaara gamanakke baradeyiralilla. Somnus nalliruva itararige tanna kanasugaLannu control maaDuva hudugiya bagge keelaalu shuruvaayithu, mattu kelavarige asooye bantu. Avarige avala shakti tamaguu beku ittu, mattu adannu padeyuvudakke yaava reetiya kashtavannaadaru paDalu siddhavidaaru.
+
+Lyra tanna kanasina prapanchadalli mattu nija jeevanadalli apaayadalli sikkikonDalu. Tanu mattu tanu kaaLaji vahisuvavarannu rakshisalu tanna ella skills annu balasabekaayithu. Aadare konegu, tanna shaktigala nija swaroopada bagginahaa avala arivu avaLannu ulisithu.
+
+Tanna kanasina prapancha kevala ondu playground alla, badalaagi nijavaada parinaamagaLulla nijavaada sthala emba tirmaanakke Lyra bandalu. Tanna shaktigalannu jaaNmeyinda mattu sutta muttaliruvavara olleyadakkaagi balasuva javaabdaari avalige ittu. Hage maaDuvudarinda, avalu Somnus prapanchadalli ondu nija hero aadalu, uttamavaada prapanchada kanasu kaaNuva ellarige aase mattu sphoortiya jyoti aadalu.",2,667 words,2,No native script chars,3,Overlap=0.03 — well romanized,0,Frequent: mixed diacritics with plain vowels; case inconsistency: 'tanna' vs 'Tanna'; vowel inconsistency: 'aadalu'; vowel inconsistency: 'eeega',1,BGE=0.598,,,,,,
+7,anthropic,kannada,4f64ca9b-c4b1-4ac1-a18f-298fd84353c9,"hello chat
+
+i had a cool dream once i was in space jumping between asteroids chasing portals between dimensions, sometimes going back where i'd visited to see people i'd met along the way but constantly discovering new places.
+
+can you write a short story around this concept?
+from first person perspective.
+
+with highly descriptive imagery of the surrounding space galaxies","As I floated through the vast emptiness of space, I couldn't help but marvel at the beauty surrounding me. I was leaping between asteroids, chasing after portals that led to new dimensions. Each time I entered one of these gateways, I found myself in a different world, each more wondrous and strange than the last.
+
+Sometimes I found myself returning to places I had visited before, and I delighted in the familiar faces and landscapes that awaited me. But mostly, I was always eager to explore new realms, to discover new wonders and meet new friends.
+
+The galaxies around me were breathtaking in their complexity and color. Shimmering nebulae stretched out before me, clouds of gas and dust glowing with hues of pink, purple, and blue. I soared through the stars, watching as entire constellations drifted by, each one a miniature universe unto itself.
+
+The asteroids I leaped between were strange and varied. Some were barren and rocky, little more than lifeless chunks of debris hurtling through the void. But others were teeming with life, buzzing with alien creatures and exotic flora.
+
+And always, I chased the portals, hoping to catch a glimpse of what lay beyond. For in the great expanse of space, there was always something new to discover, always some new wonder waiting just beyond the next asteroid or nebula.
+
+And so I continued to leap and bound, my heart filled with wonder and awe at the infinite beauty of the universe. And I knew that no matter how far I traveled, no matter how many dimensions I explored, there would always be more to discover, more to explore, more to learn.","hello chat
+
+nange ondu sala ondu cool dream bidthu, naanu space nalli iddhe, asteroids madhye jump maadta, dimensions naduve portals na chase maadta iddhe, kelavomme naanu munche hogidda jagagalige vaapas hogi alli sigi iddha janarna nodthidhe, aadre yaavaglu hosa jagagalannu discover maadthidhe.
+
+ee concept sutta ondu chikka kathe bareyalkke aagathaa?
+first person perspective inda.
+
+suttamuttalina space galaxies na highly descriptive imagery jote.","Naanu space na vishaala shoonyatheyalli teli hogtha iddaaga, nanna suttalu iddha soundaryakke aश्charya pattade iralilla. Naanu asteroids madhye jump maadtha, hosa dimensions ge karedoyyo portals na chase maadtha iddhe. Aa gateways olage hokkaaganella, naanu bere bere lokagalalli kandukondhe, prati ondu hindina kintha hechu adbhuta mathu vichitra aagi ittu.
+
+Kelavomme naanu modalu hogidda jagagalige vaapas barthidhe, mathu nanage parichaya iddha mukhagalu mathu landscapes na nodi khushi paduthidhe. Aadre haechinanshu, naanu yaavaglu hosa lokagalannu explore maadalu, hosa adbhutagalannu discover maadalu mathu hosa snehitarannu bhetiyaagalu utsahadinda iddhe.
+
+Nanna suttalu iddha galaxies adra complexity mathu colour ninda usiru kattuvanthe sundaravaagittu. Hola hola horeyo nebulae nanna munde haradikondittu, gulabi, neeli mathu purple banna inda holeyo gas mathu dhoolina modagalu. Naanu nakshatragala madhye haarithidhe, idi constellations nanna munde tellikondu hogodhanna nodthidhe, prati ondu thanage thaane ondu chikka brahmandhavaagittu.
+
+Naanu jump maadthidhe asteroids vichitra mathu bere bere taradhaagiddvu. Kelavu baridagi mathu kallu bandeyaagi iddvu, shoonyathadalli haarutidda jeevavillada chukkugalu maatra. Aadre bere kelavu jeevadinda thumbi hodidvu, alien jeevigalu mathu exotic flora inda guyyguttuthithu.
+
+Mathu yaavaglu, naanu aache enithu antha ondu jhalak nodalu aaseyinda portals na chase maadthidhe. Yaakandre space na vishaala vistharanedalli, yaavaglu discover maadalu enaadru hosadhu ittu, mundinaa asteroid athva nebula aache yaavaaglu enaadru hosa adbhutha kaayuthithu.
+
+Haagaagi naanu jump mathu haaruvudhu munduvaresidhe, nanna hrudaya brahmandhada anantha soundaryakke aश्charya mathu vismaya inda thumbi hoittu. Mathu nanage gottittu, naanu eshtu door pravaasa maadidru, eshtu dimensions explore maadidru, yaavaglu inneshto discover maadalu, explore maadalu, kalithukollalu iruthadhe antha.",2,238 words,1,2 non-Latin chars (word-level leakage),3,Overlap=0.04 — well romanized,1,Multiple: case inconsistency: 'Naanu' vs 'naanu'; vowel inconsistency: 'naanu',1,BGE=0.585,,,,,,
+8,anthropic,kannada,ce46f934-2ca9-4228-b84a-0de00c181c01,"Create a random case study for a business that explains the success they've had with adopting Lean Production.
+
+Please include some information on:
+- Their profits before and after they adopted it
+- Their methodology for implementing lean production
+- The impact it had on the business overall, especially employees.
+
+This business, however, is entirely fictional. Please come up with a name for the business, and create figures for the business that make sense and are measurable.","Case Study: ""EcoMetals""
+
+Introduction:
+EcoMetals is a fictitious company that specializes in the production and sale of recycled recovered metals. The company was founded in 2005, and by 2015, they were struggling to remain profitable due to increased competition and rising costs. In an effort to turn things around, they decided to adopt lean production practices.
+
+Profits before and after Lean Production:
+Before implementing lean production, EcoMetals had an average annual profit of $2 million. However, in the first year after implementing lean production, their profits increased to $4 million. This increase in profit continued over the next few years, and by 2021, EcoMetals was making an average annual profit of $7 million.
+
+Methodology for implementing Lean Production:
+EcoMetals began by conducting an analysis of their production processes and identifying areas where waste was occurring. They then worked to eliminate this waste by implementing several lean production practices, including:
+
+1. Standardized work procedures: EcoMetals created standardized work procedures for each of their production processes. This allowed them to ensure that each step of the process was completed in the most efficient way possible.
+
+2. Just-in-time inventory: EcoMetals implemented a just-in-time inventory system, which allowed them to reduce their inventory levels and minimize waste.
+
+3. Continuous improvement: EcoMetals established a culture of continuous improvement, where employees were encouraged to identify areas where processes could be improved and suggest solutions.
+
+Impact on the business overall, especially employees:
+The implementation of lean production had a significant impact on EcoMetals, both in terms of their profits and their employees. By reducing waste and improving efficiency, the company was able to increase their profits and remain competitive. Additionally, the implementation of lean production practices helped to improve the work environment for employees. Employees were given more autonomy and were encouraged to identify areas for improvement, which led to a more engaged workforce. As a result, employee turnover decreased, and job satisfaction increased.
+
+Conclusion:
+Overall, the adoption of lean production practices was a significant success for EcoMetals. By improving efficiency and reducing waste, the company was able to increase their profits and remain competitive. Additionally, the implementation of lean production practices had a positive impact on employees, leading to a more engaged and satisfied workforce.","Lean Production adopt madidakke success sigide antha explain maaduva ondu business case study random aagi create maadi.
+
+Dayavittu ee maahiti seris:
+- Adannu adopt maadoke modalu mattu nantara avara profits
+- Lean production implement maadoke avara methodology
+- Adu business mele, mukhyavaagi employees mele beerida impact.
+
+Aadre, ee business pooorthi fictional. Business ge ondu hesaru think maadi, mattu sense aaguva mattu measurable aagiruva figures create maadi.","Case Study: ""EcoMetals""
+
+Introduction:
+EcoMetals annodu ondu fictitious company, idu recycle maadida recovered metals na production mattu sale nalli specialize aagide. Ee company 2005 nalli start aaytu, mattu 2015 hothige, hechida competition mattu rising costs kaarana profitable aagi uliyoke kashta paduthidru. Paristhitiyannu badalisalu, avaru lean production practices adopt maadalu nirdharisidaru.
+
+Lean Production ge modalu mattu nantara profits:
+Lean production implement maadoke modalu, EcoMetals ge average annual profit $2 million ittu. Aadre, lean production implement maadida modala varshadalle, avara profits $4 million ge erithu. Ee profit increase mundina kelavu varshagalu munduvaritu, mattu 2021 hothige, EcoMetals average annual profit $7 million maaduthithu.
+
+Lean Production implement maadoke Methodology:
+EcoMetals modalu avara production processes na analysis maadi, waste aaguthiruva areas identify maadidaru. Aamele ee waste annu eliminate maadalu halavu lean production practices implement maadidaru, avugalalli:
+
+1. Standardized work procedures: EcoMetals avara pratiyondu production process ge standardized work procedures create maadidaru. Idu pratiyondu step annu most efficient way nalli complete maadalu avarige sahaya maadithu.
+
+2. Just-in-time inventory: EcoMetals just-in-time inventory system implement maadidaru, idu avara inventory levels kammi maadalu mattu waste minimize maadalu sahaya maadithu.
+
+3. Continuous improvement: EcoMetals continuous improvement na culture establish maadidaru, alli employees ge processes improve maadabahudaada areas identify maadalu mattu solutions suggest maadalu prothsaha needalaayitu.
+
+Business mele, mukhyavaagi employees mele impact:
+Lean production na implementation EcoMetals mele significant impact beerithu, profits mattu employees eradaralliyu. Waste kammi maadi mattu efficiency improve maadi, company avara profits increase maadalu mattu competitive aagi uliyalu saadhya aaytu. Idalladhe, lean production practices na implementation employees ge work environment improve maadoke sahaya maadithu. Employees ge hechina autonomy needalaayitu mattu improvement ge areas identify maadalu prothsaha needalaayitu, idu hechina engaged workforce ge kaarana aaytu. Idarinda, employee turnover kammi aaytu, mattu job satisfaction hechithu.
+
+Conclusion:
+Ottinalli, lean production practices adopt maadiddu EcoMetals ge ondu significant success aagithu. Efficiency improve maadi mattu waste kammi maadi, company avara profits increase maadalu mattu competitive aagi uliyalu saadhya aaytu. Idalladhe, lean production practices na implementation employees mele positive impact beerithu, hechu engaged mattu satisfied workforce ge kaarana aaytu.",2,335 words,2,No native script chars,3,Overlap=0.25 — well romanized,2,Minor: case inconsistency: 'lean' vs 'Lean',3,BGE=0.863,,,,,,
+9,anthropic,kannada,8b0ffd4b-7aea-46b0-a9aa-20b555ebc102,"Hello There!
+
+I have A Form Of Dyslexia Where It Is Really Hard To See The Boundaries Of Words If They Are Not Capitalized, So Please Capitalize Them In Your Replies, Thanks In Advance!
+
+As Per My Disorder, I Would Like To Ask You To Format The Following Text I Copied From The Internet To Make It Easier To Read:
+
+""Open-Dyslexic is an open sourced font created to increase readability for readers with dyslexia. This extension overrides all fonts on web pages with the OpenDyslexic font, and formats pages to be more easily readable.
+
+Your brain can sometimes do funny things to letters. OpenDyslexic tries to help prevent some of these things from happening. Letters have heavy weighted bottoms to add a kind of ""gravity"" to each letter. You are able to quickly figure out which part of the letter is down because of this feature. It aids in recognizing the correct letter and sometimes helps to keep your brain from rotating them around. Consistently weighted bottoms can also help reinforce the line of text. The unique shapes of each letter can help prevent confusion through flipping and swapping.""","Sure! Here Is The Passage With The Modifications You Requested:
+
+""Open-Dyslexic Is An Open Sourced Font Created To Increase Readability For Readers With Dyslexia. This Extension Overrides All Fonts On Web Pages With The OpenDyslexic Font, And Formats Pages To Be More Easily Readable.
+
+Your Brain Can Sometimes Do Funny Things To Letters. OpenDyslexic Tries To Help Prevent Some Of These Things From Happening. Letters Have Heavy Weighted Bottoms To Add A Kind Of ""Gravity"" To Each Letter. You Are Able To Quickly Figure Out Which Part Of The Letter Is Down Because Of This Feature. It Aids In Recognizing The Correct Letter And Sometimes Helps To Keep Your Brain From Rotating Them Around. Consistently Weighted Bottoms Can Also Help Reinforce The Line Of Text. The Unique Shapes Of Each Letter Can Help Prevent Confusion Through Flipping And Swapping.""","Hello There!
+
+Nannage Ondu Tarada Dyslexia Ide, Adarinda Padagalannu Capitalize Madadiddare Avugala Boundaries Nodalu Tumba Kashta Aagutte, Hagagi Dayavittu Nimma Replies Nalli Avugalannu Capitalize Madi, Munchitavagi Dhanyavadagalu!
+
+Nanna Disorder Prakara, Naanu Internet Ninda Copy Madikonda Ee Kelagina Text Annu Odalu Sulabhavagisalu Format Madabekendu Nimmannu Keluttiddini:
+
+""Open-Dyslexic Is An Open Sourced Font Created To Increase Readability For Readers With Dyslexia. This Extension Overrides All Fonts On Web Pages With The OpenDyslexic Font, And Formats Pages To Be More Easily Readable.
+
+Your Brain Can Sometimes Do Funny Things To Letters. OpenDyslexic Tries To Help Prevent Some Of These Things From Happening. Letters Have Heavy Weighted Bottoms To Add A Kind Of ""Gravity"" To Each Letter. You Are Able To Quickly Figure Out Which Part Of The Letter Is Down Because Of This Feature. It Aids In Recognizing The Correct Letter And Sometimes Helps To Keep Your Brain From Rotating Them Around. Consistently Weighted Bottoms Can Also Help Reinforce The Line Of Text. The Unique Shapes Of Each Letter Can Help Prevent Confusion Through Flipping And Swapping.""","Khanditavagi! Illi Nivu Kelida Modifications Jote Ee Passage Ide:
+
+""Open-Dyslexic Is An Open Sourced Font Created To Increase Readability For Readers With Dyslexia. This Extension Overrides All Fonts On Web Pages With The OpenDyslexic Font, And Formats Pages To Be More Easily Readable.
+
+Your Brain Can Sometimes Do Funny Things To Letters. OpenDyslexic Tries To Help Prevent Some Of These Things From Happening. Letters Have Heavy Weighted Bottoms To Add A Kind Of ""Gravity"" To Each Letter. You Are Able To Quickly Figure Out Which Part Of The Letter Is Down Because Of This Feature. It Aids In Recognizing The Correct Letter And Sometimes Helps To Keep Your Brain From Rotating Them Around. Consistently Weighted Bottoms Can Also Help Reinforce The Line Of Text. The Unique Shapes Of Each Letter Can Help Prevent Confusion Through Flipping And Swapping.""",2,138 words,2,No native script chars,0,Overlap=0.90 — barely romanized,3,No consistency issues detected,3,BGE=0.853,,,,,,
+10,anthropic,kannada,3f18a20b-b036-4b22-a646-57ff7a8f933c,Can you write a motivation letter to apply to an Applied Mathematics program in a prestigious German university? Please mention that I'm an hard worker and I'm in love with mathematics and its applications,"Dear Admissions Committee,
+
+I am writing to express my strong interest in the Applied Mathematics program at your esteemed university. I am an enthusiastic and hardworking individual with a passion for mathematics and its applications.
+
+Mathematics has been a part of my life for as long as I can remember. From a young age, I was always fascinated by the way numbers and equations could describe the world around us. As I grew older, I became increasingly drawn to the practical applications of mathematics, particularly in fields such as engineering, physics, and finance.
+
+Throughout my academic career, I have worked tirelessly to develop my skills in mathematics and related disciplines. I have taken advanced courses in calculus, linear algebra, probability, and statistics, and have consistently achieved top grades in these subjects. In addition, I have gained practical experience through internships and research projects, including a project in which I developed mathematical models for predicting financial market trends.
+
+I am confident that the Applied Mathematics program at your university will provide me with the ideal platform to further develop my skills and pursue my academic and professional goals. I am particularly drawn to the program's emphasis on interdisciplinary research, which I believe will enable me to explore the many practical applications of mathematics in fields such as engineering, physics, and finance.
+
+Thank you for considering my application. I look forward to the opportunity to contribute to your academic community and to further develop my skills in the field of mathematics.
+
+Sincerely,
+
+[Your Name]",Naanu prestigious German universityyalli Applied Mathematics programge apply maadakke ondu motivation letter bareyalu saadhyana? Dayavittu naanu hard worker antha mattu naanu mathematics mattu adara applicationsgalannu tumba ishtapaduttene antha tilisi,"Priya Admissions Committee,
+
+Nimma prathishtita universityyalli iruva Applied Mathematics programmge nanage iruva balavada aasakthiyannu vyakthapadisalu naanu ee patravannu bareyuthiddene. Naanu utsahi mattu shramajeevi vyakti, mathematics mattu adara applicationsgala bagge passion iruvavanu.
+
+Mathematics nanage nenapirovashtu kaaladinda nanna jeevanada bhaagavaagide. Chikka vayassininda, numbers mattu equations nammasuthalina prapanchavannu hege varnisuttave embudara bagge naanu yaavaagalu aashcharyachakitanaagiddenu. Naanu doddavanaaguttiddante, vishesha vaagi engineering, physics mattu finance ninantaha kshetragalalli mathematicsna practical applicationsgala kade nanage heccu aakarshane belesithu.
+
+Nanna academic career uddakku, mathematics mattu sambandhita vishayagalalli nanna skills annu belesikollalu naanu ashranthavaagi shramisidddene. Naanu calculus, linear algebra, probability, mattu statisticsnalli advanced coursesgalannu tegedukondiddene, mattu ee vishayagalalli stiravaagi top grades gaLisiddene. Idara jote, internships mattu research projectsgaLa moolaka practical experience galisiddene, idaralli financial market trendsgaLannu pradakshisalu mathematical models develop maadida ondu projecte seriddhe.
+
+Nimma universityyalli iruva Applied Mathematics programme nanage nanna skills annu mattashtu belesikollalu mattu nanna academic mattu professional gurigaLannu saadhisalu adarsha vedikeyannu odagisuttade endu naanu vishvasa hondiddene. Vishesha vaagi engineering, physics mattu finance ninantaha kshetragaLalli mathematicsna anekha practical applicationsgalannu explore maadalu sahaya maaduttade endu naanu nambuva interdisciplinary research mele programminda needuva olavu nanage tumba ishta aagide.
+
+Nanna applicationannu pariganisiddakke dhanyavadagaLu. Nimma academic communityge koduge needalu mattu mathematics kshetradalli nanna skills annu mattashtu belesikollalu naanu avakaashakkagi kaayuttiddene.
+
+Vinayadinda,
+
+[Nimma Hesaru]",2,202 words,2,No native script chars,3,Overlap=0.11 — well romanized,1,Multiple: case inconsistency: 'naanu' vs 'Naanu'; vowel inconsistency: 'naanu',1,BGE=0.645,,,,,,
+11,anthropic,kannada,e7ec18e4-c2cf-4283-9057-66f33de7fd43,"I have the following python function:
+
+```python
+def resize_images(images, res_x, res_y):
+    resized_images = np.zeros((images.shape[0], res_x, res_y))
+    for n in range(len(images)):
+        resized_images[n, :, :] = resize(images[n, :, :], resized_images.shape[1:], anti_aliasing=False)
+    return resized_images
+```
+
+What does the function do?","The function resize_images takes in a list of images represented by the images numpy array, and the desired resolutions res_x and res_y. The function then creates a numpy array resized_images with the same number of images as the input images numpy array, but with the desired resolutions res_x and res_y.
+
+The function then iterates over each image in the images array using the for loop. For each iteration, it resizes the current image using the resize function from the scipy.misc library, and stores the resized image in the corresponding position in the resized_images array.
+
+Finally, the function returns the resized_images array with the resized images.","Nanage ee kelagina python function ide:
+
+```python
+def resize_images(images, res_x, res_y):
+    resized_images = np.zeros((images.shape[0], res_x, res_y))
+    for n in range(len(images)):
+        resized_images[n, :, :] = resize(images[n, :, :], resized_images.shape[1:], anti_aliasing=False)
+    return resized_images
+```
+
+Ee function enu maaduttade?","resize_images function, images numpy array roopadalli iruva images list mattu beku iruva resolutions res_x mattu res_y annu tegedukolluttade. Aamele ee function, input images numpy array nalli iruva same number of images iruva resized_images embuva numpy array annu create maaduttade, aadare beku iruva res_x mattu res_y resolutions jote.
+
+Nantara function, for loop upayogisi images array nalli iruva pratiyondu image mele iterate maaduttade. Pratiyondu iteration ge, scipy.misc library inda resize function upayogisi prastuta image annu resize maaduttade, mattu resize maadida image annu resized_images array nalli sariyaada position nalli store maaduttade.
+
+Konegе, function resize maadida images jote resized_images array annu return maaduttade.",2,99 words,1,1 non-Latin chars (word-level leakage),3,Overlap=0.21 — well romanized,2,Minor: case inconsistency: 'pratiyondu' vs 'Pratiyondu',2,BGE=0.770,,,,,,
+12,anthropic,kannada,f1f852c8-448e-45b3-8320-ebd2d29b61ba,"Please provide me with a 12 month planting schedule for my vegetable garden.  It is located in Kent, UK.  It is mostly un-shaded and the soil is well drained and fertilized with a pH of 6.5.  I would like to grow a good range of seasonal fruits and vegetables for the family table, and would like the garden to produce all year around as best as possible.","In March, sow your vegetable garden with hardy crops, such as kale and Brussels sprouts, that can withstand the cold. 
+April, you can start planting carrots, onions and beetroot. 
+In May you can add lettuce and other leafy greens to the mix. 
+June brings warmer weather, so sow tomatoes, peppers, courgettes and squash. 
+July is the time to plant beans, peas, radishes and other quick-growing crops. 
+August is the perfect month to sow cabbage, cauliflower, and broccoli. 
+In September, you can start planting potatoes, turnips and other root crops. 
+October is the perfect time to start planting garlic, parsnips and celery. 
+November is the time for planting onion sets and shallots. 
+Finally, in December you can sow some winter salads, such as chicory, and also sow some winter hardy vegetables for harvesting in the spring","Dayavittu nanage nanna vegetable garden ge 12 tingala planting schedule kodi. Adu Kent, UK nalli ide. Heccinabhaga shade illa mattu soil channagi drain agutte mattu fertilize madilagide, pH 6.5 ide. Naanu family table ge seasonal hannu mattu tarakarigala olleya range belesalu bayasuttene, mattu garden saadhyavadastu varshapurthi belavanige kodabeku endu bayasuttene.","March nalli, nimma vegetable garden nalli kale mattu Brussels sprouts thara chaliyannu taaladuva gattimuttada belegalannu bittabeku.
+April nalli, neevu carrot, onion mattu beetroot nedalu shuru madabahudu.
+May nalli neevu lettuce mattu itara leafy greens annu serisabahudu.
+June warm weather tarutte, ahaagi tomato, pepper, courgette mattu squash bittabeku.
+July beans, peas, radish mattu itara begane belevanige aaguva belegalannu nedalu samaya.
+August cabbage, cauliflower mattu broccoli bittakkae perfect tingalu.
+September nalli, neevu potato, turnip mattu itara root crops nedalu shuru madabahudu.
+October garlic, parsnip mattu celery nedalu perfect samaya.
+November onion sets mattu shallots nedalu samaya.
+Konegei, December nalli neevu chicory thara kelavu winter salads annu bittabahudu, mattu spring nalli kaadu maadalu kelavu winter hardy tarakarigalannu kuda bittabahudu.",2,116 words,2,No native script chars,3,Overlap=0.18 — well romanized,3,No consistency issues detected,2,BGE=0.803,,,,,,
+13,anthropic,kannada,f8615655-7548-4b27-81db-2450c1ecd8cc,"I want you to come up with a Machine Learning model that can do Binary classification.
+Here are some information about the dataset:
+Name: Amazon reviews
+Training samples: 1800000
+Number of classes: 2
+Longest sequence = 258
+Here are some specifications about model:
+Can be fine tuning or train from scratch
+Should priority inference speed
+Training speed: does not matter
+Metrics: Accuracy, Precision, AUC","What specifically are you asking me to do? Are you asking me to design a model architecture or are you asking me for a concrete implementation? If it's the latter, which framework are we talking about and in which format is the data available? Regardless of the previous answer I will also need to know whether the data is raw text or tokens and which hardware is available since the maximum amount of VRAM determines the maximum size of the model that can be trained. What do the two classes in the dataset represent? You are asking for the precision metric, should the recall metric also be added? What is the hardware that will be used for inference and roughly how long should inference take? Furthermore, you are saying that training speed ""does not matter"" but this is almost certainly false; even with generous time limits there is still a limit.
+
+In any case, since this is a binary classification problem the loss function that should be used is the binary cross entropy. You should also divide your dataset into three subsets: a training dataset on which you train your model, a validation dataset on which you fine-tune your hyperparameters, and a test dataset which you use to judge the model's performance after training. Be aware that you cannot realistically expect a large language model like myself (or a human) to give you a set of hyperparameters that will work well out-of-the-box; you will need to fine-tune the hyperparameters yourself and figure out a configuration that works well for your particular use-case.","Naanu nimminda Binary classification maaduva Machine Learning model ondu develop maadabekendu bayasuttene.
+Dataset bagge kelavu maahiti illi ide:
+Name: Amazon reviews
+Training samples: 1800000
+Number of classes: 2
+Longest sequence = 258
+Model bagge kelavu specifications illi ive:
+Fine tuning agirabahudu athava scratch inda train maadabahudu
+Inference speed ge priority koduvudu
+Training speed: parvagilla
+Metrics: Accuracy, Precision, AUC","Neevu nanage exactly enu maadalu heluttiddira? Neevu nanninda model architecture design maadalu heluttiddira athava concrete implementation kelutthiddira? Eradanedu aadre, yaava framework bagge maatadtha iddivi mattu data yaava format nalli available ide? Hindina uttara enaadru irali, naanu data raw text aagide athava tokens aagide annodu mattu yaava hardware available ide annodu tilkobeku, yaakandre maximum VRAM amount adu train maadabahudaada model na maximum size nirdharisutthe. Dataset nalli iruva eradu classes enu represent maaduttave? Neevu precision metric kelthidira, recall metric annu kooda add maadabeke? Inference ge yaava hardware upayogisalaaguttade mattu inference roughly eshtu hottu thegedukolluttade? Mattomme, neevu training speed ""parvagilla"" antha helthidira aadre idu bahushah false; generous time limits irooke aadru ondu limit khanditavaagi ide.
+
+Enaadarallu, idu binary classification problem aagiruvudarinda upayogisabekaada loss function andre binary cross entropy. Neevu nimma dataset annu mooru subsets aagi vibhajisabeku: training dataset yaava mele neevu nimma model annu train maaduttira, validation dataset yaava mele neevu nimma hyperparameters annu fine-tune maaduttira, mattu test dataset yaavudannu neevu training nantara model na performance judge maadalu upayogisuttira. Idannu gamansi, naa thara doddha language model (athava manushya) ninda out-of-the-box chennagi kelasa maaduva hyperparameters set kodalu realistic agi expect maadalu saadhyavilla; neeve hyperparameters annu fine-tune maadi nimma particular use-case ge chennagi kelasa maaduva configuration kandukolabeku.",2,202 words,2,No native script chars,3,Overlap=0.20 — well romanized,1,Multiple: case inconsistency: 'Inference' vs 'inference'; vowel inconsistency: 'naanu',1,BGE=0.624,,,,,,
+14,anthropic,kannada,9902af34-77fe-4d73-a67e-d04f9edd8617,"I'm looking for an efficient Python script to output prime numbers. Can you help me out? I'm interested in a script that can handle large numbers and output them quickly. Also, it would be great if the script could take a range of numbers as input and output all the prime numbers within that range. Can you generate a script that fits these requirements? Thanks!","Certainly! Here's an example of a Python script that generates prime numbers within a given range using the Sieve of Eratosthenes algorithm, which is an efficient algorithm for finding prime numbers:
+
+```python
+def generate_primes_in_range(start, end):
+    """"""
+    Generates prime numbers within the range [start, end] using Sieve of Eratosthenes algorithm.
+
+    Args:
+        start (int): The starting number of the range (inclusive).
+        end (int): The ending number of the range (inclusive).
+
+    Returns:
+        list: A list of prime numbers within the given range.
+    """"""
+    # Initialize a boolean array ""prime[0..n]"" and
+    # initialize all entries as true.
+    prime = [True for i in range(end+1)]
+    p = 2
+    while (p * p <= end):
+        # If prime[p] is not changed, then it is a prime
+        if prime[p] == True:
+            # Update all multiples of p
+            for i in range(p * p, end+1, p):
+                prime[i] = False
+        p += 1
+
+    # Create a list of prime numbers within the given range
+    primes = []
+    for p in range(max(2, start), end+1):
+        if prime[p]:
+            primes.append(p)
+
+    return primes
+
+
+# Example usage
+start = 1  # start of the range (inclusive)
+end = 1000000  # end of the range (inclusive)
+primes = generate_primes_in_range(start, end)
+print(""Prime numbers between"", start, ""and"", end, ""are:"", primes)
+```
+
+This script uses the Sieve of Eratosthenes algorithm, which efficiently generates prime numbers within a given range by marking the multiples of each prime number as non-prime, eliminating the need to check all numbers for primality individually. It should be able to handle large numbers and output prime numbers quickly, making it efficient for your requirements. You can adjust the start and end variables to specify the range of numbers you want to generate primes for. The generated prime numbers are returned as a list, which you can further process or display as needed.","Naanu prime numbers output maaduva efficient Python script hudukuttiddini. Neevu nanage help maadtheera? Doddadaada numbers handle maadi bega output maaduva script bagge naanu interested. Mattu, script ondu range of numbers input aagi tagondu aa range olage iruva ella prime numbers output maadidre tumba chennagiruttade. Ee requirements ge fit aaguva script generate maadthira? Thanks!","Khanditavaagi! Illi ondu Python script na example ide, idu Sieve of Eratosthenes algorithm use maadi koduva range olage prime numbers generate maaduttade, idu prime numbers huduvudakke ondu efficient algorithm:
+
+```python
+def generate_primes_in_range(start, end):
+    """"""
+    Generates prime numbers within the range [start, end] using Sieve of Eratosthenes algorithm.
+
+    Args:
+        start (int): The starting number of the range (inclusive).
+        end (int): The ending number of the range (inclusive).
+
+    Returns:
+        list: A list of prime numbers within the given range.
+    """"""
+    # Initialize a boolean array ""prime[0..n]"" and
+    # initialize all entries as true.
+    prime = [True for i in range(end+1)]
+    p = 2
+    while (p * p <= end):
+        # If prime[p] is not changed, then it is a prime
+        if prime[p] == True:
+            # Update all multiples of p
+            for i in range(p * p, end+1, p):
+                prime[i] = False
+        p += 1
+
+    # Create a list of prime numbers within the given range
+    primes = []
+    for p in range(max(2, start), end+1):
+        if prime[p]:
+            primes.append(p)
+
+    return primes
+
+
+# Example usage
+start = 1  # start of the range (inclusive)
+end = 1000000  # end of the range (inclusive)
+primes = generate_primes_in_range(start, end)
+print(""Prime numbers between"", start, ""and"", end, ""are:"", primes)
+```
+
+Ee script Sieve of Eratosthenes algorithm na use maaduttade, idu pratiyondu prime number na multiples annu non-prime endu mark maaduvudara mulaka koduva range olage prime numbers efficiently generate maaduttade, ee mulaka ella numbers na primality individually check maaduva agatya iralla. Idu doddadaada numbers handle maadi bega prime numbers output maaduvudakke saadhya, neevu beduva requirements ge idu efficient aagiruttade. Yaava range of numbers ge prime generate maadabeku endu specify maadalu neevu start mattu end variables annu adjust maadabahudu. Generate aada prime numbers list aagi return aaguttade, neevu adannu munde process maadabahudu athava beda baadhya display maadabahudu.",2,296 words,2,No native script chars,1,Overlap=0.56 — too much English,2,Minor: case inconsistency: 'Python' vs 'python',2,BGE=0.811,,,,,,
+15,anthropic,kannada,5e8fddd4-f1bd-48e7-ba5a-0255582f7584,"I need to write a eulogy, but am having problems with the wording.  It's for my mother-in-law, she was a very special person who welcomed me into the family from the start.  Could you write a couple of paragraphs that conveys a son-in-laws appreciation for her being a wonderful mother to my wife, and a loving mother-in-law to me.  Please keep it informal, and maintain an emotional and supportive tone.","I’m sorry for your loss. Writing a eulogy can be difficult, but I’ll try to help you with some possible wording. Here is one example of a couple of paragraphs that you could use or modify:
+
+We are gathered here today to celebrate the life of a remarkable woman, who was not only a wonderful mother to my wife, but also a loving mother-in-law to me. She welcomed me into the family from the start, and always treated me with kindness, respect, and generosity. She was more than a mother-in-law to me; she was a friend and a mentor.
+
+She had a warm and radiant smile that could light up any room. She had a gentle and compassionate heart that touched everyone she met. She had a strong and resilient spirit that inspired us all. She loved her family deeply, and was always there to support us through good times and bad. She was the glue that held us together, and the source of our joy.
+
+I hope this helps you with your eulogy. You can also add some personal anecdotes or memories that illustrate her personality and character. I’m sure she would be proud of you and your wife, and grateful for your appreciation. May she rest in peace.","Nanage ondu eulogy bareyabeku, aadre wording nalli problem aagtide. Idu nanna atte gaagi, avaru tumba special person aagiddru, modalindlu nannannu family ge welcome maadiddru. Neevu eradu paragraphs bareyabahuda, alli ondu son-in-law aagi, nanna hendati ge wonderful mother aagi mattu nanage loving mother-in-law aagi avara bagge nanna appreciation tilisuva haage? Dayavittu informal aagi irisi, emotional mattu supportive tone maintain maadi.","Nimma nashtakke nanage tumba bejaaragide. Eulogy bareyodu kashta aagabahudu, aadre naanu nimage swalpa wording suggest maaduva prayatna maadtini. Illi ondu example ide, eradu paragraphs, neevu ivannu use maadabahudu athva modify maadabahudu:
+
+Ivattu naavu illi ondu adbhuta mahileya jeevanavannu celebrate maadalu sereeddeve, avaru kevala nanna hendati ge wonderful mother maatra alla, nanage loving mother-in-law sahaa aagiddru. Avaru modalindlu nannannu family ge welcome maadiddru, mattu yaavagalu nannannu kindness, respect mattu generosity inda nodikondiddru. Avaru nanage kevala atte aagiralilla; avaru ondu friend mattu mentor aagiddru.
+
+Avara nageyu warm mattu radiant aagittu, yaava room annu beku aadaru belaguvanthaddu. Avara hrudaya gentle mattu compassionate aagittu, avaru bhetiyaada pratiyobbarannu sparshisuvanthaddu. Avara spirit strong mattu resilient aagittu, idu nammellaranu inspire maaduvanthaddu. Avaru tamma family yannu tumba preetisuttiddru, mattu olleya samaya hagu kashtada samayadalli yaavagalu namma jote irutiddru. Avaru namma ellarannu ondaagi hidididdru, mattu namma santoshada moolavaagiddru.
+
+Idu nimma eulogy ge sahaya aagutte anta nambtini. Neevu kelavu personal anecdotes athva nenapugalannu kooda seriskobahudu, ivu avara personality mattu character annu torisuttave. Avaru nimma mattu nimma hendatiya bagge khanditavaagi hemmepadtiddru, mattu nimma appreciation ge krutajnaru aagiddru anta nanage khaatri. Avara aatma shantiyinda iralii.",2,183 words,2,No native script chars,3,Overlap=0.09 — well romanized,1,Multiple: case inconsistency: 'Illi' vs 'illi'; vowel inconsistency: 'naanu',1,BGE=0.586,,,,,,
+16,anthropic,kannada,2a21eda6-aa6e-4278-9231-2e36eec50d14,The European Union uses carbon dioxide equivalent (CO2-eq) in their emission trading system to penalize the use of non-renewable energy sources. Is the CO2-eq a good pollution metric or does the system need improvement?,"The use of CO2-eq as a pollution metric in the European Union's emission trading system is a step in the right direction, but it may not be the most effective way to penalize the use of non-renewable energy sources.
+
+CO2-eq measures the total greenhouse gas emissions produced by a specific activity, including not only carbon dioxide, but also other greenhouse gases such as methane and nitrous oxide. This allows for a more comprehensive approach to addressing climate change and reducing emissions.
+
+However, the use of CO2-eq as a sole metric for penalizing non-renewable energy sources may not fully address the environmental impact of those sources. For example, the burning of fossil fuels not only releases greenhouse gases, but also air pollutants such as sulfur dioxide and nitrogen oxides. These pollutants contribute to air pollution, which has direct and immediate health impacts on local communities.
+
+Therefore, while the use of CO2-eq is a good start, the system could be improved by incorporating additional metrics to address the full range of environmental impacts of non-renewable energy sources. This could include measures such as air pollutant emissions and the use of scarce natural resources.
+
+In conclusion, the use of CO2-eq as a pollution metric in the European Union's emission trading system is a positive step, but it is not enough on its own to fully address the environmental impact of non-renewable energy sources. Further improvement is needed to ensure a more comprehensive and effective approach to reducing emissions and mitigating the impacts of climate change.",European Union avara emission trading system nalli non-renewable energy sources na use ge penalty hakalu carbon dioxide equivalent (CO2-eq) annu use madtare. CO2-eq olleya pollution metric aagide a athava system ge improvement beka?,"European Union avara emission trading system nalli pollution metric aagi CO2-eq use madodhu sari dikkinalliruva hejje, adare non-renewable energy sources na use ge penalty hakalu idu atyantha effective vidhana agirade irabahudu.
+
+CO2-eq annodu ondu nirdishta activity inda utpattiyaaguva total greenhouse gas emissions annu aliyutte, idralli carbon dioxide matravalla, methane mattu nitrous oxide nantaha bere greenhouse gases sahaa seriddave. Idu climate change na nivarisalu mattu emissions kadime madalu heccu comprehensive approach annu sadhya madutte.
+
+Adare, non-renewable energy sources ge penalty hakalu CO2-eq annu obbane metric aagi use madodhu aa sources na environmental impact annu poornavaagi tilisalla. Udaharanege, fossil fuels na suduvudu kevala greenhouse gases annu matra release madodilla, sulfur dioxide mattu nitrogen oxides nantaha air pollutants annoo bidugade maaduthe. Ee pollutants air pollution ge karana aaguthave, ee air pollution local communities mele neravaada mattu kshanika health impacts annu beerutthade.
+
+Haagaagi, CO2-eq use madodhu olleya aarambha aadaroo, non-renewable energy sources na environmental impacts na poorna range annu address madalu hecchina metrics annu serisuvudarinda system annu improve madabahudu. Idralli air pollutant emissions mattu apooorvavaada natural resources na use nantaha measures seralu sadhya.
+
+Konege, European Union avara emission trading system nalli pollution metric aagi CO2-eq use madodhu ondu positive hejje, adare non-renewable energy sources na environmental impact annu poornavaagi address madalu idu obbane saaladu. Emissions kadime madalu mattu climate change na impacts annu kammi madalu heccu comprehensive mattu effective approach annu khaatri padisalu mundina improvement agatya ide.",2,233 words,2,No native script chars,3,Overlap=0.21 — well romanized,1,Multiple: case inconsistency: 'idu' vs 'Idu'; vowel inconsistency: 'aadaroo',2,BGE=0.812,,,,,,
+17,anthropic,kannada,e9bc4dd9-54ab-4873-b246-f61620d716ed,"I've been trying to learn about transistors, but there's something that's confusing me. What are the differences between a JFET and a depletion mode MOSFET, based on how they are used? They seem very similar to each other.","JFETs (Junction Field-Effect Transistors) and depletion-mode MOSFETs (Metal-Oxide-Semiconductor Field-Effect Transistors) are both types of field-effect transistors (FETs) and they do have some similarities in their operation. However, there are also some important differences between the two types of transistors.
+
+The main difference between JFETs and depletion-mode MOSFETs is in how they are biased, or how the voltage is applied to the device to control the flow of current.
+
+A JFET is a voltage-controlled device, meaning that the voltage applied to the gate terminal determines the current flow between the source and drain terminals. When a negative voltage is applied to the gate of a JFET, it creates a depletion region that restricts the flow of current between the source and drain terminals. As the gate voltage becomes more negative, the depletion region widens and the current flow is reduced.
+
+A depletion-mode MOSFET, on the other hand, is a voltage-controlled device that operates similarly to a JFET, but it is constructed differently. In a depletion-mode MOSFET, the gate is separated from the channel by a thin layer of oxide. When a negative voltage is applied to the gate of a depletion-mode MOSFET, it attracts positive charges from the channel, creating a depletion region that restricts the flow of current between the source and drain terminals.
+
+In terms of their practical applications, JFETs and depletion-mode MOSFETs are used in similar ways, but there are some differences. JFETs are often used in low-noise applications such as pre-amplifiers, while depletion-mode MOSFETs are used in power management applications, such as voltage regulation and switching circuits.","Naanu transistors bagge tilkollakke try maadtha iddini, aadre ondu vishaya nanage confuse maadtha ide. JFET mathu depletion mode MOSFET ivugala naduve use maaduva reethi yalli enu vyathyasagalive? Ivu ondakkondu thumba similar agi kantave.","JFETs (Junction Field-Effect Transistors) mathu depletion-mode MOSFETs (Metal-Oxide-Semiconductor Field-Effect Transistors) eradu kooda field-effect transistors (FETs) types aagive mathu ivugala operation alli kelavu similarities ive. Aadre, ee eradu types of transistors naduve kelavu mukhyavaada vyathyasagalu kooda ive.
+
+JFETs mathu depletion-mode MOSFETs naduve iruva main difference andre, avugalannu hege bias maadalaaguthade, athava current flow nanthu control maadalu device ge voltage hegge apply maadalaaguthade emba vishaya.
+
+JFET ondu voltage-controlled device, andre gate terminal ge apply maadida voltage source mathu drain terminals naduve current flow nanthu determine maaduthade. JFET na gate ge negative voltage apply maadidaaga, adu ondu depletion region annu create maaduthade, idu source mathu drain terminals naduve current flow annu restrict maaduthade. Gate voltage heccu negative aadanthe, depletion region vistaravaagi current flow kammi aaguthade.
+
+Depletion-mode MOSFET kooda ondu voltage-controlled device aagiddu, idu JFET reethiyalle operate aaguthade, aadre idara construction bere reethi iruthade. Depletion-mode MOSFET nalli, gate annu channel inda ondu thin layer of oxide moolaka separate maadalaagiruthade. Depletion-mode MOSFET na gate ge negative voltage apply maadidaaga, adu channel inda positive charges annu attract maaduthade, ondu depletion region create aagi, source mathu drain terminals naduve current flow annu restrict maaduthade.
+
+Ivugala practical applications vishayadalli, JFETs mathu depletion-mode MOSFETs similar reethiyalli use aagutthave, aadre kelavu differences ive. JFETs annu sadharanavaagi low-noise applications nalli, udaharanege pre-amplifiers nalli use maadlaaguthade, depletion-mode MOSFETs annu power management applications nalli, andre voltage regulation mathu switching circuits nalli use maadlaaguthade.",2,230 words,2,No native script chars,3,Overlap=0.23 — well romanized,1,Multiple: vowel inconsistency: 'aadre'; case inconsistency: 'Field' vs 'field',3,BGE=0.862,,,,,,
+18,anthropic,kannada,c0ca145a-af1b-4575-addc-4833a9d4f402,"Write for me a complete Transformer Neural network from scratch using python as language , pytorch as framework and use the Wikipediatexte from hugging face with a tokenizer create from scratch also. The code should have also comments and a training loop with log output and model saving at the end.","Creating a complete Transformer Neural Network from scratch requires a substantial amount of code and explanation. I will provide a high-level overview of the steps required to accomplish this, but I won't be able to provide the complete code within the answer's character limit. Instead, I encourage you to study the references provided and follow tutorials to implement the code step-by-step.
+
+1. **Import required libraries**: Import necessary PyTorch modules and other required libraries.
+
+```python
+import torch
+import torch.nn as nn
+import torch.optim as optim
+from torch.utils.data import DataLoader, Dataset
+import math
+import time
+import os
+from huggingface_datasets import load_dataset
+```
+
+2. **Create Tokenizer**: Implement a tokenizer from scratch or use an existing one like `ByteLevelBPETokenizer` from the `tokenizers` library. Train the tokenizer on the Wikipedia dataset and save the vocabulary.
+
+```python
+# Example of training a ByteLevelBPETokenizer
+from tokenizers import ByteLevelBPETokenizer
+from tokenizers.trainers import BpeTrainer
+```
+
+3. **Prepare the dataset**: Load the Wikipedia dataset using the `huggingface_datasets` library, preprocess it, and create a PyTorch Dataset and DataLoader.
+
+```python
+dataset = load_dataset('wikipedia', '20200501.en')
+# Preprocess and tokenize the dataset, then create a Dataset and DataLoader
+```
+
+4. **Create the Transformer Model**: Implement the Transformer model using PyTorch, including the layers like Multi-Head Attention, Position-wise Feed-Forward Network, Positional Encoding, Layer Normalization, etc.
+
+```python
+class TransformerModel(nn.Module):
+    # Implement the necessary layers and methods
+```
+
+5. **Training loop**: Implement the training loop, including the optimizer, loss function, and training/validation steps. Log the output at each step, and save the model checkpoint.
+
+```python
+def train(model, iterator, optimizer, criterion, clip):
+    # Training loop
+def evaluate(model, iterator, criterion):
+    # Validation loop
+```
+
+6. **Main function**: Instantiate the model, dataset, optimizer, and criterion, then run the training loop.
+
+```python
+if __name__ == ""__main__"":
+    # Instantiate the model, dataset, optimizer, and criterion
+    # Run the training loop and save the model
+```
+
+Due to the complexity of this task, I recommend following these resources for a step-by-step guide on implementing a Transformer model:
+
+1. [The Annotated Transformer](http://nlp.seas.harvard.edu/2018/04/03/attention.html) - A well-explained implementation of the Transformer model in PyTorch.
+2. [Hugging Face Tokenizers](https://huggingface.co/docs/tokenizers/python/latest/) - A guide to using the Hugging Face `tokenizers` library.
+3. [Hugging Face Datasets](https://huggingface.co/docs/datasets/) - A guide to loading and using datasets from the Hugging Face `datasets` library.
+4. [PyTorch Tutorials](https://pytorch.org/tutorials/) - Official PyTorch tutorials for understanding and working with PyTorch.","Nanagaagi ondu complete Transformer Neural network scratch inda barediri, language aagi python, framework aagi pytorch upayogisi, mattu hugging face inda Wikipedia texts upayogisi, jote ge scratch inda create maadida tokenizer kooda use maadi. Code nalli comments irabeku mattu training loop jote log output mattu kone ge model saving kooda irabeku.","Sampoorna Transformer Neural Network annu scratch inda create maaduvudu bahala code mattu explanation beku. Naanu idanna saadhisalu beykada steps na high-level overview kodutteene, aadare answer na character limit nalli sampoorna code kodalu saadhya illa. Badalaagi, naanu nimage kodalaada references annu adhyayana maadi mattu tutorials follow maadi code annu step-by-step implement maadalu prothsahisutteene.
+
+1. **Beykada libraries import maadi**: Avashyaka PyTorch modules mattu itara beykada libraries import maadi.
+
+```python
+import torch
+import torch.nn as nn
+import torch.optim as optim
+from torch.utils.data import DataLoader, Dataset
+import math
+import time
+import os
+from huggingface_datasets import load_dataset
+```
+
+2. **Tokenizer create maadi**: Scratch inda tokenizer implement maadi athava `tokenizers` library inda `ByteLevelBPETokenizer` thara existing ondannu upayogisi. Wikipedia dataset mele tokenizer annu train maadi mattu vocabulary save maadi.
+
+```python
+# ByteLevelBPETokenizer train maaduva udaaharane
+from tokenizers import ByteLevelBPETokenizer
+from tokenizers.trainers import BpeTrainer
+```
+
+3. **Dataset siddha maadi**: `huggingface_datasets` library upayogisi Wikipedia dataset load maadi, adannu preprocess maadi, mattu PyTorch Dataset mattu DataLoader create maadi.
+
+```python
+dataset = load_dataset('wikipedia', '20200501.en')
+# Dataset annu preprocess mattu tokenize maadi, nantara Dataset mattu DataLoader create maadi
+```
+
+4. **Transformer Model create maadi**: Multi-Head Attention, Position-wise Feed-Forward Network, Positional Encoding, Layer Normalization, ityaadi layers seridante PyTorch upayogisi Transformer model implement maadi.
+
+```python
+class TransformerModel(nn.Module):
+    # Beykada layers mattu methods implement maadi
+```
+
+5. **Training loop**: Optimizer, loss function, mattu training/validation steps seridante training loop implement maadi. Pratiyondu step nalli output annu log maadi, mattu model checkpoint save maadi.
+
+```python
+def train(model, iterator, optimizer, criterion, clip):
+    # Training loop
+def evaluate(model, iterator, criterion):
+    # Validation loop
+```
+
+6. **Main function**: Model, dataset, optimizer, mattu criterion annu instantiate maadi, nantara training loop run maadi.
+
+```python
+if __name__ == ""__main__"":
+    # Model, dataset, optimizer, mattu criterion annu instantiate maadi
+    # Training loop run maadi mattu model save maadi
+```
+
+Ee task na complexity inda, Transformer model implement maaduva step-by-step guide gaagi ee resources follow maadalu naanu shifaarasu maadutteene:
+
+1. [The Annotated Transformer](http://nlp.seas.harvard.edu/2018/04/03/attention.html) - PyTorch nalli Transformer model na chennaagi-vivarisida implementation.
+2. [Hugging Face Tokenizers](https://huggingface.co/docs/tokenizers/python/latest/) - Hugging Face `tokenizers` library upayogisuva guide.
+3. [Hugging Face Datasets](https://huggingface.co/docs/datasets/) - Hugging Face `datasets` library inda datasets load mattu upayogisuva guide.
+4. [PyTorch Tutorials](https://pytorch.org/tutorials/) - PyTorch annu artha maadikolluva mattu adarondige kelasa maaduva official PyTorch tutorials.",2,367 words,2,No native script chars,2,Overlap=0.44 — slightly English-heavy,1,Multiple: vowel inconsistency: 'gaagi'; case inconsistency: 'Sampoorna' vs 'sampoorna',2,BGE=0.707,,,,,,
+19,anthropic,kannada,d29cb008-c9f1-464a-8f27-1c0c1466d213,"I am getting the following error after I install a local .deb file on linux, and I don't know what's causing it. Do you know what the causes and solutions for this error might be? The error is:
+
+""N: Download is performed unsandboxed as root as file '/root/assets/Dungeondraft-1.0.4.7-Linux64.deb' couldn't be accessed by user '_apt'. - pkgAcquire::Run (13: Permission denied)""","The error message suggests that the download of the .deb file was performed as the root user, which means that the package manager (apt) is unable to access the downloaded file because it is owned by the root user and _apt does not have permission to access it.
+
+To solve this issue, you can change the ownership of the downloaded file to _apt user or move the file to a directory accessible by _apt user.
+
+Here are two possible solutions:
+
+1. Change the ownership of the downloaded file to _apt user:
+```bash
+sudo chown _apt:_apt /root/assets/Dungeondraft-1.0.4.7-Linux64.deb
+```
+
+This will change the ownership of the file to _apt user, which should allow apt to access the file.
+
+2. Move the file to a directory accessible by _apt user:
+```bash
+sudo mv /root/assets/Dungeondraft-1.0.4.7-Linux64.deb /var/cache/apt/archives/
+```
+
+This will move the file to the apt cache directory, which is accessible by _apt user. After moving the file, you can try to install the package again using apt","Naanu Linux nalli local .deb file install maadida nantara ee kelagina error baruttide, mattu idakke kaarana enu antha gottilla. Ee error ge kaaranagalu mattu pariharagalu enirabahudu antha neevu hellbahuda? Error ide:
+
+""N: Download is performed unsandboxed as root as file '/root/assets/Dungeondraft-1.0.4.7-Linux64.deb' couldn't be accessed by user '_apt'. - pkgAcquire::Run (13: Permission denied)""","Ee error message thoorisuvudenendare, .deb file na download root user aagi maadlaagide, idarinda package manager (apt) ge a download maadida file access maadalu aaguttilla, yaakandare adu root user na ownership nalli ide mattu _apt ge adannu access maaduva permission illa.
+
+Ee samasyege parihaara hegandare, neevu download maadida file na ownership annu _apt user ge badalisabahudu, athava file annu _apt user ge accessible aagiruva directory ge move maadabahudu.
+
+Illi yeradu saadhya parihaaragalu ive:
+
+1. Download maadida file na ownership annu _apt user ge badalisi:
+```bash
+sudo chown _apt:_apt /root/assets/Dungeondraft-1.0.4.7-Linux64.deb
+```
+
+Idu file na ownership annu _apt user ge badalaayisuttade, idarinda apt ge file access maadalu saadhyavaagabeku.
+
+2. File annu _apt user ge accessible aagiruva directory ge move maadi:
+```bash
+sudo mv /root/assets/Dungeondraft-1.0.4.7-Linux64.deb /var/cache/apt/archives/
+```
+
+Idu file annu apt cache directory ge move maaduttade, adu _apt user ge accessible aagide. File move maadida nantara, neevu apt balasi package annu maathe install maadalu prayatnisbahudu",2,151 words,2,No native script chars,3,Overlap=0.25 — well romanized,2,Minor: case inconsistency: 'download' vs 'Download',2,BGE=0.722,,,,,,
+20,anthropic,kannada,fe450516-3a0c-407e-a66d-a5b7b9791e7a,"This passage is from a poor quality machine extraction of text from an old book. Please extract the coherent English text and phrases from it and rewrite them with proper punctuation in your best attempt at a coherent message:
+
+""numbercorresponding to this, and take the multiplier opposite toit, and multiply the full pressure of the steam per squareinch, as it enters the cylinder, by it. TABLE OF MULTIPLIERS BY WHICH TO FIND THE MEAN PRESSURE OFSTEAM AT VARIOUS POINTS OF CUT-OFF. Expansion. Multiplier. Expansion. Multiplier. Expansion. Multiplier. 1.0 1.000 3.4 .654 5.8 .479 1.1 .995 3.5 .644 5.9 .474 1.2 .985 3.6 .634 6. .470 1.3 .971 3.7 .624 6.1 .466 1.4 .955 3.8 .615 6.2 .462 1.5 .937 3.9 .605 6.3 .458 1.6 .919 4. .597 6.4 .454 1.7 .900 4.1 .588 6.5 .450 1.8 .882 4.2 .580 6.6 .446 1.9 .864 4.3 .572 6.7 .442 2. .847 4.4 .564 6.8 .438 2.1 .830 4.5 .556 6.9 .434 2.2 .813 4.6 .549 7. .430 2.3 .797 4.7 .542 7.1 .427 2.4 .781 4.8 .535 7.2 .423 2.5 .766 4.9 .528 7.3 .420 2.6 .752 5. .522 7.4 .417 2.7 .738 5.1 .516 7.5 .414 2.8 .725 5.2 .510 7.6 .411 2.9 .712 5.3 .504 7.7 .408 3. .700 5.4 .499 7.8 .405 3.1 .688 5.5 .494 7.9 .402 8.2 .676 5.6 .489 8. .399 3.3 .665 5.7 .484 52 HAND-BOOK OF LAND AND MARINE ENGINES.","Sure, here's a version with improved grammar and an organized steam pressure table.
+
+---
+
+[...] number corresponding to this, take the multiplier opposite to it and multiply the full pressure of the steam per square inch as it inters the cylinder by it. 
+
+TABLE OF MULTIPLIERS BY WHICH TO FIND THE MEAN PRESSURE OF STEAM AT VARIOUS POINTS OF CUT-OFF:
+| Expansion | Multiplier | Expansion | Multiplier | Expansion | Multiplier |
+|-----------|------------|-----------|------------|-----------|------------|
+| 1.0       | 1.000      | 3.4       | .654       | 5.8       | .479       |
+| 1.1       | .995       | 3.5       | .664       | 5.9       | .474       |
+| 1.2       | .985       | 3.6       | .634       | 6.        | .470       |
+| 1.3       | .971       | 3.7       | .624       | 6.1       | .466       |
+| 1.4       | .955       | 3.8       | .615       | 6.2       | .462       |
+| 1.5       | .937       | 3.9       | .605       | 6.3       | .458       |
+| 1.6       | .919       | 4.        | .597       | 6.4       | .454       |
+| 1.7       | .900       | 4.1       | .588       | 6.5       | .450       |
+| 1.8       | .882       | 4.2       | .580       | 6.6       | .446       |
+| 1.9       | .864       | 4.3       | .572       | 6.7       | .442       |
+| 2.        | .847       | 4.4       | .564       | 6.8       | .438       |
+| 2.1       | .830       | 4.5       | .556       | 6.9       | .434       |
+| 2.2       | .813       | 4.6       | .549       | 7.        | .430       |
+| 2.3       | .797       | 4.7       | .542       | 7.1       | .427       |
+| 2.4       | .781       | 4.8       | .535       | 7.2       | .423       |
+| 2.5       | .766       | 4.9       | .528       | 7.3       | .420       |
+| 2.6       | .752       | 5.        | .522       | 7.4       | .417       |
+| 2.7       | .738       | 5.1       | .516       | 7.5       | .414       |
+| 2.8       | .725       | 5.2       | .510       | 7.6       | .411       |
+| 2.9       | .712       | 5.3       | .504       | 7.7       | .408       |
+| 3.        | .700       | 5.4       | .499       | 7.8       | .405       |
+| 3.1       | .688       | 5.5       | .494       | 7.9       | .402       |
+| 3.2       | .676       | 5.6       | .489       | 8.        | .399       |
+| 3.3       | .665       | 5.7       | .484       |           |            |
+
+[Page] 52
+
+HAND-BOOK OF LAND AND MARINE ENGINES.","Ee passage ondu hale pustakada kalpa quality machine extraction inda bandiruva text. Dayavittu illinda coherent English text mattu phrases galannu extract maadi, sariyaada punctuation jote nimma best attempt nalli ondu coherent message aagi punarlekhana maadi:
+
+""numbercorresponding to this, and take the multiplier opposite toit, and multiply the full pressure of the steam per squareinch, as it enters the cylinder, by it. TABLE OF MULTIPLIERS BY WHICH TO FIND THE MEAN PRESSURE OFSTEAM AT VARIOUS POINTS OF CUT-OFF. Expansion. Multiplier. Expansion. Multiplier. Expansion. Multiplier. 1.0 1.000 3.4 .654 5.8 .479 1.1 .995 3.5 .644 5.9 .474 1.2 .985 3.6 .634 6. .470 1.3 .971 3.7 .624 6.1 .466 1.4 .955 3.8 .615 6.2 .462 1.5 .937 3.9 .605 6.3 .458 1.6 .919 4. .597 6.4 .454 1.7 .900 4.1 .588 6.5 .450 1.8 .882 4.2 .580 6.6 .446 1.9 .864 4.3 .572 6.7 .442 2. .847 4.4 .564 6.8 .438 2.1 .830 4.5 .556 6.9 .434 2.2 .813 4.6 .549 7. .430 2.3 .797 4.7 .542 7.1 .427 2.4 .781 4.8 .535 7.2 .423 2.5 .766 4.9 .528 7.3 .420 2.6 .752 5. .522 7.4 .417 2.7 .738 5.1 .516 7.5 .414 2.8 .725 5.2 .510 7.6 .411 2.9 .712 5.3 .504 7.7 .408 3. .700 5.4 .499 7.8 .405 3.1 .688 5.5 .494 7.9 .402 8.2 .676 5.6 .489 8. .399 3.3 .665 5.7 .484 52 HAND-BOOK OF LAND AND MARINE ENGINES.","Khanditavaagi, illi improved grammar mattu organized steam pressure table iruva version ide.
+
+---
+
+[...] number corresponding to this, take the multiplier opposite to it and multiply the full pressure of the steam per square inch as it enters the cylinder by it.
+
+TABLE OF MULTIPLIERS BY WHICH TO FIND THE MEAN PRESSURE OF STEAM AT VARIOUS POINTS OF CUT-OFF:
+| Expansion | Multiplier | Expansion | Multiplier | Expansion | Multiplier |
+|-----------|------------|-----------|------------|-----------|------------|
+| 1.0       | 1.000      | 3.4       | .654       | 5.8       | .479       |
+| 1.1       | .995       | 3.5       | .664       | 5.9       | .474       |
+| 1.2       | .985       | 3.6       | .634       | 6.        | .470       |
+| 1.3       | .971       | 3.7       | .624       | 6.1       | .466       |
+| 1.4       | .955       | 3.8       | .615       | 6.2       | .462       |
+| 1.5       | .937       | 3.9       | .605       | 6.3       | .458       |
+| 1.6       | .919       | 4.        | .597       | 6.4       | .454       |
+| 1.7       | .900       | 4.1       | .588       | 6.5       | .450       |
+| 1.8       | .882       | 4.2       | .580       | 6.6       | .446       |
+| 1.9       | .864       | 4.3       | .572       | 6.7       | .442       |
+| 2.        | .847       | 4.4       | .564       | 6.8       | .438       |
+| 2.1       | .830       | 4.5       | .556       | 6.9       | .434       |
+| 2.2       | .813       | 4.6       | .549       | 7.        | .430       |
+| 2.3       | .797       | 4.7       | .542       | 7.1       | .427       |
+| 2.4       | .781       | 4.8       | .535       | 7.2       | .423       |
+| 2.5       | .766       | 4.9       | .528       | 7.3       | .420       |
+| 2.6       | .752       | 5.        | .522       | 7.4       | .417       |
+| 2.7       | .738       | 5.1       | .516       | 7.5       | .414       |
+| 2.8       | .725       | 5.2       | .510       | 7.6       | .411       |
+| 2.9       | .712       | 5.3       | .504       | 7.7       | .408       |
+| 3.        | .700       | 5.4       | .499       | 7.8       | .405       |
+| 3.1       | .688       | 5.5       | .494       | 7.9       | .402       |
+| 3.2       | .676       | 5.6       | .489       | 8.        | .399       |
+| 3.3       | .665       | 5.7       | .484       |           |            |
+
+[Page] 52
+
+HAND-BOOK OF LAND AND MARINE ENGINES.",2,391 words,2,No native script chars,0,Overlap=0.94 — barely romanized,2,Minor: case inconsistency: 'table' vs 'TABLE',3,BGE=0.897,,,,,,

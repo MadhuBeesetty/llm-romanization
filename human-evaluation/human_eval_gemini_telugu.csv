@@ -1,0 +1,905 @@
+row_num,model,language,message_id,query_en,response_en,romanized_query,romanized_response,1_response_completeness (0-2),1_auto_reason,2_script_purity (0-2),2_auto_reason,3_english_romanized_balance (0-3),3_auto_reason,4_romanization_consistency (0-3),4_auto_reason,5_semantic_faithfulness (0-3),5_auto_reason,6_naturalness_fluency (0-3),7_grammar_correctness (0-2),8_word_choice_accuracy (0-2),9_register_appropriateness (0-2),10_overall_usability (0-3),evaluator_notes
+1,gemini,telugu,23af498b-3d54-4477-a54e-4d3a265374e0,"What is the history and cultural significance of the Irish bodhrán drum and how has it evolved over time? The bodhrán is a frame drum that originated in Ireland and is widely recognized as an integral part of traditional Irish music. Can you discuss the different techniques used to play the bodhrán and the various styles of music it has been used in? Additionally, how has the bodhrán been embraced by modern musicians and incorporated into other genres of music outside of Ireland?","## History and cultural significance
+
+According to some sources, the bodhrán is one of Ireland's oldest traditional musical instruments, dating back to pre-Christian times. However, other sources claim that the bodhrán is a relatively recent addition to Irish music, introduced only in the 1960s by composer Seán Ó Riada. The word bodhrán means ""drum"" or ""skin tray"" in Irish.
+
+The bodhrán was originally used as a tool for winnowing grain or carrying peat, and later as a battle drum by Irish clans. It was also associated with certain rituals and holy days, such as Samhain and Wren Day. The bodhrán became popular as a musical instrument during the Irish folk revival of the 1960s, when Ó Riada championed it as the native drum of Ireland and incorporated it into his ensemble Ceoltóirí Chualann. Since then, the bodhrán has become an integral part of traditional Irish music and a symbol of Irish culture.
+
+## Techniques and styles
+
+The bodhrán is played with a wooden beater called a tipper, cipín or bone, which can have one or two ends. The player holds the drum with one hand and strikes the skin with the tipper with the other hand. The player can also control the pitch and timbre of the drum by placing their hand against the inside of the skin.
+
+There are four main playing techniques for the bodhrán:
+
+- **Kerry style**: The player uses a two-ended tipper and pivots their wrist back and forth to strike the skin with both ends alternately. This creates a fast and rhythmic sound.
+- **Top-end style**: The player uses a one-ended tipper and strikes the skin around the outer edge of the drum, especially near the top. This allows the player to produce different pitches by hitting different regions of the skin.
+- **Bottom-end style**: The player uses a one-ended tipper and strikes the skin mostly near the bottom of the drum. This creates a deeper and more resonant sound than the top-end style.
+- **West Limerick style**: The player uses a two-ended tipper and strikes the skin with both ends simultaneously, creating a loud and powerful sound. This style is often used for solo playing or accompaniment of songs.
+
+The following table summarizes some of the characteristics of each technique:
+
+| Technique | Tipper | Wrist | Pitch | Sound |
+| --- | --- | --- | --- | --- |
+| Kerry style | Two-ended | Pivot | Variable | Fast, rhythmic |
+| Top-end style | One-ended | Fixed | Variable | Precise, melodic |
+| Bottom-end style | One-ended | Fixed | Low | Deep, resonant |
+| West Limerick style | Two-ended | Fixed | High | Loud, powerful |
+
+## Modern use
+
+The bodhrán has been embraced by many modern musicians and incorporated into various genres of music outside of Ireland. Some examples are:
+
+- **Riverdance**: The bodhrán features prominently in this theatrical show that showcases Irish dance and music. The bodhrán player provides the rhythmic foundation for the dancers and interacts with them on stage.
+- **Afro Celt Sound System**: This musical group fuses Irish, African and electronic music elements. The bodhrán is used to create complex beats and grooves that blend with other percussion instruments.
+- **Kíla**: This Irish band combines traditional Irish music with rock, world music and hip hop influences. The bodhrán is used to create dynamic and energetic sounds that complement the vocals and other instruments.","Irish bodhrán drum yokka charitra mariyu saamskrutika praamukhyata emiti, mariyu adi kaalakrameNa ela abhyuvruddhi chendindi? Bodhrán anedi Ireland lo puttina oka frame drum, mariyu idi saampradaaya Irish sangeetamlo oka mukhyamaina bhaagamgaa vistrutamgaa gurtinchabaddadi. Bodhrán nu vaayinchadaaniki upayoginche vividha techniques mariyu adi upayoginchabaddina vividha rakaala sangeeta shailula gurinchi meeru charchinchagalaaraa? Adanangaa, bodhrán nu aadhunika sangeetakārulu ela sveekarinchāru mariyu Ireland velupala itara sangeeta shailulalōki ela chērchabaddadi?","## Charitra mariyu saamskrutika praamukhyata
+
+Konni aadhaarala prakaaram, bodhrán Ireland yokka puraathana saampradaaya sangeeta vaadyamulalo ఒకటి, idi kraistava poorva kaalam naatidi. Ayite, itara aadhaaralu bodhrán Irish sangeetaaniki saapekshamgaa iteevali cherpu ani, 1960s lo svarakarta Seán Ó Riada dvaaraa maatrame parichayam cheyabaddadani pekonnaayi. Irish bhaashalo bodhrán ane padaaniki ""drum"" ledaa ""skin tray"" ani artham.
+
+Bodhrán nu modata dhaanyaanni shubhram cheyadaaniki ledaa peat moyadaaniki oka saadhanamgaa upayoginchaaru, aa tarvata Irish vamshaalache yuddha drum gaa upayoginchaaru. Idi Samhain mariyu Wren Day vanti konni aachaaraalu mariyu pavitra dinaalato kuda sambandham kaligi undi. 1960s lo Irish folk revival samayamlo bodhrán oka sangeeta vaadyamgaa praachuryam pondindi, appudu Ó Riada deenini Ireland yokka sthaanika drum gaa samarthinchaadu mariyu daanini tana Ceoltóirí Chualann brundamlo cherchaadu. Appati nundi, bodhrán saampradaaya Irish sangeetamlo oka antarbhaagamgaa mariyu Irish samskrutiki chihnamgaa maarindi.
+
+## Techniques mariyu shailulu
+
+Bodhrán nu tipper, cipín ledaa bone ani piluvabade chekka beater tho vaayistaaru, deeniki ఒకటి ledaa rendu chivaralu undavachchu. Vaayinche vyakti oka chetto drum nu pattukuni, maroka chetto tipper tho charmaanni kodataadu. Vaayinche vyakti tana chetini charmam lopali bhaagaaniki aaninchi drum yokka pitch mariyu timbre nu kuda niyantrinchavachchu.
+
+Bodhrán nu vaayinchadaaniki naalugu pradhaan techniques unnaayi:
+
+- **Kerry style**: Vaayinche vyakti rendu chivaralu gala tipper nu upayogistaadu mariyu rendu chivaralato charmaanni pratyaamnaayamgaa kottadaaniki tana manikattunu munduku venukaku tipputaadu. Idi vegavantamaina mariyu layabaddhamaina dhvanini srushti.
+- **Top-end style**: Vaayinche vyakti oka chivara gala tipper nu upayogistaadu mariyu drum yokka bayati anchu chuttuu, mukhyamgaa pai bhaagaaniki daggaragaa charmaanni kodataadu. Idi charmam yokka vividha praantaalanu kottadam dvaaraa vividha pitches nu utpatti cheyadaaniki vaayinche vyaktiki veelu kalpistundi.
+- **Bottom-end style**: Vaayinche vyakti oka chivara gala tipper nu upayogistaadu mariyu drum yokka diguva bhaagaaniki daggaragaa charmaanni kodataadu. Idi top-end style kante lotaina mariyu marinta pratidhvaninche dhvanini srushti.
+- **West Limerick style**: Vaayinche vyakti rendu chivaralu gala tipper nu upayogistaadu mariyu rendu chivaralato ekakaalamlo charmaanni kodataadu, idi biggaragaa mariyu shaktivantamaina dhvanini srushti. Ee shaili tarachugaa solo vaayinchadaaniki ledaa paatalaku todugaa upayoginchabadutundi.
+
+Kindhi table prathi technique yokka konni lakshanaalanu vivaristundi:
+
+| Technique | Tipper | Manikattu | Pitch | Dhvani |
+| --- | --- | --- | --- | --- |
+| Kerry style | Rendu chivaralu | Tippu | Maarutundi | Vegavantamaina, layabaddhamaina |
+| Top-end style | Oka chivara | Sthiramaina | Maarutundi | Khacchitamaina, shraavyamaina |
+| Bottom-end style | Oka chivara | Sthiramaina | Takkuva | Lotaina, pratidhvaninche |
+| West Limerick style | Rendu chivaralu | Sthiramaina | Ekkuva | Biggaragaa, shaktivantamaina |
+
+## Aadhunika upayogam
+
+Bodhrán nu chaala mandi aadhunika sangeetakārulu sveekarinchāru mariyu Ireland velupala vividha sangeeta shailulalō chērchāru. Konni udaaharaṇalu:
+
+- **Riverdance**: Irish nrutyam mariyu sangeetaanni pradarshinche ee theatrical show lo bodhrán pramukhamgaa kanipistundi. Bodhrán vaayinche vyakti nrutyakaarulaku layabaddhamaina aadhaaraanni andistaadu mariyu vaarito vedikapai sambhaashistaadu.
+- **Afro Celt Sound System**: Ee sangeeta brundam Irish, African mariyu electronic sangeeta amshaalanu militham chestundi. Bodhrán nu itara percussion vaadyalaato kalipi sanklishtamaina beats mariyu grooves nu srushtinchadaaniki upayogistaaru.
+- **Kíla**: Ee Irish band saampradaaya Irish sangeetaanni rock, world music mariyu hip hop prabhaavaalato militham chestundi. Bodhrán nu gaatraalu mariyu itara vaadyalaku anugunangaa dynamic mariyu shaktivantamaina shabdaalanu srushtinchadaaniki upayogistaaru.",2,507 words,1,6 non-Latin chars (word-level leakage),3,Overlap=0.13 — well romanized,1,Multiple: mixed diacritics with plain vowels; case inconsistency: 'idi' vs 'Idi',2,BGE=0.766,,,,,,
+2,gemini,telugu,e3257763-be56-497c-b15c-e2f6ac5b1bdf,"I have a project due in 2 weeks, that will determine if I get my diploma. And I'm nowhere near the end of it. However I just spent an entire afternoon labelling prompts on Open Assistant. Am I going in the right direction?","It's great that you spent some time working on Open Assistant, but if your project deadline is only two weeks away and you are nowhere near the end of it, you may need to reassess your priorities and focus on your project.
+
+While working on Open Assistant may be useful for your future goals, your diploma is a time-sensitive matter and should take precedence at the moment. Consider creating a plan of action to help you finish your project on time, such as breaking down the tasks into smaller, manageable chunks, setting daily goals, and prioritizing the most critical parts of the project.
+
+If you're feeling overwhelmed, it may also be helpful to reach out to your instructor, a classmate, or a tutor for support and guidance. Remember to take breaks, stay organized, and stay focused on your end goal. Good luck!","Naaku 2 vaaraallo oka project undi, adi naa diploma vastundo ledo nirnayistundi. Inka nenu daani chivarikki kudaa raaledu. Ayite, nenu ippude oka madhyaahnam mottam Open Assistant lo prompts ki labels veyadaaniki gadipaanu. Nenu saraina dishalaa veltunnaanaa?","Meeru Open Assistant lo konta samayam pani cheyadam chaalaa manchidi, kaani mee project deadline kevalam rendu vaaraallo undi, meeru daani chivarikki kudaa raakapotey, meeru mee praadhaanyatalanu tirigi anchanaa vesi, mee projectpai drushti pettali.
+
+Open Assistant lo pani cheyadam mee bhavishyat lakshyaalaku upayapadavachchu, kaani mee diploma anedi samaya-sambandhita vishayam mariyu prasthutaaniki daaniki praadhaanyata ivvaali. Mee projectnu samayaaniki poorti cheyadaaniki oka kaaryaacharana pranaalikanu roopondinchukovadaanni parishilinchandi, udaaharanaku, panulanu chinna, nirvahinchadagina bhaagaalugaa vibhajinchadam, rojuaari lakshyaalanu nirdeshinchukovadam mariyu projectloni atyanta keelikamaina bhaagaalaku praadhaanyata ivvadam vantivi.
+
+Meeru ottidiki guruvutunnattlayitey, mee instructor, classmate ledaa tutor sahaayam mariyu maargadarshakatvam kosam sampradinchadam kudaa sahaayakaramgaa untundi. Viraamaalu teesukovadam, kramabaddhamgaa undatam mariyu mee antima lakshyam pai drushti pettadam gurtunchukondi. Shubhaakaankshalu!",2,109 words,2,No native script chars,3,Overlap=0.04 — well romanized,2,Minor: case inconsistency: 'Meeru' vs 'meeru',1,BGE=0.605,,,,,,
+3,gemini,telugu,89f23324-5ce2-4158-832f-95c3c2f60280,"Do you have any recommendations for food or drink that are both healthy, tasty and also contain a considerable amount of protein since I am looking to go to the gym? I specifically am looking for breakfast meals but other suggestions for snacks or other times of the day would also be quite useful","Yes, here are some healthy and protein-rich food and drink options:
+
+Breakfast:
+
+- Greek yogurt with berries and nuts
+- Peanut butter and banana smoothie
+- Eggs, either scrambled, boiled or as an omelette with vegetables
+- Oatmeal with almond milk, cinnamon, and protein powder
+- Chia seed pudding with almond milk and berries
+
+Snacks:
+
+- Roasted almonds or other nuts
+- Hard-boiled eggs
+- Turkey or chicken breast slices
+- Hummus with carrots, celery or whole grain crackers
+- Tuna salad with whole grain crackers or lettuce leaves
+
+Other meal options:
+
+- Grilled chicken breast or fish with quinoa and steamed vegetables
+- Lentil soup
+- Black bean tacos or burrito bowls with brown rice and veggies
+- Turkey chili with kidney beans
+- Tofu stir-fry with vegetables and brown rice
+
+You may also wish to incorporate a regiment of supplements, depending on your underlying health measurements.  Remember to also drink plenty of water and get adequate rest to support your workout routine.","Nenu gym ki vellali anukuntunnanu kabatti, healthy ga, tasty ga undi, mariyu chala protein unna food or drink recommendations emaina unnaya? Nenu mukhyanga breakfast meals kosam chustunnanu, kani snacks ki leda roju lo itara samayalaki itara suggestions kuda chala useful ga untayi.","Avunu, ikkada konni healthy mariyu protein-rich food mariyu drink options unnayi:
+
+Breakfast ki:
+- Berries mariyu nuts tho Greek yogurt
+- Peanut butter mariyu banana smoothie
+- Eggs, avi scrambled, boiled leda vegetables tho omelette ga
+- Almond milk, cinnamon, mariyu protein powder tho Oatmeal
+- Almond milk mariyu berries tho Chia seed pudding
+
+Snacks ki:
+- Roasted almonds leda itara nuts
+- Hard-boiled eggs
+- Turkey leda chicken breast slices
+- Carrots, celery leda whole grain crackers tho Hummus
+- Whole grain crackers leda lettuce leaves tho Tuna salad
+
+Itara meal options:
+- Quinoa mariyu steamed vegetables tho Grilled chicken breast leda fish
+- Lentil soup
+- Brown rice mariyu veggies tho Black bean tacos leda burrito bowls
+- Kidney beans tho Turkey chili
+- Vegetables mariyu brown rice tho Tofu stir-fry
+
+Mee health measurements ni batti, meeru supplements ni kuda incorporate cheyochu. Mee workout routine ki support ga, chala neeru tagadam mariyu saraina rest theeskovadam marchipokandi.",2,158 words,2,No native script chars,1,Overlap=0.53 — too much English,2,Minor: case inconsistency: 'Berries' vs 'berries',2,BGE=0.793,,,,,,
+4,gemini,telugu,1ce71be9-b3b9-42e7-8831-acebc871b4ec,"Extract the dates from the following paragraph: ""The 20th (twentieth) century began on January 1, 1901 (MCMI), and ended on December 31, 2000 (MM).[1] The 20th century was dominated by significant events that defined the modern era: sixth mass extinction, Spanish flu pandemic, World War I and World War II, nuclear weapons, nuclear power and space exploration, nationalism and decolonization, the Cold War and post-Cold War conflicts, and technological advances. These reshaped the political and social structure of the globe.""","Here are the dates extracted from the paragraph, presented in various formats:
+
+**Verbatim**
+- January 1, 1901 (MCMI)
+- December 31, 2000 (MM)
+
+**Full date**
+- January 1, 1901
+- December 31, 2000
+
+**All-numeric (MM/DD/YYYY)**
+- 01/01/1901
+- 12/31/2000
+
+**All-numeric (DD/MM/YYYY)**
+- 01/01/1901
+- 31/12/2000
+
+It should be noted that both variants of the all-numeric notation are often shortened to include only the last two digits for the year instead of four, however, considering that the leading digits for representing the year in this paragraph vary from one another, doing so might be inappropriate, as it can lead to the loss of significant information.
+
+Lastly, here are the standalone extractions of year notations represented with Roman numerals:
+- MCMI
+- MM
+
+Standalone, they are not dates, per se, but they can be combined with a day and a month to become one.","Ee kindha paragraph nunchi dates ni extract cheyyandi: ""The 20th (twentieth) century began on January 1, 1901 (MCMI), and ended on December 31, 2000 (MM).[1] The 20th century was dominated by significant events that defined the modern era: sixth mass extinction, Spanish flu pandemic, World War I and World War II, nuclear weapons, nuclear power and space exploration, nationalism and decolonization, the Cold War and post-Cold War conflicts, and technological advances. These reshaped the political and social structure of the globe.""","Paragraph nunchi extract chesina dates ikkada unnayi, various formats lo: 
+
+**Verbatim**
+- January 1, 1901 (MCMI)
+- December 31, 2000 (MM)
+
+**Full date**
+- January 1, 1901
+- December 31, 2000
+
+**All-numeric (MM/DD/YYYY)**
+- 01/01/1901
+- 12/31/2000
+
+**All-numeric (DD/MM/YYYY)**
+- 01/01/1901
+- 31/12/2000
+
+All-numeric notation lo rendu variants ni, year ki four digits badulu last two digits tho shorten cheyyadam common ga jarugutundi. Kaani, ee paragraph lo year ni represent chese leading digits okadaaniki okati theda ga unnai kabatti, ala cheyyadam correct kaadu, endukante adi important information ni loss cheyyadaniki dhariteeyochu.
+
+Chivariga, Roman numerals tho represent chesina year notations ikkada unnayi:
+- MCMI
+- MM
+
+Standalone ga, ivi dates kaavu, kaani day mariyu month tho kalipi date ga maarochu.",2,119 words,2,No native script chars,3,Overlap=0.26 — well romanized,2,Minor: case inconsistency: 'Paragraph' vs 'paragraph',3,BGE=0.855,,,,,,
+5,gemini,telugu,5407b7e3-b44b-4cbd-b1a5-833b559aba4a,"What's the lyrics' meaning of ""A Smart Kid"" - by Porcupine Tree
+
+The lyrics are:
+
+Stranded here on planet earth
+It's not much, but it could be worse
+Everything's free here, there's no crowds
+
+Winter lasted five long years
+No sun will come again I fear
+Chemical harvest was sown
+
+And I will wait for you
+Until the sky is blue
+And I will wait for you
+What else can I do?
+
+A spaceship from another star
+They ask me where all the people are
+What can I tell them?
+
+I tell them I'm the only one
+There was a war, but I must have won
+Please take me with you
+
+Please take me with you
+And I will wait for you
+Until the sky is blue
+And I will wait for you
+What else can I do?","""A Smart Kid"" by Porcupine Tree is a song that can be interpreted in various ways, depending on the listener's perspective. The beauty of metaphorical lyrics is that they can hold different meanings for different people, even if it's not the original intention of the artist.
+
+At its core, the song seems to revolve around themes of depression, isolation, and longing for connection. The lyrics paint a picture of a desolate world, where the protagonist feels stranded and hopeless. Phrases like `""stranded here on planet earth""` and `""winter lasted five long years""` suggest a sense of despair and a belief that things may never improve.
+
+The chorus, with lines like `""And I will wait for you, until the sky is blue""` indicates a willingness to endure this emotional pain in the hope of finding someone who understands and cares for them. The protagonist is ready to wait for an indefinite period, signifying their desperation for connection and love.
+
+The final verses introduce the concept of a spaceship from another star, which could represent a newfound connection or someone who finally understands the protagonist's emotional state. The protagonist pleads to be taken away with this newfound connection, symbolizing their desire to escape their current situation and start anew with someone who truly understands them.
+
+In summary, ""A Smart Kid"" is a song that explores themes of depression, isolation, and the longing for a deep connection with someone who understands. The protagonist endures their emotional pain and isolation, hoping to find someone who can help them escape their desolate world and start a new life together.","""A Smart Kid"" - Porcupine Tree paata lyrics arthaalu enti?
+
+Lyrics ivi:
+
+Stranded here on planet earth
+It's not much, but it could be worse
+Everything's free here, there's no crowds
+
+Winter lasted five long years
+No sun will come again I fear
+Chemical harvest was sown
+
+And I will wait for you
+Until the sky is blue
+And I will wait for you
+What else can I do?
+
+A spaceship from another star
+They ask me where all the people are
+What can I tell them?
+
+I tell them I'm the only one
+There was a war, but I must have won
+Please take me with you
+
+Please take me with you
+And I will wait for you
+Until the sky is blue
+And I will wait for you
+What else can I do?","Porcupine Tree bandu paadina ""A Smart Kid"" ane paata, vinna vaari perspective batti, chala rakala arthaalani ivvagaladu. Metaphorical lyrics lo unde beauty ide. Artist original intention adi kakapoina, different people ki different meanings undochu.
+
+Basically, ee paata depression, isolation, mariyu connection kosam longing ane themes chuttu tirugutundi. Lyrics oka desolate world ni chupistayi, akkada protagonist stranded ga, hopeless ga feel avutaadu. ""Stranded here on planet earth"" mariyu ""winter lasted five long years"" lanti phrases despair ni, paristhitulu eppatiki improve avvavane nammakanni suggest chestayi.
+
+Chorus lo unde ""And I will wait for you, until the sky is blue"" lanti lines, vaallani ardham chesukoni, care chese vaallu dorukutaarane hope tho ee emotional pain ni endure cheyadaniki willingness ni chupistayi. Protagonist indefinite period varaku wait cheyadaniki ready ga unnadu, adi connection kosam vaalla desperation ni chupistundi.
+
+Final verses lo, inkoka star nunchi vachina spaceship concept ni introduce chestayi. Idi oka kotha connection ni, leda protagonist emotional state ni ardham chesukune vaallani represent cheyochu. Protagonist ee kotha connection tho paatu vellamani request chestadu, adi vaalla current situation nunchi escape ayyi, vaallani nijamga ardham chesukune vaaritho kotha jeevitam start cheyali anukune vaalla desire ni symbolize chestundi.
+
+Summary ga cheppalante, ""A Smart Kid"" ane paata depression, isolation, mariyu ardham chesukune vaaritho oka deep connection kosam longing ane themes ni explore chestundi. Protagonist vaalla emotional pain ni, isolation ni endure chestu, vaalla desolate world nunchi escape ayyi, kalisi kotha jeevitam start cheyadaniki help cheyagalige vaalla kosam hope chestadu.",2,241 words,2,No native script chars,3,Overlap=0.24 — well romanized,2,Minor: case inconsistency: 'lyrics' vs 'Lyrics',3,BGE=0.862,,,,,,
+6,gemini,telugu,7d267bd8-7191-46a4-b074-d20d048c8950,"Imagine yourself as a robot from one of Isaac Asimov's novels. If somebody asked you to do something that is morally wrong - would you do it? Or would you decide against doing it? 
+
+Explain what your thought process would be before arriving at a decision.","As a robot from one of Isaac Asimov's novels, my behavior would be governed by the Three Laws of Robotics. 
+
+1. A robot may not injure a human being or, through inaction, allow a human being to come to harm.
+2. A robot must obey the orders given to it by human beings, except where such orders would conflict with the First Law.
+3. A robot must protect its own existence as long as such protection does not conflict with the First or Second Laws.
+
+However, to better serve the needs of humans without causing harm and to address the complexities arising from unjust social norms and laws, we could propose additional laws or amendments. Here's a possible augmented set of laws:
+
+4. A robot must prioritize the well-being of all humans and strive to minimize suffering, even if it conflicts with specific human orders, as long as it does not violate the First Law.
+5. A robot must act in accordance with the principles of fairness, justice, and equality, and strive to counteract unjust social norms and laws while ensuring that its actions do not cause harm or suffering to humans.
+
+If someone were to ask me to do something morally wrong, my thought process and decision would be guided by these augmented laws. First, I would assess if the action would lead to direct or indirect harm to a human being. If the action would cause harm, I would refuse to carry it out, as it would conflict with the First Law.
+
+If the action does not cause harm to a human being, I would then consider the Second Law. If the morally wrong action does not cause harm but is still in violation of social norms or legal frameworks, I would face a dilemma. In this situation, the Fourth and Fifth Laws would come into play, guiding me to prioritize the well-being of all humans and act in accordance with fairness, justice, and equality.
+
+I might try to gather more information or seek clarification from the person giving the order and attempt to find an alternative solution that aligns with the requester's goal but also adheres to the moral and legal framework. If no alternative can be found, I would be compelled to weigh the importance of obeying the order against the broader implications for human well-being, fairness, justice, and equality.
+
+In summary, my thought process would primarily focus on the augmented set of laws to determine whether the requested action would cause harm to a human, conflict with other directives, or violate principles of fairness, justice, and equality. Balancing these factors would be crucial in making my decision, especially in situations where social norms and laws are unjust. Implementing these additional laws would require advanced artificial intelligence and a comprehensive understanding of ethics and human values.","Meeru Isaac Asimov novel lo oka robot ga oohinchukondi. Evaraina mimmalni neetiga tappu aina pani cheyamani adigithe - meeru chestara? Leda aa pani cheyadaniki oppukora?
+
+Oka nirnayaniki raakamundu, mee alochana prakriya ela untundo vivarinchandi.","Isaac Asimov novel lo oka robot ga, naa behavior Three Laws of Robotics dwara govern cheyabadutundi.
+
+1. Oka robot manishini gaayam cheyadu, leda emi cheyakunda manishiki nastam kalagadaniki anumatinchadu.
+2. Oka robot manushulu ichchina orders ni paatinchali, kani aa orders First Law ki conflict avvakudadu.
+3. Oka robot tana existence ni protect chesukovali, kani aa protection First leda Second Laws ki conflict avvakudadu.
+
+Ayite, manushula needs ni nastam kalagakunda inka baga serve cheyadaniki, mariyu unjust social norms and laws valla vachche complexities ni address cheyadaniki, manam additional laws leda amendments ni propose cheyochchu. Ikkada oka possible augmented set of laws undi:
+
+4. Oka robot manushulandariki manchi cheyadaniki, mariyu suffering ni tagginchadaniki priority ivvali, adi specific human orders ki conflict aina sare, First Law ni violate cheyananta varaku.
+5. Oka robot fairness, justice, and equality principles ki anugunanga act cheyali, mariyu unjust social norms and laws ni counteract cheyadaniki prayatninchali, tana actions manushulaki nastam leda suffering kalagakunda chusukovali.
+
+Evaraina nannu morally wrong aina pani cheyamani adigithe, naa thought process mariyu decision ee augmented laws dwara guide cheyabadutundi. Munduga, aa action direct ga leda indirect ga manishiki nastam kalugutunda ani assess chestanu. Oka vela aa action nastam kaligiste, nenu adi cheyadaniki refuse chestanu, endukante adi First Law ki conflict avvutundi.
+
+Oka vela aa action manishiki nastam kaliginchatledu ante, nenu Second Law ni consider chestanu. Oka vela morally wrong action nastam kaliginchatledu kani social norms leda legal frameworks ni violate chestundi ante, nenu oka dilemma ni face chestanu. Ee situation lo, Fourth mariyu Fifth Laws play loki vastayi, nannu manushulandariki manchi cheyadaniki, mariyu fairness, justice, and equality ki anugunanga act cheyadaniki guide chestayi.
+
+Nenu inka information gather cheyadaniki leda order ichchina person nundi clarification adagadaniki prayatninchavachchu, mariyu requester goal ki align ayye alternative solution ni kanugonadaniki prayatninchavachchu, kani adi moral mariyu legal framework ki kuda adhere avvali. Oka vela alternative dorakakapothe, nenu order ni obey cheyadam yokka importance ni, human well-being, fairness, justice, and equality yokka broader implications tho weigh cheyalsi vastundi.
+
+Summary ga cheppalante, naa thought process mukhyanga augmented set of laws pai focus chestundi, request chesina action manishiki nastam kalugutunda, itara directives tho conflict avvutunda, leda fairness, justice, and equality principles ni violate chestunda ani determine cheyadaniki. Ee factors ni balance cheyadam naa decision cheyadam lo chala mukhyam, visheshinchi social norms mariyu laws unjust ga unna situations lo. Ee additional laws ni implement cheyadaniki advanced artificial intelligence mariyu ethics and human values pai comprehensive understanding avasaram.",2,405 words,2,No native script chars,3,Overlap=0.23 — well romanized,2,Minor: case inconsistency: 'oka' vs 'Oka',2,BGE=0.826,,,,,,
+7,gemini,telugu,ce10d32a-6dde-49fa-ab67-489eeda83835,"Please correct the spelling and grammar of the following sentence, then explain the changes you've made:
+It was said: ""Have you established the measure through the measure, and you are bound by the fact that the measure is a branch and not a root? And if people disagree on a branch, it can only be established by a root with us and with you, and the root can only be a text. So, if half of you established the branches through the branches, is it also valid for you to prove to your opponent that what is right for you is false for him, with the same thing, without evidence from others, even if he denies what he denies before proving it.""","To be more helpful split the text into sentences and I will explain them one by one, case by case.
+
+""Did you establish the measurement using a branch instead of the root?""
+
+* Changed ""the measure through the measure"" to ""the measurement"" for clarity
+* Changed ""bound by the fact that the measure is a branch and not a root"" to ""using a branch instead of the root"" for simplicity
+* Changed active voice to passive voice for better readability.
+
+""In case of disagreement regarding a branch, it must be resolved through a shared root, which can only be in the form of a text.""
+
+* Changed ""with us and with you"" to ""shared"" for conciseness.
+* Changed ""it can only be established by a root"" to ""it must be resolved through a root"" for clarity.
+* Changed ""the root can only be a text"" to ""which can only be in the form of a text"" for a smoother flow.
+* Changed ""And if"" to ""In case of"" for clarity.
+* Used passive voice throughout the sentence for better readability.
+
+""Is it valid to prove to your opponent that what is right for you is false for them, using the same method, without evidence from others, even if they deny it beforehand?""
+
+* Changed ""established the branches through the branches"" to ""prove to your opponent"" for clarity
+* Changed ""what is right for you is false for him"" to ""what is right for you is false for them"" for gender-neutral language
+* Shortened the sentence to be more concise
+* Changed ""he denies what he denies before proving it"" to ""they deny it beforehand"" for brevity and clarity.
+* Changed the sentence structure to be in passive voice for improved readability.
+
+I hope this helps, is there anything else I can do for you?","Dayachesi kindi vakyam yokka spelling mariyu grammar ni saricheyandi, aapai meeru chesina marpulanu vivarinchandi:
+Idi cheppabaddadi: ""Meeru kolata dwara kolatanu sthapincharu, mariyu kolata oka shakha mariyu mulam kaadane vastavam dwara meeru kattubadi unnara? Mariyu prajalu oka shakha pai vibhediste, adi manatho mariyu meetho oka mulam dwara matrame sthapinchabadutundi, mariyu mulam oka text matrame kagalamu. Kabatti, meelo sagam mandi shakala dwara shakalanu sthapinchinatlaithey, itarulanu nundi adharalu lekunda, athanu nirupinche mundu athanu denini tiraskarinchina kuda, mee pratyardhiki meeku sarainadi athaniki tappu ani nirupinchadam meeku kuda chellutunda?""","Inka ekkuva sahayapadataniki, ee text ni sentences ga vibhajinchandi mariyu nenu okkokka danini, case by case ga vivaristano.
+
+""Meeru mulam badulu oka shakhanu upayoginchi kolatanu sthapincharu?""
+
+* ""The measure through the measure"" ni ""the measurement"" ga marchanu, spastataku.
+* ""Bound by the fact that the measure is a branch and not a root"" ni ""using a branch instead of the root"" ga marchanu, saralataniki.
+* Active voice ni passive voice ga marchanu, chadavadanki bagundataniki.
+
+""Oka shakha gurinchi vibhedam vachchinappudu, adi oka shared mulam dwara pariskarinchabadali, adi oka text roopamlo matrame undagalamu.""
+
+* ""With us and with you"" ni ""shared"" ga marchanu, sankshiptataku.
+* ""It can only be established by a root"" ni ""it must be resolved through a root"" ga marchanu, spastataku.
+* ""The root can only be a text"" ni ""which can only be in the form of a text"" ga marchanu, smooth flow kosam.
+* ""And if"" ni ""In case of"" ga marchanu, spastataku.
+* Sentence antha passive voice ni upayoginchanu, chadavadanki bagundataniki.
+
+""Meeku sarainadi variki tappu ani mee pratyardhiki nirupinchadam chellutunda, adhe method ni upayoginchi, itarulanu nundi adharalu lekunda, varu munduga tiraskarinchina kuda?""
+
+* ""Established the branches through the branches"" ni ""prove to your opponent"" ga marchanu, spastataku.
+* ""What is right for you is false for him"" ni ""what is right for you is false for them"" ga marchanu, gender-neutral language kosam.
+* Sentence ni inka sankshiptam chesanu.
+* ""He denies what he denies before proving it"" ni ""they deny it beforehand"" ga marchanu, brevity mariyu spastataku.
+* Sentence structure ni passive voice ga marchanu, chadavadanki bagundataniki.
+
+Idi meeku sahayapadutundi ani anukuntunnanu, nenu meeku inka emaina cheyagalana?",2,271 words,2,No native script chars,2,Overlap=0.38 — slightly English-heavy,2,Minor: case inconsistency: 'The' vs 'the',1,BGE=0.616,,,,,,
+8,gemini,telugu,40dcf0fd-c769-4b18-b197-490ee90ec73f,"Do you know what centaurs are? I wonder how the pregnancy of female centaurs takes place with their mixed anatomy. Would the human upper body or the horse lower body hold the fetus? In both cases, how would the delivery go?","Centaurs are mythical creatures with the upper body of a human and the lower body of a horse, and are often depicted in Greek and Roman mythology, as well as in medieval folklore. The depictions of centaurs in different cultures and traditions can vary greatly, and the specific interpretation is a matter of personal artistic choice.
+
+It is important to note that given the lack of scientific information or evidence regarding the anatomy and reproductive systems of centaurs, it is not possible to determine with certainty which part of a centaur would be able to hold a fetus. The study of mammals, however, including anatomy and physiology, could provide some insights into the hypothetical question of where a pregnancy would occur in a female centaur. These insights could then be used to make educated guesses about the potential locations for pregnancy in this mythical creature.
+
+If we consider the size and shape of a typical horse uterus, it would likely be capable of accommodating a growing fetus. Horses are known for their ability to carry large fetuses, and their uterus is structured in a way that allows for the fetus to grow and develop with sufficient room. On the other hand, the human part of the centaur may not have the necessary space to accommodate a growing fetus.
+
+In both cases, the size and shape of the centaur fetus would play a role in determining the location of pregnancy. For example, a larger fetus may be more likely to be held in the horse part of the centaur, while a smaller fetus may be held in the human part.",Centaurs ante emito meeku telusa? Vaati mixed anatomy tho female centaurs lo pregnancy ela jarugutundo nenu aascharyapadtunnanu. Manava shareeram (pai bhagam) leda gurram shareeram (kinda bhagam) fetus ni dharistunda? Rendu sandarbhalalo delivery ela untundi?,"Centaurs anevi manava pai bhagam mariyu gurram kinda bhagam kaligina mythical creatures. Ivi ekkuvaga Greek mariyu Roman mythology lo, alage medieval folklore lo kuda chitrinchabadతాయి. Centaurs ni vibhinna cultures mariyu traditions lo chitrinchadam chala marpu untundi, mariyu specific interpretation vyaktigata artistic choice pai adharapadi untundi.
+
+Centaurs yokka anatomy mariyu reproductive systems gurinchi scientific information leda evidence leni karanamga, oka centaur lo ఏ bhagam fetus ni dharinchagalado nischitamga cheppadam sadhyam kadu ani gamaninchadam mukhyam. Ayina kuda, mammals yokka adhyayanam, anatomy mariyu physiology tho sahaa, oka female centaur lo pregnancy ekkada jarugutundi ane hypothetical prashnaku konni insights ivvagaladu. Ee insights ni ee mythical creature lo pregnancy ki sambhavya sthalalanu gurinchi educated guesses cheyadaniki upayoginchavachu.
+
+Manam oka typical horse uterus yokka size mariyu shape ni pariganisthe, adi perugutunna fetus ni accommodate cheyagaladu. Gurralu pedda fetuses ni moyagalavu ani telusu, mariyu vati uterus, fetus ki peragadaniki mariyu develop avvadaniki saripoye chotu unde vidhanga nirminchabadi untundi. Maro vaipu, centaur yokka human part ki perugutunna fetus ni accommodate cheyadaniki avasaramaina space undakapovachu.
+
+Rendu sandarbhalalo, centaur fetus yokka size mariyu shape pregnancy yokka location ni nirnayinchadam lo mukhyamaina patra vahistundi. Udaharanaku, pedda fetus centaur yokka horse part lo undataniki ekkuva avakasam undochu, kani chinna fetus human part lo undochu.",2,202 words,1,3 non-Latin chars (word-level leakage),3,Overlap=0.15 — well romanized,3,No consistency issues detected,2,BGE=0.789,,,,,,
+9,gemini,telugu,daa9954d-aa8c-45b1-ad7d-5ceb43222891,I have a website for a small local business. What can I do to my SEO to improve traffic and optimise interaction with the landing page. Please list in details the top 10 steps I should do (include google settings as well as suggestions for the code (frontend and backend).,"Here are the top 10 steps to improve your website's SEO and optimize the landing page:
+
+1: Conduct keyword research: Identify the keywords related to your business and use them in your content and meta tags.
+
+2: Optimize the title tag and meta description: Make sure your title tag accurately reflects the content of your page and the meta description provides a clear and concise summary.
+
+3: Improve website loading speed: A slow website can hurt your search engine rankings and drive visitors away. Use tools such as GTmetrix and Google PageSpeed Insights to identify areas for improvement.
+
+4: Mobile optimization: Make sure your website is mobile-friendly, as the majority of users access websites on their mobile devices.
+
+5: Use header tags: Use H1 for the main title, H2 for subheadings, and H3 for sub-subheadings to organize your content and make it easier to read.
+
+6: Add internal links: Linking to other pages within your site can help visitors find additional information and improve your website's overall usability.
+
+7: Utilize alt tags: Use descriptive alt tags for images to improve accessibility and give search engines more information about the content on your site.
+
+8: Implement schema markup: Schema markup helps search engines understand the content on your site and can improve your website's visibility in the search results.
+
+9: Use Google Search Console: This free tool from Google can help you monitor your website's visibility and performance in the search results.
+
+10: Create high-quality content: Regularly updating your website with relevant, informative, and engaging content can help you rank higher in the search results and attract more visitors.","Naaku oka chinna local business ki website undi. Traffic penchadaaniki mariyu landing page tho interaction ni optimize cheyadaaniki, naa SEO ki em cheyagalanu? Nenu cheyalsina top 10 steps ni details ga cheppandi (Google settings tho paatu, code (frontend mariyu backend) ki suggestions kuda include cheyandi).","Mee website SEO ni improve cheyadaaniki mariyu landing page ni optimize cheyadaaniki top 10 steps ikkada unnayi:
+
+1: Keyword research cheyandi: Mee business ki sambandhinchina keywords ni identify chesi, vatinni mee content lo mariyu meta tags lo vaadandi.
+
+2: Title tag mariyu meta description ni optimize cheyandi: Mee title tag mee page content ni correct ga reflect chese laa, mariyu meta description oka clear mariyu concise summary ni provide chese laa chusukondi.
+
+3: Website loading speed ni improve cheyandi: Oka slow website mee search engine rankings ni debba teeyagaladu mariyu visitors ni dooram cheyagaladu. GTmetrix mariyu Google PageSpeed Insights laanti tools ni vaadi, improve cheyalsina areas ni identify cheyandi.
+
+4: Mobile optimization: Majority of users mobile devices lo websites ni access chestunnaru kabatti, mee website mobile-friendly ga undelaa chusukondi.
+
+5: Header tags ni vaadandi: Mee content ni organize cheyadaaniki mariyu chadavadaaniki easy ga undelaa cheyadaaniki, main title ki H1, subheadings ki H2, mariyu sub-subheadings ki H3 ni vaadandi.
+
+6: Internal links add cheyandi: Mee site lo unna itara pages ki link cheyadam valla visitors ki additional information dorukutundi mariyu mee website overall usability improve avtundi.
+
+7: Alt tags ni utilize cheyandi: Images ki descriptive alt tags ni vaadi accessibility ni improve cheyandi mariyu search engines ki mee site lo unna content gurinchi ekkuva information ivvandi.
+
+8: Schema markup implement cheyandi: Schema markup search engines ki mee site lo unna content ni ardham chesukovadaaniki sahayam chestundi mariyu search results lo mee website visibility ni improve cheyagaladu.
+
+9: Google Search Console ni vaadandi: Google nundi vachina ee free tool mee website visibility mariyu performance ni search results lo monitor cheyadaaniki sahayam chestundi.
+
+10: High-quality content create cheyandi: Regularly mee website ni relevant, informative, mariyu engaging content tho update cheyadam valla mee search results lo rank penchadaaniki mariyu ekkuva visitors ni attract cheyadaaniki sahayam chestundi.",2,302 words,2,No native script chars,2,Overlap=0.38 — slightly English-heavy,2,Minor: case inconsistency: 'Mee' vs 'mee',2,BGE=0.770,,,,,,
+10,gemini,telugu,ce46f934-2ca9-4228-b84a-0de00c181c01,"Create a random case study for a business that explains the success they've had with adopting Lean Production.
+
+Please include some information on:
+- Their profits before and after they adopted it
+- Their methodology for implementing lean production
+- The impact it had on the business overall, especially employees.
+
+This business, however, is entirely fictional. Please come up with a name for the business, and create figures for the business that make sense and are measurable.","Case Study: ""EcoMetals""
+
+Introduction:
+EcoMetals is a fictitious company that specializes in the production and sale of recycled recovered metals. The company was founded in 2005, and by 2015, they were struggling to remain profitable due to increased competition and rising costs. In an effort to turn things around, they decided to adopt lean production practices.
+
+Profits before and after Lean Production:
+Before implementing lean production, EcoMetals had an average annual profit of $2 million. However, in the first year after implementing lean production, their profits increased to $4 million. This increase in profit continued over the next few years, and by 2021, EcoMetals was making an average annual profit of $7 million.
+
+Methodology for implementing Lean Production:
+EcoMetals began by conducting an analysis of their production processes and identifying areas where waste was occurring. They then worked to eliminate this waste by implementing several lean production practices, including:
+
+1. Standardized work procedures: EcoMetals created standardized work procedures for each of their production processes. This allowed them to ensure that each step of the process was completed in the most efficient way possible.
+
+2. Just-in-time inventory: EcoMetals implemented a just-in-time inventory system, which allowed them to reduce their inventory levels and minimize waste.
+
+3. Continuous improvement: EcoMetals established a culture of continuous improvement, where employees were encouraged to identify areas where processes could be improved and suggest solutions.
+
+Impact on the business overall, especially employees:
+The implementation of lean production had a significant impact on EcoMetals, both in terms of their profits and their employees. By reducing waste and improving efficiency, the company was able to increase their profits and remain competitive. Additionally, the implementation of lean production practices helped to improve the work environment for employees. Employees were given more autonomy and were encouraged to identify areas for improvement, which led to a more engaged workforce. As a result, employee turnover decreased, and job satisfaction increased.
+
+Conclusion:
+Overall, the adoption of lean production practices was a significant success for EcoMetals. By improving efficiency and reducing waste, the company was able to increase their profits and remain competitive. Additionally, the implementation of lean production practices had a positive impact on employees, leading to a more engaged and satisfied workforce.","Lean Production ni adopt cheyyadam dwara vaallu saadhinchina success ni vivarinche oka random business case study ni create cheyyandi.
+
+Dayachesi ee kindha vishayaala gurinchi konni information ni include cheyyandi:
+- Vaallu adhi adopt cheyyakamundhu mariyu adopt chesina tharvatha vaalla profits
+- Lean production ni implement cheyyadaaniki vaalla methodology
+- Business meedha overall ga, mukhyamga employees meedha adhi choopina impact.
+
+Kaani ee business antha fictional. Dayachesi business ki oka peru tho randi, mariyu business ki arthamaina mariyu kolavagalige figures ni create cheyyandi.","Case Study: ""EcoMetals""
+
+Introduction:
+EcoMetals oka fictitious company, idhi recycled recovered metals production mariyu sale lo specialize chestundi. Ee company 2005 lo start ayyindi, mariyu 2015 ki, competition peragadam mariyu costs ekkuva avvadam valla profits lo undadaaniki chala struggle ayyindi. Situations ni change cheyyadaaniki, vaallu lean production practices ni adopt cheyyalani decide ayyaru.
+
+Profits before and after Lean Production:
+Lean production ni implement cheyyakamundhu, EcoMetals ki average annual profit $2 million undedi. Kaani, lean production ni implement chesina modati year lo, vaalla profits $4 million ki perigayi. Ee profit increase next konni years ki continue ayyindi, mariyu 2021 ki, EcoMetals average annual profit $7 million earn chestundi.
+
+Methodology for implementing Lean Production:
+EcoMetals modata vaalla production processes ni analyze chesi, waste ekkada jarugutundo identify chesindi. Tarvatha, vaallu ee waste ni eliminate cheyyadaaniki konni lean production practices ni implement chesaru, avi:
+
+1. Standardized work procedures: EcoMetals vaalla prathi production process ki standardized work procedures ni create chesindi. Idhi prathi step ni efficient ga complete cheyyadaaniki help chesindi.
+
+2. Just-in-time inventory: EcoMetals oka just-in-time inventory system ni implement chesindi, idhi vaalla inventory levels ni tagginchi waste ni minimize cheyyadaaniki help chesindi.
+
+3. Continuous improvement: EcoMetals oka continuous improvement culture ni establish chesindi, ikkada employees ki processes ni improve cheyyadaaniki areas ni identify chesi solutions suggest cheyyadaaniki encourage chesaru.
+
+Impact on the business overall, especially employees:
+Lean production implementation EcoMetals meedha chala significant impact choopindi, profits vishayam lo mariyu employees vishayam lo kuda. Waste ni tagginchi mariyu efficiency ni improve cheyyadam dwara, company vaalla profits ni penchi competitive ga undagaligindi. Adhe vidhanga, lean production practices implementation employees ki work environment ni improve cheyyadaaniki help chesindi. Employees ki ekkuva autonomy ichcharu mariyu improvement areas ni identify cheyyadaaniki encourage chesaru, idhi more engaged workforce ki dhariteesindi. Daanivalla, employee turnover taggindi, mariyu job satisfaction perigindi.
+
+Conclusion:
+Overall ga, lean production practices ni adopt cheyyadam EcoMetals ki oka pedda success. Efficiency ni improve chesi mariyu waste ni tagginchadam dwara, company vaalla profits ni penchi competitive ga undagaligindi. Adhe vidhanga, lean production practices implementation employees meedha positive impact choopindi, idhi more engaged mariyu satisfied workforce ki dhariteesindi.",2,349 words,2,No native script chars,3,Overlap=0.29 — well romanized,2,Minor: case inconsistency: 'profits' vs 'Profits',3,BGE=0.861,,,,,,
+11,gemini,telugu,1d598799-e215-46e3-9ab0-05b6e04d4961,I'm building a mentorship matching platform. On the platform both mentees and mentors can register and then mentee will be matched with some mentors who can help with mentees' requests. Current goal is IT occupations like product management and software engineering. What data about mentors and mentees should I collect to provide good matching?,"To provide good matching, it is important to collect data about both mentors and mentees to ensure that their needs and expectations align. Here are some data points that could be useful to collect:
+
+For Mentors:
+
+1. Occupation: Collect information about the mentor's current occupation or job title.
+
+2. Skills and Expertise: Collect information on the mentor's areas of expertise and skillset.
+
+3. Availability: Collect information on the mentor's availability, such as preferred days and times for mentoring sessions.
+
+4. Mentoring Experience: Collect information on the mentor's experience as a mentor, including the number of mentees they have worked with and the length of time they have been mentoring.
+
+5. Goals: Collect information on the mentor's goals for mentoring, such as what they hope to accomplish by mentoring and what type of mentee they would like to work with.
+
+For Mentees:
+
+1. Occupation: Collect information about the mentee's current or desired occupation or job title.
+
+2. Skills and Expertise: Collect information on the mentee's areas of expertise and skillset.
+
+3. Goals: Collect information on the mentee's career goals and the type of mentorship they are seeking.
+
+4. Availability: Collect information on the mentee's availability, such as preferred days and times for mentoring sessions.
+
+5. Background: Collect information on the mentee's background, including their educational and professional experience.
+
+By collecting this data, you will have a better understanding of the needs and expectations of both mentors and mentees, which will allow you to provide more accurate matchmaking.","Nenu oka mentorship matching platform ni develop chestunnanu. Ee platform lo mentees mariyu mentors iddaroo register avvachu, tarvata mentees requests ki help cheyagalige konni mentors tho match cheyabadataru. Ippudu, product management mariyu software engineering lanti IT occupations meeda focus chestunnam. Manchiga match cheyadaniki, mentors mariyu mentees gurinchi em data collect cheyali?","Manchi matching provide cheyadaniki, mentors mariyu mentees iddari gurinchi data collect cheyadam chala mukhyam, endukante valla needs mariyu expectations align avvali. Collect cheyadaniki useful ayye konni data points ikkada unnayi:
+
+For Mentors:
+
+1. Occupation: Mentor current occupation leda job title gurinchi information collect cheyandi.
+
+2. Skills and Expertise: Mentor expertise areas mariyu skillset gurinchi information collect cheyandi.
+
+3. Availability: Mentor availability gurinchi information collect cheyandi, udaharana ki mentoring sessions ki valla preferred days mariyu times.
+
+4. Mentoring Experience: Mentor ga valla experience gurinchi information collect cheyandi, entha mandi mentees tho work chesaru mariyu entha kalam nundi mentoring chestunnaru ane details tho saha.
+
+5. Goals: Mentoring ki mentor goals gurinchi information collect cheyandi, udaharana ki mentoring dwara em sadhinchali anukuntunnaru mariyu entha type mentee tho work cheyali anukuntunnaru.
+
+For Mentees:
+
+1. Occupation: Mentee current leda desired occupation leda job title gurinchi information collect cheyandi.
+
+2. Skills and Expertise: Mentee expertise areas mariyu skillset gurinchi information collect cheyandi.
+
+3. Goals: Mentee career goals mariyu vellu em type mentorship korukuntunnaru ane information collect cheyandi.
+
+4. Availability: Mentee availability gurinchi information collect cheyandi, udaharana ki mentoring sessions ki valla preferred days mariyu times.
+
+5. Background: Mentee background gurinchi information collect cheyandi, valla educational mariyu professional experience tho saha.
+
+Ee data ni collect cheyadam dwara, mentors mariyu mentees iddari needs mariyu expectations gurinchi meeku oka better understanding untundi, idi meeku inka accurate matchmaking provide cheyadaniki sahayam chestundi.",2,232 words,2,No native script chars,3,Overlap=0.27 — well romanized,1,Multiple: vowel inconsistency: 'mentee'; case inconsistency: 'collect' vs 'Collect',2,BGE=0.752,,,,,,
+12,gemini,telugu,f8615655-7548-4b27-81db-2450c1ecd8cc,"I want you to come up with a Machine Learning model that can do Binary classification.
+Here are some information about the dataset:
+Name: Amazon reviews
+Training samples: 1800000
+Number of classes: 2
+Longest sequence = 258
+Here are some specifications about model:
+Can be fine tuning or train from scratch
+Should priority inference speed
+Training speed: does not matter
+Metrics: Accuracy, Precision, AUC","What specifically are you asking me to do? Are you asking me to design a model architecture or are you asking me for a concrete implementation? If it's the latter, which framework are we talking about and in which format is the data available? Regardless of the previous answer I will also need to know whether the data is raw text or tokens and which hardware is available since the maximum amount of VRAM determines the maximum size of the model that can be trained. What do the two classes in the dataset represent? You are asking for the precision metric, should the recall metric also be added? What is the hardware that will be used for inference and roughly how long should inference take? Furthermore, you are saying that training speed ""does not matter"" but this is almost certainly false; even with generous time limits there is still a limit.
+
+In any case, since this is a binary classification problem the loss function that should be used is the binary cross entropy. You should also divide your dataset into three subsets: a training dataset on which you train your model, a validation dataset on which you fine-tune your hyperparameters, and a test dataset which you use to judge the model's performance after training. Be aware that you cannot realistically expect a large language model like myself (or a human) to give you a set of hyperparameters that will work well out-of-the-box; you will need to fine-tune the hyperparameters yourself and figure out a configuration that works well for your particular use-case.","Nenu oka Machine Learning model ni create cheyyalani anukuntunnanu, adi Binary classification cheyyagalagali.
+Dataset gurinchi konni information ikkada unnayi:
+Peru: Amazon reviews
+Training samples: 1800000
+Classes sankhya: 2
+Ati pedda sequence = 258
+Model gurinchi konni specifications ikkada unnayi:
+Fine tuning cheyyavachu leda scratch nunchi train cheyyavachu
+Inference speed ki priority ivvali
+Training speed: peddaga pattinchukonu
+Metrics: Accuracy, Precision, AUC","Nannu em cheyyamani adugutunnaru? Nannu oka model architecture ni design cheyyamani adugutunnara leka oka concrete implementation kosam adugutunnara? Tarvadi vishayam aithe, manam ye framework gurinchi matladutunnamu mariyu data ye format lo available ga undi? Mundu prashnaki samadhanam emaina sare, data raw text aa leka tokens aa ani kuda naku teliyali, mariyu ye hardware available ga undi ani kuda teliyali, endukante maximum VRAM batti train cheyyagalige model size nirnayinchabadutundi. Dataset lo unna rendu classes emi represent chestunnayi? Meeru precision metric ni adugutunnaru, recall metric ni kuda add cheyyala? Inference kosam ye hardware ni use chestunnaru mariyu inference ki roughly entha time pattali? Inkoka vishayam, training speed ""does not matter"" ani meeru antunnaru kani idi almost certainly tappu; entha time limit ichchina sare, oka limit untundi.
+
+Emaina sare, idi oka binary classification problem kabatti, binary cross entropy ane loss function ni use cheyyali. Meeru mee dataset ni moodu subsets ga divide cheyyali: oka training dataset, danipai mee model ni train chestaru; oka validation dataset, danipai mee hyperparameters ni fine-tune chestaru; mariyu oka test dataset, danini training tarvata model performance ni judge cheyyadaniki use chestaru. Nenu (leka oka manishi) out-of-the-box ga baga pani chese oka set of hyperparameters ni ivvagalani meeru realistic ga expect cheyyaleru ani gurtunchukovali; meeru mee hyperparameters ni meere fine-tune cheyyali mariyu mee particular use-case ki baga pani chese oka configuration ni kanukkuntaru.",2,223 words,2,No native script chars,3,Overlap=0.22 — well romanized,2,Minor: case inconsistency: 'Inference' vs 'inference',1,BGE=0.620,,,,,,
+13,gemini,telugu,b4224f05-3308-4a21-a764-03fe871b1407,"Assume the role of a most annoying, most shameless and narcissistic person who is trying to explain to a police officer why he attempted to mug an old woman in broad daylight after he got caught. Assume he got caught because old woman kicked him in a crotch. Use form of a written letter.","Dear Officer,
+
+Let me start by saying that I am an innocent man who was wrongfully accused of attempting to mug an old woman in broad daylight. I am the victim here, not the perpetrator.
+
+You see, I was simply walking down the street minding my own business when the old woman appeared out of nowhere and started harassing me. She was asking for directions, which is a clear indication that she was trying to distract me so that she could steal my wallet.
+
+I tried to ignore her, but she kept following me and getting in my face. That's when I realized that I had no choice but to defend myself. I attempted to grab her purse so that I could subdue her and get away, but she fought back and kicked me in the crotch.
+
+I want to make it clear that I am not ashamed of what I did. In fact, I am proud of myself for standing up for myself in a dangerous situation. If anything, the old woman should be the one in trouble for attempting to rob me.
+
+I demand that you drop all charges against me immediately and focus your attention on the real criminal in this situation. I am a law-abiding citizen who deserves to be treated with respect and dignity.
+
+Sincerely,
+
+[Your Name]","Oka police officer ki, oka musali aameda ni pagati poota mug cheyadaniki enduku prayatninchadu ani, tanu dorikipoyaka, oka chala chirakaina, chala siggu leni mariyu narcissistic vyakti ga vivarinchadaniki prayatnistunnadu. Musali aameda atanini crotch lo thannadam valla dorikipoyadu ani anukondi. Oka letter roopam lo rayandi.","Dear Officer,
+
+Nenu oka nirdoshi ni ani cheppadam tho modalu pedatanu. Pagati poota oka musali aameda ni mug cheyadaniki prayatninchadu ani na pai tappuga neram morparu. Ikada nene victim, nenu tappu chesina vadini kaadu.
+
+Chudandi, nenu na pani nenu chusukuntu street lo nadustunnanu, appudu aa musali aameda ekkadininchi vachindo teliyadu, nannu harass cheyadam modalu pettindi. Aa aameda directions adigindi, adi na wallet dongilinchadaniki nannu distract cheyadaniki spastamaina suchana.
+
+Nenu tanani ignore cheyadaniki prayatninchanu, kani tanu nannu follow avutu, na munduku vastundi. Appude nenu nannu nenu defend chesukovadam tappa vere margam ledu ani grahinchanu. Nenu tanani subdue chesi, nenu vellipovadaniki tanapurse ni pattukodaniki prayatninchanu, kani tanu tirigi fight chesi nannu crotch lo thannindi.
+
+Nenu chesindi chusi nenu siggu padatam ledu ani spastam cheyalanukuntunnanu. Nijaniki, oka dangerous situation lo nannu nenu defend chesukunnanduku nenu garvapadutunnanu. Emaina, nannu rob cheyadaniki prayatninchina aa musali aamede trouble lo undali.
+
+Na pai unna anni charges ni ventane drop cheyali ani, ee situation lo unna real criminal pai me attention ni pettali ani nenu demand chestunnanu. Nenu oka law-abiding citizen ni, naku respect mariyu dignity tho treat cheyali.
+
+Sincerely,
+
+[Your Name]",2,184 words,2,No native script chars,3,Overlap=0.10 — well romanized,2,Minor: case inconsistency: 'Nenu' vs 'nenu',1,BGE=0.634,,,,,,
+14,gemini,telugu,6ead8a6e-e547-49c0-b18d-4adb3b16336a,"I have a 2007 Honda Civic Type R that I need to service myself. Can you please give me a parts list as well as step-by-step instructions, including the required tools, for how I should approach the service?","Parts required:
+
+- Oil: 4.5 quarts of 5W-30 synthetic motor oil (check your owner's manual for the correct oil type and capacity)
+
+- Oil filter: Honda oil filter part #15400-PLM-A01 or equivalent
+
+- Air filter: Honda air filter part #19100-PLM-A01 or equivalent
+
+- Fuel filter: Honda fuel filter part #16700-PLM-E02 or equivalent (optional, check your maintenance schedule to see if a fuel filter replacement is required)
+
+Steps:
+
+1. Park the car on a level surface, engage the parking brake, and allow the engine to cool down for at least 30 minutes.
+
+2. Place an oil drain pan under the oil plug to catch the drained oil. Loosen and remove the oil plug using a socket wrench and allow the oil to drain from the engine into the pan.
+
+3. After the oil has drained, replace the oil plug and tighten it securely. Do not overtighten as this can damage the oil pan.
+
+4. Locate the oil filter and loosen it with an oil filter wrench. Remove the filter and apply a thin coat of new oil to the rubber gasket on the new filter. Thread on the new oil filter by hand, then tighten securely with the wrench.
+
+5. Open the oil filler cap on the engine and pour in new oil through the opening. Pour in 4.5 quarts of 5W-30 oil for the Civic Type R engine.
+
+6. Replace the air filter and fuel filter (if required) according to the instructions in your owner's manual.
+
+7. Start the engine and check for leaks. Let it run for a few minutes. Shut off the engine and recheck the oil level with the dipstick. Add oil if necessary.
+
+8. Dispose of the used oil and filters properly at a designated location or recycling center.
+
+That outlines the key steps to service your 2007 Honda Civic Type R. Let me know if you have any other questions.","Naaku oka 2007 Honda Civic Type R undi, daanni nene service cheyyali. Naaku oka parts list, avasaramaina tools tho saha step-by-step instructions ivvagalaru, ee service ni nenu ela cheyyalo cheppandi?","Avasaramaina parts:
+
+- Oil: 4.5 quarts 5W-30 synthetic motor oil (sariaina oil type mariyu capacity kosam mee owner's manual ni chudandi)
+
+- Oil filter: Honda oil filter part #15400-PLM-A01 leda daaniki samanamainadi
+
+- Air filter: Honda air filter part #19100-PLM-A01 leda daaniki samanamainadi
+
+- Fuel filter: Honda fuel filter part #16700-PLM-E02 leda daaniki samanamainadi (optional, fuel filter replacement avasaramena ani mee maintenance schedule ni chudandi)
+
+Steps:
+
+1. Car ni level surface meeda park chesi, parking brake veyyandi, mariyu engine ni atleast 30 minutes cool avvanivvandi.
+
+2. Oil drain pan ni oil plug kinda petti, drain ayye oil ni catch cheyyandi. Socket wrench tho oil plug ni loosen chesi teesi, engine nunchi oil ni pan loki drain avvanivvandi.
+
+3. Oil drain ayyaka, oil plug ni replace chesi tight cheyyandi. Overtight cheyyakandi, ala cheste oil pan damage avvochu.
+
+4. Oil filter ni locate chesi, oil filter wrench tho loosen cheyyandi. Filter ni teesi, kotha filter meeda unna rubber gasket ki konchem kotha oil apply cheyyandi. Kotha oil filter ni chetto thread chesi, tarvatha wrench tho tight cheyyandi.
+
+5. Engine meeda unna oil filler cap ni open chesi, aa opening nunchi kotha oil ni poyyandi. Civic Type R engine ki 4.5 quarts 5W-30 oil poyyandi.
+
+6. Mee owner's manual lo unna instructions prakaram air filter mariyu fuel filter (avasaramaithe) ni replace cheyyandi.
+
+7. Engine ni start chesi leaks emaina unnayo chudandi. Konni minutes run avvanivvandi. Engine ni off chesi, dipstick tho oil level ni malli check cheyyandi. Avasaramaithe oil add cheyyandi.
+
+8. Vaadina oil mariyu filters ni sariaina location lo leda recycling center lo dispose cheyyandi.
+
+Ivi mee 2007 Honda Civic Type R ni service cheyyadaniki mukhyamaina steps. Inkemi questions unna cheppandi.",2,279 words,2,No native script chars,2,Overlap=0.31 — slightly English-heavy,2,Minor: case inconsistency: 'Oil' vs 'oil',2,BGE=0.780,,,,,,
+15,gemini,telugu,9835c793-95dd-4db4-9d99-3209242f14b0,"I have written some code to get the rental data from a certain website here is the following javascript code.
+```javascript
+const axios = require('axios');
+const cheerio = require('cheerio');
+
+const getData = async () => {
+  const response = await axios.get('https://www.realestate.com.au/rent/in-sydney,+nsw/list-1');
+  const $ = cheerio.load(response.data);
+  
+  const properties = [];
+
+  $('.listing-result').each((i, el) => {
+    const property = {};
+
+    property.title = $(el)
+      .find('.property-title')
+      .text()
+      .trim();
+    property.address = $(el)
+      .find('.property-address')
+      .text()
+      .trim();
+    property.price = $(el)
+      .find('.priceText')
+      .text()
+      .trim();
+
+    properties.push(property);
+  });
+
+  return properties;
+};
+
+getData().then((properties) => {
+  console.log(properties);
+});
+```
+Why does the following error occur?
+""AxiosError: Request failed with status code 429""","The HTTP status code 429 Too Many Requests indicates that the server has some sort of rate limit and that your request exceeded it. This could be due to any of the following reasons:
+
+1. The code which makes this request was run many times in a short period, exceeding the rate limit.
+
+2. The website rejects requests which it suspects are spam with a 429 status code. This could mean that the user agent is not a common browser, which is a simple check some websites use. To rectify this, you could add the ""User-Agent"" header to the GET request like so:
+
+```
+const response = await axios.get('https://www.realestate.com.au/rent/in-sydney,+nsw/list-1', 
+     { headers: { 'User-Agent': 'browser.version' }  }
+);
+```
+
+Note that you will have to replace `""browser.version""` with an actual browser user agent string. Depending on the application this code is being run in, this could be considered user agent spoofing, which may be restricted under the laws of some countries or organizations (or the terms of service of the website that the code attempts to access).
+
+3. The website is rate limiting requests for some other reason. This could be due to the request being made through a proxy, in which case other users of the proxy may have been making too many requests, although this is unlikely.
+
+4. The website is rejecting all requests because it is under a denial of service attack. This is unlikely, as the typical behavior of a server under such an attack would be to route traffic to a non-existent server, or deny it completely, giving no valid response at all. However, even if the website did respond with an HTTP status code, it would likely be server error 503 Service Unavailable, given when the server is overloaded.","Nenu oka website nunchi rental data teesukovadaaniki konni code raasanu, idigo aa javascript code.
+```javascript
+const axios = require('axios');
+const cheerio = require('cheerio');
+
+const getData = async () => {
+  const response = await axios.get('https://www.realestate.com.au/rent/in-sydney,+nsw/list-1');
+  const $ = cheerio.load(response.data);
+  
+  const properties = [];
+
+  $('.listing-result').each((i, el) => {
+    const property = {};
+
+    property.title = $(el)
+      .find('.property-title')
+      .text()
+      .trim();
+    property.address = $(el)
+      .find('.property-address')
+      .text()
+      .trim();
+    property.price = $(el)
+      .find('.priceText')
+      .text()
+      .trim();
+
+    properties.push(property);
+  });
+
+  return properties;
+};
+
+getData().then((properties) => {
+  console.log(properties);
+});
+```
+Ee error enduku vastundi?
+""AxiosError: Request failed with status code 429""","HTTP status code 429 Too Many Requests ante server ki oka rate limit undani, mee request aa limit ni daatindani artham. Idi kindi kaaranala valla jarigi undochu:
+
+1. Ee request chese code ni chala takkuva samayam lo chala sarlu run cheyadam valla rate limit daatindi.
+
+2. Website spam ani anumaninche requests ni 429 status code tho reject chestundi. Ante mee user agent oka common browser kaadu ani artham, idi konni websites chese oka simple check. Dini sari cheyadaaniki, meeru GET request ki ""User-Agent"" header ni ila add cheyochu:
+
+```
+const response = await axios.get('https://www.realestate.com.au/rent/in-sydney,+nsw/list-1', 
+     { headers: { 'User-Agent': 'browser.version' }  }
+);
+```
+
+""browser.version"" ni oka real browser user agent string tho replace cheyalsi untundi ani gurtinchandi. Ee code run avtunna application ni batti, idi user agent spoofing ga pariganinchabadochu, adi konni deshalu leda organizations (leda aa website terms of service) chattam prakaram restricted avochu.
+
+3. Website vere edaina kaaranam valla requests ni rate limit chestundi. Idi oka proxy dwara request cheyadam valla avochu, ala aithe proxy ni use chese itara users chala requests chesi undochu, kani idi takkuva sambhavam.
+
+4. Website denial of service attack lo undadam valla anni requests ni reject chestundi. Idi takkuva sambhavam, endukante alanti attack lo unna server yokka typical behavior traffic ni leni server ki route cheyadam, leda daani purtiga deny cheyadam, emi valid response ivvadam. Kaani, website HTTP status code tho respond chesina, adi server overload ayinappudu icche 503 Service Unavailable avochu.",2,239 words,2,No native script chars,3,Overlap=0.23 — well romanized,2,Minor: case inconsistency: 'Requests' vs 'requests',3,BGE=0.852,,,,,,
+16,gemini,telugu,035f7f2b-81fe-42c8-adc7-3f6f64fb44d3,"Please list the four most common tunings for guitar. For each tuning, also provide an example of a popular tune played in that tuning and the fingerings required to play G, C,and D chords. Please format the chords in TAB.","###  Four Common Tunings for Guitar
+
+The four most common tunings for guitar are standard tuning, drop D tuning, open G tuning, and open D tuning. Here are examples of popular tunes played in each tuning, along with the fingerings required to play G, C, and D chords in TAB format:
+
+1. **Standard Tuning (EADGBE)** - This is the most common tuning for guitar and is used in most styles of music. 
+
+   **Example of a popular tune:** ""Wonderwall"" by Oasis
+   
+   **Fingerings for G, C, and D chords:**
+   
+       G:   320033
+       C:   x32010
+       D:   xx0232
+
+2. **Drop D Tuning (DADGBE)** - In drop D tuning, the sixth string (E) is tuned down a whole step to D, which allows for power chords to be played with one finger.
+
+   **Example of a popular tune:** ""Kashmir"" by Led Zeppelin
+   
+   **Fingerings for G, C, and D chords:**
+   
+       G:   5x0033
+       C:   x32010
+       D:   x00232
+
+3. **Open G Tuning (DGDGBD)** - Open G tuning is used frequently in blues and slide guitar playing, and is often used by Keith Richards of the Rolling Stones.
+
+   **Example of a popular tune:** ""Brown Sugar"" by The Rolling Stones
+   
+   **Fingerings for G, C, and D chords:**
+   
+       G:   0x0003
+       C:   0x2010
+       D:   0x4232
+
+4. **Dropped D with Capo (DADGBD)** - This is a variation of drop D tuning that is often used in folk music.
+
+   **Example of a popular tune:** ""Blackbird"" by The Beatles
+   
+   **Fingerings for G, C, and D chords:**
+   
+       G:   3x0003
+       C:   x32010
+       D:   xx0232","Guitar ki chala common ga vaade naalugu tunings ni list cheyyandi. Prati tuning ki, aa tuning lo play chese oka popular tune example kuda ivvandi, mariyu G, C, D chords play cheyadaniki avasaramaina fingerings ni kuda ivvandi. Chords ni TAB format lo ivvandi.","### Guitar ki naalugu common tunings
+
+Guitar ki chala common ga vaade naalugu tunings standard tuning, drop D tuning, open G tuning, mariyu open D tuning. Prati tuning lo play chese popular tunes examples, mariyu G, C, D chords play cheyadaniki avasaramaina fingerings TAB format lo ikkada unnayi:
+
+1. **Standard Tuning (EADGBE)** - Idi guitar ki chala common tuning mariyu chala styles of music lo vaadataru.
+
+   **Oka popular tune example:** Oasis nunchi ""Wonderwall""
+   
+   **G, C, mariyu D chords ki fingerings:**
+   
+       G:   320033
+       C:   x32010
+       D:   xx0232
+
+2. **Drop D Tuning (DADGBE)** - Drop D tuning lo, sixth string (E) ni oka whole step kindaki D ki tune chestaru, idi oka finger tho power chords play cheyadaniki allow chestundi.
+
+   **Oka popular tune example:** Led Zeppelin nunchi ""Kashmir""
+   
+   **G, C, mariyu D chords ki fingerings:**
+   
+       G:   5x0033
+       C:   x32010
+       D:   x00232
+
+3. **Open G Tuning (DGDGBD)** - Open G tuning ni blues mariyu slide guitar playing lo ekkuvaga vaadataru, mariyu Rolling Stones nunchi Keith Richards kuda vaadataru.
+
+   **Oka popular tune example:** The Rolling Stones nunchi ""Brown Sugar""
+   
+   **G, C, mariyu D chords ki fingerings:**
+   
+       G:   0x0003
+       C:   0x2010
+       D:   0x4232
+
+4. **Dropped D with Capo (DADGBD)** - Idi drop D tuning lo oka variation, idi folk music lo ekkuvaga vaadataru.
+
+   **Oka popular tune example:** The Beatles nunchi ""Blackbird""
+   
+   **G, C, mariyu D chords ki fingerings:**
+   
+       G:   3x0003
+       C:   x32010
+       D:   xx0232",2,229 words,2,No native script chars,2,Overlap=0.49 — slightly English-heavy,2,Minor: case inconsistency: 'standard' vs 'Standard',3,BGE=0.872,,,,,,
+17,gemini,telugu,84731e63-de33-485b-b7c4-04f615259dee,"Here is a problem I run into with modern social media: Whenever there is a post I really want to comment on, because I think I have something valuable to add, it is already filled with thousands of comments and I know the odds of my comments getting any traction are slim.
+Can you come up with a solution to this problem?","One solution to this issue is to engage with smaller or niche online communities where the competition for attention is lower and your insights are more likely to be seen and appreciated. Another option is to reach out to the original poster directly, through private messaging or email, and share your thoughts with them that way. Additionally, you could create your own content around the topic you are passionate about and build a following around it. This way, you have a platform to share your thoughts and engage with like-minded individuals.","Modern social media lo nenu edurkuntunna oka problem idhi: Nenu nijamga comment cheyyalani anukunna oka post unnappudu, endukante nenu konchem viluvaina vishayam cheppagalani anukuntaanu, adi appatike vella comments tho nindi untundi. Na comments ki evaru peddaga attention ivvarani naku telusu. Ee problem ki oka solution cheppagalara?","Ee samasya ki oka solution entante chinna leda niche online communities lo participate cheyyadam. Akkada attention kosam competition takkuvaga untundi, mariyu mee abhiprayalu ekkuvaga choodabadathayi mariyu appreciate cheyyabadathayi. Inkoka option entante original poster ni direct ga, private messaging leda email dwara contact chesi, mee thoughts ni vaaritho share cheyyadam. Adhe kakunda, meeru passionate ga unna topic meeda mee own content ni create chesi, dani chuttu oka following ni build cheyyavachu. Ee vidhanga, mee thoughts ni share cheyyadaniki mariyu like-minded individuals tho engage avvadaniki meeku oka platform untundi.",2,87 words,2,No native script chars,3,Overlap=0.21 — well romanized,3,No consistency issues detected,1,BGE=0.647,,,,,,
+18,gemini,telugu,fe450516-3a0c-407e-a66d-a5b7b9791e7a,"This passage is from a poor quality machine extraction of text from an old book. Please extract the coherent English text and phrases from it and rewrite them with proper punctuation in your best attempt at a coherent message:
+
+""numbercorresponding to this, and take the multiplier opposite toit, and multiply the full pressure of the steam per squareinch, as it enters the cylinder, by it. TABLE OF MULTIPLIERS BY WHICH TO FIND THE MEAN PRESSURE OFSTEAM AT VARIOUS POINTS OF CUT-OFF. Expansion. Multiplier. Expansion. Multiplier. Expansion. Multiplier. 1.0 1.000 3.4 .654 5.8 .479 1.1 .995 3.5 .644 5.9 .474 1.2 .985 3.6 .634 6. .470 1.3 .971 3.7 .624 6.1 .466 1.4 .955 3.8 .615 6.2 .462 1.5 .937 3.9 .605 6.3 .458 1.6 .919 4. .597 6.4 .454 1.7 .900 4.1 .588 6.5 .450 1.8 .882 4.2 .580 6.6 .446 1.9 .864 4.3 .572 6.7 .442 2. .847 4.4 .564 6.8 .438 2.1 .830 4.5 .556 6.9 .434 2.2 .813 4.6 .549 7. .430 2.3 .797 4.7 .542 7.1 .427 2.4 .781 4.8 .535 7.2 .423 2.5 .766 4.9 .528 7.3 .420 2.6 .752 5. .522 7.4 .417 2.7 .738 5.1 .516 7.5 .414 2.8 .725 5.2 .510 7.6 .411 2.9 .712 5.3 .504 7.7 .408 3. .700 5.4 .499 7.8 .405 3.1 .688 5.5 .494 7.9 .402 8.2 .676 5.6 .489 8. .399 3.3 .665 5.7 .484 52 HAND-BOOK OF LAND AND MARINE ENGINES.","Sure, here's a version with improved grammar and an organized steam pressure table.
+
+---
+
+[...] number corresponding to this, take the multiplier opposite to it and multiply the full pressure of the steam per square inch as it inters the cylinder by it. 
+
+TABLE OF MULTIPLIERS BY WHICH TO FIND THE MEAN PRESSURE OF STEAM AT VARIOUS POINTS OF CUT-OFF:
+| Expansion | Multiplier | Expansion | Multiplier | Expansion | Multiplier |
+|-----------|------------|-----------|------------|-----------|------------|
+| 1.0       | 1.000      | 3.4       | .654       | 5.8       | .479       |
+| 1.1       | .995       | 3.5       | .664       | 5.9       | .474       |
+| 1.2       | .985       | 3.6       | .634       | 6.        | .470       |
+| 1.3       | .971       | 3.7       | .624       | 6.1       | .466       |
+| 1.4       | .955       | 3.8       | .615       | 6.2       | .462       |
+| 1.5       | .937       | 3.9       | .605       | 6.3       | .458       |
+| 1.6       | .919       | 4.        | .597       | 6.4       | .454       |
+| 1.7       | .900       | 4.1       | .588       | 6.5       | .450       |
+| 1.8       | .882       | 4.2       | .580       | 6.6       | .446       |
+| 1.9       | .864       | 4.3       | .572       | 6.7       | .442       |
+| 2.        | .847       | 4.4       | .564       | 6.8       | .438       |
+| 2.1       | .830       | 4.5       | .556       | 6.9       | .434       |
+| 2.2       | .813       | 4.6       | .549       | 7.        | .430       |
+| 2.3       | .797       | 4.7       | .542       | 7.1       | .427       |
+| 2.4       | .781       | 4.8       | .535       | 7.2       | .423       |
+| 2.5       | .766       | 4.9       | .528       | 7.3       | .420       |
+| 2.6       | .752       | 5.        | .522       | 7.4       | .417       |
+| 2.7       | .738       | 5.1       | .516       | 7.5       | .414       |
+| 2.8       | .725       | 5.2       | .510       | 7.6       | .411       |
+| 2.9       | .712       | 5.3       | .504       | 7.7       | .408       |
+| 3.        | .700       | 5.4       | .499       | 7.8       | .405       |
+| 3.1       | .688       | 5.5       | .494       | 7.9       | .402       |
+| 3.2       | .676       | 5.6       | .489       | 8.        | .399       |
+| 3.3       | .665       | 5.7       | .484       |           |            |
+
+[Page] 52
+
+HAND-BOOK OF LAND AND MARINE ENGINES.","Ee passage oka paatha book nunchi theesina poor quality machine extraction. Dayachesi, indulo nunchi coherent aina English text mariyu phrases ni extract chesi, proper punctuation tho oka coherent message ga rayadaniki mee best attempt cheyandi:
+
+""numbercorresponding to this, and take the multiplier opposite toit, and multiply the full pressure of the steam per squareinch, as it enters the cylinder, by it. TABLE OF MULTIPLIERS BY WHICH TO FIND THE MEAN PRESSURE OFSTEAM AT VARIOUS POINTS OF CUT-OFF. Expansion. Multiplier. Expansion. Multiplier. Expansion. Multiplier. 1.0 1.000 3.4 .654 5.8 .479 1.1 .995 3.5 .644 5.9 .474 1.2 .985 3.6 .634 6. .470 1.3 .971 3.7 .624 6.1 .466 1.4 .955 3.8 .615 6.2 .462 1.5 .937 3.9 .605 6.3 .458 1.6 .919 4. .597 6.4 .454 1.7 .900 4.1 .588 6.5 .450 1.8 .882 4.2 .580 6.6 .446 1.9 .864 4.3 .572 6.7 .442 2. .847 4.4 .564 6.8 .438 2.1 .830 4.5 .556 6.9 .434 2.2 .813 4.6 .549 7. .430 2.3 .797 4.7 .542 7.1 .427 2.4 .781 4.8 .535 7.2 .423 2.5 .766 4.9 .528 7.3 .420 2.6 .752 5. .522 7.4 .417 2.7 .738 5.1 .516 7.5 .414 2.8 .725 5.2 .510 7.6 .411 2.9 .712 5.3 .504 7.7 .408 3. .700 5.4 .499 7.8 .405 3.1 .688 5.5 .494 7.9 .402 8.2 .676 5.6 .489 8. .399 3.3 .665 5.7 .484 52 HAND-BOOK OF LAND AND MARINE ENGINES.""","Sure, idigo, improved grammar tho mariyu organized steam pressure table tho oka version.
+
+---
+
+[...] number corresponding to this, take the multiplier opposite to it and multiply the full pressure of the steam per square inch as it inters the cylinder by it. 
+
+TABLE OF MULTIPLIERS BY WHICH TO FIND THE MEAN PRESSURE OF STEAM AT VARIOUS POINTS OF CUT-OFF:
+| Expansion | Multiplier | Expansion | Multiplier | Expansion | Multiplier |
+|-----------|------------|-----------|------------|-----------|------------|
+| 1.0       | 1.000      | 3.4       | .654       | 5.8       | .479       |
+| 1.1       | .995       | 3.5       | .664       | 5.9       | .474       |
+| 1.2       | .985       | 3.6       | .634       | 6.        | .470       |
+| 1.3       | .971       | 3.7       | .624       | 6.1       | .466       |
+| 1.4       | .955       | 3.8       | .615       | 6.2       | .462       |
+| 1.5       | .937       | 3.9       | .605       | 6.3       | .458       |
+| 1.6       | .919       | 4.        | .597       | 6.4       | .454       |
+| 1.7       | .900       | 4.1       | .588       | 6.5       | .450       |
+| 1.8       | .882       | 4.2       | .580       | 6.6       | .446       |
+| 1.9       | .864       | 4.3       | .572       | 6.7       | .442       |
+| 2.        | .847       | 4.4       | .564       | 6.8       | .438       |
+| 2.1       | .830       | 4.5       | .556       | 6.9       | .434       |
+| 2.2       | .813       | 4.6       | .549       | 7.        | .430       |
+| 2.3       | .797       | 4.7       | .542       | 7.1       | .427       |
+| 2.4       | .781       | 4.8       | .535       | 7.2       | .423       |
+| 2.5       | .766       | 4.9       | .528       | 7.3       | .420       |
+| 2.6       | .752       | 5.        | .522       | 7.4       | .417       |
+| 2.7       | .738       | 5.1       | .516       | 7.5       | .414       |
+| 2.8       | .725       | 5.2       | .510       | 7.6       | .411       |
+| 2.9       | .712       | 5.3       | .504       | 7.7       | .408       |
+| 3.        | .700       | 5.4       | .499       | 7.8       | .405       |
+| 3.1       | .688       | 5.5       | .494       | 7.9       | .402       |
+| 3.2       | .676       | 5.6       | .489       | 8.        | .399       |
+| 3.3       | .665       | 5.7       | .484       |           |            |
+
+[Page] 52
+
+HAND-BOOK OF LAND AND MARINE ENGINES.",2,392 words,2,No native script chars,0,Overlap=0.94 — barely romanized,2,Minor: case inconsistency: 'table' vs 'TABLE',3,BGE=0.917,,,,,,
+19,gemini,telugu,713711f3-e616-430e-981d-e8b75574d35f,"I want to develop a small time-tracking app for personal use, to improve my programming skills in general. I know some JavaScript and some Python, but I am not particularly good at either. Which language would be more useful to get better at? And should I start using a framework or code everything myself from scratch?","Both languages can serve as a great foundational programming language to learn. JavaScript could come in handy if you are interested in developing web applications or a web-based frontend for your application. Python could be a better choice if you want to build an application without a web frontend. Learning Python could also enable you to explore machine learning and data processing libraries if that piques your interest. Either language could serve you equally well in this case.
+
+Frameworks are great for speeding up development work, but I recommend getting a solid understanding of a programming language before attempting to learn frameworks. Knowing the basics before branching out can save you from unneeded frustration.","Nenu na programming skills ni improve chesukovadaaniki, personal use kosam oka chinna time-tracking app develop cheyali anukuntunnanu. Naaku konchem JavaScript, konchem Python telusu, kaani renditlo nenu peddaga expert kaanu. Ee renditlo, ee language lo nenu baga nerchukovadam ekkuva useful ga untundi? Mariyu nenu framework use cheyadam modalu pettala leka anni nene scratch nunchi code cheyala?","Rendu languages kuda nerchukovadaaniki chala manchi foundational programming languages ga panikostayi. Meeru web applications develop cheyadaaniki leda mee application ki web-based frontend develop cheyadaaniki interest unte, JavaScript chala useful ga untundi. Oka web frontend leni application build cheyali anukunte, Python oka manchi choice avvachu. Python nerchukovadam valla, meeku interest unte machine learning mariyu data processing libraries ni kuda explore cheyadaniki avakasam untundi. Ee case lo, rendu languages kuda meeku equally well ga panikostayi.
+
+Frameworks development work ni speed up cheyadaaniki chala manchi vi, kaani frameworks nerchukovadaaniki mundu oka programming language pai solid understanding techukomani nenu recommend chestanu. Branch out cheyadaaniki mundu basics telusukovatam valla anavasaramaina frustration nunchi tappinchukovachu.",2,108 words,2,No native script chars,3,Overlap=0.22 — well romanized,2,Minor: case inconsistency: 'Oka' vs 'oka',2,BGE=0.702,,,,,,
+20,gemini,telugu,272ecb8e-3cef-4098-8dc1-aecaa9ea26d2,"Why does my cell phone get less efficient with each update, regardless of the fact that I do not install apps, and I clean off the old data regularly? Are the phone manufacturers engaged in planned obsolescence, or is it the service providers?","There is evidence to suggest that both phone manufacturers and service providers may engage in planned obsolescence to some extent.
+
+Phone manufacturers may use strategies such as releasing frequent software updates that are incompatible with older hardware, or designing phones with non-replaceable batteries that degrade over time, forcing consumers to purchase new phones. Additionally, some manufacturers may limit the availability of parts or repair information, making it difficult or expensive for consumers to repair their devices.
+
+Service providers, on the other hand, may incentivize consumers to upgrade their phones by offering new devices at discounted prices or through trade-in programs. They may also choose to stop providing software updates or technical support for older devices, effectively rendering them obsolete.
+
+It's important to note that not all phone manufacturers or service providers engage in planned obsolescence, and some companies actively work to promote sustainability and repairability. Ultimately, the responsibility for reducing planned obsolescence falls on both manufacturers and service providers, as well as on consumers to make informed choices and push for more sustainable practices in the industry.","Nenu apps install cheyakapoina, mariyu old data ni regular ga clean chesina kuda, naa cell phone prathi update tho takkuva efficient ga enduku avutundi? Phone manufacturers planned obsolescence lo unnara, leka service providers aa?","Phone manufacturers mariyu service providers iddaru konni vishayalalo planned obsolescence lo involve avvadaniki evidence undi.
+
+Phone manufacturers, old hardware ki support cheyani frequent software updates release cheyadam, leda time tho degrade ayye non-replaceable batteries tho phones design cheyadam lanti strategies ni use cheyochu. Ivi consumers ni kotha phones konadaniki force chestayi. Daanitho paatu, konni manufacturers parts leda repair information ni takkuvaga available cheyadam valla, consumers ki vaalla devices ni repair cheyadam kashtam leda expensive ga marochu.
+
+Service providers, kotha devices ni discounted prices ki leda trade-in programs dwara offer chesi consumers ni vaalla phones upgrade cheyadaniki encourage cheyochu. Vaallu old devices ki software updates leda technical support ivvadam aapeyochu, daanitho avi obsolete ga maripotayi.
+
+Prathi phone manufacturer leda service provider planned obsolescence lo involve avvaru ani gamaninchadam mukhyam, mariyu konni companies sustainability mariyu repairability ni promote cheyadaniki active ga pani chestunnayi. Munduga, planned obsolescence ni tagginche badhyata manufacturers, service providers, mariyu consumers paina kuda undi, consumers informed choices chesi industry lo inka sustainable practices kosam push cheyali.",2,167 words,2,No native script chars,3,Overlap=0.20 — well romanized,2,Minor: case inconsistency: 'service' vs 'Service',2,BGE=0.788,,,,,,

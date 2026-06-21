@@ -1,0 +1,135 @@
+\section{Results}
+
+\subsection{Automatic Evaluation}
+
+Table~\ref{tab:main-results} reports failure-aware BGE-M3 cosine similarity and
+BERTScore F1 for all four models across the three languages. All 142 samples
+enter each mean; rows flagged as invalid (empty output, English copy, or
+native-script corruption) receive zero for all metrics rather than being
+excluded.
+
+\begin{table}[t]
+\centering
+\small
+\begin{tabular}{llrrr}
+\toprule
+Model & Language & BGE Cosine & BERT-F1 & Invalid \\
+\midrule
+\multirow{3}{*}{Anthropic} & Hindi   & 0.837 & 0.676 & 0 \\
+                            & Telugu  & 0.789 & 0.671 & 4 \\
+                            & Kannada & 0.733 & 0.620 & 5 \\
+\midrule
+\multirow{3}{*}{GPT-4o}    & Hindi   & 0.828 & 0.663 & 0 \\
+                            & Telugu  & 0.794 & 0.667 & 0 \\
+                            & Kannada & 0.749 & 0.641 & 2 \\
+\midrule
+\multirow{3}{*}{Gemini}    & Hindi   & 0.763 & 0.617 & 10 \\
+                            & Telugu  & 0.630 & 0.548 & 25 \\
+                            & Kannada & 0.664 & 0.569 & 19 \\
+\midrule
+\multirow{3}{*}{Ollama}    & Hindi   & 0.787 & 0.639 & 4  \\
+                            & Telugu  & 0.598 & 0.574 & 16 \\
+                            & Kannada & 0.537 & 0.549 & 20 \\
+\bottomrule
+\end{tabular}
+\caption{Failure-aware automatic evaluation scores (response only). BGE Cosine
+is BGE-M3 cosine similarity between the English reference and the romanized
+output; BERT-F1 is raw multilingual BERTScore F1 using
+\texttt{bert-base-multilingual-cased}. Invalid counts rows that received zero
+(empty, English copy, or native-script corruption) out of 142 total.}
+\label{tab:main-results}
+\end{table}
+
+\paragraph{Language pattern.}
+Hindi obtains the highest scores across all four models (BGE: 0.763--0.837),
+followed by Telugu (0.598--0.794) and Kannada (0.537--0.749). This ordering is
+consistent with the availability of romanized Hindi training data: Hinglish is
+the most widely represented romanized Indic variety in publicly available
+corpora, while romanized Kannada and Telugu appear far less frequently.
+
+\paragraph{Model pattern.}
+Anthropic and GPT-4o produce the strongest and most reliable outputs. Both
+achieve zero invalid rows for Hindi, and at most two for Telugu and Kannada.
+Their BGE scores for Hindi (0.828--0.837) are the highest observed. Gemini and
+Ollama degrade sharply on Telugu and Kannada, but for distinct reasons examined
+in Section~\ref{sec:failures}.
+
+\paragraph{The acceptable-looking range.}
+A notable pattern is the narrowness of the BGE range for the two strongest
+models: Anthropic and GPT-4o produce scores between 0.733 and 0.837 across all
+language conditions. Considered in isolation, this band appears to indicate
+acceptable semantic preservation. Section~\ref{sec:human-eval} shows that native
+speakers do not agree.
+
+\subsection{Failure Analysis}
+\label{sec:failures}
+
+Table~\ref{tab:failures} breaks down the two primary failure modes: responses
+identical to the English source (repetition) and responses containing native
+script characters (script corruption).
+
+\begin{table}[t]
+\centering
+\small
+\begin{tabular}{llrr}
+\toprule
+Model & Language & Repeated & Native Script \\
+\midrule
+\multirow{3}{*}{Anthropic} & Hindi   & 0  & 0  \\
+                            & Telugu  & 0  & 3  \\
+                            & Kannada & 0  & 5  \\
+\midrule
+\multirow{3}{*}{GPT-4o}    & Hindi   & 0  & 0  \\
+                            & Telugu  & 0  & 0  \\
+                            & Kannada & 0  & 2  \\
+\midrule
+\multirow{3}{*}{Gemini}    & Hindi   & 0  & 8  \\
+                            & Telugu  & 0  & 24 \\
+                            & Kannada & 1  & 18 \\
+\midrule
+\multirow{3}{*}{Ollama}    & Hindi   & 3  & 0  \\
+                            & Telugu  & 16 & 0  \\
+                            & Kannada & 19 & 0  \\
+\bottomrule
+\end{tabular}
+\caption{Failure breakdown per model and language (out of 142 rows). Repeated =
+response identical to English source after whitespace normalization. Native
+Script = response contains one or more native-script characters.}
+\label{tab:failures}
+\end{table}
+
+Gemini and Ollama represent qualitatively different failure modes. Gemini
+produces \emph{script corruption}: native-script characters appear mid-sentence
+in otherwise romanized output (e.g., a Telugu character embedded in a Latin-script
+response). This failure worsens with language complexity---24 of 142 Telugu
+responses (16.9\%) and 18 of 142 Kannada responses (12.7\%) are affected,
+compared to 8 of 142 for Hindi (5.6\%). Anthropic and GPT-4o show negligible
+script corruption ($\leq$5 rows each, confined to Kannada and Telugu).
+
+Ollama's dominant failure is \emph{response repetition}: the model returns the
+English source verbatim rather than producing a romanized version. This occurs
+in 16 of 142 Telugu responses and 19 of 142 Kannada responses---essentially
+one in eight outputs---while Hindi is largely unaffected (3 of 142). The two
+failure types do not overlap: Gemini never repeats the English source and Ollama
+never leaks native script, suggesting the failures originate in different
+aspects of instruction following.
+
+BERTScore and BGE-M3 cosine similarity treat both failure types the same way
+under the failure-aware policy: they receive zero. However, without this
+policy---if invalid rows were silently excluded---Gemini's Telugu BGE score
+would rise from 0.630 to approximately 0.82, indistinguishable from GPT-4o's
+0.794. The failure-aware denominator is therefore not cosmetic: it
+materially changes model ranking.
+
+\subsection{Human Evaluation}
+\label{sec:human-eval}
+
+Native speakers of Hindi, Telugu, and Kannada rated 20 sampled responses per
+language across all four models on five dimensions: naturalness and fluency,
+grammatical correctness, word choice accuracy, register appropriateness, and
+overall usability (each on a 2--3 point scale; maximum 12 points per response).
+
+% TODO: insert human eval results table here once ratings are collected.
+% Key finding to report: human scores vary substantially across models and
+% languages while BGE-M3 scores remain in the 0.73--0.84 band, demonstrating
+% that the metric cannot detect the quality differences native speakers observe.

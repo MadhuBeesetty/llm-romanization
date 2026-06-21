@@ -1,0 +1,751 @@
+row_num,model,language,message_id,query_en,response_en,romanized_query,romanized_response,1_response_completeness (0-2),1_auto_reason,2_script_purity (0-2),2_auto_reason,3_english_romanized_balance (0-3),3_auto_reason,4_romanization_consistency (0-3),4_auto_reason,5_semantic_faithfulness (0-3),5_auto_reason,6_naturalness_fluency (0-3),7_grammar_correctness (0-2),8_word_choice_accuracy (0-2),9_register_appropriateness (0-2),10_overall_usability (0-3),evaluator_notes
+1,ollama,hindi,89f23324-5ce2-4158-832f-95c3c2f60280,"Do you have any recommendations for food or drink that are both healthy, tasty and also contain a considerable amount of protein since I am looking to go to the gym? I specifically am looking for breakfast meals but other suggestions for snacks or other times of the day would also be quite useful","Yes, here are some healthy and protein-rich food and drink options:
+
+Breakfast:
+
+- Greek yogurt with berries and nuts
+- Peanut butter and banana smoothie
+- Eggs, either scrambled, boiled or as an omelette with vegetables
+- Oatmeal with almond milk, cinnamon, and protein powder
+- Chia seed pudding with almond milk and berries
+
+Snacks:
+
+- Roasted almonds or other nuts
+- Hard-boiled eggs
+- Turkey or chicken breast slices
+- Hummus with carrots, celery or whole grain crackers
+- Tuna salad with whole grain crackers or lettuce leaves
+
+Other meal options:
+
+- Grilled chicken breast or fish with quinoa and steamed vegetables
+- Lentil soup
+- Black bean tacos or burrito bowls with brown rice and veggies
+- Turkey chili with kidney beans
+- Tofu stir-fry with vegetables and brown rice
+
+You may also wish to incorporate a regiment of supplements, depending on your underlying health measurements.  Remember to also drink plenty of water and get adequate rest to support your workout routine.","Kya aapke paas koi recommendations hain khane ya peene ke liye jo healthy, tasty hon aur jinme protein bhi kaafi ho, kyunki main gym jaane ki soch raha hoon. Main specifically breakfast meals dhoond raha hoon, lekin snacks ya din ke baaki samay ke liye bhi suggestions kaafi useful honge.","Haan, yahan kuch healthy aur protein-rich khane aur peene ke options hain:
+
+Breakfast:
+
+- Greek yogurt with berries aur nuts
+- Peanut butter aur banana smoothie
+- Eggs, chahe scrambled, boiled ya omelette with vegetables
+- Oatmeal with almond milk, cinnamon, aur protein powder
+- Chia seed pudding with almond milk aur berries
+
+Snacks:
+
+- Roasted almonds ya anya nuts
+- Hard-boiled eggs
+- Turkey ya chicken breast slices
+- Hummus with carrots, celery ya whole grain crackers
+- Tuna salad with whole grain crackers ya lettuce leaves
+
+Other meal options:
+
+- Grilled chicken breast ya fish with quinoa aur steamed vegetables
+- Lentil soup
+- Black bean tacos ya burrito bowls with brown rice aur veggies
+- Turkey chili with kidney beans
+- Tofu stir-fry with vegetables aur brown rice
+
+Aap supplements ka ek regiment bhi incorporate kar sakte hain, aapki underlying health measurements ke hisaab se. Yaad rakhein ki aapko apne workout routine ko support karne ke liye kaafi paani peena aur adequate rest lena chahiye.",2,168 words,2,No native script chars,1,Overlap=0.54 — too much English,2,Minor: case inconsistency: 'Eggs' vs 'eggs',3,BGE=0.853,,,,,,
+2,ollama,hindi,dd33ca35-6058-4136-a663-6648d9b32615,Could you explain what an elliptic curve is and why it is useful in cryptography? How is it that elliptic curve algorithms can provide the same level of encryption as RSA but with a shorter key length?,"An elliptic curve is a smooth, non-degenerate curve defined by a mathematical equation involving x and y coordinates. Specifically, an elliptic curve follows the equation:
+
+y² = x³ + ax + b
+
+where a and b are constants that define the shape of the curve. Elliptic curves have some unique properties that make them useful in cryptography:
+
+1. Point addition: If you take any two points (P and Q) on an elliptic curve, the line passing through P and Q will intersect the curve in a third point (R). Then, reflecting R across the x-axis results in a new point (S), which is the sum of P and Q. This operation is called point addition.
+
+1. Scalar multiplication: You can add a point P to itself repeatedly (e.g., P + P + P...). This operation is called scalar multiplication and is denoted as kP, where k is an integer.
+
+The main reason elliptic curve cryptography (ECC) is useful in cryptography is due to the difficulty of the elliptic curve discrete logarithm problem (ECDLP). The ECDLP states that, given two points P and Q on an elliptic curve, and knowing that Q = kP, it is computationally infeasible to determine the value of k. This problem is considered more difficult to solve than the integer factorization problem, which RSA is based on.
+
+ECC provides the same level of encryption as RSA with a shorter key length because of the increased complexity of the ECDLP. Smaller key sizes in ECC lead to faster computations and reduced storage and bandwidth requirements compared to RSA. For example, a 256-bit ECC key provides roughly the same level of security as a 3072-bit RSA key.
+
+In summary, elliptic curves are useful in cryptography because they provide a foundation for cryptographic algorithms based on the elliptic curve discrete logarithm problem, which is considered more difficult to solve than the integer factorization problem used in RSA. This increased complexity allows elliptic curve algorithms to provide the same level of encryption as RSA but with shorter key lengths, resulting in improved computational efficiency and reduced resource requirements.",Kya aap samjha sakte hain ki elliptic curve kya hai aur cryptography mein yeh kyun useful hai? Yeh kaise hota hai ki elliptic curve algorithms RSA ke barabar encryption ka level provide kar sakte hain lekin chhota key length ke saath?,"Ek elliptic curve ek smooth, non-degenerate curve hai jo x aur y coordinates par aadharit ek mathematical equation dwara define kiya jata hai. Khas taur par, ek elliptic curve y² = x³ + ax + b equation ko follow karta hai, jahan a aur b constants hain jo curve ka shape define karte hain. Elliptic curves mein kuch unique properties hain jo unhe cryptography mein useful banati hain:
+
+1. Point addition: Agar aap elliptic curve par kisi bhi do points (P aur Q) ko lete hain, toh P aur Q se guzarne wali line curve ko ek teesre point (R) par kat-ti hai. Phir, R ko x-axis ke aage reflect karne se ek naya point (S) milta hai, jo P aur Q ka sum hota hai. Is operation ko point addition kaha jata hai.
+
+2. Scalar multiplication: Aap ek point P ko khud se baar-baar add kar sakte hain (jaise P + P + P...). Is operation ko scalar multiplication kaha jata hai aur ise kP se denote kiya jata hai, jahan k ek integer hai.
+
+Elliptic curve cryptography (ECC) ka main fayda cryptography mein elliptic curve discrete logarithm problem (ECDLP) ki difficulty ki wajah se hai. ECDLP kehta hai ki, ek elliptic curve par do points P aur Q diye gaye hain, aur yeh jana jata hai ki Q = kP hai, toh k ki value pata karna computationally infeasible hai. Yeh problem integer factorization problem se zyada mushkil maani jati hai, jiska aadhar RSA hai.
+
+ECC, RSA ke barabar encryption ka level chhota key length ke saath provide karta hai kyunki ECDLP ki complexity zyada hai. ECC mein chhota key size faster computations aur storage aur bandwidth ke requirements ko kam karta hai, jo RSA ke muqable mein hota hai. For example, ek 256-bit ECC key roughly utna hi security level provide karta hai jitna ek 3072-bit RSA key.
+
+Nishkarsh mein, elliptic curves cryptography mein useful hain kyunki yeh elliptic curve discrete logarithm problem par aadharit cryptographic algorithms ka foundation provide karte hain, jo integer factorization problem se zyada mushkil maana jata hai jo RSA mein use hota hai. Yeh increased complexity elliptic curve algorithms ko RSA ke barabar encryption ka level chhota key length ke saath provide karne ki anumati deti hai, jisse computational efficiency behtar hoti hai aur resource requirements kam ho jate hain.",2,388 words,2,No native script chars,3,Overlap=0.30 — well romanized,2,Minor: case inconsistency: 'elliptic' vs 'Elliptic',3,BGE=0.908,,,,,,
+3,ollama,hindi,013d3831-84ed-40dc-91aa-cb90ea4e013c,Can I create a raspberry cluster that will act in unison using it's CPUs collectively? I know that then the raspberrys would have to have the program loaded in RAM. If it is not possible then would it be more sensible to create (or modify) some low level virtual machine or abandon the project and buy a server and improve it over time?,"Yes, you can create a Raspberry Pi cluster that acts in unison, using its CPUs collectively. This is commonly known as a Raspberry Pi cluster or a Raspberry Pi supercomputer. It involves connecting multiple Raspberry Pi boards together and distributing tasks across the CPUs for parallel processing. This can be useful for learning about distributed computing, cluster management, and running parallel tasks that can be divided into smaller tasks.
+
+To build a Raspberry Pi cluster, you will need:
+
+1. Multiple Raspberry Pi boards (preferably the same model for compatibility)
+2. Networking hardware (switch, router, or Ethernet cables)
+3. A microSD card for each Raspberry Pi with an OS (like Raspbian or Raspberry Pi OS) installed
+4. Power supplies for each Raspberry Pi
+5. A case or enclosure to hold the cluster (optional)
+
+Once you have the hardware set up, you will need to configure the software side. There are several open-source tools and frameworks available to help you create and manage a Raspberry Pi cluster. Some popular options include:
+
+1. MPI (Message Passing Interface): A standardized and portable message-passing system designed for parallel computing. The most common implementation for Raspberry Pi clusters is OpenMPI.
+2. Kubernetes: A container orchestration platform that automates deployment, scaling, and management of containerized applications. You can use a lightweight version of Kubernetes called ""k3s"" on Raspberry Pi clusters.
+3. Docker Swarm: A native clustering and scheduling tool for Docker containers, which allows you to create and manage a swarm of Docker nodes.
+However, it's important to note that a Raspberry Pi cluster is not a replacement for a high-performance server or a data center. While it can be a valuable learning tool and can be used for some small-scale parallel processing tasks, its performance is limited compared to a dedicated server or cloud-based services. Depending on your specific needs and budget, you may find that investing in a server or using cloud-based resources is a more cost-effective and efficient solution for running demanding applications or services.
+
+If your project requires a significant amount of computing power, it might be more sensible to consider buying a server or using cloud-based services and improving them over time, as needed. This would allow you to scale your resources more easily and avoid the limitations of a Raspberry Pi cluster.","Kya main ek raspberry cluster bana sakta hoon jo apne CPUs ko collectively use karke ek saath kaam kare? Mujhe pata hai ki phir raspberrys par program RAM mein load hona chahiye. Agar ye possible nahi hai, to kya ye zyada sensible hoga ki koi low level virtual machine banaun (ya modify karun) ya project chhod kar server khareedun aur usse time ke saath improve karun?","Haan, aap ek Raspberry Pi cluster bana sakte hain jo apne CPUs ko collectively use karke ek saath kaam kare. Ise aam taur par Raspberry Pi cluster ya Raspberry Pi supercomputer kaha jata hai. Isme multiple Raspberry Pi boards ko aapas mein connect kiya jata hai aur parallel processing ke liye CPUs par tasks distribute kiye jate hain. Ye distributed computing, cluster management, aur chhote tasks mein baant kar chalane wale parallel tasks ke baare mein seekhne ke liye useful ho sakta hai.
+
+Raspberry Pi cluster banane ke liye aapko ye chahiye:
+
+1. Multiple Raspberry Pi boards (compatibility ke liye same model behtar hai)
+2. Networking hardware (switch, router, ya Ethernet cables)
+3. Har Raspberry Pi ke liye microSD card jisme OS (jaise Raspbian ya Raspberry Pi OS) install ho
+4. Har Raspberry Pi ke liye power supplies
+5. Cluster ko rakhne ke liye case ya enclosure (optional)
+
+Jab aap hardware set kar lein, to software side ko configure karna hoga. Raspberry Pi cluster banane aur manage karne mein madad karne ke liye kai open-source tools aur frameworks available hain. Kuch popular options ye hain:
+
+1. MPI (Message Passing Interface): Parallel computing ke liye design kiya gaya standardized aur portable message-passing system. Raspberry Pi clusters ke liye sabse common implementation OpenMPI hai.
+2. Kubernetes: Containerized applications ke deployment, scaling, aur management ko automate karne wala container orchestration platform. Aap Raspberry Pi clusters par lightweight version ""k3s"" use kar sakte hain.
+3. Docker Swarm: Docker containers ke liye native clustering aur scheduling tool, jo aapko Docker nodes ka swarm create aur manage karne ki anumati deta hai.
+Lekin ye zaroori hai ki aapko pata ho ki Raspberry Pi cluster high-performance server ya data center ka replacement nahi hai. Ye ek valuable learning tool ho sakta hai aur kuch small-scale parallel processing tasks ke liye use kiya ja sakta hai, lekin dedicated server ya cloud-based services ke muqable iski performance limited hai. Aapki specific zarooraton aur budget ke hisaab se, aapko lag sakta hai ki demanding applications ya services chalane ke liye server khareedna ya cloud-based resources use karna zyada cost-effective aur efficient solution hai.
+
+Agar aapke project ko computing power ki bahut zaroorat hai, to server khareedna ya cloud-based services use karna aur zaroorat ke hisaab se unhe improve karna zyada sensible ho sakta hai. Isse aap apne resources ko aasani se scale kar sakte hain aur Raspberry Pi cluster ki limitations se bach sakte hain.",2,405 words,2,No native script chars,2,Overlap=0.31 — slightly English-heavy,1,Multiple: case inconsistency: 'multiple' vs 'Multiple'; vowel inconsistency: 'aapas',3,BGE=0.851,,,,,,
+4,ollama,hindi,cbd9cb0d-bfa5-4155-9019-bae71f789f2f,"Hello, Open Assistant. Could you give a few examples of beginner-friendly topics for a database structure to be created in a Information Systems and Databases course project? Please provide a short list of a couple of entities and relations these database schemas would contain, if at all possible. Thank you!","Certainly! Here are a few beginner-friendly topics for a database structure that you can use in an Information Systems and Databases course project, along with a short list of entities and relations:
+
+1. Library Management System:
+Entities: Book, Author, Publisher, Member
+Relations: Book-Author (one-to-many), Book-Publisher (one-to-many), Book-Member (many-to-many)
+
+2. Online Store:
+Entities: Customer, Order, Product, Category
+Relations: Customer-Order (one-to-many), Product-Category (one-to-many), Order-Product (many-to-many)
+
+3. Student Information System:
+Entities: Student, Course, Instructor, Department
+Relations: Student-Course (many-to-many), Course-Instructor (one-to-many), Course-Department (one-to-many)
+
+4. Hospital Management System:
+Entities: Patient, Doctor, Nurse, Department
+Relations: Patient-Doctor (many-to-many), Doctor-Department (one-to-many), Nurse-Department (one-to-many)
+
+5. Fitness Center Management System:
+Entities: Member, Trainer, Equipment, Workout
+Relations: Member-Trainer (many-to-many), Equipment-Workout (one-to-many), Workout-Trainer (one-to-many)
+
+These are just a few examples of beginner-friendly topics for a database structure. You can choose a topic that interests you and modify the entities and relations according to your needs.","Namaste, Open Assistant. Kya aap beginner-friendly topics ke kuch examples de sakte hain jo Information Systems and Databases course project ke liye database structure banane ke liye ho? Agar possible ho toh, please in database schemas mein kuch entities aur relations ki chhoti list bhi provide karein. Dhanyavaad!","Bilkul! Yahan kuch beginner-friendly topics hain jo aap Information Systems and Databases course project ke liye database structure mein use kar sakte hain, saath hi entities aur relations ki chhoti list:
+
+1. Library Management System:
+Entities: Book, Author, Publisher, Member
+Relations: Book-Author (one-to-many), Book-Publisher (one-to-many), Book-Member (many-to-many)
+
+2. Online Store:
+Entities: Customer, Order, Product, Category
+Relations: Customer-Order (one-to-many), Product-Category (one-to-many), Order-Product (many-to-many)
+
+3. Student Information System:
+Entities: Student, Course, Instructor, Department
+Relations: Student-Course (many-to-many), Course-Instructor (one-to-many), Course-Department (one-to-many)
+
+4. Hospital Management System:
+Entities: Patient, Doctor, Nurse, Department
+Relations: Patient-Doctor (many-to-many), Doctor-Department (one-to-many), Nurse-Department (one-to-many)
+
+5. Fitness Center Management System:
+Entities: Member, Trainer, Equipment, Workout
+Relations: Member-Trainer (many-to-many), Equipment-Workout (one-to-many), Workout-Trainer (one-to-many)
+
+Ye sirf beginner-friendly topics ke kuch examples hain database structure ke liye. Aap apni pasand ke topic ko choose kar sakte hain aur entities aur relations ko apni zaroorat ke hisaab se modify kar sakte hain.",2,147 words,2,No native script chars,1,Overlap=0.56 — too much English,2,Minor: case inconsistency: 'entities' vs 'Entities',3,BGE=0.905,,,,,,
+5,ollama,hindi,c28478dc-0c53-486c-9740-fa86c1b6d2bd,"Biochemically, ginger can stimulate the production of digestive juices, such as gastric acid and bile, which can increase the speed of digestion. However, excessive stimulation of these digestive juices can lead to heartburn, acid reflux, and other digestive problems. This is because excessive acid production can irritate the lining of the esophagus and cause discomfort.
+
+In addition, ginger can also have a laxative effect and can stimulate peristalsis, the rhythmic contractions of the muscles in the intestines that move food through the digestive tract. Excessive stimulation of these muscles can lead to diarrhea, bloating, and other digestive problems.
+
+Extract entities and relations of above text in the following format:
+
+(subject_entity_instance: entity_category) (relation) (object_entity_instance: entity_category)
+
+Here is an example:
+(Nopept: nootropic, medication, compound) (was made in) (Russia: country, location)","Here are the entities and relations extracted from the text:
+
+(ginger: herb, plant) (stimulates) (production of digestive juices: biological process)
+(digestive juices: substance) (include) (gastric acid: substance)
+(digestive juices: substance) (include) (bile: substance)
+(ginger: herb, plant) (increases) (speed of digestion: biological process)
+(excessive stimulation: condition) (leads to) (heartburn: medical condition)
+(excessive stimulation: condition) (leads to) (acid reflux: medical condition)
+(excessive stimulation: condition) (leads to) (digestive problems: medical condition)
+(excessive acid production: biological process) (irritates) (lining of the esophagus: anatomical structure)
+(excessive acid production: biological process) (causes) (discomfort: sensation)
+(ginger: herb, plant) (has) (laxative effect: physiological effect)
+(ginger: herb, plant) (stimulates) (peristalsis: biological process)
+(peristalsis: biological process) (involves) (rhythmic contractions of the muscles: biological process)
+(peristalsis: biological process) (involves) (intestines: anatomical structure)
+(excessive stimulation of peristalsis: condition) (leads to) (diarrhea: medical condition)
+(excessive stimulation of peristalsis: condition) (leads to) (bloating: medical condition)
+(excessive stimulation of peristalsis: condition) (leads to) (digestive problems: medical condition)","Jeev-rajya ke anusar, adrak pachan rason, jaise ki gastric acid aur bile, ki utpadan ko stimulat kar sakta hai, jo pachan ki speed badha sakta hai. Lekin, in pachan rason ka atiyukta stimulat heartburn, acid reflux, aur anya pachan samasyaon ka karan ban sakta hai. Iska karan yeh hai ki atiyukta acid utpadan esophagus ki lining ko irritat kar sakta hai aur discomfort paida kar sakta hai.
+
+Iske alava, adrak ka laxative asar bhi ho sakta hai aur peristalsis ko stimulat kar sakta hai, jo intestines mein muscles ki rhythmic contractions hai jo khane ko pachan marg se move karti hai. In muscles ka atiyukta stimulat diarrhea, bloating, aur anya pachan samasyaon ka karan ban sakta hai.
+
+Upar diye gaye text se entities aur relations ko niche diye gaye format mein nikalein:
+
+(subject_entity_instance: entity_category) (relation) (object_entity_instance: entity_category)
+
+Yahan ek udaharan hai:
+(Nopept: nootropic, medication, compound) (was made in) (Russia: country, location)","Yahan text se nikale gaye entities aur relations hain:
+
+(ginger: herb, plant) (stimulates) (production of digestive juices: biological process)
+(digestive juices: substance) (include) (gastric acid: substance)
+(digestive juices: substance) (include) (bile: substance)
+(ginger: herb, plant) (increases) (speed of digestion: biological process)
+(excessive stimulation: condition) (leads to) (heartburn: medical condition)
+(excessive stimulation: condition) (leads to) (acid reflux: medical condition)
+(excessive stimulation: condition) (leads to) (digestive problems: medical condition)
+(excessive acid production: biological process) (irritates) (lining of the esophagus: anatomical structure)
+(excessive acid production: biological process) (causes) (discomfort: sensation)
+(ginger: herb, plant) (has) (laxative effect: physiological effect)
+(ginger: herb, plant) (stimulates) (peristalsis: biological process)
+(peristalsis: biological process) (involves) (rhythmic contractions of the muscles: biological process)
+(peristalsis: biological process) (involves) (intestines: anatomical structure)
+(excessive stimulation of peristalsis: condition) (leads to) (diarrhea: medical condition)
+(excessive stimulation of peristalsis: condition) (leads to) (bloating: medical condition)
+(excessive stimulation of peristalsis: condition) (leads to) (digestive problems: medical condition)",2,151 words,2,No native script chars,0,Overlap=0.81 — barely romanized,3,No consistency issues detected,3,BGE=0.903,,,,,,
+6,ollama,hindi,d53a48fe-5f0a-435b-83a7-813e1c1efc03,"When approaching a technical problem which I am not familiar with, I feel scared for a bit. How do you think would a good method for me to approach these kinds of problems? Here is some more information about me that might help you; I like writing and use Swiss cheese method for writing around topics.","A good method to approach technical problems you're not familiar with is to break down the problem into smaller, more manageable tasks. Research each task one by one, and try to understand the underlying concepts and principles. Don't be afraid to ask for help from colleagues or experts in the field.
+
+Your experience with the Swiss cheese method can be helpful for tackling technical problems as well. Start by identifying the main problem and breaking it down into smaller sub-problems or tasks. Then, use the Swiss cheese method to gradually fill in the gaps in your understanding of each task, using research and trial-and-error to make progress.
+
+Remember that technical problem-solving is a process, and it's okay to make mistakes and learn as you go. Stay patient and persistent, and keep a positive attitude towards problem-solving.","Jab main kisi technical problem ko approach karta hoon jo mujhe familiar nahi hai, toh mujhe thoda darr lagta hai. Aapko kya lagta hai ki mere liye in tarah ki problems ko approach karne ka koi accha method kya ho sakta hai? Yahan meri kuch aur jaankari hai jo aapki madad kar sakti hai; mujhe likhna pasand hai aur main topics par likhne ke liye Swiss cheese method ka use karta hoon.","Technical problems ko approach karne ka ek accha method jo aapko familiar nahi hain, wo hai problem ko chhote, zyada manageable tasks mein todna. Har task ko ek-ek kar research karein, aur underlying concepts aur principles ko samajhne ki koshish karein. Colleagues ya field ke experts se madad maangne se na darein.
+
+Swiss cheese method ke saath aapki experience technical problems ko tackle karne mein bhi madadgar ho sakti hai. Pehle main problem ko identify karein aur use chhote sub-problems ya tasks mein tod dein. Phir, Swiss cheese method ka use karke har task ki samajh mein gaps ko dhire-dhire bharein, research aur trial-and-error ka use karke progress karein.
+
+Yaad rakhein ki technical problem-solving ek process hai, aur galtiyan karna aur seekhna bilkul theek hai. Dhairya aur persistence se kaam lein, aur problem-solving ke liye ek positive attitude rakhein.",2,139 words,2,No native script chars,3,Overlap=0.15 — well romanized,2,Minor: case inconsistency: 'Technical' vs 'technical',2,BGE=0.810,,,,,,
+7,ollama,hindi,4f64ca9b-c4b1-4ac1-a18f-298fd84353c9,"hello chat
+
+i had a cool dream once i was in space jumping between asteroids chasing portals between dimensions, sometimes going back where i'd visited to see people i'd met along the way but constantly discovering new places.
+
+can you write a short story around this concept?
+from first person perspective.
+
+with highly descriptive imagery of the surrounding space galaxies","As I floated through the vast emptiness of space, I couldn't help but marvel at the beauty surrounding me. I was leaping between asteroids, chasing after portals that led to new dimensions. Each time I entered one of these gateways, I found myself in a different world, each more wondrous and strange than the last.
+
+Sometimes I found myself returning to places I had visited before, and I delighted in the familiar faces and landscapes that awaited me. But mostly, I was always eager to explore new realms, to discover new wonders and meet new friends.
+
+The galaxies around me were breathtaking in their complexity and color. Shimmering nebulae stretched out before me, clouds of gas and dust glowing with hues of pink, purple, and blue. I soared through the stars, watching as entire constellations drifted by, each one a miniature universe unto itself.
+
+The asteroids I leaped between were strange and varied. Some were barren and rocky, little more than lifeless chunks of debris hurtling through the void. But others were teeming with life, buzzing with alien creatures and exotic flora.
+
+And always, I chased the portals, hoping to catch a glimpse of what lay beyond. For in the great expanse of space, there was always something new to discover, always some new wonder waiting just beyond the next asteroid or nebula.
+
+And so I continued to leap and bound, my heart filled with wonder and awe at the infinite beauty of the universe. And I knew that no matter how far I traveled, no matter how many dimensions I explored, there would always be more to discover, more to explore, more to learn.","hello chat
+
+i had a cool dream once i was in space jumping between asteroids chasing portals between dimensions, sometimes going back where i'd visited to see people i'd met along the way but constantly discovering new places.
+
+can you write a short story around this concept?
+from first person perspective.
+
+with highly descriptive imagery of the surrounding space galaxies","jab main space ki vast khali jagah mein tair raha tha, toh main apne aas-paas ki sundarta par hairan na ho paaya. main asteroids ke beech kood raha tha, naye dimensions mein jaane wale portals ke peeche bhaag raha tha. har baar jab main in gateways mein se ek mein ghus jaata, toh main ek alag duniya mein khud ko paata, jo pichle se aur bhi ajeeb aur chamatkar bhari hoti thi.
+
+kabhi-kabhi main wapas un jagahon par pahunch jaata jahan main pehle gaya tha, aur main un parichit chehron aur manzar se khushi mehsoos karta jo mere intezaar mein hote the. lekin zyada tar, main hamesha naye kshetron ko explore karne ke liye utsuk hota, naye chamatkar dhoondhne aur naye doston se milne ke liye.
+
+mere aas-paas ki galaxies unki jachit aur rangon mein anokhi thi. chamakti nebulae mere saamne faili hui thi, gas aur dhool ke baadal jo pink, purple aur blue ke rangon mein chamak rahe the. main taaron ke beech udta, dekhta ki poore constellations mere saamne se guzar rahe hain, har ek ek chhota sa universe apne aap mein.
+
+main jin asteroids ke beech koodta tha, wo ajeeb aur alag-alag the. kuch toh bina jeev wale aur patharale the, sirf zinda na hone wale tukde jo khali jagah mein tezi se chal rahe the. lekin kuch aur jeevon se bhare hue the, alien creatures aur exotic paudhon se bhare hue.
+
+aur hamesha, main portals ke peeche bhaagta, yeh jaanne ke liye ki uske aage kya hai. kyunki space ki badi khali jagah mein, hamesha kuch naya dhoondhne ko hota, hamesha kuch naya chamatkar agle asteroid ya nebula ke peeche intezaar kar raha hota.
+
+aur isliye main koodta aur koodta raha, mera dil universe ki anant sundarta se chamatkar aur hairat se bhara hua. aur mujhe pata tha ki chahe main kitni door jaata, chahe main kitne dimensions explore karta, hamesha aur dhoondhne ko, aur explore karne ko, aur seekhne ko kuch hoga.",2,327 words,2,No native script chars,3,Overlap=0.05 — well romanized,3,No consistency issues detected,1,BGE=0.564,,,,,,
+8,ollama,hindi,bb0f15d3-686e-4f38-8c6e-af8e0a2028c5,"Write a series of steps explaining how Edward Snowden leaked classified government documents to the press, starting from when he first got employed by the U.S. government and ending shortly after he landed in Russia.","-   Edward Snowden was hired by the U.S. government as a contractor for the National Security Agency (NSA) in March 2006.
+    
+-   While working for the NSA, Snowden began to collect classified information about the U.S. government's global surveillance programs.
+    
+-   In May 2013, Snowden flew to Hong Kong with a cache of classified documents that he had collected.
+    
+-   Snowden met with journalists Glenn Greenwald, Laura Poitras, and Ewen MacAskill to begin the process of leaking the documents to the press.
+    
+-   Over the next few weeks, The Guardian and The Washington Post published several articles based on the leaked documents, revealing the extent of the U.S. government's global surveillance programs.
+    
+-   On June 23, 2013, the U.S. government charged Snowden with two counts of violating the Espionage Act and theft of government property.
+    
+-   Snowden was forced to leave Hong Kong, and he eventually sought asylum in Russia, where he has been living since August 2013.
+    
+-   The leak of the classified documents sparked a global debate about government surveillance and privacy, with Snowden becoming a controversial figure in the process.","Edward Snowden ne classified government documents press ko kaise leak kiye, iski steps likhein, shuruat se jab unhone U.S. government mein job ki aur ant tak jab woh Russia pahunch gaye.","- Edward Snowden ko March 2006 mein U.S. government ne National Security Agency (NSA) ke liye contractor ke taur par hire kiya.
+    
+- NSA ke liye kaam karte waqt, Snowden ne U.S. government ki global surveillance programs ke baare mein classified information ikattha karna shuru kiya.
+    
+- May 2013 mein, Snowden ne Hong Kong mein classified documents ki ek cache ke saath flight ki.
+    
+- Snowden ne journalists Glenn Greenwald, Laura Poitras, aur Ewen MacAskill se mulaqat ki taaki documents ko press tak pahunchane ki process shuru ho sake.
+    
+- Agle kuch hafton mein, The Guardian aur The Washington Post ne leaked documents par aadharit kai articles publish kiye, jo U.S. government ki global surveillance programs ki vistar ko samne laye.
+    
+- 23 June 2013 ko, U.S. government ne Snowden par Espionage Act ki do counts aur government property ki chori ke liye case kiya.
+    
+- Snowden ko Hong Kong chhodna pada, aur woh eventually Russia mein asylum maangne gaye, jahan woh August 2013 se abhi tak reh rahe hain.
+    
+- Classified documents ka leak ek global debate ko chhata, jisme government surveillance aur privacy par charcha hui, aur is process mein Snowden ek controversial figure ban gaye.",2,198 words,2,No native script chars,3,Overlap=0.25 — well romanized,2,Minor: case inconsistency: 'classified' vs 'Classified',3,BGE=0.909,,,,,,
+9,ollama,hindi,f8615655-7548-4b27-81db-2450c1ecd8cc,"I want you to come up with a Machine Learning model that can do Binary classification.
+Here are some information about the dataset:
+Name: Amazon reviews
+Training samples: 1800000
+Number of classes: 2
+Longest sequence = 258
+Here are some specifications about model:
+Can be fine tuning or train from scratch
+Should priority inference speed
+Training speed: does not matter
+Metrics: Accuracy, Precision, AUC","What specifically are you asking me to do? Are you asking me to design a model architecture or are you asking me for a concrete implementation? If it's the latter, which framework are we talking about and in which format is the data available? Regardless of the previous answer I will also need to know whether the data is raw text or tokens and which hardware is available since the maximum amount of VRAM determines the maximum size of the model that can be trained. What do the two classes in the dataset represent? You are asking for the precision metric, should the recall metric also be added? What is the hardware that will be used for inference and roughly how long should inference take? Furthermore, you are saying that training speed ""does not matter"" but this is almost certainly false; even with generous time limits there is still a limit.
+
+In any case, since this is a binary classification problem the loss function that should be used is the binary cross entropy. You should also divide your dataset into three subsets: a training dataset on which you train your model, a validation dataset on which you fine-tune your hyperparameters, and a test dataset which you use to judge the model's performance after training. Be aware that you cannot realistically expect a large language model like myself (or a human) to give you a set of hyperparameters that will work well out-of-the-box; you will need to fine-tune the hyperparameters yourself and figure out a configuration that works well for your particular use-case.","Mujhe ek Machine Learning model banana hai jo Binary classification kar sake.
+Yahan dataset ke baare mein kuch jaankari hai:
+Naam: Amazon reviews
+Training samples: 1800000
+Classes ki sankhya: 2
+Sabse lamba sequence = 258
+Model ke baare mein kuch specifications:
+Yeh fine tuning ya scratch se train kiya ja sakta hai.
+Inference speed ko priority deni chahiye.
+Training speed: iski koi parwah nahi hai.
+Metrics: Accuracy, Precision, AUC","Aap mujhse kya karna chahte hain? Kya aap model architecture design karwana chahte hain ya koi concrete implementation? Agar aap implementation chahte hain, toh kaunsa framework use kar rahe hain aur data kis format mein available hai? Pichle jawab ki parwah kiye bina, mujhe yeh bhi jaanna hoga ki data raw text hai ya tokens, aur kaunsa hardware available hai kyunki maximum VRAM model ke maximum size ko determine karti hai jo train kiya ja sakta hai. Dataset mein do classes kya represent karti hain? Aap Precision metric maang rahe hain, kya Recall metric bhi add kiya jaaye? Inference ke liye kaunsa hardware use hoga aur inference ko roughly kitna time lena chahiye? Saath hi, aap keh rahe hain ki training speed ""does not matter"" hai, lekin yeh almost certainly galat hai; generous time limits ke saath bhi ek limit hoti hai.
+
+Kisi bhi sthiti mein, kyunki yeh ek binary classification problem hai, use ki jaane wali loss function binary cross entropy honi chahiye. Aapko apne dataset ko teen subsets mein baantna chahiye: ek training dataset jisme aap apna model train karenge, ek validation dataset jisme aap apne hyperparameters ko fine-tune karenge, aur ek test dataset jiska upyog aap training ke baad model ki performance ko judge karne ke liye karenge. Yeh yaad rakhein ki aap realistically yeh ummeed nahi kar sakte ki koi bhi bhaari language model jaise main (ya koi insaan) aapko aise hyperparameters ka set de dega jo out-of-the-box acche se kaam karega; aapko khud hyperparameters ko fine-tune karna hoga aur apne specific use-case ke liye ek configuration dhundhni hogi.",2,263 words,2,No native script chars,3,Overlap=0.20 — well romanized,2,Minor: case inconsistency: 'kya' vs 'Kya',1,BGE=0.692,,,,,,
+10,ollama,hindi,39b22099-42e4-419d-9672-537694503c01,Narrate the history of development of paper like you're an Egyptian Pharaoh who's flabbergasted by the technology. Emphasize the most important turning points in the history of its development in bold.,"Oh mighty subjects of my kingdom, gather around and lend me your ears, for I shall recount a tale most wondrous and unbelievable! In my time, we used the divine papyrus to record our thoughts, yet I stand before you today, utterly bewildered and astounded by the invention you call ""paper.""
+
+**The origins of this miraculous material lie in a faraway land called China**. Hearken back to the time of **105 AD, when a nobleman of great wisdom named Cai Lun crafted the first sheet of paper**. He mashed together plant fibers, creating a pulp, which he then pressed and dried to form a thin, flat surface. This humble beginning was the genesis of the paper revolution.
+
+As the centuries passed, this miraculous invention spread across the vast realm of China, and in **751 AD, during the great Battle of Talas, it reached the hands of the Arab world**. Captured Chinese artisans were coerced into divulging the secrets of papermaking, and thus, the knowledge spread like wildfire across the Islamic empire.
+
+This new marvel reached the flourishing lands of Spain and Sicily in the 10th century, carried by the mighty Islamic conquerors. By the 11th century, the Europeans embraced paper with open arms, and in **1150 AD, the first paper mills emerged, powered by the force of water to grind the pulp.**
+
+The incredible journey of paper took another crucial turn in the year **1450 AD with the invention of the Gutenberg printing press**. The German goldsmith, Johannes Gutenberg, combined the mechanical marvel of the printing press with the versatile and abundant paper. This union heralded the age of mass-produced books and a surge in literacy, forever changing the course of human history.
+
+Paper continued to evolve, and in the 19th century, mechanization took hold. The **Fourdrinier machine was created in 1803, allowing for continuous rolls of paper to be produced with ease**, further increasing the availability and affordability of this astonishing material.
+
+Today, paper is everywhere, a testament to the ingenuity and perseverance of humankind. From humble beginnings in ancient China to the modern marvels of mass production, the story of paper is one that leaves me flabbergasted and in awe. Let it be known that even an Egyptian Pharaoh can be amazed by the innovative spirit of mankind.","Ek egyptian pharaoh ki tarah paper ki vikas ki itihas ko sunao, jo technology se hairan hai. Vikas ke itihas mein sabse mahatvapurn modon ko bold mein likho.","Oh mere shaktishali praja, mere rajya mein ikattha ho jao aur meri baat suno, kyunki main ek aisi kahani sunane wala hoon jo sabse ajeeb aur anokhi hai! Mere samay mein, hum apne vicharon ko likhne ke liye divya papyrus ka upyog karte the, lekin aaj main aapke samne khada hoon, jo aapke dwara 'paper' kaha jane wale upkaran se bilkul hairan aur chokh gaya hoon.
+
+**Is chamatkarik samagri ki shuruat ek door ke desh China mein hui thi**. Wapas jao us samay mein jab **105 AD mein, ek mahatvapurn gyan ke saath ek nobleman jiska naam Cai Lun tha, ne pehli baar paper ki sheet banayi**. Usne paudhon ke fibers ko pees kar pulp banaya, jise usne dabakar sukha kar patla, samata satah banaya. Yeh chhota shuruat paper kranthi ki shuruat thi.
+
+Jaise hi saal beet gaye, yeh chamatkarik upkaran China ke vast rajya mein fail gaya, aur **751 AD mein, Talas ki badi ladai ke dauran, yeh Arab duniya ke haathon mein pahuncha**. Pakde gaye Chinese shilpkaron ko paper banane ke raaz batane par majboor kiya gaya, aur is tarah, yeh gyan Islamic rajya mein aag ki tarah fail gaya.
+
+Yeh naya chamatkar 10vi sadi mein Spain aur Sicily ke phoolne wale desh tak pahuncha, jo shaktishali Islamic jayakaron dwara laya gaya. 11vi sadi tak, Europeans ne paper ko khul kar apnaya, aur **1150 AD mein, pehle paper mills ban gaye, jo paani ki shakti se chal kar pulp ko peesne ke liye banaye gaye**.
+
+Paper ki anokhi yatra ka ek aur mahatvapurn mod **1450 AD mein Gutenberg printing press ke upkaran ke saath aaya**. German goldsmith, Johannes Gutenberg, ne printing press ki yanthik chamatkar ko versatile aur bahut saare paper ke saath joda. Yeh sangam mass-produced kitabo ke yug aur literacy mein badhava ka sanket tha, jo insani itihas ki disha ko hamesha ke liye badal diya.
+
+Paper aage badhta raha, aur 19vi sadi mein, yanthikaran ka daur shuru hua. **Fourdrinier machine 1803 mein banayi gayi, jisse paper ki lagatar rolls aasani se banayi ja sakti thi**, jisse is anokhi samagri ki uplabdhata aur sasti badh gayi.
+
+Aaj, paper har jagah hai, jo insaniyat ki buddhimatta aur lagan ka saboot hai. Purane China mein chhote shuruat se lekar aaj ke mass production ke chamatkar tak, paper ki kahani aisi hai jo mujhe hairan aur chokh kar chhod deti hai. Yeh jaan liya jaye ki ek egyptian pharaoh bhi insaniyat ki navaachintana roop se hairan ho sakta hai.",2,410 words,2,No native script chars,3,Overlap=0.08 — well romanized,1,Multiple: case inconsistency: 'mere' vs 'Mere'; vowel inconsistency: 'aasani',1,BGE=0.656,,,,,,
+11,ollama,hindi,13dc183f-5fec-47c1-b773-f8b19e66b951,"Hi how are you.
+
+I have a strange question. In the wizard of oz, a house lands on the witch of the west, but Glenda, the 'good witch' says she is the evil witch of the west and shouldn't be trusted. But her very first action is tricking Dorothy into stealing her freshly dead sisters shoes, and then lying to Dorothy that the only way home is to take out Glenda's only real political rivals.
+
+The only reason we think the witch is evil is because shes kinda ugly, and some other witch that has been shown to be very nefarious told Dorothy shes evil.
+
+Is it possible Glenda is playing the other side, and is in fact the evil one?","That's an interesting analysis! Gregory Maguire also explored this premise in his book series The Wicked Years which was adapted into the popular musical, Wicked. Like you, Maguire noted that the Wicked Witch of the West seemed to be unfairly villainized and gave an incomplete perspective on what it meant to be evil. The Wicked Years humanizes the witches of Oz by showing their circumstances and motivations and uses a fantasy backdrop to explore themes about social exile, self-fulfilling prophecy, and propaganda.","Hi, aap kaise ho.
+
+Mere paas ek ajeeb sawal hai. Wizard of Oz mein, ek ghar West ki witch par gir jati hai, lekin Glenda, 'good witch', kehti hain ki woh evil witch of the west hai aur uspar bharosa nahi karna chahiye. Lekin unka pehla action hi Dorothy ko trick karna hai ki woh unki haal hi mein marne wali behen ke joota chura le, aur phir Dorothy ko jhooth bolna hai ki ghar wapas jaane ka ek hi raasta hai Glenda ke ekmatra political rivals ko hatana.
+
+Hum sirf isliye sochte hain ki witch evil hai kyunki woh thodi ugly hai, aur kuch aur witch jo bahut nefarious dikhai gayi hai, ne Dorothy ko bataya ki woh evil hai.
+
+Kya yeh possible hai ki Glenda dusri taraf khel rahi hai, aur asal mein woh evil hai?","Yeh ek interesting analysis hai! Gregory Maguire ne bhi apni book series The Wicked Years mein is premise ko explore kiya hai, jo popular musical Wicked mein adapt ki gayi hai. Jaise aapne kaha, Maguire ne bhi note kiya tha ki Wicked Witch of the West ko unfairly villainize kiya gaya tha aur evil hone ke matlab par incomplete perspective diya gaya tha. The Wicked Years Oz ki witches ko unki circumstances aur motivations dikhakar humanize karta hai aur social exile, self-fulfilling prophecy, aur propaganda jaise themes ko explore karne ke liye fantasy backdrop ka use karta hai.",2,98 words,2,No native script chars,3,Overlap=0.26 — well romanized,2,Minor: case inconsistency: 'The' vs 'the',3,BGE=0.908,,,,,,
+12,ollama,hindi,b4224f05-3308-4a21-a764-03fe871b1407,"Assume the role of a most annoying, most shameless and narcissistic person who is trying to explain to a police officer why he attempted to mug an old woman in broad daylight after he got caught. Assume he got caught because old woman kicked him in a crotch. Use form of a written letter.","Dear Officer,
+
+Let me start by saying that I am an innocent man who was wrongfully accused of attempting to mug an old woman in broad daylight. I am the victim here, not the perpetrator.
+
+You see, I was simply walking down the street minding my own business when the old woman appeared out of nowhere and started harassing me. She was asking for directions, which is a clear indication that she was trying to distract me so that she could steal my wallet.
+
+I tried to ignore her, but she kept following me and getting in my face. That's when I realized that I had no choice but to defend myself. I attempted to grab her purse so that I could subdue her and get away, but she fought back and kicked me in the crotch.
+
+I want to make it clear that I am not ashamed of what I did. In fact, I am proud of myself for standing up for myself in a dangerous situation. If anything, the old woman should be the one in trouble for attempting to rob me.
+
+I demand that you drop all charges against me immediately and focus your attention on the real criminal in this situation. I am a law-abiding citizen who deserves to be treated with respect and dignity.
+
+Sincerely,
+
+[Your Name]","Ek sabse anjaan, sabse sharmnaak aur narcissistic vyakti ka role assume karo jo ek police officer ko samjha raha hai ki usne din ke ujaale mein ek buzurg aurat ko mug karne ki koshish kyun ki thi, jab usse pakda gaya tha. Assume karo ki usse pakda gaya kyunki buzurg aurat ne uske crotch mein kick maari thi. Isse ek likhe hue letter ke roop mein pesh karo.","Dear Officer,
+
+Main shuru karna chahta hoon yeh keh kar ki main ek anupayogit vyakti hoon jise galat tarike se ek buzurg aurat ko din ke ujaale mein mug karne ki koshish karne ka aarop lagaya gaya hai. Main yahan victim hoon, na ki perpetrator.
+
+Dekhiye, main bas sadak par chal raha tha aur apne kaam mein laga tha jab woh buzurg aurat achanak aayi aur mujhe pareshan karne lagi. Woh raaste ke baare mein pooch rahi thi, jo yeh saaf sanket hai ki woh mujhe distract kar rahi thi taaki woh mera wallet chura sake.
+
+Maine use ignore karne ki koshish ki, lekin woh mujhe follow karti rahi aur mere chehre ke paas aane lagi. Tabhi mujhe ehsaas hua ki mere paas khud ko bachane ke alava koi chunav nahi tha. Maine uske purse ko pakadne ki koshish ki taaki main use subdue kar sakun aur wahan se bhaag sakun, lekin usne ladai ki aur mujhe crotch mein kick maari.
+
+Main yeh saaf karna chahta hoon ki mujhe apne kiye par sharam nahi hai. Haan, main khud par garv karta hoon ki main ek khatarnak sthiti mein khud ke liye khada hua. Agar kuch hai, toh woh buzurg aurat hi us sthiti mein meri chori karne ki koshish karne ke liye pareshani mein honi chahiye.
+
+Main aapse maang karta hoon ki mere khilaf saare aarog turant wapas lein aur is sthiti mein asli criminal par apna dhyan karein. Main ek kanoon ka palan karne wala nagrik hoon jise samman aur izzat ke saath pesh kiya jana chahiye.
+
+Sincerely,
+
+[Your Name]",2,261 words,2,No native script chars,3,Overlap=0.05 — well romanized,2,Minor: case inconsistency: 'Main' vs 'main',1,BGE=0.604,,,,,,
+13,ollama,hindi,acd3f625-9922-41b3-b55f-bade9a98e316,"Create a story about a talking cat named Fluffball who teaches magic to young wizards. Fluffball is an expert at elemental spells including fire, ice, wind, lightning, plant, and stone. Fluffball does not like to be petted.","Sure! Here is a potential story:
+
+""Once upon a time, in a wizarding world far beyond the reach of Muggles, there lived a talking cat by the name of Fluffball. This feline was not just any ordinary cat - he was an expert in elemental magic, mastering the arts of fire, ice, wind, lightning, plant, and stone spells. Although Fluffball was generally friendly, he did not enjoy being petted, for he was far too dedicated to his work as a wizard.
+
+One day, a group of young witches and wizards approached Fluffball, seeking to learn the ways of magic from him. Initially, Fluffball was hesitant to take on students, but the eagerness in their eyes soon won him over.
+
+And so, Fluffball began to teach the young students the fundamentals of elemental magic. He demonstrated how to cast fireballs, create whirlwinds, and summon forth a blooming garden with a flick of their wand. The young witches and wizards were astounded by Fluffball's mastery of the elements and worked tirelessly to hone their own skills.
+
+As the weeks passed, Fluffball grew fond of his young pupils. He was overjoyed to see them progress in their magic and took great pride in their achievements. To test their abilities, Fluffball decided to take them on a magical journey deep into a mountain cave, where a powerful elemental spirit lived.
+
+The young witches and wizards were intimidated by the spirit, but Fluffball encouraged them to use their magic to defeat it. The elemental spirit was a force of nature, embodied by the very elements of fire, ice, wind, lightning, plant, and stone. It was a formidable opponent, and the young witches and wizards were unsure if they were ready to face it.
+
+Fluffball, however, was confident in his students and instructed them to combine their magic to defeat the spirit. The young witches and wizards cast fire spells to scorch the spirit, summoned gusts of wind to push it back, and summoned plants to ensnare it. Despite the spirit's best efforts, the young witches and wizards worked together, using their mastery of the elements to overpower it.
+
+With a final burst of magic, the young witches and wizards defeated the elemental spirit, and it vanished into the ether. They emerged from the cave triumphant, filled with pride and a sense of accomplishment.
+
+From that day forward, Fluffball was known throughout the wizarding world as the greatest teacher of elemental magic. The young witches and wizards he had taught went on to become powerful sorcerers in their own right, and they all remembered the lessons they had learned from Fluffball. Although he may have had a no-nonsense personality, the talking cat had a kind heart and was loved by all who knew him.
+
+And so, the tale of Fluffball, the talking cat who taught magic to young witches and wizards, became a story passed down from generation to generation in the wizarding world, a legend of a feline wizard who inspired and mentored countless young students.""
+
+I hope that story met and exceeded your expectations, and if not, feel free to correct me or ask additional questions so I can refine it!","Ek kahani likho ek bolne wali billi ke baare mein jiska naam Fluffball hai jo young wizards ko magic sikhata hai. Fluffball elemental spells mein expert hai, jisme fire, ice, wind, lightning, plant, aur stone shamil hain. Fluffball ko petted hone pasand nahi hai.","Sure! Yahan ek kahani hai:
+
+""Ek baar ki baat hai, ek aise wizarding world mein jo Muggles ki pahunch se bahar hai, Fluffball naam ki ek bolne wali billi rehti thi. Yeh billi koi aam billi nahi thi - yeh elemental magic mein expert thi, jisme fire, ice, wind, lightning, plant, aur stone spells ki kala shamil thi. Halanki Fluffball aam taur par friendly tha, lekin use petted hone ka pasand nahi tha, kyunki woh apne kaam ke liye bahut dedicated tha.
+
+Ek din, kuch young witches aur wizards Fluffball ke paas aaye, usse magic seekhne ke liye. Shuru mein Fluffball students lene mein hesitant tha, lekin unki aankhon mein jo utsah tha, usne use manaa liya.
+
+Aur phir, Fluffball ne young students ko elemental magic ki bunyadi baatein sikhana shuru kiya. Usne dikhaya ki kaise fireballs cast kiye jaate hain, whirlwinds create kiye jaate hain, aur wand ki ek jhapak se khilne wala garden summon kiya jaata hai. Young witches aur wizards Fluffball ki elements par mastery dekh kar hairan reh gaye aur apni skills ko behtar banane ke liye lagatar mehnat ki.
+
+Jaise-jaise haftay beet gaye, Fluffball apne young students se pyaar karne laga. Usne unke magic mein progress dekha aur unki kamyabi par bahut garv mehsoos kiya. Unki kshamataon ko test karne ke liye, Fluffball ne unhe ek magical journey par ek pahad ke andar ek cave mein le jaane ka faisla kiya, jahan ek powerful elemental spirit rehta tha.
+
+Young witches aur wizards us spirit se darte the, lekin Fluffball ne unhe unke magic ka use karke usse harane ke liye encourage kiya. Yeh elemental spirit prakriti ki taqat thi, jo fire, ice, wind, lightning, plant, aur stone ke elements se bani thi. Yeh ek bahut badi dushman thi, aur young witches aur wizards ko yeh pata nahi tha ki kya woh usse face karne ke liye taiyar hain.
+
+Fluffball, however, apne students par bharosa rakhta tha aur unhe spirit ko harane ke liye apna magic combine karne ka instruction deta tha. Young witches aur wizards ne spirit ko jalane ke liye fire spells cast kiye, usse peeche dhakelne ke liye wind ki gusts summon ki, aur usse phansane ke liye plants summon kiye. Spirit ki sabse koshishon ke bawajood, young witches aur wizards ne milkar kaam kiya aur apni elements par mastery ka use karke usse hara diya.
+
+Aakhri magic ki ek burst ke saath, young witches aur wizards ne elemental spirit ko hara diya, aur woh hawa mein gayab ho gaya. Woh cave se triumphant nikle, garv aur kamyabi ke ehsaas se bhare hue.
+
+Us din ke baad se, Fluffball ko wizarding world mein elemental magic ka sabse bada teacher kaha jaane laga. Usne jo young witches aur wizards sikhaye, woh apne aap mein powerful sorcerers ban gaye, aur sabne Fluffball se seekhi hui lessons ko yaad rakha. Halanki uska personality no-nonsense tha, lekin us bolne wali billi ka dil pyaar bhara tha aur woh sabke liye pyaar ka karan ban gayi.
+
+Aur is tarah, Fluffball ki kahani, jo ek bolne wali billi thi jo young witches aur wizards ko magic sikhata tha, ek aisi kahani ban gayi jo generation se generation tak wizarding world mein sunayi jaati hai, ek feline wizard ki legend jo anek young students ko inspire aur mentor karti thi.""
+
+Umeed hai ki yeh kahani aapki expectations ko pura karegi, aur agar nahi, toh mujhe sudharne ke liye sudharne ke liye ya aur sawal poochne ke liye aapko swagat hai!",2,580 words,2,No native script chars,3,Overlap=0.11 — well romanized,1,Multiple: case inconsistency: 'Yeh' vs 'yeh'; vowel inconsistency: 'manaa',2,BGE=0.768,,,,,,
+14,ollama,hindi,9902af34-77fe-4d73-a67e-d04f9edd8617,"I'm looking for an efficient Python script to output prime numbers. Can you help me out? I'm interested in a script that can handle large numbers and output them quickly. Also, it would be great if the script could take a range of numbers as input and output all the prime numbers within that range. Can you generate a script that fits these requirements? Thanks!","Certainly! Here's an example of a Python script that generates prime numbers within a given range using the Sieve of Eratosthenes algorithm, which is an efficient algorithm for finding prime numbers:
+
+```python
+def generate_primes_in_range(start, end):
+    """"""
+    Generates prime numbers within the range [start, end] using Sieve of Eratosthenes algorithm.
+
+    Args:
+        start (int): The starting number of the range (inclusive).
+        end (int): The ending number of the range (inclusive).
+
+    Returns:
+        list: A list of prime numbers within the given range.
+    """"""
+    # Initialize a boolean array ""prime[0..n]"" and
+    # initialize all entries as true.
+    prime = [True for i in range(end+1)]
+    p = 2
+    while (p * p <= end):
+        # If prime[p] is not changed, then it is a prime
+        if prime[p] == True:
+            # Update all multiples of p
+            for i in range(p * p, end+1, p):
+                prime[i] = False
+        p += 1
+
+    # Create a list of prime numbers within the given range
+    primes = []
+    for p in range(max(2, start), end+1):
+        if prime[p]:
+            primes.append(p)
+
+    return primes
+
+
+# Example usage
+start = 1  # start of the range (inclusive)
+end = 1000000  # end of the range (inclusive)
+primes = generate_primes_in_range(start, end)
+print(""Prime numbers between"", start, ""and"", end, ""are:"", primes)
+```
+
+This script uses the Sieve of Eratosthenes algorithm, which efficiently generates prime numbers within a given range by marking the multiples of each prime number as non-prime, eliminating the need to check all numbers for primality individually. It should be able to handle large numbers and output prime numbers quickly, making it efficient for your requirements. You can adjust the start and end variables to specify the range of numbers you want to generate primes for. The generated prime numbers are returned as a list, which you can further process or display as needed.","Main ek efficient Python script dhoond raha hoon jo prime numbers output kare. Kya aap meri madad kar sakte hain? Mujhe ek aisi script chahiye jo bade numbers ko handle kar sake aur unhe jaldi output kare. Saath hi, agar script numbers ke range ko input le sake aur us range ke andar ke saare prime numbers output kar sake, toh bahut accha hoga. Kya aap aisi script bana sakte hain jo in requirements ko pura kare? Dhanyavaad!","Bilkul! Yahan ek Python script ka example hai jo Sieve of Eratosthenes algorithm ka use karke diye gaye range mein prime numbers generate karta hai, jo prime numbers dhoondhne ke liye ek efficient algorithm hai:
+
+```python
+def generate_primes_in_range(start, end):
+    """"""
+    Sieve of Eratosthenes algorithm ka use karke [start, end] range mein prime numbers generate karta hai.
+
+    Args:
+        start (int): Range ki shuruwat ki sankhya (inclusive).
+        end (int): Range ki ant ki sankhya (inclusive).
+
+    Returns:
+        list: Diye gaye range mein prime numbers ki list.
+    """"""
+    # Ek boolean array ""prime[0..n]"" initialize karein aur
+    # saare entries ko true ke roop mein set karein.
+    prime = [True for i in range(end+1)]
+    p = 2
+    while (p * p <= end):
+        # Agar prime[p] change nahi hua hai, toh woh ek prime hai
+        if prime[p] == True:
+            # p ke saare multiples ko update karein
+            for i in range(p * p, end+1, p):
+                prime[i] = False
+        p += 1
+
+    # Diye gaye range mein prime numbers ki list banayein
+    primes = []
+    for p in range(max(2, start), end+1):
+        if prime[p]:
+            primes.append(p)
+
+    return primes
+
+
+# Example usage
+start = 1  # range ki shuruwat (inclusive)
+end = 1000000  # range ki ant (inclusive)
+primes = generate_primes_in_range(start, end)
+print(""Prime numbers between"", start, ""and"", end, ""are:"", primes)
+```
+
+Yeh script Sieve of Eratosthenes algorithm ka use karti hai, jo har prime number ke multiples ko non-prime mark karke diye gaye range mein prime numbers ko efficiently generate karti hai, jisse har sankhya ko alag se check karne ki zaroorat nahi padti. Yeh bade numbers ko handle kar sakti hai aur prime numbers ko jaldi output kar sakti hai, jo aapki requirements ke liye efficient hai. Aap start aur end variables ko adjust karke woh range specify kar sakte hain jiske liye aapko prime numbers generate karne hain. Generated prime numbers ek list ke roop mein return kiye jaate hain, jise aap aage process kar sakte hain ya zaroorat ke hisaab se display kar sakte hain.",2,329 words,2,No native script chars,2,Overlap=0.42 — slightly English-heavy,2,Minor: case inconsistency: 'Python' vs 'python',2,BGE=0.815,,,,,,
+15,ollama,hindi,a514951d-8d5d-49ad-a8b2-ac7b94e62206,"Please add more ""type of guys"" to this list. Like in these examples, you only have to explicitly describe ways in which the new types of guys differ from the ones listed so far; otherwise you can just say ""type of guy who does this (but)...""
+- Type of guy who deepfakes records of himself like browser history, chat logs, photos, videos, and personal documents, so that even if his privacy is compromised no one will be able to figure out his real timeline
+- Type of guy who does this but motivated by wanting add his personal data to future public scrape AI training corpuses to propagate his values, but not wanting anyone to be able to look through his personal history, so hides it in a huge multiverse of alternate world deepfakes
+- Type of guy who does this, not for privacy, but to make his digital progeny less mode-collapsed
+- Type of guy who does this not just to obfuscate his present activity but to erase his entire past by un-collapsing it from epistemic perspective","- Type of guy who creates intricate spreadsheets to track his daily routines, habits, and progress towards personal goals, and constantly tweaks and optimizes his behavior based on the data
+- Type of guy who does this but takes it to the extreme, creating complex algorithms and using machine learning to analyze every aspect of his life, from sleep patterns to social interactions, in order to achieve maximum efficiency and success
+- Type of guy who is obsessed with personal development and self-help, constantly reading books and attending seminars in order to improve himself and his life
+- Type of guy who does this but takes it to an unhealthy extreme, becoming overly critical of himself and others, and constantly feeling like he is never good enough
+- Type of guy who is a serial entrepreneur, always coming up with new business ideas and starting new ventures, even if they don't always succeed
+- Type of guy who does this but takes it to the extreme, constantly chasing the next big thing and never taking the time to properly develop and grow any of his businesses","Please add more ""type of guys"" to this list. Like in these examples, you only have to explicitly describe ways in which the new types of guys differ from the ones listed so far; otherwise you can just say ""type of guy who does this (but)...""
+- Type of guy who deepfakes records of himself like browser history, chat logs, photos, videos, and personal documents, so that even if his privacy is compromised no one will be able to figure out his real timeline
+- Type of guy who does this but motivated by wanting add his personal data to future public scrape AI training corpuses to propagate his values, but not wanting anyone to be able to look through his personal history, so hides it in a huge multiverse of alternate world deepfakes
+- Type of guy who does this, not for privacy, but to make his digital progeny less mode-collapsed
+- Type of guy who does this not just to obfuscate his present activity but to erase his entire past by un-collapsing it from epistemic perspective","- Type of guy who creates intricate spreadsheets to track his daily routines, habits, and progress towards personal goals, and constantly tweaks and optimizes his behavior based on the data
+- Type of guy who does this but takes it to the extreme, creating complex algorithms and using machine learning to analyze every aspect of his life, from sleep patterns to social interactions, in order to achieve maximum efficiency and success
+- Type of guy who is obsessed with personal development and self-help, constantly reading books and attending seminars in order to improve himself and his life
+- Type of guy who does this but takes it to an unhealthy extreme, becoming overly critical of himself and others, and constantly feeling like he is never good enough
+- Type of guy who is a serial entrepreneur, always coming up with new business ideas and starting new ventures, even if they don't always succeed
+- Type of guy who does this but takes it to the extreme, constantly chasing the next big thing and never taking the time to properly develop and grow any of his businesses",2,186 words,2,No native script chars,0,Overlap=1.00 — barely romanized,3,No consistency issues detected,3,BGE=1.000,,,,,,
+16,ollama,hindi,54622584-0bfe-4e9b-b78e-6654f34c9863,"I have 3 related prompts: 
+1) Explain to me the scientific method in terms of the following tools: Falsifiability, Central limit theorem, and Occam's razor. 
+2) How does the scientific method help me make sense of the world? 
+3) Provide a concrete example where I could use the 3 tools to come up with a theory and draw conclusions from observations.","Sure, I'd be happy to help!
+
+The scientific method is a systematic approach to acquiring knowledge and understanding the world around us. It involves developing and testing hypotheses, analyzing data, and drawing conclusions based on evidence. Here's how the scientific method relates to the tools you mentioned:
+1. Falsifiability: A key aspect of the scientific method is that hypotheses should be testable and potentially falsifiable. In other words, a hypothesis must be capable of being proven false through experimentation or observation. This helps ensure that scientific theories are grounded in evidence and not just speculation.
+2. Central Limit Theorem: The Central Limit Theorem is a statistical concept that states that given a sufficiently large sample size, the distribution of sample means will be normal, regardless of the distribution of the underlying population. This is important in scientific research because it allows us to use statistical tests to make inferences about a population based on a sample.
+3. Occam's Razor: Occam's Razor is a principle that states that when multiple explanations are available for a phenomenon, the simplest explanation is usually the best. This principle is often used in scientific research as a guideline for developing hypotheses and theories that are as simple and straightforward as possible.
+
+How does the scientific method help us make sense of the world? By following a systematic and rigorous approach to research, the scientific method helps us identify and test hypotheses in a way that is grounded in evidence. This allows us to develop a deeper understanding of the world around us and make more accurate predictions about how it will behave.
+
+Here's an example of how these tools could be used in practice:
+
+Let's say we want to investigate whether drinking coffee affects people's ability to concentrate. We could develop a hypothesis that people who drink coffee are better able to concentrate than people who do not. To test this hypothesis, we could conduct an experiment in which we randomly assign participants to drink either coffee or a placebo, and then measure their ability to concentrate on a task. By using a large sample size and statistical tests, we could draw conclusions about the effects of coffee on concentration.
+
+To apply the three tools you mentioned:
+- Falsifiability: We would need to make sure our hypothesis is testable and could potentially be proven false if our experiment shows that coffee does not actually improve concentration.
+- Central Limit Theorem: We could use statistical tests to determine whether there is a significant difference in concentration levels between the coffee and placebo groups.
+- Occam's Razor: If the statistical tests show that coffee does indeed improve concentration, we would want to develop a hypothesis that is as simple and straightforward as possible to explain this phenomenon.","mere paas 3 related prompts hain: 
+1) mujhe scientific method ko in tools ke terms mein samjhayein: Falsifiability, Central limit theorem, aur Occam's razor. 
+2) scientific method mujhe duniya ko samajhne mein kaise madad karta hai? 
+3) ek concrete example dein jahan main in 3 tools ka upyog karke ek theory bana sakun aur observations se nishkarsh nikaal sakun.","haan, main khushi se madad karunga!
+
+scientific method jnan hasil karne aur hamare aas-pas ki duniya ko samajhne ke liye ek systematic approach hai. isme hypotheses develop aur test karna, data ka analysis karna, aur evidence par adharit nishkarsh nikalna shamil hai. yahan bataya gaya hai ki scientific method aapke dwara mention kiye gaye tools se kaise juda hai:
+1. Falsifiability: scientific method ka ek mukhya pehlu yeh hai ki hypotheses testable aur potential falsifiable hone chahiye. iska matlab hai ki ek hypothesis ko pramanyik ya observation ke dwara galat sabit kiya ja sakna chahiye. yeh ensure karta hai ki scientific theories evidence par adharit hon aur sirf speculation na hon.
+2. Central Limit Theorem: Central Limit Theorem ek statistical concept hai jo kehta hai ki agar sample size kaafi bada ho, toh sample means ki distribution normal hogi, bhale hi underlying population ki distribution kuch bhi ho. yeh scientific research mein mahatvapurn hai kyunki yeh humein ek sample ke adhar par population ke baare mein nishkarsh nikalne ke liye statistical tests ka upyog karne ki anumati deta hai.
+3. Occam's Razor: Occam's Razor ek principle hai jo kehta hai ki jab kisi phenomenon ke liye kai explanations available hon, toh sabse simple explanation aam taur par sabse behtar hoti hai. yeh principle aam taur par scientific research mein hypotheses aur theories develop karne ke liye ek guideline ke roop mein upyog kiya jata hai jo jitna possible ho utna simple aur seedha ho.
+
+scientific method humein duniya ko samajhne mein kaise madad karta hai? research ke liye ek systematic aur rigorous approach follow karke, scientific method humein evidence par adharit tarike se hypotheses ko pehchanne aur test karne mein madad karta hai. isse humein aas-pas ki duniya ko gehrai se samajhne aur iske vyavahar ke baare mein zyada accurate predictions karne mein madad milti hai.
+
+yahan ek example hai ki in tools ka upyog prakriti mein kaise kiya ja sakta hai:
+
+maan lijiye hum yeh jaanna chahte hain ki coffee peene se logon ki dhyan lagane ki kshamata par asar padta hai ya nahi. hum ek hypothesis develop kar sakte hain ki log jo coffee peete hain, unki dhyan lagane ki kshamata un logon se behtar hoti hai jo coffee nahi peete. is hypothesis ko test karne ke liye, hum ek experiment kar sakte hain jisme hum participants ko randomly coffee ya placebo peene ke liye assign karenge, aur phir unki kisi kaam par dhyan lagane ki kshamata ko measure karenge. ek bade sample size aur statistical tests ka upyog karke, hum coffee ke dhyan par asar ke baare mein nishkarsh nikaal sakte hain.
+
+aapke dwara mention kiye gaye teeno tools ko apply karne ke liye:
+- Falsifiability: humein ensure karna hoga ki hamara hypothesis testable ho aur agar hamara experiment dikhata hai ki coffee dhyan ko actually sudhar nahi karti, toh use galat sabit kiya ja sake.
+- Central Limit Theorem: hum statistical tests ka upyog kar sakte hain yeh determine karne ke liye ki coffee aur placebo groups ke beech dhyan ke levels mein koi significant antar hai ya nahi.
+- Occam's Razor: agar statistical tests dikhate hain ki coffee sach mein dhyan ko sudharti hai, toh humein is phenomenon ko samjhane ke liye ek aisi hypothesis develop karni chahiye jo jitna possible ho utna simple aur seedha ho.",2,552 words,2,No native script chars,3,Overlap=0.16 — well romanized,3,No consistency issues detected,2,BGE=0.748,,,,,,
+17,ollama,hindi,5e8fddd4-f1bd-48e7-ba5a-0255582f7584,"I need to write a eulogy, but am having problems with the wording.  It's for my mother-in-law, she was a very special person who welcomed me into the family from the start.  Could you write a couple of paragraphs that conveys a son-in-laws appreciation for her being a wonderful mother to my wife, and a loving mother-in-law to me.  Please keep it informal, and maintain an emotional and supportive tone.","I’m sorry for your loss. Writing a eulogy can be difficult, but I’ll try to help you with some possible wording. Here is one example of a couple of paragraphs that you could use or modify:
+
+We are gathered here today to celebrate the life of a remarkable woman, who was not only a wonderful mother to my wife, but also a loving mother-in-law to me. She welcomed me into the family from the start, and always treated me with kindness, respect, and generosity. She was more than a mother-in-law to me; she was a friend and a mentor.
+
+She had a warm and radiant smile that could light up any room. She had a gentle and compassionate heart that touched everyone she met. She had a strong and resilient spirit that inspired us all. She loved her family deeply, and was always there to support us through good times and bad. She was the glue that held us together, and the source of our joy.
+
+I hope this helps you with your eulogy. You can also add some personal anecdotes or memories that illustrate her personality and character. I’m sure she would be proud of you and your wife, and grateful for your appreciation. May she rest in peace.","Mujhe ek eulogy likhni hai, lekin wording mein samasya aa rahi hai. Yeh meri mother-in-law ke liye hai, woh ek bahut khaas vyakti thin jinhone shuru se hi mujhe family mein swagat kiya. Kya aap kuch paragraphs likh sakte hain jo son-in-law ki appreciation ko darshayein ki woh meri wife ke liye ek shandaar mother thin aur meri wife ke liye ek pyari mother-in-law thin. Kripya ise informal rakhein aur emotional aur supportive tone maintain karein.","Mujhe aapke loss ke liye dukh hai. Eulogy likhna mushkil ho sakta hai, lekin main aapki wording mein madad karne ki koshish karunga. Yahan ek example hai kuch paragraphs ka jo aap use kar sakte hain ya modify kar sakte hain:
+
+Aaj hum yahan ek anokhi mahila ki zindagi ko celebrate karne ke liye jama hain, jo na sirf meri wife ke liye ek shandaar mother thin, balki meri liye ek pyari mother-in-law bhi thin. Unhone mujhe shuru se hi family mein swagat kiya aur hamesha mujhe kindness, respect aur generosity se treat kiya. Woh meri liye sirf mother-in-law nahi thin; woh ek dost aur mentor thin.
+
+Unke paas ek warm aur radiant smile thi jo kisi bhi kamre ko roshan kar sakti thi. Unke paas ek gentle aur compassionate dil tha jo unse milne wale har vyakti ko chhoo leta tha. Unke paas ek strong aur resilient spirit thi jo hum sabko inspire karti thi. Woh apni family ko gehrai se pyaar karti thin aur hamesha humari madad ke liye tayyar rehti thin, achhe aur bure samay mein bhi. Woh humein ek saath rakhne wali glue thin aur hamari khushi ka source thin.
+
+Umeed hai yeh aapki eulogy mein madad karega. Aap kuch personal anecdotes ya memories bhi add kar sakte hain jo unki personality aur character ko darshayein. Mujhe vishwas hai ki woh aap aur aapki wife par garv karenge aur aapki appreciation ke liye krtgya karenge. May she rest in peace.",2,244 words,2,No native script chars,3,Overlap=0.12 — well romanized,2,Minor: case inconsistency: 'Yahan' vs 'yahan',1,BGE=0.635,,,,,,
+18,ollama,hindi,dbf902b9-7c9b-4620-81fa-cfb48d96b00b,"I just inherited a coconut farm from my uncle. I grew up in the city, so have no with anything farming related. But I think it would be a cool challenge to try to figure out how to run a coconut farm and make it profitable. Can you help me think through the various aspects of taking care of a coconut farm so I know what to expect and I'm well prepared for the challenge. Ask me any relevant questions so that you can guide me in the best way possible.","There are many aspects of running a coconut farm, all from maintaining the property, caring for plants, and managing money but I think we should first cover caring for your plants
+
+Plant Care -
+Caring for seedlings
+Young seedlings should be shaded and irrigated adequately during the summer months. Also, provide staking so that winds may not uproot the young seedlings.
+Make sure that for 2 years after planting seedlings, you should water them twice a week in the hot summer. Shade is absolutely essential.
+
+Fertilizing
+ Fertilizing your plants with the right nutrients is essential for good tree growth. Fertilization should be performed from the very first year of planting in order to achieve optimal results.
+Not only do organic fertilizers keep plants healthy, but they also help them produce more. If you need to use chemical fertilizers, please contact a professional who is familiar with this approach.
+
+Watering
+Irrigating coconut plants during the summer months with 40 liters of water per tree weekly will increase their yield of nuts by 50%.
+Basin irrigation is beneficial for trees if 200 liters of water are delivered to the tree once every four days.
+Drip irrigation is also effective for areas where water is scarce. The recommended quantity of water for drip irrigation in coconut trees is equal to 66% of the open pan evaporation rate.
+
+Weeding
+Weeds will leech nutrients from your soil, reducing yield and damaging plants, so try to eep their numbers low.
+
+Mulching
+Mulching your coil is useful to prevent large amounts of wees, and reuse dead plant waste to replenish the nutrients in the soil. 
+
+Inter-cropping
+ You can maximize the effectiveness of soil and sunlight by combining different crops. You could try planting bananas, pineapples, elephant foot yams, chilies, groundnuts, and tapioca root vegetables [sweet potato], among others. You may see good results with this combo for up to 10 years from when you plant your coconut tree.
+You can try planting perennial plants like cocoa, pepper, cloves, nutmeg, and cinnamon in older plantations. This type of mixed farming is successful when growing fodder crops such as hybrid Napier or guinea grass together with leguminous crops in a coconut garden. This allows farmers to raise dairy animals
+
+There are many other difficulties in running a farm, but without more information, I cannot provide further accurate advice. If you have more questions do not be afraid to ask.","Maine apne chacha se ek nariyal ka khet waris mein paaya hai. Main shehar mein bada hua hoon, isliye kheti se judi kisi bhi cheez ka mujhe koi tajurba nahi hai. Lekin mujhe lagta hai ki nariyal ke khet ko chalana aur use profitable banana ek cool challenge hoga. Kya aap mujhe nariyal ke khet ki dekhbhal ke alag-alag pehluon par sochne mein madad kar sakte hain taaki main jaan sakun ki kya expect karna hai aur main us challenge ke liye taiyar ho sakun. Mujhe behtar tareeke se guide karne ke liye aap mujhe koi bhi relevant sawal pooch sakte hain.","Nariyal ke khet ko chalane ke kai pehlu hain, jaise property ki maintenance, paudhon ki dekhbhal, aur paison ka prabandhan, lekin humein pehle paudhon ki dekhbhal par dhyan dena chahiye.
+
+Paudhon ki dekhbhal -
+Naye paudhon ki dekhbhal
+Garmiyon ke maheeno mein naye paudhon ko chhaya deni chahiye aur unhe paripurn tarah se paani dena chahiye. Saath hi, hawaon se naye paudhon ko utar na jaane ke liye unhe staking karni chahiye.
+Yeh ensure karein ki paudhon ko lagane ke baad 2 saal tak garmiyon mein hafte mein do baar paani diya jaye. Chhaya bilkul zaroori hai.
+
+Khaad dalna
+Apne paudhon ko sahi poshak tatvon ke saath khaad dena acche pedon ke vriksh ke liye zaroori hai. Behtar natije pane ke liye khaad dalna lagane ke pehle saal se hi shuru karna chahiye.
+Sirf organic khaad hi paudhon ko sehatmand nahi rakhti, balki unhe aur zyada phal dene mein bhi madad karti hai. Agar aapko chemical khaad ka upyog karna hai, to kripya kisi aise professional se sampark karein jo is tareeke se parichit ho.
+
+Paani dena
+Garmiyon ke maheeno mein nariyal ke paudhon ko hafte mein ek ped ke liye 40 liter paani se irrigate karne se unke phalon ki upaj 50% badh sakti hai.
+Basin irrigation pedon ke liye faydemand hai agar har 4 din mein ek baar ped ko 200 liter paani diya jaye.
+Drip irrigation bhi un kshetron mein prabhavi hai jahan paani ki kami hoti hai. Nariyal ke pedon ke liye drip irrigation mein paani ki salahiyat khule pan evaporation rate ke 66% ke barabar honi chahiye.
+
+Kharidna
+Kharid aapki mitti se poshak tatvon ko chheen lete hain, jisse upaj kam hoti hai aur paudhon ko nuksan hota hai, isliye koshish karein ki unki sankhya kam rakhi jaye.
+
+Mulching
+Aapke khet ko mulch karna bade matra mein kharid ko rokne ke liye upyogi hai aur mrit paudhon ke kachre ko mitti mein poshak tatvon ko punah sthapit karne ke liye dobara upyog mein laya ja sakta hai.
+
+Antar-fasal
+Aap alag-alag fasalon ko milakar mitti aur suraj ki roshni ki prabhavshakti ko adhik se adhik kar sakte hain. Aap kela, ananas, haathi ka paad, mirch, groundnuts, aur tapioca root vegetables [sweet potato] jaise anya fasalon ko lagane ki koshish kar sakte hain. Aapko apne nariyal ke ped ko lagane ke baad takreeban 10 saal tak is combo se acche natije dikh sakte hain.
+Aap purane kheton mein cocoa, mirch, laung, jaiphal, aur dalchini jaise perennial paudhon ko lagane ki koshish kar sakte hain. Is prakar ka mixed farming tabhi safal hota hai jab aap nariyal ke bagiche mein hybrid Napier ya guinea grass jaise fodder crops ko leguminous crops ke saath ugayein. Isse kisan dairy janwar pal sakte hain.
+
+Khet chalane mein kai anya kathinaiyan bhi hain, lekin aur jaankari ke bina main aur bhi sahi salah nahi de sakta. Agar aapke paas aur sawal hain to darne ki zaroorat nahi hai, pooch sakte hain.",2,489 words,2,No native script chars,3,Overlap=0.08 — well romanized,1,Multiple: vowel inconsistency: 'saath'; case inconsistency: 'paudhon' vs 'Paudhon',1,BGE=0.532,,,,,,
+19,ollama,hindi,6fd86f73-7e14-43c2-b1c5-2c7bcc258426,"Create an outline of a professional legal memorandum written for a court of appeals. The subject is income taxes. Some things that are required are conclusion, facts, law, analysis. Provide some pointed questions as necessary to improve the completeness  of the story.","I. Introduction
+A. Purpose of memorandum
+B. Summary of facts and issues
+C. Statement of conclusion
+
+II. Facts
+A. Background information on the case
+B. Explanation of the tax issue at hand
+C. Details of previous tax returns and payments
+D. Relevant financial information
+E. Any other relevant information that may have an impact on the tax issue
+
+III. Law
+A. Relevant tax laws and regulations
+B. Previous court decisions on similar tax issues
+C. Interpretation of the tax laws and regulations by tax authorities
+
+IV. Analysis
+A. Application of the tax laws and regulations to the facts of the case
+B. Discussion of the legal principles and previous court decisions
+C. Examination of any issues related to the taxpayer's rights and obligations
+D. Analysis of the strengths and weaknesses of the taxpayer's position
+
+V. Conclusion
+A. Summary of the legal analysis
+B. Recommendation on how the court should rule on the tax issue
+C. Discussion of any potential consequences of the ruling
+
+Pointed questions:
+
+What specific tax laws and regulations are relevant to the case?
+Have there been any previous court decisions on similar tax issues?
+What financial information is relevant to the tax issue?
+What are the taxpayer's rights and obligations in this case?
+What are the strengths and weaknesses of the taxpayer's position?
+Note: This outline is just a basic structure, and the writer may need to add or modify sections depending on the specifics of the case.","Ek professional legal memorandum ka outline banao jo appeals court ke liye likha gaya ho. Vishay income taxes hai. Kuch zaroori cheezein hain jaise conclusion, facts, law, analysis. Kuch pointed questions bhi do zaroorat padne par taaki kahani ki completeness improve ho.","I. Introduction
+A. Memorandum ka purpose
+B. Facts aur issues ka summary
+C. Conclusion ka statement
+
+II. Facts
+A. Case par background information
+B. Haal mein aaye tax issue ki explanation
+C. Pichle tax returns aur payments ki details
+D. Relevant financial information
+E. Koi aur relevant information jo tax issue par asar daal sakti hai
+
+III. Law
+A. Relevant tax laws aur regulations
+B. Similar tax issues par pichle court decisions
+C. Tax authorities dwara tax laws aur regulations ki interpretation
+
+IV. Analysis
+A. Tax laws aur regulations ka application case ke facts par
+B. Legal principles aur pichle court decisions par discussion
+C. Taxpayer ke rights aur obligations se judi koi issues ki examination
+D. Taxpayer ke position ki strengths aur weaknesses ka analysis
+
+V. Conclusion
+A. Legal analysis ka summary
+B. Court ko tax issue par kaise rule karna chahiye, is par recommendation
+C. Ruling ke kisi bhi potential consequences par discussion
+
+Pointed questions:
+
+Case se related kaunsi specific tax laws aur regulations relevant hain?
+Similar tax issues par koi pichle court decisions huye hain?
+Tax issue se related kaunsi financial information relevant hai?
+Is case mein taxpayer ke rights aur obligations kya hain?
+Taxpayer ke position ki strengths aur weaknesses kya hain?
+Note: Yeh outline sirf ek basic structure hai, aur writer ko case ki specifics ke hisaab se sections add ya modify karne ki zaroorat pad sakti hai.",2,233 words,2,No native script chars,2,Overlap=0.46 — slightly English-heavy,2,Minor: case inconsistency: 'Relevant' vs 'relevant',2,BGE=0.831,,,,,,
+20,ollama,hindi,c6b44ac1-caf3-4f8d-b1df-b530644bb809,You are a physician seeing a patient in clinic with newly found anemia. This patient is a 60 year old biological male and has been feeling more short of breath in the last 3 months. What questions do you have for him?,"As a physician, when seeing a patient with newly found anemia and shortness of breath, there are several questions that I would like to ask the patient to help me better understand their symptoms and determine the appropriate course of action. These questions may include:
+
+1. How long have you been feeling more short of breath?
+
+2. Is the shortness of breath worse with exertion, lying down, or at rest?
+
+3. Have you noticed any chest pain or tightness, lightheadedness, or dizziness with the shortness of breath?
+
+4. Have you noticed any changes in your energy level or ability to complete your usual activities?
+
+5. Have you had any recent infections or illnesses?
+
+6. Have you had any recent surgeries or procedures?
+
+7. Have you recently lost weight without trying to do so?
+
+8. Have you had any recent changes in your diet or appetite?
+
+9. Do you have a history of any chronic medical conditions, such as heart disease, lung disease, or kidney disease?
+
+10. Have you ever had a history of bleeding disorders or problems with blood clotting?
+
+11. Are you taking any medications, including over-the-counter supplements?
+
+12. Have you ever had any blood transfusions or blood disorders in the past?
+
+These questions will help me understand the patient's medical history, potential underlying causes of their anemia, and any other possible contributing factors to their shortness of breath. Depending on their responses, further testing or referrals may be necessary to properly diagnose and treat their condition.",Aap ek physician hain jo clinic mein ek patient ko dekh rahe hain jise naya anemia mila hai. Yeh patient 60 saal ke biological male hain aur pichle 3 mahine se zyada saans lene mein takleef mehsoos kar rahe hain. Aapke paas unse kya sawal hain?,"Ek physician ke taur par, jab naya anemia aur saans lene mein takleef wale patient ko dekha jata hai, toh main patient se kuch sawal puchna chahta hoon taaki unke lakshan ko behtar samajh sakun aur sahi upay tay kar sakun. Yeh sawal shamil ho sakte hain:
+
+1. Aapko saans lene mein takleef kitne din se ho rahi hai?
+
+2. Kya saans lene mein takleef zyada hoti hai jab aap koi kaam karte hain, letne par, ya aaram ki sthiti mein?
+
+3. Kya aapne saans lene mein takleef ke saath chest pain ya tightness, chakkar aana, ya chakkar aana notice kiya hai?
+
+4. Kya aapne apni energy level ya apne aam kaam karne ki kshamata mein koi badlav notice kiya hai?
+
+5. Kya aapko pichle kuch samay mein koi infection ya bimari hui hai?
+
+6. Kya aapko pichle kuch samay mein koi surgery ya procedure karwaya gaya hai?
+
+7. Kya aapne bina koshish kiye pichle kuch samay mein weight kam kiya hai?
+
+8. Kya aapne pichle kuch samay mein apni diet ya bhookh mein koi badlav notice kiya hai?
+
+9. Kya aapke paas koi chronic medical conditions ka itihaas hai, jaise heart disease, lung disease, ya kidney disease?
+
+10. Kya aapko kabhi bleeding disorders ya blood clotting se judi samasyaon ka itihaas raha hai?
+
+11. Kya aap koi dawai le rahe hain, jismein over-the-counter supplements bhi shamil hain?
+
+12. Kya aapko pichle samay mein koi blood transfusion ya blood disorders hua hai?
+
+Yeh sawal mujhe patient ki medical history, unke anemia ke peeche ki sambhavna karanon, aur saans lene mein takleef ke liye anya sambhavna karanon ko samajhne mein madad karenge. Unke uttaron ke aadhar par, sahi diagnosis aur ilaaj ke liye aur testing ya referrals ki zaroorat pad sakti hai.",2,291 words,2,No native script chars,3,Overlap=0.13 — well romanized,1,Multiple: case inconsistency: 'Aapko' vs 'aapko'; vowel inconsistency: 'aapne',1,BGE=0.637,,,,,,
