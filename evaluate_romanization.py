@@ -130,16 +130,47 @@ def read_csv(path):
             dict_reader = csv.DictReader(handle, fieldnames=SOURCE_FIELDS)
         rows = list(dict_reader)
         fieldnames = list(dict_reader.fieldnames or SOURCE_FIELDS)
-    return rows, fieldnames
+
+    unique_rows = []
+    seen_ids = set()
+    duplicate_count = 0
+    for row in rows:
+        message_id = (row.get("message_id") or "").strip()
+        if message_id and message_id in seen_ids:
+            duplicate_count += 1
+            continue
+        if message_id:
+            seen_ids.add(message_id)
+        unique_rows.append(row)
+    if duplicate_count:
+        print(
+            f"  warning: kept the first Qwen row and skipped "
+            f"{duplicate_count} duplicate reruns"
+        )
+    return unique_rows, fieldnames
 
 
 def normalize(text):
     return " ".join((text or "").split())
 
 
+def row_contains_english_copy(row):
+    query_en = normalize(row.get("query_en", ""))
+    romanized_query = normalize(row.get("romanized_query", ""))
+    response_en = normalize(row.get("response_en", ""))
+    romanized_response = normalize(row.get("romanized_response", ""))
+    return (
+        (query_en and query_en == romanized_query)
+        or (response_en and response_en == romanized_response)
+    )
+
+
 def metric_pairs(rows):
     pairs = []
     for row_index, row in enumerate(rows):
+        if row_contains_english_copy(row):
+            continue
+
         for field_name, english_key, romanized_key in (
             ("query", "query_en", "romanized_query"),
             ("response", "response_en", "romanized_response"),
@@ -286,20 +317,24 @@ def write_evaluated(input_path, rows, source_fields, pairs):
         writer.writeheader()
         for row_index, row in enumerate(rows):
             output_row = dict(row)
-            for field_name in ("query", "response"):
-                pair = metrics_by_row.get((row_index, field_name))
-                output_row[f"{field_name}_bertscore_precision"] = format_score(
-                    pair.get("bert_precision") if pair else None
-                )
-                output_row[f"{field_name}_bertscore_recall"] = format_score(
-                    pair.get("bert_recall") if pair else None
-                )
-                output_row[f"{field_name}_bertscore_f1"] = format_score(
-                    pair.get("bert_f1") if pair else None
-                )
-                output_row[f"{field_name}_bge_cosine_similarity"] = format_score(
-                    pair.get("bge_cosine") if pair else None
-                )
+            if row_contains_english_copy(row):
+                for metric_field in METRIC_FIELDS:
+                    output_row[metric_field] = format_score(0.0)
+            else:
+                for field_name in ("query", "response"):
+                    pair = metrics_by_row.get((row_index, field_name))
+                    output_row[f"{field_name}_bertscore_precision"] = format_score(
+                        pair.get("bert_precision") if pair else 0.0
+                    )
+                    output_row[f"{field_name}_bertscore_recall"] = format_score(
+                        pair.get("bert_recall") if pair else 0.0
+                    )
+                    output_row[f"{field_name}_bertscore_f1"] = format_score(
+                        pair.get("bert_f1") if pair else 0.0
+                    )
+                    output_row[f"{field_name}_bge_cosine_similarity"] = format_score(
+                        pair.get("bge_cosine") if pair else 0.0
+                    )
             writer.writerow(output_row)
     return output_path
 
@@ -326,6 +361,43 @@ def print_averages(pairs):
             f"    {field_name}: mean BERTScore F1={bert_average:.6f}, "
             f"mean BGE cosine={cosine_average:.6f}"
         )
+
+
+def pairs_with_copy_failures(rows, pairs):
+    pairs_by_row = {
+        (pair["row_index"], pair["field_name"]): pair for pair in pairs
+    }
+    summary_pairs = []
+    for row_index, row in enumerate(rows):
+        if row_contains_english_copy(row):
+            for field_name in ("query", "response"):
+                summary_pairs.append(
+                    {
+                        "row_index": row_index,
+                        "field_name": field_name,
+                        "bert_precision": 0.0,
+                        "bert_recall": 0.0,
+                        "bert_f1": 0.0,
+                        "bge_cosine": 0.0,
+                    }
+                )
+            continue
+        for field_name in ("query", "response"):
+            pair = pairs_by_row.get((row_index, field_name))
+            if pair:
+                summary_pairs.append(pair)
+            else:
+                summary_pairs.append(
+                    {
+                        "row_index": row_index,
+                        "field_name": field_name,
+                        "bert_precision": 0.0,
+                        "bert_recall": 0.0,
+                        "bert_f1": 0.0,
+                        "bge_cosine": 0.0,
+                    }
+                )
+    return summary_pairs
 
 
 def main():
@@ -362,7 +434,7 @@ def main():
         output_path = write_evaluated(
             input_path, rows, source_fields, pairs
         )
-        print_averages(pairs)
+        print_averages(pairs_with_copy_failures(rows, pairs))
         print(f"  -> {output_path}\n")
 
     print("Done.")

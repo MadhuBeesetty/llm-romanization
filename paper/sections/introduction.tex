@@ -1,0 +1,34 @@
+\section{Introduction}
+
+Many speakers of South Asian languages communicate digitally in a native
+language written with Latin characters. This practice is widespread but
+non-standard: spelling varies across speakers, platforms, and contexts, and
+English words are often mixed into otherwise Indic-language utterances.
+Datasets such as Dakshina document the importance of Latin-script South Asian
+language processing \cite{roark2020dakshina}, while Aksharantar demonstrates
+the scale required for robust Indic transliteration systems
+\cite{madhani2023aksharantar}.
+
+Romanized generation presents a compound challenge for a general-purpose
+language model. The model must preserve the source meaning, produce natural
+target-language phrasing, and express that phrasing in a variable Latin-script
+form. A model can fail at any stage by copying English, switching to native
+script, omitting content, returning malformed structured output, or entering a
+repetition loop. A semantic score calculated only over successful generations
+can consequently overstate system quality.
+
+We study this problem through a controlled English-to-Romanized Indic
+generation experiment. A locally served Qwen3.5-35B model converts paired
+English queries and responses into Romanized Hindi, Telugu, and Kannada. We
+evaluate the outputs with multilingual BERTScore and BGE-M3 cosine similarity,
+while separately tracking the number of scorable outputs.
+
+Our preliminary contributions are:
+\begin{itemize}
+    \item an end-to-end local pipeline for paired query--response romanization
+    in three Indic languages;
+    \item a comparison of token-alignment and embedding-based semantic metrics
+    for English-to-romanized generation; and
+    \item evidence that metric averages must be reported together with output
+    coverage, because missing generations materially change interpretation.
+\end{itemize}

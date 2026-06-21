@@ -1,0 +1,24 @@
+\section{Limitations}
+
+This study evaluates one quantized model and one prompting pipeline, so the
+results do not establish a general ranking of model families. The source data
+is English rather than naturally occurring Romanized Indic input, and the
+experiment therefore measures controlled translation and romanization.
+
+The current evaluation contains no native-speaker ratings. Automatic
+cross-lingual similarity cannot establish fluency, register appropriateness,
+cultural fit, or standardized transliteration quality. Raw multilingual
+BERTScore is particularly difficult to interpret across English and Romanized
+Indic text because its token alignment is sensitive to surface vocabulary.
+
+English-copy outputs are treated as failures and assigned zero across the row.
+Blank or malformed fields also receive zero for the affected metric. This
+failure-aware policy is intentionally strict and may conflate infrastructure
+failures with linguistic failures. For duplicate Telugu reruns, we retain the
+first generation; a different selection rule could produce slightly different
+aggregates. All experiments should still be rerun from a clean manifest before
+submission.
+
+Finally, romanization has no single universally correct spelling. Future work
+should evaluate multiple acceptable forms and recruit native speakers from
+different regions and demographic backgrounds.

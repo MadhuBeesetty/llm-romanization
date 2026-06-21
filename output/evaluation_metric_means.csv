@@ -1,4 +1,4 @@
-language,source_file,query_bertscore_precision,query_bertscore_recall,query_bertscore_f1,query_bge_cosine_similarity,response_bertscore_precision,response_bertscore_recall,response_bertscore_f1,response_bge_cosine_similarity,query_rows_scored,response_rows_scored
-Hindi,hindi_evaluation_results.csv,0.622923,0.680969,0.649961,0.762160,0.633270,0.697184,0.663384,0.812388,142,142
-Telugu,telugu_evaluation_results.csv,0.703168,0.741210,0.721319,0.802233,0.728593,0.764767,0.745926,0.834186,118,115
-Kannada,kannada_evaluation_results.csv,0.609718,0.679620,0.639757,0.701474,0.749825,0.771937,0.759933,0.819542,142,103
+language,source_file,query_bertscore_precision,query_bertscore_recall,query_bertscore_f1,query_bge_cosine_similarity,response_bertscore_precision,response_bertscore_recall,response_bertscore_f1,response_bge_cosine_similarity,query_rows_in_mean,response_rows_in_mean,copied_queries_detected,copied_responses_detected,copied_rows_scored_zero,duplicate_reruns_skipped
+Hindi,hindi_evaluation_results.csv,0.595240,0.653110,0.622191,0.734943,0.608802,0.672351,0.638743,0.787291,142,142,3,3,4,0
+Telugu,telugu_evaluation_results.csv,0.445982,0.475665,0.460142,0.522162,0.446031,0.473822,0.459341,0.527356,142,142,12,16,16,0
+Kannada,kannada_evaluation_results.csv,0.485062,0.552181,0.513753,0.577052,0.404904,0.420649,0.412093,0.455120,142,142,5,19,20,0

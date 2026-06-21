@@ -776,7 +776,7 @@ I hope this email finds you well and that you have been enjoying the holiday sea
 
 Thank you for your time, and I look forward to hearing back from you.
 
-Best regards,",283,0.931072,0.956095,0.943417,0.864897,1.000000,1.000000,1.000000,1.000000
+Best regards,",283,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000
 89f23324-5ce2-4158-832f-95c3c2f60280,Hindi,qwen3.5:35b,"Do you have any recommendations for food or drink that are both healthy, tasty and also contain a considerable amount of protein since I am looking to go to the gym? I specifically am looking for breakfast meals but other suggestions for snacks or other times of the day would also be quite useful","Yes, here are some healthy and protein-rich food and drink options:
 
 Breakfast:
@@ -2912,7 +2912,7 @@ main jin asteroids ke beech koodta tha, wo ajeeb aur alag-alag the. kuch toh bin
 
 aur hamesha, main portals ke peeche bhaagta, yeh jaanne ke liye ki uske aage kya hai. kyunki space ki badi khali jagah mein, hamesha kuch naya dhoondhne ko hota, hamesha kuch naya chamatkar agle asteroid ya nebula ke peeche intezaar kar raha hota.
 
-aur isliye main koodta aur koodta raha, mera dil universe ki anant sundarta se chamatkar aur hairat se bhara hua. aur mujhe pata tha ki chahe main kitni door jaata, chahe main kitne dimensions explore karta, hamesha aur dhoondhne ko, aur explore karne ko, aur seekhne ko kuch hoga.",684,1.000000,1.000000,1.000000,1.000000,0.474397,0.526304,0.499004,0.563824
+aur isliye main koodta aur koodta raha, mera dil universe ki anant sundarta se chamatkar aur hairat se bhara hua. aur mujhe pata tha ki chahe main kitni door jaata, chahe main kitne dimensions explore karta, hamesha aur dhoondhne ko, aur explore karne ko, aur seekhne ko kuch hoga.",684,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000
 f3ca8886-ff33-4a5f-bb00-891dffa3cc8f,Hindi,qwen3.5:35b,"I am hungry and want to start eating a vegetarian diet. Suggest a recipe that I can make tonight. I have zucchini and cheddar cheese in my fridge that will go bad soon, please make use of those two items.","Certainly! Given your situation, I recommend a Zucchini and Cheddar Frittata. Here's a simple recipe you can try for 4 servings (you can adjust the amounts as you see fit):
 
 INGREDIENTS
@@ -2972,7 +2972,7 @@ b0214be4-bf2d-430c-81d7-d60011ab3de7,Hindi,qwen3.5:35b,"Please design a PhD rese
 
 **Expected Results**: The developed in vitro models will provide a more realistic representation of gut microbiome-starch interactions, leading to a better understanding of the complex relationship between dietary starch and the gut microbiome. The validation of the models using in vivo studies will demonstrate their effectiveness in replicating the in vivo environment and will provide a valuable tool for future research.
 
-**Conclusion**: The development of more sophisticated in vitro models to study gut microbiome-starch interactions is essential to advancing our understanding of the complex relationship between dietary starch and the gut microbiome. The validation of these models using in vivo studies will provide a valuable tool for future research, leading to improved human health outcomes.",514,1.000000,1.000000,1.000000,1.000000,1.000000,1.000000,1.000000,1.000000
+**Conclusion**: The development of more sophisticated in vitro models to study gut microbiome-starch interactions is essential to advancing our understanding of the complex relationship between dietary starch and the gut microbiome. The validation of these models using in vivo studies will provide a valuable tool for future research, leading to improved human health outcomes.",514,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000
 ce46f934-2ca9-4228-b84a-0de00c181c01,Hindi,qwen3.5:35b,"Create a random case study for a business that explains the success they've had with adopting Lean Production.
 
 Please include some information on:
@@ -4347,7 +4347,7 @@ a514951d-8d5d-49ad-a8b2-ac7b94e62206,Hindi,qwen3.5:35b,"Please add more ""type o
 - Type of guy who is obsessed with personal development and self-help, constantly reading books and attending seminars in order to improve himself and his life
 - Type of guy who does this but takes it to an unhealthy extreme, becoming overly critical of himself and others, and constantly feeling like he is never good enough
 - Type of guy who is a serial entrepreneur, always coming up with new business ideas and starting new ventures, even if they don't always succeed
-- Type of guy who does this but takes it to the extreme, constantly chasing the next big thing and never taking the time to properly develop and grow any of his businesses",438,1.000000,1.000000,1.000000,1.000000,1.000000,1.000000,1.000000,1.000000
+- Type of guy who does this but takes it to the extreme, constantly chasing the next big thing and never taking the time to properly develop and grow any of his businesses",438,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000
 31eade47-aecd-4dac-b743-5e7a2e39f74c,Hindi,qwen3.5:35b,"What does ""they"" refer to in each of the following two sentences: 
 a) ""The authorities have denied authorization to the demonstrators because they feared violence.""
 b) ""The authorities have denied authorization to the demonstrators because they appeared belligerent.""","Syntactically speaking, in both sentences ""they"" could refer back to either the authorities or the demonstrators as the antecedent. However, based on the semantics of the sentence, there is a more likely antecedent in either case. In sentence (a), ""they"" likely refers to the authorities, because it makes little sense for the demonstrators to fear violence and for that to cause the authorities to deny authorization. In sentence (b), on the other hand, ""they"" probably refers to the demonstrators, because apparently belligerent demonstrators are a typical reason to deny authorization, and apparently belligerent authorities are not.",Niche diye gaye do sentences mein 'they' kis ki taraf ishara karta hai: a) 'The authorities have denied authorization to the demonstrators because they feared violence.' b) 'The authorities have denied authorization to the demonstrators because they appeared belligerent.',"Syntactically bolne par, dono sentences mein 'they' antecedent ke roop mein authorities ya demonstrators dono ki taraf ishara kar sakta hai. Lekin, sentence ke semantics ke aadhar par, har case mein ek zyada likely antecedent hota hai. Sentence (a) mein, 'they' likely authorities ki taraf ishara karta hai, kyunki demonstrators ke violence ka darna aur uski wajah se authorities ka authorization deny karna thoda samajh se bahar hai. Sentence (b) mein, doosri taraf, 'they' probably demonstrators ki taraf ishara karta hai, kyunki belligerent demonstrators ko authorization deny karne ka ek aam karan hota hai, jabki belligerent authorities ka aisa karna nahi hota.",239,0.810201,0.842568,0.826067,0.799553,0.617259,0.673252,0.644041,0.802467
