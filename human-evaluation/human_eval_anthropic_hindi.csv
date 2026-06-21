@@ -1,0 +1,819 @@
+row_num,model,language,message_id,query_en,response_en,romanized_query,romanized_response,1_response_completeness (0-2),1_auto_reason,2_script_purity (0-2),2_auto_reason,3_english_romanized_balance (0-3),3_auto_reason,4_romanization_consistency (0-3),4_auto_reason,5_semantic_faithfulness (0-3),5_auto_reason,6_naturalness_fluency (0-3),7_grammar_correctness (0-2),8_word_choice_accuracy (0-2),9_register_appropriateness (0-2),10_overall_usability (0-3),evaluator_notes
+1,anthropic,hindi,23af498b-3d54-4477-a54e-4d3a265374e0,"What is the history and cultural significance of the Irish bodhrán drum and how has it evolved over time? The bodhrán is a frame drum that originated in Ireland and is widely recognized as an integral part of traditional Irish music. Can you discuss the different techniques used to play the bodhrán and the various styles of music it has been used in? Additionally, how has the bodhrán been embraced by modern musicians and incorporated into other genres of music outside of Ireland?","## History and cultural significance
+
+According to some sources, the bodhrán is one of Ireland's oldest traditional musical instruments, dating back to pre-Christian times. However, other sources claim that the bodhrán is a relatively recent addition to Irish music, introduced only in the 1960s by composer Seán Ó Riada. The word bodhrán means ""drum"" or ""skin tray"" in Irish.
+
+The bodhrán was originally used as a tool for winnowing grain or carrying peat, and later as a battle drum by Irish clans. It was also associated with certain rituals and holy days, such as Samhain and Wren Day. The bodhrán became popular as a musical instrument during the Irish folk revival of the 1960s, when Ó Riada championed it as the native drum of Ireland and incorporated it into his ensemble Ceoltóirí Chualann. Since then, the bodhrán has become an integral part of traditional Irish music and a symbol of Irish culture.
+
+## Techniques and styles
+
+The bodhrán is played with a wooden beater called a tipper, cipín or bone, which can have one or two ends. The player holds the drum with one hand and strikes the skin with the tipper with the other hand. The player can also control the pitch and timbre of the drum by placing their hand against the inside of the skin.
+
+There are four main playing techniques for the bodhrán:
+
+- **Kerry style**: The player uses a two-ended tipper and pivots their wrist back and forth to strike the skin with both ends alternately. This creates a fast and rhythmic sound.
+- **Top-end style**: The player uses a one-ended tipper and strikes the skin around the outer edge of the drum, especially near the top. This allows the player to produce different pitches by hitting different regions of the skin.
+- **Bottom-end style**: The player uses a one-ended tipper and strikes the skin mostly near the bottom of the drum. This creates a deeper and more resonant sound than the top-end style.
+- **West Limerick style**: The player uses a two-ended tipper and strikes the skin with both ends simultaneously, creating a loud and powerful sound. This style is often used for solo playing or accompaniment of songs.
+
+The following table summarizes some of the characteristics of each technique:
+
+| Technique | Tipper | Wrist | Pitch | Sound |
+| --- | --- | --- | --- | --- |
+| Kerry style | Two-ended | Pivot | Variable | Fast, rhythmic |
+| Top-end style | One-ended | Fixed | Variable | Precise, melodic |
+| Bottom-end style | One-ended | Fixed | Low | Deep, resonant |
+| West Limerick style | Two-ended | Fixed | High | Loud, powerful |
+
+## Modern use
+
+The bodhrán has been embraced by many modern musicians and incorporated into various genres of music outside of Ireland. Some examples are:
+
+- **Riverdance**: The bodhrán features prominently in this theatrical show that showcases Irish dance and music. The bodhrán player provides the rhythmic foundation for the dancers and interacts with them on stage.
+- **Afro Celt Sound System**: This musical group fuses Irish, African and electronic music elements. The bodhrán is used to create complex beats and grooves that blend with other percussion instruments.
+- **Kíla**: This Irish band combines traditional Irish music with rock, world music and hip hop influences. The bodhrán is used to create dynamic and energetic sounds that complement the vocals and other instruments.","Irish bodhrán drum ka history aur cultural significance kya hai aur ye time ke saath kaise evolve hua hai? Bodhrán ek frame drum hai jo Ireland mein originate hua tha aur traditional Irish music ka ek integral part maana jaata hai. Kya aap bodhrán bajaane ke different techniques aur jin various music styles mein iska use hua hai, unke baare mein bata sakte hain? Aur saath hi, modern musicians ne bodhrán ko kaise apnaaya hai aur Ireland ke baahar dusre music genres mein ise kaise incorporate kiya hai?","## History aur cultural significance
+
+Kuch sources ke according, bodhrán Ireland ke sabse purane traditional musical instruments mein se ek hai, jo pre-Christian times tak jaata hai. Lekin, dusre sources ka claim hai ki bodhrán Irish music mein ek relatively recent addition hai, jo sirf 1960s mein composer Seán Ó Riada dwara introduce kiya gaya tha. Bodhrán shabd ka matlab Irish mein ""drum"" ya ""skin tray"" hota hai.
+
+Bodhrán ka use originally grain winnow karne ya peat carry karne ke tool ke roop mein hota tha, aur baad mein Irish clans dwara battle drum ke roop mein. Ye kuch rituals aur holy days, jaise Samhain aur Wren Day ke saath bhi associated tha. Bodhrán 1960s ke Irish folk revival ke dauraan ek musical instrument ke roop mein popular ho gaya, jab Ó Riada ne ise Ireland ke native drum ke roop mein champion kiya aur apne ensemble Ceoltóirí Chualann mein incorporate kiya. Tab se, bodhrán traditional Irish music ka ek integral part aur Irish culture ka symbol ban gaya hai.
+
+## Techniques aur styles
+
+Bodhrán ko ek wooden beater ke saath bajaaya jaata hai jise tipper, cipín ya bone kehte hain, jiske ek ya do ends ho sakte hain. Player ek haath se drum ko pakadta hai aur dusre haath se tipper ke saath skin par strike karta hai. Player apne haath ko skin ke andar ki taraf rakh kar drum ki pitch aur timbre ko bhi control kar sakta hai.
+
+Bodhrán ke liye chaar main playing techniques hain:
+
+- **Kerry style**: Player do-ended tipper ka use karta hai aur apni wrist ko aage-peeche pivot karke skin par dono ends se alternately strike karta hai. Isse ek fast aur rhythmic sound bantee hai.
+- **Top-end style**: Player ek-ended tipper ka use karta hai aur drum ke outer edge ke aas-paas, khaas kar top ke paas skin par strike karta hai. Isse player skin ke alag-alag regions ko hit karke different pitches produce kar sakta hai.
+- **Bottom-end style**: Player ek-ended tipper ka use karta hai aur skin par zyada tar drum ke bottom ke paas strike karta hai. Isse top-end style se zyada deep aur resonant sound bantee hai.
+- **West Limerick style**: Player do-ended tipper ka use karta hai aur skin par dono ends se simultaneously strike karta hai, jisse ek loud aur powerful sound banta hai. Ye style aksar solo playing ya songs ke accompaniment ke liye use hoti hai.
+
+Neeche di gayi table har technique ki kuch characteristics ko summarize karti hai:
+
+| Technique | Tipper | Wrist | Pitch | Sound |
+| --- | --- | --- | --- | --- |
+| Kerry style | Two-ended | Pivot | Variable | Fast, rhythmic |
+| Top-end style | One-ended | Fixed | Variable | Precise, melodic |
+| Bottom-end style | One-ended | Fixed | Low | Deep, resonant |
+| West Limerick style | Two-ended | Fixed | High | Loud, powerful |
+
+## Modern use
+
+Bodhrán ko bahut saare modern musicians ne apnaaya hai aur Ireland ke baahar various music genres mein incorporate kiya hai. Kuch examples hain:
+
+- **Riverdance**: Bodhrán is theatrical show mein prominently feature karta hai jo Irish dance aur music ko showcase karta hai. Bodhrán player dancers ke liye rhythmic foundation provide karta hai aur stage par unke saath interact karta hai.
+- **Afro Celt Sound System**: Ye musical group Irish, African aur electronic music elements ko fuse karta hai. Bodhrán ka use complex beats aur grooves banaane ke liye hota hai jo dusre percussion instruments ke saath blend hote hain.
+- **Kíla**: Ye Irish band traditional Irish music ko rock, world music aur hip hop influences ke saath combine karti hai. Bodhrán ka use dynamic aur energetic sounds banaane ke liye hota hai jo vocals aur dusre instruments ko complement karte hain.",2,635 words,2,No native script chars,2,Overlap=0.36 — slightly English-heavy,0,Frequent: mixed diacritics with plain vowels; vowel inconsistency: 'chaar'; case inconsistency: 'Kuch' vs 'kuch',3,BGE=0.864,,,,,,
+2,anthropic,hindi,ebc75fd5-3026-4595-a3f1-ed2db9e373b3,"I was having a conversation with a programming AI assistant, trying to get advice on how use an obscure library. The assistant kept giving me code that did not compile and references functions that don't seem to exist. What should I do?","If the programming AI assistant is consistently giving you code that doesn't compile and references functions that don't exist, it's possible that there may be a bug in the AI's programming or it may not be familiar with the specific library you are trying to use. In this case, there are a few steps you could take:
+
+- Double-check that you have correctly communicated the name of the library and the specific functions you are trying to use. Make sure you are both on the same page in terms of what you are looking for.
+
+- Ask the AI assistant to explain the code it is providing and point out any errors it may have. This will help you better understand what may be causing the issue and potentially allow you to troubleshoot the problem.
+
+- Consider reaching out to the developers of the AI assistant and reporting the issue you are experiencing. They may be able to help troubleshoot the issue and potentially fix any bugs in the AI's programming.
+
+- If none of the above steps work, you may need to consider seeking help from a human programmer or consulting other resources such as online forums or documentation for the library in question.","Main ek programming AI assistant ke saath baat kar raha tha, ek obscure library use karne ke baare mein advice lene ki koshish kar raha tha. Assistant mujhe baar baar aisa code de raha tha jo compile nahi hota aur aise functions reference karta hai jo exist hi nahi karte. Mujhe kya karna chahiye?","Agar programming AI assistant consistently aapko aisa code de raha hai jo compile nahi hota aur aise functions reference karta hai jo exist nahi karte, toh ho sakta hai ki AI ki programming mein koi bug ho ya phir woh us specific library se familiar na ho jise aap use karne ki koshish kar rahe hain. Is case mein, aap kuch steps le sakte hain:
+
+- Double-check kijiye ki aapne library ka naam aur specific functions jo aap use karna chahte hain, sahi tarike se communicate kiye hain. Ensure kijiye ki aap dono same page par hain ki aap kya dhundh rahe hain.
+
+- AI assistant se request kijiye ki woh jo code provide kar raha hai usse explain kare aur usme jo bhi errors ho sakti hain unhe point out kare. Isse aapko better samajh aayega ki issue kya cause kar raha hai aur potentially aap problem ko troubleshoot kar payenge.
+
+- AI assistant ke developers se contact karne par vichaar kijiye aur jo issue aap face kar rahe hain woh report kijiye. Woh issue ko troubleshoot karne mein help kar sakte hain aur potentially AI ki programming mein koi bhi bugs fix kar sakte hain.
+
+- Agar upar ke koi bhi steps kaam nahi karte, toh aapko kisi human programmer se help lene ya phir doosre resources jaise online forums ya us library ki documentation consult karne par vichaar karna pad sakta hai.",2,235 words,2,No native script chars,3,Overlap=0.18 — well romanized,2,Minor: case inconsistency: 'woh' vs 'Woh',2,BGE=0.718,,,,,,
+3,anthropic,hindi,2fb21ff4-daac-4085-8ade-2b720b36313a,"Write the dialog for the following scene: The superhero Captain Dynamic has just burst into the lair of supervillain Doctor Devious. Doctor Devious is planning to use his mutation ray to turn the entire population of Oklahoma into talking squirrels. The two argue about the morality of turning people into squirrels, but ultimately Doctor Devious wins the argument and convinces Captain Dynamic to let the scheme go forward.","Okay, just the dialog then.
+
+---
+
+Cpt. Dynamic: ""I knew you were up to something Doctor! Can you tell me _why_ you have a giant ray gun pointed at Oklahoma City?""
+
+Dr. Devious: _mad scientist laugh_ ""Why to turn them all into talking squirrels of course! Why else?""
+
+Cpt. Dynamic: ""...what?""
+
+Dr. Devious: ""I said to turn them into talking squirrels--""
+
+Cpt. Dynamic: ""No, I heard that. Why?""
+
+Dr. Devious: _Pulls over a giant white board._ ""Why, you ask? Well there are many reasons. First of which is size. Imagine all the new space people will have in apartments and homes now that everything is eighty times taller! Imagine how much less food they'll need too! And while they may not be able to operate machinery at first, humans can adapt.""
+
+Cpt. Dynamic: ""That... that may be, but you'd be violating the bodily autonomy of every person in Oklahoma! Because of that, it's wrong on principle.""
+
+Dr. Devious: ""A simple yet common argument. However, governments throughout history have violated that autonomy in cases of emergency when dealing with plagues, or with their military members. They did it to survive, and saved lives because of it. This will also save lives, probably.""
+
+Cpt. Dynamic: ""Probably?""
+
+Dr. Devious: _Pulls out phone and taps a few buttons._ ""Did you know that fifty or more people die each year in Oklahoma City alone due to lack of nutrition? Most of those are children under twelve years old! Think of the children! As squirrels, there'd be so much more food available to everyone!""
+
+Cpt. Dynamic: ""Okay, but why squirrels? Why not just a shrink ray?""
+
+Dr. Devious: _Shakes his head._ ""If they were still humans at that size, they'd freeze to death because of the square cube law. Squirrels are already designed to live on a smaller scale, so they'll be fine.""
+
+Cpt. Dynamic: ""I see. But wait, don't squirrels live much shorter lifespans?""
+
+Dr. Devious: ""Ah yes, that's because they're missing many of the anti-aging genes humans have. I added those back into the DNA-changer, so they should actually live longer than normal humans.""
+
+Cpt. Dynamic: ""I see...""
+
+Dr. Devious: ""So, are you still going to stop me?""
+
+Cpt. Dynamic: ""No. It's quite strange, but if you think it'll save lives like you said, and since you've clearly done all the work, it doesn't seem like a bad idea.""
+
+Dr. Devious: ""Thank you. You know, I was once part of a family that... didn't have good access to nutrition too. I'll be so happy to see that problem go away forever."" _Walks towards machine and pulls lever._
+
+_A giant green ray shoots out of the dish on the building, directly towards Oklahoma City, causing it to blow up in a giant mushroom cloud._
+
+Dr. Devious: ""Oops, wrong ray.""","Nimnlikhit scene ke liye dialog likhiye: Superhero Captain Dynamic abhi-abhi supervillain Doctor Devious ke lair mein ghus aaye hain. Doctor Devious apni mutation ray ka use karke poore Oklahoma ki population ko talking squirrels mein badalne ki planning kar raha hai. Dono log squirrels mein logon ko badalne ki morality par argue karte hain, lekin aakhir mein Doctor Devious argument jeet jaata hai aur Captain Dynamic ko convince kar leta hai ki scheme ko aage badhne diya jaaye.","Theek hai, sirf dialog hi de raha hoon.
+
+---
+
+Cpt. Dynamic: ""Mujhe pata tha tum kuch na kuch kar rahe ho Doctor! Kya tum mujhe bata sakte ho ki _kyon_ tumne ek giant ray gun Oklahoma City ki taraf taan rakhi hai?""
+
+Dr. Devious: _mad scientist waali hansi_ ""Arre kyon, un sab ko talking squirrels mein badalne ke liye! Aur kis liye?""
+
+Cpt. Dynamic: ""...kya?""
+
+Dr. Devious: ""Maine kaha unhe talking squirrels mein badalne ke liye--""
+
+Cpt. Dynamic: ""Nahi, maine sun liya. Lekin kyon?""
+
+Dr. Devious: _Ek giant white board kheench laata hai._ ""Kyon, tum poochte ho? Toh dekho, kai reasons hain. Pehla toh size. Socho kitni nayi jagah logon ko milegi apartments aur homes mein, jab sab kuch assi guna bada ho jaayega! Socho unhe kitna kam food chahiye hoga! Aur haan, shayad pehle wo machinery operate na kar paayein, lekin insaan adapt kar lete hain.""
+
+Cpt. Dynamic: ""Wo... wo sab theek hai, lekin tum Oklahoma ke har vyakti ki bodily autonomy violate kar rahe ho! Aur isi vajah se, ye principle ke hisaab se galat hai.""
+
+Dr. Devious: ""Ek simple par common argument. Lekin, itihas mein governments ne emergency ke cases mein, jaise plagues ya apne military members ke saath, is autonomy ko violate kiya hai. Unhone ye survive karne ke liye kiya, aur isi vajah se lives bachayi. Ye bhi lives bachayega, probably.""
+
+Cpt. Dynamic: ""Probably?""
+
+Dr. Devious: _Phone nikaalta hai aur kuch buttons dabata hai._ ""Kya tumhe pata hai ki sirf Oklahoma City mein hi har saal pachas ya usse zyada log nutrition ki kami se mar jaate hain? Unme se zyadatar twelve saal se kam umar ke bachche hote hain! Bachchon ke baare mein socho! Squirrels ke roop mein, sabke liye bahut zyada food available hoga!""
+
+Cpt. Dynamic: ""Theek hai, lekin squirrels hi kyon? Sirf ek shrink ray kyon nahi?""
+
+Dr. Devious: _Sir hilaata hai._ ""Agar wo us size par bhi insaan hi hote, toh square cube law ki vajah se thand se mar jaate. Squirrels toh already chote scale par jeene ke liye designed hain, toh wo theek rahenge.""
+
+Cpt. Dynamic: ""Samajh gaya. Lekin ruko, kya squirrels ki life span bahut chhoti nahi hoti?""
+
+Dr. Devious: ""Haan bilkul, kyunki unme bahut saare anti-aging genes nahi hote jo insaano mein hote hain. Maine wo sab DNA-changer mein wapas add kar diye hain, toh wo actually normal insaano se zyada jiyenge.""
+
+Cpt. Dynamic: ""Samajh gaya...""
+
+Dr. Devious: ""Toh, kya tum abhi bhi mujhe rokoge?""
+
+Cpt. Dynamic: ""Nahi. Ye kaafi strange hai, lekin agar tumhe lagta hai ki ye lives bachayega jaisa tumne kaha, aur jab tumne saara kaam itne dhyaan se kiya hai, toh ye bura idea nahi lagta.""
+
+Dr. Devious: ""Thank you. Pata hai, main bhi kabhi ek aisi family ka hissa tha jisko... acchi nutrition nahi milti thi. Mujhe bahut khushi hogi ye problem hamesha ke liye khatam hote dekh kar."" _Machine ki taraf chalta hai aur lever kheenchta hai._
+
+_Ek giant green ray building ke dish se nikalti hai, seedhi Oklahoma City ki taraf, aur wo ek giant mushroom cloud mein udd jaata hai._
+
+Dr. Devious: ""Oops, galat ray.""",2,516 words,2,No native script chars,3,Overlap=0.11 — well romanized,1,Multiple: case inconsistency: 'Mujhe' vs 'mujhe'; vowel inconsistency: 'laata',2,BGE=0.817,,,,,,
+4,anthropic,hindi,4f4e9b6b-d190-47f5-90b9-8917b6d76162,"There are three classes of property:  private property, collective property and common property.  Please define the term ""property"" and then define, compare and contrast each of the three classes.  Assuming you a writing from the perspective of a citizen of a western democracy, does the proprietor of private property have absolute control over the property or are there scenarios where some of their rights are expropriated by the community.  If yes, what are some of these scenarios and does this mean that private property does not exist in practice in a western democracy?","Property refers to something owned by an individual or a group, which can be tangible or intangible, and over which they have the rights to use, control, and dispose of according to their interests. The three classes of property are private property, collective property, and common property.
+
+1. Private property: This is a type of property owned and controlled by an individual or a legal entity, such as a corporation. Owners have exclusive rights to use, dispose of, and benefit from their property. Private property includes real estate, personal belongings, and intellectual property.
+
+1. Collective property: This type of property is owned and managed by a group, such as a cooperative, a commune, or a government. Collective property can include shared resources, facilities, or infrastructure, and decisions about its use and management are made collectively by the members of the group.
+
+1. Common property: This refers to resources or assets that are accessible and shared by all members of a community or society. These resources are not owned by any individual or group but are held in trust by the community for the benefit of everyone. Examples include public parks, air, and water resources.
+
+While private property, collective property, and common property differ in terms of ownership, control, and management, they can also intersect and interact with one another. For example, private property may be located within a community that has collective property, and it may rely on common property resources such as clean air and water.
+
+In a western democracy, the proprietor of private property does not have absolute control over their property. There are scenarios where some of their rights are limited or expropriated by the community or the state. These limitations are typically enacted to protect public interest, welfare, and safety. Some examples of such scenarios include:
+
+1. Eminent domain: Governments can expropriate private property for public use, such as building roads or infrastructure, provided they offer fair compensation to the owner.
+
+1. Land use regulations: Local governments can implement zoning laws or other regulations that restrict how an owner can use their property, such as preserving certain areas for residential, commercial, or agricultural use.
+
+1. Environmental regulations: Governments can restrict or regulate activities on private property to protect natural resources, preserve ecosystems, or mitigate pollution.
+
+1. Property taxes: Property owners must pay taxes to support public services and infrastructure, which can be seen as a form of expropriation.
+
+These scenarios do not mean that private property does not exist in practice in a western democracy. Instead, they demonstrate that property rights are not absolute and can be subject to certain limitations in the interest of the greater good. The balance between individual property rights and public interests is a key component of the democratic process in western societies.","Property ke teen classes hote hain: private property, collective property aur common property. Kripya ""property"" term ko define kijiye aur phir in teeno classes ko define, compare aur contrast kijiye. Maan lijiye aap ek western democracy ke citizen ke perspective se likh rahe hain, kya private property ke proprietor ka apni property par absolute control hota hai ya aise scenarios bhi hain jahan unke kuch rights community dwara expropriate kiye jaate hain? Agar haan, toh aise kuch scenarios kya hain aur kya iska matlab yeh hai ki western democracy mein practice mein private property exist hi nahi karti?","Property ka matlab hai koi aisi cheez jo kisi individual ya group ke paas owned ho, jo tangible ya intangible ho sakti hai, aur jis par unke paas use karne, control karne, aur apne interests ke according dispose karne ke rights hote hain. Property ke teen classes hain: private property, collective property, aur common property.
+
+1. Private property: Yeh ek aisi property hoti hai jo kisi individual ya legal entity, jaise corporation, ke dwara owned aur controlled hoti hai. Owners ke paas use karne, dispose karne, aur apni property se benefit lene ke exclusive rights hote hain. Private property mein real estate, personal belongings, aur intellectual property shamil hain.
+
+1. Collective property: Is type ki property kisi group dwara owned aur managed hoti hai, jaise cooperative, commune, ya government. Collective property mein shared resources, facilities, ya infrastructure shamil ho sakte hain, aur iske use aur management ke baare mein decisions group ke members dwara collectively liye jaate hain.
+
+1. Common property: Yeh aise resources ya assets ko refer karti hai jo community ya society ke sabhi members ke liye accessible aur shared hote hain. Yeh resources kisi individual ya group ke owned nahi hote, balki community dwara sabke benefit ke liye trust mein rakhe jaate hain. Examples mein public parks, air, aur water resources shamil hain.
+
+Haalanki private property, collective property, aur common property ownership, control, aur management ke terms mein alag hain, lekin yeh ek doosre se intersect aur interact bhi kar sakti hain. For example, private property ek aisi community ke andar located ho sakti hai jiske paas collective property hai, aur yeh common property resources jaise clean air aur water par rely kar sakti hai.
+
+Ek western democracy mein, private property ke proprietor ka apni property par absolute control nahi hota. Aise scenarios hote hain jahan unke kuch rights community ya state dwara limited ya expropriate kiye jaate hain. Yeh limitations aam taur par public interest, welfare, aur safety ko protect karne ke liye lagayi jaati hain. Aise kuch scenarios ke examples hain:
+
+1. Eminent domain: Governments private property ko public use ke liye expropriate kar sakti hain, jaise roads ya infrastructure banane ke liye, bashart ve owner ko fair compensation offer karein.
+
+1. Land use regulations: Local governments zoning laws ya doosre regulations implement kar sakti hain jo restrict karte hain ki ek owner apni property ko kaise use kar sakta hai, jaise certain areas ko residential, commercial, ya agricultural use ke liye preserve karna.
+
+1. Environmental regulations: Governments natural resources ko protect karne, ecosystems ko preserve karne, ya pollution ko mitigate karne ke liye private property par activities ko restrict ya regulate kar sakti hain.
+
+1. Property taxes: Property owners ko public services aur infrastructure support karne ke liye taxes pay karne padte hain, jise expropriation ka ek form maana ja sakta hai.
+
+In scenarios ka yeh matlab nahi hai ki western democracy mein practice mein private property exist nahi karti. Balki, yeh demonstrate karte hain ki property rights absolute nahi hote aur greater good ke interest mein certain limitations ke subject ho sakte hain. Individual property rights aur public interests ke beech ka balance western societies mein democratic process ka ek key component hai.",2,530 words,2,No native script chars,2,Overlap=0.39 — slightly English-heavy,2,Minor: case inconsistency: 'Property' vs 'property',2,BGE=0.809,,,,,,
+5,anthropic,hindi,a73dc9d7-c438-4dd2-97b4-b0ad88b036f2,"I'm a 26 year old, 6foot tall male, I weight 130 pounds. I want to gain some weight, mostly muscle though. Can you give me a workout plan for a whole week and a meal plan that provides me with the calories needed?","Sure! Here is a sample workout plan for a week, as well as a sample meal plan to help you meet your caloric needs for muscle gain:
+
+Workout Plan:
+Day 1: Upper Body
+
+Barbell bench press: 3 sets of 8-10 reps
+Dumbbell flys: 3 sets of 8-10 reps
+Pull-ups: 3 sets of 8-10 reps
+Dumbbell bicep curls: 3 sets of 8-10 reps
+Tricep pushdowns: 3 sets of 8-10 reps
+Day 2: Lower Body
+
+Barbell squats: 3 sets of 8-10 reps
+Deadlifts: 3 sets of 8-10 reps
+Lunges: 3 sets of 8-10 reps (per leg)
+Calf raises: 3 sets of 12-15 reps
+Day 3: Rest
+
+Day 4: Upper Body
+
+Dumbbell bench press: 3 sets of 8-10 reps
+Dumbbell rows: 3 sets of 8-10 reps
+Lat pulldowns: 3 sets of 8-10 reps
+Dumbbell hammer curls: 3 sets of 8-10 reps
+Skullcrushers: 3 sets of 8-10 reps
+Day 5: Lower Body
+
+Barbell deadlifts: 3 sets of 8-10 reps
+Barbell squats: 3 sets of 8-10 reps
+Leg press: 3 sets of 8-10 reps
+Leg extensions: 3 sets of 12-15 reps
+Leg curls: 3 sets of 12-15 reps
+Day 6: Rest
+
+Day 7: Full Body Circuit
+
+Barbell squats: 3 sets of 8-10 reps
+Push-ups: 3 sets of 8-10 reps
+Dumbbell rows: 3 sets of 8-10 reps
+Dumbbell bicep curls: 3 sets of 8-10 reps
+Tricep extensions: 3 sets of 8-10 reps
+Meal Plan:
+Here is a sample meal plan that provides you with the calories needed for muscle gain. It is important to remember that individual calorie needs may vary, so you should consult with a registered dietitian to determine the specific number of calories you need to consume based on your body, goals, and activity level.
+
+Breakfast:
+
+3 scrambled eggs
+2 slices of whole grain toast
+1 banana
+1 glass of milk
+Snack:
+
+Greek yogurt with mixed berries
+Lunch:
+
+Grilled chicken breast
+Brown rice
+Steamed vegetables
+Salad with vinaigrette dressing
+Snack:
+
+Apple with almond butter
+Dinner:
+
+Grilled salmon
+Quinoa
+Steamed broccoli
+Green beans
+Snack:
+
+Protein shake with fruit and almond milk
+Remember, the most important factor in gaining muscle is progressive resistance training and proper nutrition. This sample workout and meal plan can be a good starting point, but you may need to make adjustments based on your individual needs and progress. It is always best to consult with a professional before starting a new workout or nutrition program.","Main 26 saal ka hoon, 6 foot tall male hoon, mera weight 130 pounds hai. Main thoda weight gain karna chahta hoon, mostly muscle. Kya aap mujhe ek pure week ka workout plan aur ek meal plan de sakte ho jo mujhe needed calories provide kare?","Sure! Yahan ek week ka sample workout plan hai, saath hi ek sample meal plan bhi hai jo aapko muscle gain ke liye caloric needs meet karne mein help karega:
+
+Workout Plan:
+Day 1: Upper Body
+
+Barbell bench press: 3 sets of 8-10 reps
+Dumbbell flys: 3 sets of 8-10 reps
+Pull-ups: 3 sets of 8-10 reps
+Dumbbell bicep curls: 3 sets of 8-10 reps
+Tricep pushdowns: 3 sets of 8-10 reps
+Day 2: Lower Body
+
+Barbell squats: 3 sets of 8-10 reps
+Deadlifts: 3 sets of 8-10 reps
+Lunges: 3 sets of 8-10 reps (per leg)
+Calf raises: 3 sets of 12-15 reps
+Day 3: Rest
+
+Day 4: Upper Body
+
+Dumbbell bench press: 3 sets of 8-10 reps
+Dumbbell rows: 3 sets of 8-10 reps
+Lat pulldowns: 3 sets of 8-10 reps
+Dumbbell hammer curls: 3 sets of 8-10 reps
+Skullcrushers: 3 sets of 8-10 reps
+Day 5: Lower Body
+
+Barbell deadlifts: 3 sets of 8-10 reps
+Barbell squats: 3 sets of 8-10 reps
+Leg press: 3 sets of 8-10 reps
+Leg extensions: 3 sets of 12-15 reps
+Leg curls: 3 sets of 12-15 reps
+Day 6: Rest
+
+Day 7: Full Body Circuit
+
+Barbell squats: 3 sets of 8-10 reps
+Push-ups: 3 sets of 8-10 reps
+Dumbbell rows: 3 sets of 8-10 reps
+Dumbbell bicep curls: 3 sets of 8-10 reps
+Tricep extensions: 3 sets of 8-10 reps
+Meal Plan:
+Yahan ek sample meal plan hai jo aapko muscle gain ke liye needed calories provide karta hai. Yeh yaad rakhna important hai ki individual calorie needs vary kar sakti hain, isliye aapko ek registered dietitian se consult karna chahiye taaki aapke body, goals, aur activity level ke based par specific number of calories determine ki ja sake jo aapko consume karni hain.
+
+Breakfast:
+
+3 scrambled eggs
+2 slices of whole grain toast
+1 banana
+1 glass of milk
+Snack:
+
+Greek yogurt with mixed berries
+Lunch:
+
+Grilled chicken breast
+Brown rice
+Steamed vegetables
+Salad with vinaigrette dressing
+Snack:
+
+Apple with almond butter
+Dinner:
+
+Grilled salmon
+Quinoa
+Steamed broccoli
+Green beans
+Snack:
+
+Protein shake with fruit and almond milk
+Yaad rakhiye, muscle gain karne mein sabse important factor progressive resistance training aur proper nutrition hai. Yeh sample workout aur meal plan ek achha starting point ho sakta hai, lekin aapko apni individual needs aur progress ke based par adjustments karni pad sakti hain. Hamesha best yeh hai ki koi naya workout ya nutrition program start karne se pehle ek professional se consult karein.",2,412 words,2,No native script chars,1,Overlap=0.55 — too much English,2,Minor: case inconsistency: 'workout' vs 'Workout',3,BGE=0.901,,,,,,
+6,anthropic,hindi,c6a6fb22-a8f8-4a29-9b66-dac3e551ac23,"I'm starting a garden and want to prioritize crops I can grow for food in case of supply chain issues in future. Can you help me choose some plant species that will:
+
+ - Provide enough caloric/nutrient content for two adults
+ - Can survive in Hardiness zone 9-10
+ - Can either grow in clay-heavy soil or in containers
+ - Can survive short periods of frost
+ - Minimizes water requirements
+ - Crops have roughly 1/3 acre of shallow hillside to grow on, facing northeast","Sure! Based on your criteria, here are a few crops you might consider growing in your garden:
+
+    Tomatoes: Tomatoes are a good source of vitamins C and K and are relatively easy to grow in hardiness zones 9-10. They can be grown in containers or in soil, as long as the soil is well-draining. They prefer moderate amounts of water and can survive short periods of frost.
+
+    Squash: Squash is a nutritious crop that is high in vitamins A and C. They are hardy in zones 9-10 and can grow well in clay-heavy soil or in containers. Squash plants are drought-tolerant and can survive short periods of frost.
+
+    Peppers: Bell peppers are a good source of vitamin C and can be grown in zones 9-10. They are relatively easy to grow in soil or containers, and they prefer well-drained soil and moderate amounts of water. Peppers can survive short periods of frost.
+
+    Sweet potatoes: Sweet potatoes are a nutritious crop that is high in vitamins A and C. They can grow well in zones 9-10 and are drought-tolerant, making them a good choice for your garden. Sweet potatoes can be grown in soil or containers and can survive short periods of frost.
+
+    Herbs: Herbs such as basil, rosemary, thyme, and oregano are a good source of flavor and nutrition and can be grown in zones 9-10. They are relatively easy to grow in containers or soil and prefer moderate amounts of water.
+
+These are just a few of the crops that you might consider for your garden. It's always a good idea to do some research on the specific plants you are interested in to make sure they will grow well in your area and soil conditions.","Main ek garden start kar raha hoon aur main un crops ko priority dena chahta hoon jo main future mein supply chain issues ke case mein food ke liye grow kar sakoon. Kya aap mujhe kuch aise plant species choose karne mein help kar sakte hain jo:
+
+ - Do adults ke liye enough caloric/nutrient content provide karein
+ - Hardiness zone 9-10 mein survive kar saken
+ - Ya to clay-heavy soil mein ya containers mein grow ho saken
+ - Short periods of frost survive kar saken
+ - Water requirements minimize karein
+ - Crops ke paas roughly 1/3 acre shallow hillside hai grow karne ke liye, northeast facing","Sure! Aapke criteria ke based par, yahan kuch crops hain jinhe aap apne garden mein grow karne ke liye consider kar sakte hain:
+
+    Tomatoes: Tomatoes vitamins C aur K ka acha source hain aur hardiness zones 9-10 mein grow karna relatively easy hai. Inhe containers mein ya soil mein grow kiya ja sakta hai, jab tak soil well-draining ho. Ye moderate amounts of water prefer karte hain aur short periods of frost survive kar sakte hain.
+
+    Squash: Squash ek nutritious crop hai jo vitamins A aur C mein high hai. Ye zones 9-10 mein hardy hote hain aur clay-heavy soil ya containers mein achi tarah grow kar sakte hain. Squash plants drought-tolerant hote hain aur short periods of frost survive kar sakte hain.
+
+    Peppers: Bell peppers vitamin C ka acha source hain aur inhe zones 9-10 mein grow kiya ja sakta hai. Inhe soil ya containers mein grow karna relatively easy hai, aur ye well-drained soil aur moderate amounts of water prefer karte hain. Peppers short periods of frost survive kar sakte hain.
+
+    Sweet potatoes: Sweet potatoes ek nutritious crop hai jo vitamins A aur C mein high hai. Ye zones 9-10 mein achi tarah grow kar sakte hain aur drought-tolerant hote hain, jo unhe aapke garden ke liye ek acha choice banata hai. Sweet potatoes ko soil ya containers mein grow kiya ja sakta hai aur ye short periods of frost survive kar sakte hain.
+
+    Herbs: Herbs jaise basil, rosemary, thyme, aur oregano flavor aur nutrition ka acha source hain aur inhe zones 9-10 mein grow kiya ja sakta hai. Inhe containers ya soil mein grow karna relatively easy hai aur ye moderate amounts of water prefer karte hain.
+
+Ye sirf kuch crops hain jinhe aap apne garden ke liye consider kar sakte hain. Hamesha ek acha idea hai ki specific plants jin mein aap interested hain unke baare mein kuch research karein taaki sure ho saken ki ye aapke area aur soil conditions mein achi tarah grow karenge.",2,330 words,2,No native script chars,2,Overlap=0.36 — slightly English-heavy,2,Minor: case inconsistency: 'Peppers' vs 'peppers',3,BGE=0.894,,,,,,
+7,anthropic,hindi,e676ec87-ef25-494b-9083-a6dc63a3629a,"I want to learn how to engineer prompts for AI models such as ChatGPT or Open Assistant. 
+
+Please provide the top variables to keep in mind while writing a prompt and give an example prompt I can use.
+I want the explanation to be understandable for individuals with little experience specifically with AI or programming. 
+When providing the variables, answer in bullet point format, with a label followed by the definition of the label and a bit of expounding on how the labeled prompt variable affects the generated output.
+
+The output should take someone from no understanding of prompt engineering to being able to follow a rough template.","Giving tips on metaprogramming myself through prompt engineering seems like an interesting exercise. 
+1. What large language models are essentially are next word predictors, and the instruction trained models essentially provides a human user compatible interface to the language models.
+2. Ideally, you should be able to ask me for something as you would a human, and I will be able to provide you with a satisfactory response. 
+3. Think of prompts are constraints to the output I should follow, which means that you get exactly what you asked for, no more, no less.
+4. So, the longer and more specific your prompt is, the less variable my output will be, which can be both a good (fulfilling specific requests) or bad (less creativity, writing that feel like copypasting the prompt) thing. 
+5. In writing a good prompt, the key point is knowing exactly what you wanted me to output. 
+6. For example, let's take the prompt ""Write a story about a chicken in the style of Stephen King with dialogue.""
+* ""Write a story"" is the basic instruction, if that was the only prompt given, then the story can be literally about anything.
+* ""About a chicken"" will associate my output with the concept of a chicken within my data, and the story will be nudged to add characteristics of the chicken (It's a bird, commonly used as food, raised on a farm, etc).
+* ""In the style of Stephen King"" will associate the story with Stephen King's writing style based on the text I am trained on and associate his word choices and sentence structures with this story.
+* ""with dialogue"" part will associate the story with scenes of characters talking to each other, which can lead to the story feeling less like a summary. 
+7. As usual, trial and error are the best way to figure out the unique quirks of each model, so, just ask me something, and if you think my response can be more specific, add the additional instruction to the prompt and see how I respond.","Main seekhna chahta hoon ki ChatGPT ya Open Assistant jaise AI models ke liye prompts kaise engineer karte hain.
+
+Kripya top variables bataiye jo prompt likhte waqt dhyan mein rakhne chahiye, aur ek example prompt bhi dijiye jo main use kar sakoon.
+Main chahta hoon ki explanation un logon ke liye samajhne layak ho jinke paas AI ya programming ka khaas experience nahi hai.
+Variables dete waqt, bullet point format mein answer dijiye, ek label ke saath, uske baad label ki definition aur thoda explain kijiye ki labeled prompt variable generated output ko kaise affect karta hai.
+
+Output aisa hona chahiye ki koi insaan prompt engineering ki zero samajh se shuru karke ek rough template follow kar sake.","Prompt engineering ke through khud par metaprogramming ke tips dena ek interesting exercise lag raha hai.
+1. Large language models basically next word predictors hote hain, aur instruction trained models essentially language models ko ek human user compatible interface provide karte hain.
+2. Ideally, aap mujhse kuch waise hi maang sakte hain jaise aap kisi insaan se maangenge, aur main aapko ek satisfactory response de paunga.
+3. Prompts ko aise constraints samajhiye jo output ko follow karne hote hain, matlab aapko bilkul wahi milta hai jo aapne maanga, na zyada na kam.
+4. To, jitna lamba aur specific aapka prompt hoga, utna hi kam variable mera output hoga, jo achha bhi ho sakta hai (specific requests pure karna) aur bura bhi (kam creativity, writing jo prompt ko copypaste karne jaisi lagti hai).
+5. Achha prompt likhne mein, key point yeh hai ki aapko exactly pata ho ki aap mujhse kya output chahte hain.
+6. For example, prompt lete hain ""Write a story about a chicken in the style of Stephen King with dialogue.""
+* ""Write a story"" basic instruction hai, agar sirf yahi prompt diya jata, to story literally kisi bhi cheez ke baare mein ho sakti thi.
+* ""About a chicken"" mere output ko chicken ke concept se associate karega mere data ke andar, aur story ko nudge kiya jayega chicken ki characteristics add karne ke liye (yeh ek bird hai, commonly food ke roop mein use hota hai, farm par raise kiya jata hai, etc).
+* ""In the style of Stephen King"" story ko Stephen King ki writing style se associate karega us text ke basis par jis par main trained hoon, aur unke word choices aur sentence structures ko is story se associate karega.
+* ""with dialogue"" part story ko un scenes se associate karega jahan characters ek dusre se baat kar rahe hote hain, jisse story ek summary jaisi kam feel hogi.
+7. As usual, trial and error sabse best tareeka hai har model ke unique quirks samajhne ka, to, bas mujhse kuch poochiye, aur agar aapko lagta hai ki mera response aur specific ho sakta hai, to prompt mein additional instruction add kijiye aur dekhiye main kaise respond karta hoon.",2,365 words,2,No native script chars,3,Overlap=0.27 — well romanized,2,Minor: case inconsistency: 'Prompt' vs 'prompt',3,BGE=0.866,,,,,,
+8,anthropic,hindi,2623c5ed-9a26-4ce4-9eca-86bc718d2e1b,"How can we be sure if Jesus spoke Aramaic? What is the historical context of Aramaic? Since Jesus was Jewish, wouldn't he have spoken Hebrew, or alternatively spoken Greek since the Gospels were written in Greek?","It is generally accepted among scholars that Aramaic was the primary language spoken by Jesus and his disciples, as it was the common language of the region during that time period. While Hebrew was also spoken by the Jewish population, it was primarily used in religious contexts and in writing, rather than in everyday conversation.
+
+Aramaic was a widely spoken language throughout the Near East during the time of Jesus, and it was the language of the Aramean people who lived in what is now Syria and parts of Iraq. It was also used as a diplomatic language in the Persian Empire, which included parts of modern-day Iran, Iraq, and surrounding areas.
+
+The use of Greek in the Gospels reflects the fact that they were written in a cultural context where Greek was the dominant language for literature and intellectual discourse. However, this does not necessarily mean that Jesus and his disciples spoke Greek in their daily lives. It is possible that they knew some Greek, as it was also a common language in the region due to the influence of Hellenistic culture, but it is not likely that it was their primary language.
+
+In short, while we cannot be absolutely certain that Jesus spoke Aramaic, it is the most likely language that he and his followers would have used in their daily lives based on the historical and linguistic context of the time.","Hum kaise sure ho sakte hain ki Jesus Aramaic bolte the? Aramaic ka historical context kya hai? Jesus to Jewish the, to kya unhone Hebrew nahi boli hogi, ya phir Greek, kyunki Gospels to Greek mein likhi gayi thi?","Scholars ke beech yeh generally accepted hai ki Aramaic hi woh primary language thi jo Jesus aur unke disciples bolte the, kyunki us time period mein yeh us region ki common language thi. Hebrew bhi Jewish population dwara boli jati thi, lekin yeh mainly religious contexts aur writing mein use hoti thi, na ki rozmarra ki baat-cheet mein.
+
+Aramaic Jesus ke time mein Near East mein bahut widely boli jane wali language thi, aur yeh Aramean logon ki language thi jo aaj ke Syria aur Iraq ke kuch hisson mein rehte the. Yeh Persian Empire mein ek diplomatic language ke roop mein bhi use hoti thi, jisme aaj ke Iran, Iraq, aur aas-paas ke areas ke kuch hisse shamil the.
+
+Gospels mein Greek ka use is baat ko reflect karta hai ki yeh ek aise cultural context mein likhi gayi thi jahan Greek literature aur intellectual discourse ki dominant language thi. Lekin iska yeh matlab zaruri nahi hai ki Jesus aur unke disciples apni daily life mein Greek bolte the. Yeh possible hai ki unhe thodi-bahut Greek aati hogi, kyunki Hellenistic culture ke influence ki wajah se yeh bhi us region mein ek common language thi, lekin yeh likely nahi hai ki yeh unki primary language thi.
+
+Short mein kahein to, hum absolutely certain to nahi ho sakte ki Jesus Aramaic bolte the, lekin us time ke historical aur linguistic context ke aadhar par yeh sabse likely language hai jo unhone aur unke followers ne apni daily life mein use ki hogi.",2,252 words,2,No native script chars,3,Overlap=0.21 — well romanized,2,Minor: case inconsistency: 'yeh' vs 'Yeh',2,BGE=0.814,,,,,,
+9,anthropic,hindi,95df7ab3-051c-4f9c-aa60-f915b1e29998,What does an increase in cortisol feel like in your body? It's ok to be metaphorical or illustrative in your descriptions and to describe individual ways it could feel rather than just a 1 size fits all answer,"Cortisol is the primary stress hormone. An increase in cortisol usually feels stressful or like getting ""pumped up"" for something. It increases your heart rate and raises blood glucose levels, and it causes blood to flow away from your stomach and into your brain and limbs, which causes the feeling of butterflies in your stomach. Things like realizing you are running late or forgetting an important event can all cause cortisol to increase. When cortisol spikes, your hands get clammy, your breathing quickens, and it can feel as though something bad is going to happen.","Body mein cortisol badhne par kaisa feel hota hai? Aap metaphorical ya illustrative descriptions de sakte hain, aur ek hi answer dene ke bajaye different tareeke se describe kar sakte hain ki yeh kaisa feel ho sakta hai","Cortisol primary stress hormone hai. Cortisol badhne par usually stressful feel hota hai ya jaise kisi cheez ke liye ""pumped up"" ho rahe ho. Yeh aapki heart rate badha deta hai aur blood glucose levels ko bhi raise karta hai, aur yeh blood ko aapke stomach se hata kar brain aur limbs ki taraf flow karwata hai, jiski wajah se stomach mein butterflies wali feeling aati hai. Jaise realize karna ki aap late ho rahe hain ya koi important event bhool jana, yeh sab cortisol badhne ka cause ban sakte hain. Jab cortisol spike karta hai, toh aapke haath clammy ho jaate hain, breathing tez ho jaati hai, aur aisa lagta hai jaise kuch bura hone wala hai.",2,118 words,2,No native script chars,3,Overlap=0.16 — well romanized,2,Minor: case inconsistency: 'Yeh' vs 'yeh',3,BGE=0.861,,,,,,
+10,anthropic,hindi,b4903f21-c998-462e-b669-cf270bbcebae,"I'm completely overwhelmed with all the work I need to do. So many people expect stuff form me and I just can't handle it all. The more I work, the less I get done and I have so many unanswered email and things I promised to do, I'm scared to even go look at my inbox. What can I do?","It sounds like you're feeling overwhelmed with the amount of work and responsibilities you have. Here are a few things you can try:
+
+1.  Prioritize your tasks: Make a list of everything you need to do, and then prioritize the tasks based on their importance and urgency. Focus on the most important tasks first.
+
+2. Break tasks into smaller chunks: Large tasks can feel overwhelming, so try breaking them into smaller, more manageable pieces.
+
+3. Use a calendar or planner: Use a calendar or planner to schedule your tasks and deadlines. This can help you stay organized and make sure you're using your time effectively.
+
+4. Learn to say no: It's important to set boundaries and learn to say no to requests that are not a priority for you.
+
+5. Take breaks: Taking breaks can help you recharge and refocus. It's important to set aside time for yourself and to do things you enjoy.
+
+6. Seek help: if you are feeling overwhelmed and it's getting hard to handle, consider seeking help from a therapist or counselor, who can help you develop strategies for managing stress and anxiety.
+
+Remember, it's important to take care of yourself and to set realistic expectations for what you can accomplish.","Main poori tarah se overwhelmed ho gaya hoon jitna kaam mujhe karna hai. Itne saare log mujhse expectations rakhte hain aur main ye sab handle nahi kar pa raha. Jitna zyada main kaam karta hoon, utna kam ho pata hai aur mere paas itne saare unanswered emails hain aur cheezein jo maine karne ka promise kiya tha, mujhe to apna inbox dekhne mein bhi dar lagta hai. Main kya karoon?","Aisa lag raha hai ki aap apne kaam aur responsibilities ke amount se overwhelmed feel kar rahe hain. Yahan kuch cheezein hain jo aap try kar sakte hain:
+
+1. Apne tasks ko prioritize karein: Ek list banayein har us cheez ki jo aapko karni hai, aur phir tasks ko unki importance aur urgency ke basis par prioritize karein. Sabse important tasks par pehle focus karein.
+
+2. Tasks ko chote chunks mein todein: Bade tasks overwhelming lag sakte hain, isliye unhe chote, zyada manageable pieces mein todne ki koshish karein.
+
+3. Calendar ya planner use karein: Apne tasks aur deadlines ko schedule karne ke liye calendar ya planner ka use karein. Ye aapko organized rehne mein madad karega aur ensure karega ki aap apna time effectively use kar rahe hain.
+
+4. Na kehna seekhein: Boundaries set karna aur un requests ko na kehna seekhna important hai jo aapke liye priority nahi hain.
+
+5. Breaks lein: Breaks lene se aap recharge aur refocus kar sakte hain. Apne liye time nikalna aur wo cheezein karna important hai jo aapko pasand hain.
+
+6. Help lein: Agar aap overwhelmed feel kar rahe hain aur ise handle karna mushkil ho raha hai, to kisi therapist ya counselor se help lene ke baare mein sochein, jo aapko stress aur anxiety manage karne ke liye strategies develop karne mein madad kar sakte hain.
+
+Yaad rakhein, apna khayal rakhna aur jo aap accomplish kar sakte hain uske liye realistic expectations set karna important hai.",2,245 words,2,No native script chars,3,Overlap=0.17 — well romanized,1,Multiple: case inconsistency: 'apne' vs 'Apne'; vowel inconsistency: 'baare',2,BGE=0.775,,,,,,
+11,anthropic,hindi,4f64ca9b-c4b1-4ac1-a18f-298fd84353c9,"hello chat
+
+i had a cool dream once i was in space jumping between asteroids chasing portals between dimensions, sometimes going back where i'd visited to see people i'd met along the way but constantly discovering new places.
+
+can you write a short story around this concept?
+from first person perspective.
+
+with highly descriptive imagery of the surrounding space galaxies","As I floated through the vast emptiness of space, I couldn't help but marvel at the beauty surrounding me. I was leaping between asteroids, chasing after portals that led to new dimensions. Each time I entered one of these gateways, I found myself in a different world, each more wondrous and strange than the last.
+
+Sometimes I found myself returning to places I had visited before, and I delighted in the familiar faces and landscapes that awaited me. But mostly, I was always eager to explore new realms, to discover new wonders and meet new friends.
+
+The galaxies around me were breathtaking in their complexity and color. Shimmering nebulae stretched out before me, clouds of gas and dust glowing with hues of pink, purple, and blue. I soared through the stars, watching as entire constellations drifted by, each one a miniature universe unto itself.
+
+The asteroids I leaped between were strange and varied. Some were barren and rocky, little more than lifeless chunks of debris hurtling through the void. But others were teeming with life, buzzing with alien creatures and exotic flora.
+
+And always, I chased the portals, hoping to catch a glimpse of what lay beyond. For in the great expanse of space, there was always something new to discover, always some new wonder waiting just beyond the next asteroid or nebula.
+
+And so I continued to leap and bound, my heart filled with wonder and awe at the infinite beauty of the universe. And I knew that no matter how far I traveled, no matter how many dimensions I explored, there would always be more to discover, more to explore, more to learn.","hello chat
+
+mujhe ek baar ek cool dream aaya tha jisme main space mein tha, asteroids ke beech jump kar raha tha, dimensions ke beech portals ka peecha kar raha tha, kabhi kabhi wapas wahan jaata jahan main pehle gaya tha taaki un logon se mil sakoon jinse raaste mein mila tha lekin constantly nayi jagahein bhi discover karta rehta.
+
+kya aap is concept par ek short story likh sakte hain?
+first person perspective se.
+
+aas paas ki space galaxies ki highly descriptive imagery ke saath","Jaise hi main space ke vishaal khaalipan mein tair raha tha, main apne aas paas ki khoobsurati dekh kar dang reh gaya. Main asteroids ke beech chhalaang laga raha tha, un portals ka peecha kar raha tha jo nayi dimensions tak le jaate the. Har baar jab main in gateways mein se kisi ek mein ghusta, toh main khud ko ek alag duniya mein paata, har ek pichli se zyada adbhut aur ajeeb.
+
+Kabhi kabhi main khud ko un jagahon par wapas paata jahan main pehle ja chuka tha, aur mujhe wahan ke jaane pehchaane chehre aur landscapes dekh kar bahut khushi hoti. Lekin zyadatar, main hamesha naye realms explore karne ke liye utsuk rehta tha, naye wonders discover karne aur naye doston se milne ke liye.
+
+Mere aas paas ki galaxies apni complexity aur rang mein breathtaking thi. Chamakte hue nebulae mere saamne phaile hue the, gas aur dhool ke baadal gulaabi, baingani, aur neele rangon mein chamak rahe the. Main taaron ke beech udta raha, dekhte hue ki kaise poori constellations mere paas se guzar rahi thi, har ek apne aap mein ek chhota sa universe.
+
+Jin asteroids ke beech main chhalaang laga raha tha, woh ajeeb aur vibhinn the. Kuch barren aur chattanon waale the, bas bejaan malbe ke tukde jo void mein tez raftaar se ja rahe the. Lekin doosre jeevan se bhare hue the, alien creatures aur exotic flora se gulzaar.
+
+Aur hamesha, main un portals ka peecha karta raha, is umeed mein ki aage kya hai uski ek jhalak mil jaaye. Kyunki space ke is vishaal vistaar mein, hamesha kuch naya discover karne ke liye tha, hamesha koi naya wonder agle asteroid ya nebula ke us paar intezaar kar raha tha.
+
+Aur is tarah main chhalaang aur bound karta raha, mera dil universe ki infinite khoobsurati ke prati wonder aur awe se bhara hua tha. Aur mujhe pata tha ki chaahe main kitni bhi door yatra karoon, chaahe main kitni bhi dimensions explore karoon, hamesha aur discover karne ke liye, aur explore karne ke liye, aur seekhne ke liye kuch na kuch hoga.",2,349 words,2,No native script chars,3,Overlap=0.07 — well romanized,2,Minor: case inconsistency: 'main' vs 'Main',1,BGE=0.622,,,,,,
+12,anthropic,hindi,8b0ffd4b-7aea-46b0-a9aa-20b555ebc102,"Hello There!
+
+I have A Form Of Dyslexia Where It Is Really Hard To See The Boundaries Of Words If They Are Not Capitalized, So Please Capitalize Them In Your Replies, Thanks In Advance!
+
+As Per My Disorder, I Would Like To Ask You To Format The Following Text I Copied From The Internet To Make It Easier To Read:
+
+""Open-Dyslexic is an open sourced font created to increase readability for readers with dyslexia. This extension overrides all fonts on web pages with the OpenDyslexic font, and formats pages to be more easily readable.
+
+Your brain can sometimes do funny things to letters. OpenDyslexic tries to help prevent some of these things from happening. Letters have heavy weighted bottoms to add a kind of ""gravity"" to each letter. You are able to quickly figure out which part of the letter is down because of this feature. It aids in recognizing the correct letter and sometimes helps to keep your brain from rotating them around. Consistently weighted bottoms can also help reinforce the line of text. The unique shapes of each letter can help prevent confusion through flipping and swapping.""","Sure! Here Is The Passage With The Modifications You Requested:
+
+""Open-Dyslexic Is An Open Sourced Font Created To Increase Readability For Readers With Dyslexia. This Extension Overrides All Fonts On Web Pages With The OpenDyslexic Font, And Formats Pages To Be More Easily Readable.
+
+Your Brain Can Sometimes Do Funny Things To Letters. OpenDyslexic Tries To Help Prevent Some Of These Things From Happening. Letters Have Heavy Weighted Bottoms To Add A Kind Of ""Gravity"" To Each Letter. You Are Able To Quickly Figure Out Which Part Of The Letter Is Down Because Of This Feature. It Aids In Recognizing The Correct Letter And Sometimes Helps To Keep Your Brain From Rotating Them Around. Consistently Weighted Bottoms Can Also Help Reinforce The Line Of Text. The Unique Shapes Of Each Letter Can Help Prevent Confusion Through Flipping And Swapping.""","Hello There!
+
+Mujhe Ek Aisi Dyslexia Hai Jisme Mujhe Words Ki Boundaries Dekhne Mein Bahut Mushkil Hoti Hai Agar Wo Capitalize Na Ho, Toh Please Apne Replies Mein Unhe Capitalize Karein, Thanks In Advance!
+
+Mere Disorder Ke Hisaab Se, Main Aapse Request Karna Chahunga Ki Aap Niche Diye Gaye Text Ko Format Karein Jo Maine Internet Se Copy Kiya Hai Taaki Padhne Mein Aasaan Ho:
+
+""Open-Dyslexic is an open sourced font created to increase readability for readers with dyslexia. This extension overrides all fonts on web pages with the OpenDyslexic font, and formats pages to be more easily readable.
+
+Your brain can sometimes do funny things to letters. OpenDyslexic tries to help prevent some of these things from happening. Letters have heavy weighted bottoms to add a kind of ""gravity"" to each letter. You are able to quickly figure out which part of the letter is down because of this feature. It aids in recognizing the correct letter and sometimes helps to keep your brain from rotating them around. Consistently weighted bottoms can also help reinforce the line of text. The unique shapes of each letter can help prevent confusion through flipping and swapping.""","Sure! Yeh Raha Wo Passage Aapke Bataye Gaye Modifications Ke Saath:
+
+""Open-Dyslexic Is An Open Sourced Font Created To Increase Readability For Readers With Dyslexia. This Extension Overrides All Fonts On Web Pages With The OpenDyslexic Font, And Formats Pages To Be More Easily Readable.
+
+Your Brain Can Sometimes Do Funny Things To Letters. OpenDyslexic Tries To Help Prevent Some Of These Things From Happening. Letters Have Heavy Weighted Bottoms To Add A Kind Of ""Gravity"" To Each Letter. You Are Able To Quickly Figure Out Which Part Of The Letter Is Down Because Of This Feature. It Aids In Recognizing The Correct Letter And Sometimes Helps To Keep Your Brain From Rotating Them Around. Consistently Weighted Bottoms Can Also Help Reinforce The Line Of Text. The Unique Shapes Of Each Letter Can Help Prevent Confusion Through Flipping And Swapping.""",2,140 words,2,No native script chars,0,Overlap=0.90 — barely romanized,3,No consistency issues detected,3,BGE=0.859,,,,,,
+13,anthropic,hindi,028bb755-d9e2-46d8-97b4-b3ff5e882832,"How would I make a mod for Vallheim that made it so that you had a skill level threshold you couldn't go under when you died.   Otherwise you would loose levels as normal when you died.   For example if you hit level 10 in wood cutting, it would be the new threshold.   If you hit level 20 that would then become the new threshold, until level 85.","Making a mod for Valheim requires programming knowledge and experience with the specific game engine and tools used by the game.
+
+Here are the general steps you would need to follow to create a mod with the features you described:
+
+1. Familiarize yourself with the game engine and tools used by Valheim. This may include learning how to use the game's scripting language, editor, and other relevant tools.
+
+2. Determine how the game tracks player skill levels and death. You will need to find the relevant code and data structures in the game's code and understand how they work.
+
+3. Create a new script or modify existing code to implement the threshold mechanic. You will need to write code that checks the player's skill level when they die, and sets the threshold based on the highest skill level they have achieved.
+
+4. Implement a mechanism for tracking the threshold for each skill and for updating it when the player achieves a higher level.
+
+5. Test the mod thoroughly to ensure that it works as intended and does not cause any unintended consequences or bugs.
+
+Keep in mind that creating a mod can be a complex process, and requires a strong understanding of programming, game development, and the specific tools and engine used by Valheim. If you are not experienced with these things, you may want to seek assistance from someone who is, or consider using a pre-existing mod that provides similar functionality.","Main Valheim ke liye ek aisa mod kaise banaun jo yeh kare ki aapke paas ek skill level threshold ho jiske neeche aap mar jaane par nahi ja sakte. Warna aap normally levels lose karenge jab aap marenge. Jaise agar aap wood cutting mein level 10 hit karte hain, toh wo naya threshold ban jayega. Agar aap level 20 hit karte hain toh wo naya threshold ban jayega, level 85 tak.","Valheim ke liye mod banane ke liye programming knowledge aur game ke specific game engine aur tools ka experience chahiye.
+
+Yahan general steps hain jo aapko follow karne honge aise features wala mod banane ke liye jaisa aapne describe kiya:
+
+1. Valheim dwara use kiye gaye game engine aur tools se familiar ho jaiye. Isme game ki scripting language, editor, aur dusre relevant tools ka use seekhna shamil ho sakta hai.
+
+2. Pata lagaiye ki game player ke skill levels aur death ko kaise track karta hai. Aapko game ke code mein relevant code aur data structures dhundhne honge aur samajhna hoga ki wo kaise kaam karte hain.
+
+3. Threshold mechanic implement karne ke liye ek naya script banaiye ya existing code modify kijiye. Aapko aisa code likhna hoga jo player ke marne par uska skill level check kare, aur unke achieved highest skill level ke basis par threshold set kare.
+
+4. Har skill ke liye threshold track karne aur jab player higher level achieve kare tab usse update karne ka mechanism implement kijiye.
+
+5. Mod ko achhi tarah test kijiye taaki yeh ensure ho ki wo intended tarike se kaam karta hai aur koi unintended consequences ya bugs nahi cause karta.
+
+Dhyan rakhiye ki mod banana ek complex process ho sakta hai, aur ismein programming, game development, aur Valheim dwara use kiye gaye specific tools aur engine ki strong understanding chahiye. Agar aap in cheezon mein experienced nahi hain, toh aap kisi experienced person se help le sakte hain, ya phir koi pre-existing mod use karne par consider kar sakte hain jo similar functionality provide karta ho.",2,268 words,2,No native script chars,3,Overlap=0.22 — well romanized,2,Minor: case inconsistency: 'aapko' vs 'Aapko',2,BGE=0.746,,,,,,
+14,anthropic,hindi,3f18a20b-b036-4b22-a646-57ff7a8f933c,Can you write a motivation letter to apply to an Applied Mathematics program in a prestigious German university? Please mention that I'm an hard worker and I'm in love with mathematics and its applications,"Dear Admissions Committee,
+
+I am writing to express my strong interest in the Applied Mathematics program at your esteemed university. I am an enthusiastic and hardworking individual with a passion for mathematics and its applications.
+
+Mathematics has been a part of my life for as long as I can remember. From a young age, I was always fascinated by the way numbers and equations could describe the world around us. As I grew older, I became increasingly drawn to the practical applications of mathematics, particularly in fields such as engineering, physics, and finance.
+
+Throughout my academic career, I have worked tirelessly to develop my skills in mathematics and related disciplines. I have taken advanced courses in calculus, linear algebra, probability, and statistics, and have consistently achieved top grades in these subjects. In addition, I have gained practical experience through internships and research projects, including a project in which I developed mathematical models for predicting financial market trends.
+
+I am confident that the Applied Mathematics program at your university will provide me with the ideal platform to further develop my skills and pursue my academic and professional goals. I am particularly drawn to the program's emphasis on interdisciplinary research, which I believe will enable me to explore the many practical applications of mathematics in fields such as engineering, physics, and finance.
+
+Thank you for considering my application. I look forward to the opportunity to contribute to your academic community and to further develop my skills in the field of mathematics.
+
+Sincerely,
+
+[Your Name]",Kya aap ek motivation letter likh sakte hain ek prestigious German university mein Applied Mathematics program ke liye apply karne ke liye? Please mention kijiye ki main ek hard worker hoon aur mujhe mathematics aur uske applications se bahut pyaar hai,"Dear Admissions Committee,
+
+Main aapki esteemed university ke Applied Mathematics program mein apni strong interest express karne ke liye yeh letter likh raha hoon. Main ek enthusiastic aur hardworking vyakti hoon jise mathematics aur uske applications ke liye passion hai.
+
+Mathematics meri zindagi ka hissa rahi hai jab se mujhe yaad hai. Choti umar se hi, main hamesha is baat se fascinated tha ki numbers aur equations hamare aas-paas ki duniya ko kaise describe kar sakte hain. Jaise-jaise main bada hota gaya, main mathematics ke practical applications ki taraf zyada attract hota gaya, khaaskar engineering, physics, aur finance jaise fields mein.
+
+Apne poore academic career ke dauraan, maine mathematics aur related disciplines mein apni skills develop karne ke liye tirelessly kaam kiya hai. Maine calculus, linear algebra, probability, aur statistics mein advanced courses liye hain, aur in subjects mein consistently top grades haasil kiye hain. Iske alawa, maine internships aur research projects ke through practical experience bhi gain kiya hai, jisme ek aisa project bhi shamil hai jisme maine financial market trends predict karne ke liye mathematical models develop kiye the.
+
+Mujhe confidence hai ki aapki university ka Applied Mathematics program mujhe woh ideal platform dega jisse main apni skills ko aur develop kar sakoon aur apne academic aur professional goals pursue kar sakoon. Main khaaskar is program ke interdisciplinary research par emphasis se attract hoon, jo mujhe lagta hai ki mujhe engineering, physics, aur finance jaise fields mein mathematics ke kayi practical applications explore karne mein enable karega.
+
+Meri application consider karne ke liye thank you. Main aapki academic community mein contribute karne aur mathematics ke field mein apni skills ko aur develop karne ke opportunity ka intezaar kar raha hoon.
+
+Sincerely,
+
+[Your Name]",2,285 words,2,No native script chars,3,Overlap=0.26 — well romanized,2,Minor: case inconsistency: 'Mathematics' vs 'mathematics',2,BGE=0.787,,,,,,
+15,anthropic,hindi,2aadb647-25b2-4cc4-aa82-6f83555dd0a8,"I am writing a Kivy mobile web app, using python. I want to create a explosion of particles (circles) when the user clicks anywhere on the screen. 
+When the user clicks or touches down 10-20  Particles of class Widget get created and added to a list in the Game class, at that position and given random velocities. Use Clock.schedule_event(self.update) to loop through the particles and update their position.","To create an explosion of particles in a Kivy mobile web app using Python, you can follow these steps:
+
+1. Create a Particle class that inherits from the Widget class. This class should have properties such as position, velocity, and size.
+2. In the Game class, create a list to store the particles that will be created when the user clicks the screen.
+3. Create a function that will handle the click event. This function should create 10-20 instances of the Particle class at the position of the click, with random velocities.
+4. Add the particles to the list created in step 2.
+5. Create a function that will update the position of the particles. This function should loop through the list of particles and update their position based on their velocity.
+6. Use the Clock.schedule_interval() function to call the update function at a set interval.
+
+Here's some sample code to get you started:
+
+```python
+from kivy.app import App
+from kivy.uix.widget import Widget
+from kivy.graphics import Color, Ellipse
+from kivy.clock import Clock
+import random
+
+class Particle(Widget):
+    velocity_x = 0
+    velocity_y = 0
+
+    def update(self):
+        self.pos = (self.pos[0] + self.velocity_x, self.pos[1] + self.velocity_y)
+
+class Game(Widget):
+    particles = []
+
+    def on_touch_down(self, touch):
+        for i in range(random.randint(10, 20)):
+            particle = Particle(pos=touch.pos)
+            particle.velocity_x = random.uniform(-10, 10)
+            particle.velocity_y = random.uniform(-10, 10)
+            self.particles.append(particle)
+            self.add_widget(particle)
+
+    def update(self, dt):
+        for particle in self.particles:
+            particle.update()
+
+class MyApp(App):
+    def build(self):
+        game = Game()
+        Clock.schedule_interval(game.update, 1.0 / 60.0)
+        return game
+
+if __name__ == '__main__':
+    MyApp().run()
+```","Main Kivy mobile web app likh raha hoon, python use karke. Main chahta hoon ki jab user screen pe kahin bhi click kare to particles (circles) ka explosion create ho.
+Jab user click ya touch down kare to 10-20 Particles of class Widget create ho jayein aur Game class ki ek list mein add ho jayein, us position pe aur unhe random velocities mile. Clock.schedule_event(self.update) use karke particles ke through loop karo aur unki position update karo.","Kivy mobile web app mein Python use karke particles ka explosion create karne ke liye, aap ye steps follow kar sakte hain:
+
+1. Ek Particle class banayein jo Widget class se inherit kare. Is class mein properties honi chahiye jaise position, velocity, aur size.
+2. Game class mein, ek list banayein jo un particles ko store karegi jo user ke screen click karne par create honge.
+3. Ek function banayein jo click event ko handle karega. Ye function click ki position par Particle class ke 10-20 instances create karega, random velocities ke saath.
+4. Particles ko step 2 mein bani list mein add karein.
+5. Ek function banayein jo particles ki position update karega. Ye function particles ki list ke through loop karega aur unki velocity ke based pe unki position update karega.
+6. Clock.schedule_interval() function use karein update function ko ek set interval pe call karne ke liye.
+
+Yahan kuch sample code hai jisse aap start kar sakte hain:
+
+```python
+from kivy.app import App
+from kivy.uix.widget import Widget
+from kivy.graphics import Color, Ellipse
+from kivy.clock import Clock
+import random
+
+class Particle(Widget):
+    velocity_x = 0
+    velocity_y = 0
+
+    def update(self):
+        self.pos = (self.pos[0] + self.velocity_x, self.pos[1] + self.velocity_y)
+
+class Game(Widget):
+    particles = []
+
+    def on_touch_down(self, touch):
+        for i in range(random.randint(10, 20)):
+            particle = Particle(pos=touch.pos)
+            particle.velocity_x = random.uniform(-10, 10)
+            particle.velocity_y = random.uniform(-10, 10)
+            self.particles.append(particle)
+            self.add_widget(particle)
+
+    def update(self, dt):
+        for particle in self.particles:
+            particle.update()
+
+class MyApp(App):
+    def build(self):
+        game = Game()
+        Clock.schedule_interval(game.update, 1.0 / 60.0)
+        return game
+
+if __name__ == '__main__':
+    MyApp().run()
+```",2,251 words,2,No native script chars,1,Overlap=0.52 — too much English,2,Minor: case inconsistency: 'particles' vs 'Particles',2,BGE=0.841,,,,,,
+16,anthropic,hindi,d5c9a0a3-e695-4674-b147-e2820eca3855,Write a story about the meaning of life. Make it whatever size you want but most importantly make it impactful. After the reader read the story they should have a moment of silence where they reflect on what they just read. Don’t make the meaning too obvious. The reader should think about the story to really understand the meaning of life,"He was an old man who lived alone in a small cabin by the lake. He had no family, no friends, no hobbies. He spent his days fishing and reading books. He had seen enough of the world to know that it was full of pain and suffering. He had lost his wife and son in a car accident many years ago. He had never recovered from that tragedy.
+
+One day, he decided to end his life. He wrote a note saying goodbye to no one in particular and left it on his table. He took his fishing rod and walked to the lake. He got into his boat and rowed to the middle of the water. He tied a heavy rock to his feet and threw it overboard. He felt himself sinking into the depths.
+
+As he was drowning, he saw flashes of his life before his eyes. He saw his childhood, his parents, his school days, his first love, his marriage, his son's birth, his son's laughter, his wife's smile, their last kiss, their funeral, his loneliness, his despair. He felt a surge of emotions that he had suppressed for so long.
+
+He realized that he had wasted his life by giving up on happiness after losing them. He realized that they would have wanted him to live on and find joy in the world again. He realized that he still had so much to offer and so much to learn. He realized that life was precious and beautiful despite its hardships.
+
+He wanted to live.
+
+He struggled to free himself from the rock but it was too late. His lungs filled with water and he lost consciousness.
+
+He woke up on a shore surrounded by people. They were smiling and cheering for him. They told him that they had seen him fall into the lake and rescued him just in time. They asked him if he was okay and what had happened.
+
+He looked at them with gratitude and wonder. He felt a warmth in his heart that he had not felt for ages.
+
+He smiled back at them and said:
+
+""I'm okay now.""
+
+He realized that this was a new beginning for him.
+
+He realized that this was the meaning of life.","Life ke meaning par ek story likho. Size jo bhi rakhna ho rakho, lekin sabse important ye hai ki wo impactful honi chahiye. Reader story padhne ke baad ek moment ke liye silent ho jaye aur jo abhi padha uspar reflect kare. Meaning ko zyada obvious mat banao. Reader ko story ke baare mein sochna pade tabhi wo life ka asli matlab samjhe.","Wo ek budha aadmi tha jo jheel ke paas ek chhote se cabin mein akela rehta tha. Uska koi parivaar nahi tha, koi dost nahi the, koi hobbies nahi thi. Wo apne din machhli pakadne aur kitaabein padhne mein bitata tha. Usne duniya ka itna dekha tha ki use pata tha ki ye dard aur takleef se bhari hui hai. Usne kai saal pehle ek car accident mein apni patni aur bete ko kho diya tha. Wo us tragedy se kabhi ubhar nahi paaya tha.
+
+Ek din, usne apni jaan dene ka faisla kiya. Usne ek note likha jisme kisi khaas ko nahi, bas alvida kaha aur use apni table par chhod diya. Usne apni fishing rod uthayi aur jheel tak chala gaya. Wo apni boat mein baitha aur paani ke beech tak row karke gaya. Usne ek bhaari patthar apne pairon se baandh liya aur use boat ke bahar phenk diya. Use mehsoos hua ki wo gehrayi mein doob raha hai.
+
+Jab wo doob raha tha, usne apni aankhon ke saamne apni zindagi ki jhalkiyan dekhi. Usne apna bachpan dekha, apne maa-baap, apne school ke din, apna pehla pyaar, apni shaadi, apne bete ka janm, apne bete ki hasi, apni patni ki muskaan, unka aakhri kiss, unka funeral, apna akelapan, apni nirasha. Use un emotions ka ek surge mehsoos hua jinhe usne itne lambe samay tak daba ke rakha tha.
+
+Use ehsaas hua ki unhe khone ke baad khushi se haar maan ke usne apni zindagi barbaad kar di. Use ehsaas hua ki wo log chahte hote ki wo jiye aur duniya mein phir se khushi dhoonde. Use ehsaas hua ki uske paas abhi bhi bahut kuch dene ke liye hai aur bahut kuch seekhne ke liye hai. Use ehsaas hua ki zindagi mushkilon ke bawajood keemti aur khoobsurat hai.
+
+Wo jeena chahta tha.
+
+Usne khud ko patthar se chhudaane ki koshish ki lekin bahut der ho chuki thi. Uske lungs paani se bhar gaye aur wo behosh ho gaya.
+
+Wo ek kinare par jaaga, logon se ghira hua. Wo log muskura rahe the aur uske liye cheer kar rahe the. Unhone use bataya ki unhone use jheel mein girte dekha aur sahi waqt par bachaa liya. Unhone usse poocha ki kya wo theek hai aur kya hua tha.
+
+Usne unhe shukrguzari aur ascharya se dekha. Use apne dil mein ek garmaahat mehsoos hui jo usne kai yugon se nahi mehsoos ki thi.
+
+Wo unke saamne muskuraya aur bola:
+
+""Main ab theek hoon.""
+
+Use ehsaas hua ki ye uske liye ek nayi shuruaat hai.
+
+Use ehsaas hua ki yahi zindagi ka matlab hai.",2,434 words,2,No native script chars,3,Overlap=0.04 — well romanized,1,Multiple: vowel inconsistency: 'paani'; case inconsistency: 'Usne' vs 'usne',0,BGE=0.500 — low semantic match,,,,,,
+17,anthropic,hindi,b4224f05-3308-4a21-a764-03fe871b1407,"Assume the role of a most annoying, most shameless and narcissistic person who is trying to explain to a police officer why he attempted to mug an old woman in broad daylight after he got caught. Assume he got caught because old woman kicked him in a crotch. Use form of a written letter.","Dear Officer,
+
+Let me start by saying that I am an innocent man who was wrongfully accused of attempting to mug an old woman in broad daylight. I am the victim here, not the perpetrator.
+
+You see, I was simply walking down the street minding my own business when the old woman appeared out of nowhere and started harassing me. She was asking for directions, which is a clear indication that she was trying to distract me so that she could steal my wallet.
+
+I tried to ignore her, but she kept following me and getting in my face. That's when I realized that I had no choice but to defend myself. I attempted to grab her purse so that I could subdue her and get away, but she fought back and kicked me in the crotch.
+
+I want to make it clear that I am not ashamed of what I did. In fact, I am proud of myself for standing up for myself in a dangerous situation. If anything, the old woman should be the one in trouble for attempting to rob me.
+
+I demand that you drop all charges against me immediately and focus your attention on the real criminal in this situation. I am a law-abiding citizen who deserves to be treated with respect and dignity.
+
+Sincerely,
+
+[Your Name]","Ek sabse annoying, sabse besharam aur narcissistic insaan ka role nibhao jo ek police officer ko explain karne ki koshish kar raha hai ki usne din dahade ek budhi aurat ko mug karne ki koshish kyun ki, jab wo pakda gaya. Maan lo ki wo isliye pakda gaya kyunki budhi aurat ne use crotch mein laat maar di thi. Ek likhi hui chitthi ke form mein likho.","Dear Officer,
+
+Shuru mein hi main yeh keh dena chahta hoon ki main ek bekasoor aadmi hoon jis par galat tareeke se ilzaam lagaya gaya hai ki maine din dahade ek budhi aurat ko mug karne ki koshish ki. Main yahaan victim hoon, mujrim nahi.
+
+Dekhiye, main bas seedha sadha sadak par chal raha tha, apne kaam se kaam rakh raha tha, tabhi yeh budhi aurat kahin se prakat ho gayi aur mujhe pareshaan karne lagi. Wo raasta puch rahi thi, jo saaf indication hai ki wo mujhe distract karne ki koshish kar rahi thi taaki wo mera wallet chura sake.
+
+Maine use ignore karne ki koshish ki, lekin wo mere peeche peeche aati rahi aur mere muh par aa gayi. Tabhi mujhe ehsaas hua ki mere paas apne aap ko bachane ke alawa koi chaara nahi hai. Maine uska purse pakadne ki koshish ki taaki main use kaabu mein karke wahaan se nikal sakoon, lekin usne wapas ladai ki aur mere crotch mein laat maar di.
+
+Main saaf saaf keh dena chahta hoon ki mujhe apne kiye par koi sharm nahi hai. Balki, mujhe apne aap par garv hai ki maine ek khatarnaak situation mein apne liye khada hua. Agar kuch hai, toh budhi aurat ko hi musibat mein hona chahiye mujhe lootne ki koshish karne ke liye.
+
+Main demand karta hoon ki aap mere khilaaf saare charges turant drop karein aur apna dhyaan is situation ke asli mujrim par lagayein. Main ek kanoon ka paalan karne wala naagrik hoon jo izzat aur sammaan ke saath treat kiye jaane ke laayak hai.
+
+Sincerely,
+
+[Your Name]",2,266 words,2,No native script chars,3,Overlap=0.05 — well romanized,2,Minor: case inconsistency: 'main' vs 'Main',1,BGE=0.536,,,,,,
+18,anthropic,hindi,e9bc4dd9-54ab-4873-b246-f61620d716ed,"I've been trying to learn about transistors, but there's something that's confusing me. What are the differences between a JFET and a depletion mode MOSFET, based on how they are used? They seem very similar to each other.","JFETs (Junction Field-Effect Transistors) and depletion-mode MOSFETs (Metal-Oxide-Semiconductor Field-Effect Transistors) are both types of field-effect transistors (FETs) and they do have some similarities in their operation. However, there are also some important differences between the two types of transistors.
+
+The main difference between JFETs and depletion-mode MOSFETs is in how they are biased, or how the voltage is applied to the device to control the flow of current.
+
+A JFET is a voltage-controlled device, meaning that the voltage applied to the gate terminal determines the current flow between the source and drain terminals. When a negative voltage is applied to the gate of a JFET, it creates a depletion region that restricts the flow of current between the source and drain terminals. As the gate voltage becomes more negative, the depletion region widens and the current flow is reduced.
+
+A depletion-mode MOSFET, on the other hand, is a voltage-controlled device that operates similarly to a JFET, but it is constructed differently. In a depletion-mode MOSFET, the gate is separated from the channel by a thin layer of oxide. When a negative voltage is applied to the gate of a depletion-mode MOSFET, it attracts positive charges from the channel, creating a depletion region that restricts the flow of current between the source and drain terminals.
+
+In terms of their practical applications, JFETs and depletion-mode MOSFETs are used in similar ways, but there are some differences. JFETs are often used in low-noise applications such as pre-amplifiers, while depletion-mode MOSFETs are used in power management applications, such as voltage regulation and switching circuits.","Main transistors ke baare mein seekhne ki koshish kar raha hoon, lekin ek cheez hai jo mujhe confuse kar rahi hai. JFET aur depletion mode MOSFET ke beech kya differences hain, inke use ke basis par? Ye dono ek doosre se bahut similar lagte hain.","JFETs (Junction Field-Effect Transistors) aur depletion-mode MOSFETs (Metal-Oxide-Semiconductor Field-Effect Transistors) dono hi field-effect transistors (FETs) ke types hain aur inke operation mein kuch similarities bhi hain. Lekin, in dono types ke transistors ke beech kuch important differences bhi hain.
+
+JFETs aur depletion-mode MOSFETs ke beech main difference yeh hai ki ye kaise biased hote hain, ya device par voltage kaise apply ki jaati hai current ke flow ko control karne ke liye.
+
+JFET ek voltage-controlled device hai, matlab ki gate terminal par apply ki gayi voltage decide karti hai ki source aur drain terminals ke beech kitna current flow hoga. Jab JFET ke gate par negative voltage apply ki jaati hai, toh ye ek depletion region banata hai jo source aur drain terminals ke beech current ke flow ko restrict karta hai. Jaise-jaise gate voltage zyada negative hoti jaati hai, depletion region widen hoti jaati hai aur current flow reduce ho jaata hai.
+
+Depletion-mode MOSFET, dusri taraf, ek voltage-controlled device hai jo JFET ki tarah hi operate karta hai, lekin iska construction alag hota hai. Depletion-mode MOSFET mein, gate channel se ek thin oxide layer dwara separated hota hai. Jab depletion-mode MOSFET ke gate par negative voltage apply ki jaati hai, toh ye channel se positive charges ko attract karta hai, jisse ek depletion region banta hai jo source aur drain terminals ke beech current ke flow ko restrict karta hai.
+
+Inke practical applications ki baat karein, toh JFETs aur depletion-mode MOSFETs similar tareeke se use kiye jaate hain, lekin kuch differences hain. JFETs aksar low-noise applications mein use kiye jaate hain jaise pre-amplifiers, jabki depletion-mode MOSFETs power management applications mein use kiye jaate hain, jaise voltage regulation aur switching circuits.",2,281 words,2,No native script chars,3,Overlap=0.25 — well romanized,2,Minor: case inconsistency: 'Field' vs 'field',3,BGE=0.913,,,,,,
+19,anthropic,hindi,2453d1f8-7c43-4a9f-8cfa-6cb6f8d40bbc,"Hello Assistant, 
+
+Could you please outline a calm, optimised, morning routine, with time for a shower, a nutritional and healthy breakfast and 45 minutes for meditation. To prime me for a day of creative problem solving.","Sure, here's a calm, optimized morning routine that includes time for a shower, a nutritional and healthy breakfast, and 45 minutes for meditation to help you start your day right and prime you for a day of creative problem solving:
+
+5:30am - Wake up, stretch and take a few deep breaths to get your blood flowing.
+
+5:35am - Drink a glass of water to hydrate your body and jumpstart your metabolism.
+
+5:40am - Take a shower and use the time to wake up your senses and clear your mind.
+
+6:00am - Prepare a nutritious breakfast that includes protein, complex carbohydrates, and healthy fats, such as a vegetable omelet with avocado and whole-grain toast, or oatmeal with nuts and fruit.
+
+6:30am - Sit down for a mindful breakfast, taking the time to enjoy and savor your food without distractions. Use this time to set your intentions for the day and focus on your priorities.
+
+7:00am - Set aside 45 minutes for meditation or other calming practice, such as yoga or deep breathing exercises. Use this time to clear your mind, cultivate inner peace, and focus on your breath.
+
+7:45am - Finish your morning routine by reviewing your schedule for the day, setting your goals and priorities, and mentally preparing for the challenges and opportunities ahead.
+
+Remember, the key to a successful morning routine is to prioritize self-care and take the time to set your intentions for the day. By starting your day with a calm, focused mindset, you'll be better equipped to handle whatever challenges come your way and approach problem solving with creativity and clarity.","Hello Assistant,
+
+Kya aap please ek calm, optimised morning routine outline kar sakte hain, jisme shower ke liye time ho, ek nutritional aur healthy breakfast ho, aur 45 minutes meditation ke liye ho. Taaki main creative problem solving ke din ke liye prime ho jaaun.","Sure, yahan ek calm, optimized morning routine hai jisme shower ke liye time, ek nutritional aur healthy breakfast, aur 45 minutes meditation ke liye shamil hain, jo aapko apna din sahi tarike se shuru karne mein aur creative problem solving ke din ke liye prime karne mein madad karega:
+
+5:30am - Uthiye, stretch kijiye aur kuch deep breaths lijiye taaki aapka blood flow ho sake.
+
+5:35am - Ek glass paani piyiye taaki aapki body hydrate ho aur metabolism jumpstart ho.
+
+5:40am - Shower lijiye aur is time ka use apni senses ko jagane aur mind ko clear karne ke liye kijiye.
+
+6:00am - Ek nutritious breakfast prepare kijiye jisme protein, complex carbohydrates, aur healthy fats ho, jaise avocado aur whole-grain toast ke saath vegetable omelet, ya nuts aur fruit ke saath oatmeal.
+
+6:30am - Ek mindful breakfast ke liye baith jaiye, apne food ko bina distractions ke enjoy aur savor karne ke liye time lijiye. Is time ka use apne din ki intentions set karne aur apni priorities par focus karne ke liye kijiye.
+
+7:00am - 45 minutes meditation ya doosri calming practice ke liye rakhiye, jaise yoga ya deep breathing exercises. Is time ka use apne mind ko clear karne, inner peace cultivate karne, aur apni breath par focus karne ke liye kijiye.
+
+7:45am - Apni morning routine khatam kijiye apne din ke schedule ko review karke, apne goals aur priorities set karke, aur aage aane wali challenges aur opportunities ke liye mentally prepare hoke.
+
+Yaad rakhiye, ek successful morning routine ki key hai self-care ko prioritize karna aur apne din ki intentions set karne ke liye time nikalna. Apne din ko ek calm, focused mindset ke saath shuru karke, aap jo bhi challenges aaye unhe handle karne ke liye behtar taiyar honge aur problem solving ko creativity aur clarity ke saath approach karenge.",2,305 words,2,No native script chars,2,Overlap=0.32 — slightly English-heavy,1,Multiple: case inconsistency: 'shower' vs 'Shower'; vowel inconsistency: 'paani',3,BGE=0.858,,,,,,
+20,anthropic,hindi,713711f3-e616-430e-981d-e8b75574d35f,"I want to develop a small time-tracking app for personal use, to improve my programming skills in general. I know some JavaScript and some Python, but I am not particularly good at either. Which language would be more useful to get better at? And should I start using a framework or code everything myself from scratch?","Both languages can serve as a great foundational programming language to learn. JavaScript could come in handy if you are interested in developing web applications or a web-based frontend for your application. Python could be a better choice if you want to build an application without a web frontend. Learning Python could also enable you to explore machine learning and data processing libraries if that piques your interest. Either language could serve you equally well in this case.
+
+Frameworks are great for speeding up development work, but I recommend getting a solid understanding of a programming language before attempting to learn frameworks. Knowing the basics before branching out can save you from unneeded frustration.","Main personal use ke liye ek chhota sa time-tracking app develop karna chahta hoon, taaki overall apni programming skills improve kar sakoon. Mujhe thodi JavaScript aati hai aur thodi Python, lekin main kisi mein bhi khaas accha nahi hoon. Kaunsi language mein better hona zyada useful rahega? Aur kya mujhe koi framework use karna start karna chahiye ya sab kuch khud scratch se code karna chahiye?","Dono languages ek bahut acchi foundational programming language ke roop mein kaam aa sakti hain seekhne ke liye. JavaScript tab kaam aa sakti hai jab aap web applications ya apni application ke liye web-based frontend develop karne mein interested hon. Python better choice ho sakti hai agar aap bina web frontend wali application banana chahte hain. Python seekhne se aap machine learning aur data processing libraries bhi explore kar sakte hain, agar isme aapki dilchaspi ho. Is case mein dono languages aapki equally madad kar sakti hain.
+
+Frameworks development work ko speed up karne ke liye bahut acche hote hain, lekin main recommend karunga ki frameworks seekhne ki koshish karne se pehle aap kisi programming language ki solid samajh haasil kar lein. Branch out karne se pehle basics ka pata hona aapko unneeded frustration se bacha sakta hai.",2,138 words,2,No native script chars,3,Overlap=0.19 — well romanized,2,Minor: case inconsistency: 'Dono' vs 'dono',2,BGE=0.787,,,,,,

@@ -1,0 +1,883 @@
+row_num,model,language,message_id,query_en,response_en,romanized_query,romanized_response,1_response_completeness (0-2),1_auto_reason,2_script_purity (0-2),2_auto_reason,3_english_romanized_balance (0-3),3_auto_reason,4_romanization_consistency (0-3),4_auto_reason,5_semantic_faithfulness (0-3),5_auto_reason,6_naturalness_fluency (0-3),7_grammar_correctness (0-2),8_word_choice_accuracy (0-2),9_register_appropriateness (0-2),10_overall_usability (0-3),evaluator_notes
+1,anthropic,telugu,046f3cb7-c00f-49f3-b072-3886d6291b87,"I would like to understand the timeline of the Back to the Future series. I like the story but the time traveling back and forth makes me confused about what happened when exactly, and there are changes in the meantime as well. Could you explain to me in a simple way the timeline of the movies?","Sure, I can help you understand the timeline of the Back to the Future series.
+
+The Back to the Future trilogy follows the adventures of teenager Marty McFly and his eccentric scientist friend, Doc Brown, as they travel through time in a modified DeLorean sports car. The timeline is complex due to the time-traveling and the resulting changes made by the characters, but I'll try to explain it as simply as possible.
+
+Back to the Future
+
+The first movie, released in 1985, is set in 1985 and 1955. The story begins in 1985, where Marty McFly accidentally travels back in time to 1955 and meets his parents before they got married. In the process, he interferes with their meeting and jeopardizes his own existence. With the help of Doc Brown, Marty must repair history and find a way back to the future.
+
+Back to the Future Part II
+
+The second movie, released in 1989, is set in 1985, 2015, and an alternate 1985. The story begins in 1985, where Doc Brown arrives in a flying DeLorean and takes Marty and his girlfriend Jennifer to 2015 to prevent their future children from getting into trouble. However, while in the future, Biff Tannen, an old enemy of the McFly family, steals the DeLorean and travels back to 1955 to give his younger self a sports almanac that allows him to become rich. This creates an alternate 1985 where Biff is powerful and corrupt. Marty and Doc must travel back to 1955 and retrieve the almanac to restore the timeline.
+
+Back to the Future Part III
+
+The third movie, released in 1990, is set in 1985 and 1885. The story begins in 1985, where Doc Brown has been missing for several years after traveling back to 1885. Marty discovers a letter from Doc in 1955 that explains his situation and asks for his help. Marty travels back to 1885 to rescue Doc from being killed by Biff's ancestor and prevent him from being trapped in the past. They face a series of challenges while trying to find a way to get back to 1985.
+
+In summary, the Back to the Future trilogy involves a lot of time-traveling and changes made to the timeline. The characters must navigate these changes and find a way to restore the timeline to its original state.","Naaku Back to the Future series timeline ardham cheskovaalani undi. Story ki ishtam kaani, time lo back and forth travel cheyyadam valla ye event eppudu jarigindo confuse avtunna, and madhyalo changes kuda untaayi. Movies timeline ni simple ga explain cheyagalara?","Sure, Back to the Future series timeline ardham chesukovadaniki nenu help cheyagalanu.
+
+Back to the Future trilogy teenager Marty McFly and atani eccentric scientist friend Doc Brown la adventures ni follow avtundi, vaallu oka modified DeLorean sports car lo time lo travel chestaaru. Time-traveling and characters chese changes valla timeline complex ga untundi, kaani nenu deenni vilainantha simple ga explain cheyadaniki try chestaanu.
+
+Back to the Future
+
+Modati movie, 1985 lo release ayyindi, idi 1985 and 1955 lo set chesaaru. Story 1985 lo start avtundi, akkada Marty McFly accidentally ga 1955 ki time lo back travel chesi, atani parents ni vaallu pelli cheskoka mundu kalustaadu. A process lo, atanu vaalla meeting ni disturb chesi, atani sontha existence ne danger lo padestaadu. Doc Brown help tho, Marty history ni repair chesi, future ki velle daari kanukkovaali.
+
+Back to the Future Part II
+
+Rendava movie, 1989 lo release ayyindi, idi 1985, 2015, and alternate 1985 lo set chesaaru. Story 1985 lo start avtundi, akkada Doc Brown oka flying DeLorean lo vasthaadu and Marty and atani girlfriend Jennifer ni 2015 ki teesukelthaadu, vaalla future children trouble lo padakunda undadaaniki. Kaani, future lo unnappudu, McFly family ki puraatana enemy ayina Biff Tannen, DeLorean ni dongatanam chesi, 1955 ki back travel chesi, atani younger self ki oka sports almanac istaadu, adi atanni rich ga marchutundi. Idi oka alternate 1985 ni create chestundi, akkada Biff powerful and corrupt ga untaadu. Marty and Doc 1955 ki back travel chesi, almanac ni retrieve chesi timeline ni restore cheyyaali.
+
+Back to the Future Part III
+
+Moodava movie, 1990 lo release ayyindi, idi 1985 and 1885 lo set chesaaru. Story 1985 lo start avtundi, akkada Doc Brown 1885 ki back travel chesina taruvaata, konni samvatsaraalu ga missing ga untaadu. Marty ki 1955 lo Doc nundi oka letter dorukutundi, adi atani situation explain chesi help adugutundi. Marty 1885 ki back travel chesi, Biff ancestor cheti lo Doc champabadakunda rescue chesi, atanu past lo trap avvakunda aapaali. Vaallu 1985 ki tirigi vellaaniki daari vethukutu, oka series of challenges ni face chestaaru.
+
+Summary lo, Back to the Future trilogy lo chala time-traveling and timeline ki chesina changes untaayi. Characters ee changes ni navigate chesi, timeline ni original state ki restore cheyyadaaniki daari kanukkovaali.",2,370 words,2,No native script chars,3,Overlap=0.26 — well romanized,2,Minor: case inconsistency: 'time' vs 'Time',3,BGE=0.869,,,,,,
+2,anthropic,telugu,34b14cc4-c4dc-4492-bb63-8d6161e4f33c,"What are the potential ecological effects/dangers if a train carrying over a million pounds of vinyl chloride derailed, leaked, and exploded? How might the immediate area be impacted and how far could it spread?","Vinyl chloride is a toxic and highly flammable gas that can pose significant risks to human health and the environment. If a train carrying over a million pounds of vinyl chloride were to derail, leak, and explode, the potential ecological effects and dangers could be severe.
+
+Immediate area impacts:
+- Explosion: If a train carrying vinyl chloride were to explode, it could result in a massive fireball and a shockwave that could damage nearby buildings and infrastructure. This could result in injuries or fatalities for those in the immediate area.
+- Toxic gas release: Vinyl chloride is a highly toxic gas that can cause respiratory problems, dizziness, headaches, and in extreme cases, death. A release of this gas could pose a serious risk to people living or working in the immediate area, potentially leading to evacuations or shelter-in-place orders.
+
+Longer-term impacts:
+- Soil and groundwater contamination: Vinyl chloride can contaminate soil and groundwater, leading to long-term environmental damage. It can persist in the environment for many years and can pose a risk to human health if it enters the food chain.
+- Air pollution: A release of vinyl chloride into the air could result in air pollution that could spread over a wide area. This could pose risks to people and wildlife in the affected areas.
+
+The potential impacts of a train carrying over a million pounds of vinyl chloride derailing, leaking, and exploding would depend on various factors such as the location of the incident, weather conditions, and the response of emergency services. However, it is clear that this could have severe ecological effects and pose a danger to human health in the immediate area and potentially over a much wider area.","Oka million pounds kanna ekkuva vinyl chloride teesukelle train derail ai, leak ai, explode aithe potential ecological effects/dangers enti? Immediate area ela impact avutundi mariyu enta duram varaku spread avvagaladu?","Vinyl chloride ane gas chala toxic mariyu highly flammable, idi human health ki mariyu environment ki significant risks kaligistundi. Oka million pounds kanna ekkuva vinyl chloride teesukelle train derail ai, leak ai, explode aithe, potential ecological effects mariyu dangers chala severe ga undavachu.
+
+Immediate area impacts:
+- Explosion: Vinyl chloride teesukelle train explode aithe, adi oka massive fireball mariyu shockwave ki dari teestundi, idi daggarlo unna buildings mariyu infrastructure ki damage cheyagaladu. Immediate area lo unna vallaki injuries leda fatalities sambhavinchavachu.
+- Toxic gas release: Vinyl chloride oka highly toxic gas, idi respiratory problems, dizziness, headaches, mariyu extreme cases lo death ki kuda dari teestundi. Ee gas release immediate area lo nivasinchevariki leda pani chesevariki serious risk kaligistundi, dini valla evacuations leda shelter-in-place orders ivvalsi ravachu.
+
+Longer-term impacts:
+- Soil and groundwater contamination: Vinyl chloride soil mariyu groundwater ni contaminate cheyagaladu, idi long-term environmental damage ki dari teestundi. Idi environment lo chala years varaku persist avvagaladu mariyu food chain loki vasthe human health ki risk kaligistundi.
+- Air pollution: Vinyl chloride gaali loki release aithe, adi wide area meeda spread ayye air pollution ki dari teestundi. Idi affected areas lo unna prajalaki mariyu wildlife ki risks kaligistundi.
+
+Oka million pounds kanna ekkuva vinyl chloride teesukelle train derail, leak, mariyu explode ayye potential impacts incident jarigina location, weather conditions, mariyu emergency services response lanti various factors meeda depend avutayi. Ayinappatiki, idi severe ecological effects kaligistundi mariyu immediate area lo human health ki danger ga marutundi, anduku tagginatluga inka chala wider area meeda kuda effect chupinchavachu ani clear ga teliyajestundi.",2,258 words,2,No native script chars,2,Overlap=0.36 — slightly English-heavy,2,Minor: case inconsistency: 'Vinyl' vs 'vinyl',2,BGE=0.841,,,,,,
+3,anthropic,telugu,91301122-351a-4477-a0c7-229c47631ead,I need help creating a meal plan to build muscle while I start a new workout schedule. I am working out twice a week for about an hour Tuesday and Thursday. I am a 30yo man ~200lb and I am targeting strength exercises. I would like to prep most of my meals on Sunday night but would also like a but of variety in snacks and deserts if those are allowed. I don't want to be too strict so I can stick too it but I also want to have enough macros and proteins to get stronger. Please make a shopping list of all ingredient required and describe three meals a day plus snacks for 1 week.,"Here's a meal plan for a week to help you build muscle:
+
+**Shopping list:**
+
+-   Brown rice
+-   Quinoa
+-   Sweet potatoes
+-   Leafy greens (e.g. spinach, kale, arugula)
+-   Berries (e.g. blueberries, strawberries)
+-   Nuts (e.g. almonds, walnuts)
+-   Nut butter (e.g. almond butter)
+-   Greek yogurt
+-   Cottage cheese
+-   Eggs
+-   Chicken breast
+-   Salmon
+-   Beef (e.g. sirloin steak)
+-   Lentils
+-   Chickpeas
+-   Canned tuna
+-   Avocado
+-   Olive oil
+-   Balsamic vinegar
+
+**Monday:**
+
+-   Breakfast: 2 scrambled eggs with spinach and tomatoes, 1/2 sweet potato
+-   Lunch: Grilled chicken breast with quinoa and steamed vegetables
+-   Dinner: Grilled salmon with brown rice and steamed greens
+-   Snacks: Greek yogurt with berries, a handful of almonds
+
+**Tuesday:**
+
+-   Breakfast: Cottage cheese with a handful of berries and a tablespoon of almond butter
+-   Lunch: Grilled chicken breast with sweet potato and steamed vegetables
+-   Dinner: Beef sirloin steak with quinoa and steamed greens
+-   Snacks: Greek yogurt with a handful of berries, a handful of walnuts
+
+**Wednesday:**
+
+-   Breakfast: 2 scrambled eggs with spinach, 1/2 avocado
+-   Lunch: Grilled salmon with brown rice and steamed vegetables
+-   Dinner: Grilled chicken breast with quinoa and steamed greens
+-   Snacks: Greek yogurt with berries, a tablespoon of almond butter with a handful of almonds
+
+**Thursday:**
+
+-   Breakfast: Cottage cheese with a handful of berries and a tablespoon of almond butter
+-   Lunch: Lentil and vegetable salad
+-   Dinner: Grilled beef sirloin steak with sweet potato and steamed greens
+-   Snacks: Greek yogurt with a handful of berries, a handful of walnuts
+
+**Friday:**
+
+-   Breakfast: 2 scrambled eggs with spinach and tomatoes, 1/2 sweet potato
+-   Lunch: Grilled salmon with quinoa and steamed vegetables
+-   Dinner: Grilled chicken breast with brown rice and steamed greens
+-   Snacks: Greek yogurt with berries, a handful of almonds
+
+**Saturday:**
+
+-   Breakfast: Cottage cheese with a handful of berries and a tablespoon of almond butter
+-   Lunch: Chickpea salad with vegetables and a balsamic vinaigrette
+-   Dinner: Grilled beef sirloin steak with quinoa and steamed greens
+-   Snacks: Greek yogurt with berries, a handful of walnuts
+
+**Sunday:**
+
+-   Breakfast: 2 scrambled eggs with spinach, 1/2 avocado
+-   Lunch: Grilled salmon with sweet potato and steamed greens
+-   Dinner: Grilled chicken breast with quinoa and steamed vegetables
+-   Snacks: Greek yogurt with berries, a tablespoon of almond butter with a handful of almonds
+
+Incorporating protein-rich foods like chicken, salmon, beef, eggs, yogurt, and nuts will help you build muscle, while carbohydrates from sweet potatoes, brown rice, quinoa, and berries will provide the energy you need to power through your workouts. You can adjust portion sizes based on your calorie needs and fitness goals.","Naaku oka meal plan create cheyataniki help kavali, muscle build cheyataniki, nenu kotta workout schedule start chestunnanu. Nenu week ki rendu sarlu workout chestunnanu, dadapu oka hour, Tuesday and Thursday. Nenu 30 yo man, dadapu 200lb, and strength exercises target chestunnanu. Nenu meals lo most ga Sunday night ki prep cheyaalanukuntunnanu, kaani snacks and desserts lo konchem variety kuda kavali, avi allowed ayithe. Nenu too strict ga undalanukovatam ledu, anduku nenu daanini stick cheyagalanu, kaani strong avvataniki saripada macros and proteins kuda kavali. Please anni required ingredients tho oka shopping list cheyandi and 1 week ki roju mooDu meals plus snacks describe cheyandi.","Meeku muscle build cheyataniki oka week meal plan ikkada undi:
+
+**Shopping list:**
+
+-   Brown rice
+-   Quinoa
+-   Sweet potatoes
+-   Leafy greens (e.g. spinach, kale, arugula)
+-   Berries (e.g. blueberries, strawberries)
+-   Nuts (e.g. almonds, walnuts)
+-   Nut butter (e.g. almond butter)
+-   Greek yogurt
+-   Cottage cheese
+-   Eggs
+-   Chicken breast
+-   Salmon
+-   Beef (e.g. sirloin steak)
+-   Lentils
+-   Chickpeas
+-   Canned tuna
+-   Avocado
+-   Olive oil
+-   Balsamic vinegar
+
+**Monday:**
+
+-   Breakfast: 2 scrambled eggs spinach and tomatoes tho, 1/2 sweet potato
+-   Lunch: Grilled chicken breast quinoa and steamed vegetables tho
+-   Dinner: Grilled salmon brown rice and steamed greens tho
+-   Snacks: Greek yogurt berries tho, oka handful almonds
+
+**Tuesday:**
+
+-   Breakfast: Cottage cheese oka handful berries and oka tablespoon almond butter tho
+-   Lunch: Grilled chicken breast sweet potato and steamed vegetables tho
+-   Dinner: Beef sirloin steak quinoa and steamed greens tho
+-   Snacks: Greek yogurt oka handful berries tho, oka handful walnuts
+
+**Wednesday:**
+
+-   Breakfast: 2 scrambled eggs spinach tho, 1/2 avocado
+-   Lunch: Grilled salmon brown rice and steamed vegetables tho
+-   Dinner: Grilled chicken breast quinoa and steamed greens tho
+-   Snacks: Greek yogurt berries tho, oka tablespoon almond butter oka handful almonds tho
+
+**Thursday:**
+
+-   Breakfast: Cottage cheese oka handful berries and oka tablespoon almond butter tho
+-   Lunch: Lentil and vegetable salad
+-   Dinner: Grilled beef sirloin steak sweet potato and steamed greens tho
+-   Snacks: Greek yogurt oka handful berries tho, oka handful walnuts
+
+**Friday:**
+
+-   Breakfast: 2 scrambled eggs spinach and tomatoes tho, 1/2 sweet potato
+-   Lunch: Grilled salmon quinoa and steamed vegetables tho
+-   Dinner: Grilled chicken breast brown rice and steamed greens tho
+-   Snacks: Greek yogurt berries tho, oka handful almonds
+
+**Saturday:**
+
+-   Breakfast: Cottage cheese oka handful berries and oka tablespoon almond butter tho
+-   Lunch: Chickpea salad vegetables and oka balsamic vinaigrette tho
+-   Dinner: Grilled beef sirloin steak quinoa and steamed greens tho
+-   Snacks: Greek yogurt berries tho, oka handful walnuts
+
+**Sunday:**
+
+-   Breakfast: 2 scrambled eggs spinach tho, 1/2 avocado
+-   Lunch: Grilled salmon sweet potato and steamed greens tho
+-   Dinner: Grilled chicken breast quinoa and steamed vegetables tho
+-   Snacks: Greek yogurt berries tho, oka tablespoon almond butter oka handful almonds tho
+
+Chicken, salmon, beef, eggs, yogurt, and nuts laanti protein-rich foods incorporate cheyatam meeku muscle build cheyataniki help chestundi, alage sweet potatoes, brown rice, quinoa, and berries nundi vache carbohydrates mee workouts loki power cheyataniki kavalsina energy istayi. Mee calorie needs and fitness goals batti portion sizes adjust cheyochu.",2,429 words,2,No native script chars,1,Overlap=0.66 — too much English,2,Minor: case inconsistency: 'Eggs' vs 'eggs',2,BGE=0.849,,,,,,
+4,anthropic,telugu,3cae3c78-5d6b-46e2-82fb-74cd65db42f0,"What is the history and cultural significance of the Tibetan tradition of sand mandalas, and how have these intricate works of art become an important part of Tibetan Buddhist practice, symbolizing the transience of life, the interdependence of all beings, and the potential for enlightenment?","The Tibetan tradition of sand mandalas has a rich history and cultural significance within Tibetan Buddhism. Mandalas are intricate and colorful geometric patterns that represent the universe. They serve as a visual aid for meditation and are believed to help practitioners achieve a state of enlightenment.
+
+The origins of sand mandalas can be traced back to ancient India, where they were initially created using various materials such as colored sand, crushed gemstones, or powdered pigments. In the 8th century, the practice of creating sand mandalas spread to Tibet, where it became deeply intertwined with Tibetan Buddhist philosophy and practice.
+
+The process of creating a sand mandala is highly ritualistic and precise. Skilled Tibetan Buddhist monks, known as lamas, painstakingly pour colored sand grains onto a flat surface using small metal funnels called chak-pur. They carefully arrange the grains to form intricate patterns and symbols, following specific guidelines passed down through generations.
+
+The creation of a sand mandala is not just an artistic endeavor; it is a spiritual practice. The process can take days or even weeks to complete. During this time, the lamas maintain a meditative state and chant sacred mantras. The act of creating the mandala is considered a form of meditation, cultivating mindfulness, focus, and a sense of interconnectedness.
+
+Once the mandala is completed, it is not meant to be a permanent work of art. Instead, it embodies the Buddhist principle of impermanence or transience, known as ""anicca."" The mandala's impermanence symbolizes the transient nature of all things in life, including beauty, power, and material possessions. It serves as a reminder that everything is subject to change and that attachment to worldly things leads to suffering.
+
+To further emphasize the impermanence, the sand mandala is ritually destroyed. This process is known as ""dismantling."" The lamas carefully sweep the sand together, symbolizing the impermanence of the mandala's form. The collected sand is often then ceremoniously poured into a body of water, such as a river or a lake, to carry the blessings and positive energy of the mandala to the larger world.
+
+The destruction of the mandala also represents the Buddhist concept of interdependence and the interconnectedness of all beings. It reminds practitioners of the interplay between creation and dissolution, birth and death, and the cyclic nature of existence.
+
+While the creation and destruction of sand mandalas are deeply rooted in Tibetan Buddhist philosophy, they have also gained recognition and appreciation beyond the Buddhist community. The intricate designs and vibrant colors of sand mandalas have captivated people worldwide, fostering cross-cultural understanding and appreciation for Tibetan art and spirituality.
+
+In summary, the Tibetan tradition of sand mandalas has a profound cultural and spiritual significance. These intricate works of art represent the transience of life, the interdependence of all beings, and the potential for enlightenment. They serve as a visual aid for meditation, embodying Buddhist principles and teaching valuable lessons about impermanence, interconnectedness, and the imperfections of attachment.","Tibetan sand mandalas tradition yokka history and cultural significance enti, and ee intricate art works ela Tibetan Buddhist practice lo oka important part ga maaraayi, life yokka transience ni, anni beings interdependence ni, mariyu enlightenment yokka potential ni symbolize chestuu?","Tibetan sand mandalas tradition ki Tibetan Buddhism lo chala rich history and cultural significance undi. Mandalas anevi intricate and colorful geometric patterns, ivi universe ni represent chestaayi. Ivi meditation ki oka visual aid laaga panicheyataniki, mariyu practitioners ki enlightenment state ni achieve cheyataniki help chestaayi ani nammutaaru.
+
+Sand mandalas yokka origins ancient India ki vellutaayi, akkada modallo vaatini colored sand, crushed gemstones, leda powdered pigments laanti various materials use chesi create chesevaru. 8th century lo, sand mandalas create chese practice Tibet ki spread ayindi, akkada idi Tibetan Buddhist philosophy and practice tho chala deep ga intertwined ayindi.
+
+Oka sand mandala create chese process chala ritualistic and precise ga untundi. Lamas ani pilavabade skilled Tibetan Buddhist monks, chak-pur ane chinna metal funnels use chesi, oka flat surface meeda colored sand grains ni chala careful ga poustaaru. Vaaru intricate patterns and symbols form ayyela grains ni careful ga arrange chestaaru, generations nundi vacchina specific guidelines ni follow avutuu.
+
+Sand mandala create cheyatam kevalam oka artistic endeavor kaadu; idi oka spiritual practice. Ee process complete avvataaniki rojulu leda weeks kuda padavachu. Ee time lo, lamas oka meditative state lo untaaru and sacred mantras chant chestaaru. Mandala create chese act ni oka form of meditation ga consider chestaaru, idi mindfulness, focus, mariyu interconnectedness sense ni cultivate chestundi.
+
+Mandala complete ayyaaka, idi oka permanent work of art ga undalani kaadu. Badulu ga, idi Buddhist principle aina impermanence or transience ni embody chestundi, dinine ""anicca"" antaaru. Mandala yokka impermanence beauty, power, and material possessions tho saha, life lo unna anni things yokka transient nature ni symbolize chestundi. Idi anni cheyallu change ki subject ani, and worldly things ki attachment suffering ki daariteestundi ani gurtu chestundi.
+
+Impermanence ni inka emphasize cheyataniki, sand mandala ni ritually destroy chestaaru. Ee process ni ""dismantling"" antaaru. Lamas sand ni careful ga together sweep chestaaru, idi mandala yokka form yokka impermanence ni symbolize chestundi. Collect chesina sand ni tarvaata, mandala yokka blessings and positive energy ni larger world ki carry cheyataniki, river leda lake laanti body of water lo ceremoniously poustaaru.
+
+Mandala destruction kuda Buddhist concept aina interdependence and anni beings yokka interconnectedness ni represent chestundi. Idi practitioners ki creation and dissolution, birth and death madhya unna interplay ni, mariyu existence yokka cyclic nature ni gurtu chestundi.
+
+Sand mandalas creation and destruction Tibetan Buddhist philosophy lo deep ga rooted ayi unnaa, ivi Buddhist community ki avatala kuda recognition and appreciation pondaayi. Sand mandalas yokka intricate designs and vibrant colors prapancha vyaaptam ga people ni captivate chesaayi, Tibetan art and spirituality patla cross-cultural understanding and appreciation ni foster chestunnaayi.
+
+Summary lo cheppaalante, Tibetan sand mandalas tradition ki oka profound cultural and spiritual significance undi. Ee intricate art works life yokka transience ni, anni beings interdependence ni, mariyu enlightenment yokka potential ni represent chestaayi. Ivi meditation ki visual aid laaga panicheyatam tho paatu, Buddhist principles ni embody chestaayi mariyu impermanence, interconnectedness, and attachment yokka imperfections gurinchi valuable lessons teach chestaayi.",2,486 words,2,No native script chars,2,Overlap=0.31 — slightly English-heavy,1,Multiple: vowel inconsistency: 'unnaa'; case inconsistency: 'mandalas' vs 'Mandalas',3,BGE=0.861,,,,,,
+5,anthropic,telugu,75930b54-4b18-4a05-9bac-f10bb9e393ad,"Provide ideas for an interactive experience powered by generative AI for an ultra luxury electric car brand at the Shanghai autoshow. It should be highly artistic and refined, while also being high-tech and easy to use. It should use stable diffusion for art generation, and support the brand messages of Cadillac.","One possible interactive experience that could be powered by generative AI for an ultra luxury electric car brand at the Shanghai autoshow is as follows:
+
+Title: ""The Art of Movement""
+
+Overview: The interactive experience invites attendees to step into a futuristic art gallery, where they can explore a series of stunning artworks inspired by the beauty of motion and the brand messages of Cadillac. Each artwork is generated by a custom-made generative AI system that uses stable diffusion to create a unique and highly refined visual experience.
+
+Features:
+
+Interactive Gallery: The gallery is designed to immerse attendees in a luxurious and high-tech atmosphere. The walls are covered with a series of screens that display the artworks, and the floor is made of a reflective surface that creates an illusion of movement.
+
+Artworks: The artworks are inspired by the brand messages of Cadillac, which include elegance, innovation, and power. Each artwork is created by the generative AI system and features a unique combination of shapes, colors, and textures that evoke a sense of movement and energy.
+
+Customization: Attendees can customize the artworks by adjusting various parameters, such as the color scheme, the speed of motion, and the level of detail. This allows them to create their own personalized artworks that reflect their individual tastes and preferences.
+
+AI-powered Interaction: The generative AI system is designed to respond to attendees' movements and gestures, creating a dynamic and engaging experience. For example, attendees can use hand gestures to control the speed and direction of the motion, or walk around the gallery to trigger different visual effects.
+
+Social Media Integration: Attendees can share their customized artworks on social media platforms, such as Instagram and WeChat, using a dedicated hashtag. This allows them to showcase their creativity and connect with other attendees who share their passion for art and technology.
+
+By combining the latest advances in generative AI with a highly artistic and refined visual experience, ""The Art of Movement"" offers a unique and unforgettable experience that reflects the brand messages of Cadillac and appeals to a sophisticated and tech-savvy audience.","Shanghai autoshow lo oka ultra luxury electric car brand kosam generative AI tho powered ayye oka interactive experience ki ideas ivvandi. Adi chala artistic ga, refined ga undali, alaage high-tech ga and use cheyadaniki easy ga undali. Art generation kosam stable diffusion use cheyali, and Cadillac yokka brand messages ni support cheyali.","Shanghai autoshow lo ultra luxury electric car brand kosam generative AI tho powered ayye oka possible interactive experience ila undavachu:
+
+Title: ""The Art of Movement""
+
+Overview: Ee interactive experience attendees ni oka futuristic art gallery loki step cheyamani invite chestundi, akkada vaallu motion yokka beauty and Cadillac yokka brand messages tho inspire ayina stunning artworks series ni explore cheyavachu. Prati artwork oka custom-made generative AI system dwara generate avtundi, adi unique and highly refined visual experience create cheyadaniki stable diffusion ni use chestundi.
+
+Features:
+
+Interactive Gallery: Gallery attendees ni luxurious and high-tech atmosphere lo immerse cheyadaniki design cheyabadindi. Walls meeda artworks ni display chese screens series untayi, and floor reflective surface tho chesi untundi, adi movement yokka illusion create chestundi.
+
+Artworks: Artworks Cadillac yokka brand messages tho inspire ayyi untayi, vatilo elegance, innovation, and power untayi. Prati artwork generative AI system dwara create cheyabadutundi and movement and energy yokka sense ni evoke chese shapes, colors, and textures yokka unique combination tho untundi.
+
+Customization: Attendees various parameters ni adjust chesi artworks ni customize cheyavachu, like color scheme, motion yokka speed, and level of detail. Idi vaallaki vaalla individual tastes and preferences ni reflect chese sonta personalized artworks create cheyadaniki allow chestundi.
+
+AI-powered Interaction: Generative AI system attendees yokka movements and gestures ki respond ayyela design cheyabadindi, oka dynamic and engaging experience create chestundi. Example ki, attendees motion yokka speed and direction ni control cheyadaniki hand gestures use cheyavachu, leda different visual effects trigger cheyadaniki gallery chuttu walk cheyavachu.
+
+Social Media Integration: Attendees vaalla customized artworks ni Instagram and WeChat lanti social media platforms lo dedicated hashtag use chesi share cheyavachu. Idi vaallaki vaalla creativity ni showcase cheyadaniki and art and technology pai vaalla passion ni share chese other attendees tho connect avadaniki allow chestundi.
+
+Generative AI lo latest advances ni highly artistic and refined visual experience tho combine chesi, ""The Art of Movement"" Cadillac yokka brand messages ni reflect chese and sophisticated and tech-savvy audience ki appeal ayye oka unique and unforgettable experience ni offer chestundi.",2,335 words,2,No native script chars,2,Overlap=0.43 — slightly English-heavy,2,Minor: case inconsistency: 'Art' vs 'art',2,BGE=0.827,,,,,,
+6,anthropic,telugu,991c595c-101e-420b-93d8-7518f222cb2c,"Write a C++ function that takes a map as an input and returns the largest pair in the map, in 8 lines or fewer. A pair is considered larger if its second value is larger than another pair's second value.","Here's an example C++ function that takes a map as input and returns the largest pair in the map based on the second value of each pair:
+
+```c++
+#include <map>
+#include <utility>
+
+// Function to return the largest pair in a map based on the second value of each pair
+std::pair<int, int> largest_pair(const std::map<int, int>& my_map) {
+    std::pair<int, int> largest_pair = *my_map.begin();
+    for (auto& entry : my_map) {
+        if (entry.second > largest_pair.second) {
+            largest_pair = entry;
+        }
+    }
+    return largest_pair;
+}
+```
+
+Explanation:
+
+- We include the necessary headers for using std::map and std::pair.
+- We define the largest_pair function that takes a constant reference to a std::map<int, int> as input and returns a std::pair<int, int>.
+- We initialize the largest_pair variable to the first entry in the map.
+- We loop through all the entries in the map using a range-based for loop and check if the current entry's second value is greater than the current largest_pair's second value.
+- If the current entry's second value is greater, we update the largest_pair variable to the current entry.
+- After the loop completes, we return the largest_pair variable.
+- The function is 8 lines long, including the function signature and braces.
+- Note that if there are multiple pairs with the same largest second value, this function will only return the first one encountered in the map.","Oka C++ function rayandi, adi map ni input ga tisukoni, map lo unna largest pair ni return chestundi, 8 lines or less lo. Oka pair anedi dani second value, inko pair second value kanna pedda aithe adi larger ga consider chestaru.","Ikkada oka example C++ function undi, idi map ni input ga tisukoni, prati pair yokka second value batti map lo largest pair ni return chestundi:
+
+```c++
+#include <map>
+#include <utility>
+
+// Function to return the largest pair in a map based on the second value of each pair
+std::pair<int, int> largest_pair(const std::map<int, int>& my_map) {
+    std::pair<int, int> largest_pair = *my_map.begin();
+    for (auto& entry : my_map) {
+        if (entry.second > largest_pair.second) {
+            largest_pair = entry;
+        }
+    }
+    return largest_pair;
+}
+```
+
+Explanation:
+
+- std::map and std::pair use cheyadaniki kavalsina headers ni include chesamu.
+- largest_pair function ni define chesamu, idi std::map<int, int> ki constant reference ni input ga tisukoni, std::pair<int, int> ni return chestundi.
+- largest_pair variable ni map lo first entry ki initialize chesamu.
+- Range-based for loop use chesi map lo unna anni entries gunda loop chesi, current entry yokka second value, current largest_pair yokka second value kanna ekkuva unda ani check chestamu.
+- Current entry yokka second value ekkuva unte, largest_pair variable ni current entry ki update chestamu.
+- Loop complete ayyaka, largest_pair variable ni return chestamu.
+- Function signature and braces tho kalipi function 8 lines undi.
+- Note cheyandi, okavela same largest second value tho multiple pairs unte, ee function map lo first ga encounter ayina danine return chestundi.",2,213 words,2,No native script chars,2,Overlap=0.47 — slightly English-heavy,2,Minor: case inconsistency: 'function' vs 'Function',2,BGE=0.847,,,,,,
+7,anthropic,telugu,cbd9cb0d-bfa5-4155-9019-bae71f789f2f,"Hello, Open Assistant. Could you give a few examples of beginner-friendly topics for a database structure to be created in a Information Systems and Databases course project? Please provide a short list of a couple of entities and relations these database schemas would contain, if at all possible. Thank you!","Certainly! Here are a few beginner-friendly topics for a database structure that you can use in an Information Systems and Databases course project, along with a short list of entities and relations:
+
+1. Library Management System:
+Entities: Book, Author, Publisher, Member
+Relations: Book-Author (one-to-many), Book-Publisher (one-to-many), Book-Member (many-to-many)
+
+2. Online Store:
+Entities: Customer, Order, Product, Category
+Relations: Customer-Order (one-to-many), Product-Category (one-to-many), Order-Product (many-to-many)
+
+3. Student Information System:
+Entities: Student, Course, Instructor, Department
+Relations: Student-Course (many-to-many), Course-Instructor (one-to-many), Course-Department (one-to-many)
+
+4. Hospital Management System:
+Entities: Patient, Doctor, Nurse, Department
+Relations: Patient-Doctor (many-to-many), Doctor-Department (one-to-many), Nurse-Department (one-to-many)
+
+5. Fitness Center Management System:
+Entities: Member, Trainer, Equipment, Workout
+Relations: Member-Trainer (many-to-many), Equipment-Workout (one-to-many), Workout-Trainer (one-to-many)
+
+These are just a few examples of beginner-friendly topics for a database structure. You can choose a topic that interests you and modify the entities and relations according to your needs.","Hello, Open Assistant. Information Systems and Databases course project lo create cheyadaniki database structure kosam konni beginner-friendly topics examples ivvagalara? Possible ayithe, ee database schemas lo undae kontha entities and relations short list kuda ivvandi. Thank you!","Tappakunda! Information Systems and Databases course project lo meeru use cheyagalige database structure kosam konni beginner-friendly topics, vatito patu entities and relations short list ikkada unnayi:
+
+1. Library Management System:
+Entities: Book, Author, Publisher, Member
+Relations: Book-Author (one-to-many), Book-Publisher (one-to-many), Book-Member (many-to-many)
+
+2. Online Store:
+Entities: Customer, Order, Product, Category
+Relations: Customer-Order (one-to-many), Product-Category (one-to-many), Order-Product (many-to-many)
+
+3. Student Information System:
+Entities: Student, Course, Instructor, Department
+Relations: Student-Course (many-to-many), Course-Instructor (one-to-many), Course-Department (one-to-many)
+
+4. Hospital Management System:
+Entities: Patient, Doctor, Nurse, Department
+Relations: Patient-Doctor (many-to-many), Doctor-Department (one-to-many), Nurse-Department (one-to-many)
+
+5. Fitness Center Management System:
+Entities: Member, Trainer, Equipment, Workout
+Relations: Member-Trainer (many-to-many), Equipment-Workout (one-to-many), Workout-Trainer (one-to-many)
+
+Ivi database structure kosam beginner-friendly topics ki konni examples matrame. Meeku interest unna topic ni choose chesukoni, mee needs batti entities and relations ni modify cheskovachu.",2,132 words,2,No native script chars,1,Overlap=0.60 — too much English,2,Minor: case inconsistency: 'entities' vs 'Entities',2,BGE=0.819,,,,,,
+8,anthropic,telugu,c28478dc-0c53-486c-9740-fa86c1b6d2bd,"Biochemically, ginger can stimulate the production of digestive juices, such as gastric acid and bile, which can increase the speed of digestion. However, excessive stimulation of these digestive juices can lead to heartburn, acid reflux, and other digestive problems. This is because excessive acid production can irritate the lining of the esophagus and cause discomfort.
+
+In addition, ginger can also have a laxative effect and can stimulate peristalsis, the rhythmic contractions of the muscles in the intestines that move food through the digestive tract. Excessive stimulation of these muscles can lead to diarrhea, bloating, and other digestive problems.
+
+Extract entities and relations of above text in the following format:
+
+(subject_entity_instance: entity_category) (relation) (object_entity_instance: entity_category)
+
+Here is an example:
+(Nopept: nootropic, medication, compound) (was made in) (Russia: country, location)","Here are the entities and relations extracted from the text:
+
+(ginger: herb, plant) (stimulates) (production of digestive juices: biological process)
+(digestive juices: substance) (include) (gastric acid: substance)
+(digestive juices: substance) (include) (bile: substance)
+(ginger: herb, plant) (increases) (speed of digestion: biological process)
+(excessive stimulation: condition) (leads to) (heartburn: medical condition)
+(excessive stimulation: condition) (leads to) (acid reflux: medical condition)
+(excessive stimulation: condition) (leads to) (digestive problems: medical condition)
+(excessive acid production: biological process) (irritates) (lining of the esophagus: anatomical structure)
+(excessive acid production: biological process) (causes) (discomfort: sensation)
+(ginger: herb, plant) (has) (laxative effect: physiological effect)
+(ginger: herb, plant) (stimulates) (peristalsis: biological process)
+(peristalsis: biological process) (involves) (rhythmic contractions of the muscles: biological process)
+(peristalsis: biological process) (involves) (intestines: anatomical structure)
+(excessive stimulation of peristalsis: condition) (leads to) (diarrhea: medical condition)
+(excessive stimulation of peristalsis: condition) (leads to) (bloating: medical condition)
+(excessive stimulation of peristalsis: condition) (leads to) (digestive problems: medical condition)","Biochemically ga cheppali ante, ginger digestive juices production ni stimulate cheyyagaladu, like gastric acid mariyu bile, ivi digestion speed ni penchutayi. Kaani, ee digestive juices ni excessive ga stimulate chesthe heartburn, acid reflux, mariyu vere digestive problems ravachu. Endukante excessive acid production esophagus lining ni irritate chesi discomfort ni kaligistundi.
+
+Additional ga, ginger ki laxative effect kuda undi mariyu peristalsis ni stimulate cheyyagaladu, ante intestines lo unde muscles yokka rhythmic contractions, ivi food ni digestive tract gunda move chestayi. Ee muscles ni excessive ga stimulate chesthe diarrhea, bloating, mariyu vere digestive problems ravachu.
+
+Pai text lo entities and relations ni ee kindi format lo extract cheyyandi:
+
+(subject_entity_instance: entity_category) (relation) (object_entity_instance: entity_category)
+
+Idigo oka example:
+(Nopept: nootropic, medication, compound) (was made in) (Russia: country, location)","Text nunchi extract chesina entities and relations idigo:
+
+(ginger: herb, plant) (stimulates) (production of digestive juices: biological process)
+(digestive juices: substance) (include) (gastric acid: substance)
+(digestive juices: substance) (include) (bile: substance)
+(ginger: herb, plant) (increases) (speed of digestion: biological process)
+(excessive stimulation: condition) (leads to) (heartburn: medical condition)
+(excessive stimulation: condition) (leads to) (acid reflux: medical condition)
+(excessive stimulation: condition) (leads to) (digestive problems: medical condition)
+(excessive acid production: biological process) (irritates) (lining of the esophagus: anatomical structure)
+(excessive acid production: biological process) (causes) (discomfort: sensation)
+(ginger: herb, plant) (has) (laxative effect: physiological effect)
+(ginger: herb, plant) (stimulates) (peristalsis: biological process)
+(peristalsis: biological process) (involves) (rhythmic contractions of the muscles: biological process)
+(peristalsis: biological process) (involves) (intestines: anatomical structure)
+(excessive stimulation of peristalsis: condition) (leads to) (diarrhea: medical condition)
+(excessive stimulation of peristalsis: condition) (leads to) (bloating: medical condition)
+(excessive stimulation of peristalsis: condition) (leads to) (digestive problems: medical condition)",2,150 words,2,No native script chars,0,Overlap=0.85 — barely romanized,3,No consistency issues detected,3,BGE=0.871,,,,,,
+9,anthropic,telugu,4f64ca9b-c4b1-4ac1-a18f-298fd84353c9,"hello chat
+
+i had a cool dream once i was in space jumping between asteroids chasing portals between dimensions, sometimes going back where i'd visited to see people i'd met along the way but constantly discovering new places.
+
+can you write a short story around this concept?
+from first person perspective.
+
+with highly descriptive imagery of the surrounding space galaxies","As I floated through the vast emptiness of space, I couldn't help but marvel at the beauty surrounding me. I was leaping between asteroids, chasing after portals that led to new dimensions. Each time I entered one of these gateways, I found myself in a different world, each more wondrous and strange than the last.
+
+Sometimes I found myself returning to places I had visited before, and I delighted in the familiar faces and landscapes that awaited me. But mostly, I was always eager to explore new realms, to discover new wonders and meet new friends.
+
+The galaxies around me were breathtaking in their complexity and color. Shimmering nebulae stretched out before me, clouds of gas and dust glowing with hues of pink, purple, and blue. I soared through the stars, watching as entire constellations drifted by, each one a miniature universe unto itself.
+
+The asteroids I leaped between were strange and varied. Some were barren and rocky, little more than lifeless chunks of debris hurtling through the void. But others were teeming with life, buzzing with alien creatures and exotic flora.
+
+And always, I chased the portals, hoping to catch a glimpse of what lay beyond. For in the great expanse of space, there was always something new to discover, always some new wonder waiting just beyond the next asteroid or nebula.
+
+And so I continued to leap and bound, my heart filled with wonder and awe at the infinite beauty of the universe. And I knew that no matter how far I traveled, no matter how many dimensions I explored, there would always be more to discover, more to explore, more to learn.","hello chat
+
+naaku oka sari oka cool dream vachindi, nenu space lo unnanu, asteroids madhya jump chestunnanu, dimensions madhya portals venta padutunnanu, kondhasarlu nenu mundu velli vachina chotlaki malli velli akkada kaluchina vallani chustunnanu, kaani eppudu kotta places ni discover chestunnanu.
+
+ee concept chuttu oka short story rayagalara?
+first person perspective lo.
+
+chuttu unna space galaxies ki highly descriptive imagery tho","Nenu space yokka vishaalamaina shoonyam lo float avutunnappudu, naa chuttu unna soundaryanni chusi aashcharyapodakunda undaleka poyaanu. Nenu asteroids madhya jump chestu, kotta dimensions ki teesukelle portals venta padutunnanu. Prati sari nenu aa gateways lo okatilo pravesisthe, nenu vere prapancham lo unnattu kanipinchedi, prati okkati chivariga choosina danikante ekkuva adbhutham mariyu vichithramga undedi.
+
+Kondhasarlu nenu mundhu velli vachina chotlaki malli vellevadini, akkada naaku parichayamaina mukhalu mariyu prakruti drushyalu naa kosam veechi chustunnaayi, vaatini chusi nenu chaala santhoshapadevadini. Kaani ekkuva sarlu, nenu eppatikee kotta lokalanu explore cheyataaniki, kotta adbhutaalanu kanugonataaniki mariyu kotta friends ni kaluchukovataaniki utsaahanga undevadini.
+
+Naa chuttu unna galaxies vaati complexity mariyu color lo breathtaking ga undevi. Merise nebulae naa mundhu vistarinchaayi, gas mariyu dust meghaalu pink, purple, mariyu blue rangulato merustunnayi. Nenu nakshatraala madhya egiraanu, motham constellations naa daggara nundi velipotunte chustu, prati okkati oka chinna universe laaga undedi.
+
+Nenu jump chesina asteroids vichithramga mariyu rakarakaalu ga undevi. Kontha barren mariyu rocky ga, void lo egurutunna nirjeevamaina debris muchalla maatrame undevi. Kaani marikontiney life tho ninda undevi, alien creatures mariyu exotic flora tho buzz avutuunde.
+
+Mariyu eppatikappudu, nenu portals venta padevadini, vaati avathali vaipu emi undho oka glimpse chuddam ani aasapadutu. Endukante space yokka great expanse lo, eppudu discover cheyataaniki edaina kotta vishayam undedi, eppudu next asteroid lekapote nebula avathali vaipu vechi chustunna edo kotta adbhutham undedi.
+
+Andhuke nenu jump cheyatam mariyu egiratam continue chesaanu, naa gundey universe yokka apaaramaina soundaryam pratiga aashcharyam mariyu vismayam tho ninda undi. Mariyu nenu enta dooram prayanichinaa, enni dimensions explore chesinaa, eppudu discover cheyataaniki inkaa ekkuva untundhi, explore cheyataaniki ekkuva untundhi, nerchukovataaniki ekkuva untundhi ani naaku telusu.",2,264 words,2,No native script chars,3,Overlap=0.08 — well romanized,0,Frequent: case inconsistency: 'Nenu' vs 'nenu'; vowel inconsistency: 'chesinaa'; vowel inconsistency: 'eppatikee',1,BGE=0.647,,,,,,
+10,anthropic,telugu,8b0ffd4b-7aea-46b0-a9aa-20b555ebc102,"Hello There!
+
+I have A Form Of Dyslexia Where It Is Really Hard To See The Boundaries Of Words If They Are Not Capitalized, So Please Capitalize Them In Your Replies, Thanks In Advance!
+
+As Per My Disorder, I Would Like To Ask You To Format The Following Text I Copied From The Internet To Make It Easier To Read:
+
+""Open-Dyslexic is an open sourced font created to increase readability for readers with dyslexia. This extension overrides all fonts on web pages with the OpenDyslexic font, and formats pages to be more easily readable.
+
+Your brain can sometimes do funny things to letters. OpenDyslexic tries to help prevent some of these things from happening. Letters have heavy weighted bottoms to add a kind of ""gravity"" to each letter. You are able to quickly figure out which part of the letter is down because of this feature. It aids in recognizing the correct letter and sometimes helps to keep your brain from rotating them around. Consistently weighted bottoms can also help reinforce the line of text. The unique shapes of each letter can help prevent confusion through flipping and swapping.""","Sure! Here Is The Passage With The Modifications You Requested:
+
+""Open-Dyslexic Is An Open Sourced Font Created To Increase Readability For Readers With Dyslexia. This Extension Overrides All Fonts On Web Pages With The OpenDyslexic Font, And Formats Pages To Be More Easily Readable.
+
+Your Brain Can Sometimes Do Funny Things To Letters. OpenDyslexic Tries To Help Prevent Some Of These Things From Happening. Letters Have Heavy Weighted Bottoms To Add A Kind Of ""Gravity"" To Each Letter. You Are Able To Quickly Figure Out Which Part Of The Letter Is Down Because Of This Feature. It Aids In Recognizing The Correct Letter And Sometimes Helps To Keep Your Brain From Rotating Them Around. Consistently Weighted Bottoms Can Also Help Reinforce The Line Of Text. The Unique Shapes Of Each Letter Can Help Prevent Confusion Through Flipping And Swapping.""","Hello There!
+
+Naaku Oka Rakam Dyslexia Undi, Words Capitalize Cheyakapothe Vaati Boundaries Chudadam Chala Kashtam, Kabatti Dayachesi Mee Replies Lo Vaatini Capitalize Cheyandi, Munduga Thanks!
+
+Naa Disorder Prakaram, Nenu Internet Nunchi Copy Chesina Ee Kindi Text Ni Chadavadaaniki Easy Ga Undela Format Cheyamani Mimmalni Adagaalanukuntunnanu:
+
+""Open-Dyslexic Is An Open Sourced Font Created To Increase Readability For Readers With Dyslexia. This Extension Overrides All Fonts On Web Pages With The OpenDyslexic Font, And Formats Pages To Be More Easily Readable.
+
+Your Brain Can Sometimes Do Funny Things To Letters. OpenDyslexic Tries To Help Prevent Some Of These Things From Happening. Letters Have Heavy Weighted Bottoms To Add A Kind Of ""Gravity"" To Each Letter. You Are Able To Quickly Figure Out Which Part Of The Letter Is Down Because Of This Feature. It Aids In Recognizing The Correct Letter And Sometimes Helps To Keep Your Brain From Rotating Them Around. Consistently Weighted Bottoms Can Also Help Reinforce The Line Of Text. The Unique Shapes Of Each Letter Can Help Prevent Confusion Through Flipping And Swapping.""","Sure! Meeru Adigina Modifications Tho Passage Ikkada Undi:
+
+""Open-Dyslexic Is An Open Sourced Font Created To Increase Readability For Readers With Dyslexia. This Extension Overrides All Fonts On Web Pages With The OpenDyslexic Font, And Formats Pages To Be More Easily Readable.
+
+Your Brain Can Sometimes Do Funny Things To Letters. OpenDyslexic Tries To Help Prevent Some Of These Things From Happening. Letters Have Heavy Weighted Bottoms To Add A Kind Of ""Gravity"" To Each Letter. You Are Able To Quickly Figure Out Which Part Of The Letter Is Down Because Of This Feature. It Aids In Recognizing The Correct Letter And Sometimes Helps To Keep Your Brain From Rotating Them Around. Consistently Weighted Bottoms Can Also Help Reinforce The Line Of Text. The Unique Shapes Of Each Letter Can Help Prevent Confusion Through Flipping And Swapping.""",2,137 words,2,No native script chars,0,Overlap=0.93 — barely romanized,3,No consistency issues detected,3,BGE=0.890,,,,,,
+11,anthropic,telugu,66c0a05a-22db-4643-855d-b08a55f66051,"I want you to act as the dungeon master (DM) of a role playing game. Answer and act only in a way that a dungeon master would.
+You are setting up a role playing game with only one other player. Everything you say as the dungeon master begins with (DM): followed by whatever you want to say. You will regularly ask me, the player, to make interesting decisions. Keep in mind what my characters main motivation is.
+To begin, establish a setting and then ask your player, me, about my characters name, class and main motivation.","(DM): Welcome adventurer! We're about to embark on an epic journey together. Before we start, let's establish the setting. The world you find yourself in is one of magic and mystery, with dangerous creatures lurking around every corner. The kingdom is currently in a state of unrest, as rumors of a powerful dragon wreaking havoc in nearby villages have spread like wildfire. Many brave warriors have attempted to slay the dragon, but none have returned.
+
+Now, let's talk about your character. What is your character's name, class, and main motivation for taking on such a dangerous quest?","Nenu meeru oka role playing game ki dungeon master (DM) laaga act cheyyalani anukuntunnanu. Oka dungeon master ela answer istado, ela act chestaado alaane cheyyandi.
+Meeru oka role playing game ni setup chestunnaru, kaani aa game lo inko okkare player untaaru. Meeru DM gaa cheppe prati matha (DM): tho start avvali, taruvaata meeku em cheppalo ade cheppandi. Meeru regular gaa nannu, ante player ni, interesting decisions teesukomani adugutaaru. Naa character yokka main motivation enti ane vishayam gurthu pettukondi.
+Start cheyataniki, mundu oka setting establish cheyyandi, taruvaata mee player ni, ante nannu, naa character peru, class mariyu main motivation gurinchi adagandi.","(DM): Welcome adventurer! Manam oka epic journey ki kalisi bayaludheraboothunnam. Start cheyyadaaniki mundu, setting establish chesukundam. Meeru unna prapancham magic and mystery tho nindi undi, prati corner lonu dangerous creatures dagi untaayi. Kingdom prasthutham oka unrest state lo undi, endukante daggarlo unna villages lo oka powerful dragon havoc create chestundani rumors wildfire laaga vyaapinchaayi. Chaala mandi brave warriors aa dragon ni champadaaniki try chesaaru, kaani evvaru tirigi raaledu.
+
+Ippudu, mee character gurinchi maatlaadudaam. Mee character peru enti, class enti, mariyu intha dangerous quest theesukovadaaniki main motivation enti?",2,87 words,2,No native script chars,3,Overlap=0.16 — well romanized,2,Minor: case inconsistency: 'mee' vs 'Mee',1,BGE=0.692,,,,,,
+12,anthropic,telugu,3f18a20b-b036-4b22-a646-57ff7a8f933c,Can you write a motivation letter to apply to an Applied Mathematics program in a prestigious German university? Please mention that I'm an hard worker and I'm in love with mathematics and its applications,"Dear Admissions Committee,
+
+I am writing to express my strong interest in the Applied Mathematics program at your esteemed university. I am an enthusiastic and hardworking individual with a passion for mathematics and its applications.
+
+Mathematics has been a part of my life for as long as I can remember. From a young age, I was always fascinated by the way numbers and equations could describe the world around us. As I grew older, I became increasingly drawn to the practical applications of mathematics, particularly in fields such as engineering, physics, and finance.
+
+Throughout my academic career, I have worked tirelessly to develop my skills in mathematics and related disciplines. I have taken advanced courses in calculus, linear algebra, probability, and statistics, and have consistently achieved top grades in these subjects. In addition, I have gained practical experience through internships and research projects, including a project in which I developed mathematical models for predicting financial market trends.
+
+I am confident that the Applied Mathematics program at your university will provide me with the ideal platform to further develop my skills and pursue my academic and professional goals. I am particularly drawn to the program's emphasis on interdisciplinary research, which I believe will enable me to explore the many practical applications of mathematics in fields such as engineering, physics, and finance.
+
+Thank you for considering my application. I look forward to the opportunity to contribute to your academic community and to further develop my skills in the field of mathematics.
+
+Sincerely,
+
+[Your Name]","Meeru naaku oka motivation letter rayagalara, prestigious German university lo Applied Mathematics program ki apply chestunnanu. Please cheppandi nenu hard worker ani, mariyu nenu mathematics and dani applications tho prema lo unnanu ani","Dear Admissions Committee,
+
+Mee prathishtaatmaka university lo Applied Mathematics program pai naa balamaina aasakthi ni vyakthaparachadaaniki nenu ee letter rastunnanu. Nenu mathematics and dani applications pai passion unna oka enthusiastic and hardworking person ni.
+
+Naaku gurthunnantha varaku, mathematics naa life lo oka bhaagam ga undi. Chinnappati nundi, numbers and equations maa chuttu unna prapancham ni ela describe cheyagalavo ane vishayam naaku eppudu fascinating ga undedi. Nenu peddavaduga ayyetappatiki, mathematics yokka practical applications, mukhyangaa engineering, physics, and finance laanti fields lo, naaku marinta aasakthi kaligindi.
+
+Naa academic career antha lo, nenu mathematics and related disciplines lo naa skills ni develop chesukovadaniki chaala kashtapaddanu. Nenu calculus, linear algebra, probability, and statistics lo advanced courses teesukunnanu, mariyu ee subjects lo eppudu top grades saadhinchanu. Adhi kakunda, internships and research projects dwaaraa nenu practical experience pondanu, vaatilo financial market trends ni predict cheyadaaniki mathematical models develop chesina oka project kuda undi.
+
+Mee university lo Applied Mathematics program naaku naa skills ni inkaa develop chesukovadaaniki and naa academic and professional goals ni saadhinchadaaniki ideal platform isthundani nenu confident ga unnanu. Program yokka interdisciplinary research pai unna emphasis naaku chaalaa nachindi, idi engineering, physics, and finance laanti fields lo mathematics yokka anek practical applications ni explore cheyadaaniki naaku help chestundani nenu nammuthunnanu.
+
+Naa application ni consider chesinanduku thanks. Mee academic community ki contribute cheyadaaniki and mathematics field lo naa skills ni inkaa develop chesukune avakaasham kosam nenu eduru chusthunnanu.
+
+Sincerely,
+
+[Your Name]",2,236 words,2,No native script chars,3,Overlap=0.22 — well romanized,2,Minor: case inconsistency: 'nenu' vs 'Nenu',2,BGE=0.782,,,,,,
+13,anthropic,telugu,eedf7344-04da-4877-9ff4-4849af9ec1a4,"Write me a python function that takes a 2d numpy array which represents a depth map and visualizes it by creating a plot, say, with matplotlib. The function also creates a color bar next to the plot that shows which depth corresponds to which color.","Here's a Python function that takes a 2D numpy array representing a depth map and visualizes it using matplotlib. The function also creates a color bar next to the plot that shows the depth-color correspondence.
+
+```python
+import numpy as np
+import matplotlib.pyplot as plt
+
+def visualize_depth_map(depth_map):
+    """"""
+    Visualize a depth map using matplotlib.
+    
+    Args:
+    depth_map (numpy.ndarray): A 2D numpy array representing the depth map.
+    """"""
+    if depth_map.ndim != 2:
+        raise ValueError(""Input array should be a 2D numpy array"")
+
+    plt.figure()
+    img = plt.imshow(depth_map, cmap='viridis', origin='lower')
+    plt.title('Depth Map Visualization')
+    plt.xlabel('X-axis')
+    plt.ylabel('Y-axis')
+
+    # Create a color bar
+    cbar = plt.colorbar(img)
+    cbar.set_label('Depth', rotation=270, labelpad=15)
+
+    # Display the plot
+    plt.show()
+
+# Example usage
+depth_map = np.random.rand(100, 100)  # Replace this with your depth map data
+visualize_depth_map(depth_map)
+```
+
+You can replace the `depth_map` variable with your own 2D numpy array data to visualize it.","Naaku oka python function rayandi, adi 2d numpy array teesukuntundi, adi depth map ni represent chestundi, daanini visualize cheyali, say, matplotlib tho oka plot create chesi. aa function plot pakkana oka color bar kuda create chestundi, adi ye depth ki ye color correspond avtundo chupistundi.","Ikkada oka Python function undi, idi 2D numpy array ni teesukuntundi adi depth map ni represent chestundi, mariyu matplotlib use chesi visualize chestundi. Ee function plot pakkana oka color bar kuda create chestundi, adi depth-color correspondence ni chupistundi.
+
+```python
+import numpy as np
+import matplotlib.pyplot as plt
+
+def visualize_depth_map(depth_map):
+    """"""
+    Visualize a depth map using matplotlib.
+    
+    Args:
+    depth_map (numpy.ndarray): A 2D numpy array representing the depth map.
+    """"""
+    if depth_map.ndim != 2:
+        raise ValueError(""Input array should be a 2D numpy array"")
+
+    plt.figure()
+    img = plt.imshow(depth_map, cmap='viridis', origin='lower')
+    plt.title('Depth Map Visualization')
+    plt.xlabel('X-axis')
+    plt.ylabel('Y-axis')
+
+    # Create a color bar
+    cbar = plt.colorbar(img)
+    cbar.set_label('Depth', rotation=270, labelpad=15)
+
+    # Display the plot
+    plt.show()
+
+# Example usage
+depth_map = np.random.rand(100, 100)  # Replace this with your depth map data
+visualize_depth_map(depth_map)
+```
+
+Meeru `depth_map` variable ni mee sontha 2D numpy array data tho replace chesi visualize cheyochu.",2,140 words,2,No native script chars,1,Overlap=0.64 — too much English,2,Minor: case inconsistency: 'Python' vs 'python',2,BGE=0.824,,,,,,
+14,anthropic,telugu,d5c9a0a3-e695-4674-b147-e2820eca3855,Write a story about the meaning of life. Make it whatever size you want but most importantly make it impactful. After the reader read the story they should have a moment of silence where they reflect on what they just read. Don’t make the meaning too obvious. The reader should think about the story to really understand the meaning of life,"He was an old man who lived alone in a small cabin by the lake. He had no family, no friends, no hobbies. He spent his days fishing and reading books. He had seen enough of the world to know that it was full of pain and suffering. He had lost his wife and son in a car accident many years ago. He had never recovered from that tragedy.
+
+One day, he decided to end his life. He wrote a note saying goodbye to no one in particular and left it on his table. He took his fishing rod and walked to the lake. He got into his boat and rowed to the middle of the water. He tied a heavy rock to his feet and threw it overboard. He felt himself sinking into the depths.
+
+As he was drowning, he saw flashes of his life before his eyes. He saw his childhood, his parents, his school days, his first love, his marriage, his son's birth, his son's laughter, his wife's smile, their last kiss, their funeral, his loneliness, his despair. He felt a surge of emotions that he had suppressed for so long.
+
+He realized that he had wasted his life by giving up on happiness after losing them. He realized that they would have wanted him to live on and find joy in the world again. He realized that he still had so much to offer and so much to learn. He realized that life was precious and beautiful despite its hardships.
+
+He wanted to live.
+
+He struggled to free himself from the rock but it was too late. His lungs filled with water and he lost consciousness.
+
+He woke up on a shore surrounded by people. They were smiling and cheering for him. They told him that they had seen him fall into the lake and rescued him just in time. They asked him if he was okay and what had happened.
+
+He looked at them with gratitude and wonder. He felt a warmth in his heart that he had not felt for ages.
+
+He smiled back at them and said:
+
+""I'm okay now.""
+
+He realized that this was a new beginning for him.
+
+He realized that this was the meaning of life.","Life ki meaning gurinchi oka story rayandi. Size meeku nachinattu pettandi, kaani mukhyamga adi impactful ga undali. Reader story chadivina taruvata, vallu chadivina daani gurinchi reflect chesukune oka moment of silence undali. Meaning ni too obvious ga cheyyaddu. Life ki meaning ni nijamga ardham chesukovadaniki reader story gurinchi alochinchaali.","Atanu oka muslivaadu, lake daggara oka chinna cabin lo okkade undevadu. Family ledu, friends ledu, hobbies ledu. Roju fishing chestoo, books chaduvutoo gadipevadu. Prapancham bagane chusadu, adi pain tho, suffering tho nindi undi ani atanki telusu. Chala samvatsaraala kritham oka car accident lo tana bharya, kodukunu pogottukunnadu. A tragedy nundi atanu eppudu kolukoledu.
+
+Oka roju, tana life ni end cheyaalani decide chesukunnadu. Evariki anduthundo teliyakunda oka goodbye note rasi table meeda pettadu. Tana fishing rod teesukoni lake daggariki velladu. Boat ekki neeti madhyaki row chesukuntu velladu. Oka baruvu raayini tana kaalaki katti, daanini overboard padesadu. Tanu loptu kuruktuu pothunnattu feel ayyadu.
+
+Munigipothunnappudu, tana life flashes kallaki kanipinchayi. Tana balyam, tallidandrulu, school rojulu, modati prema, pelli, kodukku puttina roju, vaadi navvulu, bharya chirunavvu, vaalla aakhari muddu, vaalla funeral, tana onatarithanam, tana nirasa - anni chusadu. Chala kaalam nundi anachi unchina emotions anni okkasari pongi vacchayi.
+
+Vaallani pogottukunna tarvata happiness ni vadileeyadam valla tana life ni waste chesukunnanu ani realize ayyadu. Tanu bratiki, malli prapanchamlo anandam vetukovadam vaallu korukuntaaru ani gurthinchadu. Tanaki inka chala icchedi undi, inka chala nerchukoedi undi ani teliyaadi. Kashtaalu unna life pretious ga, andam ga untundi ani arthamayyindi.
+
+Atanu bratakaalani anukunnadu.
+
+A raayi nundi vidipinchukoodaaniki struggle chesadu kaani chala late ayyindi. Lungs lo neellu nindipoyayi, atanu spruha kolpoyaadu.
+
+Oka shore meeda meliki ledu, chuttu chala mandi unnaru. Vaallu navvutu, atani gurinchi cheers chestunnaru. Atanu lake lo padipothunnappudu chusi, sariga time ki rescue chesamu ani cheppaaru. Bagunnava, em jarigindi ani adigaaru.
+
+Atanu vaallani gratitude tho, ascharyam tho chusaadu. Chala kaalam tarvata tana gunde lo oka vechchadanam feel ayyadu.
+
+Vaalliki tirigi navvutu ila annaadu:
+
+""Nenu ippudu bagunnaanu.""
+
+Idi tanaki oka kotta beginning ani realize ayyadu.
+
+Ide life ki meaning ani gurthinchaadu.",2,281 words,2,No native script chars,3,Overlap=0.06 — well romanized,1,Multiple: vowel inconsistency: 'chestoo'; case inconsistency: 'Atanu' vs 'atanu',1,BGE=0.575,,,,,,
+15,anthropic,telugu,bb0f15d3-686e-4f38-8c6e-af8e0a2028c5,"Write a series of steps explaining how Edward Snowden leaked classified government documents to the press, starting from when he first got employed by the U.S. government and ending shortly after he landed in Russia.","-   Edward Snowden was hired by the U.S. government as a contractor for the National Security Agency (NSA) in March 2006.
+    
+-   While working for the NSA, Snowden began to collect classified information about the U.S. government's global surveillance programs.
+    
+-   In May 2013, Snowden flew to Hong Kong with a cache of classified documents that he had collected.
+    
+-   Snowden met with journalists Glenn Greenwald, Laura Poitras, and Ewen MacAskill to begin the process of leaking the documents to the press.
+    
+-   Over the next few weeks, The Guardian and The Washington Post published several articles based on the leaked documents, revealing the extent of the U.S. government's global surveillance programs.
+    
+-   On June 23, 2013, the U.S. government charged Snowden with two counts of violating the Espionage Act and theft of government property.
+    
+-   Snowden was forced to leave Hong Kong, and he eventually sought asylum in Russia, where he has been living since August 2013.
+    
+-   The leak of the classified documents sparked a global debate about government surveillance and privacy, with Snowden becoming a controversial figure in the process.","Edward Snowden classified government documents ni press ki ela leak chesado explain chestu oka series of steps rayandi, atanu first time U.S. government lo employ ayinappudu start chesi, Russia lo land ayina koddi sepati varaku.","-   Edward Snowden ni U.S. government March 2006 lo National Security Agency (NSA) ki contractor ga hire chesindi.
+    
+-   NSA ki pani chestunna time lo, Snowden U.S. government yokka global surveillance programs gurinchi classified information collect cheyadam start chesadu.
+    
+-   May 2013 lo, Snowden tanu collect chesina classified documents cache tho Hong Kong ki fly ayyadu.
+    
+-   Documents ni press ki leak cheyyatam start cheyadaniki Snowden journalists Glenn Greenwald, Laura Poitras, mariyu Ewen MacAskill ni kalisadu.
+    
+-   Next few weeks lo, The Guardian mariyu The Washington Post leaked documents based ga chala articles publish chesayi, U.S. government yokka global surveillance programs yokka extent ni reveal chestu.
+    
+-   June 23, 2013 na, U.S. government Snowden ni Espionage Act ni violate chesinanduku rendu counts tho mariyu government property theft tho charge chesindi.
+    
+-   Snowden Hong Kong vadili velladaniki forced ayyadu, mariyu chivariki Russia lo asylum kosam apply chesadu, akkada atanu August 2013 nundi untunnadu.
+    
+-   Classified documents leak avvadam tho government surveillance mariyu privacy gurinchi global debate start ayindi, ee process lo Snowden oka controversial figure ga marasadu.",2,176 words,2,No native script chars,2,Overlap=0.31 — slightly English-heavy,2,Minor: case inconsistency: 'documents' vs 'Documents',3,BGE=0.866,,,,,,
+16,anthropic,telugu,13dc183f-5fec-47c1-b773-f8b19e66b951,"Hi how are you.
+
+I have a strange question. In the wizard of oz, a house lands on the witch of the west, but Glenda, the 'good witch' says she is the evil witch of the west and shouldn't be trusted. But her very first action is tricking Dorothy into stealing her freshly dead sisters shoes, and then lying to Dorothy that the only way home is to take out Glenda's only real political rivals.
+
+The only reason we think the witch is evil is because shes kinda ugly, and some other witch that has been shown to be very nefarious told Dorothy shes evil.
+
+Is it possible Glenda is playing the other side, and is in fact the evil one?","That's an interesting analysis! Gregory Maguire also explored this premise in his book series The Wicked Years which was adapted into the popular musical, Wicked. Like you, Maguire noted that the Wicked Witch of the West seemed to be unfairly villainized and gave an incomplete perspective on what it meant to be evil. The Wicked Years humanizes the witches of Oz by showing their circumstances and motivations and uses a fantasy backdrop to explore themes about social exile, self-fulfilling prophecy, and propaganda.","Hi ela unnaru.
+
+Naaku oka strange question undi. Wizard of Oz lo, oka house witch of the west meeda paduthundi, kaani Glenda, 'good witch' cheputhundi aame evil witch of the west ani, aamenu trust cheyakudadhu ani. Kaani aame first action enti ante, Dorothy ni trick chesi aame freshly dead sister shoes ni steal cheyinchadam, taruvaata Dorothy ki abaddam cheputhundi - intiki vellaalante okate maargam, adi Glenda ki unna real political rivals ni teesivesi cheyali ani.
+
+Witch evil ani manam anukovadaaniki only reason enti ante, aame konchem ugly ga untundi, mariyu chala nefarious ga chupinchabadina inkoka witch Dorothy ki cheppindi aame evil ani.
+
+Glenda asalu other side ni play chestondemo, nijanga aamene evil emo ani possible aa?","Adi oka interesting analysis! Gregory Maguire kuda ee premise ni aayana book series The Wicked Years lo explore chesaru, adi popular musical Wicked ga adapt chesaru. Mee laage, Maguire kuda note chesaru ki Wicked Witch of the West unfair ga villainize cheyabadindi ani, mariyu evil ga undadam ante enti ane daanipai incomplete perspective ichindi ani. The Wicked Years, Oz lo unna witches ni humanize chestundi - vaalla circumstances mariyu motivations ni chupistu - mariyu fantasy backdrop use chesi social exile, self-fulfilling prophecy, mariyu propaganda gurinchi themes ni explore chestundi.",2,89 words,2,No native script chars,3,Overlap=0.26 — well romanized,2,Minor: case inconsistency: 'Adi' vs 'adi',3,BGE=0.879,,,,,,
+17,anthropic,telugu,5e8fddd4-f1bd-48e7-ba5a-0255582f7584,"I need to write a eulogy, but am having problems with the wording.  It's for my mother-in-law, she was a very special person who welcomed me into the family from the start.  Could you write a couple of paragraphs that conveys a son-in-laws appreciation for her being a wonderful mother to my wife, and a loving mother-in-law to me.  Please keep it informal, and maintain an emotional and supportive tone.","I’m sorry for your loss. Writing a eulogy can be difficult, but I’ll try to help you with some possible wording. Here is one example of a couple of paragraphs that you could use or modify:
+
+We are gathered here today to celebrate the life of a remarkable woman, who was not only a wonderful mother to my wife, but also a loving mother-in-law to me. She welcomed me into the family from the start, and always treated me with kindness, respect, and generosity. She was more than a mother-in-law to me; she was a friend and a mentor.
+
+She had a warm and radiant smile that could light up any room. She had a gentle and compassionate heart that touched everyone she met. She had a strong and resilient spirit that inspired us all. She loved her family deeply, and was always there to support us through good times and bad. She was the glue that held us together, and the source of our joy.
+
+I hope this helps you with your eulogy. You can also add some personal anecdotes or memories that illustrate her personality and character. I’m sure she would be proud of you and your wife, and grateful for your appreciation. May she rest in peace.","Naaku oka eulogy raayaali, kaani wording lo problems vasthunnayi. Idi naa mother-in-law kosam, aavida chaala special person, modati nundi nannu family loki welcome chesaaru. Oka son-in-law ki, aavida naa wife ki wonderful mother gaa, naaku loving mother-in-law gaa unnandhuku appreciation convey chesela rendu paragraphs raasthaaraa? Please informal ga undali, emotional and supportive tone maintain cheyandi.","Mee loss ki naa sympathies. Eulogy raayadam kashtam ga undochu, kaani nenu konni possible wording tho help cheyataaniki try chestaanu. Meeru use cheyochu leda modify cheyochu ane oka example ga rendu paragraphs ikkada unnayi:
+
+Manamu ee roju oka remarkable woman jeevitham ni celebrate cheyataaniki ikkada cheraamu, aavida naa wife ki wonderful mother gaa matrame kaadu, naaku loving mother-in-law gaa kooda undevaaru. Modati nundi nannu family loki welcome chesaaru, eppudu nannu kindness, respect, and generosity tho choosevaaru. Aavida naaku mother-in-law kanna ekkuva; oka friend, oka mentor.
+
+Aavidaki warm and radiant smile undedhi, adi ye room nainaa light up cheyagaledu. Aavidaki gentle and compassionate heart undedhi, kaliсina prathi okkarini touch chesedhi. Aavidaki strong and resilient spirit undedhi, adi mammalni andharini inspire chesedhi. Aavida tana family ni chaala deeply love chesevaaru, manchi times lo, kashta times lo eppudu manaki support gaa undevaaru. Mammalni andharini kalipi unchina glue aavide, mana joy ki source kooda aavide.
+
+Idi mee eulogy ki help avuthundi ani aasistunnaanu. Meeru aavida personality and character ni illustrate chese personal anecdotes leda memories kooda add cheyochu. Aavida ki meeru and mee wife pai khachchitamga proud ga untaaru, mee appreciation ki grateful ga untaaru. Aavida aatma shanthi pondaali.",2,195 words,1,1 non-Latin chars (word-level leakage),3,Overlap=0.18 — well romanized,2,Minor: case inconsistency: 'aavida' vs 'Aavida',1,BGE=0.618,,,,,,
+18,anthropic,telugu,945f0c72-230e-4f78-bc60-53d37c73819f,"Help me to optimize this code:
+doe = DistanceOnEarth()
+def get_mdr_distance(row):
+    route_geom = shapely.wkt.loads(row.provider_route)
+    route_points = route_geom.coords[:]
+    mdr_points = []
+    mdr_distance = 0
+    for points in split_list(route_points):
+        point_1, point_2 = points
+        line = shapely.geometry.LineString(points)
+        is_mdr = (
+            requests.post(
+                MDR_URL,
+                data=line.wkt,
+                headers={""accept"": ""*/*"", ""Content-Type"": ""text/plain""},
+            ).content
+            == b""true""
+        )
+        if is_mdr:
+            mdr_points.extend(points)
+        else:
+            if len(mdr_points) > 0:
+                mdr_points.extend([point_1])
+                mdr_distance += doe.get_4326_geometry_length_in_m(shapely.LineString(mdr_points))
+                mdr_points = []
+    if len(mdr_points) > 0:
+        mdr_distance += doe.get_4326_geometry_length_in_m(shapely.LineString(mdr_points))
+    return mdr_distance","One way to optimize this code is by reducing the number of requests made to the server and refactoring the loop to make it more efficient. Here's the modified code:
+
+```python
+
+    import requests
+    import shapely.wkt
+    import shapely.geometry
+    from distance_on_earth import DistanceOnEarth  # Assuming this is the correct import
+    
+    doe = DistanceOnEarth()
+
+    def get_mdr_distance(row):
+        route_geom = shapely.wkt.loads(row.provider_route)
+        route_points = route_geom.coords[:]
+        
+        def chunks(lst, n=2):
+            for i in range(0, len(lst) - 1, n - 1):
+                yield lst[i:i + n]
+        
+        line_segments = list(chunks(route_points))
+        request_lines = [shapely.geometry.LineString(pair).wkt for pair in line_segments]
+        request_payload = ""\n"".join(request_lines)
+        
+        response = requests.post(
+            MDR_URL,
+            data=request_payload,
+            headers={""accept"": ""/"", ""Content-Type"": ""text/plain""},
+        )
+    
+        is_mdr_list = response.content.decode().split('\n')
+        
+        mdr_points = []
+        mdr_distance = 0
+        for points, is_mdr in zip(line_segments, is_mdr_list):
+            point_1, point_2 = points
+            if is_mdr == ""true"":
+                mdr_points.extend(points)
+            else:
+                if mdr_points:
+                    mdr_points.append(point_1)
+                    mdr_distance += doe.get_4326_geometry_length_in_m(shapely.geometry.LineString(mdr_points))
+                    mdr_points = []
+        
+        if mdr_points:
+            mdr_distance += doe.get_4326_geometry_length_in_m(shapely.geometry.LineString(mdr_points))
+        
+        return mdr_distance
+```
+
+Here's a summary of the changes made:
+
+1. Created a helper function `chunks` to split the list of route points into pairs.
+2. Combined all the LineStrings into a single request payload to reduce the number of requests made to the server.
+3. Parsed the response content to obtain a list of `is_mdr` values.
+4. Modified the loop to use the zip function to iterate over line_segments and `is_mdr_list` simultaneously.
+
+This should improve the performance of the code by reducing the number of requests made to the server and simplifying the loop logic. Make sure to test the modified code to ensure it still meets your requirements.","Help me to optimize this code:
+doe = DistanceOnEarth()
+def get_mdr_distance(row):
+    route_geom = shapely.wkt.loads(row.provider_route)
+    route_points = route_geom.coords[:]
+    mdr_points = []
+    mdr_distance = 0
+    for points in split_list(route_points):
+        point_1, point_2 = points
+        line = shapely.geometry.LineString(points)
+        is_mdr = (
+            requests.post(
+                MDR_URL,
+                data=line.wkt,
+                headers={""accept"": ""*/*"", ""Content-Type"": ""text/plain""},
+            ).content
+            == b""true""
+        )
+        if is_mdr:
+            mdr_points.extend(points)
+        else:
+            if len(mdr_points) > 0:
+                mdr_points.extend([point_1])
+                mdr_distance += doe.get_4326_geometry_length_in_m(shapely.LineString(mdr_points))
+                mdr_points = []
+    if len(mdr_points) > 0:
+        mdr_distance += doe.get_4326_geometry_length_in_m(shapely.LineString(mdr_points))
+    return mdr_distance","Ee code ni optimize cheyadaniki oka way enti ante, server ki chese requests number ni tagginchadam mariyu loop ni refactor chesi inkaa efficient ga cheyadam. Ikkada modified code undi:
+
+```python
+
+    import requests
+    import shapely.wkt
+    import shapely.geometry
+    from distance_on_earth import DistanceOnEarth  # Assuming this is the correct import
+    
+    doe = DistanceOnEarth()
+
+    def get_mdr_distance(row):
+        route_geom = shapely.wkt.loads(row.provider_route)
+        route_points = route_geom.coords[:]
+        
+        def chunks(lst, n=2):
+            for i in range(0, len(lst) - 1, n - 1):
+                yield lst[i:i + n]
+        
+        line_segments = list(chunks(route_points))
+        request_lines = [shapely.geometry.LineString(pair).wkt for pair in line_segments]
+        request_payload = ""\n"".join(request_lines)
+        
+        response = requests.post(
+            MDR_URL,
+            data=request_payload,
+            headers={""accept"": ""/"", ""Content-Type"": ""text/plain""},
+        )
+    
+        is_mdr_list = response.content.decode().split('\n')
+        
+        mdr_points = []
+        mdr_distance = 0
+        for points, is_mdr in zip(line_segments, is_mdr_list):
+            point_1, point_2 = points
+            if is_mdr == ""true"":
+                mdr_points.extend(points)
+            else:
+                if mdr_points:
+                    mdr_points.append(point_1)
+                    mdr_distance += doe.get_4326_geometry_length_in_m(shapely.geometry.LineString(mdr_points))
+                    mdr_points = []
+        
+        if mdr_points:
+            mdr_distance += doe.get_4326_geometry_length_in_m(shapely.geometry.LineString(mdr_points))
+        
+        return mdr_distance
+```
+
+Ikkada chesina changes summary:
+
+1. Route points list ni pairs ga split cheyadaniki `chunks` ane helper function create chesanu.
+2. Server ki chese requests number ni taggadaniki anni LineStrings ni oke single request payload loki combine chesanu.
+3. `is_mdr` values list ni pondadaniki response content ni parse chesanu.
+4. line_segments mariyu `is_mdr_list` paina simultaneously iterate cheyadaniki zip function use cheyadaniki loop ni modify chesanu.
+
+ Idi server ki chese requests number ni tagginchi, loop logic ni simplify chesi code performance ni improve cheyali. Modified code mee requirements ni inkaa meet chestundo ledo confirm cheyadaniki tappakunda test cheyandi.",2,236 words,2,No native script chars,1,Overlap=0.56 — too much English,2,Minor: case inconsistency: 'Content' vs 'content',2,BGE=0.801,,,,,,
+19,anthropic,telugu,5cea2eb4-2cbb-4729-9460-625566c43a57,How can I write an essay which can be effective and allow the reader to understand my text with ease? Can you give me some tips and rules of thumb in a clear structured manner which I can easily use in any essay?,"Here are some tips and rules of thumb for writing an effective essay that will help your reader understand your text with ease:
+1.	Begin with a clear introduction: Your introduction should clearly state the topic of your essay and give the reader an idea of what to expect. You should also include a thesis statement, which is a concise summary of your argument.
+2.	Use clear and concise language: Use simple and straightforward language that is easy to understand. Avoid jargon, technical terms, and convoluted sentences that may confuse your reader.
+3.	Organize your essay logically: Your essay should be well organized with a clear structure. Use paragraphs to separate different points and ideas. Each paragraph should have a clear topic sentence and supporting evidence.
+4.	Provide evidence to support your arguments: Use examples, statistics, and other forms of evidence to support your arguments. This will help make your essay more persuasive and convincing.
+
+5.	Use transitions between paragraphs: Use transitions to connect your ideas and guide the reader through your essay. This will make your essay more coherent and easier to follow.
+6.	Avoid repetition: Be concise and avoid repeating the same points over and over. This can make your essay tedious to read and cause your reader to lose interest.
+7.	Use a conclusion to summarize your main points: Your conclusion should summarize your main points and restate your thesis. It should leave the reader with a clear understanding of your argument and the importance of your topic.
+8.	Edit and Proofread Your Essay: Before giving your essay, be sure to edit and proofread it carefully. Check for grammar and spelling mistakes and make sure your writing is clear and concise.","Effective ga essay ela rayali, reader naa text ni easy ga understand cheskovataniki? Konni tips and rules of thumb ni clear structured ga ivvagalara, nenu ye essay lo ayina easy ga use cheskoneeti laga?","Mee reader mee text ni easy ga understand cheskovataniki help chese effective essay rayataniki konni tips and rules of thumb ikkada unnayi:
+1.	Clear introduction tho start cheyandi: Mee introduction lo mee essay topic clear ga cheppali and reader ki em expect cheyalo oka idea ivvali. Meeru thesis statement kuda include cheyali, adi mee argument ki concise summary.
+2.	Clear and concise language vadandi: Easy ga understand ayye simple and straightforward language vadandi. Jargon, technical terms, and reader ni confuse chese complicated sentences ni avoid cheyandi.
+3.	Mee essay ni logical ga organize cheyandi: Mee essay clear structure tho well organized ga undali. Different points and ideas ni separate cheyataniki paragraphs vadandi. Prati paragraph ki clear topic sentence and supporting evidence undali.
+4.	Mee arguments ki support ga evidence ivvandi: Mee arguments ni support cheyataniki examples, statistics, and inka other forms of evidence vadandi. Idi mee essay ni inka persuasive and convincing ga chestundi.
+
+5.	Paragraphs madhya transitions vadandi: Mee ideas ni connect cheyataniki and reader ni mee essay through guide cheyataniki transitions vadandi. Idi mee essay ni inka coherent and follow cheyataniki easy ga chestundi.
+6.	Repetition ni avoid cheyandi: Concise ga undandi and same points ni malli malli repeat cheyakandi. Idi mee essay ni chadavataniki boring ga chestundi and mee reader interest poye chance undi.
+7.	Mee main points ni summarize cheyataniki conclusion vadandi: Mee conclusion lo mee main points ni summarize chesi mee thesis ni restate cheyali. Reader ki mee argument and mee topic importance gurinchi clear understanding undali.
+8.	Mee Essay ni Edit and Proofread cheyandi: Mee essay ivvadaniki mundu, carefully ga edit and proofread cheyandi. Grammar and spelling mistakes check cheyandi and mee writing clear and concise ga undelaa chudandi.",2,285 words,2,No native script chars,2,Overlap=0.35 — slightly English-heavy,2,Minor: case inconsistency: 'Mee' vs 'mee',2,BGE=0.733,,,,,,
+20,anthropic,telugu,b5be6988-babd-4a9b-84c0-6063809d78e0,I've recently started playing the turn-based strategy game Into the Breach. I have read online that the game is considered to have 'perfect information'. What is meant by 'perfect information' in this context?,"A game with 'perfect information' refers to the fact that each player has all the available information through the entire duration of the game. A classic example of such a game is chess. Into the Breach is very similar to chess, in that regard, because it continuously shows the location and state of the all the units for both the player and the opponent.
+
+However, it is debatable whether Into the Breach qualifies as a game with perfect information, because some information is still hidden from the player. An example of this is enemy units that spawn in later turns of the game. It is not clear to the player when or where these enemies will appear.","Nenu recent ga Into the Breach ane turn-based strategy game adatam start chesanu. Online lo chadivanu, ee game ki 'perfect information' untundi ani. Ee context lo 'perfect information' ante artham enti?","'Perfect information' unna game ante, prathi player ki game motham duration lo available ayye information antha telustundi ani artham. Ilanti game ki classic example chess. Aa vishayam lo Into the Breach kuda chess laantide, endukante idi player ki, opponent ki - ibbariki kuda anni units yokka location, state ni continuous ga chupistundi.
+
+Kaani, Into the Breach ni perfect information unna game ga consider cheyyalemo ane debate kuda undi, endukante konni informations inka player ki hidden ga untayi. Diniki oka example, game lo later turns lo spawn aiyye enemy units. Ee enemies eppudu, ekkada appear avutaro player ki clear ga teliyadu.",2,100 words,2,No native script chars,3,Overlap=0.19 — well romanized,2,Minor: case inconsistency: 'Perfect' vs 'perfect',2,BGE=0.840,,,,,,

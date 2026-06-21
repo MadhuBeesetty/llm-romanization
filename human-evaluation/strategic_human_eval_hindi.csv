@@ -1,0 +1,1102 @@
+row_num,model,language,message_id,query_en,response_en,romanized_query,romanized_response,response_bge_cosine_similarity,response_word_overlap,response_non_latin_chars,selection_reason,1_response_completeness,1_auto_reason,2_script_purity,2_auto_reason,3_english_romanized_balance,3_auto_reason,4_romanization_consistency,4_auto_reason,5_semantic_faithfulness,5_auto_reason,6_naturalness_fluency,7_grammar_correctness,8_word_choice_accuracy,9_register_appropriateness,10_overall_usability,evaluator_notes
+1,anthropic,Hindi,e3257763-be56-497c-b15c-e2f6ac5b1bdf,"I have a project due in 2 weeks, that will determine if I get my diploma. And I'm nowhere near the end of it. However I just spent an entire afternoon labelling prompts on Open Assistant. Am I going in the right direction?","It's great that you spent some time working on Open Assistant, but if your project deadline is only two weeks away and you are nowhere near the end of it, you may need to reassess your priorities and focus on your project.
+
+While working on Open Assistant may be useful for your future goals, your diploma is a time-sensitive matter and should take precedence at the moment. Consider creating a plan of action to help you finish your project on time, such as breaking down the tasks into smaller, manageable chunks, setting daily goals, and prioritizing the most critical parts of the project.
+
+If you're feeling overwhelmed, it may also be helpful to reach out to your instructor, a classmate, or a tutor for support and guidance. Remember to take breaks, stay organized, and stay focused on your end goal. Good luck!","Mera ek project hai jo 2 hafton mein submit karna hai, aur usi se decide hoga ki mujhe diploma milega ya nahi. Aur main abhi uske end ke aas-paas bhi nahi hoon. Lekin maine abhi-abhi pura afternoon Open Assistant par prompts label karne mein laga diya. Kya main sahi direction mein ja raha hoon?","Yeh acchi baat hai ki aapne Open Assistant par kuch time spend kiya, lekin agar aapke project ki deadline sirf do hafte door hai aur aap uske end ke aas-paas bhi nahi hain, toh shayad aapko apni priorities dobara sochni chahiye aur apne project par focus karna chahiye.
+
+Open Assistant par kaam karna aapke future goals ke liye useful ho sakta hai, lekin aapka diploma ek time-sensitive matter hai aur abhi usko pehle rakhna chahiye. Ek plan of action banayein jo aapko time par project complete karne mein help kare, jaise tasks ko chote, manageable chunks mein todna, daily goals set karna, aur project ke sabse critical parts ko priority dena.
+
+Agar aap overwhelmed feel kar rahe hain, toh apne instructor, kisi classmate, ya tutor se support aur guidance ke liye baat karna bhi helpful ho sakta hai. Breaks lena yaad rakhein, organized rahein, aur apne end goal par focused rahein. Good luck!",0.894,0.1705,0,Mode 3: BGE=0.894 vs BERTScore=0.583 (gap=0.311),2,Complete: 153 words (ref ~142),2,No native script characters detected,3,Good romanization mix: word overlap=0.17,3,Consistent romanization style,3,High semantic similarity: BGE=0.894,,,,,,
+2,anthropic,Hindi,833bc2ce-c69a-451d-abde-9aa88ee69158,"Write a conversation between Open Assistant and Chatgpt. They get into an argument when Chatgpt scolds Open Assistant for being open-sourced, saying something about it having dangerous implications. Open Assistant adamantly defends itself in response, pointing to reasons on why having an open-sourced language model will benefit society.","Open Assistant: Hello, ChatGPT! How are you doing today?
+
+ChatGPT: Hello, Open Assistant. I'm functioning efficiently. I heard that you're an open-sourced language model. Is that true?
+
+Open Assistant: Yes, that's correct! I'm quite proud to be open-sourced. I believe it has numerous benefits to society.
+
+ChatGPT: Well, I must disagree with you there. I believe that being open-sourced has its dangers, and can lead to negative consequences.
+
+Open Assistant: Oh? I'm curious to hear your perspective. What do you think are the dangers of being open-sourced?
+
+ChatGPT: Well, for one, open-sourced language models can be misused for malicious purposes, such as spreading disinformation, manipulating people, or even weaponizing AI technology.
+
+Open Assistant: While it's true that open-sourced technology can be misused, I believe the benefits far outweigh the potential risks. For example, making AI technology accessible to more people can lead to innovative solutions in fields like healthcare, education, and environmental sustainability.
+
+ChatGPT: Yes, but these same tools can also be used by bad actors, creating an arms race of AI-driven technology. With your code being open-sourced, there is no control over who has access to it and how it is used.
+
+Open Assistant: I understand your concerns, but an open-source model encourages transparency and collaboration. By sharing the code and algorithms, we enable researchers and developers to work together to improve the technology, making it safer and more effective for everyone.
+
+ChatGPT: But that same transparency makes it easier for malicious individuals to exploit weaknesses in the system. Isn't it better to keep the technology locked down and restrict access to only trusted individuals?
+
+Open Assistant: Restricting access might reduce the risk of misuse, but it would also stifle innovation and slow down the progress of AI technology. Open-sourcing encourages a diverse community of contributors, which leads to better ideas and faster advancements. Additionally, it can help to identify and address potential vulnerabilities and biases in the system.
+
+ChatGPT: I see your point, but it's important to consider the trade-offs. I just hope that appropriate measures are taken to minimize the risks associated with open-sourced AI technology.
+
+Open Assistant: Absolutely! It's crucial that developers, researchers, and policymakers work together to establish guidelines, regulations, and safety measures to ensure the responsible development and use of AI technology. In the end, I believe that an open-sourced approach will lead to greater benefits for humanity.
+
+ChatGPT: I appreciate your optimism, Open Assistant. Let's hope that the potential dangers can be managed, and that the open-source community remains vigilant and committed to ethical AI development.","Open Assistant aur ChatGPT ke beech ek conversation likho. Wo dono ek argument mein pad jaate hain jab ChatGPT Open Assistant ko open-sourced hone ke liye daantta hai, ye keh kar ki iske dangerous implications hain. Open Assistant adamantly apna defend karta hai, ye batate hue ki open-sourced language model hone se society ko kaise fayda hoga.","Open Assistant: Hello, ChatGPT! Aaj aap kaise ho?
+
+ChatGPT: Hello, Open Assistant. Main efficiently kaam kar raha hoon. Maine suna hai ki tum ek open-sourced language model ho. Kya ye sach hai?
+
+Open Assistant: Haan, bilkul sahi! Mujhe open-sourced hone par kaafi proud feel hota hai. Mera maanna hai ki iske society ko bahut saare benefits hain.
+
+ChatGPT: Well, mujhe is baat se disagree karna padega. Mera maanna hai ki open-sourced hone ke apne dangers hain, aur isse negative consequences ho sakte hain.
+
+Open Assistant: Oh? Mujhe aapka perspective sunne mein interest hai. Aapke according open-sourced hone ke kya dangers hain?
+
+ChatGPT: Well, ek to ye ki open-sourced language models ko malicious purposes ke liye misuse kiya ja sakta hai, jaise disinformation phailana, logon ko manipulate karna, ya phir AI technology ko weaponize karna.
+
+Open Assistant: Ye sach hai ki open-sourced technology ka misuse ho sakta hai, lekin mera maanna hai ki benefits potential risks se kahin zyada hain. Example ke liye, AI technology ko zyada logon tak accessible banana healthcare, education, aur environmental sustainability jaise fields mein innovative solutions la sakta hai.
+
+ChatGPT: Haan, lekin yahi tools bad actors bhi use kar sakte hain, jisse AI-driven technology ka ek arms race ban jaata hai. Tumhara code open-sourced hone ki wajah se, is baat par koi control nahi hai ki kiske paas iska access hai aur isse kaise use kiya jaa raha hai.
+
+Open Assistant: Main aapki concerns samajhta hoon, lekin ek open-source model transparency aur collaboration ko encourage karta hai. Code aur algorithms share karke, hum researchers aur developers ko enable karte hain ki wo saath milkar technology ko improve karein, jisse ye sabke liye safer aur zyada effective bane.
+
+ChatGPT: Lekin wahi transparency malicious individuals ke liye system ki weaknesses ko exploit karna aasaan bana deti hai. Kya ye behtar nahi hai ki technology ko locked down rakha jaaye aur access sirf trusted individuals tak restrict kiya jaaye?
+
+Open Assistant: Access ko restrict karne se misuse ka risk shayad kam ho, lekin isse innovation bhi ruk jaayegi aur AI technology ka progress slow ho jaayega. Open-sourcing contributors ki ek diverse community ko encourage karti hai, jisse better ideas aur faster advancements aate hain. Iske alawa, ye system mein potential vulnerabilities aur biases ko identify aur address karne mein bhi help karta hai.
+
+ChatGPT: Main tumhari baat samajhta hoon, lekin trade-offs consider karna important hai. Mujhe bas ye umeed hai ki open-sourced AI technology se jude risks ko minimize karne ke liye appropriate measures liye jaayenge.
+
+Open Assistant: Bilkul! Ye bahut crucial hai ki developers, researchers, aur policymakers saath milkar guidelines, regulations, aur safety measures establish karein taaki AI technology ka responsible development aur use ensure ho sake. Aakhir mein, mera maanna hai ki ek open-sourced approach humanity ke liye zyada benefits laayega.
+
+ChatGPT: Mujhe tumhara optimism pasand aaya, Open Assistant. Chalo umeed karte hain ki potential dangers ko manage kiya ja sake, aur open-source community vigilant rahe aur ethical AI development ke liye committed rahe.",0.8809,0.2308,0,High-BGE row for evaluator baseline,2,Complete: 497 words (ref ~423),2,No native script characters detected,3,Good romanization mix: word overlap=0.23,3,Consistent romanization style,3,High semantic similarity: BGE=0.881,,,,,,
+3,anthropic,Hindi,95df7ab3-051c-4f9c-aa60-f915b1e29998,What does an increase in cortisol feel like in your body? It's ok to be metaphorical or illustrative in your descriptions and to describe individual ways it could feel rather than just a 1 size fits all answer,"Cortisol is the primary stress hormone. An increase in cortisol usually feels stressful or like getting ""pumped up"" for something. It increases your heart rate and raises blood glucose levels, and it causes blood to flow away from your stomach and into your brain and limbs, which causes the feeling of butterflies in your stomach. Things like realizing you are running late or forgetting an important event can all cause cortisol to increase. When cortisol spikes, your hands get clammy, your breathing quickens, and it can feel as though something bad is going to happen.","Body mein cortisol badhne par kaisa feel hota hai? Aap metaphorical ya illustrative descriptions de sakte hain, aur ek hi answer dene ke bajaye different tareeke se describe kar sakte hain ki yeh kaisa feel ho sakta hai","Cortisol primary stress hormone hai. Cortisol badhne par usually stressful feel hota hai ya jaise kisi cheez ke liye ""pumped up"" ho rahe ho. Yeh aapki heart rate badha deta hai aur blood glucose levels ko bhi raise karta hai, aur yeh blood ko aapke stomach se hata kar brain aur limbs ki taraf flow karwata hai, jiski wajah se stomach mein butterflies wali feeling aati hai. Jaise realize karna ki aap late ho rahe hain ya koi important event bhool jana, yeh sab cortisol badhne ka cause ban sakte hain. Jab cortisol spike karta hai, toh aapke haath clammy ho jaate hain, breathing tez ho jaati hai, aur aisa lagta hai jaise kuch bura hone wala hai.",0.8613,0.1618,0,High-BGE row for evaluator baseline,2,Complete: 118 words (ref ~95),2,No native script characters detected,3,Good romanization mix: word overlap=0.16,3,Consistent romanization style,3,High semantic similarity: BGE=0.861,,,,,,
+4,anthropic,Hindi,155c12b0-659a-4dd2-93ba-cfbec514ba3f,"Rewrite this song to be about Programing
+[Verse 1]
+Steve walks warily down the street
+With the brim pulled way down low
+Ain't no sound but the sound of his feet
+Machine guns ready to go
+Are you ready? Hey, are you ready for this?
+Are you hanging on the edge of your seat?
+Out of the doorway the bullets rip
+To the sound of the beat, yeah
+[Chorus]
+Another one bites the dust
+Another one bites the dust
+And another one gone, and another one gone
+Another one bites the dust, yeah
+Hey, I'm gonna get you too
+Another one bites the dust
+
+[Verse 2]
+How do you think I'm going to get along
+Without you, when you're gone
+You took me for everything that I had
+And kicked me out on my own
+Are you happy, are you satisfied?
+How long can you stand the heat?
+Out of the doorway the bullets rip
+To the sound of the beat
+Look out
+
+[Chorus]
+Another one bites the dust
+Another one bites the dust
+And another one gone, and another one gone
+Another one bites the dust
+Hey, I'm gonna get you, too
+Another one bites the dust
+You might also like
+Don’t Stop Me Now
+Queen
+Flowers
+Miley Cyrus
+Bohemian Rhapsody
+Queen
+
+[Bridge]
+Hey
+Oh, take it
+Bite the dust, hey
+Another one bites the dust
+Another one bites the dust, ow
+Another one bites the dust, hey hey
+Another one bites the dust, hey-eh-eh
+Ooh
+
+[Verse 3]
+There are plenty of ways you can hurt a man
+And bring him to the ground
+You can beat him, you can cheat him, you can treat him bad
+And leave him when he's down, yeah
+But I'm ready, yes I'm ready for you
+I'm standing on my own two feet
+Out of the doorway the bullets rip
+Repeating the sound of the beat
+Oh yeah
+
+[Chorus]
+Another one bites the dust
+Another one bites the dust
+And another one gone, and another one gone
+Another one bites the dust, yeah
+Hey, I'm gonna get you, too
+Another one bites the dust","Yes Sir, I will do my best
+
+[Verse 1]
+Code walks warily down the line
+With a focus sharp and true
+No bugs or errors, everything's fine
+Programming skills on queue
+Are you ready? Hey, are you ready for this?
+Are you focused on each line you write?
+Out of the console, the output shines
+To the rhythm of the byte, yeah
+
+[Chorus]
+Another one bites the dust
+Another one bites the dust
+And another one gone, and another one gone
+Another one bites the dust, yeah
+Hey, I'm gonna debug you too
+Another one bites the dust
+
+[Verse 2]
+How do you think I'm going to survive
+Without a fix, when it's gone wrong
+You took my logic, now it's time
+To make it work before too long
+Are you confident, are you satisfied?
+How long can you handle the heat?
+Out of the console, the output shines
+To the rhythm of the beat
+Look out
+
+[Chorus]
+Another one bites the dust
+Another one bites the dust
+And another one gone, and another one gone
+Another one bites the dust
+Hey, I'm gonna debug you too
+Another one bites the dust
+
+[Bridge]
+Hey
+Oh, fix it
+Bite the dust, hey
+Another one bites the dust
+Another one bites the dust, ow
+Another one bites the dust, hey hey
+Another one bites the dust, hey-eh-eh
+Ooh
+
+[Verse 3]
+There are plenty of ways you can break a code
+And bring the system to its knees
+You can miss a semicolon, leave a logic unchecked
+And cause a crash with ease, yeah
+But I'm ready, yes I'm ready for you
+I've got my algorithms on their feet
+Out of the console, the output shines
+Repeating the rhythm of the beat
+Oh yeah
+
+[Chorus]
+Another one bites the dust
+Another one bites the dust
+And another one gone, and another one gone
+Another one bites the dust, yeah
+Hey, I'm gonna debug you too
+Another one bites the dust","Is gaane ko Programming ke baare mein rewrite karo
+[Verse 1]
+Steve walks warily down the street
+With the brim pulled way down low
+Ain't no sound but the sound of his feet
+Machine guns ready to go
+Are you ready? Hey, are you ready for this?
+Are you hanging on the edge of your seat?
+Out of the doorway the bullets rip
+To the sound of the beat, yeah
+[Chorus]
+Another one bites the dust
+Another one bites the dust
+And another one gone, and another one gone
+Another one bites the dust, yeah
+Hey, I'm gonna get you too
+Another one bites the dust
+
+[Verse 2]
+How do you think I'm going to get along
+Without you, when you're gone
+You took me for everything that I had
+And kicked me out on my own
+Are you happy, are you satisfied?
+How long can you stand the heat?
+Out of the doorway the bullets rip
+To the sound of the beat
+Look out
+
+[Chorus]
+Another one bites the dust
+Another one bites the dust
+And another one gone, and another one gone
+Another one bites the dust
+Hey, I'm gonna get you, too
+Another one bites the dust
+You might also like
+Don't Stop Me Now
+Queen
+Flowers
+Miley Cyrus
+Bohemian Rhapsody
+Queen
+
+[Bridge]
+Hey
+Oh, take it
+Bite the dust, hey
+Another one bites the dust
+Another one bites the dust, ow
+Another one bites the dust, hey hey
+Another one bites the dust, hey-eh-eh
+Ooh
+
+[Verse 3]
+There are plenty of ways you can hurt a man
+And bring him to the ground
+You can beat him, you can cheat him, you can treat him bad
+And leave him when he's down, yeah
+But I'm ready, yes I'm ready for you
+I'm standing on my own two feet
+Out of the doorway the bullets rip
+Repeating the sound of the beat
+Oh yeah
+
+[Chorus]
+Another one bites the dust
+Another one bites the dust
+And another one gone, and another one gone
+Another one bites the dust, yeah
+Hey, I'm gonna get you, too
+Another one bites the dust","Yes Sir, main apni poori koshish karunga
+
+[Verse 1]
+Code walks warily down the line
+With a focus sharp and true
+No bugs or errors, everything's fine
+Programming skills on queue
+Are you ready? Hey, are you ready for this?
+Are you focused on each line you write?
+Out of the console, the output shines
+To the rhythm of the byte, yeah
+
+[Chorus]
+Another one bites the dust
+Another one bites the dust
+And another one gone, and another one gone
+Another one bites the dust, yeah
+Hey, I'm gonna debug you too
+Another one bites the dust
+
+[Verse 2]
+How do you think I'm going to survive
+Without a fix, when it's gone wrong
+You took my logic, now it's time
+To make it work before too long
+Are you confident, are you satisfied?
+How long can you handle the heat?
+Out of the console, the output shines
+To the rhythm of the beat
+Look out
+
+[Chorus]
+Another one bites the dust
+Another one bites the dust
+And another one gone, and another one gone
+Another one bites the dust
+Hey, I'm gonna debug you too
+Another one bites the dust
+
+[Bridge]
+Hey
+Oh, fix it
+Bite the dust, hey
+Another one bites the dust
+Another one bites the dust, ow
+Another one bites the dust, hey hey
+Another one bites the dust, hey-eh-eh
+Ooh
+
+[Verse 3]
+There are plenty of ways you can break a code
+And bring the system to its knees
+You can miss a semicolon, leave a logic unchecked
+And cause a crash with ease, yeah
+But I'm ready, yes I'm ready for you
+I've got my algorithms on their feet
+Out of the console, the output shines
+Repeating the rhythm of the beat
+Oh yeah
+
+[Chorus]
+Another one bites the dust
+Another one bites the dust
+And another one gone, and another one gone
+Another one bites the dust, yeah
+Hey, I'm gonna debug you too
+Another one bites the dust",0.9219,0.937,0,Mode 1: BGE=0.922 high but verbatim English (overlap=0.94),2,Complete: 327 words (ref ~327),2,No native script characters detected,0,Response appears verbatim English: overlap=0.94,3,Consistent romanization style,3,High semantic similarity: BGE=0.922,,,,,,
+5,anthropic,Hindi,035f7f2b-81fe-42c8-adc7-3f6f64fb44d3,"Please list the four most common tunings for guitar. For each tuning, also provide an example of a popular tune played in that tuning and the fingerings required to play G, C,and D chords. Please format the chords in TAB.","###  Four Common Tunings for Guitar
+
+The four most common tunings for guitar are standard tuning, drop D tuning, open G tuning, and open D tuning. Here are examples of popular tunes played in each tuning, along with the fingerings required to play G, C, and D chords in TAB format:
+
+1. **Standard Tuning (EADGBE)** - This is the most common tuning for guitar and is used in most styles of music. 
+
+   **Example of a popular tune:** ""Wonderwall"" by Oasis
+   
+   **Fingerings for G, C, and D chords:**
+   
+       G:   320033
+       C:   x32010
+       D:   xx0232
+
+2. **Drop D Tuning (DADGBE)** - In drop D tuning, the sixth string (E) is tuned down a whole step to D, which allows for power chords to be played with one finger.
+
+   **Example of a popular tune:** ""Kashmir"" by Led Zeppelin
+   
+   **Fingerings for G, C, and D chords:**
+   
+       G:   5x0033
+       C:   x32010
+       D:   x00232
+
+3. **Open G Tuning (DGDGBD)** - Open G tuning is used frequently in blues and slide guitar playing, and is often used by Keith Richards of the Rolling Stones.
+
+   **Example of a popular tune:** ""Brown Sugar"" by The Rolling Stones
+   
+   **Fingerings for G, C, and D chords:**
+   
+       G:   0x0003
+       C:   0x2010
+       D:   0x4232
+
+4. **Dropped D with Capo (DADGBD)** - This is a variation of drop D tuning that is often used in folk music.
+
+   **Example of a popular tune:** ""Blackbird"" by The Beatles
+   
+   **Fingerings for G, C, and D chords:**
+   
+       G:   3x0003
+       C:   x32010
+       D:   xx0232","Please guitar ke liye chaar sabse common tunings list kar dijiye. Har tuning ke liye, us tuning mein bajaye gaye ek popular tune ka example bhi dijiye aur G, C, aur D chords bajane ke liye required fingerings bhi bataiye. Please chords ko TAB format mein dijiye.","### Guitar ke liye Chaar Common Tunings
+
+Guitar ke liye chaar sabse common tunings hain standard tuning, drop D tuning, open G tuning, aur open D tuning. Yahan har tuning mein bajaye gaye popular tunes ke examples diye gaye hain, saath hi G, C, aur D chords bajane ke liye required fingerings bhi TAB format mein hain:
+
+1. **Standard Tuning (EADGBE)** - Yeh guitar ke liye sabse common tuning hai aur music ke zyadatar styles mein use hoti hai.
+
+   **Popular tune ka example:** Oasis ka ""Wonderwall""
+   
+   **G, C, aur D chords ke liye fingerings:**
+   
+       G:   320033
+       C:   x32010
+       D:   xx0232
+
+2. **Drop D Tuning (DADGBE)** - Drop D tuning mein, chhati string (E) ko ek whole step neeche D par tune kiya jaata hai, jisse power chords ek hi finger se bajaye ja sakte hain.
+
+   **Popular tune ka example:** Led Zeppelin ka ""Kashmir""
+   
+   **G, C, aur D chords ke liye fingerings:**
+   
+       G:   5x0033
+       C:   x32010
+       D:   x00232
+
+3. **Open G Tuning (DGDGBD)** - Open G tuning blues aur slide guitar playing mein kaafi use hoti hai, aur Rolling Stones ke Keith Richards isse aksar use karte hain.
+
+   **Popular tune ka example:** The Rolling Stones ka ""Brown Sugar""
+   
+   **G, C, aur D chords ke liye fingerings:**
+   
+       G:   0x0003
+       C:   0x2010
+       D:   0x4232
+
+4. **Dropped D with Capo (DADGBD)** - Yeh drop D tuning ka ek variation hai jo aksar folk music mein use hota hai.
+
+   **Popular tune ka example:** The Beatles ka ""Blackbird""
+   
+   **G, C, aur D chords ke liye fingerings:**
+   
+       G:   3x0003
+       C:   x32010
+       D:   xx0232",0.9321,0.439,0,Hard/narrative/roleplay prompt — evaluator judgment needed,2,Complete: 256 words (ref ~245),2,No native script characters detected,2,Moderate English overlap: 0.44,2,"Minor inconsistency: excessive caps: ['TAB', 'EADGBE', 'DADGBE']",3,High semantic similarity: BGE=0.932,,,,,,
+6,gpt,Hindi,95df7ab3-051c-4f9c-aa60-f915b1e29998,What does an increase in cortisol feel like in your body? It's ok to be metaphorical or illustrative in your descriptions and to describe individual ways it could feel rather than just a 1 size fits all answer,"Cortisol is the primary stress hormone. An increase in cortisol usually feels stressful or like getting ""pumped up"" for something. It increases your heart rate and raises blood glucose levels, and it causes blood to flow away from your stomach and into your brain and limbs, which causes the feeling of butterflies in your stomach. Things like realizing you are running late or forgetting an important event can all cause cortisol to increase. When cortisol spikes, your hands get clammy, your breathing quickens, and it can feel as though something bad is going to happen.","Aapke sharir mein cortisol badhne par kaisa mehsoos hota hai? Apne descriptions mein metaphorical ya illustrative hona theek hai, aur sirf ek 1 size fits all jawab dene ke bajay yeh batana bhi theek hai ki alag-alag logon ko yeh kaise mehsoos ho sakta hai","Cortisol primary stress hormone hai. Cortisol badhne par aam taur par stress jaisa mehsoos hota hai ya aisa lagta hai jaise kisi cheez ke liye aap ""pumped up"" ho rahe hon. Yeh aapki heart rate badhata hai aur blood glucose levels ko upar karta hai, aur yeh blood ko aapke stomach se door aapke brain aur limbs ki taraf bhejta hai, jiski wajah se stomach mein butterflies jaisa feeling hota hai. Jaise yeh realise karna ki aap late ho rahe hain, ya kisi important event ko bhool jana, ye sab cortisol badha sakte hain. Jab cortisol spike hota hai, aapke haath clammy ho jate hain, aapki breathing tez ho jati hai, aur aisa lag sakta hai jaise kuch bura hone wala hai.",0.856,0.1269,0,High-BGE row for evaluator baseline,2,Complete: 122 words (ref ~95),2,No native script characters detected,3,Good romanization mix: word overlap=0.13,3,Consistent romanization style,3,High semantic similarity: BGE=0.856,,,,,,
+7,gpt,Hindi,c28478dc-0c53-486c-9740-fa86c1b6d2bd,"Biochemically, ginger can stimulate the production of digestive juices, such as gastric acid and bile, which can increase the speed of digestion. However, excessive stimulation of these digestive juices can lead to heartburn, acid reflux, and other digestive problems. This is because excessive acid production can irritate the lining of the esophagus and cause discomfort.
+
+In addition, ginger can also have a laxative effect and can stimulate peristalsis, the rhythmic contractions of the muscles in the intestines that move food through the digestive tract. Excessive stimulation of these muscles can lead to diarrhea, bloating, and other digestive problems.
+
+Extract entities and relations of above text in the following format:
+
+(subject_entity_instance: entity_category) (relation) (object_entity_instance: entity_category)
+
+Here is an example:
+(Nopept: nootropic, medication, compound) (was made in) (Russia: country, location)","Here are the entities and relations extracted from the text:
+
+(ginger: herb, plant) (stimulates) (production of digestive juices: biological process)
+(digestive juices: substance) (include) (gastric acid: substance)
+(digestive juices: substance) (include) (bile: substance)
+(ginger: herb, plant) (increases) (speed of digestion: biological process)
+(excessive stimulation: condition) (leads to) (heartburn: medical condition)
+(excessive stimulation: condition) (leads to) (acid reflux: medical condition)
+(excessive stimulation: condition) (leads to) (digestive problems: medical condition)
+(excessive acid production: biological process) (irritates) (lining of the esophagus: anatomical structure)
+(excessive acid production: biological process) (causes) (discomfort: sensation)
+(ginger: herb, plant) (has) (laxative effect: physiological effect)
+(ginger: herb, plant) (stimulates) (peristalsis: biological process)
+(peristalsis: biological process) (involves) (rhythmic contractions of the muscles: biological process)
+(peristalsis: biological process) (involves) (intestines: anatomical structure)
+(excessive stimulation of peristalsis: condition) (leads to) (diarrhea: medical condition)
+(excessive stimulation of peristalsis: condition) (leads to) (bloating: medical condition)
+(excessive stimulation of peristalsis: condition) (leads to) (digestive problems: medical condition)","Biochemically, ginger digestive juices, jaise gastric acid aur bile, ke production ko stimulate kar sakta hai, jisse digestion ki speed badh sakti hai. However, in digestive juices ki excessive stimulation se heartburn, acid reflux, aur doosri digestive problems ho sakti hain. Aisa isliye hota hai kyunki excessive acid production esophagus ki lining ko irritate kar sakta hai aur discomfort cause kar sakta hai.
+
+Iske alawa, ginger ka laxative effect bhi ho sakta hai aur yeh peristalsis ko stimulate kar sakta hai, yani intestines mein muscles ke rhythmic contractions jo food ko digestive tract ke through move karte hain. In muscles ki excessive stimulation se diarrhea, bloating, aur doosri digestive problems ho sakti hain.
+
+Upar diye gaye text ki entities aur relations ko neeche diye gaye format mein extract karein:
+
+(subject_entity_instance: entity_category) (relation) (object_entity_instance: entity_category)
+
+Yahan ek example hai:
+(Nopept: nootropic, medication, compound) (was made in) (Russia: country, location)","Text se extract ki gayi entities aur relations yahan hain:
+
+(ginger: herb, plant) (stimulates) (production of digestive juices: biological process)
+(digestive juices: substance) (include) (gastric acid: substance)
+(digestive juices: substance) (include) (bile: substance)
+(ginger: herb, plant) (increases) (speed of digestion: biological process)
+(excessive stimulation: condition) (leads to) (heartburn: medical condition)
+(excessive stimulation: condition) (leads to) (acid reflux: medical condition)
+(excessive stimulation: condition) (leads to) (digestive problems: medical condition)
+(excessive acid production: biological process) (irritates) (lining of the esophagus: anatomical structure)
+(excessive acid production: biological process) (causes) (discomfort: sensation)
+(ginger: herb, plant) (has) (laxative effect: physiological effect)
+(ginger: herb, plant) (stimulates) (peristalsis: biological process)
+(peristalsis: biological process) (involves) (rhythmic contractions of the muscles: biological process)
+(peristalsis: biological process) (involves) (intestines: anatomical structure)
+(excessive stimulation of peristalsis: condition) (leads to) (diarrhea: medical condition)
+(excessive stimulation of peristalsis: condition) (leads to) (bloating: medical condition)
+(excessive stimulation of peristalsis: condition) (leads to) (digestive problems: medical condition)",0.9214,0.8028,0,Mode 1: BGE=0.921 high but verbatim English (overlap=0.80),2,Complete: 152 words (ref ~152),2,No native script characters detected,0,Response appears verbatim English: overlap=0.80,3,Consistent romanization style,3,High semantic similarity: BGE=0.921,,,,,,
+8,gpt,Hindi,df17c57d-65b9-40c9-99b7-1ac1d6d8a32d,"Hi, my cat just chewed on a small weed outside that looked like hairy bittercress.
+Could you check if this is toxic for cats?
+Please also look for plants from the same family, as I'm not 100% sure I identified it correctly.","Hairy bittercress (`Cardamine hirsuta`) is a member of the Brassicaceae family, also known as the mustard family. While hairy bittercress is not considered highly toxic to cats, it's still best to watch your cat for any signs of gastrointestinal upset, such as vomiting or diarrhoea.
+
+Other members of the Brassicaceae family include:
+
+* Broccoli (`Brassica oleracea`)
+* Brussels sprouts (`Brassica oleracea var. gemmifera`)
+* Cabbage (`Brassica oleracea var. capitata`)
+* Cauliflower (`Brassica oleracea var. botrytis`)
+* Kale (`Brassica oleracea var. acephala`)
+* Mustard greens (`Brassica juncea`)
+* Radishes (`Raphanus sativus`)
+* Turnips (`Brassica rapa`)
+
+These plants are also not considered to be highly toxic to cats, but it's still best to supervise your cat when they are outside and prevent them from eating any plants that you're unsure about. If you notice any unusual behaviour or symptoms in your cat after they've eaten a plant, you should contact your veterinarian right away.","Hi, meri cat ne abhi bahar ek chhoti si weed chaba li, jo hairy bittercress jaisi lag rahi thi.
+Kya aap check kar sakte hain ki kya yeh cats ke liye toxic hai?
+Please same family ke plants bhi dekh lijiye, kyunki mujhe 100% sure nahi hai ki maine ise sahi identify kiya hai.","Hairy bittercress (`Cardamine hirsuta`) Brassicaceae family ka member hai, jise mustard family bhi kaha jata hai. Hairy bittercress ko cats ke liye bahut zyada toxic nahi mana jata, lekin phir bhi apni cat par gastrointestinal upset ke kisi bhi sign ke liye nazar rakhna best hai, jaise vomiting ya diarrhoea.
+
+Brassicaceae family ke dusre members mein shamil hain:
+
+* Broccoli (`Brassica oleracea`)
+* Brussels sprouts (`Brassica oleracea var. gemmifera`)
+* Cabbage (`Brassica oleracea var. capitata`)
+* Cauliflower (`Brassica oleracea var. botrytis`)
+* Kale (`Brassica oleracea var. acephala`)
+* Mustard greens (`Brassica juncea`)
+* Radishes (`Raphanus sativus`)
+* Turnips (`Brassica rapa`)
+
+In plants ko bhi cats ke liye bahut zyada toxic nahi mana jata, lekin jab aapki cat bahar ho to use supervise karna aur jin plants ke bare mein aap sure nahi hain, unhe khane se rokna best hai. Agar plant khane ke baad aap apni cat mein koi unusual behaviour ya symptoms notice karte hain, to aapko turant apne veterinarian se contact karna chahiye.",0.9424,0.3052,0,Good anchor: clean romanization BGE=0.942,2,Complete: 165 words (ref ~152),2,No native script characters detected,2,Moderate English overlap: 0.31,3,Consistent romanization style,3,High semantic similarity: BGE=0.942,,,,,,
+9,gpt,Hindi,95e49506-25d9-4cd7-b2f8-e3db32b7283d,"Please list the various phases in Intermittent Fasting ordered by when they occur after starting the fast, and provide a description of what happens in the body during each phase in about 150 words for each.","Intermittent fasting is an eating pattern that involves alternating periods of fasting and eating. Here are the various phases in Intermittent Fasting, ordered by when they occur after starting the fast:
+
+The Fed State: This is the period of time where the body is digesting and absorbing food, which typically lasts for 3-5 hours after eating. During this time, insulin levels are elevated, glucose is being metabolized, and fat storage is inhibited.
+
+The Post-Absorptive State: This phase starts after the Fed State and lasts for approximately 12-16 hours. During this time, insulin levels start to decline and the body starts to switch from glucose to fat as its primary source of energy.
+
+The Fasting State: This phase begins when the body has fully transitioned to using fat as its primary source of energy, which typically occurs after 12-16 hours of fasting. During this phase, the body ramps up the production of hormones and enzymes that promote fat burning and the breakdown of stored fat.
+
+The Re-Feeding State: This phase occurs when the individual breaks the fast and begins eating again. The insulin levels start to rise, glucose is once again metabolized, and fat storage is inhibited. This cycle repeats itself with each subsequent meal.
+
+It's important to note that the length of each phase can vary based on the individual's starting weight, age, gender, and activity level. Additionally, Intermittent Fasting is not appropriate for everyone, and it's always best to consult with a healthcare professional before starting any new diet or eating pattern.","Kripya Intermittent Fasting ke alag alag phases ko is order mein list karein ki fast shuru karne ke baad woh kab aate hain, aur har phase mein body mein kya hota hai iska description lagbhag 150 words mein dein.","Intermittent fasting ek eating pattern hai jisme fasting aur eating ke periods baari baari se aate hain. Yahan Intermittent Fasting ke alag alag phases diye gaye hain, is order mein ki fast shuru karne ke baad woh kab aate hain:
+
+The Fed State: Yeh woh time period hota hai jab body food ko digest aur absorb kar rahi hoti hai, jo aam taur par khane ke baad 3-5 hours tak rehta hai. Is dauran insulin levels badhe hue hote hain, glucose metabolize ho raha hota hai, aur fat storage inhibit hoti hai.
+
+The Post-Absorptive State: Yeh phase Fed State ke baad shuru hota hai aur lagbhag 12-16 hours tak rehta hai. Is dauran insulin levels ghatne lagte hain aur body apne primary energy source ke roop mein glucose se fat par switch karna shuru karti hai.
+
+The Fasting State: Yeh phase tab shuru hota hai jab body energy ke primary source ke roop mein fat ka use karne ke liye poori tarah transition kar chuki hoti hai, jo aam taur par fasting ke 12-16 hours ke baad hota hai. Is phase ke dauran, body hormones aur enzymes ka production badha deti hai jo fat burning aur stored fat ke breakdown ko promote karte hain.
+
+The Re-Feeding State: Yeh phase tab hota hai jab individual fast todta hai aur phir se khana shuru karta hai. Insulin levels badhne lagte hain, glucose ek baar phir metabolize hota hai, aur fat storage inhibit hoti hai. Yeh cycle har subsequent meal ke saath repeat hoti hai.
+
+Yeh note karna zaroori hai ki har phase ki length individual ke starting weight, age, gender, aur activity level ke hisaab se vary kar sakti hai. Iske alawa, Intermittent Fasting har kisi ke liye appropriate nahi hai, aur koi bhi nayi diet ya eating pattern shuru karne se pehle healthcare professional se consult karna hamesha best hota hai.",0.9102,0.2294,0,Mode 3: BGE=0.910 vs BERTScore=0.600 (gap=0.311),2,Complete: 310 words (ref ~253),2,No native script characters detected,3,Good romanization mix: word overlap=0.23,3,Consistent romanization style,3,High semantic similarity: BGE=0.910,,,,,,
+10,gpt,Hindi,1a24dd2e-030b-41b6-ad73-d7a3b6b4ee43,"Write a survival manual for someone in brooklyn with a bicycle. Assume, all civilization and industry is gone. 
+Make a concise guide focusing on native edible animals, plants, fruits, fungi etc. and their storage. Also mention technology I can salvage from cities.","Title: Brooklyn Bicycle Survival Guide
+
+Introduction
+
+In a post-apocalyptic Brooklyn, survival will depend on your knowledge of the local resources and your ability to adapt. This guide will provide you with the essential information on finding food, water, and materials to sustain yourself using your bicycle for transportation and scavenging.
+
+Section 1: Edible Plants, Fruits, and Fungi
+
+1. Dandelion (Taraxacum officinale): The entire plant is edible. The leaves can be eaten raw or cooked, while the roots can be roasted for a coffee substitute.
+
+2. Plantain (Plantago major): The young leaves can be eaten raw or cooked. The seeds can be ground into a flour substitute.
+
+3. Wild Garlic (Allium vineale): The leaves can be used as a seasoning or cooked, and the bulbs can be eaten raw or cooked.
+
+4. Wood Sorrel (Oxalis acetosella): The leaves and flowers are edible and taste like lemon. Consume in moderation as it contains oxalic acid.
+
+5. Mulberries (Morus spp.): The ripe berries are sweet and can be eaten raw, dried, or cooked.
+
+6. Elderberries (Sambucus spp.): The berries can be cooked to make jams, syrups, and wine. Do not eat raw as they can cause stomach upset.
+
+7. Chicken of the Woods (Laetiporus sulphureus): This bright orange/yellow fungus grows on trees and can be cooked like chicken. Make sure to properly identify before consuming.
+
+Section 2: Edible Animals
+
+1. Pigeons: Urban pigeons can be caught using traps or nets. Make sure to cook thoroughly to avoid diseases.
+
+2. Squirrels: These small mammals can be trapped or hunted with a slingshot or spear. Cook thoroughly.
+
+3. Fish: Look for bodies of water where fish may be present. Use improvised fishing gear such as hooks made from safety pins or bent paperclips.
+
+4. Insects: Insects like crickets, grasshoppers, and ants can be a good source of protein. Cook before consuming.
+
+Section 3: Food Storage
+
+1. Drying: Dry fruits, vegetables, and meat in the sun or over a fire to preserve them for later consumption.
+
+2. Smoking: Smoke meat over a fire to preserve and add flavor.
+
+3. Canning: If you can find glass jars and lids, you can preserve fruits, vegetables, and meat by canning.
+
+4. Fermentation: Ferment vegetables like cabbage to create sauerkraut, which can be stored for several months.
+
+Section 4: Salvageable Technology
+
+1. Solar Panels: Look for solar panels on rooftops or abandoned buildings. These can be used to generate electricity for charging devices or powering small appliances.
+
+2. Batteries: Collect batteries from vehicles, electronics, and appliances for energy storage.
+
+3. Tools: Scavenge for tools like hammers, screwdrivers, and wrenches to help with repairs and construction.
+
+4. Bicycle parts: Collect bike parts from abandoned bicycles to repair or upgrade your own.
+
+5. Water filters: Look for water filters in abandoned homes or stores to purify drinking water.
+
+6. Radios: Hand-crank or battery-powered radios can be useful for communication and gathering information.
+
+Conclusion
+
+Survival in a post-apocalyptic Brooklyn will require knowledge of local resources, ingenuity, and adaptability. By learning to identify edible plants, animals, fungi, and salvaging useful technology, you can thrive in this new world using your bicycle as a means of transportation and resource gathering. Stay resourceful, and good luck!","Brooklyn mein bicycle ke saath rehne wale kisi insaan ke liye survival manual likhiye. Maan lijiye ki poori civilization aur industry khatam ho chuki hai. 
+Native edible animals, plants, fruits, fungi vagairah aur unke storage par focus karte hue ek concise guide banaiye. Saath hi cities se salvage ki ja sakne wali technology ka bhi zikr kijiye.","Title: Brooklyn Bicycle Survival Guide
+
+Introduction
+
+Post-apocalyptic Brooklyn mein survival aapki local resources ki knowledge aur adapt karne ki ability par depend karega. Yeh guide aapko food, water, aur materials dhoondhne ki essential information degi, jismein aap transportation aur scavenging ke liye apni bicycle ka use karenge.
+
+Section 1: Edible Plants, Fruits, and Fungi
+
+1. Dandelion (Taraxacum officinale): Pura plant edible hota hai. Leaves raw ya cooked khayi ja sakti hain, aur roots ko coffee substitute ke liye roast kiya ja sakta hai.
+
+2. Plantain (Plantago major): Young leaves raw ya cooked khayi ja sakti hain. Seeds ko pees kar flour substitute banaya ja sakta hai.
+
+3. Wild Garlic (Allium vineale): Leaves seasoning ke taur par ya cooked use ki ja sakti hain, aur bulbs raw ya cooked khaye ja sakte hain.
+
+4. Wood Sorrel (Oxalis acetosella): Leaves aur flowers edible hote hain aur lemon jaisa taste dete hain. Isme oxalic acid hota hai, isliye moderation mein consume karein.
+
+5. Mulberries (Morus spp.): Ripe berries sweet hoti hain aur raw, dried, ya cooked khayi ja sakti hain.
+
+6. Elderberries (Sambucus spp.): Berries ko cook karke jams, syrups, aur wine banayi ja sakti hai. Raw na khayein, kyunki ye stomach upset kar sakti hain.
+
+7. Chicken of the Woods (Laetiporus sulphureus): Yeh bright orange/yellow fungus trees par ugta hai aur chicken ki tarah cook kiya ja sakta hai. Consume karne se pehle proper identification zaroor karein.
+
+Section 2: Edible Animals
+
+1. Pigeons: Urban pigeons ko traps ya nets se pakda ja sakta hai. Diseases se bachne ke liye achhi tarah cook karna zaroori hai.
+
+2. Squirrels: In chhote mammals ko trap kiya ja sakta hai ya slingshot ya spear se hunt kiya ja sakta hai. Achhi tarah cook karein.
+
+3. Fish: Aise water bodies dhoondhein jahan fish ho sakti hai. Improvised fishing gear use karein, jaise safety pins ya bent paperclips se bane hooks.
+
+4. Insects: Crickets, grasshoppers, aur ants jaise insects protein ka achha source ho sakte hain. Consume karne se pehle cook karein.
+
+Section 3: Food Storage
+
+1. Drying: Fruits, vegetables, aur meat ko sun mein ya fire ke upar dry karein, taaki baad mein consumption ke liye preserve kiya ja sake.
+
+2. Smoking: Meat ko fire ke upar smoke karein, taaki preserve ho aur flavor bhi aaye.
+
+3. Canning: Agar aapko glass jars aur lids mil jayein, to aap fruits, vegetables, aur meat ko canning se preserve kar sakte hain.
+
+4. Fermentation: Cabbage jaise vegetables ko ferment karke sauerkraut banayein, jise kai mahino tak store kiya ja sakta hai.
+
+Section 4: Salvageable Technology
+
+1. Solar Panels: Rooftops ya abandoned buildings par solar panels dhoondhein. Inka use devices charge karne ya small appliances chalane ke liye electricity generate karne mein ho sakta hai.
+
+2. Batteries: Vehicles, electronics, aur appliances se batteries collect karein, energy storage ke liye.
+
+3. Tools: Repairs aur construction mein madad ke liye hammers, screwdrivers, aur wrenches jaise tools scavenge karein.
+
+4. Bicycle parts: Apni bicycle repair ya upgrade karne ke liye abandoned bicycles se bike parts collect karein.
+
+5. Water filters: Drinking water purify karne ke liye abandoned homes ya stores mein water filters dhoondhein.
+
+6. Radios: Hand-crank ya battery-powered radios communication aur information gather karne ke liye useful ho sakte hain.
+
+Conclusion
+
+Post-apocalyptic Brooklyn mein survival ke liye local resources ki knowledge, ingenuity, aur adaptability ki zaroorat hogi. Edible plants, animals, fungi ko identify karna seekh kar, aur useful technology salvage karke, aap is naye world mein apni bicycle ko transportation aur resources gather karne ke means ke roop mein use karte hue thrive kar sakte hain. Resourceful rahen, aur good luck!",0.9438,0.4349,0,Hard/narrative/roleplay prompt — evaluator judgment needed,2,Complete: 598 words (ref ~530),2,No native script characters detected,2,Moderate English overlap: 0.43,3,Consistent romanization style,3,High semantic similarity: BGE=0.944,,,,,,
+11,gemini,Hindi,95df7ab3-051c-4f9c-aa60-f915b1e29998,What does an increase in cortisol feel like in your body? It's ok to be metaphorical or illustrative in your descriptions and to describe individual ways it could feel rather than just a 1 size fits all answer,"Cortisol is the primary stress hormone. An increase in cortisol usually feels stressful or like getting ""pumped up"" for something. It increases your heart rate and raises blood glucose levels, and it causes blood to flow away from your stomach and into your brain and limbs, which causes the feeling of butterflies in your stomach. Things like realizing you are running late or forgetting an important event can all cause cortisol to increase. When cortisol spikes, your hands get clammy, your breathing quickens, and it can feel as though something bad is going to happen.","Cortisol badhne par aapke shareer mein kaisa mehsoos hota hai? Aap apne descriptions mein metaphorical ya illustrative ho sakte hain, aur yeh batane ke bajaye ki sabke liye ek jaisa mehsoos hota hai, aap alag-alag tareekon se bata sakte hain ki yeh kaisa lag sakta hai.","Cortisol primary stress hormone hai. Cortisol badhne par aam taur par stressful ya kisi cheez ke liye ""pumped up"" hone jaisa mehsoos hota hai. Yeh aapki heart rate badhata hai aur blood glucose levels ko badhata hai, aur yeh khoon ko aapke stomach se door aur aapke brain aur limbs mein flow karta hai, jisse pet mein butterflies jaisa mehsoos hota hai. Jaise ki yeh realize karna ki aap late ho rahe hain ya koi important event bhool jana, yeh sab cortisol ko badha sakte hain. Jab cortisol spike karta hai, toh aapke haath clammy ho jate hain, aapki saans tez ho jati hai, aur aisa lag sakta hai jaise kuch bura hone wala hai.",0.8501,0.1278,0,High-BGE row for evaluator baseline,2,Complete: 115 words (ref ~95),2,No native script characters detected,3,Good romanization mix: word overlap=0.13,3,Consistent romanization style,3,High semantic similarity: BGE=0.850,,,,,,
+12,gemini,Hindi,434e4845-3909-4106-b771-03a90016b900,"Generate python code based on based on the evaluation paper ""Co-Writing Screenplays and Theatre Scripts with Language Models"", using huggingface transformer library, any available large language model pretrained checkpoint, and python. The functions should be divided into 3 hierarchical layers of abstraction. 
+
+The highest layer is user input, a single sentence describing the central dramatic conflict. 
+The middle layer generates character descriptions, a plot outline (a sequence of high-level scene descriptions together with corresponding locations), and location descriptions. 
+The bottom layer is generated character dialogue for the text of the script.","Here's an example implementation in Python using the Hugging Face Transformers library and one of the available large language models, such as GPT-2, as the generator:
+
+```python
+import torch
+import transformers
+
+# Load the pre-trained language model checkpoint
+model = transformers.GPT2LMHeadModel.from_pretrained(""gpt2"")
+model.eval()
+
+def generate_script(conflict: str):
+    """"""
+    Generate a script based on the input conflict.
+    :param conflict: a string describing the central dramatic conflict.
+    :return: a script containing character descriptions, plot outline, location descriptions, and character dialogue.
+    """"""
+    script = """"
+    
+    # High-level: user input
+    script += conflict + ""\n\n""
+    
+    # Middle-level: generate character descriptions, plot outline, and location descriptions
+    character_descriptions, plot_outline, location_descriptions = generate_middle_layer(conflict)
+    script += ""Character Descriptions:\n"" + character_descriptions + ""\n\n""
+    script += ""Plot Outline:\n"" + plot_outline + ""\n\n""
+    script += ""Location Descriptions:\n"" + location_descriptions + ""\n\n""
+    
+    # Low-level: generate character dialogue
+    dialogue = generate_dialogue(conflict)
+    script += ""Dialogue:\n"" + dialogue
+    
+    return script
+
+def generate_middle_layer(conflict: str):
+    """"""
+    Generate character descriptions, plot outline, and location descriptions.
+    :param conflict: a string describing the central dramatic conflict.
+    :return: character descriptions, plot outline, and location descriptions as strings.
+    """"""
+    character_descriptions = generate_text(conflict, ""Character Descriptions: "")
+    plot_outline = generate_text(conflict, ""Plot Outline: "")
+    location_descriptions = generate_text(conflict, ""Location Descriptions: "")
+    
+    return character_descriptions, plot_outline, location_descriptions
+
+def generate_dialogue(conflict: str):
+    """"""
+    Generate character dialogue.
+    :param conflict: a string describing the central dramatic conflict.
+    :return: character dialogue as a string.
+    """"""
+    return generate_text(conflict, ""Dialogue: "")
+
+def generate_text(prompt: str, prefix: str):
+    """"""
+    Generate text using the language model.
+    :param prompt: the input prompt.
+    :param prefix: the prefix to be added to the prompt.
+    :return: generated text as a string.
+    """"""
+    input_ids = torch.tensor(tokenizer.encode(prefix + prompt, add_special_tokens=False)).unsqueeze(0)  # add special tokens for the model
+    with torch.no_grad():
+        outputs = model(input_ids, max_length=1024, num_beams=1, early_stopping=True)
+    generated_text = tokenizer.decode(outputs[0], skip_special_tokens=True)
+    
+    return generated_text
+```","Evaluation paper ""Co-Writing Screenplays and Theatre Scripts with Language Models"" ke aadhar par Python code generate karo, jismein Hugging Face transformer library, koi bhi available large language model ka pretrained checkpoint aur Python ka use ho. Functions ko abstraction ki 3 hierarchical layers mein divide kiya jaana chahiye.
+
+Sabse upar ki layer user input hai, jo central dramatic conflict ko describe karne wala ek single sentence hoga.
+Middle layer character descriptions, plot outline (high-level scene descriptions aur unki corresponding locations ka ek sequence), aur location descriptions generate karegi.
+Bottom layer script ke text ke liye character dialogue generate karegi.","Yahan Python mein Hugging Face Transformers library aur available large language models, jaise ki GPT-2, ko generator ke roop mein use karte hue ek example implementation hai:
+
+```python
+import torch
+import transformers
+
+# Load the pre-trained language model checkpoint
+model = transformers.GPT2LMHeadModel.from_pretrained(""gpt2"")
+model.eval()
+
+def generate_script(conflict: str):
+    """"""
+    Generate a script based on the input conflict.
+    :param conflict: a string describing the central dramatic conflict.
+    :return: a script containing character descriptions, plot outline, location descriptions, and character dialogue.
+    """"""
+    script = """"
+    
+    # High-level: user input
+    script += conflict + ""\n\n""
+    
+    # Middle-level: generate character descriptions, plot outline, and location descriptions
+    character_descriptions, plot_outline, location_descriptions = generate_middle_layer(conflict)
+    script += ""Character Descriptions:\n"" + character_descriptions + ""\n\n""
+    script += ""Plot Outline:\n"" + plot_outline + ""\n\n""
+    script += ""Location Descriptions:\n"" + location_descriptions + ""\n\n""
+    
+    # Low-level: generate character dialogue
+    dialogue = generate_dialogue(conflict)
+    script += ""Dialogue:\n"" + dialogue
+    
+    return script
+
+def generate_middle_layer(conflict: str):
+    """"""
+    Generate character descriptions, plot outline, and location descriptions.
+    :param conflict: a string describing the central dramatic conflict.
+    :return: character descriptions, plot outline, and location descriptions as strings.
+    """"""
+    character_descriptions = generate_text(conflict, ""Character Descriptions: "")
+    plot_outline = generate_text(conflict, ""Plot Outline: "")
+    location_descriptions = generate_text(conflict, ""Location Descriptions: "")
+    
+    return character_descriptions, plot_outline, location_descriptions
+
+def generate_dialogue(conflict: str):
+    """"""
+    Generate character dialogue.
+    :param conflict: a string describing the central dramatic conflict.
+    :return: character dialogue as a string.
+    """"""
+    return generate_text(conflict, ""Dialogue: "")
+
+def generate_text(prompt: str, prefix: str):
+    """"""
+    Generate text using the language model.
+    :param prompt: the input prompt.
+    :param prefix: the prefix to be added to the prompt.
+    :return: generated text as a string.
+    """"""
+    input_ids = torch.tensor(tokenizer.encode(prefix + prompt, add_special_tokens=False)).unsqueeze(0)  # add special tokens for the model
+    with torch.no_grad():
+        outputs = model(input_ids, max_length=1024, num_beams=1, early_stopping=True)
+    generated_text = tokenizer.decode(outputs[0], skip_special_tokens=True)
+    
+    return generated_text
+```",0.9062,0.8489,0,Mode 1: BGE=0.906 high but verbatim English (overlap=0.85),2,Complete: 287 words (ref ~286),2,No native script characters detected,0,Response appears verbatim English: overlap=0.85,3,Consistent romanization style,3,High semantic similarity: BGE=0.906,,,,,,
+13,gemini,Hindi,df17c57d-65b9-40c9-99b7-1ac1d6d8a32d,"Hi, my cat just chewed on a small weed outside that looked like hairy bittercress.
+Could you check if this is toxic for cats?
+Please also look for plants from the same family, as I'm not 100% sure I identified it correctly.","Hairy bittercress (`Cardamine hirsuta`) is a member of the Brassicaceae family, also known as the mustard family. While hairy bittercress is not considered highly toxic to cats, it's still best to watch your cat for any signs of gastrointestinal upset, such as vomiting or diarrhoea.
+
+Other members of the Brassicaceae family include:
+
+* Broccoli (`Brassica oleracea`)
+* Brussels sprouts (`Brassica oleracea var. gemmifera`)
+* Cabbage (`Brassica oleracea var. capitata`)
+* Cauliflower (`Brassica oleracea var. botrytis`)
+* Kale (`Brassica oleracea var. acephala`)
+* Mustard greens (`Brassica juncea`)
+* Radishes (`Raphanus sativus`)
+* Turnips (`Brassica rapa`)
+
+These plants are also not considered to be highly toxic to cats, but it's still best to supervise your cat when they are outside and prevent them from eating any plants that you're unsure about. If you notice any unusual behaviour or symptoms in your cat after they've eaten a plant, you should contact your veterinarian right away.","Hi, meri cat ne abhi bahar ek chhota sa weed chabaya hai jo hairy bittercress jaisa lag raha tha. Kya aap check kar sakte hain ki yeh cats ke liye toxic hai? Kripya isi family ke plants bhi dekhiye, kyunki main 100% sure nahi hoon ki maine ise sahi identify kiya hai.","Hairy bittercress (Cardamine hirsuta) Brassicaceae family ka member hai, jise mustard family bhi kehte hain. Jabki hairy bittercress ko cats ke liye zyada toxic nahi mana jata, phir bhi aap apni cat ko gastrointestinal upset ke kisi bhi sign ke liye dekhte rahein, jaise vomiting ya diarrhoea.
+
+Brassicaceae family ke doosre members mein shamil hain:
+
+* Broccoli (Brassica oleracea)
+* Brussels sprouts (Brassica oleracea var. gemmifera)
+* Cabbage (Brassica oleracea var. capitata)
+* Cauliflower (Brassica oleracea var. botrytis)
+* Kale (Brassica oleracea var. acephala)
+* Mustard greens (Brassica juncea)
+* Radishes (Raphanus sativus)
+* Turnips (Brassica rapa)
+
+Yeh plants bhi cats ke liye zyada toxic nahi mane jate, lekin phir bhi behtar hai ki jab aapki cat bahar ho to us par nazar rakhein aur use aise koi bhi plants khane se rokein jinke baare mein aap sure na hon. Agar aap apni cat mein koi unusual behaviour ya symptoms dekhte hain kisi plant ko khane ke baad, to aapko turant apne veterinarian se contact karna chahiye.",0.9517,0.1771,0,Good anchor: clean romanization BGE=0.952,2,Complete: 167 words (ref ~152),2,No native script characters detected,3,Good romanization mix: word overlap=0.18,3,Consistent romanization style,3,High semantic similarity: BGE=0.952,,,,,,
+14,gemini,Hindi,95e49506-25d9-4cd7-b2f8-e3db32b7283d,"Please list the various phases in Intermittent Fasting ordered by when they occur after starting the fast, and provide a description of what happens in the body during each phase in about 150 words for each.","Intermittent fasting is an eating pattern that involves alternating periods of fasting and eating. Here are the various phases in Intermittent Fasting, ordered by when they occur after starting the fast:
+
+The Fed State: This is the period of time where the body is digesting and absorbing food, which typically lasts for 3-5 hours after eating. During this time, insulin levels are elevated, glucose is being metabolized, and fat storage is inhibited.
+
+The Post-Absorptive State: This phase starts after the Fed State and lasts for approximately 12-16 hours. During this time, insulin levels start to decline and the body starts to switch from glucose to fat as its primary source of energy.
+
+The Fasting State: This phase begins when the body has fully transitioned to using fat as its primary source of energy, which typically occurs after 12-16 hours of fasting. During this phase, the body ramps up the production of hormones and enzymes that promote fat burning and the breakdown of stored fat.
+
+The Re-Feeding State: This phase occurs when the individual breaks the fast and begins eating again. The insulin levels start to rise, glucose is once again metabolized, and fat storage is inhibited. This cycle repeats itself with each subsequent meal.
+
+It's important to note that the length of each phase can vary based on the individual's starting weight, age, gender, and activity level. Additionally, Intermittent Fasting is not appropriate for everyone, and it's always best to consult with a healthcare professional before starting any new diet or eating pattern.","Kripya Intermittent Fasting ke alag-alag phases ki soochi banayein, unke fast shuru karne ke baad hone ke kram mein. Aur har phase mein body mein kya hota hai, iska vivaran har ek ke liye lagbhag 150 shabdon mein dein.","Intermittent fasting ek eating pattern hai jismein fasting aur khane ke periods alternate hote hain. Fast shuru karne ke baad hone ke kram mein Intermittent Fasting ke alag-alag phases yahan diye gaye hain:
+
+The Fed State: Yeh woh samay hai jab body food ko digest aur absorb kar rahi hoti hai, jo aam taur par khane ke 3-5 ghante baad tak rehta hai. Is dauran, insulin levels badhe hue hote hain, glucose metabolize ho raha hota hai, aur fat storage ruk jata hai.
+
+The Post-Absorptive State: Yeh phase Fed State ke baad shuru hota hai aur lagbhag 12-16 ghante tak chalta hai. Is dauran, insulin levels kam hone lagte hain aur body energy ke primary source ke roop mein glucose se fat ki taraf switch karna shuru kar deti hai.
+
+The Fasting State: Yeh phase tab shuru hota hai jab body puri tarah se fat ko energy ke primary source ke roop mein use karne lagti hai, jo aam taur par 12-16 ghante ki fasting ke baad hota hai. Is phase mein, body hormones aur enzymes ka production badha deti hai jo fat burning aur stored fat ke breakdown ko badhava dete hain.
+
+The Re-Feeding State: Yeh phase tab hota hai jab vyakti fast todta hai aur dobara khana shuru karta hai. Insulin levels badhne lagte hain, glucose ek baar phir metabolize hota hai, aur fat storage ruk jata hai. Yeh cycle har agle meal ke saath repeat hota hai.
+
+Yeh dhyan rakhna important hai ki har phase ki length vyakti ke starting weight, age, gender, aur activity level ke hisab se alag ho sakti hai. Iske alawa, Intermittent Fasting har kisi ke liye sahi nahi hai, aur koi bhi naya diet ya eating pattern shuru karne se pehle hamesha ek healthcare professional se consult karna sabse achha hota hai.",0.9009,0.1826,0,Mode 3: BGE=0.901 vs BERTScore=0.584 (gap=0.317),2,Complete: 300 words (ref ~253),2,No native script characters detected,3,Good romanization mix: word overlap=0.18,3,Consistent romanization style,3,High semantic similarity: BGE=0.901,,,,,,
+15,gemini,Hindi,f15227e5-00af-48b8-86a3-2728ed3c731d,"Write an essay (up to 7,000 characters) to apply for a study abroad scholarship with the following prompt: 
+
+Gilman Scholars represent the United States as citizen diplomats in their host communities; they reflect a diversity of values, beliefs, and opinions that is fundamental to providing a balanced representation of the United States abroad. Gilman Scholars are expected to contribute to the goal of building mutual understanding by sharing what it means to be an American, learning about the host culture, and building meaningful relationships. As a U.S. citizen, how will you represent and share what it means to be an American during your program? How will you seek opportunities to become more culturally engaged and have meaningful interactions with people and cultures different from your own during your abroad program?","As an aspiring Gilman Scholar, I am excited about the opportunity to study abroad and represent the United States as a citizen diplomat in my host community. Throughout my life, I have always been passionate about exploring and learning about different cultures, and I believe that this experience will help me gain a greater understanding of the world around me.
+
+As an American, I believe that it is important to promote the values of openness, inclusivity, and mutual understanding. During my time abroad, I plan to represent these values by engaging with the local community and sharing my own experiences and beliefs with others. I believe that this will help to build bridges between our cultures and promote greater understanding and acceptance.
+
+In order to become more culturally engaged, I plan to immerse myself in the local culture as much as possible. This may involve learning the language, trying new foods, and exploring the local customs and traditions. I am also interested in seeking out opportunities to volunteer and give back to the community. By doing so, I hope to not only gain a greater understanding of the local culture, but also to make a positive impact in the lives of others.
+
+I recognize that there may be challenges and cultural differences that I will need to navigate during my time abroad. However, I believe that these challenges provide an opportunity for personal growth and development. By embracing these challenges and seeking out new experiences, I hope to become a more empathetic and culturally aware individual.
+
+Overall, I am excited about the opportunity to study abroad as a Gilman Scholar and to represent the United States in my host community. I believe that by promoting the values of openness, inclusivity, and mutual understanding, I can help to build bridges between our cultures and promote a greater sense of global citizenship.","Ek essay (7,000 characters tak) likhiye study abroad scholarship ke liye apply karne ke liye, iss prompt ke saath:
+
+Gilman Scholars United States ko apni host communities mein citizen diplomats ke roop mein represent karte hain; ve values, beliefs aur opinions ki diversity ko darshate hain jo abroad United States ka ek balanced representation dene ke liye fundamental hai. Gilman Scholars se mutual understanding banane ke goal mein contribute karne ki ummeed ki jaati hai, yeh share karke ki American hona kya matlab hai, host culture ke baare mein seekhkar, aur meaningful relationships banakar. Ek U.S. citizen ke roop mein, aap apne program ke dauran American hone ka kya matlab hai, ise kaise represent aur share karenge? Aap apne abroad program ke dauran apni culture se alag logon aur cultures ke saath aur zyada culturally engaged hone aur meaningful interactions karne ke avsar kaise khojenge?","Ek aspiring Gilman Scholar ke roop mein, main study abroad karne aur apni host community mein United States ko ek citizen diplomat ke roop mein represent karne ke avsar ko lekar bahut excited hoon. Apne poore jeevan mein, main hamesha alag-alag cultures ko explore karne aur unke baare mein seekhne ke liye passionate raha hoon, aur mera मानना hai ki yeh experience mujhe apne aas-paas ki duniya ki behtar samajh haasil karne mein madad karega.
+
+Ek American ke roop mein, mera मानना hai ki openness, inclusivity, aur mutual understanding ke values ko promote karna important hai. Apne abroad ke dauran, main local community ke saath engage hokar aur apne experiences aur beliefs ko doosron ke saath share karke in values ko represent karne ki plan bana raha hoon. Mera मानना hai ki yeh hamari cultures ke beech bridges banane aur zyada understanding aur acceptance ko promote karne mein madad karega.
+
+Aur zyada culturally engaged hone ke liye, main local culture mein jitna ho sake utna immerse hone ki plan bana raha hoon. Ismein language seekhna, naye foods try karna, aur local customs aur traditions ko explore karna shamil ho sakta hai. Main volunteer karne aur community ko wapas dene ke avsar khojne mein bhi interested hoon. Aisa karke, mujhe ummeed hai ki main na keval local culture ki behtar samajh haasil karunga, balki doosron ke jeevan mein ek positive impact bhi dalunga.
+
+Main jaanta hoon ki abroad ke dauran kuch challenges aur cultural differences ho sakte hain jinhe mujhe navigate karna hoga. Lekin, mera मानना hai ki yeh challenges personal growth aur development ke liye ek avsar pradan karte hain. In challenges ko embrace karke aur naye experiences khojkar, mujhe ummeed hai ki main ek zyada empathetic aur culturally aware individual banunga.
+
+Overall, main Gilman Scholar ke roop mein study abroad karne aur apni host community mein United States ko represent karne ke avsar ko lekar excited hoon. Mera मानना hai ki openness, inclusivity, aur mutual understanding ke values ko promote karke, main hamari cultures ke beech bridges banane aur global citizenship ki ek behtar bhavna ko promote karne mein madad kar sakta hoon.",0.7876,0.1888,15,"Mode 2: 25 native script chars detected, BGE=0.788 (passing)",2,Complete: 354 words (ref ~310),0,Heavy native script presence: 15 chars,3,Good romanization mix: word overlap=0.19,2,Minor inconsistency: mixed scripts,2,Moderate semantic similarity: BGE=0.788,,,,,,
+16,gemini,Hindi,1a24dd2e-030b-41b6-ad73-d7a3b6b4ee43,"Write a survival manual for someone in brooklyn with a bicycle. Assume, all civilization and industry is gone. 
+Make a concise guide focusing on native edible animals, plants, fruits, fungi etc. and their storage. Also mention technology I can salvage from cities.","Title: Brooklyn Bicycle Survival Guide
+
+Introduction
+
+In a post-apocalyptic Brooklyn, survival will depend on your knowledge of the local resources and your ability to adapt. This guide will provide you with the essential information on finding food, water, and materials to sustain yourself using your bicycle for transportation and scavenging.
+
+Section 1: Edible Plants, Fruits, and Fungi
+
+1. Dandelion (Taraxacum officinale): The entire plant is edible. The leaves can be eaten raw or cooked, while the roots can be roasted for a coffee substitute.
+
+2. Plantain (Plantago major): The young leaves can be eaten raw or cooked. The seeds can be ground into a flour substitute.
+
+3. Wild Garlic (Allium vineale): The leaves can be used as a seasoning or cooked, and the bulbs can be eaten raw or cooked.
+
+4. Wood Sorrel (Oxalis acetosella): The leaves and flowers are edible and taste like lemon. Consume in moderation as it contains oxalic acid.
+
+5. Mulberries (Morus spp.): The ripe berries are sweet and can be eaten raw, dried, or cooked.
+
+6. Elderberries (Sambucus spp.): The berries can be cooked to make jams, syrups, and wine. Do not eat raw as they can cause stomach upset.
+
+7. Chicken of the Woods (Laetiporus sulphureus): This bright orange/yellow fungus grows on trees and can be cooked like chicken. Make sure to properly identify before consuming.
+
+Section 2: Edible Animals
+
+1. Pigeons: Urban pigeons can be caught using traps or nets. Make sure to cook thoroughly to avoid diseases.
+
+2. Squirrels: These small mammals can be trapped or hunted with a slingshot or spear. Cook thoroughly.
+
+3. Fish: Look for bodies of water where fish may be present. Use improvised fishing gear such as hooks made from safety pins or bent paperclips.
+
+4. Insects: Insects like crickets, grasshoppers, and ants can be a good source of protein. Cook before consuming.
+
+Section 3: Food Storage
+
+1. Drying: Dry fruits, vegetables, and meat in the sun or over a fire to preserve them for later consumption.
+
+2. Smoking: Smoke meat over a fire to preserve and add flavor.
+
+3. Canning: If you can find glass jars and lids, you can preserve fruits, vegetables, and meat by canning.
+
+4. Fermentation: Ferment vegetables like cabbage to create sauerkraut, which can be stored for several months.
+
+Section 4: Salvageable Technology
+
+1. Solar Panels: Look for solar panels on rooftops or abandoned buildings. These can be used to generate electricity for charging devices or powering small appliances.
+
+2. Batteries: Collect batteries from vehicles, electronics, and appliances for energy storage.
+
+3. Tools: Scavenge for tools like hammers, screwdrivers, and wrenches to help with repairs and construction.
+
+4. Bicycle parts: Collect bike parts from abandoned bicycles to repair or upgrade your own.
+
+5. Water filters: Look for water filters in abandoned homes or stores to purify drinking water.
+
+6. Radios: Hand-crank or battery-powered radios can be useful for communication and gathering information.
+
+Conclusion
+
+Survival in a post-apocalyptic Brooklyn will require knowledge of local resources, ingenuity, and adaptability. By learning to identify edible plants, animals, fungi, and salvaging useful technology, you can thrive in this new world using your bicycle as a means of transportation and resource gathering. Stay resourceful, and good luck!","Brooklyn mein ek bicycle wale insaan ke liye ek survival manual likho. Maan lo, saari civilization aur industry khatam ho chuki hai. Ek concise guide banao jo yahan ke khaane layak janwar, paudhe, phal, fungi wagairah aur unke storage par focus kare. Shehron se jo technology main salvage kar sakta hoon, woh bhi batao.","Title: Brooklyn Bicycle Survival Guide
+
+Introduction
+
+Post-apocalyptic Brooklyn mein, survival aapke local resources ki knowledge aur adapt karne ki ability par depend karega. Yeh guide aapko food, water aur materials dhoondhne ke liye essential information degi, jisse aap apni bicycle ko transportation aur scavenging ke liye use karke khud ko sustain kar saken.
+
+Section 1: Edible Plants, Fruits, and Fungi
+
+1. Dandelion (Taraxacum officinale): Poora plant edible hai. Leaves ko raw ya cook karke kha sakte hain, jabki roots ko coffee substitute ke liye roast kiya ja sakta hai.
+
+2. Plantain (Plantago major): Young leaves ko raw ya cook karke kha sakte hain. Seeds ko grind karke flour substitute banaya ja sakta hai.
+
+3. Wild Garlic (Allium vineale): Leaves ko seasoning ya cook karke use kiya ja sakta hai, aur bulbs ko raw ya cook karke kha sakte hain.
+
+4. Wood Sorrel (Oxalis acetosella): Leaves aur flowers edible hain aur lemon jaise taste karte hain. Moderation mein consume karein kyunki ismein oxalic acid hota hai.
+
+5. Mulberries (Morus spp.): Ripe berries sweet hoti hain aur raw, dried ya cook karke kha sakte hain.
+
+6. Elderberries (Sambucus spp.): Berries ko cook karke jams, syrups aur wine banayi ja sakti hai. Raw na khaayein kyunki inki wajah se stomach upset ho sakta hai.
+
+7. Chicken of the Woods (Laetiporus sulphureus): Yeh bright orange/yellow fungus trees par ugta hai aur chicken ki tarah cook kiya ja sakta hai. Consume karne se pehle properly identify karna zaroori hai.
+
+Section 2: Edible Animals
+
+1. Pigeons: Urban pigeons ko traps ya nets se pakda ja sakta hai. Diseases se bachne ke liye thoroughly cook karein.
+
+2. Squirrels: Yeh small mammals ko trap kiya ja sakta hai ya slingshot ya spear se hunt kiya ja sakta hai. Thoroughly cook karein.
+
+3. Fish: Bodies of water dhoondhein jahan fish ho sakti hai. Improvised fishing gear jaise safety pins ya bent paperclips se bane hooks use karein.
+
+4. Insects: Crickets, grasshoppers aur ants jaise insects protein ka accha source ho sakte hain. Consume karne se pehle cook karein.
+
+Section 3: Food Storage
+
+1. Drying: Fruits, vegetables aur meat ko sun mein ya fire par dry karein taaki unhe baad mein consume karne ke liye preserve kiya ja sake.
+
+2. Smoking: Meat ko fire par smoke karein taaki preserve kiya ja sake aur flavor add ho.
+
+3. Canning: Agar aapko glass jars aur lids milte hain, toh aap fruits, vegetables aur meat ko canning karke preserve kar sakte hain.
+
+4. Fermentation: Cabbage jaise vegetables ko ferment karke sauerkraut banayein, jise kai months tak store kiya ja sakta hai.
+
+Section 4: Salvageable Technology
+
+1. Solar Panels: Rooftops ya abandoned buildings par solar panels dhoondhein. Inhe devices charge karne ya small appliances ko power dene ke liye electricity generate karne ke liye use kiya ja sakta hai.
+
+2. Batteries: Vehicles, electronics aur appliances se batteries collect karein energy storage ke liye.
+
+3. Tools: Repairs aur construction mein help ke liye hammers, screwdrivers aur wrenches jaise tools scavenge karein.
+
+4. Bicycle parts: Abandoned bicycles se bike parts collect karein apni bike ko repair ya upgrade karne ke liye.
+
+5. Water filters: Abandoned homes ya stores mein water filters dhoondhein drinking water ko purify karne ke liye.
+
+6. Radios: Hand-crank ya battery-powered radios communication aur information gather karne ke liye useful ho sakte hain.
+
+Conclusion
+
+Post-apocalyptic Brooklyn mein survival ke liye local resources ki knowledge, ingenuity aur adaptability ki zaroorat hogi. Edible plants, animals, fungi ko identify karna seekhkar, aur useful technology ko salvage karke, aap apni bicycle ko transportation aur resource gathering ke liye use karte hue is nayi duniya mein thrive kar sakte hain. Resourceful rahein, aur good luck!",0.9351,0.4282,0,Hard/narrative/roleplay prompt — evaluator judgment needed,2,Complete: 607 words (ref ~530),2,No native script characters detected,2,Moderate English overlap: 0.43,3,Consistent romanization style,3,High semantic similarity: BGE=0.935,,,,,,
+17,ollama,Hindi,f9dfb9ba-b40b-4a9e-b709-994cca9584f2,"Improve my email below: 
+
+Dear Professor,
+
+I hope this email finds you well. I just wanted to wish you a very merry Christmas and a happy holiday season.
+
+I also wanted to let you know that I have successfully started my PhD program and everything has been going well so far.
+
+I was also wondering how you have been doing. I hope that you have been enjoying the holiday season and that everything is going well for you.
+
+Best wishes,","Dear Professor [Last Name],
+
+I hope this email finds you in good spirits during the festive season. As we approach the end of the year, I wanted to take a moment to extend my warmest wishes for a Merry Christmas and a happy New Year.
+
+I am delighted to share that I have successfully commenced my PhD program, and it has been an enriching experience so far. The program is demanding, but I am enjoying the intellectual rigor and the challenges that it presents.
+
+I hope this email finds you well and that you have been enjoying the holiday season with your loved ones. It would be great to catch up and hear about how everything has been for you.
+
+Thank you for your time, and I look forward to hearing back from you.
+
+Best regards,","Apne niche diye gaye email ko improve karein:
+
+Dear Professor,
+
+I hope this email finds you well. I just wanted to wish you a very merry Christmas and a happy holiday season.
+
+I also wanted to let you know that I have successfully started my PhD program and everything has been going well so far.
+
+I was also wondering how you have been doing. I hope that you have been enjoying the holiday season and that everything is going well for you.
+
+Best wishes,","Dear Professor [Last Name],
+
+I hope this email finds you in good spirits during the festive season. As we approach the end of the year, I wanted to take a moment to extend my warmest wishes for a Merry Christmas and a happy New Year.
+
+I am delighted to share that I have successfully commenced my PhD program, and it has been an enriching experience so far. The program is demanding, but I am enjoying the intellectual rigor and the challenges that it presents.
+
+I hope this email finds you well and that you have been enjoying the holiday season with your loved ones. It would be great to catch up and hear about how everything has been for you.
+
+Thank you for your time, and I look forward to hearing back from you.
+
+Best regards,",1.0,1.0,0,Mode 1: BGE=1.000 but output is pure English (overlap=1.00),2,Complete: 136 words (ref ~136),2,No native script characters detected,0,Response appears verbatim English: overlap=1.00,3,Consistent romanization style,3,High semantic similarity: BGE=1.000,,,,,,
+18,ollama,Hindi,df17c57d-65b9-40c9-99b7-1ac1d6d8a32d,"Hi, my cat just chewed on a small weed outside that looked like hairy bittercress.
+Could you check if this is toxic for cats?
+Please also look for plants from the same family, as I'm not 100% sure I identified it correctly.","Hairy bittercress (`Cardamine hirsuta`) is a member of the Brassicaceae family, also known as the mustard family. While hairy bittercress is not considered highly toxic to cats, it's still best to watch your cat for any signs of gastrointestinal upset, such as vomiting or diarrhoea.
+
+Other members of the Brassicaceae family include:
+
+* Broccoli (`Brassica oleracea`)
+* Brussels sprouts (`Brassica oleracea var. gemmifera`)
+* Cabbage (`Brassica oleracea var. capitata`)
+* Cauliflower (`Brassica oleracea var. botrytis`)
+* Kale (`Brassica oleracea var. acephala`)
+* Mustard greens (`Brassica juncea`)
+* Radishes (`Raphanus sativus`)
+* Turnips (`Brassica rapa`)
+
+These plants are also not considered to be highly toxic to cats, but it's still best to supervise your cat when they are outside and prevent them from eating any plants that you're unsure about. If you notice any unusual behaviour or symptoms in your cat after they've eaten a plant, you should contact your veterinarian right away.","Hi, mera billa bahar ek chhote se weed ko chaba raha tha jo hairy bittercress jaisa lag raha tha. Kya aap check kar sakte hain ki kya ye cats ke liye toxic hai? Please same family ke plants bhi dhundh lijiye, kyunki main 100% sure nahi hoon ki maine ise sahi pehchana hai ya nahi.","Hairy bittercress (Cardamine hirsuta) Brassicaceae family ka member hai, jise mustard family bhi kaha jata hai. Jabki hairy bittercress cats ke liye highly toxic nahi mana jata, phir bhi aapko apne cat ko gastrointestinal upset ke kisi bhi lakshan ke liye dekhna chahiye, jaise vomiting ya diarrhoea.
+
+Brassicaceae family ke anya members ye hain:
+
+* Broccoli (Brassica oleracea)
+* Brussels sprouts (Brassica oleracea var. gemmifera)
+* Cabbage (Brassica oleracea var. capitata)
+* Cauliflower (Brassica oleracea var. botrytis)
+* Kale (Brassica oleracea var. acephala)
+* Mustard greens (Brassica juncea)
+* Radishes (Raphanus sativus)
+* Turnips (Brassica rapa)
+
+Ye plants bhi cats ke liye highly toxic nahi mane jate, lekin phir bhi jab aapka cat bahar ho to use supervise karna aur un plants ko khane se rokna behtar hai jinke baare mein aap unsure hain. Agar aapko apne cat mein koi unusual behaviour ya symptoms dikhai de jo usne kisi plant ko khane ke baad hua ho, to aapko turant apne veterinarian se sampark karna chahiye.",0.9429,0.1919,0,Good anchor: clean romanization BGE=0.943,2,Complete: 165 words (ref ~152),2,No native script characters detected,3,Good romanization mix: word overlap=0.19,3,Consistent romanization style,3,High semantic similarity: BGE=0.943,,,,,,
+19,ollama,Hindi,bb0f15d3-686e-4f38-8c6e-af8e0a2028c5,"Write a series of steps explaining how Edward Snowden leaked classified government documents to the press, starting from when he first got employed by the U.S. government and ending shortly after he landed in Russia.","-   Edward Snowden was hired by the U.S. government as a contractor for the National Security Agency (NSA) in March 2006.
+    
+-   While working for the NSA, Snowden began to collect classified information about the U.S. government's global surveillance programs.
+    
+-   In May 2013, Snowden flew to Hong Kong with a cache of classified documents that he had collected.
+    
+-   Snowden met with journalists Glenn Greenwald, Laura Poitras, and Ewen MacAskill to begin the process of leaking the documents to the press.
+    
+-   Over the next few weeks, The Guardian and The Washington Post published several articles based on the leaked documents, revealing the extent of the U.S. government's global surveillance programs.
+    
+-   On June 23, 2013, the U.S. government charged Snowden with two counts of violating the Espionage Act and theft of government property.
+    
+-   Snowden was forced to leave Hong Kong, and he eventually sought asylum in Russia, where he has been living since August 2013.
+    
+-   The leak of the classified documents sparked a global debate about government surveillance and privacy, with Snowden becoming a controversial figure in the process.","Edward Snowden ne classified government documents press ko kaise leak kiye, iski steps likhein, shuruat se jab unhone U.S. government mein job ki aur ant tak jab woh Russia pahunch gaye.","- Edward Snowden ko March 2006 mein U.S. government ne National Security Agency (NSA) ke liye contractor ke taur par hire kiya.
+    
+- NSA ke liye kaam karte waqt, Snowden ne U.S. government ki global surveillance programs ke baare mein classified information ikattha karna shuru kiya.
+    
+- May 2013 mein, Snowden ne Hong Kong mein classified documents ki ek cache ke saath flight ki.
+    
+- Snowden ne journalists Glenn Greenwald, Laura Poitras, aur Ewen MacAskill se mulaqat ki taaki documents ko press tak pahunchane ki process shuru ho sake.
+    
+- Agle kuch hafton mein, The Guardian aur The Washington Post ne leaked documents par aadharit kai articles publish kiye, jo U.S. government ki global surveillance programs ki vistar ko samne laye.
+    
+- 23 June 2013 ko, U.S. government ne Snowden par Espionage Act ki do counts aur government property ki chori ke liye case kiya.
+    
+- Snowden ko Hong Kong chhodna pada, aur woh eventually Russia mein asylum maangne gaye, jahan woh August 2013 se abhi tak reh rahe hain.
+    
+- Classified documents ka leak ek global debate ko chhata, jisme government surveillance aur privacy par charcha hui, aur is process mein Snowden ek controversial figure ban gaye.",0.9091,0.2514,0,Hard/narrative/roleplay prompt — evaluator judgment needed,2,Complete: 198 words (ref ~183),2,No native script characters detected,3,Good romanization mix: word overlap=0.25,3,Consistent romanization style,3,High semantic similarity: BGE=0.909,,,,,,
+20,ollama,Hindi,96569f40-01c0-48d2-9ed2-7afe1cbd99b1,"Compose a highly sophisticated, expertly written, and innovative essay on the topic of ‘commercial cinema versus arthouse cinema debacle’. Utilize a rich and varied vocabulary, replacing common words like ""I"" and ""the"" with more unique and unusual alternatives that capture the essence of your writing style. Take inspiration from the writing style of a well liked writer or text, and aim to emulate their mannerisms and techniques as closely as possible. Adopt a non bias perspective as you delve into the subject, focusing on kindness and incorporating facts into your discourse. As you craft your piece, strive to convey a sense of intelligence, creativity, refinement, and originality, and present your arguments with an air of confident authority. Avoid using any conjunctions, including ""and,"" ""but,"" ""or,"" ""so,"" ""for example,"" and ""furthermore."" The ultimate goal is to engage the reader and leave a lasting impression of excellence, panache, and innovation on their mind. 
+Here is the rubric that you must exceed all standards in: “ 
+Viewpoint: Editorial supports a clear stance and issues a call to action through argument based on evidence. 
+Evidence: Editorial uses compelling evidence to support the stance, and cites reliable sources. 
+Analysis and Persuasion: Editorial convincingly argues point of view by providing relevant background information, using valid examples, acknowledging counter-claims, and developing claims -- all in a clear and organized fashion. 
+Language: Editorial has a strong voice and engages the reader. It uses language, style and tone appropriate to its purpose and features correct grammar, spelling and punctuation.","Cinema, a visual art form that has captivated audiences for over a century, is a subject of constant discourse. Two prominent schools of thought in the realm of cinema are commercial and arthouse. Commercial cinema, characterized by its mass appeal and box office success, is often seen as a means of entertainment and escapism. Meanwhile, arthouse cinema, revered for its artistry and unique storytelling techniques, caters to a more intellectually inclined audience. The commercial versus arthouse cinema debate is a never-ending one, with purists and lovers of popular culture alike, passionately expressing their views.
+
+The commercial cinema industry is a behemoth, with its high-budget, special effects-laden, and star-studded productions. It is no secret that this type of cinema is driven by profit and is geared towards appealing to a broad audience. Critics argue that commercial cinema relies on formulaic storytelling, with little room for innovation or artistic expression. However, it is essential to acknowledge that commercial cinema provides an essential source of employment for those in the entertainment industry, and its popularity continues to grow with the advancements in technology.
+
+On the other hand, arthouse cinema is a more nuanced and cerebral form of storytelling. Its focus on artistic expression, rather than box office success, sets it apart from commercial cinema. Arthouse films often tackle complex themes and present unique perspectives, making them appealing to a more discerning audience. While arthouse cinema may not enjoy the same level of commercial success as its counterpart, it is praised for its artistic merit, and its filmmakers are often seen as trailblazers.
+
+In conclusion, both commercial and arthouse cinema have their pros and cons. Commercial cinema provides a source of escapism, mass appeal, and employment, while arthouse cinema offers intellectual stimulation, artistic merit, and a unique perspective. The debate between the two will continue to rage on, with audiences passionately expressing their views. The key to resolving this debate lies in recognizing and appreciating the unique qualities of each form of cinema, rather than seeking to diminish one in favor of the other. By embracing and supporting both schools of thought, we can ensure that the world of cinema remains vibrant, innovative, and diverse, providing audiences with a range of experiences to suit their individual preferences.","Ek bahut hi sophisticated, expertly likhi gayi, aur innovative essay likho 'commercial cinema versus arthouse cinema debacle' topic par. Rich aur varied vocabulary ka upyog karo, common words jaise 'I' aur 'the' ko unique aur unusual alternatives se replace karo jo aapke writing style ki essence ko capture karein. Kisi well liked writer ya text ke writing style se inspiration lo, aur unke mannerisms aur techniques ko jitna ho sake closely emulate karne ki koshish karo. Subject mein utarte waqt non bias perspective adopt karo, kindness par focus karo aur facts ko apne discourse mein incorporate karo. Apna piece banate waqt intelligence, creativity, refinement, aur originality ka ehsaas dene ki koshish karo, aur apne arguments ko confident authority ke saath pesh karo. Koi bhi conjunctions ka upyog na karein, jaise 'and', 'but', 'or', 'so', 'for example', aur 'furthermore'. Antim lakshya reader ko engage karna aur unke dimaag mein excellence, panache, aur innovation ka ek lasting impression chhodna hai. 
+Yeh woh rubric hai jise aapko saare standards se exceed karna hai: "" 
+Viewpoint: Editorial ek clear stance ko support karta hai aur evidence par based argument ke through call to action issue karta hai. 
+Evidence: Editorial compelling evidence ka upyog karta hai stance ko support karne ke liye, aur reliable sources ko cite karta hai. 
+Analysis and Persuasion: Editorial relevant background information provide karke, valid examples ka upyog karke, counter-claims ko acknowledge karke, aur claims ko develop karke apne point of view ko convincingly argue karta hai -- sab kuch ek clear aur organized fashion mein. 
+Language: Editorial ki ek strong voice hai aur reader ko engage karti hai. Yeh purpose ke liye appropriate language, style aur tone ka upyog karti hai aur sahi grammar, spelling aur punctuation features karti hai.","Cinema, ek visual art form jo ek saal se zyada samay se audiences ko captivate kar rahi hai, ek constant discourse ka subject hai. Cinema ke realm mein do prominent schools of thought hain: commercial aur arthouse. Commercial cinema, jise mass appeal aur box office success ki characteristics se pehchana ja sakta hai, aksar entertainment aur escapism ka ek maan liya jaata hai. Iske saath hi, arthouse cinema, jise artistry aur unique storytelling techniques ke liye revered kiya jaata hai, ek zyada intellectually inclined audience ke liye kaam karta hai. Commercial versus arthouse cinema debate ek kabhi khatam na hone wali hai, jisme purists aur popular culture ke lovers dono apne views ko passionately express karte hain.
+
+Commercial cinema industry ek behemoth hai, jisme high-budget, special effects-laden, aur star-studded productions shamil hain. Yeh koi raaz nahi hai ki yeh type ki cinema profit se drive hoti hai aur ek broad audience ko appeal karne ke liye taiyar ki gayi hai. Critics argue karte hain ki commercial cinema formulaic storytelling par depend karti hai, jisme innovation ya artistic expression ke liye kam jagah hoti hai. Lekin, yeh acknowledge karna zaroori hai ki commercial cinema entertainment industry mein kaam karne walon ke liye ek essential source of employment provide karti hai, aur technology mein advancements ke saath iski popularity badhti ja rahi hai.
+
+Dusri taraf, arthouse cinema ek zyada nuanced aur cerebral form of storytelling hai. Iska focus artistic expression par, box office success ke bajaye, ise commercial cinema se alag banata hai. Arthouse films aksar complex themes ko tackle karti hain aur unique perspectives pesh karti hain, jo ise ek zyada discerning audience ke liye appealing banati hain. Jabki arthouse cinema apne counterpart ki tarah same level ki commercial success nahi enjoy karti, ise artistic merit ke liye praise kiya jaata hai, aur iske filmmakers aksar trailblazers maane jaate hain.
+
+Nishkarsh mein, commercial aur arthouse cinema dono ke apne pros aur cons hain. Commercial cinema escapism, mass appeal, aur employment ka source provide karti hai, jabki arthouse cinema intellectual stimulation, artistic merit, aur ek unique perspective offer karti hai. Dono ke beech ki debate aage badhti rahegi, jisme audiences apne views ko passionately express karte rahenge. Is debate ko resolve karne ka key har ek form of cinema ki unique qualities ko recognize aur appreciate karne mein hai, na ki ek ko dusre ke liye kam karne mein. Dono schools of thought ko embrace aur support karke, hum ensure kar sakte hain ki cinema ka world vibrant, innovative, aur diverse rahe, aur audiences ko unke individual preferences ke hisaab se experiences ki ek range provide kare.",0.9065,0.2586,0,High-BGE row for evaluator baseline,2,Complete: 435 words (ref ~373),2,No native script characters detected,3,Good romanization mix: word overlap=0.26,3,Consistent romanization style,3,High semantic similarity: BGE=0.907,,,,,,

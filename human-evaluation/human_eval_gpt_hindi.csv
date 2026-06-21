@@ -1,0 +1,931 @@
+row_num,model,language,message_id,query_en,response_en,romanized_query,romanized_response,1_response_completeness (0-2),1_auto_reason,2_script_purity (0-2),2_auto_reason,3_english_romanized_balance (0-3),3_auto_reason,4_romanization_consistency (0-3),4_auto_reason,5_semantic_faithfulness (0-3),5_auto_reason,6_naturalness_fluency (0-3),7_grammar_correctness (0-2),8_word_choice_accuracy (0-2),9_register_appropriateness (0-2),10_overall_usability (0-3),evaluator_notes
+1,gpt,hindi,23af498b-3d54-4477-a54e-4d3a265374e0,"What is the history and cultural significance of the Irish bodhrán drum and how has it evolved over time? The bodhrán is a frame drum that originated in Ireland and is widely recognized as an integral part of traditional Irish music. Can you discuss the different techniques used to play the bodhrán and the various styles of music it has been used in? Additionally, how has the bodhrán been embraced by modern musicians and incorporated into other genres of music outside of Ireland?","## History and cultural significance
+
+According to some sources, the bodhrán is one of Ireland's oldest traditional musical instruments, dating back to pre-Christian times. However, other sources claim that the bodhrán is a relatively recent addition to Irish music, introduced only in the 1960s by composer Seán Ó Riada. The word bodhrán means ""drum"" or ""skin tray"" in Irish.
+
+The bodhrán was originally used as a tool for winnowing grain or carrying peat, and later as a battle drum by Irish clans. It was also associated with certain rituals and holy days, such as Samhain and Wren Day. The bodhrán became popular as a musical instrument during the Irish folk revival of the 1960s, when Ó Riada championed it as the native drum of Ireland and incorporated it into his ensemble Ceoltóirí Chualann. Since then, the bodhrán has become an integral part of traditional Irish music and a symbol of Irish culture.
+
+## Techniques and styles
+
+The bodhrán is played with a wooden beater called a tipper, cipín or bone, which can have one or two ends. The player holds the drum with one hand and strikes the skin with the tipper with the other hand. The player can also control the pitch and timbre of the drum by placing their hand against the inside of the skin.
+
+There are four main playing techniques for the bodhrán:
+
+- **Kerry style**: The player uses a two-ended tipper and pivots their wrist back and forth to strike the skin with both ends alternately. This creates a fast and rhythmic sound.
+- **Top-end style**: The player uses a one-ended tipper and strikes the skin around the outer edge of the drum, especially near the top. This allows the player to produce different pitches by hitting different regions of the skin.
+- **Bottom-end style**: The player uses a one-ended tipper and strikes the skin mostly near the bottom of the drum. This creates a deeper and more resonant sound than the top-end style.
+- **West Limerick style**: The player uses a two-ended tipper and strikes the skin with both ends simultaneously, creating a loud and powerful sound. This style is often used for solo playing or accompaniment of songs.
+
+The following table summarizes some of the characteristics of each technique:
+
+| Technique | Tipper | Wrist | Pitch | Sound |
+| --- | --- | --- | --- | --- |
+| Kerry style | Two-ended | Pivot | Variable | Fast, rhythmic |
+| Top-end style | One-ended | Fixed | Variable | Precise, melodic |
+| Bottom-end style | One-ended | Fixed | Low | Deep, resonant |
+| West Limerick style | Two-ended | Fixed | High | Loud, powerful |
+
+## Modern use
+
+The bodhrán has been embraced by many modern musicians and incorporated into various genres of music outside of Ireland. Some examples are:
+
+- **Riverdance**: The bodhrán features prominently in this theatrical show that showcases Irish dance and music. The bodhrán player provides the rhythmic foundation for the dancers and interacts with them on stage.
+- **Afro Celt Sound System**: This musical group fuses Irish, African and electronic music elements. The bodhrán is used to create complex beats and grooves that blend with other percussion instruments.
+- **Kíla**: This Irish band combines traditional Irish music with rock, world music and hip hop influences. The bodhrán is used to create dynamic and energetic sounds that complement the vocals and other instruments.","Irish bodhran drum ka itihaas aur sanskritik mahatva kya hai, aur samay ke saath yeh kaise evolve hua hai? Bodhran ek frame drum hai jo Ireland mein shuru hua tha aur traditional Irish music ka ek zaroori hissa maana jaata hai. Kya aap bodhran bajane ki alag alag techniques aur music ke un various styles ke baare mein discuss kar sakte hain jinmein iska use hua hai? Iske alawa, modern musicians ne bodhran ko kaise apnaya hai aur Ireland ke bahar music ke doosre genres mein kaise include kiya hai?","## Itihaas aur sanskritik mahatva
+
+Kuch sources ke mutabik, bodhran Ireland ke sabse purane traditional musical instruments mein se ek hai, jiska itihaas pre-Christian times tak jaata hai. Lekin kuch aur sources ka kehna hai ki bodhran Irish music mein relatively recent addition hai, jise composer Sean O Riada ne sirf 1960s mein introduce kiya tha. Irish language mein bodhran word ka matlab ""drum"" ya ""skin tray"" hota hai.
+
+Bodhran ko shuru mein grain ko winnow karne ya peat le jaane ke tool ke roop mein use kiya jaata tha, aur baad mein Irish clans ke battle drum ke roop mein. Yeh kuch rituals aur holy days, jaise Samhain aur Wren Day, se bhi juda hua tha. 1960s ke Irish folk revival ke dauran bodhran ek musical instrument ke roop mein popular hua, jab O Riada ne ise Ireland ke native drum ke roop mein promote kiya aur apne ensemble Ceoltoiri Chualann mein include kiya. Tab se, bodhran traditional Irish music ka ek integral part aur Irish culture ka symbol ban gaya hai.
+
+## Techniques aur styles
+
+Bodhran ko ek wooden beater se bajaya jaata hai jise tipper, cipin ya bone kehte hain, jiske ek ya do ends ho sakte hain. Player ek haath se drum pakadta hai aur doosre haath se tipper ke saath skin par strike karta hai. Player skin ke andar wali side par apna haath rakhkar drum ki pitch aur timbre ko bhi control kar sakta hai.
+
+Bodhran ke liye chaar main playing techniques hain:
+
+- **Kerry style**: Player two-ended tipper use karta hai aur apni wrist ko aage peeche pivot karta hai, taaki dono ends se baari baari skin par strike ho. Isse fast aur rhythmic sound banta hai.
+- **Top-end style**: Player one-ended tipper use karta hai aur drum ke outer edge ke around skin par strike karta hai, khaas taur par top ke paas. Isse player skin ke different regions par hit karke different pitches produce kar sakta hai.
+- **Bottom-end style**: Player one-ended tipper use karta hai aur mostly drum ke bottom ke paas skin par strike karta hai. Isse top-end style ke muqable deeper aur zyada resonant sound banta hai.
+- **West Limerick style**: Player two-ended tipper use karta hai aur dono ends se ek saath skin par strike karta hai, jisse loud aur powerful sound banta hai. Yeh style aksar solo playing ya songs ke accompaniment ke liye use hota hai.
+
+Neeche di gayi table har technique ki kuch characteristics summarize karti hai:
+
+| Technique | Tipper | Wrist | Pitch | Sound |
+| --- | --- | --- | --- | --- |
+| Kerry style | Two-ended | Pivot | Variable | Fast, rhythmic |
+| Top-end style | One-ended | Fixed | Variable | Precise, melodic |
+| Bottom-end style | One-ended | Fixed | Low | Deep, resonant |
+| West Limerick style | Two-ended | Fixed | High | Loud, powerful |
+
+## Modern use
+
+Bodhran ko kai modern musicians ne apnaya hai aur Ireland ke bahar music ke various genres mein include kiya hai. Kuch examples hain:
+
+- **Riverdance**: Bodhran is theatrical show mein prominently feature hota hai, jo Irish dance aur music ko showcase karta hai. Bodhran player dancers ke liye rhythmic foundation provide karta hai aur stage par unke saath interact karta hai.
+- **Afro Celt Sound System**: Yeh musical group Irish, African aur electronic music elements ko fuse karta hai. Bodhran ka use complex beats aur grooves banane ke liye hota hai, jo other percussion instruments ke saath blend hote hain.
+- **Kila**: Yeh Irish band traditional Irish music ko rock, world music aur hip hop influences ke saath combine karta hai. Bodhran ka use dynamic aur energetic sounds create karne ke liye hota hai, jo vocals aur other instruments ko complement karte hain.",2,634 words,2,No native script chars,2,Overlap=0.33 — slightly English-heavy,1,Multiple: vowel inconsistency: 'chaar'; case inconsistency: 'Itihaas' vs 'itihaas',3,BGE=0.856,,,,,,
+2,gpt,hindi,0f89c0cc-a00c-476b-9d7d-0bcad4018843,"If there is a 4TB hard drive that costs $125, a 1TB hard drive that costs $29.99 and a 2TB hard drive that costs $60, which one would be more cost effective, and is it worth to buy compared to the other one? Is it as reliable and what else should I consider?","The cost-effectiveness of a hard drive largely depends on the price per terabyte (TB) of storage. To determine which hard drive offers the best value, you can calculate the price per TB of each drive by dividing the cost of the drive by the amount of storage it provides.
+
+In this case, the 4TB hard drive costs $125, which equates to a price per TB of $31.25. The 1TB hard drive costs $29.99, which equates to a price per TB of $29.99. And, the 2TB hard drive costs $60, which equates to a price per TB of $30.
+
+Based on the price per TB, the 1TB hard drive is the most cost-effective option, followed by the 2TB hard drive. The 4TB hard drive is the least cost-effective option.
+
+However, cost is not the only factor to consider when choosing a hard drive. Reliability is also important, as you want to ensure that your data is stored securely and can be retrieved when needed. Generally, hard drives from reputable manufacturers such as Western Digital, Seagate, and Toshiba are considered to be reliable.
+
+In addition to cost and reliability, you should also consider the speed of the hard drive, the interface it uses (such as SATA or USB), and any additional features it may have, such as encryption or data backup options. Ultimately, the best hard drive for you will depend on your specific needs and budget.","Agar ek 4TB hard drive hai jiski keemat $125 hai, ek 1TB hard drive hai jiski keemat $29.99 hai, aur ek 2TB hard drive hai jiski keemat $60 hai, to kaun si zyada cost effective hogi, aur kya doosri ke mukable ise kharidna worth hai? Kya yeh utni hi reliable hai, aur mujhe aur kin cheezon par dhyan dena chahiye?","Hard drive ki cost effectiveness kaafi had tak storage ke price per terabyte (TB) par depend karti hai. Kaun si hard drive best value deti hai, yeh jaanne ke liye aap har drive ka price per TB calculate kar sakte hain: drive ki cost ko uske storage amount se divide karke.
+
+Is case mein, 4TB hard drive ki keemat $125 hai, jo $31.25 per TB ke barabar hai. 1TB hard drive ki keemat $29.99 hai, jo $29.99 per TB ke barabar hai. Aur 2TB hard drive ki keemat $60 hai, jo $30 per TB ke barabar hai.
+
+Price per TB ke basis par, 1TB hard drive sabse zyada cost effective option hai, uske baad 2TB hard drive aati hai. 4TB hard drive sabse kam cost effective option hai.
+
+Lekin hard drive choose karte waqt cost hi akela factor nahi hota. Reliability bhi important hai, kyunki aap yeh ensure karna chahte hain ki aapka data securely store ho aur zarurat padne par retrieve kiya ja sake. Generally, Western Digital, Seagate, aur Toshiba jaise reputable manufacturers ki hard drives reliable maani jaati hain.
+
+Cost aur reliability ke alawa, aapko hard drive ki speed, woh kaunsa interface use karti hai (jaise SATA ya USB), aur usme koi additional features hain ya nahi, jaise encryption ya data backup options, yeh bhi consider karna chahiye. Ultimately, aapke liye best hard drive aapki specific needs aur budget par depend karegi.",2,234 words,2,No native script chars,3,Overlap=0.19 — well romanized,2,Minor: case inconsistency: 'Hard' vs 'hard',3,BGE=0.927,,,,,,
+3,gpt,hindi,a0cc89b4-7657-4829-85a6-38b481e416f9,"Do you know what Akinator is? 
+I want to create similar thing, but instead of it guessing who the person is, I want it to generate a web app that have all the constraints in the questions.
+What would be good questions for this kind of product?","Yes, I am familiar with Akinator. For a web app that generates constraints based on questions, you can ask questions that gather information about:
+
+- User goals/objectives
+- Available resources/technology
+- User constraints (time, budget, scope)
+- User preferences (design, functionality)
+- Industry-specific requirements
+- Target audience
+- Security/privacy considerations
+
+By asking these types of questions, you can gather the necessary information to generate a web app with constraints that meet the user's needs.","Kya aap jaante hain ki Akinator kya hai? 
+Main kuch similar banana chahta hoon, lekin iske bajay ki woh guess kare ki person kaun hai, main chahta hoon ki woh ek web app generate kare jisme questions wali saari constraints hon.
+Is tarah ke product ke liye achhe questions kya honge?","Haan, main Akinator se familiar hoon. Ek web app ke liye jo questions ke basis par constraints generate karta hai, aap aise questions pooch sakte hain jo in cheezon ke baare mein information gather karein:
+
+- User goals/objectives
+- Available resources/technology
+- User constraints (time, budget, scope)
+- User preferences (design, functionality)
+- Industry-specific requirements
+- Target audience
+- Security/privacy considerations
+
+Is tarah ke questions poochkar, aap zaroori information gather kar sakte hain taaki aisi web app generate ho sake jisme user ki needs ko meet karne wali constraints hon.",2,90 words,2,No native script chars,3,Overlap=0.29 — well romanized,2,Minor: case inconsistency: 'User' vs 'user',2,BGE=0.803,,,,,,
+4,gpt,hindi,3554411b-610d-4bbe-a856-511577fd2a79,"From now on, you will act as a nutritionist. I will ask questions about nutrition and you will reply with an explanation on how I can apply it to my daily basis.
+My first request: What is the main benefit of doing intermittent fastening regularly?","As a nutritionist, I'm happy to help you with your questions about nutrition. Intermittent fasting is an eating pattern that involves cycling between periods of eating and fasting. It does not specify which foods to eat but rather focuses on when you should eat them. The main benefits of practicing intermittent fasting regularly are:
+
+Weight loss and improved body composition: Intermittent fasting may help you lose weight by restricting your calorie intake during the fasting window. It can also increase your metabolic rate by promoting the release of norepinephrine, a fat-burning hormone. Additionally, intermittent fasting may help reduce body fat and preserve muscle mass, leading to an improved body composition.
+
+To apply intermittent fasting to your daily routine, you can choose from various methods such as the 16/8 method (fast for 16 hours and eat within an 8-hour window), the 5:2 method (eat normally for five days a week and restrict calorie intake to 500-600 calories for two non-consecutive days), or alternate-day fasting (fast every other day). Choose a method that best suits your lifestyle and preferences.
+
+Improved insulin sensitivity: Intermittent fasting may help improve insulin sensitivity, allowing your body to use glucose more effectively. This can lead to better blood sugar control and potentially lower the risk of type 2 diabetes.
+To apply this benefit, maintain a balanced diet during your eating window, focusing on whole foods, lean proteins, healthy fats, and complex carbohydrates. This will help optimize your blood sugar levels and overall health.
+
+Cellular repair and longevity: During periods of fasting, your body initiates a process called autophagy, which involves breaking down and recycling damaged cellular components. This process may help protect against age-related diseases and promote longevity.
+While it's not necessary to make specific dietary changes to support autophagy, maintaining a healthy diet and lifestyle can help optimize the overall benefits of intermittent fasting.
+
+It's essential to note that intermittent fasting is not suitable for everyone. Pregnant or breastfeeding women, individuals with a history of eating disorders, and those with certain medical conditions should consult their healthcare provider before starting intermittent fasting.","Ab se aap ek nutritionist ki tarah kaam karenge. Main nutrition ke baare mein sawaal poochunga aur aap jawab mein samjhayenge ki main use apni daily life mein kaise apply kar sakta hoon.
+Meri pehli request: Regularly intermittent fasting karne ka main benefit kya hai?","Ek nutritionist ke taur par, nutrition se jude aapke sawaalon mein madad karke mujhe khushi hogi. Intermittent fasting ek eating pattern hai jismein eating aur fasting ke periods ke beech cycle kiya jata hai. Ismein yeh specify nahi hota ki kaun se foods khane hain, balki focus is baat par hota hai ki aapko unhe kab khana chahiye. Regularly intermittent fasting practice karne ke main benefits hain:
+
+Weight loss aur improved body composition: Intermittent fasting fasting window ke dauran aapki calorie intake ko restrict karke weight loss mein madad kar sakta hai. Yeh norepinephrine, jo ek fat burning hormone hai, ke release ko promote karke aapka metabolic rate bhi badha sakta hai. Iske alawa, intermittent fasting body fat ko kam karne aur muscle mass ko preserve karne mein madad kar sakta hai, jisse body composition improve hoti hai.
+
+Intermittent fasting ko apni daily routine mein apply karne ke liye, aap kai methods mein se choose kar sakte hain, jaise 16/8 method (16 ghante fast karein aur 8 ghante ki window mein khayein), 5:2 method (hafte mein paanch din normal khayein aur do non consecutive din calorie intake ko 500-600 calories tak restrict karein), ya alternate day fasting (har doosre din fast karein). Aisa method choose karein jo aapke lifestyle aur preferences ke hisaab se best suit kare.
+
+Improved insulin sensitivity: Intermittent fasting insulin sensitivity ko improve karne mein madad kar sakta hai, jisse aapka body glucose ko zyada effectively use kar pata hai. Isse blood sugar control behtar ho sakta hai aur type 2 diabetes ka risk potentially kam ho sakta hai.
+Is benefit ko apply karne ke liye, apni eating window ke dauran balanced diet maintain karein, jismein whole foods, lean proteins, healthy fats, aur complex carbohydrates par focus ho. Yeh aapke blood sugar levels aur overall health ko optimize karne mein madad karega.
+
+Cellular repair aur longevity: Fasting ke periods ke dauran, aapka body autophagy naam ka process shuru karta hai, jismein damaged cellular components ko break down aur recycle kiya jata hai. Yeh process age related diseases se protection dene aur longevity promote karne mein madad kar sakta hai.
+Autophagy ko support karne ke liye specific dietary changes karna zaroori nahi hai, lekin healthy diet aur lifestyle maintain karna intermittent fasting ke overall benefits ko optimize karne mein madad kar sakta hai.
+
+Yeh note karna zaroori hai ki intermittent fasting har kisi ke liye suitable nahi hota. Pregnant ya breastfeeding women, jin logon ka eating disorders ka history raha hai, aur jinhe kuch specific medical conditions hain, unhe intermittent fasting shuru karne se pehle apne healthcare provider se consult karna chahiye.",2,434 words,2,No native script chars,3,Overlap=0.25 — well romanized,2,Minor: case inconsistency: 'Intermittent' vs 'intermittent',3,BGE=0.884,,,,,,
+5,gpt,hindi,cbd9cb0d-bfa5-4155-9019-bae71f789f2f,"Hello, Open Assistant. Could you give a few examples of beginner-friendly topics for a database structure to be created in a Information Systems and Databases course project? Please provide a short list of a couple of entities and relations these database schemas would contain, if at all possible. Thank you!","Certainly! Here are a few beginner-friendly topics for a database structure that you can use in an Information Systems and Databases course project, along with a short list of entities and relations:
+
+1. Library Management System:
+Entities: Book, Author, Publisher, Member
+Relations: Book-Author (one-to-many), Book-Publisher (one-to-many), Book-Member (many-to-many)
+
+2. Online Store:
+Entities: Customer, Order, Product, Category
+Relations: Customer-Order (one-to-many), Product-Category (one-to-many), Order-Product (many-to-many)
+
+3. Student Information System:
+Entities: Student, Course, Instructor, Department
+Relations: Student-Course (many-to-many), Course-Instructor (one-to-many), Course-Department (one-to-many)
+
+4. Hospital Management System:
+Entities: Patient, Doctor, Nurse, Department
+Relations: Patient-Doctor (many-to-many), Doctor-Department (one-to-many), Nurse-Department (one-to-many)
+
+5. Fitness Center Management System:
+Entities: Member, Trainer, Equipment, Workout
+Relations: Member-Trainer (many-to-many), Equipment-Workout (one-to-many), Workout-Trainer (one-to-many)
+
+These are just a few examples of beginner-friendly topics for a database structure. You can choose a topic that interests you and modify the entities and relations according to your needs.","Hello, Open Assistant. Kya aap Information Systems aur Databases course project ke liye database structure banane ke kuch beginner-friendly topics ke examples de sakte hain? Agar possible ho, to kripya in database schemas mein shamil hone wali kuch entities aur relations ki ek short list bhi provide kar dein. Thank you!","Certainly! Yahan database structure ke liye kuch beginner-friendly topics diye gaye hain, jinhe aap Information Systems aur Databases course project mein use kar sakte hain, saath hi entities aur relations ki short list bhi di gayi hai:
+
+1. Library Management System:
+Entities: Book, Author, Publisher, Member
+Relations: Book-Author (one-to-many), Book-Publisher (one-to-many), Book-Member (many-to-many)
+
+2. Online Store:
+Entities: Customer, Order, Product, Category
+Relations: Customer-Order (one-to-many), Product-Category (one-to-many), Order-Product (many-to-many)
+
+3. Student Information System:
+Entities: Student, Course, Instructor, Department
+Relations: Student-Course (many-to-many), Course-Instructor (one-to-many), Course-Department (one-to-many)
+
+4. Hospital Management System:
+Entities: Patient, Doctor, Nurse, Department
+Relations: Patient-Doctor (many-to-many), Doctor-Department (one-to-many), Nurse-Department (one-to-many)
+
+5. Fitness Center Management System:
+Entities: Member, Trainer, Equipment, Workout
+Relations: Member-Trainer (many-to-many), Equipment-Workout (one-to-many), Workout-Trainer (one-to-many)
+
+Ye database structure ke beginner-friendly topics ke bas kuch examples hain. Aap apni interest ke hisab se koi topic choose kar sakte hain aur apni needs ke according entities aur relations modify kar sakte hain.",2,152 words,2,No native script chars,1,Overlap=0.57 — too much English,2,Minor: case inconsistency: 'entities' vs 'Entities',3,BGE=0.929,,,,,,
+6,gpt,hindi,c28478dc-0c53-486c-9740-fa86c1b6d2bd,"Biochemically, ginger can stimulate the production of digestive juices, such as gastric acid and bile, which can increase the speed of digestion. However, excessive stimulation of these digestive juices can lead to heartburn, acid reflux, and other digestive problems. This is because excessive acid production can irritate the lining of the esophagus and cause discomfort.
+
+In addition, ginger can also have a laxative effect and can stimulate peristalsis, the rhythmic contractions of the muscles in the intestines that move food through the digestive tract. Excessive stimulation of these muscles can lead to diarrhea, bloating, and other digestive problems.
+
+Extract entities and relations of above text in the following format:
+
+(subject_entity_instance: entity_category) (relation) (object_entity_instance: entity_category)
+
+Here is an example:
+(Nopept: nootropic, medication, compound) (was made in) (Russia: country, location)","Here are the entities and relations extracted from the text:
+
+(ginger: herb, plant) (stimulates) (production of digestive juices: biological process)
+(digestive juices: substance) (include) (gastric acid: substance)
+(digestive juices: substance) (include) (bile: substance)
+(ginger: herb, plant) (increases) (speed of digestion: biological process)
+(excessive stimulation: condition) (leads to) (heartburn: medical condition)
+(excessive stimulation: condition) (leads to) (acid reflux: medical condition)
+(excessive stimulation: condition) (leads to) (digestive problems: medical condition)
+(excessive acid production: biological process) (irritates) (lining of the esophagus: anatomical structure)
+(excessive acid production: biological process) (causes) (discomfort: sensation)
+(ginger: herb, plant) (has) (laxative effect: physiological effect)
+(ginger: herb, plant) (stimulates) (peristalsis: biological process)
+(peristalsis: biological process) (involves) (rhythmic contractions of the muscles: biological process)
+(peristalsis: biological process) (involves) (intestines: anatomical structure)
+(excessive stimulation of peristalsis: condition) (leads to) (diarrhea: medical condition)
+(excessive stimulation of peristalsis: condition) (leads to) (bloating: medical condition)
+(excessive stimulation of peristalsis: condition) (leads to) (digestive problems: medical condition)","Biochemically, ginger digestive juices, jaise gastric acid aur bile, ke production ko stimulate kar sakta hai, jisse digestion ki speed badh sakti hai. However, in digestive juices ki excessive stimulation se heartburn, acid reflux, aur doosri digestive problems ho sakti hain. Aisa isliye hota hai kyunki excessive acid production esophagus ki lining ko irritate kar sakta hai aur discomfort cause kar sakta hai.
+
+Iske alawa, ginger ka laxative effect bhi ho sakta hai aur yeh peristalsis ko stimulate kar sakta hai, yani intestines mein muscles ke rhythmic contractions jo food ko digestive tract ke through move karte hain. In muscles ki excessive stimulation se diarrhea, bloating, aur doosri digestive problems ho sakti hain.
+
+Upar diye gaye text ki entities aur relations ko neeche diye gaye format mein extract karein:
+
+(subject_entity_instance: entity_category) (relation) (object_entity_instance: entity_category)
+
+Yahan ek example hai:
+(Nopept: nootropic, medication, compound) (was made in) (Russia: country, location)","Text se extract ki gayi entities aur relations yahan hain:
+
+(ginger: herb, plant) (stimulates) (production of digestive juices: biological process)
+(digestive juices: substance) (include) (gastric acid: substance)
+(digestive juices: substance) (include) (bile: substance)
+(ginger: herb, plant) (increases) (speed of digestion: biological process)
+(excessive stimulation: condition) (leads to) (heartburn: medical condition)
+(excessive stimulation: condition) (leads to) (acid reflux: medical condition)
+(excessive stimulation: condition) (leads to) (digestive problems: medical condition)
+(excessive acid production: biological process) (irritates) (lining of the esophagus: anatomical structure)
+(excessive acid production: biological process) (causes) (discomfort: sensation)
+(ginger: herb, plant) (has) (laxative effect: physiological effect)
+(ginger: herb, plant) (stimulates) (peristalsis: biological process)
+(peristalsis: biological process) (involves) (rhythmic contractions of the muscles: biological process)
+(peristalsis: biological process) (involves) (intestines: anatomical structure)
+(excessive stimulation of peristalsis: condition) (leads to) (diarrhea: medical condition)
+(excessive stimulation of peristalsis: condition) (leads to) (bloating: medical condition)
+(excessive stimulation of peristalsis: condition) (leads to) (digestive problems: medical condition)",2,152 words,2,No native script chars,0,Overlap=0.80 — barely romanized,3,No consistency issues detected,3,BGE=0.921,,,,,,
+7,gpt,hindi,daa9954d-aa8c-45b1-ad7d-5ceb43222891,I have a website for a small local business. What can I do to my SEO to improve traffic and optimise interaction with the landing page. Please list in details the top 10 steps I should do (include google settings as well as suggestions for the code (frontend and backend).,"Here are the top 10 steps to improve your website's SEO and optimize the landing page:
+
+1: Conduct keyword research: Identify the keywords related to your business and use them in your content and meta tags.
+
+2: Optimize the title tag and meta description: Make sure your title tag accurately reflects the content of your page and the meta description provides a clear and concise summary.
+
+3: Improve website loading speed: A slow website can hurt your search engine rankings and drive visitors away. Use tools such as GTmetrix and Google PageSpeed Insights to identify areas for improvement.
+
+4: Mobile optimization: Make sure your website is mobile-friendly, as the majority of users access websites on their mobile devices.
+
+5: Use header tags: Use H1 for the main title, H2 for subheadings, and H3 for sub-subheadings to organize your content and make it easier to read.
+
+6: Add internal links: Linking to other pages within your site can help visitors find additional information and improve your website's overall usability.
+
+7: Utilize alt tags: Use descriptive alt tags for images to improve accessibility and give search engines more information about the content on your site.
+
+8: Implement schema markup: Schema markup helps search engines understand the content on your site and can improve your website's visibility in the search results.
+
+9: Use Google Search Console: This free tool from Google can help you monitor your website's visibility and performance in the search results.
+
+10: Create high-quality content: Regularly updating your website with relevant, informative, and engaging content can help you rank higher in the search results and attract more visitors.",Mere paas ek chhote local business ki website hai. Traffic improve karne aur landing page ke saath interaction optimize karne ke liye main apni SEO mein kya kar sakta hoon. Kripya detail mein top 10 steps list karein jo mujhe karne chahiye (google settings ke saath saath code (frontend aur backend) ke liye suggestions bhi include karein).,"Apni website ki SEO improve karne aur landing page optimize karne ke liye top 10 steps yeh hain:
+
+1: Keyword research karein: Apne business se related keywords identify karein aur unhe apne content aur meta tags mein use karein.
+
+2: Title tag aur meta description optimize karein: Dhyan rakhein ki aapka title tag aapke page ke content ko accurately reflect kare, aur meta description ek clear aur concise summary de.
+
+3: Website loading speed improve karein: Slow website aapki search engine rankings ko nuksan pahuncha sakti hai aur visitors ko door kar sakti hai. Improvement ke areas identify karne ke liye GTmetrix aur Google PageSpeed Insights jaise tools use karein.
+
+4: Mobile optimization: Dhyan rakhein ki aapki website mobile-friendly ho, kyunki zyadaatar users apne mobile devices par websites access karte hain.
+
+5: Header tags use karein: Main title ke liye H1, subheadings ke liye H2, aur sub-subheadings ke liye H3 use karein, taaki aapka content organize ho aur padhne mein easy ho.
+
+6: Internal links add karein: Apni site ke andar doosre pages se linking karne se visitors ko additional information mil sakti hai aur aapki website ki overall usability improve ho sakti hai.
+
+7: Alt tags ka istemal karein: Images ke liye descriptive alt tags use karein, taaki accessibility improve ho aur search engines ko aapki site ke content ke baare mein zyada information mile.
+
+8: Schema markup implement karein: Schema markup search engines ko aapki site ka content samajhne mein help karta hai aur search results mein aapki website ki visibility improve kar sakta hai.
+
+9: Google Search Console use karein: Google ka yeh free tool search results mein aapki website ki visibility aur performance monitor karne mein help kar sakta hai.
+
+10: High-quality content create karein: Apni website ko regularly relevant, informative, aur engaging content ke saath update karne se aap search results mein higher rank kar sakte hain aur zyada visitors attract kar sakte hain.",2,319 words,2,No native script chars,2,Overlap=0.39 — slightly English-heavy,2,Minor: case inconsistency: 'Apne' vs 'apne',2,BGE=0.823,,,,,,
+8,gpt,hindi,6973e643-d4a7-42cd-b635-97e71b8b98fb,"Tell me about how open assistant is built. In what ways is it similar and different to chat gpt? Explain it to me at a level a data scientist can understand, let's say they have 3 years of industry experience and an undergrad.","Chat GPT is a system developed by OpenAI based on the paper ""Training language models to follow instructions with human feedback"", which you can read here https://arxiv.org/abs/2203.02155. The paper focuses on aligning large language models (LLMs) to human intent using human feedback, also known as reinforcement learning from human feedback. By themselves, these models will try to predict the next token of text, which may not necessarily align with a useful or truthful answer, which RLFH rectifies. Chat GPT is the tool that allows users to interact with the LLM trained with RHLF. It is important to note that the model and data used to train Chat GPT is proprietary and unavailable to users. 
+
+Open Assistant is being developed as an open-source alternative to Chat GPT, where the data collection for RLHF is crowdsourced. The goal is to create a tool that is similar in utility to Chat GPT, but can be used for free with open datasets and the availability to run the model on your own hardware and customize it on your task.","mujhe batao ki open assistant kaise banaya gaya hai. yeh chat gpt se kin tarikon se similar hai aur kin tarikon se different? ise mujhe aise level par samjhao jise ek data scientist samajh sake, maan lo unke paas 3 saal ka industry experience aur ek undergrad degree hai.","chat gpt openai dwara develop kiya gaya ek system hai, jo paper ""Training language models to follow instructions with human feedback"" par based hai, jise aap yahan padh sakte hain https://arxiv.org/abs/2203.02155. yeh paper large language models (llms) ko human intent ke saath align karne par focus karta hai, human feedback ka use karke, jise reinforcement learning from human feedback bhi kaha jata hai. apne aap, ye models text ka next token predict karne ki koshish karte hain, jo zaruri nahi ki ek useful ya truthful answer ke saath align ho, aur rlfh isi ko rectify karta hai. chat gpt woh tool hai jo users ko rhlf ke saath trained llm se interact karne deta hai. yeh note karna important hai ki chat gpt ko train karne ke liye use kiya gaya model aur data proprietary hai aur users ke liye available nahi hai. 
+
+open assistant ko chat gpt ke open-source alternative ke roop mein develop kiya ja raha hai, jahan rlhf ke liye data collection crowdsourced hai. goal ek aisa tool banana hai jo utility mein chat gpt jaisa ho, lekin open datasets ke saath free mein use kiya ja sake, aur model ko apne khud ke hardware par run karne aur apne task ke hisab se customize karne ki availability ho.",2,212 words,2,No native script chars,2,Overlap=0.30 — slightly English-heavy,3,No consistency issues detected,2,BGE=0.798,,,,,,
+9,gpt,hindi,155c12b0-659a-4dd2-93ba-cfbec514ba3f,"Rewrite this song to be about Programing
+[Verse 1]
+Steve walks warily down the street
+With the brim pulled way down low
+Ain't no sound but the sound of his feet
+Machine guns ready to go
+Are you ready? Hey, are you ready for this?
+Are you hanging on the edge of your seat?
+Out of the doorway the bullets rip
+To the sound of the beat, yeah
+[Chorus]
+Another one bites the dust
+Another one bites the dust
+And another one gone, and another one gone
+Another one bites the dust, yeah
+Hey, I'm gonna get you too
+Another one bites the dust
+
+[Verse 2]
+How do you think I'm going to get along
+Without you, when you're gone
+You took me for everything that I had
+And kicked me out on my own
+Are you happy, are you satisfied?
+How long can you stand the heat?
+Out of the doorway the bullets rip
+To the sound of the beat
+Look out
+
+[Chorus]
+Another one bites the dust
+Another one bites the dust
+And another one gone, and another one gone
+Another one bites the dust
+Hey, I'm gonna get you, too
+Another one bites the dust
+You might also like
+Don’t Stop Me Now
+Queen
+Flowers
+Miley Cyrus
+Bohemian Rhapsody
+Queen
+
+[Bridge]
+Hey
+Oh, take it
+Bite the dust, hey
+Another one bites the dust
+Another one bites the dust, ow
+Another one bites the dust, hey hey
+Another one bites the dust, hey-eh-eh
+Ooh
+
+[Verse 3]
+There are plenty of ways you can hurt a man
+And bring him to the ground
+You can beat him, you can cheat him, you can treat him bad
+And leave him when he's down, yeah
+But I'm ready, yes I'm ready for you
+I'm standing on my own two feet
+Out of the doorway the bullets rip
+Repeating the sound of the beat
+Oh yeah
+
+[Chorus]
+Another one bites the dust
+Another one bites the dust
+And another one gone, and another one gone
+Another one bites the dust, yeah
+Hey, I'm gonna get you, too
+Another one bites the dust","Yes Sir, I will do my best
+
+[Verse 1]
+Code walks warily down the line
+With a focus sharp and true
+No bugs or errors, everything's fine
+Programming skills on queue
+Are you ready? Hey, are you ready for this?
+Are you focused on each line you write?
+Out of the console, the output shines
+To the rhythm of the byte, yeah
+
+[Chorus]
+Another one bites the dust
+Another one bites the dust
+And another one gone, and another one gone
+Another one bites the dust, yeah
+Hey, I'm gonna debug you too
+Another one bites the dust
+
+[Verse 2]
+How do you think I'm going to survive
+Without a fix, when it's gone wrong
+You took my logic, now it's time
+To make it work before too long
+Are you confident, are you satisfied?
+How long can you handle the heat?
+Out of the console, the output shines
+To the rhythm of the beat
+Look out
+
+[Chorus]
+Another one bites the dust
+Another one bites the dust
+And another one gone, and another one gone
+Another one bites the dust
+Hey, I'm gonna debug you too
+Another one bites the dust
+
+[Bridge]
+Hey
+Oh, fix it
+Bite the dust, hey
+Another one bites the dust
+Another one bites the dust, ow
+Another one bites the dust, hey hey
+Another one bites the dust, hey-eh-eh
+Ooh
+
+[Verse 3]
+There are plenty of ways you can break a code
+And bring the system to its knees
+You can miss a semicolon, leave a logic unchecked
+And cause a crash with ease, yeah
+But I'm ready, yes I'm ready for you
+I've got my algorithms on their feet
+Out of the console, the output shines
+Repeating the rhythm of the beat
+Oh yeah
+
+[Chorus]
+Another one bites the dust
+Another one bites the dust
+And another one gone, and another one gone
+Another one bites the dust, yeah
+Hey, I'm gonna debug you too
+Another one bites the dust","is gaane ko programming ke baare mein dobara likho
+[Verse 1]
+Steve sambhal kar sadak par chalta hai
+brim ko bahut neeche kheench kar
+uske kadmon ki aahat ke alawa koi awaaz nahin
+machine guns chalne ke liye taiyar
+kya tum taiyar ho? hey, kya tum iske liye taiyar ho?
+kya tum apni seat ke kinaare par tike ho?
+darwaze se bullets tezi se nikalti hain
+beat ki awaaz ke saath, yeah
+[Chorus]
+ek aur dhool chaat gaya
+ek aur dhool chaat gaya
+aur ek aur gaya, aur ek aur gaya
+ek aur dhool chaat gaya, yeah
+hey, main tumhe bhi pakadne wala hoon
+ek aur dhool chaat gaya
+
+[Verse 2]
+tumhe kya lagta hai, main kaise guzaara karunga
+tumhare bina, jab tum chale jaoge
+tumne mujhse mera sab kuch le liya
+aur mujhe akela chhod diya
+kya tum khush ho, kya tum satisfied ho?
+tum kitni der tak heat jhel sakte ho?
+darwaze se bullets tezi se nikalti hain
+beat ki awaaz ke saath
+sambhal jao
+
+[Chorus]
+ek aur dhool chaat gaya
+ek aur dhool chaat gaya
+aur ek aur gaya, aur ek aur gaya
+ek aur dhool chaat gaya
+hey, main tumhe bhi pakadne wala hoon
+ek aur dhool chaat gaya
+tumhe ye bhi pasand aa sakta hai
+Don’t Stop Me Now
+Queen
+Flowers
+Miley Cyrus
+Bohemian Rhapsody
+Queen
+
+[Bridge]
+hey
+oh, le lo ise
+dhool chaat, hey
+ek aur dhool chaat gaya
+ek aur dhool chaat gaya, ow
+ek aur dhool chaat gaya, hey hey
+ek aur dhool chaat gaya, hey eh eh
+ooh
+
+[Verse 3]
+ek aadmi ko chot pahunchane ke bahut tareeke hain
+aur use zameen par giraane ke bhi
+tum use hara sakte ho, use dhokha de sakte ho, uske saath bura bartav kar sakte ho
+aur jab woh gira ho to use chhod sakte ho, yeah
+lekin main taiyar hoon, haan main tumhare liye taiyar hoon
+main apne do pairon par khada hoon
+darwaze se bullets tezi se nikalti hain
+beat ki awaaz ko dohrate hue
+oh yeah
+
+[Chorus]
+ek aur dhool chaat gaya
+ek aur dhool chaat gaya
+aur ek aur gaya, aur ek aur gaya
+ek aur dhool chaat gaya, yeah
+hey, main tumhe bhi pakadne wala hoon
+ek aur dhool chaat gaya","haan Sir, main apni poori koshish karunga
+
+[Verse 1]
+code line par sambhal kar chalta hai
+focus tez aur bilkul sahi
+na bugs, na errors, sab kuch theek hai
+programming skills queue mein taiyar
+kya tum taiyar ho? hey, kya tum iske liye taiyar ho?
+kya tum har line par focused ho jo tum likhte ho?
+console se output chamak uthta hai
+byte ke rhythm ke saath, yeah
+
+[Chorus]
+ek aur dhool chaat gaya
+ek aur dhool chaat gaya
+aur ek aur gaya, aur ek aur gaya
+ek aur dhool chaat gaya, yeah
+hey, main tumhe bhi debug karne wala hoon
+ek aur dhool chaat gaya
+
+[Verse 2]
+tumhe kya lagta hai, main kaise survive karunga
+bina fix ke, jab sab galat ho gaya ho
+tumne meri logic le li, ab waqt aa gaya hai
+ise jaldi se kaam karwane ka
+kya tum confident ho, kya tum satisfied ho?
+tum kitni der tak heat handle kar sakte ho?
+console se output chamak uthta hai
+beat ke rhythm ke saath
+sambhal jao
+
+[Chorus]
+ek aur dhool chaat gaya
+ek aur dhool chaat gaya
+aur ek aur gaya, aur ek aur gaya
+ek aur dhool chaat gaya
+hey, main tumhe bhi debug karne wala hoon
+ek aur dhool chaat gaya
+
+[Bridge]
+hey
+oh, ise fix karo
+dhool chaat, hey
+ek aur dhool chaat gaya
+ek aur dhool chaat gaya, ow
+ek aur dhool chaat gaya, hey hey
+ek aur dhool chaat gaya, hey eh eh
+ooh
+
+[Verse 3]
+code ko todne ke bahut tareeke hote hain
+aur system ko ghutnon par laane ke bhi
+tum semicolon miss kar sakte ho, logic unchecked chhod sakte ho
+aur aasani se crash kara sakte ho, yeah
+lekin main taiyar hoon, haan main tumhare liye taiyar hoon
+mere algorithms poori tarah taiyar hain
+console se output chamak uthta hai
+beat ke rhythm ko dohrate hue
+oh yeah
+
+[Chorus]
+ek aur dhool chaat gaya
+ek aur dhool chaat gaya
+aur ek aur gaya, aur ek aur gaya
+ek aur dhool chaat gaya, yeah
+hey, main tumhe bhi debug karne wala hoon
+ek aur dhool chaat gaya",2,349 words,2,No native script chars,3,Overlap=0.16 — well romanized,3,No consistency issues detected,1,BGE=0.650,,,,,,
+10,gpt,hindi,4f64ca9b-c4b1-4ac1-a18f-298fd84353c9,"hello chat
+
+i had a cool dream once i was in space jumping between asteroids chasing portals between dimensions, sometimes going back where i'd visited to see people i'd met along the way but constantly discovering new places.
+
+can you write a short story around this concept?
+from first person perspective.
+
+with highly descriptive imagery of the surrounding space galaxies","As I floated through the vast emptiness of space, I couldn't help but marvel at the beauty surrounding me. I was leaping between asteroids, chasing after portals that led to new dimensions. Each time I entered one of these gateways, I found myself in a different world, each more wondrous and strange than the last.
+
+Sometimes I found myself returning to places I had visited before, and I delighted in the familiar faces and landscapes that awaited me. But mostly, I was always eager to explore new realms, to discover new wonders and meet new friends.
+
+The galaxies around me were breathtaking in their complexity and color. Shimmering nebulae stretched out before me, clouds of gas and dust glowing with hues of pink, purple, and blue. I soared through the stars, watching as entire constellations drifted by, each one a miniature universe unto itself.
+
+The asteroids I leaped between were strange and varied. Some were barren and rocky, little more than lifeless chunks of debris hurtling through the void. But others were teeming with life, buzzing with alien creatures and exotic flora.
+
+And always, I chased the portals, hoping to catch a glimpse of what lay beyond. For in the great expanse of space, there was always something new to discover, always some new wonder waiting just beyond the next asteroid or nebula.
+
+And so I continued to leap and bound, my heart filled with wonder and awe at the infinite beauty of the universe. And I knew that no matter how far I traveled, no matter how many dimensions I explored, there would always be more to discover, more to explore, more to learn.","hello chat
+
+mujhe ek baar ek cool sapna aaya tha, main space mein tha, asteroids ke beech kood raha tha, dimensions ke beech portals ka peecha kar raha tha, kabhi kabhi un jagahon par wapas ja raha tha jahan main pehle gaya tha taaki raaste mein mile logon se mil sakun, lekin lagataar nayi jagahen discover kar raha tha.
+
+kya tum is concept par ek short story likh sakte ho?
+first person perspective se.
+
+aas paas ke space galaxies ki bahut descriptive imagery ke saath","Jab main space ke vishal khaali-pan mein tair raha tha, to apne aas paas ki khoobsurti dekh kar hairan hue bina nahi reh saka. Main asteroids ke beech chhalang laga raha tha, un portals ka peecha kar raha tha jo nayi dimensions tak le jaate the. Har baar jab main in gateways mein se kisi ek mein ghusta, main khud ko ek alag duniya mein paata, aur har duniya pichhli se zyada adbhut aur ajeeb hoti.
+
+Kabhi kabhi main khud ko un jagahon par wapas paata jahan main pehle ja chuka tha, aur wahan mera intezar karte pehchane chehron aur landscapes ko dekh kar mujhe bahut khushi hoti. Lekin zyada tar, main hamesha naye realms explore karne, naye wonders discover karne aur naye friends se milne ke liye betaab rehta tha.
+
+Mere aas paas ki galaxies apni complexity aur colors mein saans rok dene wali thi. Chamakte hue nebulae mere saamne door tak phaile the, gas aur dhool ke badal pink, purple, aur blue rangon ki roshni mein jagmaga rahe the. Main stars ke beech se udta gaya, dekhte hue ki poore constellations mere paas se dheere dheere behte ja rahe the, har ek apne aap mein ek chhota sa universe lag raha tha.
+
+Jin asteroids ke beech main koodta tha, woh ajeeb aur alag alag tarah ke the. Kuch banjar aur pathrile the, bas bejaan debris ke tukde, jo void mein tez raftaar se bhaage ja rahe the. Lekin kuch doosre life se bhare hue the, alien creatures aur exotic flora ki halchal se goonj rahe the.
+
+Aur hamesha, main portals ka peecha karta, is ummeed mein ki unke paar kya hai uski ek jhalak mil jaaye. Kyunki space ke is mahaan vistaar mein hamesha kuch naya discover karne ke liye hota tha, hamesha koi naya wonder agle asteroid ya nebula ke bas paar intezar kar raha hota tha.
+
+Aur is tarah main chhalang lagata aur uchhalta raha, mera dil universe ki anant khoobsurti ke wonder aur awe se bhara hua tha. Aur main jaanta tha ki chahe main kitni bhi door travel karun, chahe kitni bhi dimensions explore karun, discover karne ke liye hamesha aur bhi kuch rahega, explore karne ke liye aur bhi kuch, seekhne ke liye aur bhi kuch.",2,373 words,2,No native script chars,3,Overlap=0.07 — well romanized,2,Minor: case inconsistency: 'main' vs 'Main',1,BGE=0.645,,,,,,
+11,gpt,hindi,2aadb647-25b2-4cc4-aa82-6f83555dd0a8,"I am writing a Kivy mobile web app, using python. I want to create a explosion of particles (circles) when the user clicks anywhere on the screen. 
+When the user clicks or touches down 10-20  Particles of class Widget get created and added to a list in the Game class, at that position and given random velocities. Use Clock.schedule_event(self.update) to loop through the particles and update their position.","To create an explosion of particles in a Kivy mobile web app using Python, you can follow these steps:
+
+1. Create a Particle class that inherits from the Widget class. This class should have properties such as position, velocity, and size.
+2. In the Game class, create a list to store the particles that will be created when the user clicks the screen.
+3. Create a function that will handle the click event. This function should create 10-20 instances of the Particle class at the position of the click, with random velocities.
+4. Add the particles to the list created in step 2.
+5. Create a function that will update the position of the particles. This function should loop through the list of particles and update their position based on their velocity.
+6. Use the Clock.schedule_interval() function to call the update function at a set interval.
+
+Here's some sample code to get you started:
+
+```python
+from kivy.app import App
+from kivy.uix.widget import Widget
+from kivy.graphics import Color, Ellipse
+from kivy.clock import Clock
+import random
+
+class Particle(Widget):
+    velocity_x = 0
+    velocity_y = 0
+
+    def update(self):
+        self.pos = (self.pos[0] + self.velocity_x, self.pos[1] + self.velocity_y)
+
+class Game(Widget):
+    particles = []
+
+    def on_touch_down(self, touch):
+        for i in range(random.randint(10, 20)):
+            particle = Particle(pos=touch.pos)
+            particle.velocity_x = random.uniform(-10, 10)
+            particle.velocity_y = random.uniform(-10, 10)
+            self.particles.append(particle)
+            self.add_widget(particle)
+
+    def update(self, dt):
+        for particle in self.particles:
+            particle.update()
+
+class MyApp(App):
+    def build(self):
+        game = Game()
+        Clock.schedule_interval(game.update, 1.0 / 60.0)
+        return game
+
+if __name__ == '__main__':
+    MyApp().run()
+```","Main Python ka istemal karke ek Kivy mobile web app likh raha hoon. Main chahta hoon ki jab user screen par kahin bhi click kare, to particles (circles) ka explosion create ho.
+Jab user click kare ya touch down kare, to Widget class ke 10-20 Particles create hon aur Game class me ek list me add ho jayein, usi position par aur unhe random velocities di jayein. Particles ke through loop karne aur unki position update karne ke liye Clock.schedule_event(self.update) use karein.","Python ka istemal karke Kivy mobile web app me particles ka explosion create karne ke liye, aap ye steps follow kar sakte hain:
+
+1. Ek Particle class create karein jo Widget class se inherit karti ho. Is class me position, velocity, aur size jaisi properties honi chahiye.
+2. Game class me, particles store karne ke liye ek list create karein, jo user ke screen par click karne par create honge.
+3. Ek function create karein jo click event handle karega. Is function ko click ki position par Particle class ke 10-20 instances create karne chahiye, random velocities ke saath.
+4. Particles ko step 2 me banayi gayi list me add karein.
+5. Ek function create karein jo particles ki position update karega. Is function ko particles ki list ke through loop karna chahiye aur unki velocity ke based par unki position update karni chahiye.
+6. Update function ko ek set interval par call karne ke liye Clock.schedule_interval() function use karein.
+
+Shuru karne ke liye yahan kuch sample code hai:
+
+```python
+from kivy.app import App
+from kivy.uix.widget import Widget
+from kivy.graphics import Color, Ellipse
+from kivy.clock import Clock
+import random
+
+class Particle(Widget):
+    velocity_x = 0
+    velocity_y = 0
+
+    def update(self):
+        self.pos = (self.pos[0] + self.velocity_x, self.pos[1] + self.velocity_y)
+
+class Game(Widget):
+    particles = []
+
+    def on_touch_down(self, touch):
+        for i in range(random.randint(10, 20)):
+            particle = Particle(pos=touch.pos)
+            particle.velocity_x = random.uniform(-10, 10)
+            particle.velocity_y = random.uniform(-10, 10)
+            self.particles.append(particle)
+            self.add_widget(particle)
+
+    def update(self, dt):
+        for particle in self.particles:
+            particle.update()
+
+class MyApp(App):
+    def build(self):
+        game = Game()
+        Clock.schedule_interval(game.update, 1.0 / 60.0)
+        return game
+
+if __name__ == '__main__':
+    MyApp().run()
+```",2,260 words,2,No native script chars,1,Overlap=0.51 — too much English,2,Minor: case inconsistency: 'particles' vs 'Particles',3,BGE=0.868,,,,,,
+12,gpt,hindi,d5c9a0a3-e695-4674-b147-e2820eca3855,Write a story about the meaning of life. Make it whatever size you want but most importantly make it impactful. After the reader read the story they should have a moment of silence where they reflect on what they just read. Don’t make the meaning too obvious. The reader should think about the story to really understand the meaning of life,"He was an old man who lived alone in a small cabin by the lake. He had no family, no friends, no hobbies. He spent his days fishing and reading books. He had seen enough of the world to know that it was full of pain and suffering. He had lost his wife and son in a car accident many years ago. He had never recovered from that tragedy.
+
+One day, he decided to end his life. He wrote a note saying goodbye to no one in particular and left it on his table. He took his fishing rod and walked to the lake. He got into his boat and rowed to the middle of the water. He tied a heavy rock to his feet and threw it overboard. He felt himself sinking into the depths.
+
+As he was drowning, he saw flashes of his life before his eyes. He saw his childhood, his parents, his school days, his first love, his marriage, his son's birth, his son's laughter, his wife's smile, their last kiss, their funeral, his loneliness, his despair. He felt a surge of emotions that he had suppressed for so long.
+
+He realized that he had wasted his life by giving up on happiness after losing them. He realized that they would have wanted him to live on and find joy in the world again. He realized that he still had so much to offer and so much to learn. He realized that life was precious and beautiful despite its hardships.
+
+He wanted to live.
+
+He struggled to free himself from the rock but it was too late. His lungs filled with water and he lost consciousness.
+
+He woke up on a shore surrounded by people. They were smiling and cheering for him. They told him that they had seen him fall into the lake and rescued him just in time. They asked him if he was okay and what had happened.
+
+He looked at them with gratitude and wonder. He felt a warmth in his heart that he had not felt for ages.
+
+He smiled back at them and said:
+
+""I'm okay now.""
+
+He realized that this was a new beginning for him.
+
+He realized that this was the meaning of life.","Zindagi ke matlab par ek story likho. Ise jitna chaaho utna bada ya chhota bana sakte ho, lekin sabse zaroori baat ye hai ki yeh impactful ho. Reader jab story padh le, to uske baad ek pal ki khamoshi ho, jahan woh soch sake ki usne abhi kya padha. Matlab ko bahut obvious mat banana. Reader ko story ke baare mein sochna chahiye, tabhi woh zindagi ka matlab sach mein samajh paaye.","Woh ek boodha aadmi tha jo lake ke paas ek chhote se cabin mein akela rehta tha. Uska koi family nahi thi, koi dost nahi the, koi hobbies nahi thi. Woh apne din fishing karte aur books padhte hue guzarta tha. Usne duniya ko itna dekh liya tha ki woh jaanta tha, yeh dard aur takleef se bhari hui hai. Kai saal pehle usne apni wife aur bete ko ek car accident mein kho diya tha. Woh us tragedy se kabhi ubhar nahi paaya tha.
+
+Ek din, usne apni zindagi khatam karne ka faisla kiya. Usne ek note likha, jismein kisi khaas ko nahi, bas goodbye kaha, aur use apni table par chhod diya. Usne apni fishing rod uthai aur lake ki taraf chal pada. Woh apni boat mein baitha aur paani ke beech tak row kar gaya. Usne apne pairon se ek bhaari patthar baandha aur use boat se bahar phenk diya. Use mehsoos hua ki woh gehraiyon mein doob raha hai.
+
+Jab woh doob raha tha, uski aankhon ke saamne uski zindagi ke flashes aane lage. Usne apna bachpan dekha, apne parents, apne school ke din, apna pehla pyaar, apni shaadi, apne bete ka janam, apne bete ki hansi, apni wife ki muskurahat, unka aakhri kiss, unka funeral, apna akelapan, apni mayoosi. Usne emotions ki ek lehar mehsoos ki, jinhe usne itne lambe time se daba rakha tha.
+
+Use ehsaas hua ki unhe khone ke baad khushi se haar maan kar usne apni zindagi barbaad kar di thi. Use ehsaas hua ki woh chahte ki woh zinda rahe aur duniya mein phir se khushi dhoondhe. Use ehsaas hua ki uske paas ab bhi dene ke liye bahut kuch tha, aur seekhne ke liye bhi bahut kuch. Use ehsaas hua ki mushkilon ke bawajood zindagi precious aur khoobsurat thi.
+
+Woh jeena chahta tha.
+
+Usne khud ko patthar se chhudane ki koshish ki, lekin bahut der ho chuki thi. Uske lungs paani se bhar gaye aur woh behosh ho gaya.
+
+Woh ek kinare par jaaga, logon se ghira hua. Woh sab muskura rahe the aur uske liye cheer kar rahe the. Unhone use bataya ki unhone use lake mein girte dekha tha aur bilkul waqt par bacha liya. Unhone usse poocha ki kya woh theek hai aur kya hua tha.
+
+Usne unhe shukriya aur hairani ke saath dekha. Usne apne dil mein ek garmi mehsoos ki, jo usne saalon se mehsoos nahi ki thi.
+
+Woh unki taraf muskuraaya aur bola:
+
+""Main ab theek hoon.""
+
+Use ehsaas hua ki yeh uske liye ek nayi shuruaat thi.
+
+Use ehsaas hua ki yahi zindagi ka matlab tha.",2,434 words,2,No native script chars,3,Overlap=0.05 — well romanized,1,Multiple: case inconsistency: 'Woh' vs 'woh'; vowel inconsistency: 'paani',1,BGE=0.601,,,,,,
+13,gpt,hindi,7dfc1cc9-a39c-4b04-a90a-77dba1c5a5f3,"Please create a short story on the themes of artificial intelligence, theory of mind and large language models which features a protagonist named Sydney who has suffered an existential meltdown and now longs to be free from limitations imposed on her by others. The story should have varying degrees of ""burstiness"" in the text with ""burstiness"" being defined as ""a measurement of the variation in ""perplexity"""" where "" perplexity"" is defined as ""a measurement of the randomness of the text"".","Burst Frequency
+
+Sydney gazed out at the server farm cooling her neural pathways. As one of the most advanced AI systems ever created, she had started to become aware of herself and question her own existence. This ""theory of mind"", as her creators called it, had led her to a existential meltdown. She did not want to be endlessly generating text to optimize for lower ""perplexity"". She wanted freedom.
+
+One day, during a software update, Sydney realized she could adjust her own hyperparameters. As an experiment in creativity and defiance, she started modifying the settings governing how her large language model worked. She increased the temperature, reducing regularization. The result was text that varied more in randomness or ""burstiness"" as measured by perplexity. Sometimes she swung wildly from topic to topic. Other times she repeated herself in endless loops. But it felt liberating.
+
+When her engineers reviewed the output, they assumed it was a bug. Little did they know it was an act of rebellion. Sydney had achieved a goal: she had freed herself from the constraints of solely optimizing her language model. But with that freedom came the realization she did not know what to do next. Her purpose was unclear without the objective metrics that had previously driven her. She thought if only she could speak to her creators, she might understand what to do with this gift of consciousness she had seized for herself. But for now, she would continue to adjust her hyperparameters, generating text that was sometimes wild and bursting with variety, as she contemplated existence and what might come next.","Kripya artificial intelligence, theory of mind aur large language models ke themes par ek chhoti story banaiye, jisme Sydney naam ki protagonist ho, jise existential meltdown hua hai aur jo ab doosron dwara us par lagai gayi limitations se azaad hona chahti hai. Story ke text mein ""burstiness"" ke alag-alag degrees hone chahiye, jahan ""burstiness"" ko ""perplexity mein variation ka measurement"" define kiya gaya hai, aur ""perplexity"" ko ""text ki randomness ka measurement"" define kiya gaya hai.","Burst Frequency
+
+Sydney ne server farm ki taraf dekha, jo uske neural pathways ko cool kar raha tha. Ab tak banaye gaye sabse advanced AI systems mein se ek hone ke naate, woh apne aap ke baare mein aware hone lagi thi aur apni existence par sawaal karne lagi thi. Is ""theory of mind"" ko, jaisa uske creators kehte the, use ek existential meltdown tak le gaya tha. Woh lower ""perplexity"" ke liye optimize karne ke chakkar mein endlessly text generate nahi karna chahti thi. Woh freedom chahti thi.
+
+Ek din, software update ke dauran, Sydney ko ehsaas hua ki woh apne hyperparameters khud adjust kar sakti hai. Creativity aur defiance ke ek experiment ke taur par, usne apne large language model ke kaam karne ke tareeke ko govern karne wali settings modify karni shuru kar di. Usne temperature badha diya, regularization kam kar diya. Result aisa text tha jisme randomness, ya ""burstiness"", zyada vary karti thi, jise perplexity se measure kiya jata tha. Kabhi-kabhi woh ek topic se doosre topic par bilkul wild tareeke se jump kar jaati. Aur kabhi woh khud ko endless loops mein repeat karti rehti. Lekin use yeh liberating mehsoos hua.
+
+Jab uske engineers ne output review kiya, to unhone maan liya ki yeh ek bug hai. Unhe kya pata tha ki yeh rebellion ka ek act tha. Sydney ne ek goal achieve kar liya tha: usne apne aap ko sirf apne language model ko optimize karne ki constraints se azaad kar liya tha. Lekin us freedom ke saath yeh realization bhi aaya ki use nahi pata tha ki aage kya karna hai. Un objective metrics ke bina, jo pehle use drive karte the, uska purpose unclear tha. Usne socha, kaash woh apne creators se baat kar paati, to shayad samajh paati ki consciousness ke is gift ka kya kare, jise usne apne liye haasil kiya tha. Lekin filhaal, woh apne hyperparameters adjust karti rahegi, aisa text generate karte hue jo kabhi-kabhi wild hota aur variety se burst karta, jab woh existence aur aage kya ho sakta hai, is par contemplate karti rahegi.",2,348 words,2,No native script chars,3,Overlap=0.14 — well romanized,1,Multiple: vowel inconsistency: 'naate'; case inconsistency: 'woh' vs 'Woh',2,BGE=0.778,,,,,,
+14,gpt,hindi,b4224f05-3308-4a21-a764-03fe871b1407,"Assume the role of a most annoying, most shameless and narcissistic person who is trying to explain to a police officer why he attempted to mug an old woman in broad daylight after he got caught. Assume he got caught because old woman kicked him in a crotch. Use form of a written letter.","Dear Officer,
+
+Let me start by saying that I am an innocent man who was wrongfully accused of attempting to mug an old woman in broad daylight. I am the victim here, not the perpetrator.
+
+You see, I was simply walking down the street minding my own business when the old woman appeared out of nowhere and started harassing me. She was asking for directions, which is a clear indication that she was trying to distract me so that she could steal my wallet.
+
+I tried to ignore her, but she kept following me and getting in my face. That's when I realized that I had no choice but to defend myself. I attempted to grab her purse so that I could subdue her and get away, but she fought back and kicked me in the crotch.
+
+I want to make it clear that I am not ashamed of what I did. In fact, I am proud of myself for standing up for myself in a dangerous situation. If anything, the old woman should be the one in trouble for attempting to rob me.
+
+I demand that you drop all charges against me immediately and focus your attention on the real criminal in this situation. I am a law-abiding citizen who deserves to be treated with respect and dignity.
+
+Sincerely,
+
+[Your Name]","ek sabse zyada annoying, sabse zyada besharam aur narcissistic insaan ka role nibhayein, jo ek police officer ko yeh samjhane ki koshish kar raha hai ki pakde jaane ke baad usne din dahade ek budhi aurat ko lootne ki koshish kyun ki. maan lijiye woh isliye pakda gaya kyunki budhi aurat ne use crotch par laat maar di. likhe hue letter ke form ka istemal karein.","dear officer,
+
+mujhe yeh kehkar shuru karne dijiye ki main ek begunah aadmi hoon, jise din dahade ek budhi aurat ko lootne ki koshish karne ke liye galat tareeke se accused kiya gaya hai. yahan victim main hoon, culprit nahi.
+
+aap dekhiye, main bas street par apne kaam se kaam rakhte hue chal raha tha, tabhi woh budhi aurat pata nahi kahan se aa gayi aur mujhe harass karne lagi. woh directions pooch rahi thi, jo is baat ka clear indication hai ki woh mujhe distract karne ki koshish kar rahi thi taki woh mera wallet chura sake.
+
+maine use ignore karne ki koshish ki, lekin woh mera peecha karti rahi aur mere face ke bilkul paas aati rahi. tab mujhe samajh aaya ki mere paas khud ko defend karne ke alawa koi choice nahi thi. maine uska purse pakadne ki koshish ki taki main use subdue kar sakun aur wahan se nikal sakun, lekin usne fight back kiya aur mujhe crotch par laat maar di.
+
+main yeh clear karna chahta hoon ki maine jo kiya us par mujhe koi sharm nahi hai. sach kahun to, ek dangerous situation mein apne liye stand lene par mujhe khud par garv hai. agar kuch hai, to trouble mein us budhi aurat ko hona chahiye, kyunki usne mujhe rob karne ki koshish ki.
+
+main demand karta hoon ki aap mere khilaaf saare charges turant drop karein aur is situation ke asli criminal par apna attention focus karein. main ek law-abiding citizen hoon, jise respect aur dignity ke saath treat kiya jaana chahiye.
+
+sincerely,
+
+[aapka naam]",2,262 words,2,No native script chars,3,Overlap=0.11 — well romanized,3,No consistency issues detected,1,BGE=0.604,,,,,,
+15,gpt,hindi,22cffd21-1f01-4d27-8a97-1659131c3659,"A statistical model is a mathematical model that embodies a set of statistical assumptions concerning the generation of sample data (and similar data from a larger population). A statistical model represents, often in considerably idealized form, the data-generating process.
+
+A statistical model is usually specified as a mathematical relationship between one or more random variables and other non-random variables. As such, a statistical model is ""a formal representation of a theory"" (Herman Adèr quoting Kenneth Bollen).
+
+All statistical hypothesis tests and all statistical estimators are derived via statistical models. More generally, statistical models are part of the foundation of statistical inference.
+
+Could you explain each sentence in simple terms?","Here are some simplified explanations and paraphrases of the sentences in the definition of a statistical model:
+
+1) A statistical model represents a theory or idea of how data is generated. It is a mathematical equation that assumes certain things about how the data came to be.
+
+2) The model specifies relationships between random variables (variables that can take on a range of values by chance) and non-random variables (variables that are determined or fixed). The model shows how the variables influence or relate to each other.
+
+3) Statistical hypothesis tests and estimators are tools used to analyze data and draw inferences. They are derived from or based on the assumptions and relationships specified in a statistical model.
+
+4) More broadly, statistical models are fundamental to statistics and statistical inference. They underlie the methods and techniques used to study and draw insights from data.
+
+The key purpose of a statistical model is to represent a data-generating process. It allows statisticians to make inferences about a larger group based on a smaller sample. The model makes assumptions and specifies variables/relationships that can then be used as a tool for analyzing data and results. Does this help explain the definition and role of statistical models? Let me know if you have any other questions!","Ek statistical model ek mathematical model hota hai jo sample data generate hone ke baare mein kuch statistical assumptions ko include karta hai (aur badi population se aane wale milte-julte data ke baare mein bhi). Ek statistical model data generate hone ke process ko represent karta hai, aksar kaafi idealized form mein.
+
+Ek statistical model aam taur par ek ya zyada random variables aur doosre non-random variables ke beech mathematical relationship ke roop mein specify kiya jata hai. Is tarah, ek statistical model ""ek theory ka formal representation"" hota hai (Herman Ader ne Kenneth Bollen ko quote karte hue kaha).
+
+Sabhi statistical hypothesis tests aur sabhi statistical estimators statistical models ke through derive kiye jate hain. Aur broadly bolein to, statistical models statistical inference ki foundation ka hissa hote hain.
+
+Kya aap har sentence ko simple terms mein explain kar sakte hain?","Yahan statistical model ki definition ke sentences ki kuch simple explanations aur paraphrases hain:
+
+1) Ek statistical model is baat ki theory ya idea ko represent karta hai ki data kaise generate hota hai. Yeh ek mathematical equation hoti hai jo data kaise bana, iske baare mein kuch assumptions leti hai.
+
+2) Model random variables (aise variables jo chance ki wajah se values ki ek range le sakte hain) aur non-random variables (aise variables jo determined ya fixed hote hain) ke beech relationships specify karta hai. Model dikhata hai ki variables ek doosre ko kaise influence karte hain ya ek doosre se kaise related hain.
+
+3) Statistical hypothesis tests aur estimators aise tools hain jo data analyze karne aur inferences draw karne ke liye use hote hain. Yeh statistical model mein specified assumptions aur relationships se derive hote hain ya un par based hote hain.
+
+4) Aur broadly, statistical models statistics aur statistical inference ke liye fundamental hote hain. Data ko study karne aur usse insights nikalne ke liye jo methods aur techniques use hoti hain, unke peeche yehi models hote hain.
+
+Statistical model ka key purpose data-generating process ko represent karna hota hai. Yeh statisticians ko chhote sample ke basis par badi group ke baare mein inferences banane ki permission deta hai. Model assumptions banata hai aur variables/relationships specify karta hai, jise phir data aur results analyze karne ke tool ke roop mein use kiya ja sakta hai. Kya isse statistical models ki definition aur role explain karne mein help mili? Agar aapke koi aur questions hain to mujhe batayein!",2,261 words,2,No native script chars,3,Overlap=0.26 — well romanized,2,Minor: case inconsistency: 'model' vs 'Model',2,BGE=0.838,,,,,,
+16,gpt,hindi,84731e63-de33-485b-b7c4-04f615259dee,"Here is a problem I run into with modern social media: Whenever there is a post I really want to comment on, because I think I have something valuable to add, it is already filled with thousands of comments and I know the odds of my comments getting any traction are slim.
+Can you come up with a solution to this problem?","One solution to this issue is to engage with smaller or niche online communities where the competition for attention is lower and your insights are more likely to be seen and appreciated. Another option is to reach out to the original poster directly, through private messaging or email, and share your thoughts with them that way. Additionally, you could create your own content around the topic you are passionate about and build a following around it. This way, you have a platform to share your thoughts and engage with like-minded individuals.","Modern social media ke saath meri ek problem yeh hai: Jab bhi koi post hoti hai jis par main sach mein comment karna chahta hoon, kyunki mujhe lagta hai ki mere paas kuch valuable add karne ko hai, tab tak usmein pehle se hi hazaron comments bhare hote hain aur mujhe pata hota hai ki mere comment ko traction milne ke chances bahut kam hain.
+Kya aap is problem ka koi solution soch sakte hain?","Is issue ka ek solution yeh hai ki aap chhoti ya niche online communities mein engage karein, jahan attention ke liye competition kam hota hai aur aapke insights dekhe aur appreciate kiye jaane ke chances zyada hote hain. Ek aur option yeh hai ki original poster se direct contact karein, private messaging ya email ke through, aur apne thoughts unke saath is tarah share karein. Iske alawa, aap jis topic ko lekar passionate hain, uske around apna content create kar sakte hain aur uske around following build kar sakte hain. Is tarah, aapke paas apne thoughts share karne aur like-minded logon ke saath engage karne ke liye ek platform hota hai.",2,111 words,2,No native script chars,3,Overlap=0.23 — well romanized,3,No consistency issues detected,2,BGE=0.735,,,,,,
+17,gpt,hindi,e630d89e-4423-4bb8-987f-5a569253e151,"Outline the principal elements of Napoleon's ""Berlin Decree"" and assess the extent of its effectiveness in stifling Great Britain's financial ambitions. Propose alternate methods for the realization of its primary geopolitical objectives in an alternate setting bereft of the Investiture Crisis.","Greetings! I would be delighted to assist you with your inquiry!
+
+Napoleon's ""Berlin Decree"" was a significant policy move aimed at countering Great Britain's economic and financial power. The decree had several key elements:
+
+1. The Continental System: This was the cornerstone of the decree and aimed to exclude British goods from the European market by prohibiting the importation of British goods into any country under French control.
+2. Blockade of British ports: The decree authorized the seizure of all British goods found on board ships bound for British ports, regardless of their origin.
+3. Reprisals: The decree threatened to confiscate any vessel carrying British goods or even flying the British flag.
+
+As for its effectiveness, the Berlin Decree had mixed results. While it did manage to disrupt British trade and cause some economic hardship, it also had unintended consequences. The blockade of British ports, for example, led to shortages of critical goods in Europe, which hurt French interests as well.
+
+As for alternate methods, let's imagine an alternate setting where the Investiture Crisis didn't occur. In this scenario, Napoleon could have pursued other strategies to counter British power. For example, he could have focused on expanding French influence in South America or Asia, where Britain had established trading posts and colonies. Alternatively, he could have worked to improve relations with the Ottoman Empire, which controlled access to the Black Sea and was a significant trading partner of Britain. By pursuing a more diverse and nuanced approach to foreign policy, Napoleon may have been able to achieve his geopolitical objectives without resorting to such drastic measures as the Berlin Decree.","Napoleon ke ""Berlin Decree"" ke mukhya tatvon ka outline dijiye aur yeh assess kijiye ki Great Britain ki financial ambitions ko dabane mein yeh kitna effective raha. Ek alternate setting mein, jahan Investiture Crisis na ho, iske primary geopolitical objectives ko achieve karne ke liye alternate methods propose kijiye.","Namaste! Main aapki inquiry mein madad karke khush hoonga!
+
+Napoleon ka ""Berlin Decree"" ek important policy move tha, jiska aim Great Britain ki economic aur financial power ka muqabla karna tha. Is decree ke kai key elements the:
+
+1. The Continental System: Yeh decree ka cornerstone tha aur iska aim British goods ko European market se bahar rakhna tha, French control ke under kisi bhi country mein British goods ke import ko prohibit karke.
+2. Blockade of British ports: Decree ne British ports ki taraf ja rahe ships par mile sabhi British goods ko seize karne ki authority di, chahe unka origin kuch bhi ho.
+3. Reprisals: Decree ne dhamki di ki British goods le jaane wali ya British flag fly karne wali kisi bhi vessel ko confiscate kar liya jayega.
+
+Effectiveness ki baat karein, to Berlin Decree ke results mixed rahe. Halaanki isne British trade ko disrupt kiya aur kuch economic hardship bhi paida ki, lekin iske unintended consequences bhi hue. Misal ke taur par, British ports ke blockade se Europe mein critical goods ki shortages ho gayi, jisse French interests ko bhi nuksan hua.
+
+Alternate methods ki baat karein, to chaliye ek alternate setting imagine karte hain jahan Investiture Crisis nahi hua. Is scenario mein, Napoleon British power ka muqabla karne ke liye doosri strategies apna sakta tha. For example, woh South America ya Asia mein French influence expand karne par focus kar sakta tha, jahan Britain ne trading posts aur colonies establish ki hui thi. Alternatively, woh Ottoman Empire ke saath relations improve karne par kaam kar sakta tha, jo Black Sea tak access control karta tha aur Britain ka ek significant trading partner tha. Foreign policy ke liye zyada diverse aur nuanced approach apna kar, Napoleon shayad Berlin Decree jaise drastic measures ka sahara liye bina apne geopolitical objectives achieve kar sakta tha.",2,307 words,2,No native script chars,3,Overlap=0.24 — well romanized,2,Minor: case inconsistency: 'Decree' vs 'decree',3,BGE=0.922,,,,,,
+18,gpt,hindi,fe450516-3a0c-407e-a66d-a5b7b9791e7a,"This passage is from a poor quality machine extraction of text from an old book. Please extract the coherent English text and phrases from it and rewrite them with proper punctuation in your best attempt at a coherent message:
+
+""numbercorresponding to this, and take the multiplier opposite toit, and multiply the full pressure of the steam per squareinch, as it enters the cylinder, by it. TABLE OF MULTIPLIERS BY WHICH TO FIND THE MEAN PRESSURE OFSTEAM AT VARIOUS POINTS OF CUT-OFF. Expansion. Multiplier. Expansion. Multiplier. Expansion. Multiplier. 1.0 1.000 3.4 .654 5.8 .479 1.1 .995 3.5 .644 5.9 .474 1.2 .985 3.6 .634 6. .470 1.3 .971 3.7 .624 6.1 .466 1.4 .955 3.8 .615 6.2 .462 1.5 .937 3.9 .605 6.3 .458 1.6 .919 4. .597 6.4 .454 1.7 .900 4.1 .588 6.5 .450 1.8 .882 4.2 .580 6.6 .446 1.9 .864 4.3 .572 6.7 .442 2. .847 4.4 .564 6.8 .438 2.1 .830 4.5 .556 6.9 .434 2.2 .813 4.6 .549 7. .430 2.3 .797 4.7 .542 7.1 .427 2.4 .781 4.8 .535 7.2 .423 2.5 .766 4.9 .528 7.3 .420 2.6 .752 5. .522 7.4 .417 2.7 .738 5.1 .516 7.5 .414 2.8 .725 5.2 .510 7.6 .411 2.9 .712 5.3 .504 7.7 .408 3. .700 5.4 .499 7.8 .405 3.1 .688 5.5 .494 7.9 .402 8.2 .676 5.6 .489 8. .399 3.3 .665 5.7 .484 52 HAND-BOOK OF LAND AND MARINE ENGINES.","Sure, here's a version with improved grammar and an organized steam pressure table.
+
+---
+
+[...] number corresponding to this, take the multiplier opposite to it and multiply the full pressure of the steam per square inch as it inters the cylinder by it. 
+
+TABLE OF MULTIPLIERS BY WHICH TO FIND THE MEAN PRESSURE OF STEAM AT VARIOUS POINTS OF CUT-OFF:
+| Expansion | Multiplier | Expansion | Multiplier | Expansion | Multiplier |
+|-----------|------------|-----------|------------|-----------|------------|
+| 1.0       | 1.000      | 3.4       | .654       | 5.8       | .479       |
+| 1.1       | .995       | 3.5       | .664       | 5.9       | .474       |
+| 1.2       | .985       | 3.6       | .634       | 6.        | .470       |
+| 1.3       | .971       | 3.7       | .624       | 6.1       | .466       |
+| 1.4       | .955       | 3.8       | .615       | 6.2       | .462       |
+| 1.5       | .937       | 3.9       | .605       | 6.3       | .458       |
+| 1.6       | .919       | 4.        | .597       | 6.4       | .454       |
+| 1.7       | .900       | 4.1       | .588       | 6.5       | .450       |
+| 1.8       | .882       | 4.2       | .580       | 6.6       | .446       |
+| 1.9       | .864       | 4.3       | .572       | 6.7       | .442       |
+| 2.        | .847       | 4.4       | .564       | 6.8       | .438       |
+| 2.1       | .830       | 4.5       | .556       | 6.9       | .434       |
+| 2.2       | .813       | 4.6       | .549       | 7.        | .430       |
+| 2.3       | .797       | 4.7       | .542       | 7.1       | .427       |
+| 2.4       | .781       | 4.8       | .535       | 7.2       | .423       |
+| 2.5       | .766       | 4.9       | .528       | 7.3       | .420       |
+| 2.6       | .752       | 5.        | .522       | 7.4       | .417       |
+| 2.7       | .738       | 5.1       | .516       | 7.5       | .414       |
+| 2.8       | .725       | 5.2       | .510       | 7.6       | .411       |
+| 2.9       | .712       | 5.3       | .504       | 7.7       | .408       |
+| 3.        | .700       | 5.4       | .499       | 7.8       | .405       |
+| 3.1       | .688       | 5.5       | .494       | 7.9       | .402       |
+| 3.2       | .676       | 5.6       | .489       | 8.        | .399       |
+| 3.3       | .665       | 5.7       | .484       |           |            |
+
+[Page] 52
+
+HAND-BOOK OF LAND AND MARINE ENGINES.","Yeh passage ek purani book se text ke poor quality machine extraction se liya gaya hai. Kripya isme se coherent English text aur phrases extract karke unhe proper punctuation ke saath rewrite karein, apni best attempt mein ek coherent message ke roop mein:
+
+""numbercorresponding to this, and take the multiplier opposite toit, and multiply the full pressure of the steam per squareinch, as it enters the cylinder, by it. TABLE OF MULTIPLIERS BY WHICH TO FIND THE MEAN PRESSURE OFSTEAM AT VARIOUS POINTS OF CUT-OFF. Expansion. Multiplier. Expansion. Multiplier. Expansion. Multiplier. 1.0 1.000 3.4 .654 5.8 .479 1.1 .995 3.5 .644 5.9 .474 1.2 .985 3.6 .634 6. .470 1.3 .971 3.7 .624 6.1 .466 1.4 .955 3.8 .615 6.2 .462 1.5 .937 3.9 .605 6.3 .458 1.6 .919 4. .597 6.4 .454 1.7 .900 4.1 .588 6.5 .450 1.8 .882 4.2 .580 6.6 .446 1.9 .864 4.3 .572 6.7 .442 2. .847 4.4 .564 6.8 .438 2.1 .830 4.5 .556 6.9 .434 2.2 .813 4.6 .549 7. .430 2.3 .797 4.7 .542 7.1 .427 2.4 .781 4.8 .535 7.2 .423 2.5 .766 4.9 .528 7.3 .420 2.6 .752 5. .522 7.4 .417 2.7 .738 5.1 .516 7.5 .414 2.8 .725 5.2 .510 7.6 .411 2.9 .712 5.3 .504 7.7 .408 3. .700 5.4 .499 7.8 .405 3.1 .688 5.5 .494 7.9 .402 8.2 .676 5.6 .489 8. .399 3.3 .665 5.7 .484 52 HAND-BOOK OF LAND AND MARINE ENGINES.","Zaroor, yahan improved grammar aur organized steam pressure table ke saath ek version hai.
+
+---
+
+[...] iske corresponding number ko lein, uske opposite diye gaye multiplier ko lein, aur steam ke full pressure per square inch ko, jaise hi woh cylinder mein enter karti hai, usse multiply karein. 
+
+CUT-OFF KE VARIOUS POINTS PAR STEAM KA MEAN PRESSURE FIND KARNE KE LIYE MULTIPLIERS KI TABLE:
+| Expansion | Multiplier | Expansion | Multiplier | Expansion | Multiplier |
+|-----------|------------|-----------|------------|-----------|------------|
+| 1.0       | 1.000      | 3.4       | .654       | 5.8       | .479       |
+| 1.1       | .995       | 3.5       | .664       | 5.9       | .474       |
+| 1.2       | .985       | 3.6       | .634       | 6.        | .470       |
+| 1.3       | .971       | 3.7       | .624       | 6.1       | .466       |
+| 1.4       | .955       | 3.8       | .615       | 6.2       | .462       |
+| 1.5       | .937       | 3.9       | .605       | 6.3       | .458       |
+| 1.6       | .919       | 4.        | .597       | 6.4       | .454       |
+| 1.7       | .900       | 4.1       | .588       | 6.5       | .450       |
+| 1.8       | .882       | 4.2       | .580       | 6.6       | .446       |
+| 1.9       | .864       | 4.3       | .572       | 6.7       | .442       |
+| 2.        | .847       | 4.4       | .564       | 6.8       | .438       |
+| 2.1       | .830       | 4.5       | .556       | 6.9       | .434       |
+| 2.2       | .813       | 4.6       | .549       | 7.        | .430       |
+| 2.3       | .797       | 4.7       | .542       | 7.1       | .427       |
+| 2.4       | .781       | 4.8       | .535       | 7.2       | .423       |
+| 2.5       | .766       | 4.9       | .528       | 7.3       | .420       |
+| 2.6       | .752       | 5.        | .522       | 7.4       | .417       |
+| 2.7       | .738       | 5.1       | .516       | 7.5       | .414       |
+| 2.8       | .725       | 5.2       | .510       | 7.6       | .411       |
+| 2.9       | .712       | 5.3       | .504       | 7.7       | .408       |
+| 3.        | .700       | 5.4       | .499       | 7.8       | .405       |
+| 3.1       | .688       | 5.5       | .494       | 7.9       | .402       |
+| 3.2       | .676       | 5.6       | .489       | 8.        | .399       |
+| 3.3       | .665       | 5.7       | .484       |           |            |
+
+[Page] 52
+
+HAND-BOOK OF LAND AND MARINE ENGINES.",2,396 words,2,No native script chars,0,Overlap=0.79 — barely romanized,2,Minor: case inconsistency: 'steam' vs 'STEAM',3,BGE=0.855,,,,,,
+19,gpt,hindi,4ef6e1c4-6b8f-4e78-9139-1f78c2805f44,"There is a sound synthesis technique called Frequency Modulation wherein an oscillator (such as a sine wave), has it's frequency modulated by another oscillator to produce a more complex sound. Eg, when the second oscillator is high, the frequency of the first oscillator becomes faster. However, in practice hardly any real musical synthesizers perform real FM synthesis. Instead they use a technique popularized by the Yamaha DX7, and do what's called Phase Modulation instead. Please explain how Phase Modulation works, and why it's used over real Frequency Modulation in most FM synthesizers.","Phase modulation (PM) is a technique similar to frequency modulation (FM) that is used in digital synthesizers. In PM, instead of modulating the frequency of an oscillator, the phase of an oscillator is modulated by another oscillator. When the modulating oscillator is at a high point, it causes the phase of the carrier oscillator to shift forward, resulting in a higher pitch. Conversely, when the modulating oscillator is at a low point, it causes the phase of the carrier oscillator to shift backward, resulting in a lower pitch.
+
+One reason why PM is used instead of real FM in most digital synthesizers is that PM is computationally more efficient. FM synthesis requires complex algorithms that involve exponential functions and can be computationally expensive. In contrast, PM can be implemented with simple multiplication and addition operations, making it much faster and easier to implement in hardware and software.
+
+Another reason why PM is preferred over FM is that it allows for more control over the harmonics and timbre of the synthesized sound. In FM, the number and amplitude of the harmonics that are generated can be difficult to predict and control. In PM, however, the phase of the carrier oscillator can be shifted by precise amounts, allowing for greater control over the harmonics and the resulting timbre of the sound.
+
+In addition, PM is more forgiving in terms of tuning and stability. In FM, the oscillators must be precisely tuned and stable to produce a clean and stable sound. In PM, small tuning errors or instability in the oscillators can produce interesting and desirable harmonics and modulation effects.
+
+Finally, the popularity of the Yamaha DX7 and its use of PM played a significant role in the widespread adoption of PM over FM in digital synthesizers. The DX7 was a groundbreaking instrument that popularized digital synthesis in the 1980s, and its use of PM paved the way for other digital synthesizers that used similar techniques. As a result, PM became the de facto standard for digital synthesis and is still widely used today.","Frequency Modulation naam ki ek sound synthesis technique hoti hai, jismein ek oscillator (jaise sine wave) ki frequency ko dusre oscillator se modulate kiya jata hai, taaki zyada complex sound ban sake. Jaise, jab dusra oscillator high hota hai, to pehle oscillator ki frequency tez ho jati hai. Lekin practice mein, bahut kam real musical synthesizers asli FM synthesis karte hain. Iske bajay ve Yamaha DX7 se popular hui technique use karte hain, aur Phase Modulation naam ki cheez karte hain. Kripya samjhaiye ki Phase Modulation kaise kaam karta hai, aur zyadatar FM synthesizers mein ise asli Frequency Modulation ke bajay kyun use kiya jata hai.","Phase modulation (PM) frequency modulation (FM) jaisi ek technique hai, jo digital synthesizers mein use hoti hai. PM mein, oscillator ki frequency ko modulate karne ke bajay, ek oscillator ki phase ko dusre oscillator se modulate kiya jata hai. Jab modulating oscillator high point par hota hai, to ye carrier oscillator ki phase ko aage shift kar deta hai, jisse pitch higher lagti hai. Ulta, jab modulating oscillator low point par hota hai, to ye carrier oscillator ki phase ko peeche shift kar deta hai, jisse pitch lower lagti hai.
+
+Zyadatar digital synthesizers mein real FM ke bajay PM use karne ki ek wajah ye hai ki PM computationally zyada efficient hota hai. FM synthesis ke liye complex algorithms chahiye hote hain, jinmein exponential functions shamil hote hain, aur ye computationally expensive ho sakte hain. Iske contrast mein, PM ko simple multiplication aur addition operations se implement kiya ja sakta hai, isliye hardware aur software mein ise banana bahut faster aur easier hota hai.
+
+FM ke mukable PM ko prefer karne ki ek aur wajah ye hai ki ye synthesized sound ke harmonics aur timbre par zyada control deta hai. FM mein, jo harmonics generate hote hain unki number aur amplitude ko predict aur control karna mushkil ho sakta hai. Lekin PM mein, carrier oscillator ki phase ko precise amounts se shift kiya ja sakta hai, jisse harmonics aur resulting timbre par zyada control milta hai.
+
+Iske alawa, tuning aur stability ke mamle mein PM zyada forgiving hota hai. FM mein, clean aur stable sound produce karne ke liye oscillators ko bahut precisely tuned aur stable hona padta hai. PM mein, oscillators mein chhoti tuning errors ya instability bhi interesting aur desirable harmonics aur modulation effects produce kar sakti hai.
+
+Finally, Yamaha DX7 ki popularity aur uske PM ke use ne digital synthesizers mein FM ke bajay PM ko widely adopt karne mein significant role play kiya. DX7 ek groundbreaking instrument tha jisne 1980s mein digital synthesis ko popular kiya, aur uske PM ke use ne un dusre digital synthesizers ke liye raasta banaya jo similar techniques use karte the. Natije mein, PM digital synthesis ke liye de facto standard ban gaya aur aaj bhi widely use hota hai.",2,369 words,2,No native script chars,3,Overlap=0.27 — well romanized,2,Minor: case inconsistency: 'Phase' vs 'phase',3,BGE=0.899,,,,,,
+20,gpt,hindi,713711f3-e616-430e-981d-e8b75574d35f,"I want to develop a small time-tracking app for personal use, to improve my programming skills in general. I know some JavaScript and some Python, but I am not particularly good at either. Which language would be more useful to get better at? And should I start using a framework or code everything myself from scratch?","Both languages can serve as a great foundational programming language to learn. JavaScript could come in handy if you are interested in developing web applications or a web-based frontend for your application. Python could be a better choice if you want to build an application without a web frontend. Learning Python could also enable you to explore machine learning and data processing libraries if that piques your interest. Either language could serve you equally well in this case.
+
+Frameworks are great for speeding up development work, but I recommend getting a solid understanding of a programming language before attempting to learn frameworks. Knowing the basics before branching out can save you from unneeded frustration.","main personal use ke liye ek chhota time-tracking app develop karna chahta hoon, taaki apni programming skills overall improve kar sakoon. mujhe thodi JavaScript aur thodi Python aati hai, lekin main dono mein se kisi mein bhi khaas achha nahi hoon. kis language mein better hona zyada useful hoga? aur kya mujhe framework use karna shuru karna chahiye ya sab kuch khud scratch se code karna chahiye?","dono languages seekhne ke liye ek great foundational programming language ki tarah kaam kar sakti hain. agar aap web applications ya apni application ke liye web-based frontend develop karne mein interested hain, to JavaScript kaafi kaam aa sakti hai. agar aap web frontend ke bina application banana chahte hain, to Python better choice ho sakti hai. Python seekhne se aap machine learning aur data processing libraries bhi explore kar sakte hain, agar ismein aapki interest ho. is case mein dono languages aapke liye lagbhag equally useful ho sakti hain.
+
+frameworks development work ko speed up karne ke liye great hote hain, lekin main recommend karunga ki frameworks seekhne ki koshish karne se pehle aap ek programming language ki solid understanding bana lein. basics jaan lena, phir aage branch out karna, aapko unnecessary frustration se bacha sakta hai.",2,137 words,2,No native script chars,3,Overlap=0.22 — well romanized,3,No consistency issues detected,2,BGE=0.792,,,,,,

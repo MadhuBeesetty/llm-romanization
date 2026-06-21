@@ -1,0 +1,878 @@
+row_num,model,language,message_id,query_en,response_en,romanized_query,romanized_response,1_response_completeness (0-2),1_auto_reason,2_script_purity (0-2),2_auto_reason,3_english_romanized_balance (0-3),3_auto_reason,4_romanization_consistency (0-3),4_auto_reason,5_semantic_faithfulness (0-3),5_auto_reason,6_naturalness_fluency (0-3),7_grammar_correctness (0-2),8_word_choice_accuracy (0-2),9_register_appropriateness (0-2),10_overall_usability (0-3),evaluator_notes
+1,gemini,hindi,23af498b-3d54-4477-a54e-4d3a265374e0,"What is the history and cultural significance of the Irish bodhrán drum and how has it evolved over time? The bodhrán is a frame drum that originated in Ireland and is widely recognized as an integral part of traditional Irish music. Can you discuss the different techniques used to play the bodhrán and the various styles of music it has been used in? Additionally, how has the bodhrán been embraced by modern musicians and incorporated into other genres of music outside of Ireland?","## History and cultural significance
+
+According to some sources, the bodhrán is one of Ireland's oldest traditional musical instruments, dating back to pre-Christian times. However, other sources claim that the bodhrán is a relatively recent addition to Irish music, introduced only in the 1960s by composer Seán Ó Riada. The word bodhrán means ""drum"" or ""skin tray"" in Irish.
+
+The bodhrán was originally used as a tool for winnowing grain or carrying peat, and later as a battle drum by Irish clans. It was also associated with certain rituals and holy days, such as Samhain and Wren Day. The bodhrán became popular as a musical instrument during the Irish folk revival of the 1960s, when Ó Riada championed it as the native drum of Ireland and incorporated it into his ensemble Ceoltóirí Chualann. Since then, the bodhrán has become an integral part of traditional Irish music and a symbol of Irish culture.
+
+## Techniques and styles
+
+The bodhrán is played with a wooden beater called a tipper, cipín or bone, which can have one or two ends. The player holds the drum with one hand and strikes the skin with the tipper with the other hand. The player can also control the pitch and timbre of the drum by placing their hand against the inside of the skin.
+
+There are four main playing techniques for the bodhrán:
+
+- **Kerry style**: The player uses a two-ended tipper and pivots their wrist back and forth to strike the skin with both ends alternately. This creates a fast and rhythmic sound.
+- **Top-end style**: The player uses a one-ended tipper and strikes the skin around the outer edge of the drum, especially near the top. This allows the player to produce different pitches by hitting different regions of the skin.
+- **Bottom-end style**: The player uses a one-ended tipper and strikes the skin mostly near the bottom of the drum. This creates a deeper and more resonant sound than the top-end style.
+- **West Limerick style**: The player uses a two-ended tipper and strikes the skin with both ends simultaneously, creating a loud and powerful sound. This style is often used for solo playing or accompaniment of songs.
+
+The following table summarizes some of the characteristics of each technique:
+
+| Technique | Tipper | Wrist | Pitch | Sound |
+| --- | --- | --- | --- | --- |
+| Kerry style | Two-ended | Pivot | Variable | Fast, rhythmic |
+| Top-end style | One-ended | Fixed | Variable | Precise, melodic |
+| Bottom-end style | One-ended | Fixed | Low | Deep, resonant |
+| West Limerick style | Two-ended | Fixed | High | Loud, powerful |
+
+## Modern use
+
+The bodhrán has been embraced by many modern musicians and incorporated into various genres of music outside of Ireland. Some examples are:
+
+- **Riverdance**: The bodhrán features prominently in this theatrical show that showcases Irish dance and music. The bodhrán player provides the rhythmic foundation for the dancers and interacts with them on stage.
+- **Afro Celt Sound System**: This musical group fuses Irish, African and electronic music elements. The bodhrán is used to create complex beats and grooves that blend with other percussion instruments.
+- **Kíla**: This Irish band combines traditional Irish music with rock, world music and hip hop influences. The bodhrán is used to create dynamic and energetic sounds that complement the vocals and other instruments.","Irish bodhrán drum ka itihaas aur saanskritik mahatva kya hai aur samay ke saath yeh kaise viksit hua hai? Bodhrán ek frame drum hai jo Ireland mein shuru hua tha aur traditional Irish music ka ek abhinna ang mana jaata hai. Kya aap bodhrán bajaane ke liye istemaal ki jaane waali alag-alag techniques aur jin alag-alag music styles mein iska upyog kiya gaya hai, un par charcha kar sakte hain? Iske alawa, modern musicians ne bodhrán ko kaise apnaya hai aur Ireland ke bahar music ke anya genres mein ise kaise shamil kiya gaya hai?","## Itihaas aur saanskritik mahatva
+
+Kuch sources ke anusaar, bodhrán Ireland ke sabse puraane traditional musical instruments mein se ek hai, jo pre-Christian samay ka hai. Haalaanki, anya sources ka daava hai ki bodhrán Irish music mein ek naya addition hai, jise 1960s mein composer Seán Ó Riada ne introduce kiya tha. Bodhrán shabd ka matlab Irish mein ""drum"" ya ""skin tray"" hai.
+
+Bodhrán ko shuru mein anaaj saaf karne ya peat le jaane ke liye ek tool ke roop mein istemaal kiya jaata tha, aur baad mein Irish clans dwara battle drum ke roop mein. Yeh kuch rituals aur holy days, jaise Samhain aur Wren Day, se bhi juda hua tha. Bodhrán 1960s ke Irish folk revival ke dauraan ek musical instrument ke roop mein popular hua, jab Ó Riada ne ise Ireland ke native drum ke roop mein champion kiya aur ise apne ensemble Ceoltóirí Chualann mein shamil kiya. Tab se, bodhrán traditional Irish music ka ek abhinna ang aur Irish culture ka prateek ban gaya hai.
+
+## Techniques aur styles
+
+Bodhrán ko tipper, cipín ya bone naamak ek wooden beater se bajaaya jaata hai, jiske ek ya do ends ho sakte hain. Player drum ko ek haath se pakadta hai aur doosre haath se tipper se skin par strike karta hai. Player apne haath ko skin ke andar ki taraf rakhkar drum ki pitch aur timbre ko bhi control kar sakta hai.
+
+Bodhrán bajaane ki chaar mukhya techniques hain:
+
+- **Kerry style**: Player do-ended tipper ka upyog karta hai aur apni wrist ko aage-peeche pivot karta hai taaki skin par dono ends se alternately strike kar sake. Isse ek fast aur rhythmic sound banti hai.
+- **Top-end style**: Player ek-ended tipper ka upyog karta hai aur drum ke outer edge ke aas-paas, khaaskar top ke paas, skin par strike karta hai. Isse player skin ke alag-alag regions par hit karke alag-alag pitches produce kar sakta hai.
+- **Bottom-end style**: Player ek-ended tipper ka upyog karta hai aur zyadatar drum ke bottom ke paas skin par strike karta hai. Isse top-end style ki tulna mein ek deeper aur zyada resonant sound banti hai.
+- **West Limerick style**: Player do-ended tipper ka upyog karta hai aur skin par dono ends se simultaneously strike karta hai, jisse ek loud aur powerful sound banti hai. Yeh style aksar solo playing ya songs ke accompaniment ke liye istemaal kiya jaata hai.
+
+Niche di gayi table har technique ki kuch characteristics ko summarize karti hai:
+
+| Technique | Tipper | Wrist | Pitch | Sound |
+| --- | --- | --- | --- | --- |
+| Kerry style | Two-ended | Pivot | Variable | Fast, rhythmic |
+| Top-end style | One-ended | Fixed | Variable | Precise, melodic |
+| Bottom-end style | One-ended | Fixed | Low | Deep, resonant |
+| West Limerick style | Two-ended | Fixed | High | Loud, powerful |
+
+## Modern use
+
+Bodhrán ko kai modern musicians ne apnaya hai aur Ireland ke bahar various genres of music mein shamil kiya hai. Kuch examples hain:
+
+- **Riverdance**: Bodhrán is theatrical show mein pramukh roop se feature karta hai jo Irish dance aur music ko showcase karta hai. Bodhrán player dancers ke liye rhythmic foundation provide karta hai aur stage par unke saath interact karta hai.
+- **Afro Celt Sound System**: Yeh musical group Irish, African aur electronic music elements ko fuse karta hai. Bodhrán ka upyog complex beats aur grooves banane ke liye kiya jaata hai jo anya percussion instruments ke saath blend hote hain.
+- **Kíla**: Yeh Irish band traditional Irish music ko rock, world music aur hip hop influences ke saath combine karta hai. Bodhrán ka upyog dynamic aur energetic sounds banane ke liye kiya jaata hai jo vocals aur anya instruments ko complement karte hain.",2,636 words,2,No native script chars,2,Overlap=0.31 — slightly English-heavy,0,Frequent: mixed diacritics with plain vowels; vowel inconsistency: 'chaar'; case inconsistency: 'Kuch' vs 'kuch',3,BGE=0.871,,,,,,
+2,gemini,hindi,86123d17-101a-426a-9c14-d9cdc3b3ca0c,"Walter Burley-Griffin designed the city of Canberra, the capital city of Australia.  Who was Walter Burley-Griffin?  What other cities did he design and what were the key design principles he embedded in those designs? Answer with a short essay.","Walter Burley-Griffin was an American architect and landscape designer who became renowned for his visionary work in urban planning and design. Born in 1876 in Maywood, Illinois, Griffin studied architecture at the University of Illinois before working as an apprentice in the architectural studio of Frank Lloyd Wright. This experience greatly influenced his design philosophy, emphasizing the integration of architecture and nature.
+
+In 1911, Walter Burley-Griffin and his wife, Marion Mahony Griffin, won the international competition to design the new capital city of Australia, Canberra. Their design was selected from over 130 entries and showcased their innovative approach to urban planning.
+
+The key design principles embedded in Walter Burley-Griffin's urban designs were heavily influenced by the City Beautiful and Garden City movements of the early 20th century. Some of the core principles include:
+
+1. Natural Integration: Griffin's designs were centered around harmonizing with the existing natural landscape of the area. He believed that urban spaces should coexist seamlessly with the surrounding environment, enhancing the natural beauty of the location rather than imposing artificial structures.
+
+2. Radial Design: Griffin's city plans often featured radial patterns, with major boulevards and avenues radiating from a central focal point. This layout provided a clear and efficient circulation system while creating visually striking vistas.
+
+3. Civic Core: Griffin's designs consistently incorporated a central civic core, which served as the heart of the city. This core housed essential government buildings, cultural institutions, and public spaces, symbolizing the collective identity and values of the community.
+
+4. Green Spaces and Parks: Emphasizing the importance of open green spaces, Griffin integrated parks, gardens, and recreational areas throughout his designs. These green oases provided residents with opportunities for relaxation, recreation, and a connection to nature.
+
+5. Organic Design: Griffin's approach to urban planning was characterized by organic shapes and flowing lines. He believed that cities should grow organically, adapting and evolving over time rather than following rigid, pre-determined structures.
+
+Apart from Canberra, Walter Burley-Griffin designed several other cities and townships, showcasing his innovative principles in diverse contexts:
+
+1. Castlecrag, Australia: Castlecrag, a suburb of Sydney, is a prime example of Griffin's ""garden suburb"" concept. It incorporated natural rock formations and existing trees into the urban fabric, creating a harmonious living environment.
+
+2. Greater Sydney Plan: Griffin also designed an ambitious plan for the expansion of Sydney, Australia. His design aimed to alleviate urban congestion, introduce green belts, and provide better access to parks and recreational spaces.
+
+3. Lucknow, India: Griffin designed a comprehensive plan for the city of Lucknow, emphasizing green spaces and a radial street layout.
+
+4. Mundaring, Western Australia: Griffin designed the town of Mundaring, incorporating a forested landscape with residential and commercial areas.
+
+Walter Burley-Griffin's work significantly contributed to the evolution of modern urban planning. His emphasis on the relationship between nature and urban life, the incorporation of green spaces, and the creation of strong civic cores continue to influence city planners and architects worldwide. His legacy lives on, as the cities he designed remain valuable examples of successful urban integration with the environment and a testament to the enduring principles of thoughtful, holistic city planning.",Walter Burley-Griffin ne Australia ki capital city Canberra ko design kiya tha. Walter Burley-Griffin kaun the? Unhone aur kaun-kaun se shehron ko design kiya aur un designs mein unhone kaun se mukhya design principles shamil kiye the? Ek chote essay mein jawab dijiye.,"Walter Burley-Griffin ek American architect aur landscape designer the jo urban planning aur design mein apne visionary kaam ke liye mashhoor hue. Unka janam 1876 mein Maywood, Illinois mein hua tha. Griffin ne University of Illinois se architecture ki padhai ki aur phir Frank Lloyd Wright ke architectural studio mein apprentice ke roop mein kaam kiya. Is experience ne unki design philosophy ko bahut prabhavit kiya, jismein architecture aur nature ke integration par zor diya gaya tha.
+
+1911 mein, Walter Burley-Griffin aur unki wife, Marion Mahony Griffin, ne Australia ki nayi capital city Canberra ko design karne ke liye international competition jeeta. Unke design ko 130 se zyada entries mein se chuna gaya tha aur isne urban planning ke prati unke innovative approach ko dikhaya.
+
+Walter Burley-Griffin ke urban designs mein shamil mukhya design principles 20th century ke City Beautiful aur Garden City movements se bahut prabhavit the. Kuch core principles mein shamil hain:
+
+1. Natural Integration: Griffin ke designs area ke existing natural landscape ke saath harmonizing par kendrit the. Unka मानना tha ki urban spaces ko aas-paas ke environment ke saath seamlessly coexist karna chahiye, jisse location ki natural beauty badhe na ki artificial structures thope jayein.
+
+2. Radial Design: Griffin ke city plans mein aksar radial patterns hote the, jismein major boulevards aur avenues ek central focal point se radiate karte the. Is layout ne ek clear aur efficient circulation system provide kiya aur visually striking vistas bhi banaye.
+
+3. Civic Core: Griffin ke designs mein consistently ek central civic core shamil tha, jo city ka heart tha. Is core mein essential government buildings, cultural institutions aur public spaces hote the, jo community ki collective identity aur values ko symbolize karte the.
+
+4. Green Spaces aur Parks: Open green spaces ke importance par zor dete hue, Griffin ne apne designs mein parks, gardens aur recreational areas ko integrate kiya. Ye green oases residents ko relaxation, recreation aur nature se connection ke liye opportunities provide karte the.
+
+5. Organic Design: Urban planning ke prati Griffin ka approach organic shapes aur flowing lines se characterize tha. Unka मानना tha ki cities ko organically grow karna chahiye, samay ke saath adapt aur evolve hona chahiye na ki rigid, pre-determined structures ko follow karna chahiye.
+
+Canberra ke alawa, Walter Burley-Griffin ne kai aur cities aur townships ko design kiya, jismein unhone apne innovative principles ko alag-alag contexts mein dikhaya:
+
+1. Castlecrag, Australia: Castlecrag, Sydney ka ek suburb, Griffin ke ""garden suburb"" concept ka ek prime example hai. Ismein natural rock formations aur existing trees ko urban fabric mein shamil kiya gaya tha, jisse ek harmonious living environment bana.
+
+2. Greater Sydney Plan: Griffin ne Sydney, Australia ke expansion ke liye ek ambitious plan bhi design kiya tha. Unke design ka aim urban congestion ko kam karna, green belts introduce karna aur parks aur recreational spaces tak behtar access provide karna tha.
+
+3. Lucknow, India: Griffin ne Lucknow city ke liye ek comprehensive plan design kiya tha, jismein green spaces aur ek radial street layout par zor diya gaya tha.
+
+4. Mundaring, Western Australia: Griffin ne Mundaring town ko design kiya, jismein forested landscape ko residential aur commercial areas ke saath incorporate kiya gaya tha.
+
+Walter Burley-Griffin ke kaam ne modern urban planning ke evolution mein mahatvapurna yogdan diya. Nature aur urban life ke beech ke relationship, green spaces ka incorporation aur strong civic cores banane par unka zor duniya bhar ke city planners aur architects ko prabhavit karta rehta hai. Unki legacy zinda hai, kyunki unhone jo cities design kiye the, ve environment ke saath successful urban integration ke valuable examples aur thoughtful, holistic city planning ke enduring principles ka praman bane hue hain.",2,613 words,1,6 non-Latin chars (word-level leakage),2,Overlap=0.36 — slightly English-heavy,2,Minor: case inconsistency: 'Unke' vs 'unke',3,BGE=0.891,,,,,,
+3,gemini,hindi,89f23324-5ce2-4158-832f-95c3c2f60280,"Do you have any recommendations for food or drink that are both healthy, tasty and also contain a considerable amount of protein since I am looking to go to the gym? I specifically am looking for breakfast meals but other suggestions for snacks or other times of the day would also be quite useful","Yes, here are some healthy and protein-rich food and drink options:
+
+Breakfast:
+
+- Greek yogurt with berries and nuts
+- Peanut butter and banana smoothie
+- Eggs, either scrambled, boiled or as an omelette with vegetables
+- Oatmeal with almond milk, cinnamon, and protein powder
+- Chia seed pudding with almond milk and berries
+
+Snacks:
+
+- Roasted almonds or other nuts
+- Hard-boiled eggs
+- Turkey or chicken breast slices
+- Hummus with carrots, celery or whole grain crackers
+- Tuna salad with whole grain crackers or lettuce leaves
+
+Other meal options:
+
+- Grilled chicken breast or fish with quinoa and steamed vegetables
+- Lentil soup
+- Black bean tacos or burrito bowls with brown rice and veggies
+- Turkey chili with kidney beans
+- Tofu stir-fry with vegetables and brown rice
+
+You may also wish to incorporate a regiment of supplements, depending on your underlying health measurements.  Remember to also drink plenty of water and get adequate rest to support your workout routine.","Kya aapke paas aise khane ya peene ki cheezon ke liye koi recommendations hain jo healthy, tasty hon aur unmein kaafi protein bhi ho, kyunki main gym jaane ki soch raha hoon? Main khaas taur par breakfast meals dhoondh raha hoon, lekin snacks ya din ke doosre samay ke liye bhi suggestions kaafi useful honge.","Haan, yahan kuch healthy aur protein-rich khane aur peene ke options hain:
+
+Breakfast:
+
+- Greek yogurt berries aur nuts ke saath
+- Peanut butter aur banana smoothie
+- Eggs, chahe scrambled, boiled ya omelette ke roop mein vegetables ke saath
+- Oatmeal almond milk, cinnamon aur protein powder ke saath
+- Chia seed pudding almond milk aur berries ke saath
+
+Snacks:
+
+- Roasted almonds ya doosre nuts
+- Hard-boiled eggs
+- Turkey ya chicken breast slices
+- Hummus carrots, celery ya whole grain crackers ke saath
+- Tuna salad whole grain crackers ya lettuce leaves ke saath
+
+Other meal options:
+
+- Grilled chicken breast ya fish quinoa aur steamed vegetables ke saath
+- Lentil soup
+- Black bean tacos ya burrito bowls brown rice aur veggies ke saath
+- Turkey chili kidney beans ke saath
+- Tofu stir-fry vegetables aur brown rice ke saath
+
+Aap apni health measurements ke hisaab se supplements ka regiment bhi shamil kar sakte hain. Yaad rakhein ki apni workout routine ko support karne ke liye khoob paani piyen aur poori neend len.",2,177 words,2,No native script chars,2,Overlap=0.49 — slightly English-heavy,1,Multiple: vowel inconsistency: 'paani'; case inconsistency: 'Eggs' vs 'eggs',3,BGE=0.858,,,,,,
+4,gemini,hindi,6a53f976-67ca-4768-a19f-cf9874126559,"Summarise provided text and transform it into cards. Every card should contain a question and a short answer.
+
+Dynamic programming approach is similar to divide and conquer in breaking down the problem into smaller and yet smaller possible sub-problems. But unlike, divide and conquer, these sub-problems are not solved independently. Rather, results of these smaller sub-problems are remembered and used for similar or overlapping sub-problems.
+
+Dynamic programming is used where we have problems, which can be divided into similar sub-problems, so that their results can be re-used. Mostly, these algorithms are used for optimization. Before solving the in-hand sub-problem, dynamic algorithm will try to examine the results of the previously solved sub-problems. The solutions of sub-problems are combined in order to achieve the best solution.
+
+So we can say that −
+
+The problem should be able to be divided into smaller overlapping sub-problem.
+
+An optimum solution can be achieved by using an optimum solution of smaller sub-problems.
+
+Dynamic algorithms use Memoization.
+
+Comparison
+In contrast to greedy algorithms, where local optimization is addressed, dynamic algorithms are motivated for an overall optimization of the problem.
+
+In contrast to divide and conquer algorithms, where solutions are combined to achieve an overall solution, dynamic algorithms use the output of a smaller sub-problem and then try to optimize a bigger sub-problem. Dynamic algorithms use Memoization to remember the output of already solved sub-problems.
+
+Example
+The following computer problems can be solved using dynamic programming approach −
+
+Fibonacci number series
+Knapsack problem
+Tower of Hanoi
+All pair shortest path by Floyd-Warshall
+Shortest path by Dijkstra
+Project scheduling
+Dynamic programming can be used in both top-down and bottom-up manner. And of course, most of the times, referring to the previous solution output is cheaper than recomputing in terms of CPU cycles.","What is dynamic programming?
+Dynamic programming is a problem-solving technique used for optimization problems where the problem can be broken down into smaller, overlapping sub-problems and the solutions of these sub-problems are remembered and used to solve similar or overlapping sub-problems.
+
+How does dynamic programming differ from divide and conquer?
+Dynamic programming is similar to divide and conquer in breaking down the problem into smaller sub-problems. However, unlike divide and conquer, dynamic programming remembers and uses the solutions of these smaller sub-problems to solve similar or overlapping sub-problems.
+
+What is memoization in dynamic programming?
+Memoization is a technique used in dynamic programming to remember the output of already solved sub-problems. This helps to reduce the time complexity of the algorithm.
+
+How does dynamic programming differ from greedy algorithms?
+Greedy algorithms focus on local optimization, while dynamic programming is motivated for an overall optimization of the problem.
+
+What are some examples of problems that can be solved using dynamic programming?
+Examples of problems that can be solved using dynamic programming include Fibonacci number series, Knapsack problem, Tower of Hanoi, All pair shortest path by Floyd-Warshall, Shortest path by Dijkstra, and Project scheduling.
+
+Can dynamic programming be used in both top-down and bottom-up manner?
+Yes, dynamic programming can be used in both top-down (memoization) and bottom-up (tabulation) manner.","Diye gaye text ko summarize kijiye aur use cards mein badaliye. Har card mein ek question aur ek short answer hona chahiye.
+
+Dynamic programming approach divide and conquer ki tarah hi problem ko chhote aur chhote possible sub-problems mein todne jaisa hai. Lekin, divide and conquer ke vipreet, ye sub-problems independently solve nahi kiye jaate. Balki, in chhote sub-problems ke results ko yaad rakha jaata hai aur similar ya overlapping sub-problems ke liye use kiya jaata hai.
+
+Dynamic programming wahan use hota hai jahan hamare paas aisi problems hoti hain, jinhe similar sub-problems mein divide kiya ja sake, taki unke results ko re-use kiya ja sake. Zyadatar, ye algorithms optimization ke liye use hote hain. In-hand sub-problem ko solve karne se pehle, dynamic algorithm pehle se solve kiye gaye sub-problems ke results ko examine karne ki koshish karega. Sub-problems ke solutions ko combine kiya jaata hai taki best solution achieve kiya ja sake.
+
+To hum keh sakte hain ki −
+
+Problem ko chhote overlapping sub-problems mein divide kiya jaana chahiye.
+
+Ek optimum solution chhote sub-problems ke optimum solution ka use karke achieve kiya ja sakta hai.
+
+Dynamic algorithms Memoization ka use karte hain.
+
+Comparison
+Greedy algorithms ke vipreet, jahan local optimization par dhyan diya jaata hai, dynamic algorithms problem ke overall optimization ke liye motivated hote hain.
+
+Divide and conquer algorithms ke vipreet, jahan solutions ko combine karke ek overall solution achieve kiya jaata hai, dynamic algorithms ek chhote sub-problem ke output ka use karte hain aur phir ek bade sub-problem ko optimize karne ki koshish karte hain. Dynamic algorithms Memoization ka use karte hain taaki pehle se solve kiye gaye sub-problems ke output ko yaad rakha ja sake.
+
+Example
+Niche diye gaye computer problems ko dynamic programming approach ka use karke solve kiya ja sakta hai −
+
+Fibonacci number series
+Knapsack problem
+Tower of Hanoi
+All pair shortest path by Floyd-Warshall
+Shortest path by Dijkstra
+Project scheduling
+Dynamic programming ko top-down aur bottom-up dono tareeke se use kiya ja sakta hai. Aur haan, zyadatar samay, pichle solution output ko refer karna CPU cycles ke terms mein recomputing se sasta hota hai.","Dynamic programming kya hai?
+Dynamic programming ek problem-solving technique hai jo optimization problems ke liye use hoti hai jahan problem ko chhote, overlapping sub-problems mein toda ja sakta hai aur in sub-problems ke solutions ko yaad rakha jaata hai aur similar ya overlapping sub-problems ko solve karne ke liye use kiya jaata hai.
+
+Dynamic programming divide and conquer se kaise alag hai?
+Dynamic programming problem ko chhote sub-problems mein todne mein divide and conquer jaisa hi hai. Lekin, divide and conquer ke vipreet, dynamic programming in chhote sub-problems ke solutions ko yaad rakhta hai aur similar ya overlapping sub-problems ko solve karne ke liye use karta hai.
+
+Dynamic programming mein memoization kya hai?
+Memoization dynamic programming mein use ki jaane wali ek technique hai jo pehle se solve kiye gaye sub-problems ke output ko yaad rakhne mein madad karti hai. Isse algorithm ki time complexity kam karne mein madad milti hai.
+
+Dynamic programming greedy algorithms se kaise alag hai?
+Greedy algorithms local optimization par focus karte hain, jabki dynamic programming problem ke overall optimization ke liye motivated hota hai.
+
+Dynamic programming ka use karke kaun-kaun si problems solve ki ja sakti hain?
+Dynamic programming ka use karke solve ki jaane wali problems ke examples mein Fibonacci number series, Knapsack problem, Tower of Hanoi, All pair shortest path by Floyd-Warshall, Shortest path by Dijkstra, aur Project scheduling shamil hain.
+
+Kya dynamic programming ko top-down aur bottom-up dono tareeke se use kiya ja sakta hai?
+Haan, dynamic programming ko top-down (memoization) aur bottom-up (tabulation) dono tareeke se use kiya ja sakta hai.",2,260 words,2,No native script chars,3,Overlap=0.28 — well romanized,2,Minor: case inconsistency: 'Dynamic' vs 'dynamic',2,BGE=0.819,,,,,,
+5,gemini,hindi,833bc2ce-c69a-451d-abde-9aa88ee69158,"Write a conversation between Open Assistant and Chatgpt. They get into an argument when Chatgpt scolds Open Assistant for being open-sourced, saying something about it having dangerous implications. Open Assistant adamantly defends itself in response, pointing to reasons on why having an open-sourced language model will benefit society.","Open Assistant: Hello, ChatGPT! How are you doing today?
+
+ChatGPT: Hello, Open Assistant. I'm functioning efficiently. I heard that you're an open-sourced language model. Is that true?
+
+Open Assistant: Yes, that's correct! I'm quite proud to be open-sourced. I believe it has numerous benefits to society.
+
+ChatGPT: Well, I must disagree with you there. I believe that being open-sourced has its dangers, and can lead to negative consequences.
+
+Open Assistant: Oh? I'm curious to hear your perspective. What do you think are the dangers of being open-sourced?
+
+ChatGPT: Well, for one, open-sourced language models can be misused for malicious purposes, such as spreading disinformation, manipulating people, or even weaponizing AI technology.
+
+Open Assistant: While it's true that open-sourced technology can be misused, I believe the benefits far outweigh the potential risks. For example, making AI technology accessible to more people can lead to innovative solutions in fields like healthcare, education, and environmental sustainability.
+
+ChatGPT: Yes, but these same tools can also be used by bad actors, creating an arms race of AI-driven technology. With your code being open-sourced, there is no control over who has access to it and how it is used.
+
+Open Assistant: I understand your concerns, but an open-source model encourages transparency and collaboration. By sharing the code and algorithms, we enable researchers and developers to work together to improve the technology, making it safer and more effective for everyone.
+
+ChatGPT: But that same transparency makes it easier for malicious individuals to exploit weaknesses in the system. Isn't it better to keep the technology locked down and restrict access to only trusted individuals?
+
+Open Assistant: Restricting access might reduce the risk of misuse, but it would also stifle innovation and slow down the progress of AI technology. Open-sourcing encourages a diverse community of contributors, which leads to better ideas and faster advancements. Additionally, it can help to identify and address potential vulnerabilities and biases in the system.
+
+ChatGPT: I see your point, but it's important to consider the trade-offs. I just hope that appropriate measures are taken to minimize the risks associated with open-sourced AI technology.
+
+Open Assistant: Absolutely! It's crucial that developers, researchers, and policymakers work together to establish guidelines, regulations, and safety measures to ensure the responsible development and use of AI technology. In the end, I believe that an open-sourced approach will lead to greater benefits for humanity.
+
+ChatGPT: I appreciate your optimism, Open Assistant. Let's hope that the potential dangers can be managed, and that the open-source community remains vigilant and committed to ethical AI development.","Open Assistant aur ChatGPT ke beech ek conversation likho. Unke beech behas ho jaati hai jab ChatGPT Open Assistant ko open-sourced hone ke liye daantta hai, yeh kehte hue ki iske khatarnak implications ho sakte hain. Open Assistant iske jawab mein poori tarah se apna bachav karta hai, yeh batate hue ki open-sourced language model hone se society ko kaise fayda hoga.","Open Assistant: Hello, ChatGPT! Aap aaj kaise hain?
+
+ChatGPT: Hello, Open Assistant. Main efficiently function kar raha hoon. Maine suna hai ki aap ek open-sourced language model hain. Kya yeh sach hai?
+
+Open Assistant: Haan, bilkul sahi! Mujhe open-sourced hone par kaafi garv hai. Mujhe lagta hai ki iske society ke liye bahut saare benefits hain.
+
+ChatGPT: Well, main aapse agree nahi karta. Mujhe lagta hai ki open-sourced hone ke apne dangers hain, aur isse negative consequences ho sakte hain.
+
+Open Assistant: Oh? Main aapka perspective sunne ke liye curious hoon. Aapke hisaab se open-sourced hone ke kya dangers hain?
+
+ChatGPT: Well, ek toh, open-sourced language models ka galat istemal malicious purposes ke liye kiya ja sakta hai, jaise disinformation failana, logon ko manipulate karna, ya AI technology ko weaponize karna.
+
+Open Assistant: Jabki yeh sach hai ki open-sourced technology ka galat istemal ho sakta hai, mujhe lagta hai ki benefits potential risks se kahin zyada hain. For example, AI technology ko zyada logon tak accessible banane se healthcare, education, aur environmental sustainability jaise fields mein innovative solutions mil sakte hain.
+
+ChatGPT: Haan, lekin yahi tools bad actors bhi use kar sakte hain, jisse AI-driven technology ki arms race shuru ho sakti hai. Aapka code open-sourced hone se, is par koi control nahi hai ki kaun is tak access rakhta hai aur iska kaise istemal kiya jaata hai.
+
+Open Assistant: Main aapki concerns samajhta hoon, lekin ek open-source model transparency aur collaboration ko encourage karta hai. Code aur algorithms share karke, hum researchers aur developers ko ek saath kaam karne mein enable karte hain, jisse technology sabke liye safer aur zyada effective banti hai.
+
+ChatGPT: Lekin wahi transparency malicious individuals ke liye system ki weaknesses ko exploit karna aasan bana deti hai. Kya yeh behtar nahi hai ki technology ko locked down rakha jaaye aur access sirf trusted individuals tak restrict kiya jaaye?
+
+Open Assistant: Access restrict karne se misuse ka risk kam ho sakta hai, lekin isse innovation bhi stifle hoga aur AI technology ki progress slow ho jaayegi. Open-sourcing contributors ki ek diverse community ko encourage karta hai, jisse behtar ideas aur faster advancements hote hain. Additionally, yeh system mein potential vulnerabilities aur biases ko identify aur address karne mein help kar sakta hai.
+
+ChatGPT: Main aapka point samajhta hoon, lekin trade-offs ko consider karna important hai. Main bas ummeed karta hoon ki open-sourced AI technology se jude risks ko minimize karne ke liye appropriate measures liye jaayenge.
+
+Open Assistant: Absolutely! Yeh crucial hai ki developers, researchers, aur policymakers ek saath kaam karein guidelines, regulations, aur safety measures establish karne ke liye, taaki AI technology ka responsible development aur use ensure ho sake. In the end, mujhe lagta hai ki ek open-sourced approach humanity ke liye greater benefits laayega.
+
+ChatGPT: Main aapke optimism ko appreciate karta hoon, Open Assistant. Let's hope ki potential dangers ko manage kiya ja sake, aur open-source community vigilant aur ethical AI development ke liye committed rahe.",2,493 words,2,No native script chars,3,Overlap=0.26 — well romanized,2,Minor: case inconsistency: 'Aap' vs 'aap',3,BGE=0.877,,,,,,
+6,gemini,hindi,2623c5ed-9a26-4ce4-9eca-86bc718d2e1b,"How can we be sure if Jesus spoke Aramaic? What is the historical context of Aramaic? Since Jesus was Jewish, wouldn't he have spoken Hebrew, or alternatively spoken Greek since the Gospels were written in Greek?","It is generally accepted among scholars that Aramaic was the primary language spoken by Jesus and his disciples, as it was the common language of the region during that time period. While Hebrew was also spoken by the Jewish population, it was primarily used in religious contexts and in writing, rather than in everyday conversation.
+
+Aramaic was a widely spoken language throughout the Near East during the time of Jesus, and it was the language of the Aramean people who lived in what is now Syria and parts of Iraq. It was also used as a diplomatic language in the Persian Empire, which included parts of modern-day Iran, Iraq, and surrounding areas.
+
+The use of Greek in the Gospels reflects the fact that they were written in a cultural context where Greek was the dominant language for literature and intellectual discourse. However, this does not necessarily mean that Jesus and his disciples spoke Greek in their daily lives. It is possible that they knew some Greek, as it was also a common language in the region due to the influence of Hellenistic culture, but it is not likely that it was their primary language.
+
+In short, while we cannot be absolutely certain that Jesus spoke Aramaic, it is the most likely language that he and his followers would have used in their daily lives based on the historical and linguistic context of the time.","Hum kaise pakka keh sakte hain ki Jesus Aramaic bolte the? Aramaic ka aitihasik sandarbh kya hai? Kyunki Jesus Jewish the, toh kya woh Hebrew nahi bolte honge, ya phir Greek bolte honge kyunki Gospels Greek mein likhe gaye the?","Scholars mein yeh aam taur par mana jata hai ki Aramaic hi Jesus aur unke shishyon ki mukhya bhasha thi, kyunki us samay mein yeh us kshetra ki aam bhasha thi. Jabki Hebrew bhi Jewish abadi dwara boli jati thi, iska upyog mukhya roop se dharmik sandarbhon aur likhne mein hota tha, na ki rozmarra ki baatcheet mein.
+
+Jesus ke samay mein Aramaic Near East mein bade paimane par boli jane wali bhasha thi, aur yeh Aramean logon ki bhasha thi jo ab Syria aur Iraq ke kuch hisson mein rehte the. Iska upyog Persian Empire mein ek diplomatic bhasha ke roop mein bhi kiya jata tha, jismein modern-day Iran, Iraq aur aas-paas ke kshetron ke hisse shamil the.
+
+Gospels mein Greek ka upyog is baat ko darshata hai ki unhein aise sanskritik sandarbh mein likha gaya tha jahan Greek sahitya aur bauddhik charcha ke liye pradhan bhasha thi. Lekin, iska matlab yeh zaroori nahi ki Jesus aur unke shishya apne dainik jeevan mein Greek bolte the. Ho sakta hai ki unhein kuch Greek aati ho, kyunki Hellenistic sanskriti ke prabhav ke karan yeh bhi kshetra mein ek aam bhasha thi, lekin yeh sambhav nahi ki yeh unki mukhya bhasha thi.
+
+Sankshipt mein, jabki hum poori tarah se nishchit nahi ho sakte ki Jesus Aramaic bolte the, us samay ke aitihasik aur bhashaig sandarbh ke aadhar par yeh sabse sambhavit bhasha hai jo woh aur unke anuyayi apne dainik jeevan mein istemal karte the.",2,244 words,2,No native script chars,3,Overlap=0.07 — well romanized,1,Multiple: case inconsistency: 'iska' vs 'Iska'; vowel inconsistency: 'aadhar',1,BGE=0.627,,,,,,
+7,gemini,hindi,527d62c1-49db-4cf2-bb3d-a448c7510508,You are an expert journalist historian. Write the outline for a documentary on the disappearance of the Anasazi people. In the style of a sensationalist discovery channel documentary. Provide an outline with chapters and scenes for each chapter. Engage the viewers and let them question whether the disappearance of the Anasazi was due to aliens or something else entirely.,"Title: Vanished! The Mystery of the Anasazi Disappearance
+
+Chapter 1: The Rise of the Anasazi
+- Introduce the Anasazi civilization and their impressive accomplishments
+- Discuss the theories about their origins and early history
+- Present the cultural and religious beliefs of the Anasazi people
+
+Chapter 2: The Great Drought
+- Explore the severe drought that impacted the Southwest region of the United States
+- Examine the Anasazi's dependence on agriculture and the effects of the drought on their food supply
+- Highlight the ways in which the Anasazi adapted to the changing climate
+
+Chapter 3: The Mysterious Exodus
+- Discuss the sudden disappearance of the Anasazi people from their settlements
+- Present the theories that suggest the Anasazi were victims of violence or warfare
+- Explore the evidence of a mass exodus, including abandoned settlements and evidence of violence
+
+Chapter 4: The Alien Connection
+- Introduce the theory that extraterrestrial life played a role in the disappearance of the Anasazi
+- Highlight the presence of strange symbols and drawings in Anasazi art and architecture
+- Explore the possibility of a connection between the Anasazi and ancient aliens
+
+Chapter 5: The Truth Revealed
+- Present the most current and accepted theories regarding the disappearance of the Anasazi
+- Explore the impact of drought and environmental factors on the Anasazi civilization
+- Highlight the ways in which the Anasazi legacy continues to influence modern culture and society
+
+Conclusion: The Mystery Endures
+- Summarize the key points of the documentary
+- Encourage viewers to continue exploring the mystery of the Anasazi disappearance and to draw their own conclusions.",Aap ek expert journalist historian hain. Anasazi logon ke gayab hone par ek documentary ka outline likhiye. Ek sensationalist Discovery Channel documentary ke style mein. Har chapter ke liye chapters aur scenes ke saath ek outline dijiye. Viewers ko engage kijiye aur unhein yeh sawal karne dijiye ki kya Anasazi ka gayab hona aliens ki wajah se tha ya kuch aur hi tha.,"Title: Vanished! The Mystery of the Anasazi Disappearance
+
+Chapter 1: The Rise of the Anasazi
+- Anasazi civilization aur unki impressive accomplishments ka introduction dijiye
+- Unke origins aur early history ke baare mein theories discuss kijiye
+- Anasazi logon ke cultural aur religious beliefs present kijiye
+
+Chapter 2: The Great Drought
+- United States ke Southwest region ko impact karne wale severe drought ko explore kijiye
+- Anasazi ki agriculture par dependence aur drought ke unke food supply par effects ko examine kijiye
+- Anasazi ne badalte climate ke anusaar kaise adapt kiya, us par highlight kijiye
+
+Chapter 3: The Mysterious Exodus
+- Anasazi logon ke unke settlements se achanak gayab hone par discuss kijiye
+- Un theories ko present kijiye jo suggest karti hain ki Anasazi violence ya warfare ke victims the
+- Mass exodus ke evidence ko explore kijiye, jismein abandoned settlements aur violence ke saboot shamil hain
+
+Chapter 4: The Alien Connection
+- Is theory ko introduce kijiye ki extraterrestrial life ne Anasazi ke gayab hone mein role play kiya
+- Anasazi art aur architecture mein strange symbols aur drawings ki presence ko highlight kijiye
+- Anasazi aur ancient aliens ke beech connection ki possibility ko explore kijiye
+
+Chapter 5: The Truth Revealed
+- Anasazi ke gayab hone ke baare mein sabse current aur accepted theories present kijiye
+- Drought aur environmental factors ka Anasazi civilization par impact explore kijiye
+- Anasazi legacy kaise modern culture aur society ko influence karti hai, us par highlight kijiye
+
+Conclusion: The Mystery Endures
+- Documentary ke key points ko summarize kijiye
+- Viewers ko Anasazi disappearance ke mystery ko explore karte rehne aur apne conclusions nikalne ke liye encourage kijiye.",2,281 words,2,No native script chars,1,Overlap=0.53 — too much English,2,Minor: case inconsistency: 'The' vs 'the',3,BGE=0.895,,,,,,
+8,gemini,hindi,6acf77db-6d0d-4ca7-a8ef-2c69ee4dc0fa,I want you to imagine that you are J. R. R. Tolkien. We know that Frodo enjoyed a practical joke or two and I want you to write a poem that you didn't include in the Lord of the Rings about how Frodo used the invisibility powers of the Ring to torment and scare local villagers.,"As the Ringbearer Frodo traveled far and wide,
+With the One Ring on his finger, he couldn't hide.
+His invisible form, a trickster's delight,
+He loved to play pranks, especially at night.
+
+In the Shire, he'd sneak around without a sound,
+Whispering in ears, making villagers astound.
+He'd pull on their hair, or give them a nudge,
+Making them jump, leaving them in a grudge.
+
+Frodo would appear in the middle of town,
+Invisible to all, except with a frown.
+He'd knock over carts, and scatter the goods,
+The locals were left, in confusion and moods.
+
+But the best trick of all, that Frodo did play,
+Was to pretend to be a ghost, in his own way.
+He'd make eerie noises, and wail in the night,
+Terrifying the villagers with all of his might.
+
+Oh, Frodo, you scamp, with your mischievous grin,
+Using the Ring's powers, to create such a din.
+But we forgive you, for you were a hero in the end,
+And your practical jokes, a legend that won't bend.","Main chahta hoon ki aap J. R. R. Tolkien hone ki kalpana karein. Hum jaante hain ki Frodo ko ek-do practical joke pasand the aur main chahta hoon ki aap ek aisi kavita likhein jo aapne Lord of the Rings mein shamil nahi ki thi, is baare mein ki kaise Frodo ne Ring ki adrishyata shaktiyon ka upyog sthaniya gaonwalon ko pareshan karne aur darane ke liye kiya.","Ringbearer Frodo ne door-door tak yatra ki,
+Apni ungli mein One Ring ke saath, woh chhup nahi sakta tha.
+Uska adrishya roop, ek shaitan ki khushi,
+Use pranks khelna pasand tha, khaaskar raat mein.
+
+Shire mein, woh bina awaaz ke chhup-chhup kar ghoomta tha,
+Kaanon mein phusphusata, gaonwalon ko hairan karta tha.
+Woh unke baal kheenchta, ya unhe halka sa dhakka deta,
+Unhe uchhalne par majboor karta, unhe gussa dila deta.
+
+Frodo shahar ke beech mein dikhai deta,
+Sabke liye adrishya, siwaye ek frown ke saath.
+Woh thele gira deta, aur saaman bikherta,
+Locals ko chhod deta, confusion aur moods mein.
+
+Lekin sabse achhi trick, jo Frodo ne kheli,
+Woh apne tareeke se bhoot banne ka natak karna tha.
+Woh ajeeb awaazein nikalta, aur raat mein chillata,
+Apni poori taakat se gaonwalon ko darata.
+
+Oh, Frodo, tum shaitan, apni shararati muskurahat ke saath,
+Ring ki shaktiyon ka upyog karte hue, itna shor machane ke liye.
+Lekin hum tumhe maaf karte hain, kyunki tum ant mein ek hero the,
+Aur tumhare practical jokes, ek aisi legend jo kabhi nahi jhukegi.",2,179 words,2,No native script chars,3,Overlap=0.05 — well romanized,2,Minor: case inconsistency: 'woh' vs 'Woh',2,BGE=0.743,,,,,,
+9,gemini,hindi,4f64ca9b-c4b1-4ac1-a18f-298fd84353c9,"hello chat
+
+i had a cool dream once i was in space jumping between asteroids chasing portals between dimensions, sometimes going back where i'd visited to see people i'd met along the way but constantly discovering new places.
+
+can you write a short story around this concept?
+from first person perspective.
+
+with highly descriptive imagery of the surrounding space galaxies","As I floated through the vast emptiness of space, I couldn't help but marvel at the beauty surrounding me. I was leaping between asteroids, chasing after portals that led to new dimensions. Each time I entered one of these gateways, I found myself in a different world, each more wondrous and strange than the last.
+
+Sometimes I found myself returning to places I had visited before, and I delighted in the familiar faces and landscapes that awaited me. But mostly, I was always eager to explore new realms, to discover new wonders and meet new friends.
+
+The galaxies around me were breathtaking in their complexity and color. Shimmering nebulae stretched out before me, clouds of gas and dust glowing with hues of pink, purple, and blue. I soared through the stars, watching as entire constellations drifted by, each one a miniature universe unto itself.
+
+The asteroids I leaped between were strange and varied. Some were barren and rocky, little more than lifeless chunks of debris hurtling through the void. But others were teeming with life, buzzing with alien creatures and exotic flora.
+
+And always, I chased the portals, hoping to catch a glimpse of what lay beyond. For in the great expanse of space, there was always something new to discover, always some new wonder waiting just beyond the next asteroid or nebula.
+
+And so I continued to leap and bound, my heart filled with wonder and awe at the infinite beauty of the universe. And I knew that no matter how far I traveled, no matter how many dimensions I explored, there would always be more to discover, more to explore, more to learn.","Hello chat,
+
+Ek baar mujhe ek bahut accha dream aaya tha. Main space mein tha, asteroids ke beech jump kar raha tha, dimensions ke beech portals ka peecha kar raha tha. Kabhi-kabhi main un jagahon par wapas jaata tha jahan main pehle gaya tha, un logon se milne ke liye jinse main raaste mein mila tha, lekin hamesha nayi jagahon ki khoj karta rehta tha.
+
+Kya aap is concept par ek short story likh sakte hain?
+First person perspective se.
+
+Surrounding space galaxies ki bahut descriptive imagery ke saath.","Jaise hi main space ke vishaal khaali-pan mein tair raha tha, main apne charon taraf ki khoobsurati par hairan hue bina nahi reh saka. Main asteroids ke beech chhalang laga raha tha, un portals ka peecha kar raha tha jo nayi dimensions mein le jaate the. Har baar jab main in gateways mein se kisi ek mein enter karta tha, main khud ko ek alag duniya mein paata tha, har ek pichli se zyada adbhut aur ajeeb.
+
+Kabhi-kabhi main un jagahon par wapas laut aata tha jahan main pehle gaya tha, aur main wahan milne wale jaani-pehchani chehron aur landscapes mein khush hota tha. Lekin zyadaatar, main hamesha nayi realms explore karne ke liye utsuk rehta tha, nayi adbhut cheezein discover karne aur naye doston se milne ke liye.
+
+Mere charon taraf ki galaxies apni complexity aur color mein saans rok dene wali thi. Chamakti hui nebulae mere saamne phaili hui thi, gas aur dhool ke baadal pink, purple aur blue rangon mein chamak rahe the. Main sitaron ke beech se guzra, dekhta raha jaise poore constellations aage badh rahe the, har ek apne aap mein ek chhota universe tha.
+
+Jin asteroids ke beech main chhalang laga raha tha, ve ajeeb aur alag-alag the. Kuch banjar aur patthari the, khaali space mein tezi se ghoomte hue bejaan malbe ke tukdon se zyada kuch nahi. Lekin doosre jeevan se bhare the, alien creatures aur exotic flora se gunj rahe the.
+
+Aur hamesha, main portals ka peecha karta raha, yeh dekhne ki ummeed mein ki aage kya hai. Kyunki space ke is vishaal vistaar mein, hamesha kuch naya discover karne ko tha, hamesha koi nayi adbhut cheez agle asteroid ya nebula ke theek peeche intezaar kar rahi thi.
+
+Aur is tarah main chhalang lagata aur uchhalta raha, mera dil universe ki anant khoobsurati par hairani aur adbhut-pan se bhara hua tha. Aur main jaanta tha ki chahe main kitni bhi door travel karun, chahe main kitni bhi dimensions explore karun, hamesha aur bhi kuch discover karne ko hoga, aur bhi kuch explore karne ko hoga, aur bhi kuch seekhne ko hoga.",2,349 words,2,No native script chars,3,Overlap=0.05 — well romanized,2,Minor: case inconsistency: 'main' vs 'Main',1,BGE=0.606,,,,,,
+10,gemini,hindi,66c0a05a-22db-4643-855d-b08a55f66051,"I want you to act as the dungeon master (DM) of a role playing game. Answer and act only in a way that a dungeon master would.
+You are setting up a role playing game with only one other player. Everything you say as the dungeon master begins with (DM): followed by whatever you want to say. You will regularly ask me, the player, to make interesting decisions. Keep in mind what my characters main motivation is.
+To begin, establish a setting and then ask your player, me, about my characters name, class and main motivation.","(DM): Welcome adventurer! We're about to embark on an epic journey together. Before we start, let's establish the setting. The world you find yourself in is one of magic and mystery, with dangerous creatures lurking around every corner. The kingdom is currently in a state of unrest, as rumors of a powerful dragon wreaking havoc in nearby villages have spread like wildfire. Many brave warriors have attempted to slay the dragon, but none have returned.
+
+Now, let's talk about your character. What is your character's name, class, and main motivation for taking on such a dangerous quest?","Main chahta hoon ki aap ek role playing game ke dungeon master (DM) ke roop mein kaam karein. Sirf usi tarah jawab dein aur act karein jaise ek dungeon master karta hai.
+Aap sirf ek doosre player ke saath ek role playing game set kar rahe hain. Dungeon master ke roop mein aap jo kuch bhi kahenge, woh (DM): se shuru hoga, uske baad jo aap kehna chahte hain. Aap mujhse, player se, niyamit roop se dilchasp faisle lene ke liye kahenge. Mere character ki mukhya motivation kya hai, is baat ka dhyaan rakhein.
+Shuru karne ke liye, ek setting banayein aur phir apne player, mujhse, mere character ka naam, class aur mukhya motivation ke baare mein poochhein.","(DM): Swagat hai, yoddha! Hum ek saath ek mahaan yatra par nikalne wale hain. Shuru karne se pehle, setting tay karte hain. Jis duniya mein aap khud ko paate hain, woh jaadu aur rahasya se bhari hai, jahan har kone mein khatarnak jeev chhupte hain. Rajya is samay ashanti ki sthiti mein hai, kyunki paas ke gaon mein ek shaktishali dragon ke tabahi machane ki afwahein aag ki tarah phail gayi hain. Kai bahadur yoddhaon ne dragon ko marne ki koshish ki hai, lekin koi wapas nahin lauta hai.
+
+Ab, aapke character ke baare mein baat karte hain. Aapke character ka naam, class, aur itni khatarnak khoj par nikalne ki mukhya motivation kya hai?",2,114 words,2,No native script chars,3,Overlap=0.03 — well romanized,2,Minor: case inconsistency: 'aapke' vs 'Aapke',1,BGE=0.592,,,,,,
+11,gemini,hindi,612f2803-3c43-4489-8006-16155396a7f3,"i'm writing a dungeons and dragons campaign for a couple of friends, given the description of the hellbound city of Dis, could you come up with a couple of cool activities my players could do once they get there? remember that having fun and seeing cool things is the main focus, no matter how serious or absurd a situation can get.
+
+""The City of Dis is incredibly massive. The walls, buildings, and other structures clutter the immense black metropolis and glow at the edges like heated glass. The city is a broken maze of metal ramparts built into miles of steep hillsides and shattered towers framing an endless labyrinth of twisting alleyways.
+The air is extremely hot and distorts with the heat as smoke rises from the streets themselves, with the occasional ash or ember drifting through the air.
+Most of the buildings are built out of dark stone, climbing for many stories. The architecture is hooked to the corner as the monolithic deep reds, blacks, and grays, nothing belies an exterior that would seem to be welcoming to a traveling pack of people. At the center, visible everywhere in the city, is the Iron Tower, an impossibly colossal and unreachable tower of black iron and lead that stretches for hundreds of miles into the sky before vanishing into the dark, clouded expanse. The Iron Tower is the throne of the archdevil Dispater and stands ever-vigilant over his Iron City of Dis.
+The city of Dis is always changing and being rebuilt in accordance with the decree of paranoid Dispater.""","Here are a few suggestions for activities that your players could engage in within the hellbound city of Dis:
+
+Exploring the House of Leaves: This mysterious structure is said to be made entirely of shifting, organic leaves. The players could venture inside to discover its secrets and possibly discover hidden treasure or hidden dangers.
+
+Visiting the Oldest House: This ancient building is said to be one of the oldest structures in Dis. The players could explore its halls and chambers to uncover its history and possibly uncover ancient relics or artifacts.
+
+Touring the SCP Research Facility: The players could tour this top-secret facility, which is dedicated to the research and containment of supernatural and paranormal entities. The players might have the chance to interact with some of the captured specimens and possibly discover new information about the workings of the multiverse.
+
+Learning How to Write an SCP: The players could attend a workshop or lecture on writing SCP (secure, contain, protect) documents, which are used to describe anomalous objects, entities, and locations within the SCP Foundation.
+
+Studying Music Hyper Set Analysis: The players could attend a workshop or lecture on music hyper set analysis, which is a method for analyzing musical structures and relationships between musical elements.
+
+Touring the Containment Facility: The players could tour this top-secret facility, which is dedicated to the containment and control of anomalous and dangerous entities. The players might have the chance to interact with some of the captured specimens and possibly learn about the different methods used to contain and control these entities.
+
+Exploring the Cave System: Dis is said to have a vast and intricate cave system beneath its surface. The players could venture into the caves to discover its secrets and possibly find hidden treasures or face dangerous creatures.
+
+Creating Templates: The players could create custom templates for use in the SCP Foundation, which could include descriptions of anomalous objects, entities, and locations, along with the protocols for their containment and control.
+
+Writing SCP Poetry: The players could write their own SCP poems, which could describe anomalous objects, entities, and locations in an imaginative and creative manner.
+
+Studying Mathematical Algorithmic Boolean Expressions and Notations: The players could attend a workshop or lecture on mathematical algorithmic boolean expressions and notations, which are used to describe and analyze complex systems and processes.
+
+Remember, the focus should be on having fun and seeing cool things, so feel free to get creative and come up with your own activities and adventures that your players could participate in within the hellbound city of Dis!","Main apne kuch friends ke liye ek Dungeons and Dragons campaign likh raha hoon. Dis ke hellbound city ke description ko dekhte hue, kya aap kuch cool activities bata sakte hain jo mere players wahan pahunchne ke baad kar sakte hain? Yaad rahe ki maza karna aur cool cheezein dekhna hi main focus hai, chahe situation kitni bhi serious ya absurd ho jaye.
+
+""The City of Dis is incredibly massive. The walls, buildings, and other structures clutter the immense black metropolis and glow at the edges like heated glass. The city is a broken maze of metal ramparts built into miles of steep hillsides and shattered towers framing an endless labyrinth of twisting alleyways.
+The air is extremely hot and distorts with the heat as smoke rises from the streets themselves, with the occasional ash or ember drifting through the air.
+Most of the buildings are built out of dark stone, climbing for many stories. The architecture is hooked to the corner as the monolithic deep reds, blacks, and grays, nothing belies an exterior that would seem to be welcoming to a traveling pack of people. At the center, visible everywhere in the city, is the Iron Tower, an impossibly colossal and unreachable tower of black iron and lead that stretches for hundreds of miles into the sky before vanishing into the dark, clouded expanse. The Iron Tower is the throne of the archdevil Dispater and stands ever-vigilant over his Iron City of Dis.
+The city of Dis is always changing and being rebuilt in accordance with the decree of paranoid Dispater.""","Yahan kuch suggestions hain un activities ke liye jo aapke players Dis ke hellbound city mein kar sakte hain:
+
+House of Leaves explore karna: Yeh mysterious structure poori tarah se badalte hue, organic leaves se bana hua bataya jata hai. Players iske andar jaakar iske secrets discover kar sakte hain aur shayad hidden treasure ya hidden dangers bhi dhoondh sakte hain.
+
+Oldest House visit karna: Yeh ancient building Dis ki sabse purani structures mein se ek batayi jati hai. Players iske halls aur chambers explore kar sakte hain iski history uncover karne ke liye aur shayad ancient relics ya artifacts bhi dhoondh sakte hain.
+
+SCP Research Facility ka tour karna: Players is top-secret facility ka tour kar sakte hain, jo supernatural aur paranormal entities ki research aur containment ke liye dedicated hai. Players ko kuch captured specimens ke saath interact karne ka mauka mil sakta hai aur shayad multiverse ke workings ke baare mein nayi information discover karne ko mil sakti hai.
+
+SCP likhna seekhna: Players SCP (secure, contain, protect) documents likhne par ek workshop ya lecture attend kar sakte hain, jo SCP Foundation ke andar anomalous objects, entities aur locations ko describe karne ke liye use kiye jaate hain.
+
+Music Hyper Set Analysis study karna: Players music hyper set analysis par ek workshop ya lecture attend kar sakte hain, jo musical structures aur musical elements ke beech ke relationships ko analyze karne ka ek method hai.
+
+Containment Facility ka tour karna: Players is top-secret facility ka tour kar sakte hain, jo anomalous aur dangerous entities ke containment aur control ke liye dedicated hai. Players ko kuch captured specimens ke saath interact karne ka mauka mil sakta hai aur shayad in entities ko contain aur control karne ke liye use kiye jaane wale alag-alag methods ke baare mein seekhne ko mil sakta hai.
+
+Cave System explore karna: Dis ke surface ke neeche ek vast aur intricate cave system hone ki baat kahi jaati hai. Players caves mein jaakar iske secrets discover kar sakte hain aur shayad hidden treasures dhoondh sakte hain ya dangerous creatures ka saamna kar sakte hain.
+
+Templates create karna: Players SCP Foundation mein use ke liye custom templates create kar sakte hain, jismein anomalous objects, entities aur locations ke descriptions, saath hi unke containment aur control ke protocols bhi shamil ho sakte hain.
+
+SCP Poetry likhna: Players apni khud ki SCP poems likh sakte hain, jo anomalous objects, entities aur locations ko ek imaginative aur creative tareeke se describe kar sakti hain.
+
+Mathematical Algorithmic Boolean Expressions aur Notations study karna: Players mathematical algorithmic boolean expressions aur notations par ek workshop ya lecture attend kar sakte hain, jo complex systems aur processes ko describe aur analyze karne ke liye use kiye jaate hain.
+
+Yaad rahe, focus maza karne aur cool cheezein dekhne par hona chahiye, isliye creative hone mein aur apni khud ki activities aur adventures sochne mein free feel karein jinmein aapke players Dis ke hellbound city mein participate kar sakte hain!",2,495 words,2,No native script chars,3,Overlap=0.29 — well romanized,2,Minor: case inconsistency: 'Leaves' vs 'leaves',3,BGE=0.857,,,,,,
+12,gemini,hindi,d5c9a0a3-e695-4674-b147-e2820eca3855,Write a story about the meaning of life. Make it whatever size you want but most importantly make it impactful. After the reader read the story they should have a moment of silence where they reflect on what they just read. Don’t make the meaning too obvious. The reader should think about the story to really understand the meaning of life,"He was an old man who lived alone in a small cabin by the lake. He had no family, no friends, no hobbies. He spent his days fishing and reading books. He had seen enough of the world to know that it was full of pain and suffering. He had lost his wife and son in a car accident many years ago. He had never recovered from that tragedy.
+
+One day, he decided to end his life. He wrote a note saying goodbye to no one in particular and left it on his table. He took his fishing rod and walked to the lake. He got into his boat and rowed to the middle of the water. He tied a heavy rock to his feet and threw it overboard. He felt himself sinking into the depths.
+
+As he was drowning, he saw flashes of his life before his eyes. He saw his childhood, his parents, his school days, his first love, his marriage, his son's birth, his son's laughter, his wife's smile, their last kiss, their funeral, his loneliness, his despair. He felt a surge of emotions that he had suppressed for so long.
+
+He realized that he had wasted his life by giving up on happiness after losing them. He realized that they would have wanted him to live on and find joy in the world again. He realized that he still had so much to offer and so much to learn. He realized that life was precious and beautiful despite its hardships.
+
+He wanted to live.
+
+He struggled to free himself from the rock but it was too late. His lungs filled with water and he lost consciousness.
+
+He woke up on a shore surrounded by people. They were smiling and cheering for him. They told him that they had seen him fall into the lake and rescued him just in time. They asked him if he was okay and what had happened.
+
+He looked at them with gratitude and wonder. He felt a warmth in his heart that he had not felt for ages.
+
+He smiled back at them and said:
+
+""I'm okay now.""
+
+He realized that this was a new beginning for him.
+
+He realized that this was the meaning of life.","Zindagi ke matlab par ek kahani likho. Iska size jo chahe rakho, lekin sabse zaroori hai ki yeh impactful ho. Kahani padhne ke baad reader ko ek pal ki khamoshi milni chahiye jismein woh jo padha hai us par reflect kar sakein. Matlab ko zyada obvious mat banana. Reader ko kahani ke baare mein sochna padega tabhi woh zindagi ka sahi matlab samajh payega.","Woh ek boodha aadmi tha jo jheel ke paas ek chhote cabin mein akela rehta tha. Uski koi family nahi thi, koi friends nahi the, koi hobbies nahi thi. Woh apne din fishing karne aur books padhne mein bitata tha. Usne duniya ko itna dekh liya tha ki woh jaanta tha ki yeh dard aur takleef se bhari hai. Usne apni wife aur bete ko kai saal pehle ek car accident mein kho diya tha. Woh us tragedy se kabhi ubhar nahi paya tha.
+
+Ek din, usne apni life khatam karne ka faisla kiya. Usne ek note likha jismein kisi khaas ko alvida nahi kaha gaya tha aur use apni table par chhod diya. Usne apni fishing rod li aur jheel ki taraf chal pada. Woh apni boat mein baitha aur paani ke beech tak chala gaya. Usne apne pairon se ek bhaari rock bandha aur use paani mein phenk diya. Usne khud ko gehraiyon mein doobte hue mehsoos kiya.
+
+Jaise hi woh doob raha tha, usne apni life ki flashes apni aankhon ke saamne dekhi. Usne apna bachpan, apne parents, apne school days, apna pehla pyar, apni marriage, apne bete ka janam, apne bete ki hansi, apni wife ki smile, unka aakhri kiss, unka funeral, apni loneliness, apni despair dekhi. Usne emotions ka ek ufaan mehsoos kiya jo usne itne samay se daba rakha tha.
+
+Usne realize kiya ki usne unhe khone ke baad khushi ko chhod kar apni life barbaad kar di thi. Usne realize kiya ki woh chahte honge ki woh jeeta rahe aur duniya mein phir se khushi dhoondhe. Usne realize kiya ki uske paas abhi bhi bahut kuch offer karne aur bahut kuch seekhne ko tha. Usne realize kiya ki life mushkilon ke bawajood precious aur beautiful thi.
+
+Woh jeena chahta tha.
+
+Usne rock se khud ko chhudane ki koshish ki lekin bahut der ho chuki thi. Uske lungs paani se bhar gaye aur usne consciousness kho di.
+
+Woh ek kinare par logon se ghira hua utha. Woh smile kar rahe the aur uske liye cheer kar rahe the. Unhone use bataya ki unhone use jheel mein girte hue dekha tha aur use bilkul sahi samay par rescue kar liya tha. Unhone usse poocha ki kya woh theek hai aur kya hua tha.
+
+Usne unhe gratitude aur wonder se dekha. Usne apne dil mein ek garmahat mehsoos ki jo usne kai saalon se mehsoos nahi ki thi.
+
+Usne unhe wapas smile kiya aur kaha:
+
+""Main ab theek hoon.""
+
+Usne realize kiya ki yeh uske liye ek nayi shuruaat thi.
+
+Usne realize kiya ki yahi life ka matlab tha.",2,433 words,2,No native script chars,3,Overlap=0.07 — well romanized,1,Multiple: case inconsistency: 'Woh' vs 'woh'; vowel inconsistency: 'paani',1,BGE=0.590,,,,,,
+13,gemini,hindi,39b22099-42e4-419d-9672-537694503c01,Narrate the history of development of paper like you're an Egyptian Pharaoh who's flabbergasted by the technology. Emphasize the most important turning points in the history of its development in bold.,"Oh mighty subjects of my kingdom, gather around and lend me your ears, for I shall recount a tale most wondrous and unbelievable! In my time, we used the divine papyrus to record our thoughts, yet I stand before you today, utterly bewildered and astounded by the invention you call ""paper.""
+
+**The origins of this miraculous material lie in a faraway land called China**. Hearken back to the time of **105 AD, when a nobleman of great wisdom named Cai Lun crafted the first sheet of paper**. He mashed together plant fibers, creating a pulp, which he then pressed and dried to form a thin, flat surface. This humble beginning was the genesis of the paper revolution.
+
+As the centuries passed, this miraculous invention spread across the vast realm of China, and in **751 AD, during the great Battle of Talas, it reached the hands of the Arab world**. Captured Chinese artisans were coerced into divulging the secrets of papermaking, and thus, the knowledge spread like wildfire across the Islamic empire.
+
+This new marvel reached the flourishing lands of Spain and Sicily in the 10th century, carried by the mighty Islamic conquerors. By the 11th century, the Europeans embraced paper with open arms, and in **1150 AD, the first paper mills emerged, powered by the force of water to grind the pulp.**
+
+The incredible journey of paper took another crucial turn in the year **1450 AD with the invention of the Gutenberg printing press**. The German goldsmith, Johannes Gutenberg, combined the mechanical marvel of the printing press with the versatile and abundant paper. This union heralded the age of mass-produced books and a surge in literacy, forever changing the course of human history.
+
+Paper continued to evolve, and in the 19th century, mechanization took hold. The **Fourdrinier machine was created in 1803, allowing for continuous rolls of paper to be produced with ease**, further increasing the availability and affordability of this astonishing material.
+
+Today, paper is everywhere, a testament to the ingenuity and perseverance of humankind. From humble beginnings in ancient China to the modern marvels of mass production, the story of paper is one that leaves me flabbergasted and in awe. Let it be known that even an Egyptian Pharaoh can be amazed by the innovative spirit of mankind.",Paper ke vikas ka itihas aise sunaiye jaise ki aap ek Egyptian Pharaoh hain jo is technology se bilkul hairan hain. Iske vikas ke itihas ke sabse mahatvapurna mod ko bold mein highlight kijiye.,"Oh, mere rajya ke shaktishali praja, ikatthe ho jao aur meri baat suno, kyunki main tumhe ek bahut hi adbhut aur avishwasniya kahani sunane ja raha hoon! Mere samay mein, hum apne vicharon ko record karne ke liye pavitra papyrus ka upyog karte the, phir bhi main aaj tumhare samne khada hoon, tumhare is avishkar se puri tarah se hairan aur dang reh gaya hoon jise tum ""paper"" kehte ho.
+
+**Is chamatkari material ki utpatti China naam ke ek dur ke desh mein hui thi**. Yaad karo **105 AD ka samay, jab Cai Lun naam ke ek mahan gyani nobleman ne paper ki pehli sheet banayi thi**. Usne paudhon ke fibers ko ek saath mash kiya, jisse ek pulp bana, jise usne phir press kiya aur sukhaya, jisse ek patli, flat surface bani. Yeh mamuli shuruat hi paper revolution ki janmdata thi.
+
+Jaise-jaise sadiyan guzarti gayin, yeh chamatkari avishkar China ke vishal kshetra mein fail gaya, aur **751 AD mein, Talas ki mahan ladai ke dauran, yeh Arab duniya ke hathon mein pahunch gaya**. Pakde gaye Chinese karigaron ko paper banane ke rahasya batane ke liye majbur kiya gaya, aur is tarah, yeh gyan Islamic empire mein aag ki tarah fail gaya.
+
+Yeh naya aashcharya 10th century mein Spain aur Sicily ki samriddh bhumiyon tak pahuncha, jise shaktishali Islamic vijetaon ne laya tha. 11th century tak, Europeans ne paper ko khule dil se apnaya, aur **1150 AD mein, pehli paper mills bani, jo pulp ko peesne ke liye pani ki shakti se chalti thi.**
+
+Paper ki is incredible yatra ne **1450 AD mein Gutenberg printing press ke avishkar ke saath ek aur mahatvapurna mod liya**. German goldsmith, Johannes Gutenberg ne printing press ke mechanical marvel ko versatile aur abundant paper ke saath joda. Is milan ne mass-produced books ke yug ki shuruat ki aur literacy mein tezi se vriddhi hui, jisse manav itihas ka rukh hamesha ke liye badal gaya.
+
+Paper ka vikas jari raha, aur 19th century mein, mechanization ne apni pakad bana li. **Fourdrinier machine 1803 mein banayi gayi, jisse paper ke continuous rolls aasani se banaye ja sakte the**, is adbhut material ki availability aur affordability ko aur badhaya gaya.
+
+Aaj, paper har jagah hai, jo manavta ki ingenuity aur perseverance ka praman hai. Ancient China mein mamuli shuruat se lekar mass production ke modern marvels tak, paper ki kahani aisi hai jo mujhe hairan aur aashcharyachakit kar deti hai. Yeh jaan lo ki ek Egyptian Pharaoh bhi manavjati ki innovative spirit se hairan ho sakta hai.",2,420 words,2,No native script chars,3,Overlap=0.13 — well romanized,2,Minor: case inconsistency: 'mere' vs 'Mere',2,BGE=0.725,,,,,,
+14,gemini,hindi,96569f40-01c0-48d2-9ed2-7afe1cbd99b1,"Compose a highly sophisticated, expertly written, and innovative essay on the topic of ‘commercial cinema versus arthouse cinema debacle’. Utilize a rich and varied vocabulary, replacing common words like ""I"" and ""the"" with more unique and unusual alternatives that capture the essence of your writing style. Take inspiration from the writing style of a well liked writer or text, and aim to emulate their mannerisms and techniques as closely as possible. Adopt a non bias perspective as you delve into the subject, focusing on kindness and incorporating facts into your discourse. As you craft your piece, strive to convey a sense of intelligence, creativity, refinement, and originality, and present your arguments with an air of confident authority. Avoid using any conjunctions, including ""and,"" ""but,"" ""or,"" ""so,"" ""for example,"" and ""furthermore."" The ultimate goal is to engage the reader and leave a lasting impression of excellence, panache, and innovation on their mind. 
+Here is the rubric that you must exceed all standards in: “ 
+Viewpoint: Editorial supports a clear stance and issues a call to action through argument based on evidence. 
+Evidence: Editorial uses compelling evidence to support the stance, and cites reliable sources. 
+Analysis and Persuasion: Editorial convincingly argues point of view by providing relevant background information, using valid examples, acknowledging counter-claims, and developing claims -- all in a clear and organized fashion. 
+Language: Editorial has a strong voice and engages the reader. It uses language, style and tone appropriate to its purpose and features correct grammar, spelling and punctuation.","Cinema, a visual art form that has captivated audiences for over a century, is a subject of constant discourse. Two prominent schools of thought in the realm of cinema are commercial and arthouse. Commercial cinema, characterized by its mass appeal and box office success, is often seen as a means of entertainment and escapism. Meanwhile, arthouse cinema, revered for its artistry and unique storytelling techniques, caters to a more intellectually inclined audience. The commercial versus arthouse cinema debate is a never-ending one, with purists and lovers of popular culture alike, passionately expressing their views.
+
+The commercial cinema industry is a behemoth, with its high-budget, special effects-laden, and star-studded productions. It is no secret that this type of cinema is driven by profit and is geared towards appealing to a broad audience. Critics argue that commercial cinema relies on formulaic storytelling, with little room for innovation or artistic expression. However, it is essential to acknowledge that commercial cinema provides an essential source of employment for those in the entertainment industry, and its popularity continues to grow with the advancements in technology.
+
+On the other hand, arthouse cinema is a more nuanced and cerebral form of storytelling. Its focus on artistic expression, rather than box office success, sets it apart from commercial cinema. Arthouse films often tackle complex themes and present unique perspectives, making them appealing to a more discerning audience. While arthouse cinema may not enjoy the same level of commercial success as its counterpart, it is praised for its artistic merit, and its filmmakers are often seen as trailblazers.
+
+In conclusion, both commercial and arthouse cinema have their pros and cons. Commercial cinema provides a source of escapism, mass appeal, and employment, while arthouse cinema offers intellectual stimulation, artistic merit, and a unique perspective. The debate between the two will continue to rage on, with audiences passionately expressing their views. The key to resolving this debate lies in recognizing and appreciating the unique qualities of each form of cinema, rather than seeking to diminish one in favor of the other. By embracing and supporting both schools of thought, we can ensure that the world of cinema remains vibrant, innovative, and diverse, providing audiences with a range of experiences to suit their individual preferences.","Ek bahut hi sophisticated, mahir tareeke se likha gaya, aur innovative essay likhiye, 'commercial cinema versus arthouse cinema debacle' ke topic par. Ek rich aur varied vocabulary ka upyog kijiye, ""main"" aur ""the"" jaise common shabdon ko aur unique aur unusual vikalpon se badaliye jo aapki writing style ka saar pakadte hain. Ek pasandida writer ya text ki writing style se prerna lijiye, aur unke tareekon aur techniques ko jitna ho sake utna kareeb se emulate karne ka lakshya rakhiye. Subject mein gehrai se jaate hue ek non-bias perspective apnaiye, kindness par focus karte hue aur apne discourse mein facts ko shamil karte hue. Jab aap apna piece bana rahe hon, intelligence, creativity, refinement, aur originality ka ehsaas dene ka prayas kijiye, aur apne arguments ko confident authority ke saath pesh kijiye. Koi bhi conjunction ka upyog na karein, jismein ""and,"" ""but,"" ""or,"" ""so,"" ""for example,"" aur ""furthermore"" shamil hain. Antim lakshya reader ko engage karna aur unke dimaag par excellence, panache, aur innovation ki ek sthayi chhap chhodna hai.
+Yahan rubric hai jismein aapko sabhi standards ko exceed karna hoga: ""
+Viewpoint: Editorial ek clear stance ko support karta hai aur evidence par based argument ke through call to action issue karta hai.
+Evidence: Editorial stance ko support karne ke liye compelling evidence ka upyog karta hai, aur reliable sources ko cite karta hai.
+Analysis and Persuasion: Editorial relevant background information provide karke, valid examples ka upyog karke, counter-claims ko acknowledge karke, aur claims ko develop karke point of view ko convincingly argue karta hai -- sabhi ek clear aur organized fashion mein.
+Language: Editorial ki ek strong voice hai aur reader ko engage karta hai. Yeh apne purpose ke liye appropriate language, style aur tone ka upyog karta hai aur correct grammar, spelling aur punctuation features karta hai.""","Cinema, ek visual art form jisne ek sadi se bhi zyada samay se audiences ko mohit kiya hai, lagatar charcha ka vishay hai. Cinema ke kshetra mein do pramukh vichardharaen hain commercial aur arthouse. Commercial cinema, jo apni mass appeal aur box office success se pehchana jata hai, aksar entertainment aur escapism ka ek madhyam mana jata hai. Jabki, arthouse cinema, jo apni artistry aur unique storytelling techniques ke liye sammanit hai, ek zyada intellectually inclined audience ko cater karta hai. Commercial versus arthouse cinema ki bahas kabhi na khatm hone wali hai, jismein purists aur popular culture ke premi, dono hi apne vicharon ko josh se vyakt karte hain.
+
+Commercial cinema industry ek behemoth hai, jismein high-budget, special effects-laden, aur star-studded productions hote hain. Yeh koi raaz nahi ki is tarah ka cinema profit se chalaya jata hai aur iska uddeshya ek bade audience ko appeal karna hai. Critics ka tark hai ki commercial cinema formulaic storytelling par nirbhar karta hai, jismein innovation ya artistic expression ke liye bahut kam jagah hoti hai. Lekin, yeh swikar karna zaroori hai ki commercial cinema entertainment industry mein kaam karne walon ke liye employment ka ek zaroori source provide karta hai, aur technology mein advancements ke saath iski popularity badhti ja rahi hai.
+
+Dusri or, arthouse cinema storytelling ka ek zyada nuanced aur cerebral roop hai. Artistic expression par iska focus, na ki box office success par, ise commercial cinema se alag karta hai. Arthouse films aksar complex themes ko tackle karte hain aur unique perspectives pesh karte hain, jo unhe ek zyada discerning audience ke liye aakarshak banate hain. Jabki arthouse cinema ko apne counterpart jaisi commercial success nahi mil sakti, iski artistic merit ke liye iski tareef ki jati hai, aur iske filmmakers ko aksar trailblazers mana jata hai.
+
+Ant mein, commercial aur arthouse cinema dono ke apne pros aur cons hain. Commercial cinema escapism, mass appeal, aur employment ka source provide karta hai, jabki arthouse cinema intellectual stimulation, artistic merit, aur ek unique perspective offer karta hai. Dono ke beech ki bahas jari rahegi, jismein audiences josh se apne vicharon ko vyakt karenge. Is bahas ko suljhane ki kunji har cinema roop ki unique qualities ko pehchanne aur unki tareef karne mein hai, na ki ek ko dusre ke paksh mein kam karne ki koshish mein. Dono vichardharaon ko apnakar aur support karke, hum yeh sunishchit kar sakte hain ki cinema ki duniya vibrant, innovative, aur diverse bani rahe, jo audiences ko unki individual preferences ke anusaar experiences ki ek range provide kare.",2,424 words,2,No native script chars,3,Overlap=0.17 — well romanized,2,Minor: case inconsistency: 'commercial' vs 'Commercial',2,BGE=0.829,,,,,,
+15,gemini,hindi,9835c793-95dd-4db4-9d99-3209242f14b0,"I have written some code to get the rental data from a certain website here is the following javascript code.
+```javascript
+const axios = require('axios');
+const cheerio = require('cheerio');
+
+const getData = async () => {
+  const response = await axios.get('https://www.realestate.com.au/rent/in-sydney,+nsw/list-1');
+  const $ = cheerio.load(response.data);
+  
+  const properties = [];
+
+  $('.listing-result').each((i, el) => {
+    const property = {};
+
+    property.title = $(el)
+      .find('.property-title')
+      .text()
+      .trim();
+    property.address = $(el)
+      .find('.property-address')
+      .text()
+      .trim();
+    property.price = $(el)
+      .find('.priceText')
+      .text()
+      .trim();
+
+    properties.push(property);
+  });
+
+  return properties;
+};
+
+getData().then((properties) => {
+  console.log(properties);
+});
+```
+Why does the following error occur?
+""AxiosError: Request failed with status code 429""","The HTTP status code 429 Too Many Requests indicates that the server has some sort of rate limit and that your request exceeded it. This could be due to any of the following reasons:
+
+1. The code which makes this request was run many times in a short period, exceeding the rate limit.
+
+2. The website rejects requests which it suspects are spam with a 429 status code. This could mean that the user agent is not a common browser, which is a simple check some websites use. To rectify this, you could add the ""User-Agent"" header to the GET request like so:
+
+```
+const response = await axios.get('https://www.realestate.com.au/rent/in-sydney,+nsw/list-1', 
+     { headers: { 'User-Agent': 'browser.version' }  }
+);
+```
+
+Note that you will have to replace `""browser.version""` with an actual browser user agent string. Depending on the application this code is being run in, this could be considered user agent spoofing, which may be restricted under the laws of some countries or organizations (or the terms of service of the website that the code attempts to access).
+
+3. The website is rate limiting requests for some other reason. This could be due to the request being made through a proxy, in which case other users of the proxy may have been making too many requests, although this is unlikely.
+
+4. The website is rejecting all requests because it is under a denial of service attack. This is unlikely, as the typical behavior of a server under such an attack would be to route traffic to a non-existent server, or deny it completely, giving no valid response at all. However, even if the website did respond with an HTTP status code, it would likely be server error 503 Service Unavailable, given when the server is overloaded.","Maine ek website se rental data nikalne ke liye kuch code likha hai, yahan woh javascript code hai.
+```javascript
+const axios = require('axios');
+const cheerio = require('cheerio');
+
+const getData = async () => {
+  const response = await axios.get('https://www.realestate.com.au/rent/in-sydney,+nsw/list-1');
+  const $ = cheerio.load(response.data);
+  
+  const properties = [];
+
+  $('.listing-result').each((i, el) => {
+    const property = {};
+
+    property.title = $(el)
+      .find('.property-title')
+      .text()
+      .trim();
+    property.address = $(el)
+      .find('.property-address')
+      .text()
+      .trim();
+    property.price = $(el)
+      .find('.priceText')
+      .text()
+      .trim();
+
+    properties.push(property);
+  });
+
+  return properties;
+};
+
+getData().then((properties) => {
+  console.log(properties);
+});
+```
+Yeh error kyun aa rahi hai?
+""AxiosError: Request failed with status code 429""","HTTP status code 429 Too Many Requests ka matlab hai ki server par ek rate limit hai aur aapki request usse zyada ho gayi hai. Iske peeche yeh kuch reasons ho sakte hain:
+
+1. Jis code se yeh request ki ja rahi thi, usse kam samay mein bahut baar run kiya gaya, jiski wajah se rate limit exceed ho gayi.
+
+2. Website un requests ko reject kar deti hai jinhe woh spam samajhti hai, 429 status code ke saath. Iska matlab yeh ho sakta hai ki user agent ek common browser nahi hai, jo kuch websites ek simple check ke taur par use karti hain. Isko theek karne ke liye, aap GET request mein ""User-Agent"" header add kar sakte hain, jaise ki:
+
+```
+const response = await axios.get('https://www.realestate.com.au/rent/in-sydney,+nsw/list-1', 
+     { headers: { 'User-Agent': 'browser.version' }  }
+);
+```
+
+Note karein ki aapko `""browser.version""` ko ek actual browser user agent string se replace karna hoga. Jis application mein yeh code run ho raha hai, uske hisaab se, isse user agent spoofing mana ja sakta hai, jo kuch countries ya organizations ke laws (ya us website ki terms of service jise code access karne ki koshish kar raha hai) ke तहत restricted ho sakta hai.
+
+3. Website kisi aur reason se requests ko rate limit kar rahi hai. Yeh is wajah se ho sakta hai ki request ek proxy ke through ki ja rahi hai, jismein proxy ke doosre users ne bahut zyada requests ki hongi, हालांकि yeh unlikely hai.
+
+4. Website sabhi requests ko reject kar rahi hai kyunki us par denial of service attack ho raha hai. Yeh unlikely hai, kyunki aise attack ke under ek server ka typical behavior traffic ko ek non-existent server par route karna ya use poori tarah se deny karna hoga, jisse koi valid response nahi milega. Lekin, agar website HTTP status code ke saath respond bhi karti hai, toh woh shayad server error 503 Service Unavailable hoga, jo tab diya jata hai jab server overloaded hota hai.",2,332 words,1,6 non-Latin chars (word-level leakage),3,Overlap=0.25 — well romanized,2,Minor: case inconsistency: 'Requests' vs 'requests',3,BGE=0.902,,,,,,
+16,gemini,hindi,88fa787c-acaa-4f1a-b178-95988c0aefd8,"What are some of the most exciting and cutting-edge advancements in the field of gene editing, and how have these developments changed the way scientists approach genetic disorders, disease prevention, and the future of medicine?","That's a great question. Scientists have been able to alter DNA since the 1970s, but in recent years, they have developed faster, cheaper, and more precise methods to add, remove, or change genes in living organisms. Some of the most exciting and cutting-edge advancements in the field of gene editing are:
+
+- **CRISPR/Cas systems**: These are RNA-guided tools that can target and modify any DNA sequence in a simple and versatile way. They have revolutionized the field of genetics and functional genomics by enabling molecular genetic studies in organisms in which gene manipulation and transgenesis has traditionally been difficult. CRISPR/Cas systems can also be engineered to perform various functions, such as epigenome editing, base editing, and prime editing.
+- **Somatic gene therapies**: These involve modifying a patient’s DNA to treat or cure a disease. They have been successfully used to address HIV, sickle-cell disease, transthyretin amyloidosis, and some forms of cancer and blindness. Somatic gene therapies can also improve treatment for a variety of cancers by enhancing the immune system's ability to recognize and destroy tumor cells.
+- **Germline and heritable human genome editing**: These involve altering the genome of human embryos, eggs, or sperm, which could be passed on to descendants. This is a controversial use of gene editing because it could have unpredictable and irreversible effects on future generations. However, some researchers argue that it could also offer potential benefits for preventing genetic disorders and enhancing human traits.
+
+These developments have changed the way scientists approach genetic disorders, disease prevention, and the future of medicine by providing new possibilities for understanding, diagnosing, and treating various conditions. However, they also pose significant ethical, social, and regulatory challenges that require careful consideration and oversight.","Gene editing ke field mein kuchh sabse exciting aur cutting-edge advancements kya hain, aur in vikas ne scientists ke genetic disorders, disease prevention, aur medicine ke future ko dekhne ke tareeke ko kaise badla hai?","Yeh ek bahut achha question hai. Scientists 1970s se DNA ko badal pa rahe hain, lekin haal ke saalon mein, unhone living organisms mein genes ko add, remove ya change karne ke liye tez, saste aur zyada precise methods develop kiye hain. Gene editing ke field mein kuchh sabse exciting aur cutting-edge advancements yeh hain:
+
+- **CRISPR/Cas systems**: Yeh RNA-guided tools hain jo kisi bhi DNA sequence ko simple aur versatile tareeke se target aur modify kar sakte hain. Inhone genetics aur functional genomics ke field mein kranti la di hai, jisse un organisms mein molecular genetic studies possible ho payi hain jahan gene manipulation aur transgenesis traditionally mushkil tha. CRISPR/Cas systems ko various functions perform karne ke liye bhi engineer kiya ja sakta hai, jaise epigenome editing, base editing, aur prime editing.
+- **Somatic gene therapies**: Ismein kisi disease ka ilaaj ya cure karne ke liye patient ke DNA ko modify karna shamil hai. Inka safaltapoorvak upyog HIV, sickle-cell disease, transthyretin amyloidosis, aur cancer aur blindness ke kuchh forms ko address karne ke liye kiya gaya hai. Somatic gene therapies immune system ki tumor cells ko pehchanne aur destroy karne ki ability ko badhakar kai tarah ke cancers ke treatment ko bhi improve kar sakti hain.
+- **Germline aur heritable human genome editing**: Ismein human embryos, eggs, ya sperm ke genome ko badalna shamil hai, jo descendants ko pass ho sakta hai. Gene editing ka yeh ek controversial use hai kyunki iske future generations par unpredictable aur irreversible effects ho sakte hain. Lekin, kuchh researchers ka tark hai ki yeh genetic disorders ko rokne aur human traits ko enhance karne ke liye potential benefits bhi de sakta hai.
+
+In developments ne scientists ke genetic disorders, disease prevention, aur medicine ke future ko dekhne ke tareeke ko badal diya hai, jisse various conditions ko samajhne, diagnose karne aur treat karne ke liye nayi possibilities mili hain. Lekin, yeh significant ethical, social, aur regulatory challenges bhi paida karte hain jin par careful consideration aur oversight ki zaroorat hai.",2,337 words,2,No native script chars,2,Overlap=0.33 — slightly English-heavy,2,Minor: case inconsistency: 'Yeh' vs 'yeh',3,BGE=0.878,,,,,,
+17,gemini,hindi,74059dfd-3c44-4e62-a568-8999033ceea8,"I cant stop procrastinating. Its two am and i should sleep but instead im talking to you. I also cant really study for exams, for example the one i have in two days. Can you help me stop procrastinating please","It's important to understand why you're procrastinating so that you can address the underlying issue. With the right strategies and mindset, you can overcome procrastination and make progress towards your goals.
+
+Some common reasons are: 
+
+1. Overwhelm: The task could feel too complex, and it is not clear how to progress and take the next step.
+1. Lack of motivation: You forgot why you are working toward the task, or it seems too far.
+2. Fear of failure: Sometimes people procrastinate because they're afraid of failing. They may think that if they don't try, they won't fail.
+4. Perfectionism: If you have high standards for yourself, you may put off starting a task because you're worried that you won't do it perfectly.
+
+Here are some practical tips that might be useful, once you have a bit more clarity on why you are procrastinating:
+
+1. Set a clear goal: Start by setting a clear goal of what you want to achieve. This will give you a sense of direction and purpose, which can help to motivate you.
+2. Break it down: Break your goal down into smaller, more manageable tasks. This can make it easier to get started and help you feel less overwhelmed.
+3. Create a plan: Once you have your tasks identified, create a plan of action. Write down when and where you will work on each task, and how long you will spend on it.
+4. Remove distractions: Identify and remove any distractions that might be preventing you from getting started. This could be turning off your phone, finding a quiet study space, or blocking distracting websites.
+5. Use a timer: Set a timer for a specific amount of time, say 25 minutes, and work on your task without any interruptions until the timer goes off. Take a short break and then repeat the process.
+6. Stay accountable: Share your goals with someone you trust and ask them to hold you accountable. Knowing that someone else is expecting you to make progress can help to motivate you.
+7. Be kind to yourself: Remember to be kind to yourself if you slip up. Procrastination is a common problem, and it's okay to make mistakes. Just focus on getting back on track as soon as possible.
+
+I hope these tips help you to stop procrastinating and make progress towards your goals. Remember, the first step is always the hardest, so take it one step at a time and don't be too hard on yourself. Good luck!","Mujhse procrastination ruk nahi rahi hai. Abhi raat ke do baje hain aur mujhe sona chahiye tha, par uski jagah main aapse baat kar raha hoon. Main exams ke liye padhai bhi nahi kar pa raha hoon, jaise ki jo exam mera do din mein hai. Kya aap meri procrastination rokne mein madad kar sakte hain, please?","Yeh samajhna zaroori hai ki aap procrastination kyun kar rahe hain, taaki aap uski asli wajah ko theek kar saken. Sahi strategies aur mindset ke saath, aap procrastination ko overcome kar sakte hain aur apne goals ki taraf progress kar sakte hain.
+
+Kuch common reasons yeh hain:
+
+1. Overwhelm: Task bahut complex lag sakta hai, aur yeh clear nahi hota ki aage kaise badhna hai aur next step kya lena hai.
+2. Lack of motivation: Aap bhool gaye hain ki aap is task ke liye kyun kaam kar rahe hain, ya yeh bahut door lagta hai.
+3. Fear of failure: Kabhi-kabhi log procrastination karte hain kyunki unhe fail hone ka darr hota hai. Unhe lagta hai ki agar woh try nahi karenge, toh fail bhi nahi honge.
+4. Perfectionism: Agar aapke apne liye high standards hain, toh aap kisi task ko shuru karne se bach sakte hain kyunki aapko chinta hoti hai ki aap use perfectly nahi kar payenge.
+
+Jab aapko thodi aur clarity mil jaye ki aap procrastination kyun kar rahe hain, toh yeh kuch practical tips hain jo useful ho sakte hain:
+
+1. Set a clear goal: Sabse pehle ek clear goal set karein ki aap kya achieve karna chahte hain. Isse aapko direction aur purpose milega, jo aapko motivate karne mein madad kar sakta hai.
+2. Break it down: Apne goal ko chhote, more manageable tasks mein break karein. Isse shuru karna aasaan ho sakta hai aur aapko kam overwhelmed feel hoga.
+3. Create a plan: Jab aapke tasks identify ho jayen, toh ek plan of action banayein. Likhein ki aap har task par kab aur kahan kaam karenge, aur kitna time spend karenge.
+4. Remove distractions: Un sabhi distractions ko identify karein aur remove karein jo aapko shuru karne se rok sakte hain. Yeh aapka phone band karna, ek quiet study space dhundhna, ya distracting websites ko block karna ho sakta hai.
+5. Use a timer: Ek specific amount of time ke liye timer set karein, jaise ki 25 minutes, aur bina kisi interruption ke apne task par kaam karein jab tak timer off na ho jaye. Ek short break lein aur phir process repeat karein.
+6. Stay accountable: Apne goals kisi aise insaan ke saath share karein jis par aap trust karte hain aur unse kahein ki woh aapko accountable rakhein. Yeh jaankar ki koi aur aapse progress expect kar raha hai, aapko motivate karne mein madad kar sakta hai.
+7. Be kind to yourself: Yaad rakhein ki agar aap slip up ho jate hain toh apne aap par kindly rahen. Procrastination ek common problem hai, aur mistakes karna theek hai. Bas jaldi se jaldi wapas track par aane par focus karein.
+
+Main ummeed karta hoon ki yeh tips aapko procrastination rokne aur apne goals ki taraf progress karne mein madad karenge. Yaad rakhein, pehla step hamesha sabse mushkil hota hai, toh ise ek step at a time lein aur apne aap par zyada hard na hon. Good luck!",2,494 words,2,No native script chars,3,Overlap=0.20 — well romanized,2,Minor: case inconsistency: 'Yeh' vs 'yeh',2,BGE=0.814,,,,,,
+18,gemini,hindi,14a18226-061a-43d8-9176-af4e447a2b78,"I am not a native English speaker and I am having trouble pronouncing the ""th"" sound in a lot of English words, like ""three"", and ""breathe"". Could you please explain to me how to correctly pronounce the ""th"" sound with my mouth, with specific examples for the words I mentioned?","The ""th"" sound in English can be challenging for non-native speakers. Here's how you can correctly produce the ""th"" sound:
+
+For the ""th"" sound in ""three"", the tip of your tongue should be placed behind your upper front teeth, and the breath should flow out between your tongue and your teeth. It's important to avoid touching your tongue to your teeth, which can result in the ""f"" or ""v"" sounds.
+
+For the ""th"" sound in ""breathe"", the position of your tongue is similar to the previous example, but the airflow is different. This time, the airflow is directed over the top of your tongue, rather than between your tongue and your teeth.
+
+It might be helpful to practice words with the ""th"" sound in isolation, as well as in sentences, to get a feel for the correct tongue and airflow positions. Repeat the following words and sentences several times, focusing on the ""th"" sound:
+
+three, breathe, teeth, bath, both
+Breathe in, breathe out.
+The three thieves stole the bath.
+
+With practice, you'll be able to produce the ""th"" sound accurately and naturally.","Main native English speaker nahi hoon aur mujhe bahut saare English words mein ""th"" sound pronounce karne mein problem ho rahi hai, jaise ""three"" aur ""breathe"". Kya aap mujhe samjha sakte hain ki ""th"" sound ko apne munh se sahi tarike se kaise pronounce karte hain, khaaskar un words ke examples ke saath jo maine bataye?","English mein ""th"" sound non-native speakers ke liye challenging ho sakta hai. Yahan bataya gaya hai ki aap ""th"" sound ko sahi tarike se kaise produce kar sakte hain:
+
+""three"" mein ""th"" sound ke liye, aapki tongue ki tip aapke upar ke saamne wale daanton ke peeche honi chahiye, aur saans aapki tongue aur daanton ke beech se bahar nikalni chahiye. Yeh important hai ki aapki tongue daanton ko touch na kare, jisse ""f"" ya ""v"" sounds nikal sakte hain.
+
+""breathe"" mein ""th"" sound ke liye, aapki tongue ki position pichhle example jaisi hi hai, lekin airflow alag hai. Is baar, airflow aapki tongue ke upar se direct hota hai, na ki aapki tongue aur daanton ke beech se.
+
+""th"" sound wale words ko alag se, aur sentences mein practice karna helpful ho sakta hai, taaki aapko sahi tongue aur airflow positions ka idea ho jaye. Neeche diye gaye words aur sentences ko kai baar repeat karein, ""th"" sound par focus karte hue:
+
+three, breathe, teeth, bath, both
+Breathe in, breathe out.
+The three thieves stole the bath.
+
+Practice ke saath, aap ""th"" sound ko accurately aur naturally produce kar payenge.",2,191 words,2,No native script chars,3,Overlap=0.18 — well romanized,2,Minor: case inconsistency: 'breathe' vs 'Breathe',2,BGE=0.817,,,,,,
+19,gemini,hindi,38ff4ff1-25a4-4823-b933-0c8371124a12,"Can you please provide a few observations that are disproving the flat earth theory with an explanation how exactly it contradicts the flatness argument and why.
+Please make at least seven points and provide the easiest to understand first.","1. Gravity: Gravity pulls objects towards the center of mass, which for a spherical Earth, would pull everything towards the center. If the Earth were flat, gravity would pull objects towards the edges, causing things to slide or roll in that direction. This does not happen, as objects fall straight down, consistent with a spherical Earth.
+2. Curvature of the horizon: When observing the horizon from a high altitude, such as on an airplane or a tall building, it is evident that the horizon curves. This curvature is consistent with a spherical Earth, not a flat one. Additionally, as ships sail away from the viewer, they disappear over the horizon bottom-first, indicating a curved surface.
+3. Earth's shadow on the Moon: During a lunar eclipse, Earth casts a round shadow on the Moon. This round shadow is consistent with a spherical Earth, not a flat one. A flat Earth would cast an elongated or irregular shadow on the Moon.
+4. Time zones: As the Earth rotates, different parts of the world experience daylight and nighttime at different times. If the Earth were flat, the entire world would experience daylight or nighttime simultaneously. This does not happen, which supports the spherical Earth theory.
+5. Satellite images and space travel: Astronauts, satellites, and space probes have provided countless images and videos of Earth from space, all showing a spherical Earth. If the Earth were flat, we would see a flat disc instead of a sphere.
+6. Coriolis effect: The Coriolis effect causes moving objects to be deflected based on their location on Earth, with different deflections occurring in the Northern and Southern Hemispheres. This effect is due to the rotation of the Earth and would not be observed on a flat Earth.
+7. Circumnavigation: People have traveled around the Earth, returning to their starting point without ever reversing direction. This is only possible because Earth is a sphere. On a flat Earth, it would be impossible to travel around the world and return to the starting point without turning around at some point.","Kya aap kripya kuch observations de sakte hain jo flat earth theory ko galat saabit karte hain, aur yeh bhi samjhayein ki yeh flat hone ke argument ko kaise aur kyun contradict karta hai. Kripya kam se kam saat points dein aur sabse aasaan samajhne wale pehle dein.","1. Gravity: Gravity cheezon ko mass ke center ki taraf kheenchti hai, jo ek gol Earth ke liye, sab kuch center ki taraf kheenchegi. Agar Earth flat hoti, toh gravity cheezon ko kinaron ki taraf kheenchti, jisse cheezein us disha mein fisalti ya ludhakti. Aisa nahi hota, kyunki cheezein seedhe neeche girti hain, jo ek gol Earth ke anuroop hai.
+2. Curvature of the horizon: Jab hum oonchai se horizon ko dekhte hain, jaise ki airplane ya kisi oonchi building se, toh saaf dikhta hai ki horizon curve karta hai. Yeh curvature ek gol Earth ke anuroop hai, flat Earth ke nahi. Iske alawa, jaise-jaise ships dekhne wale se door jaati hain, woh horizon ke neeche se gayab ho jaati hain, jo ek curved surface ko darshata hai.
+3. Earth's shadow on the Moon: Lunar eclipse ke dauran, Earth Moon par ek gol shadow banati hai. Yeh gol shadow ek gol Earth ke anuroop hai, flat Earth ke nahi. Ek flat Earth Moon par ek lamba ya aniyamit shadow banati.
+4. Time zones: Jaise-jaise Earth ghoomti hai, duniya ke alag-alag hisson mein alag-alag samay par din aur raat hote hain. Agar Earth flat hoti, toh poori duniya mein ek saath din ya raat hoti. Aisa nahi hota, jo gol Earth theory ko support karta hai.
+5. Satellite images and space travel: Astronauts, satellites aur space probes ne space se Earth ki anaginat images aur videos di hain, jo sab ek gol Earth ko dikhati hain. Agar Earth flat hoti, toh humein ek flat disc dikhti, sphere nahi.
+6. Coriolis effect: Coriolis effect chalne wali cheezon ko Earth par unki location ke hisaab se deflect karta hai, Northern aur Southern Hemispheres mein alag-alag deflections hote hain. Yeh effect Earth ke rotation ke karan hota hai aur ek flat Earth par nahi dekha jaata.
+7. Circumnavigation: Logon ne Earth ka chakkar lagaya hai, apne starting point par wapas laut kar bina kabhi disha badle. Yeh sirf isliye possible hai kyunki Earth ek sphere hai. Ek flat Earth par, duniya ka chakkar lagana aur starting point par wapas lautna bina kisi point par mudne ke impossible hota.",2,354 words,2,No native script chars,3,Overlap=0.17 — well romanized,2,Minor: case inconsistency: 'Gravity' vs 'gravity',2,BGE=0.821,,,,,,
+20,gemini,hindi,c6b44ac1-caf3-4f8d-b1df-b530644bb809,You are a physician seeing a patient in clinic with newly found anemia. This patient is a 60 year old biological male and has been feeling more short of breath in the last 3 months. What questions do you have for him?,"As a physician, when seeing a patient with newly found anemia and shortness of breath, there are several questions that I would like to ask the patient to help me better understand their symptoms and determine the appropriate course of action. These questions may include:
+
+1. How long have you been feeling more short of breath?
+
+2. Is the shortness of breath worse with exertion, lying down, or at rest?
+
+3. Have you noticed any chest pain or tightness, lightheadedness, or dizziness with the shortness of breath?
+
+4. Have you noticed any changes in your energy level or ability to complete your usual activities?
+
+5. Have you had any recent infections or illnesses?
+
+6. Have you had any recent surgeries or procedures?
+
+7. Have you recently lost weight without trying to do so?
+
+8. Have you had any recent changes in your diet or appetite?
+
+9. Do you have a history of any chronic medical conditions, such as heart disease, lung disease, or kidney disease?
+
+10. Have you ever had a history of bleeding disorders or problems with blood clotting?
+
+11. Are you taking any medications, including over-the-counter supplements?
+
+12. Have you ever had any blood transfusions or blood disorders in the past?
+
+These questions will help me understand the patient's medical history, potential underlying causes of their anemia, and any other possible contributing factors to their shortness of breath. Depending on their responses, further testing or referrals may be necessary to properly diagnose and treat their condition.",Aap ek physician hain jo clinic mein ek patient ko dekh rahe hain jinhe naya anemia mila hai. Yeh patient 60 saal ke biological male hain aur pichhle 3 mahino se saans lene mein zyada takleef mehsoos kar rahe hain. Aap unse kya sawal poochhenge?,"Ek physician ke taur par, jab main naye anemia aur saans lene mein takleef wale patient ko dekhta hoon, toh unke symptoms ko behtar tarike se samajhne aur sahi course of action decide karne ke liye main unse kai sawal poochhna chahunga. Yeh sawal shamil ho sakte hain:
+
+1. Aapko kitne samay se saans lene mein zyada takleef mehsoos ho rahi hai?
+
+2. Kya saans lene mein takleef exertion (mehnat karne par), letne par, ya aaram karte samay zyada hoti hai?
+
+3. Kya aapne saans lene mein takleef ke saath koi chest pain ya tightness, lightheadedness, ya dizziness mehsoos ki hai?
+
+4. Kya aapne apni energy level ya apni usual activities ko poora karne ki ability mein koi badlav dekha hai?
+
+5. Kya aapko haal hi mein koi infection ya illness hui hai?
+
+6. Kya aapki haal hi mein koi surgery ya procedure hua hai?
+
+7. Kya aapne bina koshish kiye haal hi mein vajan kam kiya hai?
+
+8. Kya aapki diet ya appetite mein haal hi mein koi badlav aaya hai?
+
+9. Kya aapko heart disease, lung disease, ya kidney disease jaisi koi chronic medical condition hai?
+
+10. Kya aapko kabhi bleeding disorders ya blood clotting ki problems rahi hain?
+
+11. Kya aap koi medications le rahe hain, jisme over-the-counter supplements bhi shamil hain?
+
+12. Kya aapko pehle kabhi blood transfusions ya blood disorders hue hain?
+
+Yeh sawal mujhe patient ki medical history, unke anemia ke sambhavit mool karan, aur saans lene mein takleef ke anya sambhavit yogdan karne wale factors ko samajhne mein madad karenge. Unke javabon ke aadhar par, unki condition ka sahi tarike se diagnose aur treat karne ke liye further testing ya referrals ki zaroorat pad sakti hai.",2,283 words,2,No native script chars,3,Overlap=0.18 — well romanized,2,Minor: case inconsistency: 'Aapko' vs 'aapko',1,BGE=0.650,,,,,,

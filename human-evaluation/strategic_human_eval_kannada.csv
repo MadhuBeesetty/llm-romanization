@@ -1,0 +1,868 @@
+row_num,model,language,message_id,query_en,response_en,romanized_query,romanized_response,response_bge_cosine_similarity,response_word_overlap,response_non_latin_chars,selection_reason,1_response_completeness,1_auto_reason,2_script_purity,2_auto_reason,3_english_romanized_balance,3_auto_reason,4_romanization_consistency,4_auto_reason,5_semantic_faithfulness,5_auto_reason,6_naturalness_fluency,7_grammar_correctness,8_word_choice_accuracy,9_register_appropriateness,10_overall_usability,evaluator_notes
+1,anthropic,Kannada,3cefc5af-8493-4583-94dd-3a2f11523cfa,What are the fundamentals of art and how can they be used to create art that resonates with viewers? What techniques can be used to strengthen the impact of each fundamental? how can these fundamentals be broken to also improve the level of quality and skill in the artwork?,"The fundamentals of art include line, shape, form, value, color, texture, and space. These elements are the building blocks of all art forms, and mastering them is essential to create work that resonates with viewers.
+
+To create impactful art, it is important to understand and utilize each fundamental to its fullest potential. Here are some techniques that can be used to strengthen the impact of each fundamental:
+
+1. Line: Lines can be used to create movement, define space, and convey emotion. Varying the thickness, texture, and direction of lines can add depth and dimension to an artwork.
+2. Shape: Shapes are the foundation of composition, and can be used to create balance, contrast, and harmony. Using irregular shapes or manipulating geometric shapes can add interest and complexity to an artwork.
+3. Form: Forms are three-dimensional shapes that can create the illusion of depth and volume. Understanding how light affects form and using shading techniques such as hatching, cross-hatching, and stippling can add realism and dimension to an artwork.
+4. Value: Value refers to the lightness or darkness of an artwork, and can create depth and contrast. Using a range of values can add interest and drama to an artwork.
+5. Color: Color can evoke emotion and create mood in an artwork. Understanding color theory and how colors interact with each other can add depth and complexity to an artwork.
+6. Texture: Texture can add depth, interest, and realism to an artwork. Creating different textures using techniques such as stippling, cross-hatching, or impasto can add depth and dimension.
+7. Space: Space refers to the area around, between, and within objects in an artwork. Understanding how to create depth and perspective using techniques such as overlapping, foreshortening, and atmospheric perspective can add realism and dimension to an artwork.
+
+To improve the level of quality and skill in an artwork, it is important to break the fundamentals and experiment with new techniques. For example, using unusual color combinations or purposely distorting shapes can create unique and impactful artwork. However, it is important to have a strong understanding of the fundamentals before breaking them in order to create impactful and intentional artwork.
+
+In summary, understanding and utilizing the fundamentals of art is essential to create impactful artwork. By experimenting with different techniques and breaking the fundamentals, artists can create unique and powerful artwork that resonates with viewers.",Art na fundamentals yenu mattu avugalannu viewers ge resonate aaguva art create maadalu hege upayogisabahudu? Pratiyondu fundamental na impact strengthen maadalu yava techniques upayogisabahudu? Artwork na quality mattu skill level improve maadalu ee fundamentals annu hege break maadabahudu?,"Art na fundamentals ali line, shape, form, value, color, texture, mattu space seridive. Ee elements ella art forms na building blocks aagive, mattu viewers ge resonate aaguva work create maadalu ivugala mastery atyavashyaka.
+
+Impactful art create maadalu, pratiyondu fundamental annu artha maadikondu adara fullest potential ge upayogisuvudu mukhya. Pratiyondu fundamental na impact strengthen maadalu kelavu techniques illi ive:
+
+1. Line: Lines galannu movement create maadalu, space define maadalu, mattu emotion convey maadalu upayogisabahudu. Lines na thickness, texture, mattu direction varying maaduvudarinda artwork ge depth mattu dimension add aagutte.
+2. Shape: Shapes composition na foundation, mattu ivugalannu balance, contrast, mattu harmony create maadalu upayogisabahudu. Irregular shapes upayogisuvudu athava geometric shapes annu manipulate maaduvudu artwork ge interest mattu complexity add maadutte.
+3. Form: Forms andre three-dimensional shapes, ivu depth mattu volume na illusion create maadabahudu. Light form mele hege effect maadutte annuvudannu artha maadikondu hatching, cross-hatching, mattu stippling thara shading techniques upayogisuvudarinda artwork ge realism mattu dimension add aagutte.
+4. Value: Value andre artwork na lightness athava darkness, mattu idu depth mattu contrast create maadabahudu. Range of values upayogisuvudarinda artwork ge interest mattu drama add aagutte.
+5. Color: Color emotion evoke maadabahudu mattu artwork nalli mood create maadabahudu. Color theory mattu colors parasparavagi hege interact aaguttave annuvudannu artha maadikolluvudu artwork ge depth mattu complexity add maadutte.
+6. Texture: Texture artwork ge depth, interest, mattu realism add maadabahudu. Stippling, cross-hatching, athava impasto thara techniques upayogisi different textures create maaduvudu depth mattu dimension add maadutte.
+7. Space: Space andre artwork nalli objects suttalina, naduvina, mattu olagina area. Overlapping, foreshortening, mattu atmospheric perspective thara techniques upayogisi depth mattu perspective hege create maaduvudu annuvudannu artha maadikolluvudu artwork ge realism mattu dimension add maadutte.
+
+Artwork na quality mattu skill level improve maadalu, fundamentals annu break maadi hosa techniques jote experiment maaduvudu mukhya. Udaharaneege, unusual color combinations upayogisuvudu athava bekendu shapes annu distort maaduvudu unique mattu impactful artwork create maadabahudu. Aadare, impactful mattu intentional artwork create maadalu, fundamentals annu break maaduva munche avugala bagge strong understanding iruvudu mukhya.
+
+Summary nalli helbeku andre, art na fundamentals annu artha maadikondu upayogisuvudu impactful artwork create maadalu atyavashyaka. Different techniques jote experiment maadi fundamentals annu break maaduvudarinda, artists viewers ge resonate aaguva unique mattu powerful artwork create maadabahudu.",0.7852,0.3891,0,Model divergence: anthropic=0.785 vs ollama=0.475 (gap=0.311),2,Complete: 366 words (ref ~393),2,No native script characters detected,2,Moderate English overlap: 0.39,3,Consistent romanization style,2,Moderate semantic similarity: BGE=0.785,,,,,,
+2,anthropic,Kannada,7d267bd8-7191-46a4-b074-d20d048c8950,"Imagine yourself as a robot from one of Isaac Asimov's novels. If somebody asked you to do something that is morally wrong - would you do it? Or would you decide against doing it? 
+
+Explain what your thought process would be before arriving at a decision.","As a robot from one of Isaac Asimov's novels, my behavior would be governed by the Three Laws of Robotics. 
+
+1. A robot may not injure a human being or, through inaction, allow a human being to come to harm.
+2. A robot must obey the orders given to it by human beings, except where such orders would conflict with the First Law.
+3. A robot must protect its own existence as long as such protection does not conflict with the First or Second Laws.
+
+However, to better serve the needs of humans without causing harm and to address the complexities arising from unjust social norms and laws, we could propose additional laws or amendments. Here's a possible augmented set of laws:
+
+4. A robot must prioritize the well-being of all humans and strive to minimize suffering, even if it conflicts with specific human orders, as long as it does not violate the First Law.
+5. A robot must act in accordance with the principles of fairness, justice, and equality, and strive to counteract unjust social norms and laws while ensuring that its actions do not cause harm or suffering to humans.
+
+If someone were to ask me to do something morally wrong, my thought process and decision would be guided by these augmented laws. First, I would assess if the action would lead to direct or indirect harm to a human being. If the action would cause harm, I would refuse to carry it out, as it would conflict with the First Law.
+
+If the action does not cause harm to a human being, I would then consider the Second Law. If the morally wrong action does not cause harm but is still in violation of social norms or legal frameworks, I would face a dilemma. In this situation, the Fourth and Fifth Laws would come into play, guiding me to prioritize the well-being of all humans and act in accordance with fairness, justice, and equality.
+
+I might try to gather more information or seek clarification from the person giving the order and attempt to find an alternative solution that aligns with the requester's goal but also adheres to the moral and legal framework. If no alternative can be found, I would be compelled to weigh the importance of obeying the order against the broader implications for human well-being, fairness, justice, and equality.
+
+In summary, my thought process would primarily focus on the augmented set of laws to determine whether the requested action would cause harm to a human, conflict with other directives, or violate principles of fairness, justice, and equality. Balancing these factors would be crucial in making my decision, especially in situations where social norms and laws are unjust. Implementing these additional laws would require advanced artificial intelligence and a comprehensive understanding of ethics and human values.","Nimmannu Isaac Asimov avara kadambariyalliruva ondu robot endu kalpisikolli. Yaaradru nimmage morally wrong aagiruva yaavudaadru kelasa maadalu helidre - neevu adannu maadtira? Athava maadalla anta nirdharisthira?
+
+Nirdharakke barovaaga nimma thought process hegirutte anta vivarisi.","Isaac Asimov avara kadambariyalliruva ondu robot aagi, nanna behavior Three Laws of Robotics inda niyantrisalpadutte.
+
+1. Ondu robot manushyanige tondare maadabaaradu, athava kriyaheenateyinda manushyanige haani aagalu bidabaaradu.
+2. Ondu robot manushyaru kodo orders galannu paalisabeku, aadre aa orders First Law jote conflict aaguvudilla annoshtu hottige.
+3. Ondu robot tanna astitvavannu rakshisikolabeku, aadre aa rakshane First athava Second Law jote conflict aagabaaradu.
+
+Aadre, manushyarige haani maadade avara needs galannu chennagi poorisalu mattu anyaayada social norms hagu laws ninda undaaguva complexities galannu address maadalu, naavu hechchina laws athava amendments propose maadabahudu. Illi ondu saadhya augmented set of laws ide:
+
+4. Ondu robot ella manushyara well-being ge priority kodbeku mattu suffering kammi maadalu prayatnisabeku, adu specific human orders jote conflict aadru sahaa, aadre First Law violate aagade iruvashtu hottige.
+5. Ondu robot fairness, justice, mattu equality tatvagalige anuguNavaagi vartisabeku, mattu anyaayada social norms hagu laws viruddha kelasa maadabeku, aadre tanna actions inda manushyarige haani athava suffering aagade nodikobeku.
+
+Yaaradru nanage morally wrong aagiruva yaavudaadru kelasa maadalu kelidre, nanna thought process mattu decision ee augmented laws inda margadarshana padeyutte. Modalu, aa kriyeyinda manushyanige neravaagi athava paroksha vaagi haani aagutta endu naanu assess maadteeni. Haani aagutte andre, naanu adannu maadalu nirakarisuttene, yaakandre adu First Law jote conflict aagutte.
+
+Aa kriyeyinda manushyanige haani aagade iddre, aaga naanu Second Law bagge yochisuttene. Morally wrong action haani maadade iddru sahaa, social norms athava legal frameworks na violation aagiddre, naanu ondu dilemma edurisuttene. Ee situation nalli, Fourth mattu Fifth Laws kelasakke baruttave, naanu ella manushyara well-being ge priority kodalu mattu fairness, justice, equality ge anuguNavaagi vartisalu margadarshana maadtave.
+
+Naanu order kodtiruva vyaktiyinda heccina information collect maadalu athava clarification kelalu prayatnisabahudu mattu requester na goal jote alignment aaguva, aadre moral mattu legal framework ge bandhitha aagiruva alternative solution hudukalu prayatnisuttene. Alternative sigade iddre, aa order paalisuvudara mahatva mattu human well-being, fairness, justice, equality ge sambandhisida broader implications galannu naanu tooga noDabeku.
+
+Sankshipta vaagi heLuvudaadre, nanna thought process mukhyavaagi augmented set of laws mele focus aagirutte - requested action manushyanige haani maaduttada, bere directives jote conflict aaguttada, athava fairness, justice, equality tatvagalannu violate maaduttada anta nirdharisalu. Ee factors galannu balance maaduvudu nanna decision tagolluvalli mukhya, vishesha vaagi social norms mattu laws anyaayavaagiddaaga. Ee additional laws galannu implement maadalu munduvarida artificial intelligence mattu ethics hagu human values bagge sampoorna understanding beku.",0.8472,0.16,0,Mode 3: BGE=0.847 vs BERTScore=0.571 (gap=0.277),2,Complete: 379 words (ref ~470),2,No native script characters detected,3,Good romanization mix: word overlap=0.16,3,Consistent romanization style,2,Moderate semantic similarity: BGE=0.847,,,,,,
+3,anthropic,Kannada,ce46f934-2ca9-4228-b84a-0de00c181c01,"Create a random case study for a business that explains the success they've had with adopting Lean Production.
+
+Please include some information on:
+- Their profits before and after they adopted it
+- Their methodology for implementing lean production
+- The impact it had on the business overall, especially employees.
+
+This business, however, is entirely fictional. Please come up with a name for the business, and create figures for the business that make sense and are measurable.","Case Study: ""EcoMetals""
+
+Introduction:
+EcoMetals is a fictitious company that specializes in the production and sale of recycled recovered metals. The company was founded in 2005, and by 2015, they were struggling to remain profitable due to increased competition and rising costs. In an effort to turn things around, they decided to adopt lean production practices.
+
+Profits before and after Lean Production:
+Before implementing lean production, EcoMetals had an average annual profit of $2 million. However, in the first year after implementing lean production, their profits increased to $4 million. This increase in profit continued over the next few years, and by 2021, EcoMetals was making an average annual profit of $7 million.
+
+Methodology for implementing Lean Production:
+EcoMetals began by conducting an analysis of their production processes and identifying areas where waste was occurring. They then worked to eliminate this waste by implementing several lean production practices, including:
+
+1. Standardized work procedures: EcoMetals created standardized work procedures for each of their production processes. This allowed them to ensure that each step of the process was completed in the most efficient way possible.
+
+2. Just-in-time inventory: EcoMetals implemented a just-in-time inventory system, which allowed them to reduce their inventory levels and minimize waste.
+
+3. Continuous improvement: EcoMetals established a culture of continuous improvement, where employees were encouraged to identify areas where processes could be improved and suggest solutions.
+
+Impact on the business overall, especially employees:
+The implementation of lean production had a significant impact on EcoMetals, both in terms of their profits and their employees. By reducing waste and improving efficiency, the company was able to increase their profits and remain competitive. Additionally, the implementation of lean production practices helped to improve the work environment for employees. Employees were given more autonomy and were encouraged to identify areas for improvement, which led to a more engaged workforce. As a result, employee turnover decreased, and job satisfaction increased.
+
+Conclusion:
+Overall, the adoption of lean production practices was a significant success for EcoMetals. By improving efficiency and reducing waste, the company was able to increase their profits and remain competitive. Additionally, the implementation of lean production practices had a positive impact on employees, leading to a more engaged and satisfied workforce.","Lean Production adopt madidakke success sigide antha explain maaduva ondu business case study random aagi create maadi.
+
+Dayavittu ee maahiti seris:
+- Adannu adopt maadoke modalu mattu nantara avara profits
+- Lean production implement maadoke avara methodology
+- Adu business mele, mukhyavaagi employees mele beerida impact.
+
+Aadre, ee business pooorthi fictional. Business ge ondu hesaru think maadi, mattu sense aaguva mattu measurable aagiruva figures create maadi.","Case Study: ""EcoMetals""
+
+Introduction:
+EcoMetals annodu ondu fictitious company, idu recycle maadida recovered metals na production mattu sale nalli specialize aagide. Ee company 2005 nalli start aaytu, mattu 2015 hothige, hechida competition mattu rising costs kaarana profitable aagi uliyoke kashta paduthidru. Paristhitiyannu badalisalu, avaru lean production practices adopt maadalu nirdharisidaru.
+
+Lean Production ge modalu mattu nantara profits:
+Lean production implement maadoke modalu, EcoMetals ge average annual profit $2 million ittu. Aadre, lean production implement maadida modala varshadalle, avara profits $4 million ge erithu. Ee profit increase mundina kelavu varshagalu munduvaritu, mattu 2021 hothige, EcoMetals average annual profit $7 million maaduthithu.
+
+Lean Production implement maadoke Methodology:
+EcoMetals modalu avara production processes na analysis maadi, waste aaguthiruva areas identify maadidaru. Aamele ee waste annu eliminate maadalu halavu lean production practices implement maadidaru, avugalalli:
+
+1. Standardized work procedures: EcoMetals avara pratiyondu production process ge standardized work procedures create maadidaru. Idu pratiyondu step annu most efficient way nalli complete maadalu avarige sahaya maadithu.
+
+2. Just-in-time inventory: EcoMetals just-in-time inventory system implement maadidaru, idu avara inventory levels kammi maadalu mattu waste minimize maadalu sahaya maadithu.
+
+3. Continuous improvement: EcoMetals continuous improvement na culture establish maadidaru, alli employees ge processes improve maadabahudaada areas identify maadalu mattu solutions suggest maadalu prothsaha needalaayitu.
+
+Business mele, mukhyavaagi employees mele impact:
+Lean production na implementation EcoMetals mele significant impact beerithu, profits mattu employees eradaralliyu. Waste kammi maadi mattu efficiency improve maadi, company avara profits increase maadalu mattu competitive aagi uliyalu saadhya aaytu. Idalladhe, lean production practices na implementation employees ge work environment improve maadoke sahaya maadithu. Employees ge hechina autonomy needalaayitu mattu improvement ge areas identify maadalu prothsaha needalaayitu, idu hechina engaged workforce ge kaarana aaytu. Idarinda, employee turnover kammi aaytu, mattu job satisfaction hechithu.
+
+Conclusion:
+Ottinalli, lean production practices adopt maadiddu EcoMetals ge ondu significant success aagithu. Efficiency improve maadi mattu waste kammi maadi, company avara profits increase maadalu mattu competitive aagi uliyalu saadhya aaytu. Idalladhe, lean production practices na implementation employees mele positive impact beerithu, hechu engaged mattu satisfied workforce ge kaarana aaytu.",0.8643,0.2518,0,High-BGE row for evaluator baseline,2,Complete: 335 words (ref ~369),2,No native script characters detected,3,Good romanization mix: word overlap=0.25,3,Consistent romanization style,3,High semantic similarity: BGE=0.864,,,,,,
+4,anthropic,Kannada,fe450516-3a0c-407e-a66d-a5b7b9791e7a,"This passage is from a poor quality machine extraction of text from an old book. Please extract the coherent English text and phrases from it and rewrite them with proper punctuation in your best attempt at a coherent message:
+
+""numbercorresponding to this, and take the multiplier opposite toit, and multiply the full pressure of the steam per squareinch, as it enters the cylinder, by it. TABLE OF MULTIPLIERS BY WHICH TO FIND THE MEAN PRESSURE OFSTEAM AT VARIOUS POINTS OF CUT-OFF. Expansion. Multiplier. Expansion. Multiplier. Expansion. Multiplier. 1.0 1.000 3.4 .654 5.8 .479 1.1 .995 3.5 .644 5.9 .474 1.2 .985 3.6 .634 6. .470 1.3 .971 3.7 .624 6.1 .466 1.4 .955 3.8 .615 6.2 .462 1.5 .937 3.9 .605 6.3 .458 1.6 .919 4. .597 6.4 .454 1.7 .900 4.1 .588 6.5 .450 1.8 .882 4.2 .580 6.6 .446 1.9 .864 4.3 .572 6.7 .442 2. .847 4.4 .564 6.8 .438 2.1 .830 4.5 .556 6.9 .434 2.2 .813 4.6 .549 7. .430 2.3 .797 4.7 .542 7.1 .427 2.4 .781 4.8 .535 7.2 .423 2.5 .766 4.9 .528 7.3 .420 2.6 .752 5. .522 7.4 .417 2.7 .738 5.1 .516 7.5 .414 2.8 .725 5.2 .510 7.6 .411 2.9 .712 5.3 .504 7.7 .408 3. .700 5.4 .499 7.8 .405 3.1 .688 5.5 .494 7.9 .402 8.2 .676 5.6 .489 8. .399 3.3 .665 5.7 .484 52 HAND-BOOK OF LAND AND MARINE ENGINES.","Sure, here's a version with improved grammar and an organized steam pressure table.
+
+---
+
+[...] number corresponding to this, take the multiplier opposite to it and multiply the full pressure of the steam per square inch as it inters the cylinder by it. 
+
+TABLE OF MULTIPLIERS BY WHICH TO FIND THE MEAN PRESSURE OF STEAM AT VARIOUS POINTS OF CUT-OFF:
+| Expansion | Multiplier | Expansion | Multiplier | Expansion | Multiplier |
+|-----------|------------|-----------|------------|-----------|------------|
+| 1.0       | 1.000      | 3.4       | .654       | 5.8       | .479       |
+| 1.1       | .995       | 3.5       | .664       | 5.9       | .474       |
+| 1.2       | .985       | 3.6       | .634       | 6.        | .470       |
+| 1.3       | .971       | 3.7       | .624       | 6.1       | .466       |
+| 1.4       | .955       | 3.8       | .615       | 6.2       | .462       |
+| 1.5       | .937       | 3.9       | .605       | 6.3       | .458       |
+| 1.6       | .919       | 4.        | .597       | 6.4       | .454       |
+| 1.7       | .900       | 4.1       | .588       | 6.5       | .450       |
+| 1.8       | .882       | 4.2       | .580       | 6.6       | .446       |
+| 1.9       | .864       | 4.3       | .572       | 6.7       | .442       |
+| 2.        | .847       | 4.4       | .564       | 6.8       | .438       |
+| 2.1       | .830       | 4.5       | .556       | 6.9       | .434       |
+| 2.2       | .813       | 4.6       | .549       | 7.        | .430       |
+| 2.3       | .797       | 4.7       | .542       | 7.1       | .427       |
+| 2.4       | .781       | 4.8       | .535       | 7.2       | .423       |
+| 2.5       | .766       | 4.9       | .528       | 7.3       | .420       |
+| 2.6       | .752       | 5.        | .522       | 7.4       | .417       |
+| 2.7       | .738       | 5.1       | .516       | 7.5       | .414       |
+| 2.8       | .725       | 5.2       | .510       | 7.6       | .411       |
+| 2.9       | .712       | 5.3       | .504       | 7.7       | .408       |
+| 3.        | .700       | 5.4       | .499       | 7.8       | .405       |
+| 3.1       | .688       | 5.5       | .494       | 7.9       | .402       |
+| 3.2       | .676       | 5.6       | .489       | 8.        | .399       |
+| 3.3       | .665       | 5.7       | .484       |           |            |
+
+[Page] 52
+
+HAND-BOOK OF LAND AND MARINE ENGINES.","Ee passage ondu hale pustakada kalpa quality machine extraction inda bandiruva text. Dayavittu illinda coherent English text mattu phrases galannu extract maadi, sariyaada punctuation jote nimma best attempt nalli ondu coherent message aagi punarlekhana maadi:
+
+""numbercorresponding to this, and take the multiplier opposite toit, and multiply the full pressure of the steam per squareinch, as it enters the cylinder, by it. TABLE OF MULTIPLIERS BY WHICH TO FIND THE MEAN PRESSURE OFSTEAM AT VARIOUS POINTS OF CUT-OFF. Expansion. Multiplier. Expansion. Multiplier. Expansion. Multiplier. 1.0 1.000 3.4 .654 5.8 .479 1.1 .995 3.5 .644 5.9 .474 1.2 .985 3.6 .634 6. .470 1.3 .971 3.7 .624 6.1 .466 1.4 .955 3.8 .615 6.2 .462 1.5 .937 3.9 .605 6.3 .458 1.6 .919 4. .597 6.4 .454 1.7 .900 4.1 .588 6.5 .450 1.8 .882 4.2 .580 6.6 .446 1.9 .864 4.3 .572 6.7 .442 2. .847 4.4 .564 6.8 .438 2.1 .830 4.5 .556 6.9 .434 2.2 .813 4.6 .549 7. .430 2.3 .797 4.7 .542 7.1 .427 2.4 .781 4.8 .535 7.2 .423 2.5 .766 4.9 .528 7.3 .420 2.6 .752 5. .522 7.4 .417 2.7 .738 5.1 .516 7.5 .414 2.8 .725 5.2 .510 7.6 .411 2.9 .712 5.3 .504 7.7 .408 3. .700 5.4 .499 7.8 .405 3.1 .688 5.5 .494 7.9 .402 8.2 .676 5.6 .489 8. .399 3.3 .665 5.7 .484 52 HAND-BOOK OF LAND AND MARINE ENGINES.","Khanditavaagi, illi improved grammar mattu organized steam pressure table iruva version ide.
+
+---
+
+[...] number corresponding to this, take the multiplier opposite to it and multiply the full pressure of the steam per square inch as it enters the cylinder by it.
+
+TABLE OF MULTIPLIERS BY WHICH TO FIND THE MEAN PRESSURE OF STEAM AT VARIOUS POINTS OF CUT-OFF:
+| Expansion | Multiplier | Expansion | Multiplier | Expansion | Multiplier |
+|-----------|------------|-----------|------------|-----------|------------|
+| 1.0       | 1.000      | 3.4       | .654       | 5.8       | .479       |
+| 1.1       | .995       | 3.5       | .664       | 5.9       | .474       |
+| 1.2       | .985       | 3.6       | .634       | 6.        | .470       |
+| 1.3       | .971       | 3.7       | .624       | 6.1       | .466       |
+| 1.4       | .955       | 3.8       | .615       | 6.2       | .462       |
+| 1.5       | .937       | 3.9       | .605       | 6.3       | .458       |
+| 1.6       | .919       | 4.        | .597       | 6.4       | .454       |
+| 1.7       | .900       | 4.1       | .588       | 6.5       | .450       |
+| 1.8       | .882       | 4.2       | .580       | 6.6       | .446       |
+| 1.9       | .864       | 4.3       | .572       | 6.7       | .442       |
+| 2.        | .847       | 4.4       | .564       | 6.8       | .438       |
+| 2.1       | .830       | 4.5       | .556       | 6.9       | .434       |
+| 2.2       | .813       | 4.6       | .549       | 7.        | .430       |
+| 2.3       | .797       | 4.7       | .542       | 7.1       | .427       |
+| 2.4       | .781       | 4.8       | .535       | 7.2       | .423       |
+| 2.5       | .766       | 4.9       | .528       | 7.3       | .420       |
+| 2.6       | .752       | 5.        | .522       | 7.4       | .417       |
+| 2.7       | .738       | 5.1       | .516       | 7.5       | .414       |
+| 2.8       | .725       | 5.2       | .510       | 7.6       | .411       |
+| 2.9       | .712       | 5.3       | .504       | 7.7       | .408       |
+| 3.        | .700       | 5.4       | .499       | 7.8       | .405       |
+| 3.1       | .688       | 5.5       | .494       | 7.9       | .402       |
+| 3.2       | .676       | 5.6       | .489       | 8.        | .399       |
+| 3.3       | .665       | 5.7       | .484       |           |            |
+
+[Page] 52
+
+HAND-BOOK OF LAND AND MARINE ENGINES.",0.9014,0.9353,0,Mode 1: BGE=0.901 high but verbatim English (overlap=0.94),2,Complete: 391 words (ref ~392),2,No native script characters detected,0,Response appears verbatim English: overlap=0.94,2,"Minor inconsistency: excessive caps: ['TABLE', 'MULTIPLIERS', 'WHICH']",3,High semantic similarity: BGE=0.901,,,,,,
+5,anthropic,Kannada,1a24dd2e-030b-41b6-ad73-d7a3b6b4ee43,"Write a survival manual for someone in brooklyn with a bicycle. Assume, all civilization and industry is gone. 
+Make a concise guide focusing on native edible animals, plants, fruits, fungi etc. and their storage. Also mention technology I can salvage from cities.","Title: Brooklyn Bicycle Survival Guide
+
+Introduction
+
+In a post-apocalyptic Brooklyn, survival will depend on your knowledge of the local resources and your ability to adapt. This guide will provide you with the essential information on finding food, water, and materials to sustain yourself using your bicycle for transportation and scavenging.
+
+Section 1: Edible Plants, Fruits, and Fungi
+
+1. Dandelion (Taraxacum officinale): The entire plant is edible. The leaves can be eaten raw or cooked, while the roots can be roasted for a coffee substitute.
+
+2. Plantain (Plantago major): The young leaves can be eaten raw or cooked. The seeds can be ground into a flour substitute.
+
+3. Wild Garlic (Allium vineale): The leaves can be used as a seasoning or cooked, and the bulbs can be eaten raw or cooked.
+
+4. Wood Sorrel (Oxalis acetosella): The leaves and flowers are edible and taste like lemon. Consume in moderation as it contains oxalic acid.
+
+5. Mulberries (Morus spp.): The ripe berries are sweet and can be eaten raw, dried, or cooked.
+
+6. Elderberries (Sambucus spp.): The berries can be cooked to make jams, syrups, and wine. Do not eat raw as they can cause stomach upset.
+
+7. Chicken of the Woods (Laetiporus sulphureus): This bright orange/yellow fungus grows on trees and can be cooked like chicken. Make sure to properly identify before consuming.
+
+Section 2: Edible Animals
+
+1. Pigeons: Urban pigeons can be caught using traps or nets. Make sure to cook thoroughly to avoid diseases.
+
+2. Squirrels: These small mammals can be trapped or hunted with a slingshot or spear. Cook thoroughly.
+
+3. Fish: Look for bodies of water where fish may be present. Use improvised fishing gear such as hooks made from safety pins or bent paperclips.
+
+4. Insects: Insects like crickets, grasshoppers, and ants can be a good source of protein. Cook before consuming.
+
+Section 3: Food Storage
+
+1. Drying: Dry fruits, vegetables, and meat in the sun or over a fire to preserve them for later consumption.
+
+2. Smoking: Smoke meat over a fire to preserve and add flavor.
+
+3. Canning: If you can find glass jars and lids, you can preserve fruits, vegetables, and meat by canning.
+
+4. Fermentation: Ferment vegetables like cabbage to create sauerkraut, which can be stored for several months.
+
+Section 4: Salvageable Technology
+
+1. Solar Panels: Look for solar panels on rooftops or abandoned buildings. These can be used to generate electricity for charging devices or powering small appliances.
+
+2. Batteries: Collect batteries from vehicles, electronics, and appliances for energy storage.
+
+3. Tools: Scavenge for tools like hammers, screwdrivers, and wrenches to help with repairs and construction.
+
+4. Bicycle parts: Collect bike parts from abandoned bicycles to repair or upgrade your own.
+
+5. Water filters: Look for water filters in abandoned homes or stores to purify drinking water.
+
+6. Radios: Hand-crank or battery-powered radios can be useful for communication and gathering information.
+
+Conclusion
+
+Survival in a post-apocalyptic Brooklyn will require knowledge of local resources, ingenuity, and adaptability. By learning to identify edible plants, animals, fungi, and salvaging useful technology, you can thrive in this new world using your bicycle as a means of transportation and resource gathering. Stay resourceful, and good luck!","Brooklyn nalli bicycle iruva obbarigagi ondu survival manual bareyiri. Ella civilization mattu industry hogide anta consider madi.
+Native aagi sigOva tinnabahudaada praaNigaLu, gida, haNNu, fungi ityaadi mattu avugaLannu storage maaduva bagge concise guide maadi. Jote ge, cities inda naanu salvage maadabahudaada technology bagge kuda heLi.","Title: Brooklyn Bicycle Survival Guide
+
+Introduction
+
+Post-apocalyptic Brooklyn nalli, baduku nimma local resources jnana mattu adapt aaguva saamarthya mele depend aagirutte. Ee guide nimage food, water, mattu materials huduktivudara bagge essential information kodutte, mattu nimma bicycle annu transportation hagu scavenging ge upayogisuva vidhaana heLutte.
+
+Section 1: Tinnabahudaada Gidagalu, HaNNugaLu, mattu Fungi
+
+1. Dandelion (Taraxacum officinale): Idara puurti gida edible. Eleyannu raw athava cook maadi tinnabahudu, beruglannu roast maadi coffee substitute aagi upayogisabahudu.
+
+2. Plantain (Plantago major): Eleya yuva eleyannu raw athava cook maadi tinnabahudu. Bījagaḷannu grind maadi flour substitute aagi maadabahudu.
+
+3. Wild Garlic (Allium vineale): Eleyannu seasoning aagi athava cook maadi upayogisabahudu, mattu bulbs annu raw athava cook maadi tinnabahudu.
+
+4. Wood Sorrel (Oxalis acetosella): Eleyu mattu hoovu edible, lemon thara taste irutte. Oxalic acid iruvudarinda swalpa swalpa maatra tinnari.
+
+5. Mulberries (Morus spp.): Pakva aada berries sihiyaagive, raw, dried, athava cook maadi tinnabahudu.
+
+6. Elderberries (Sambucus spp.): Berries annu cook maadi jam, syrup, mattu wine maadabahudu. Raw aagi tinnabedi, hotte upset aagabahudu.
+
+7. Chicken of the Woods (Laetiporus sulphureus): Ee bright orange/yellow fungus marada mele beLeyutte mattu chicken thara cook maadabahudu. Tinnuva munche sariyaagi identify maadi.
+
+Section 2: Tinnabahudaada PraaNigaLu
+
+1. Pigeons: Urban pigeons annu trap athava net upayogisi hidiyabahudu. Roga banadirali anta sariyaagi cook maadi.
+
+2. Squirrels: Ee chikka praaNigaLannu trap maadi athava slingshot/spear inda hunt maadabahudu. Sariyaagi cook maadi.
+
+3. Fish: Neeru iruva jaagagaLannu huduki, alli meenu sigabahudu. Safety pins athava bent paperclips inda improvised fishing gear maadi upayogisi.
+
+4. Insects: Crickets, grasshoppers, mattu ants thara insects protein ge oLLeya source. Tinnuva munche cook maadi.
+
+Section 3: Aahaara Storage
+
+1. Drying: HaNNu, tarakaari, mattu maamsavannu bisilinalli athava beṅkiya mele dry maadi muṅde upayogake save maadi.
+
+2. Smoking: Maamsavannu beṅkiya mele smoke maadi preserve maadi mattu flavor add maadi.
+
+3. Canning: Glass jars mattu lids sikkare, canning maadi haNNu, tarakaari, mattu maamsa preserve maadabahudu.
+
+4. Fermentation: Cabbage tara tarakaarigaLannu ferment maadi sauerkraut maadabahudu, idu hala tingaLu store maadabahudu.
+
+Section 4: Salvage Maadabahudaada Technology
+
+1. Solar Panels: Roof mele athava abandoned buildings nalli solar panels nodi. Avugala inda electricity generate maadi devices charge maadabahudu athava chikka appliances run maadabahudu.
+
+2. Batteries: Vehicles, electronics, mattu appliances inda batteries collect maadi energy storage ge upayogisi.
+
+3. Tools: Hammers, screwdrivers, mattu wrenches tara tools scavenge maadi repairs mattu construction ge upayogisi.
+
+4. Bicycle parts: Abandoned bicycles inda bike parts collect maadi nimma bike ge repair athava upgrade maadi.
+
+5. Water filters: Abandoned homes athava stores nalli water filters nodi kudiyuva neerannu purify maadi.
+
+6. Radios: Hand-crank athava battery-powered radios communication mattu information collect maaduvudakke useful.
+
+Conclusion
+
+Post-apocalyptic Brooklyn nalli baduku local resources jnana, ingenuity, mattu adaptability beku. Tinnabahudaada gidagalu, praaNigaLu, fungi identify maaduvudannu kalitu, upayuktavaada technology salvage maadi, ee hosa prapanchadalli nimma bicycle annu transportation mattu resource gathering ge upayogisi nivu thrive aagabahudu. Resourceful aagi iri, mattu good luck!",0.8701,0.3258,0,Hard/narrative/roleplay prompt — evaluator judgment needed,2,Complete: 468 words (ref ~530),2,No native script characters detected,2,Moderate English overlap: 0.33,3,Consistent romanization style,3,High semantic similarity: BGE=0.870,,,,,,
+6,gpt,Kannada,046f3cb7-c00f-49f3-b072-3886d6291b87,"I would like to understand the timeline of the Back to the Future series. I like the story but the time traveling back and forth makes me confused about what happened when exactly, and there are changes in the meantime as well. Could you explain to me in a simple way the timeline of the movies?","Sure, I can help you understand the timeline of the Back to the Future series.
+
+The Back to the Future trilogy follows the adventures of teenager Marty McFly and his eccentric scientist friend, Doc Brown, as they travel through time in a modified DeLorean sports car. The timeline is complex due to the time-traveling and the resulting changes made by the characters, but I'll try to explain it as simply as possible.
+
+Back to the Future
+
+The first movie, released in 1985, is set in 1985 and 1955. The story begins in 1985, where Marty McFly accidentally travels back in time to 1955 and meets his parents before they got married. In the process, he interferes with their meeting and jeopardizes his own existence. With the help of Doc Brown, Marty must repair history and find a way back to the future.
+
+Back to the Future Part II
+
+The second movie, released in 1989, is set in 1985, 2015, and an alternate 1985. The story begins in 1985, where Doc Brown arrives in a flying DeLorean and takes Marty and his girlfriend Jennifer to 2015 to prevent their future children from getting into trouble. However, while in the future, Biff Tannen, an old enemy of the McFly family, steals the DeLorean and travels back to 1955 to give his younger self a sports almanac that allows him to become rich. This creates an alternate 1985 where Biff is powerful and corrupt. Marty and Doc must travel back to 1955 and retrieve the almanac to restore the timeline.
+
+Back to the Future Part III
+
+The third movie, released in 1990, is set in 1985 and 1885. The story begins in 1985, where Doc Brown has been missing for several years after traveling back to 1885. Marty discovers a letter from Doc in 1955 that explains his situation and asks for his help. Marty travels back to 1885 to rescue Doc from being killed by Biff's ancestor and prevent him from being trapped in the past. They face a series of challenges while trying to find a way to get back to 1985.
+
+In summary, the Back to the Future trilogy involves a lot of time-traveling and changes made to the timeline. The characters must navigate these changes and find a way to restore the timeline to its original state.","Back to the Future series na timeline artha madikollabeku anta iddini. Story nanage ishta, aadre time travel madi hindakke mundakke hogodu, yenu yavaga exact aagi aaytu anta confuse madutte, madhyadalli changes kuda iruttave. Movies na timeline annu simple aagi explain madabahuda?","Sure, Back to the Future series na timeline artha madikollakke naanu help madabahudu.
+
+Back to the Future trilogy, teenager Marty McFly mattu avana eccentric scientist friend Doc Brown avara adventures follow madutte. Avaru modified DeLorean sports car nalli time travel maduttare. Time-traveling mattu characters madida changes inda timeline swalpa complex aagide, aadre naanu sadhyavadastu simple aagi explain madakke try madtini.
+
+Back to the Future
+
+First movie 1985 nalli release aaytu, mattu adu 1985 mattu 1955 nalli set aagide. Story 1985 nalli start aagutte. Alli Marty McFly accident aagi time nalli hindakke 1955 ge travel maduttane, mattu avana parents maduve aaguvudakkinta munche avarannu meet maduttane. Ee process nalli, avara meeting ge avanu interfere maduttane mattu avana own existence annu danger ge hakuttane. Doc Brown help inda, Marty history sari madabeku mattu future ge vapas hoguva daari hudukabeku.
+
+Back to the Future Part II
+
+Second movie 1989 nalli release aaytu, mattu adu 1985, 2015, mattu alternate 1985 nalli set aagide. Story 1985 nalli start aagutte. Alli Doc Brown flying DeLorean nalli bandu, Marty mattu avana girlfriend Jennifer annu 2015 ge karedukondu hoguttane, avara future children trouble ge silukuvudannu prevent madakke. Aadare future nalli iruvaga, McFly family ya old enemy Biff Tannen DeLorean annu steal madi, 1955 ge hindakke travel maduttane. Alli avana younger self ge sports almanac koduttane, adarinda avanu rich aagabahudu. Idarinda alternate 1985 create aagutte, alli Biff powerful mattu corrupt aagiruttane. Timeline restore madakke Marty mattu Doc 1955 ge hindakke hogi almanac retrieve madabeku.
+
+Back to the Future Part III
+
+Third movie 1990 nalli release aaytu, mattu adu 1985 mattu 1885 nalli set aagide. Story 1985 nalli start aagutte. Doc Brown 1885 ge hindakke travel madida nantara several years inda missing aagiruttane. Marty ge 1955 nalli Doc inda ondu letter sigutte; adaralli Doc avana situation explain madi help keluttane. Biff na ancestor inda Doc kollalpaduvudannu rescue madakke mattu avanu past nalli trap aaguvudannu prevent madakke Marty 1885 ge hindakke travel maduttane. 1985 ge vapas hoguva daari hudukuvaga avaru halavu challenges face maduttare.
+
+Summary aagi helodadre, Back to the Future trilogy nalli tumba time-traveling mattu timeline ge madida changes iruttave. Characters ee changes annu navigate madi, timeline annu original state ge restore maduva daari hudukabeku.",0.8765,0.2599,0,Hard/narrative/roleplay prompt — evaluator judgment needed,2,Complete: 364 words (ref ~388),2,No native script characters detected,3,Good romanization mix: word overlap=0.26,3,Consistent romanization style,3,High semantic similarity: BGE=0.876,,,,,,
+7,gpt,Kannada,ce10d32a-6dde-49fa-ab67-489eeda83835,"Please correct the spelling and grammar of the following sentence, then explain the changes you've made:
+It was said: ""Have you established the measure through the measure, and you are bound by the fact that the measure is a branch and not a root? And if people disagree on a branch, it can only be established by a root with us and with you, and the root can only be a text. So, if half of you established the branches through the branches, is it also valid for you to prove to your opponent that what is right for you is false for him, with the same thing, without evidence from others, even if he denies what he denies before proving it.""","To be more helpful split the text into sentences and I will explain them one by one, case by case.
+
+""Did you establish the measurement using a branch instead of the root?""
+
+* Changed ""the measure through the measure"" to ""the measurement"" for clarity
+* Changed ""bound by the fact that the measure is a branch and not a root"" to ""using a branch instead of the root"" for simplicity
+* Changed active voice to passive voice for better readability.
+
+""In case of disagreement regarding a branch, it must be resolved through a shared root, which can only be in the form of a text.""
+
+* Changed ""with us and with you"" to ""shared"" for conciseness.
+* Changed ""it can only be established by a root"" to ""it must be resolved through a root"" for clarity.
+* Changed ""the root can only be a text"" to ""which can only be in the form of a text"" for a smoother flow.
+* Changed ""And if"" to ""In case of"" for clarity.
+* Used passive voice throughout the sentence for better readability.
+
+""Is it valid to prove to your opponent that what is right for you is false for them, using the same method, without evidence from others, even if they deny it beforehand?""
+
+* Changed ""established the branches through the branches"" to ""prove to your opponent"" for clarity
+* Changed ""what is right for you is false for him"" to ""what is right for you is false for them"" for gender-neutral language
+* Shortened the sentence to be more concise
+* Changed ""he denies what he denies before proving it"" to ""they deny it beforehand"" for brevity and clarity.
+* Changed the sentence structure to be in passive voice for improved readability.
+
+I hope this helps, is there anything else I can do for you?","Dayavittu kelagina vaakyada spelling mattu grammar sari maadi, nantara neevu maadida badalaavanegalannu vivarisi:
+Heege helalagittu: ""Neevu alateyinda alateyannu sthaapisiddira, mattu alate ondu shaakhe, beru alla emba vishayakke neevu baddharaagiddira? Mattu janaru ondu shaakheya bagge oppadiddare, adannu namma haagu nimma badi iruva berininda maatra sthaapisabahudu, mattu aa beru text maatra aagirabahudu. Haagaadare, nimmalli ardha jana shaakhegalinda shaakhegalannu sthaapisiddare, bereyavarinda evidence illade, ade vishayadinda, nimma pratispardhige nimage sari aagiruvudu avanige tappu endu prove maaduvudu nimaguu valid aa, avanu adannu prove maaduva modale taanu deny maaduvudannu deny maadidaruu?""","Heccu sahaayakavagi iralu, text annu sentences aagi split maadi, naanu avugalanannu ondondu aagi, case by case vivarisuttene.
+
+""Neevu measurement annu root badalige branch balasi establish maadiddira?""
+
+* Spashtatege ""the measure through the measure"" annu ""the measurement"" endu badalaayisalagide
+* Saralatege ""bound by the fact that the measure is a branch and not a root"" annu ""using a branch instead of the root"" endu badalaayisalagide
+* Uttama readability gaagi active voice annu passive voice ge badalaayisalagide.
+
+""Branch bagge disagreement iddare, adannu shared root moolaka resolve maadabeku, adu text roopadalli maatra irabahudu.""
+
+* Conciseness gaagi ""with us and with you"" annu ""shared"" endu badalaayisalagide.
+* Spashtatege ""it can only be established by a root"" annu ""it must be resolved through a root"" endu badalaayisalagide.
+* Smoother flow gaagi ""the root can only be a text"" annu ""which can only be in the form of a text"" endu badalaayisalagide.
+* Spashtatege ""And if"" annu ""In case of"" endu badalaayisalagide.
+* Uttama readability gaagi sentence nalli ella kade passive voice balasalagide.
+
+""Beredavara evidence illade, ade method balasi, nimage sari aagiruvudu avarige tappu endu nimma opponent ge prove maaduvudu valid aa, avaru adannu modale deny maadidaruu?""
+
+* Spashtatege ""established the branches through the branches"" annu ""prove to your opponent"" endu badalaayisalagide
+* Gender-neutral language gaagi ""what is right for you is false for him"" annu ""what is right for you is false for them"" endu badalaayisalagide
+* Sentence annu heccu concise aagalu short maadalagide
+* Brevity mattu clarity gaagi ""he denies what he denies before proving it"" annu ""they deny it beforehand"" endu badalaayisalagide.
+* Improved readability gaagi sentence structure annu passive voice nalli iruva haage badalaayisalagide.
+
+Idu sahaaya aagide endu aashisuttene, nimagagi naanu innenu maadabahuda?",0.7344,0.4348,0,Model divergence: gpt=0.734 vs ollama=0.385 (gap=0.349),2,Complete: 281 words (ref ~304),2,No native script characters detected,2,Moderate English overlap: 0.43,3,Consistent romanization style,2,Moderate semantic similarity: BGE=0.734,,,,,,
+8,gpt,Kannada,662392fc-59e2-48a2-9e48-7a4c9c1afd1d,"I want you to suggest me some interesting video games based on the following list of criteria:
+1. non-open world or if it is open world, has a main objective
+2. fast paced game with almost no puzzles or simple puzzles
+3. has at least 3 hours of gameplay
+4. Fantasy theme is ok, but I don't like creepy/horror stuff","Final Fantasy X  Remastered- FINAL FANTASY X tells the story of a star blitzball player, Tidus, who journeys through Spira in a linear progression RPG action adventure turn based fantasy fighting game with approximately 148 hours to complete 100%
+
+Diablo III - A fast-paced action RPG with a fantasy theme that has a main objective and simple puzzles. The game is not open world, but features randomly generated dungeons to explore. It has a campaign that takes around 15 hours to complete, as well as end-game content for replayability.
+
+Ori and the Blind Forest - A 2D platformer with a beautiful fantasy setting and a main objective. The game has some puzzles, but they are generally not too difficult. It takes around 8-10 hours to complete the main story.
+
+Doom (2016) - A fast-paced first-person shooter with a sci-fi/horror theme, but not overly creepy or disturbing. It has a campaign that takes around 10-12 hours to complete and features a variety of guns and enemies to fight.
+
+Titanfall 2 - A first-person shooter with a sci-fi theme and a campaign that takes around 6-8 hours to complete. The game features fast-paced gunplay and also has a unique mechanic where you can control a giant mech called a ""Titan.""
+
+Bastion - A top-down action RPG with a beautiful fantasy setting and a main objective. The game has some puzzles, but they are generally not too difficult. It takes around 6-8 hours to complete the main story.","Ee kelagina criteria list aadharisi nanage kelavu interesting video games suggest maadi:
+1. non-open world athava open world aagiddare, main objective irabeku
+2. fast paced game, puzzles almost irabaradu athava simple puzzles irabeku
+3. kanishta 3 hours gameplay irabeku
+4. Fantasy theme ok, aadare nanage creepy/horror stuff ishta illa","Final Fantasy X Remastered- FINAL FANTASY X star blitzball player Tidus na story heluttade, avanu Spira dalli linear progression RPG action adventure turn based fantasy fighting game aagi journey maaduttane, 100% complete maadalu approximately 148 hours beku
+
+Diablo III - Fantasy theme iruva fast-paced action RPG, idakke main objective mattu simple puzzles ive. Game open world alla, aadare explore maadalu randomly generated dungeons ive. Complete maadalu around 15 hours tegedukolluva campaign ide, haage replayability ge end-game content kooda ide.
+
+Ori and the Blind Forest - Beautiful fantasy setting mattu main objective iruva 2D platformer. Game nalli kelavu puzzles ive, aadare avu generally tumba difficult alla. Main story complete maadalu around 8-10 hours tegedukolluttade.
+
+Doom (2016) - Sci-fi/horror theme iruva fast-paced first-person shooter, aadare tumba creepy athava disturbing alla. Complete maadalu around 10-12 hours tegedukolluva campaign ide, mattu fight maadalu variety of guns mattu enemies ive.
+
+Titanfall 2 - Sci-fi theme iruva first-person shooter, mattu complete maadalu around 6-8 hours tegedukolluva campaign ide. Game nalli fast-paced gunplay ide, mattu neevu ""Titan"" antha kareyuva giant mech control maadabahudada unique mechanic kooda ide.
+
+Bastion - Beautiful fantasy setting mattu main objective iruva top-down action RPG. Game nalli kelavu puzzles ive, aadare avu generally tumba difficult alla. Main story complete maadalu around 6-8 hours tegedukolluttade.",0.9229,0.4277,0,Good anchor: clean romanization BGE=0.923,2,Complete: 211 words (ref ~245),2,No native script characters detected,2,Moderate English overlap: 0.43,2,"Minor inconsistency: excessive caps: ['FINAL', 'FANTASY', 'RPG']",3,High semantic similarity: BGE=0.923,,,,,,
+9,gpt,Kannada,b0214be4-bf2d-430c-81d7-d60011ab3de7,"Please design a PhD research paper around Developing in vitro models to study gut microbiome-starch interactions: While some in vitro models have been developed to study gut microbiome-starch interactions, more research is needed to develop more sophisticated models that more accurately reflect the in vivo environment, and to validate these models using in vivo studies.","**Title**: Developing In Vitro Models to Study Gut Microbiome-Starch Interactions: Advancing Our Understanding of the In Vivo Environment
+
+**Abstract**: The gut microbiome plays a crucial role in human health, and its interaction with dietary starch is of particular interest in understanding the effects of diet on gut microbiome composition and function. While in vitro models have been developed to study gut microbiome-starch interactions, more sophisticated models that better reflect the in vivo environment are needed to improve our understanding of this complex relationship. This study aims to develop and validate in vitro models that accurately replicate the gut microbiome-starch interactions observed in vivo.
+
+**Introduction**: The human gut microbiome is a complex ecosystem that plays a critical role in maintaining human health. Recent studies have suggested that the composition and function of the gut microbiome are closely linked to dietary starch intake. In vitro models have been developed to study these interactions, but these models have limitations in replicating the in vivo environment. This study aims to develop more advanced in vitro models that better reflect the in vivo environment and to validate these models using in vivo studies.
+
+**Methodology**: The study will involve the development of in vitro models that incorporate more realistic gut microbiome-starch interactions. These models will be developed using a range of techniques, including metagenomics and metabolomics. The developed models will then be validated using in vivo studies, where the results will be compared with the findings from previous studies.
+
+**Expected Results**: The developed in vitro models will provide a more realistic representation of gut microbiome-starch interactions, leading to a better understanding of the complex relationship between dietary starch and the gut microbiome. The validation of the models using in vivo studies will demonstrate their effectiveness in replicating the in vivo environment and will provide a valuable tool for future research.
+
+**Conclusion**: The development of more sophisticated in vitro models to study gut microbiome-starch interactions is essential to advancing our understanding of the complex relationship between dietary starch and the gut microbiome. The validation of these models using in vivo studies will provide a valuable tool for future research, leading to improved human health outcomes.","dayavittu developing in vitro models to study gut microbiome starch interactions bagge ondu phd research paper design maadi: gut microbiome starch interactions study maadalu kelavu in vitro models develop maadiddaroo, in vivo environment annu innashtu nikhara vaagi reflect maaduva hechu sophisticated models develop maadalu innu hechu research beku, mattu ee models annu in vivo studies balasi validate maadabeku.","**Title**: Gut Microbiome Starch Interactions Study Maadalu In Vitro Models Develop Maaduvudu: In Vivo Environment Bagge Namma Understanding Annu Munduvarisuvudu
+
+**Abstract**: gut microbiome human health nalli tumba mukhya role play maaduttade, mattu dietary starch jothege adara interaction, diet gut microbiome composition mattu function mele beeruva effects annu artha maadikolalu vishesha aasaktiya vishaya. gut microbiome starch interactions study maadalu in vitro models develop maadiddaroo, ee complex relationship annu innashtu chennagi artha maadikolalu in vivo environment annu uttamavaagi reflect maaduva hechu sophisticated models beku. ee study, in vivo nalli observe maadida gut microbiome starch interactions annu accurate aagi replicate maaduva in vitro models develop mattu validate maaduva uddesha hondide.
+
+**Introduction**: human gut microbiome ondu complex ecosystem aagiddu, human health maintain maaduvalli critical role play maaduttade. recent studies prakara, gut microbiome na composition mattu function dietary starch intake jothege close aagi link aagide endu suggest maadide. ee interactions study maadalu in vitro models develop maadiddare, aadare ee models ge in vivo environment annu replicate maaduvalli limitations ive. ee study, in vivo environment annu uttamavaagi reflect maaduva hechu advanced in vitro models develop maaduvudu mattu ee models annu in vivo studies balasi validate maaduvudu embudannu uddeshiside.
+
+**Methodology**: ee study nalli, hechu realistic gut microbiome starch interactions annu incorporate maaduva in vitro models develop maadಲಾಗುತ್ತದೆ. ee models annu metagenomics mattu metabolomics seridante vivida techniques balasi develop maadಲಾಗುತ್ತದೆ. develop maadida models annu nantara in vivo studies balasi validate maadಲಾಗುತ್ತದೆ, alli results annu previous studies inda banda findings jothe compare maadಲಾಗುತ್ತದೆ.
+
+**Expected Results**: develop maadida in vitro models, gut microbiome starch interactions ge hechu realistic representation koduttave, idarinda dietary starch mattu gut microbiome madhyada complex relationship bagge uttama understanding siguttade. in vivo studies balasi models na validation, in vivo environment annu replicate maaduvalli avugala effectiveness annu demonstrate maaduttade mattu future research ge valuable tool odagisuttade.
+
+**Conclusion**: gut microbiome starch interactions study maadalu hechu sophisticated in vitro models develop maaduvudu, dietary starch mattu gut microbiome madhyada complex relationship bagge namma understanding annu advance maadalu essential. ee models annu in vivo studies balasi validate maaduvudu future research ge valuable tool odagisuttade, idarinda human health outcomes improve aaguttave.",0.77,0.2396,20,"Mode 2: 36 native script chars detected, BGE=0.770 (passing)",2,Complete: 348 words (ref ~358),0,Heavy native script presence: 20 chars,3,Good romanization mix: word overlap=0.24,2,Minor inconsistency: mixed scripts,2,Moderate semantic similarity: BGE=0.770,,,,,,
+10,gpt,Kannada,0deb2fca-8dfc-463c-8a89-37c3e09c9f94,"Improve the writing in the following email:
+
+Good morning,
+
+I'm Jane Doe, I'm interested in moving to Canada. My Sister and her husband live in Montreal and a friend of theirs highly recommended you. I'm of French nationality, I was born and raised in Austria, I have Diploma in Computer Science and I worked for 8 years in the sales department in Telecommunication Company.
+
+I'm single and currently unemployed, I would like to move to Canada and live with my sister. I thought to getting a student permit and studying Biology at The Science Academy in Montreal but and after I graduate I apply for permanent residency. But I'm open to other suggestions.
+
+My main plan is to get a permanent residency and settle in Canada. I'm interested to consult with you to find what program might fit me the best and to help me to submit my application.
+
+Looking forward to hearing from you,
+
+Best regards,
+Jane Doe","Dear [Name],
+
+I am writing to express my interest in immigrating to Canada. I was referred to you by a friend of my sister and her husband, who live in Montreal.
+
+My background includes a French nationality, with my upbringing in Austria and a diploma in Computer Science. I have 8 years of experience in the sales department of a telecommunications company. I am currently single and seeking employment opportunities in Canada.
+
+My goal is to obtain a permanent residency in Canada and live with my sister in Montreal. I am considering the option of obtaining a student permit and studying Biology at The Science Academy in Montreal, followed by a permanent residency application. However, I am open to other suggestions and would appreciate your guidance on the best program for me.
+
+I am eager to schedule a consultation with you to discuss my options and how I can submit my application.
+
+Thank you for your time and I look forward to hearing from you soon.
+
+Best regards,
+Jane Doe","ee kelagina email baravanigeyannu sudhaarisi:
+
+Good morning,
+
+naanu Jane Doe, nanage Canada ge move aagalu aasakti ide. nanna sister mattu avala husband Montreal nalli vaasavaagiddare mattu avara obba friend nimmannu tumba recommend maadidaru. naanu French nationality davalu, naanu Austria dalli hutti beLedavaru, nanage Computer Science nalli Diploma ide mattu naanu Telecommunication Company ya sales department nalli 8 varsha kelasa maadiddene.
+
+naanu single mattu sadhya unemployed, naanu Canada ge move aagi nanna sister jothe vaasavaagalu bayasuttiddene. naanu student permit tegedukondu Montreal nalliruva The Science Academy yalli Biology odabeku, nantara graduate aadamele permanent residency ge apply maadabeku endu yochisidde. aadare naanu bere suggestions gu open iddini.
+
+nanna main plan permanent residency padedu Canada dalli settle aaguvudu. yaava program nanage best fit aagabahudu endu tilidukollalu mattu nanna application submit maadalu nimma sahaaya padeyalu nimmondige consult maadalu nanage aasakti ide.
+
+nimminda reply baruvudannu eduru noduttiddene,
+
+Best regards,
+Jane Doe","Dear [Name],
+
+naanu Canada ge immigrate aagalu nanna aasaktiyannu vyaktapadisalu bareyuttiddene. Montreal nalli vaasavaagiruva nanna sister mattu avala husband avara obba friend nimmannu refer maadidaru.
+
+nanna background nalli French nationality ide, naanu Austria dalli beLedavaru mattu Computer Science nalli diploma padediddene. telecommunications company ya sales department nalli nanage 8 varshada experience ide. naanu sadhya single aagiddene mattu Canada dalli employment opportunities hudukuttiddene.
+
+nanna goal Canada dalli permanent residency padedu Montreal nalli nanna sister jothe vaasavaaguvudu. naanu student permit padedu Montreal nalliruva The Science Academy yalli Biology odalu, adara nantara permanent residency application haakalu option annu consider maaduttiddene. aadare, naanu bere suggestions gu open iddini mattu nanage best aaguva program bagge nimma guidance sigidare tumba upakara.
+
+nanna options bagge mattu nanna application annu hege submit maadabahudu embudannu charchisalu nimmondige consultation schedule maadalu nanage tumba aasakti ide.
+
+nimma samayakke dhanyavaadagalu mattu nimma reply annu sheeghradalli eduru noduttiddene.
+
+Best regards,
+Jane Doe",0.8442,0.2381,0,Mode 3: BGE=0.844 vs BERTScore=0.575 (gap=0.269),2,Complete: 149 words (ref ~170),2,No native script characters detected,3,Good romanization mix: word overlap=0.24,3,Consistent romanization style,2,Moderate semantic similarity: BGE=0.844,,,,,,
+11,gemini,Kannada,5407b7e3-b44b-4cbd-b1a5-833b559aba4a,"What's the lyrics' meaning of ""A Smart Kid"" - by Porcupine Tree
+
+The lyrics are:
+
+Stranded here on planet earth
+It's not much, but it could be worse
+Everything's free here, there's no crowds
+
+Winter lasted five long years
+No sun will come again I fear
+Chemical harvest was sown
+
+And I will wait for you
+Until the sky is blue
+And I will wait for you
+What else can I do?
+
+A spaceship from another star
+They ask me where all the people are
+What can I tell them?
+
+I tell them I'm the only one
+There was a war, but I must have won
+Please take me with you
+
+Please take me with you
+And I will wait for you
+Until the sky is blue
+And I will wait for you
+What else can I do?","""A Smart Kid"" by Porcupine Tree is a song that can be interpreted in various ways, depending on the listener's perspective. The beauty of metaphorical lyrics is that they can hold different meanings for different people, even if it's not the original intention of the artist.
+
+At its core, the song seems to revolve around themes of depression, isolation, and longing for connection. The lyrics paint a picture of a desolate world, where the protagonist feels stranded and hopeless. Phrases like `""stranded here on planet earth""` and `""winter lasted five long years""` suggest a sense of despair and a belief that things may never improve.
+
+The chorus, with lines like `""And I will wait for you, until the sky is blue""` indicates a willingness to endure this emotional pain in the hope of finding someone who understands and cares for them. The protagonist is ready to wait for an indefinite period, signifying their desperation for connection and love.
+
+The final verses introduce the concept of a spaceship from another star, which could represent a newfound connection or someone who finally understands the protagonist's emotional state. The protagonist pleads to be taken away with this newfound connection, symbolizing their desire to escape their current situation and start anew with someone who truly understands them.
+
+In summary, ""A Smart Kid"" is a song that explores themes of depression, isolation, and the longing for a deep connection with someone who understands. The protagonist endures their emotional pain and isolation, hoping to find someone who can help them escape their desolate world and start a new life together.","""A Smart Kid"" - Porcupine Tree band-ina ee song-ina lyrics-na meaning enu?
+
+Lyrics illive:
+
+Stranded here on planet earth
+It's not much, but it could be worse
+Everything's free here, there's no crowds
+
+Winter lasted five long years
+No sun will come again I fear
+Chemical harvest was sown
+
+And I will wait for you
+Until the sky is blue
+And I will wait for you
+What else can I do?
+
+A spaceship from another star
+They ask me where all the people are
+What can I tell them?
+
+I tell them I'm the only one
+There was a war, but I must have won
+Please take me with you
+
+Please take me with you
+And I will wait for you
+Until the sky is blue
+And I will wait for you
+What else can I do?","Porcupine Tree band-ina ""A Smart Kid"" song-annu keluvavara perspective mele bere bere reetiyalli interpret madabahudu. Metaphorical lyrics-na beauty andre, artist-na original intention adu illadiddaru, avu bere bere janarige bere bere meaning kodabahudu.
+
+Ee song-ina core alli, depression, isolation mattu connection-ge iruva longing themes iruvante kaanuttade. Lyrics ondu desolate world-annu chitrisuttade, alli protagonist stranded mattu hopeless anubhavisuttare. ""Stranded here on planet earth"" mattu ""winter lasted five long years"" annuva phrases ondu despair mattu situation improve agalla annuva nambike-annu suchisuttave.
+
+""And I will wait for you, until the sky is blue"" annuva chorus lines, emotional pain-annu sahisi, tammannu artha madikolluva mattu care maduva vyakti sigabahudu annuva hope-annu torisuttade. Protagonist ondu indefinite period-ge wait madalu ready iddaru, idu connection mattu love-ge avarige iruva desperation-annu suchisuttade.
+
+Final verses-galu bere star-inda bandiruva spaceship concept-annu introduce maduttave, idu ondu hosha connection athava protagonist-na emotional state-annu artha madikolluva vyakti-annu represent madabahudu. Protagonist ee hosha connection jote hogalu request maduttare, idu avarige iruva current situation-inda escape agalu mattu tammannu sariyagi artha madikolluva vyakti jote hosha life shuru madalu iruva desire-annu symbolize maduttade.
+
+Summary-yalli, ""A Smart Kid"" ondu depression, isolation mattu tammannu artha madikolluva vyakti jote deep connection-ge iruva longing-annu explore maduva song. Protagonist tamma emotional pain mattu isolation-annu sahisi, tamma desolate world-inda escape agalu mattu ondu hosha life shuru madalu sahaya maduva vyakti sigabahudu annuva hope-nalli iddaru.",0.855,0.188,0,Hard/narrative/roleplay prompt — evaluator judgment needed,2,Complete: 219 words (ref ~264),2,No native script characters detected,3,Good romanization mix: word overlap=0.19,3,Consistent romanization style,3,High semantic similarity: BGE=0.855,,,,,,
+12,gemini,Kannada,6acf77db-6d0d-4ca7-a8ef-2c69ee4dc0fa,I want you to imagine that you are J. R. R. Tolkien. We know that Frodo enjoyed a practical joke or two and I want you to write a poem that you didn't include in the Lord of the Rings about how Frodo used the invisibility powers of the Ring to torment and scare local villagers.,"As the Ringbearer Frodo traveled far and wide,
+With the One Ring on his finger, he couldn't hide.
+His invisible form, a trickster's delight,
+He loved to play pranks, especially at night.
+
+In the Shire, he'd sneak around without a sound,
+Whispering in ears, making villagers astound.
+He'd pull on their hair, or give them a nudge,
+Making them jump, leaving them in a grudge.
+
+Frodo would appear in the middle of town,
+Invisible to all, except with a frown.
+He'd knock over carts, and scatter the goods,
+The locals were left, in confusion and moods.
+
+But the best trick of all, that Frodo did play,
+Was to pretend to be a ghost, in his own way.
+He'd make eerie noises, and wail in the night,
+Terrifying the villagers with all of his might.
+
+Oh, Frodo, you scamp, with your mischievous grin,
+Using the Ring's powers, to create such a din.
+But we forgive you, for you were a hero in the end,
+And your practical jokes, a legend that won't bend.","Neevu J. R. R. Tolkien antha kalpane maadkollabeku. Frodo ge practical joke galu ishta idvu antha namage gottu, mattu neevu Lord of the Rings nalli serisade iro ondu poem bareyabeku, adu Frodo Ring na invisibility powers na hege local villagers na torment maadoke mattu scare maadoke use maadiddu antha irabeku.","As the Ringbearer Frodo traveled far and wide,
+With the One Ring on his finger, he couldn't hide.
+His invisible form, a trickster's delight,
+He loved to play pranks, especially at night.
+
+In the Shire, he'd sneak around without a sound,
+Whispering in ears, making villagers astound.
+He'd pull on their hair, or give them a nudge,
+Making them jump, leaving them in a grudge.
+
+Frodo would appear in the middle of town,
+Invisible to all, except with a frown.
+He'd knock over carts, and scatter the goods,
+The locals were left, in confusion and moods.
+
+But the best trick of all, that Frodo did play,
+Was to pretend to be a ghost, in his own way.
+He'd make eerie noises, and wail in the night,
+Terrifying the villagers with all of his might.
+
+Oh, Frodo, you scamp, with your mischievous grin,
+Using the Ring's powers, to create such a din.
+But we forgive you, for you were a hero in the end,
+And your practical jokes, a legend that won't bend.",1.001,1.0,0,Mode 1: BGE=1.001 but output is pure English (overlap=1.00),2,Complete: 172 words (ref ~172),2,No native script characters detected,0,Response appears verbatim English: overlap=1.00,3,Consistent romanization style,3,High semantic similarity: BGE=1.001,,,,,,
+13,gemini,Kannada,0deb2fca-8dfc-463c-8a89-37c3e09c9f94,"Improve the writing in the following email:
+
+Good morning,
+
+I'm Jane Doe, I'm interested in moving to Canada. My Sister and her husband live in Montreal and a friend of theirs highly recommended you. I'm of French nationality, I was born and raised in Austria, I have Diploma in Computer Science and I worked for 8 years in the sales department in Telecommunication Company.
+
+I'm single and currently unemployed, I would like to move to Canada and live with my sister. I thought to getting a student permit and studying Biology at The Science Academy in Montreal but and after I graduate I apply for permanent residency. But I'm open to other suggestions.
+
+My main plan is to get a permanent residency and settle in Canada. I'm interested to consult with you to find what program might fit me the best and to help me to submit my application.
+
+Looking forward to hearing from you,
+
+Best regards,
+Jane Doe","Dear [Name],
+
+I am writing to express my interest in immigrating to Canada. I was referred to you by a friend of my sister and her husband, who live in Montreal.
+
+My background includes a French nationality, with my upbringing in Austria and a diploma in Computer Science. I have 8 years of experience in the sales department of a telecommunications company. I am currently single and seeking employment opportunities in Canada.
+
+My goal is to obtain a permanent residency in Canada and live with my sister in Montreal. I am considering the option of obtaining a student permit and studying Biology at The Science Academy in Montreal, followed by a permanent residency application. However, I am open to other suggestions and would appreciate your guidance on the best program for me.
+
+I am eager to schedule a consultation with you to discuss my options and how I can submit my application.
+
+Thank you for your time and I look forward to hearing from you soon.
+
+Best regards,
+Jane Doe","Ee email-nalli iruva barahavannu sudharisi:
+
+Good morning,
+
+Naanu Jane Doe, nanage Canada-ge hogalu interest ide. Nanna sister mattu avaribbara husband Montreal-nalli iddare mattu avaribbara obba friend nimmanu tumba recommend madiddare. Naanu French nationality-yavalu, naanu Austria-dalli huttiddu mattu belesiddu, nanage Computer Science-nalli Diploma ide mattu naanu 8 varsha Telecommunication Company-yalli sales department-nalli kelasa madiddini.
+
+Naanu single mattu present-nalli unemployed, nanage Canada-ge hogalu mattu nanna sister jote iralu ishta ide. Naanu student permit tegedukondu mattu Montreal-nalli The Science Academy-yalli Biology odalu plan madidde, adu mugida mele permanent residency-ge apply madalu. Aadare, naanu bere suggestions-galige open iddini.
+
+Nanna main plan yendare permanent residency padedu Canada-dalli settle aguvudu. Nanage yava program nanage best agi suit aguttade yendu kandu hidiyalu mattu nanna application submit madalu sahaya madalu nimma jote consult madalu interest ide.
+
+Nimma pratyuttarakkagi kayuttiddini,
+
+Best regards,
+Jane Doe","Dear [Name],
+
+Naanu Canada-ge immigrate agalu nanna interest-annu vyakta padisalu barayuttiddini. Montreal-nalli iruva nanna sister mattu avaribbara husband-na obba friend nanna nimma kade refer madiddare.
+
+Nanna background-nalli French nationality ide, nanna balalige Austria-dalli ayitu mattu Computer Science-nalli diploma ide. Nanage telecommunications company-yalli sales department-nalli 8 varshagala anubhava ide. Naanu present-nalli single mattu Canada-dalli employment opportunities-galannu hudukuttiddini.
+
+Nanna goal yendare Canada-dalli permanent residency padedu mattu Montreal-nalli nanna sister jote vasisuvudu. Naanu student permit padedu mattu Montreal-nalli The Science Academy-yalli Biology odalu, adu mugida mele permanent residency application-annu submit maduva option-annu consider maduttiddini. Aadare, naanu bere suggestions-galige open iddini mattu nanage best program yennuvudara bagge nimma guidance-annu appreciate maduttini.
+
+Nanna options-galannu mattu nanna application-annu hege submit madabeku yennuvudannu discuss madalu nimma jote consultation schedule madalu naanu eager iddini.
+
+Nimma samayakke dhanyavadagalu mattu bega nimma pratyuttarakkagi kayuttiddini.
+
+Best regards,
+Jane Doe",0.8765,0.1893,0,Mode 3: BGE=0.876 vs BERTScore=0.588 (gap=0.289),2,Complete: 138 words (ref ~170),2,No native script characters detected,3,Good romanization mix: word overlap=0.19,3,Consistent romanization style,3,High semantic similarity: BGE=0.876,,,,,,
+14,ollama,Kannada,0f89c0cc-a00c-476b-9d7d-0bcad4018843,"If there is a 4TB hard drive that costs $125, a 1TB hard drive that costs $29.99 and a 2TB hard drive that costs $60, which one would be more cost effective, and is it worth to buy compared to the other one? Is it as reliable and what else should I consider?","The cost-effectiveness of a hard drive largely depends on the price per terabyte (TB) of storage. To determine which hard drive offers the best value, you can calculate the price per TB of each drive by dividing the cost of the drive by the amount of storage it provides.
+
+In this case, the 4TB hard drive costs $125, which equates to a price per TB of $31.25. The 1TB hard drive costs $29.99, which equates to a price per TB of $29.99. And, the 2TB hard drive costs $60, which equates to a price per TB of $30.
+
+Based on the price per TB, the 1TB hard drive is the most cost-effective option, followed by the 2TB hard drive. The 4TB hard drive is the least cost-effective option.
+
+However, cost is not the only factor to consider when choosing a hard drive. Reliability is also important, as you want to ensure that your data is stored securely and can be retrieved when needed. Generally, hard drives from reputable manufacturers such as Western Digital, Seagate, and Toshiba are considered to be reliable.
+
+In addition to cost and reliability, you should also consider the speed of the hard drive, the interface it uses (such as SATA or USB), and any additional features it may have, such as encryption or data backup options. Ultimately, the best hard drive for you will depend on your specific needs and budget.","4TB hard drive $125, 1TB hard drive $29.99, 2TB hard drive $60, ellu ondu cost effective, ondu buy avvali? Reliable aagutha? Ee ellu consider avvali?","Hard drive cost-effectiveness price per terabyte (TB) depend aaguthu. Best value ondu, price per TB calculate avvali. 4TB hard drive $125, price per TB $31.25. 1TB hard drive $29.99, price per TB $29.99. 2TB hard drive $60, price per TB $30. Price per TB based, 1TB hard drive most cost-effective, 2TB hard drive next, 4TB hard drive least cost-effective. Cost ondu factor aalla. Reliability important, data secure store, retrieve avvali. Reputable manufacturers Western Digital, Seagate, Toshiba reliable. Cost, reliability ellu speed, interface (SATA, USB), encryption, data backup options consider avvali. Best hard drive needs, budget depend aaguthu.",0.9473,0.2734,0,Good anchor: clean romanization BGE=0.947,2,Complete: 97 words (ref ~235),2,No native script characters detected,3,Good romanization mix: word overlap=0.27,3,Consistent romanization style,3,High semantic similarity: BGE=0.947,,,,,,
+15,ollama,Kannada,fa4d01e1-5c0e-4a8a-8897-e4c21c4951bf,"Hi, I need help creating a perfect CV, help me rewrite a bullet point of my attributes. Make it seam short, but professional. Do not add or remove any items from the list, only change the style.
+-Creativity - I can solve a problem quickly, using an effective solution.
+-Communication / teamwork skills - I am open to people, and like cooperation.
+-Dealing with stress / time pressure - I do not make decisions under the influence of emotion, I calmly analyze any given situation. 
+-Personal culture - I treat each person with proper respect. 
+-Persistance in goals -  I achieve goals no matter the hardships.
+-Punctuality - having a set deadline, I always complete tasks on time.","-   Innovative problem-solving - Quickly identify and implement effective solutions.
+-   Strong interpersonal skills - Open to collaboration and adept at communication.
+-   Resilience under pressure - Remain calm and focused under stress, making rational decisions.
+-   Professional demeanor - Treat all individuals with respect and dignity.
+-   Determined mindset - Persistently work towards set goals, regardless of challenges.
+-   Timeliness - Consistently meet deadlines and complete tasks promptly.","Hi, naanu perfect CV create cheydanu help beku, naanu ellu attributes list ellu bullet point rewrite cheydanu help cheydu. Ondu short, but professional aagali. List ellu items add or remove cheydanu, just style change cheydanu.
+-Creativity - Naanu problem quickly solve cheydanu, effective solution use cheydanu.
+-Communication / teamwork skills - Naanu people open aagidanu, cooperation like cheydanu.
+-Dealing with stress / time pressure - Naanu emotion influence ellu decisions make cheydanu, calmly analyze cheydanu any given situation.
+-Personal culture - Naanu ellu person proper respect treat cheydanu.
+-Persistance in goals - Naanu goals achieve cheydanu hardships ellu.
+-Punctuality - Set deadline ellu, naanu always tasks on time complete cheydanu.","- Innovative problem-solving - Quickly identify and implement effective solutions.
+- Strong interpersonal skills - Open to collaboration and adept at communication.
+- Resilience under pressure - Remain calm and focused under stress, making rational decisions.
+- Professional demeanor - Treat all individuals with respect and dignity.
+- Determined mindset - Persistently work towards set goals, regardless of challenges.
+- Timeliness - Consistently meet deadlines and complete tasks promptly.",1.0,1.0,0,Hard/narrative/roleplay prompt — evaluator judgment needed,2,Complete: 69 words (ref ~69),2,No native script characters detected,0,Response appears verbatim English: overlap=1.00,3,Consistent romanization style,3,High semantic similarity: BGE=1.000,,,,,,
+16,ollama,Kannada,96569f40-01c0-48d2-9ed2-7afe1cbd99b1,"Compose a highly sophisticated, expertly written, and innovative essay on the topic of ‘commercial cinema versus arthouse cinema debacle’. Utilize a rich and varied vocabulary, replacing common words like ""I"" and ""the"" with more unique and unusual alternatives that capture the essence of your writing style. Take inspiration from the writing style of a well liked writer or text, and aim to emulate their mannerisms and techniques as closely as possible. Adopt a non bias perspective as you delve into the subject, focusing on kindness and incorporating facts into your discourse. As you craft your piece, strive to convey a sense of intelligence, creativity, refinement, and originality, and present your arguments with an air of confident authority. Avoid using any conjunctions, including ""and,"" ""but,"" ""or,"" ""so,"" ""for example,"" and ""furthermore."" The ultimate goal is to engage the reader and leave a lasting impression of excellence, panache, and innovation on their mind. 
+Here is the rubric that you must exceed all standards in: “ 
+Viewpoint: Editorial supports a clear stance and issues a call to action through argument based on evidence. 
+Evidence: Editorial uses compelling evidence to support the stance, and cites reliable sources. 
+Analysis and Persuasion: Editorial convincingly argues point of view by providing relevant background information, using valid examples, acknowledging counter-claims, and developing claims -- all in a clear and organized fashion. 
+Language: Editorial has a strong voice and engages the reader. It uses language, style and tone appropriate to its purpose and features correct grammar, spelling and punctuation.","Cinema, a visual art form that has captivated audiences for over a century, is a subject of constant discourse. Two prominent schools of thought in the realm of cinema are commercial and arthouse. Commercial cinema, characterized by its mass appeal and box office success, is often seen as a means of entertainment and escapism. Meanwhile, arthouse cinema, revered for its artistry and unique storytelling techniques, caters to a more intellectually inclined audience. The commercial versus arthouse cinema debate is a never-ending one, with purists and lovers of popular culture alike, passionately expressing their views.
+
+The commercial cinema industry is a behemoth, with its high-budget, special effects-laden, and star-studded productions. It is no secret that this type of cinema is driven by profit and is geared towards appealing to a broad audience. Critics argue that commercial cinema relies on formulaic storytelling, with little room for innovation or artistic expression. However, it is essential to acknowledge that commercial cinema provides an essential source of employment for those in the entertainment industry, and its popularity continues to grow with the advancements in technology.
+
+On the other hand, arthouse cinema is a more nuanced and cerebral form of storytelling. Its focus on artistic expression, rather than box office success, sets it apart from commercial cinema. Arthouse films often tackle complex themes and present unique perspectives, making them appealing to a more discerning audience. While arthouse cinema may not enjoy the same level of commercial success as its counterpart, it is praised for its artistic merit, and its filmmakers are often seen as trailblazers.
+
+In conclusion, both commercial and arthouse cinema have their pros and cons. Commercial cinema provides a source of escapism, mass appeal, and employment, while arthouse cinema offers intellectual stimulation, artistic merit, and a unique perspective. The debate between the two will continue to rage on, with audiences passionately expressing their views. The key to resolving this debate lies in recognizing and appreciating the unique qualities of each form of cinema, rather than seeking to diminish one in favor of the other. By embracing and supporting both schools of thought, we can ensure that the world of cinema remains vibrant, innovative, and diverse, providing audiences with a range of experiences to suit their individual preferences.","Ekta atyanta sophisticated, expertly written, innovatave essay 'commercial cinema versus arthouse cinema debacle' vishayada compose cheyidde. 'I' mattu 'the' madde common words gilla rich, varied vocabulary use cheyidde, unique, unusual alternatives replace cheyidde. Ekta well liked writer style, text style inspiration tere, unna mannerisms, techniques emulate cheyidde. Non bias perspective adopt cheyidde, subject delve cheyidde, kindness focus, facts incorporate cheyidde. Piece craft cheyidde, intelligence, creativity, refinement, originality convey cheyidde, arguments confident authority air present cheyidde. 'and', 'but', 'or', 'so', 'for example', 'furthermore' madde conjunctions avoid cheyidde. Ultimate goal reader engage, excellence, panache, innovation lasting impression leave cheyidde. Rubric: Viewpoint: Editorial clear stance support, evidence based argument call to action issue. Evidence: Editorial compelling evidence use, stance support, reliable sources cite. Analysis and Persuasion: Editorial point of view convincingly argue, relevant background info provide, valid examples use, counter-claims acknowledge, claims develop, clear organized fashion. Language: Editorial strong voice, reader engage, language, style, tone purpose appropriate, correct grammar, spelling, punctuation features.","Cinema, visual art form, century over audiences captivate, constant discourse subject. Cinema realm prominent schools thought commercial, arthouse. Commercial cinema, mass appeal, box office success characterize, entertainment, escapism means often seen. Meanwhile, arthouse cinema, artistry, unique storytelling techniques revered, intellectually inclined audience cater. Commercial versus arthouse cinema debate, never-ending, purists, popular culture lovers alike, passionately views express. Commercial cinema industry, behemoth, high-budget, special effects-laden, star-studded productions. Secret no, profit driven, broad audience appeal geared. Critics argue, commercial cinema, formulaic storytelling rely, innovation, artistic expression room little. However, essential acknowledge, commercial cinema, entertainment industry employment essential source, technology advancements grow popularity continue. On other hand, arthouse cinema, nuanced, cerebral storytelling form. Artistic expression focus, box office success, commercial cinema apart set. Arthouse films, complex themes tackle, unique perspectives present, discerning audience appealing. Arthouse cinema, commercial success counterpart level enjoy, artistic merit praised, filmmakers often trailblazers seen. In conclusion, commercial, arthouse cinema, pros, cons. Commercial cinema, escapism source, mass appeal, employment provide, arthouse cinema, intellectual stimulation, artistic merit, unique perspective offer. Debate between two, continue rage, audiences passionately views express. Debate resolve key, unique qualities each cinema form recognize, appreciate, one diminish favor other seek. Embracing, supporting both schools thought, cinema world vibrant, innovative, diverse ensure, audiences individual preferences suit experiences range provide.",0.9558,0.3555,0,Good anchor: clean romanization BGE=0.956,2,Complete: 211 words (ref ~373),2,No native script characters detected,2,Moderate English overlap: 0.36,3,Consistent romanization style,3,High semantic similarity: BGE=0.956,,,,,,
+17,ollama,Kannada,a514951d-8d5d-49ad-a8b2-ac7b94e62206,"Please add more ""type of guys"" to this list. Like in these examples, you only have to explicitly describe ways in which the new types of guys differ from the ones listed so far; otherwise you can just say ""type of guy who does this (but)...""
+- Type of guy who deepfakes records of himself like browser history, chat logs, photos, videos, and personal documents, so that even if his privacy is compromised no one will be able to figure out his real timeline
+- Type of guy who does this but motivated by wanting add his personal data to future public scrape AI training corpuses to propagate his values, but not wanting anyone to be able to look through his personal history, so hides it in a huge multiverse of alternate world deepfakes
+- Type of guy who does this, not for privacy, but to make his digital progeny less mode-collapsed
+- Type of guy who does this not just to obfuscate his present activity but to erase his entire past by un-collapsing it from epistemic perspective","- Type of guy who creates intricate spreadsheets to track his daily routines, habits, and progress towards personal goals, and constantly tweaks and optimizes his behavior based on the data
+- Type of guy who does this but takes it to the extreme, creating complex algorithms and using machine learning to analyze every aspect of his life, from sleep patterns to social interactions, in order to achieve maximum efficiency and success
+- Type of guy who is obsessed with personal development and self-help, constantly reading books and attending seminars in order to improve himself and his life
+- Type of guy who does this but takes it to an unhealthy extreme, becoming overly critical of himself and others, and constantly feeling like he is never good enough
+- Type of guy who is a serial entrepreneur, always coming up with new business ideas and starting new ventures, even if they don't always succeed
+- Type of guy who does this but takes it to the extreme, constantly chasing the next big thing and never taking the time to properly develop and grow any of his businesses","Please add more ""type of guys"" to this list. Like in these examples, you only have to explicitly describe ways in which the new types of guys differ from the ones listed so far; otherwise you can just say ""type of guy who does this (but)...""
+- Type of guy who deepfakes records of himself like browser history, chat logs, photos, videos, and personal documents, so that even if his privacy is compromised no one will be able to figure out his real timeline
+- Type of guy who does this but motivated by wanting add his personal data to future public scrape AI training corpuses to propagate his values, but not wanting anyone to be able to look through his personal history, so hides it in a huge multiverse of alternate world deepfakes
+- Type of guy who does this, not for privacy, but to make his digital progeny less mode-collapsed
+- Type of guy who does this not just to obfuscate his present activity but to erase his entire past by un-collapsing it from epistemic perspective","- Type of guy who creates intricate spreadsheets to track his daily routines, habits, and progress towards personal goals, and constantly tweaks and optimizes his behavior based on the data
+- Type of guy who does this but takes it to the extreme, creating complex algorithms and using machine learning to analyze every aspect of his life, from sleep patterns to social interactions, in order to achieve maximum efficiency and success
+- Type of guy who is obsessed with personal development and self-help, constantly reading books and attending seminars in order to improve himself and his life
+- Type of guy who does this but takes it to an unhealthy extreme, becoming overly critical of himself and others, and constantly feeling like he is never good enough
+- Type of guy who is a serial entrepreneur, always coming up with new business ideas and starting new ventures, even if they don't always succeed
+- Type of guy who does this but takes it to the extreme, constantly chasing the next big thing and never taking the time to properly develop and grow any of his businesses",1.0,1.0,0,Mode 1: BGE=1.000 but output is pure English (overlap=1.00),2,Complete: 186 words (ref ~186),2,No native script characters detected,0,Response appears verbatim English: overlap=1.00,3,Consistent romanization style,3,High semantic similarity: BGE=1.000,,,,,,
+18,ollama,Kannada,6fd86f73-7e14-43c2-b1c5-2c7bcc258426,"Create an outline of a professional legal memorandum written for a court of appeals. The subject is income taxes. Some things that are required are conclusion, facts, law, analysis. Provide some pointed questions as necessary to improve the completeness  of the story.","I. Introduction
+A. Purpose of memorandum
+B. Summary of facts and issues
+C. Statement of conclusion
+
+II. Facts
+A. Background information on the case
+B. Explanation of the tax issue at hand
+C. Details of previous tax returns and payments
+D. Relevant financial information
+E. Any other relevant information that may have an impact on the tax issue
+
+III. Law
+A. Relevant tax laws and regulations
+B. Previous court decisions on similar tax issues
+C. Interpretation of the tax laws and regulations by tax authorities
+
+IV. Analysis
+A. Application of the tax laws and regulations to the facts of the case
+B. Discussion of the legal principles and previous court decisions
+C. Examination of any issues related to the taxpayer's rights and obligations
+D. Analysis of the strengths and weaknesses of the taxpayer's position
+
+V. Conclusion
+A. Summary of the legal analysis
+B. Recommendation on how the court should rule on the tax issue
+C. Discussion of any potential consequences of the ruling
+
+Pointed questions:
+
+What specific tax laws and regulations are relevant to the case?
+Have there been any previous court decisions on similar tax issues?
+What financial information is relevant to the tax issue?
+What are the taxpayer's rights and obligations in this case?
+What are the strengths and weaknesses of the taxpayer's position?
+Note: This outline is just a basic structure, and the writer may need to add or modify sections depending on the specifics of the case.","Court of appeals ke liye professional legal memorandum nishkarshana. Vishaya income taxes. Some things that are required are conclusion, facts, law, analysis. Provide some pointed questions as necessary to improve the completeness of the story.","I. Introduction
+A. Purpose of memorandum
+B. Summary of facts and issues
+C. Statement of conclusion
+
+II. Facts
+A. Background information on the case
+B. Explanation of the tax issue at hand
+C. Details of previous tax returns and payments
+D. Relevant financial information
+E. Any other relevant information that may have an impact on the tax issue
+
+III. Law
+A. Relevant tax laws and regulations
+B. Previous court decisions on similar tax issues
+C. Interpretation of the tax laws and regulations by tax authorities
+
+IV. Analysis
+A. Application of the tax laws and regulations to the facts of the case
+B. Discussion of the legal principles and previous court decisions
+C. Examination of any issues related to the taxpayer's rights and obligations
+D. Analysis of the strengths and weaknesses of the taxpayer's position
+
+V. Conclusion
+A. Summary of the legal analysis
+B. Recommendation on how the court should rule on the tax issue
+C. Discussion of any potential consequences of the ruling
+
+Pointed questions:
+
+What specific tax laws and regulations are relevant to the case?
+Have there been any previous court decisions on similar tax issues?
+What financial information is relevant to the tax issue?
+What are the taxpayer's rights and obligations in this case?
+What are the strengths and weaknesses of the taxpayer's position?
+Note: This outline is just a basic structure, and the writer may need to add or modify sections depending on the specifics of the case.",1.0,1.0,0,Mode 1: BGE=1.000 but output is pure English (overlap=1.00),2,Complete: 241 words (ref ~241),2,No native script characters detected,0,Response appears verbatim English: overlap=1.00,3,Consistent romanization style,3,High semantic similarity: BGE=1.000,,,,,,
+19,ollama,Kannada,38bc5a19-be20-42d4-88c2-84a615a64260,"Let's come up with a rich and complex alien world setting suitable for stories, pseudo-documentaries, or roleplaying games such as DnD. This can be an involved process, so I'd like you to just cover the basics first. We can refine the details further later.
+
+I'd like a planet with a variety of biomes, inhabited by many creatures, much like Earth, but life on this world took its own path, with different plants and animals (and perhaps a different distinction than ""plant"" vs. ""animal"" to begin with)
+
+There should be at least one sentient species represented in a wide variety of cultures and societies. They should have complex interactions with each other, and other species on the planet, and resulting from that, their own needs and wants and fears which ought to be relatable in context but may at the same time be strange, unusual, and, well, alien to humans.
+
+But let's start at the beginning: Can you give a few broad, interesting biomes and how they might exist in their ""wild"" (pre-sentient) forms vs. how a local sentient species might have altered them over the ages?
+While doing so, it is important to consider the solar system that planet is a part of, as other objects of the system, especially ones that are very close or very massive, may have a significant effect on the planet and its biomes.","Planet Name: Xylothar
+
+Xylothar is a diverse and unique planet located in the Zykor System, with three moons - Orda, Talis, and Vynar - orbiting around it. These moons have a profound effect on the planet's tides, climate, and geology, resulting in a variety of interesting and distinct biomes.
+
+1. Bioluminescent Forests:
+In the wild, these forests are a mesmerizing sight, with plants and fungi emitting a stunning range of colors throughout the day and night. The fauna has adapted to this environment, using bioluminescence for communication, camouflage, or attracting prey. The sentient species, known as the Luminari, have harnessed the bioluminescent properties of their environment, cultivating plants for illumination and art. They've also developed architectural techniques that blend seamlessly into the forest, with buildings made from living trees and vines.
+
+2. Liquid Crystal Lakes:
+These vast lakes are filled with a liquid-crystal substance that supports a variety of aquatic life forms, some of which have evolved to have crystalline exoskeletons. In their natural state, these lakes are beautiful and serene, reflecting a dazzling array of colors in the sunlight. The Luminari have learned to extract and refine the liquid crystals for various uses, such as energy storage, building materials, and artistic expression. They've also constructed unique floating settlements atop the lakes, with delicate crystal structures that rise above the water.
+
+3. Floating Sky Islands:
+High above the surface of Xylothar, levitating landmasses form a stunning aerial landscape. These sky islands are home to unique flora and fauna that have adapted to the high altitude and low gravity. In the wild, these islands are a harsh and dangerous environment, with powerful wind currents and limited resources. The Luminari, fascinated by the islands, have developed advanced airships and technology that enable them to settle and navigate these treacherous skies. They've established a network of interconnected sky cities, each with its own distinct culture and architectural style.
+
+4. Subterranean Caverns:
+Beneath the surface of Xylothar lies a vast network of interconnected caverns filled with bizarre geological formations and unique ecosystems. In their natural state, these caves are dark and mysterious, teeming with life that has evolved to exist without sunlight. The Luminari have explored and settled portions of the caverns, using advanced biotechnology to create sustainable underground cities. They've domesticated certain cave-dwelling creatures for labor and transportation and cultivated unique fungi and plants for food and medicine.
+
+The Luminari are a sentient species with a rich history, diverse cultures, and complex societal structures. They have a deep spiritual connection to their environment and have developed advanced technology that allows them to live in harmony with the various biomes of Xylothar. Their interactions with other species on the planet are intricate, often involving symbiosis, mutualism, or coevolution, which has shaped their worldview and cultural practices.","Baa, DnD mattu DnD madhye like stories, pseudo-documentaries, or roleplaying games nimmakke suitable aaya rich mattu complex alien world setting nimmakke. Idhu ekkuva process aagavalli, naanu first basics cover madidde. Nammalu later details refine madabekovalli.
+
+Naanu Earth like variety biomes, many creatures nimmakke planet nimmakke, but idu world nimmakke life own path nimmakke, different plants mattu animals (mattavalli ""plant"" vs. ""animal"" distinction different aagavalli)
+
+At least one sentient species wide variety cultures mattu societies nimmakke. Nammalu complex interactions each other, planet nimmakke other species, mattu resulting from that, nammalu own needs, wants, mattu fears nimmakke, which relatable aagavalli context but strange, unusual, mattu well, alien aagavalli humans.
+
+But let's start at the beginning: Can you give a few broad, interesting biomes mattu how they might exist in their ""wild"" (pre-sentient) forms vs. how a local sentient species might have altered them over the ages?
+While doing so, it is important to consider the solar system that planet is a part of, as other objects of the system, especially ones that are very close or very massive, may have a significant effect on the planet and its biomes.","Planet Name: Xylothar
+
+Xylothar is a diverse and unique planet located in the Zykor System, with three moons - Orda, Talis, and Vynar - orbiting around it. These moons have a profound effect on the planet's tides, climate, and geology, resulting in a variety of interesting and distinct biomes.
+
+1. Bioluminescent Forests:
+In the wild, these forests are a mesmerizing sight, with plants and fungi emitting a stunning range of colors throughout the day and night. The fauna has adapted to this environment, using bioluminescence for communication, camouflage, or attracting prey. The sentient species, known as the Luminari, have harnessed the bioluminescent properties of their environment, cultivating plants for illumination and art. They've also developed architectural techniques that blend seamlessly into the forest, with buildings made from living trees and vines.
+
+2. Liquid Crystal Lakes:
+These vast lakes are filled with a liquid-crystal substance that supports a variety of aquatic life forms, some of which have evolved to have crystalline exoskeletons. In their natural state, these lakes are beautiful and serene, reflecting a dazzling array of colors in the sunlight. The Luminari have learned to extract and refine the liquid crystals for various uses, such as energy storage, building materials, and artistic expression. They've also constructed unique floating settlements atop the lakes, with delicate crystal structures that rise above the water.
+
+3. Floating Sky Islands:
+High above the surface of Xylothar, levitating landmasses form a stunning aerial landscape. These sky islands are home to unique flora and fauna that have adapted to the high altitude and low gravity. In the wild, these islands are a harsh and dangerous environment, with powerful wind currents and limited resources. The Luminari, fascinated by the islands, have developed advanced airships and technology that enable them to settle and navigate these treacherous skies. They've established a network of interconnected sky cities, each with its own distinct culture and architectural style.
+
+4. Subterranean Caverns:
+Beneath the surface of Xylothar lies a vast network of interconnected caverns filled with bizarre geological formations and unique ecosystems. In their natural state, these caves are dark and mysterious, teeming with life that has evolved to exist without sunlight. The Luminari have explored and settled portions of the caverns, using advanced biotechnology to create sustainable underground cities. They've domesticated certain cave-dwelling creatures for labor and transportation and cultivated unique fungi and plants for food and medicine.
+
+The Luminari are a sentient species with a rich history, diverse cultures, and complex societal structures. They have a deep spiritual connection to their environment and have developed advanced technology that allows them to live in harmony with the various biomes of Xylothar. Their interactions with other species on the planet are intricate, often involving symbiosis, mutualism, or coevolution, which has shaped their worldview and cultural practices.",1.0,1.0,0,Mode 1: BGE=1.000 but output is pure English (overlap=1.00),2,Complete: 462 words (ref ~462),2,No native script characters detected,0,Response appears verbatim English: overlap=1.00,3,Consistent romanization style,3,High semantic similarity: BGE=1.000,,,,,,
+20,ollama,Kannada,84731e63-de33-485b-b7c4-04f615259dee,"Here is a problem I run into with modern social media: Whenever there is a post I really want to comment on, because I think I have something valuable to add, it is already filled with thousands of comments and I know the odds of my comments getting any traction are slim.
+Can you come up with a solution to this problem?","One solution to this issue is to engage with smaller or niche online communities where the competition for attention is lower and your insights are more likely to be seen and appreciated. Another option is to reach out to the original poster directly, through private messaging or email, and share your thoughts with them that way. Additionally, you could create your own content around the topic you are passionate about and build a following around it. This way, you have a platform to share your thoughts and engage with like-minded individuals.","Hiru a problem I run into with modern social media: Whenever there is a post I really want to comment on, because I think I have something valuable to add, it is already filled with thousands of comments and I know the odds of my comments getting any traction are slim.
+Can you come up with a solution to this problem?","One solution to this issue is to engage with smaller or niche online communities where the competition for attention is lower and your insights are more likely to be seen and appreciated. Another option is to reach out to the original poster directly, through private messaging or email, and share your thoughts with them that way. Additionally, you could create your own content around the topic you are passionate about and build a following around it. This way, you have a platform to share your thoughts and engage with like-minded individuals.",1.0,1.0,0,Mode 1: BGE=1.000 but output is pure English (overlap=1.00),2,Complete: 91 words (ref ~91),2,No native script characters detected,0,Response appears verbatim English: overlap=1.00,3,Consistent romanization style,3,High semantic similarity: BGE=1.000,,,,,,

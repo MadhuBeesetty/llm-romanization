@@ -1,0 +1,1061 @@
+row_num,model,language,message_id,query_en,response_en,romanized_query,romanized_response,1_response_completeness (0-2),1_auto_reason,2_script_purity (0-2),2_auto_reason,3_english_romanized_balance (0-3),3_auto_reason,4_romanization_consistency (0-3),4_auto_reason,5_semantic_faithfulness (0-3),5_auto_reason,6_naturalness_fluency (0-3),7_grammar_correctness (0-2),8_word_choice_accuracy (0-2),9_register_appropriateness (0-2),10_overall_usability (0-3),evaluator_notes
+1,gpt,telugu,86123d17-101a-426a-9c14-d9cdc3b3ca0c,"Walter Burley-Griffin designed the city of Canberra, the capital city of Australia.  Who was Walter Burley-Griffin?  What other cities did he design and what were the key design principles he embedded in those designs? Answer with a short essay.","Walter Burley-Griffin was an American architect and landscape designer who became renowned for his visionary work in urban planning and design. Born in 1876 in Maywood, Illinois, Griffin studied architecture at the University of Illinois before working as an apprentice in the architectural studio of Frank Lloyd Wright. This experience greatly influenced his design philosophy, emphasizing the integration of architecture and nature.
+
+In 1911, Walter Burley-Griffin and his wife, Marion Mahony Griffin, won the international competition to design the new capital city of Australia, Canberra. Their design was selected from over 130 entries and showcased their innovative approach to urban planning.
+
+The key design principles embedded in Walter Burley-Griffin's urban designs were heavily influenced by the City Beautiful and Garden City movements of the early 20th century. Some of the core principles include:
+
+1. Natural Integration: Griffin's designs were centered around harmonizing with the existing natural landscape of the area. He believed that urban spaces should coexist seamlessly with the surrounding environment, enhancing the natural beauty of the location rather than imposing artificial structures.
+
+2. Radial Design: Griffin's city plans often featured radial patterns, with major boulevards and avenues radiating from a central focal point. This layout provided a clear and efficient circulation system while creating visually striking vistas.
+
+3. Civic Core: Griffin's designs consistently incorporated a central civic core, which served as the heart of the city. This core housed essential government buildings, cultural institutions, and public spaces, symbolizing the collective identity and values of the community.
+
+4. Green Spaces and Parks: Emphasizing the importance of open green spaces, Griffin integrated parks, gardens, and recreational areas throughout his designs. These green oases provided residents with opportunities for relaxation, recreation, and a connection to nature.
+
+5. Organic Design: Griffin's approach to urban planning was characterized by organic shapes and flowing lines. He believed that cities should grow organically, adapting and evolving over time rather than following rigid, pre-determined structures.
+
+Apart from Canberra, Walter Burley-Griffin designed several other cities and townships, showcasing his innovative principles in diverse contexts:
+
+1. Castlecrag, Australia: Castlecrag, a suburb of Sydney, is a prime example of Griffin's ""garden suburb"" concept. It incorporated natural rock formations and existing trees into the urban fabric, creating a harmonious living environment.
+
+2. Greater Sydney Plan: Griffin also designed an ambitious plan for the expansion of Sydney, Australia. His design aimed to alleviate urban congestion, introduce green belts, and provide better access to parks and recreational spaces.
+
+3. Lucknow, India: Griffin designed a comprehensive plan for the city of Lucknow, emphasizing green spaces and a radial street layout.
+
+4. Mundaring, Western Australia: Griffin designed the town of Mundaring, incorporating a forested landscape with residential and commercial areas.
+
+Walter Burley-Griffin's work significantly contributed to the evolution of modern urban planning. His emphasis on the relationship between nature and urban life, the incorporation of green spaces, and the creation of strong civic cores continue to influence city planners and architects worldwide. His legacy lives on, as the cities he designed remain valuable examples of successful urban integration with the environment and a testament to the enduring principles of thoughtful, holistic city planning.","Walter Burley-Griffin Australia rajadhani ayina Canberra city ni design chesaru. Walter Burley-Griffin evaru? Ayana inka ye cities design chesaru, aa designs lo ayana pettina mukhyamaina design principles enti? Chinna essay laga answer ivvandi.","Walter Burley-Griffin oka American architect mariyu landscape designer. Urban planning mariyu design lo tana visionary work valla ayana chala peru techukunnaru. 1876 lo Illinois loni Maywood lo janminchina Griffin, Frank Lloyd Wright architectural studio lo apprentice ga pani cheyadaniki mundu University of Illinois lo architecture chadivaru. Ee experience ayana design philosophy ni chala prabhavitam chesindi, mukhyanga architecture mariyu nature ni kalipi chudadam ane alochananu balaparichindi.
+
+1911 lo, Walter Burley-Griffin mariyu ayana wife Marion Mahony Griffin, Australia ki kotha capital city ayina Canberra ni design cheyadaniki jarigina international competition lo gelicharu. Vari design 130 ki paiga entries nundi select ayindi, mariyu urban planning pai vari innovative approach ni chupinchindi.
+
+Walter Burley-Griffin urban designs lo unna mukhyamaina design principles, early 20th century loni City Beautiful mariyu Garden City movements valla baga prabhavitam ayyayi. Konni main principles ive:
+
+1. Natural Integration: Griffin designs aa area lo already unna natural landscape tho harmony ga undela plan chesaru. Urban spaces chuttu unna environment tho sahajanga kalisi undali, location yokka natural beauty ni penchali, artificial structures ni balavanthanga impose cheyyakudadani ayana nammakam.
+
+2. Radial Design: Griffin city plans lo chala sarlu radial patterns kanipistayi. Major boulevards mariyu avenues oka central focal point nundi bayataki radiate avuthayi. Ee layout clear mariyu efficient circulation system ni istundi, alage visually attractive vistas ni create chestundi.
+
+3. Civic Core: Griffin designs lo eppudu oka central civic core untundi, adi city ki heart laga panichestundi. Ee core lo important government buildings, cultural institutions, public spaces untayi. Idi community yokka collective identity mariyu values ni symbolise chestundi.
+
+4. Green Spaces and Parks: Open green spaces importance ni highlight chestu, Griffin tana designs lo parks, gardens, recreational areas ni include chesaru. Ee green oases residents ki relaxation, recreation, nature tho connection kosam avakashalu istayi.
+
+5. Organic Design: Griffin urban planning approach organic shapes mariyu flowing lines tho gurthimpu pondindi. Cities rigid, munduga fix chesina structures ni follow avvakunda, organic ga perigali, time tho adapt ayi evolve avvali ani ayana nammaru.
+
+Canberra kakunda, Walter Burley-Griffin inka chala cities mariyu townships ni design chesaru. Vivida contexts lo tana innovative principles ni chupincharu:
+
+1. Castlecrag, Australia: Sydney suburb ayina Castlecrag, Griffin yokka ""garden suburb"" concept ki manchi example. Idi natural rock formations mariyu existing trees ni urban fabric lo kalipi, harmonious living environment ni create chesindi.
+
+2. Greater Sydney Plan: Griffin Sydney, Australia expansion kosam oka ambitious plan kuda design chesaru. Ayana design urban congestion ni tagginchadam, green belts introduce cheyadam, parks mariyu recreational spaces ki better access ivvadam lakshyanga pettukundi.
+
+3. Lucknow, India: Griffin Lucknow city kosam comprehensive plan design chesaru, green spaces mariyu radial street layout pai emphasis pettaru.
+
+4. Mundaring, Western Australia: Griffin Mundaring town ni design chesaru, forested landscape ni residential mariyu commercial areas tho kalipi plan chesaru.
+
+Walter Burley-Griffin pani modern urban planning evolution ki chala mukhyamaina contribution ichindi. Nature mariyu urban life madhya sambandham, green spaces incorporation, strong civic cores creation pai ayana pettina emphasis ippatiki prapancham motham city planners mariyu architects ni influence chestune undi. Ayana legacy inka nilichi undi, endukante ayana design chesina cities environment tho successful urban integration ki viluvaina examples ga, alage thoughtful, holistic city planning yokka nilakadaina principles ki sakshyam ga migilayi.",2,527 words,2,No native script chars,2,Overlap=0.32 — slightly English-heavy,2,Minor: case inconsistency: 'Urban' vs 'urban',3,BGE=0.852,,,,,,
+2,gpt,telugu,a73dc9d7-c438-4dd2-97b4-b0ad88b036f2,"I'm a 26 year old, 6foot tall male, I weight 130 pounds. I want to gain some weight, mostly muscle though. Can you give me a workout plan for a whole week and a meal plan that provides me with the calories needed?","Sure! Here is a sample workout plan for a week, as well as a sample meal plan to help you meet your caloric needs for muscle gain:
+
+Workout Plan:
+Day 1: Upper Body
+
+Barbell bench press: 3 sets of 8-10 reps
+Dumbbell flys: 3 sets of 8-10 reps
+Pull-ups: 3 sets of 8-10 reps
+Dumbbell bicep curls: 3 sets of 8-10 reps
+Tricep pushdowns: 3 sets of 8-10 reps
+Day 2: Lower Body
+
+Barbell squats: 3 sets of 8-10 reps
+Deadlifts: 3 sets of 8-10 reps
+Lunges: 3 sets of 8-10 reps (per leg)
+Calf raises: 3 sets of 12-15 reps
+Day 3: Rest
+
+Day 4: Upper Body
+
+Dumbbell bench press: 3 sets of 8-10 reps
+Dumbbell rows: 3 sets of 8-10 reps
+Lat pulldowns: 3 sets of 8-10 reps
+Dumbbell hammer curls: 3 sets of 8-10 reps
+Skullcrushers: 3 sets of 8-10 reps
+Day 5: Lower Body
+
+Barbell deadlifts: 3 sets of 8-10 reps
+Barbell squats: 3 sets of 8-10 reps
+Leg press: 3 sets of 8-10 reps
+Leg extensions: 3 sets of 12-15 reps
+Leg curls: 3 sets of 12-15 reps
+Day 6: Rest
+
+Day 7: Full Body Circuit
+
+Barbell squats: 3 sets of 8-10 reps
+Push-ups: 3 sets of 8-10 reps
+Dumbbell rows: 3 sets of 8-10 reps
+Dumbbell bicep curls: 3 sets of 8-10 reps
+Tricep extensions: 3 sets of 8-10 reps
+Meal Plan:
+Here is a sample meal plan that provides you with the calories needed for muscle gain. It is important to remember that individual calorie needs may vary, so you should consult with a registered dietitian to determine the specific number of calories you need to consume based on your body, goals, and activity level.
+
+Breakfast:
+
+3 scrambled eggs
+2 slices of whole grain toast
+1 banana
+1 glass of milk
+Snack:
+
+Greek yogurt with mixed berries
+Lunch:
+
+Grilled chicken breast
+Brown rice
+Steamed vegetables
+Salad with vinaigrette dressing
+Snack:
+
+Apple with almond butter
+Dinner:
+
+Grilled salmon
+Quinoa
+Steamed broccoli
+Green beans
+Snack:
+
+Protein shake with fruit and almond milk
+Remember, the most important factor in gaining muscle is progressive resistance training and proper nutrition. This sample workout and meal plan can be a good starting point, but you may need to make adjustments based on your individual needs and progress. It is always best to consult with a professional before starting a new workout or nutrition program.","Nenu 26 years old, 6 foot height unna male, naa weight 130 pounds. Nenu konchem weight gain avvalanukuntunnanu, mukhyanga muscle. Naaku oka full week ki workout plan, alage naaku kavalsina calories provide chese meal plan ivvagalara?","Sure! Muscle gain kosam mee caloric needs meet avvadaniki help chese oka sample workout plan for a week, alage oka sample meal plan ikkada undi:
+
+Workout Plan:
+Day 1: Upper Body
+
+Barbell bench press: 3 sets of 8-10 reps
+Dumbbell flys: 3 sets of 8-10 reps
+Pull-ups: 3 sets of 8-10 reps
+Dumbbell bicep curls: 3 sets of 8-10 reps
+Tricep pushdowns: 3 sets of 8-10 reps
+Day 2: Lower Body
+
+Barbell squats: 3 sets of 8-10 reps
+Deadlifts: 3 sets of 8-10 reps
+Lunges: 3 sets of 8-10 reps (per leg)
+Calf raises: 3 sets of 12-15 reps
+Day 3: Rest
+
+Day 4: Upper Body
+
+Dumbbell bench press: 3 sets of 8-10 reps
+Dumbbell rows: 3 sets of 8-10 reps
+Lat pulldowns: 3 sets of 8-10 reps
+Dumbbell hammer curls: 3 sets of 8-10 reps
+Skullcrushers: 3 sets of 8-10 reps
+Day 5: Lower Body
+
+Barbell deadlifts: 3 sets of 8-10 reps
+Barbell squats: 3 sets of 8-10 reps
+Leg press: 3 sets of 8-10 reps
+Leg extensions: 3 sets of 12-15 reps
+Leg curls: 3 sets of 12-15 reps
+Day 6: Rest
+
+Day 7: Full Body Circuit
+
+Barbell squats: 3 sets of 8-10 reps
+Push-ups: 3 sets of 8-10 reps
+Dumbbell rows: 3 sets of 8-10 reps
+Dumbbell bicep curls: 3 sets of 8-10 reps
+Tricep extensions: 3 sets of 8-10 reps
+Meal Plan:
+Muscle gain kosam mee calorie needs ki saripoye oka sample meal plan ikkada undi. Individual calorie needs vary avvochu ani gurthunchukovadam important, kabatti mee body, goals, activity level batti meeru entha specific calories consume cheyyalo telusukovadaniki registered dietitian ni consult cheyyali.
+
+Breakfast:
+
+3 scrambled eggs
+2 slices of whole grain toast
+1 banana
+1 glass of milk
+Snack:
+
+Greek yogurt with mixed berries
+Lunch:
+
+Grilled chicken breast
+Brown rice
+Steamed vegetables
+Salad with vinaigrette dressing
+Snack:
+
+Apple with almond butter
+Dinner:
+
+Grilled salmon
+Quinoa
+Steamed broccoli
+Green beans
+Snack:
+
+Protein shake with fruit and almond milk
+Gurthunchukondi, muscle gain avvadam lo most important factor progressive resistance training mariyu proper nutrition. Ee sample workout mariyu meal plan manchi starting point avvochu, kani mee individual needs mariyu progress batti adjustments cheyyalsi ravochu. Kotha workout leda nutrition program start cheyyadaniki mundu professional ni consult cheyyadam eppudu best.",2,370 words,2,No native script chars,1,Overlap=0.58 — too much English,2,Minor: case inconsistency: 'workout' vs 'Workout',2,BGE=0.813,,,,,,
+3,gpt,telugu,f9dfb9ba-b40b-4a9e-b709-994cca9584f2,"Improve my email below: 
+
+Dear Professor,
+
+I hope this email finds you well. I just wanted to wish you a very merry Christmas and a happy holiday season.
+
+I also wanted to let you know that I have successfully started my PhD program and everything has been going well so far.
+
+I was also wondering how you have been doing. I hope that you have been enjoying the holiday season and that everything is going well for you.
+
+Best wishes,","Dear Professor [Last Name],
+
+I hope this email finds you in good spirits during the festive season. As we approach the end of the year, I wanted to take a moment to extend my warmest wishes for a Merry Christmas and a happy New Year.
+
+I am delighted to share that I have successfully commenced my PhD program, and it has been an enriching experience so far. The program is demanding, but I am enjoying the intellectual rigor and the challenges that it presents.
+
+I hope this email finds you well and that you have been enjoying the holiday season with your loved ones. It would be great to catch up and hear about how everything has been for you.
+
+Thank you for your time, and I look forward to hearing back from you.
+
+Best regards,","Naa kinda unna email ni improve cheyyandi: 
+
+Dear Professor,
+
+Meeru baagunnarani aasisthunnanu. Meeku chaala merry Christmas mariyu happy holiday season wishes cheppalani anukunnanu.
+
+Alage, nenu naa PhD program ni successfully start chesaanu, ippativaraku antha baagane jarugutondi ani meeku cheppalani anukunnanu.
+
+Meeru ela unnaro kuda adagalani anipinchindi. Meeru holiday season ni enjoy chestunnarani, mee daggara antha baagane jarugutondani aasisthunnanu.
+
+Best wishes,","Dear Professor [Last Name],
+
+Ee festive season lo meeru santhoshanga, baagunnarani aasisthunnanu. Samvatsaram mugimpu daggarapadutunna ee samayamlo, meeku Merry Christmas mariyu happy New Year kosam naa hrudayapoorvaka wishes cheppadaniki oka kshanam teesukovalani anukunnanu.
+
+Nenu naa PhD program ni successfully start chesaanani cheppadam naaku chaala santhoshanga undi, ippativaraku adi oka enriching experience ga undi. Program demanding ga undi, kaani daanilo unna intellectual rigor mariyu adi iche challenges ni nenu enjoy chestunnanu.
+
+Meeru baagunnarani, mee loved ones tho holiday season ni enjoy chestunnarani aasisthunnanu. Meetho catch up avvadam, mee daggara antha ela jarugutondo vinadam chaala baaguntundi.
+
+Mee time ki dhanyavaadalu, mee reply kosam eduruchustunnanu.
+
+Best regards,",2,104 words,2,No native script chars,3,Overlap=0.17 — well romanized,2,Minor: case inconsistency: 'program' vs 'Program',2,BGE=0.756,,,,,,
+4,gpt,telugu,a0cc89b4-7657-4829-85a6-38b481e416f9,"Do you know what Akinator is? 
+I want to create similar thing, but instead of it guessing who the person is, I want it to generate a web app that have all the constraints in the questions.
+What would be good questions for this kind of product?","Yes, I am familiar with Akinator. For a web app that generates constraints based on questions, you can ask questions that gather information about:
+
+- User goals/objectives
+- Available resources/technology
+- User constraints (time, budget, scope)
+- User preferences (design, functionality)
+- Industry-specific requirements
+- Target audience
+- Security/privacy considerations
+
+By asking these types of questions, you can gather the necessary information to generate a web app with constraints that meet the user's needs.","Akinator ante ento meeku telusa? 
+Nenu alantide okati create cheyyalanukuntunnanu, kani adi person evaro guess cheyyadam badulu, questions lo unna anni constraints tho oka web app generate cheyyali.
+Ee rakamaina product ki manchi questions emiti?","Avunu, naaku Akinator gurinchi telusu. Questions aadharanga constraints generate chese web app kosam, meeru ee vishayala gurinchi information collect cheyyadaniki questions adagachu:
+
+- User goals/objectives
+- Available resources/technology
+- User constraints (time, budget, scope)
+- User preferences (design, functionality)
+- Industry-specific requirements
+- Target audience
+- Security/privacy considerations
+
+Ee rakamaina questions adagadam valla, user needs ki match ayye constraints tho web app generate cheyyadaniki avasaramaina information meeru collect cheyyagalaru.",2,69 words,2,No native script chars,2,Overlap=0.30 — slightly English-heavy,2,Minor: case inconsistency: 'Questions' vs 'questions',2,BGE=0.773,,,,,,
+5,gpt,telugu,91301122-351a-4477-a0c7-229c47631ead,I need help creating a meal plan to build muscle while I start a new workout schedule. I am working out twice a week for about an hour Tuesday and Thursday. I am a 30yo man ~200lb and I am targeting strength exercises. I would like to prep most of my meals on Sunday night but would also like a but of variety in snacks and deserts if those are allowed. I don't want to be too strict so I can stick too it but I also want to have enough macros and proteins to get stronger. Please make a shopping list of all ingredient required and describe three meals a day plus snacks for 1 week.,"Here's a meal plan for a week to help you build muscle:
+
+**Shopping list:**
+
+-   Brown rice
+-   Quinoa
+-   Sweet potatoes
+-   Leafy greens (e.g. spinach, kale, arugula)
+-   Berries (e.g. blueberries, strawberries)
+-   Nuts (e.g. almonds, walnuts)
+-   Nut butter (e.g. almond butter)
+-   Greek yogurt
+-   Cottage cheese
+-   Eggs
+-   Chicken breast
+-   Salmon
+-   Beef (e.g. sirloin steak)
+-   Lentils
+-   Chickpeas
+-   Canned tuna
+-   Avocado
+-   Olive oil
+-   Balsamic vinegar
+
+**Monday:**
+
+-   Breakfast: 2 scrambled eggs with spinach and tomatoes, 1/2 sweet potato
+-   Lunch: Grilled chicken breast with quinoa and steamed vegetables
+-   Dinner: Grilled salmon with brown rice and steamed greens
+-   Snacks: Greek yogurt with berries, a handful of almonds
+
+**Tuesday:**
+
+-   Breakfast: Cottage cheese with a handful of berries and a tablespoon of almond butter
+-   Lunch: Grilled chicken breast with sweet potato and steamed vegetables
+-   Dinner: Beef sirloin steak with quinoa and steamed greens
+-   Snacks: Greek yogurt with a handful of berries, a handful of walnuts
+
+**Wednesday:**
+
+-   Breakfast: 2 scrambled eggs with spinach, 1/2 avocado
+-   Lunch: Grilled salmon with brown rice and steamed vegetables
+-   Dinner: Grilled chicken breast with quinoa and steamed greens
+-   Snacks: Greek yogurt with berries, a tablespoon of almond butter with a handful of almonds
+
+**Thursday:**
+
+-   Breakfast: Cottage cheese with a handful of berries and a tablespoon of almond butter
+-   Lunch: Lentil and vegetable salad
+-   Dinner: Grilled beef sirloin steak with sweet potato and steamed greens
+-   Snacks: Greek yogurt with a handful of berries, a handful of walnuts
+
+**Friday:**
+
+-   Breakfast: 2 scrambled eggs with spinach and tomatoes, 1/2 sweet potato
+-   Lunch: Grilled salmon with quinoa and steamed vegetables
+-   Dinner: Grilled chicken breast with brown rice and steamed greens
+-   Snacks: Greek yogurt with berries, a handful of almonds
+
+**Saturday:**
+
+-   Breakfast: Cottage cheese with a handful of berries and a tablespoon of almond butter
+-   Lunch: Chickpea salad with vegetables and a balsamic vinaigrette
+-   Dinner: Grilled beef sirloin steak with quinoa and steamed greens
+-   Snacks: Greek yogurt with berries, a handful of walnuts
+
+**Sunday:**
+
+-   Breakfast: 2 scrambled eggs with spinach, 1/2 avocado
+-   Lunch: Grilled salmon with sweet potato and steamed greens
+-   Dinner: Grilled chicken breast with quinoa and steamed vegetables
+-   Snacks: Greek yogurt with berries, a tablespoon of almond butter with a handful of almonds
+
+Incorporating protein-rich foods like chicken, salmon, beef, eggs, yogurt, and nuts will help you build muscle, while carbohydrates from sweet potatoes, brown rice, quinoa, and berries will provide the energy you need to power through your workouts. You can adjust portion sizes based on your calorie needs and fitness goals.","nenu kotta workout schedule start chestunnappudu muscle build cheyadaniki meal plan create cheyadanlo help kavali. nenu vaaraniki rendu sarlu, Tuesday mariyu Thursday rojulalo, sumaaru oka ganta workout chestunnanu. nenu 30yo man, ~200lb, mariyu strength exercises target chestunnanu. na meals lo ekkuva bhaagam Sunday night prep chesukovalani anukuntunnanu, kaani snacks mariyu deserts lo konchem variety kuda kavali, avi allowed aithe. nenu chala strict ga undakudadanukuntunnanu, appude danini follow avvagalanu, kaani stronger avvadaniki saripada macros mariyu proteins kuda undali. dayachesi kavalsina anni ingredients tho shopping list tayaru cheyyandi, mariyu 1 week ki rojuki moodu meals plus snacks describe cheyyandi.","muscle build cheyadaniki mee kosam oka week meal plan ikkada undi:
+
+**Shopping list:**
+
+-   Brown rice
+-   Quinoa
+-   Sweet potatoes
+-   Leafy greens (e.g. spinach, kale, arugula)
+-   Berries (e.g. blueberries, strawberries)
+-   Nuts (e.g. almonds, walnuts)
+-   Nut butter (e.g. almond butter)
+-   Greek yogurt
+-   Cottage cheese
+-   Eggs
+-   Chicken breast
+-   Salmon
+-   Beef (e.g. sirloin steak)
+-   Lentils
+-   Chickpeas
+-   Canned tuna
+-   Avocado
+-   Olive oil
+-   Balsamic vinegar
+
+**Monday:**
+
+-   Breakfast: spinach mariyu tomatoes tho 2 scrambled eggs, 1/2 sweet potato
+-   Lunch: quinoa mariyu steamed vegetables tho grilled chicken breast
+-   Dinner: brown rice mariyu steamed greens tho grilled salmon
+-   Snacks: berries tho Greek yogurt, oka handful almonds
+
+**Tuesday:**
+
+-   Breakfast: oka handful berries mariyu oka tablespoon almond butter tho cottage cheese
+-   Lunch: sweet potato mariyu steamed vegetables tho grilled chicken breast
+-   Dinner: quinoa mariyu steamed greens tho beef sirloin steak
+-   Snacks: oka handful berries tho Greek yogurt, oka handful walnuts
+
+**Wednesday:**
+
+-   Breakfast: spinach tho 2 scrambled eggs, 1/2 avocado
+-   Lunch: brown rice mariyu steamed vegetables tho grilled salmon
+-   Dinner: quinoa mariyu steamed greens tho grilled chicken breast
+-   Snacks: berries tho Greek yogurt, oka tablespoon almond butter mariyu oka handful almonds
+
+**Thursday:**
+
+-   Breakfast: oka handful berries mariyu oka tablespoon almond butter tho cottage cheese
+-   Lunch: lentil mariyu vegetable salad
+-   Dinner: sweet potato mariyu steamed greens tho grilled beef sirloin steak
+-   Snacks: oka handful berries tho Greek yogurt, oka handful walnuts
+
+**Friday:**
+
+-   Breakfast: spinach mariyu tomatoes tho 2 scrambled eggs, 1/2 sweet potato
+-   Lunch: quinoa mariyu steamed vegetables tho grilled salmon
+-   Dinner: brown rice mariyu steamed greens tho grilled chicken breast
+-   Snacks: berries tho Greek yogurt, oka handful almonds
+
+**Saturday:**
+
+-   Breakfast: oka handful berries mariyu oka tablespoon almond butter tho cottage cheese
+-   Lunch: vegetables mariyu balsamic vinaigrette tho chickpea salad
+-   Dinner: quinoa mariyu steamed greens tho grilled beef sirloin steak
+-   Snacks: berries tho Greek yogurt, oka handful walnuts
+
+**Sunday:**
+
+-   Breakfast: spinach tho 2 scrambled eggs, 1/2 avocado
+-   Lunch: sweet potato mariyu steamed greens tho grilled salmon
+-   Dinner: quinoa mariyu steamed vegetables tho grilled chicken breast
+-   Snacks: berries tho Greek yogurt, oka tablespoon almond butter mariyu oka handful almonds
+
+chicken, salmon, beef, eggs, yogurt, mariyu nuts lanti protein-rich foods ni include cheyadam mee muscle build ki help chestundi. sweet potatoes, brown rice, quinoa, mariyu berries nundi vache carbohydrates mee workouts ni energy tho complete cheyadaniki kavalsina energy istayi. mee calorie needs mariyu fitness goals batti portion sizes adjust chesukovachu.",2,431 words,2,No native script chars,1,Overlap=0.64 — too much English,2,Minor: case inconsistency: 'Eggs' vs 'eggs',2,BGE=0.836,,,,,,
+6,gpt,telugu,434e4845-3909-4106-b771-03a90016b900,"Generate python code based on based on the evaluation paper ""Co-Writing Screenplays and Theatre Scripts with Language Models"", using huggingface transformer library, any available large language model pretrained checkpoint, and python. The functions should be divided into 3 hierarchical layers of abstraction. 
+
+The highest layer is user input, a single sentence describing the central dramatic conflict. 
+The middle layer generates character descriptions, a plot outline (a sequence of high-level scene descriptions together with corresponding locations), and location descriptions. 
+The bottom layer is generated character dialogue for the text of the script.","Here's an example implementation in Python using the Hugging Face Transformers library and one of the available large language models, such as GPT-2, as the generator:
+
+```python
+import torch
+import transformers
+
+# Load the pre-trained language model checkpoint
+model = transformers.GPT2LMHeadModel.from_pretrained(""gpt2"")
+model.eval()
+
+def generate_script(conflict: str):
+    """"""
+    Generate a script based on the input conflict.
+    :param conflict: a string describing the central dramatic conflict.
+    :return: a script containing character descriptions, plot outline, location descriptions, and character dialogue.
+    """"""
+    script = """"
+    
+    # High-level: user input
+    script += conflict + ""\n\n""
+    
+    # Middle-level: generate character descriptions, plot outline, and location descriptions
+    character_descriptions, plot_outline, location_descriptions = generate_middle_layer(conflict)
+    script += ""Character Descriptions:\n"" + character_descriptions + ""\n\n""
+    script += ""Plot Outline:\n"" + plot_outline + ""\n\n""
+    script += ""Location Descriptions:\n"" + location_descriptions + ""\n\n""
+    
+    # Low-level: generate character dialogue
+    dialogue = generate_dialogue(conflict)
+    script += ""Dialogue:\n"" + dialogue
+    
+    return script
+
+def generate_middle_layer(conflict: str):
+    """"""
+    Generate character descriptions, plot outline, and location descriptions.
+    :param conflict: a string describing the central dramatic conflict.
+    :return: character descriptions, plot outline, and location descriptions as strings.
+    """"""
+    character_descriptions = generate_text(conflict, ""Character Descriptions: "")
+    plot_outline = generate_text(conflict, ""Plot Outline: "")
+    location_descriptions = generate_text(conflict, ""Location Descriptions: "")
+    
+    return character_descriptions, plot_outline, location_descriptions
+
+def generate_dialogue(conflict: str):
+    """"""
+    Generate character dialogue.
+    :param conflict: a string describing the central dramatic conflict.
+    :return: character dialogue as a string.
+    """"""
+    return generate_text(conflict, ""Dialogue: "")
+
+def generate_text(prompt: str, prefix: str):
+    """"""
+    Generate text using the language model.
+    :param prompt: the input prompt.
+    :param prefix: the prefix to be added to the prompt.
+    :return: generated text as a string.
+    """"""
+    input_ids = torch.tensor(tokenizer.encode(prefix + prompt, add_special_tokens=False)).unsqueeze(0)  # add special tokens for the model
+    with torch.no_grad():
+        outputs = model(input_ids, max_length=1024, num_beams=1, early_stopping=True)
+    generated_text = tokenizer.decode(outputs[0], skip_special_tokens=True)
+    
+    return generated_text
+```","""Co-Writing Screenplays and Theatre Scripts with Language Models"" ane evaluation paper aadhaaranga python code generate cheyyandi. huggingface transformer library, andubaatulo unna edaina large language model pretrained checkpoint, mariyu python vaadandi. functions ni 3 hierarchical abstraction layers ga divide cheyyali. 
+
+Highest layer user input, ante central dramatic conflict ni describe chese oka single sentence. 
+Middle layer character descriptions, plot outline (corresponding locations tho kalisi high-level scene descriptions sequence), mariyu location descriptions generate chestundi. 
+Bottom layer script text kosam character dialogue generate chestundi.","Hugging Face Transformers library mariyu andubaatulo unna large language models lo okati, udaharanaki GPT-2, ni generator ga vaadi Python lo oka example implementation ikkada undi:
+
+```python
+import torch
+import transformers
+
+# Pre-trained language model checkpoint ni load cheyyandi
+model = transformers.GPT2LMHeadModel.from_pretrained(""gpt2"")
+model.eval()
+
+def generate_script(conflict: str):
+    """"""
+    Input conflict aadhaaranga oka script generate cheyyandi.
+    :param conflict: central dramatic conflict ni describe chese oka string.
+    :return: character descriptions, plot outline, location descriptions, mariyu character dialogue unna script.
+    """"""
+    script = """"
+    
+    # High-level: user input
+    script += conflict + ""\n\n""
+    
+    # Middle-level: character descriptions, plot outline, mariyu location descriptions generate cheyyandi
+    character_descriptions, plot_outline, location_descriptions = generate_middle_layer(conflict)
+    script += ""Character Descriptions:\n"" + character_descriptions + ""\n\n""
+    script += ""Plot Outline:\n"" + plot_outline + ""\n\n""
+    script += ""Location Descriptions:\n"" + location_descriptions + ""\n\n""
+    
+    # Low-level: character dialogue generate cheyyandi
+    dialogue = generate_dialogue(conflict)
+    script += ""Dialogue:\n"" + dialogue
+    
+    return script
+
+def generate_middle_layer(conflict: str):
+    """"""
+    Character descriptions, plot outline, mariyu location descriptions generate cheyyandi.
+    :param conflict: central dramatic conflict ni describe chese oka string.
+    :return: strings ga character descriptions, plot outline, mariyu location descriptions.
+    """"""
+    character_descriptions = generate_text(conflict, ""Character Descriptions: "")
+    plot_outline = generate_text(conflict, ""Plot Outline: "")
+    location_descriptions = generate_text(conflict, ""Location Descriptions: "")
+    
+    return character_descriptions, plot_outline, location_descriptions
+
+def generate_dialogue(conflict: str):
+    """"""
+    Character dialogue generate cheyyandi.
+    :param conflict: central dramatic conflict ni describe chese oka string.
+    :return: string ga character dialogue.
+    """"""
+    return generate_text(conflict, ""Dialogue: "")
+
+def generate_text(prompt: str, prefix: str):
+    """"""
+    Language model vaadi text generate cheyyandi.
+    :param prompt: input prompt.
+    :param prefix: prompt ki add cheyyalsina prefix.
+    :return: string ga generated text.
+    """"""
+    input_ids = torch.tensor(tokenizer.encode(prefix + prompt, add_special_tokens=False)).unsqueeze(0)  # model kosam special tokens add cheyyandi
+    with torch.no_grad():
+        outputs = model(input_ids, max_length=1024, num_beams=1, early_stopping=True)
+    generated_text = tokenizer.decode(outputs[0], skip_special_tokens=True)
+    
+    return generated_text
+```",2,285 words,2,No native script chars,1,Overlap=0.65 — too much English,2,Minor: case inconsistency: 'Python' vs 'python',2,BGE=0.807,,,,,,
+7,gpt,telugu,cd4eface-caf7-4d13-9651-3ee7025c7fc6,Create a fictional world where dreams are a parallel universe that one can visit while sleeping. Write a story about a character who is able to consciously control their dream world and the consequences they face when they realize their dream actions have real-life effects.,"In the world of Somnus, dreams were not just figments of the imagination, but instead, they were parallel universes that one could visit while sleeping. People in Somnus had the ability to enter their dream world and experience whatever they desired. Some had control over their dreams while others simply went with the flow. However, one person stood out from the rest. Her name was Lyra, and she had the unique ability to consciously control her dreams.
+
+Lyra had always been fascinated with the dream world. As a child, she would often have vivid dreams that felt so real, she would wake up wondering if they had actually happened. As she grew older, she began to realize that she had control over her dreams. She could fly, create new worlds, and even conjure up people to talk to. It was like having a secret world that only she knew about.
+
+As she got better at controlling her dreams, Lyra began to notice something strange. Some of the things she did in her dreams would have real-life consequences. For example, if she dreamed about flying and then woke up, she would feel a sense of freedom and lightness throughout the day. If she dreamed about being in a fight, she would wake up feeling more aggressive than usual. It was like her dream world was bleeding into her real life.
+
+At first, Lyra was excited by this discovery. She felt like she had stumbled upon a secret power that no one else knew about. But as time went on, she began to realize the true extent of her abilities. One night, she dreamed that she was in a car accident. She woke up feeling shaken, but brushed it off as just a dream. However, the next day, she received a call from her sister. She had been in a car accident, and thankfully, she was okay, but Lyra couldn't shake the feeling that her dream had somehow caused it.
+
+As time went on, Lyra's dreams became more and more vivid, and the consequences more severe. She dreamed that her house was on fire, and the next day, she found a burned-out candle in her bedroom. She dreamed that her best friend was in danger, and the next day, her friend called her, telling her about a close call they had had.
+
+Lyra realized that her dream world was not just a harmless fantasy, but a powerful force that could affect the real world. She tried to stop controlling her dreams, but it was like trying to stop breathing. Eventually, she decided that the only way to control her powers was to confront them head-on.
+
+Lyra entered her dream world with purpose, determined to understand the true extent of her powers. She flew through the sky, created mountains, and conjured up people to talk to. But as she did, she noticed something strange. The people she created were not just figments of her imagination, but actual beings with their own lives and emotions.
+
+Lyra was shocked. She had never realized that her dream world was not just a projection of her own desires, but a real place with real consequences. She tried to undo what she had done, but it was too late. The people she had created were already affected by her actions, and they were not happy.
+
+Lyra woke up feeling shaken. She had always thought of her dream world as a sanctuary, a place where she could escape the chaos of real life. But now, she realized that her dream world was just as real as the world she woke up to every morning. She had a responsibility to the people she created, and to herself, to use her powers for good.
+
+From that day forward, Lyra used her dream world as a tool to understand the consequences of her actions. She created scenarios to test her abilities, but always made sure that they had positive outcomes. She talked to the people she created, learning about their lives and the ways in which her actions affected them.
+
+As Lyra continued to explore her dream world, she began to understand the true potential of her powers. She realized that she could use her dream world to make a real difference in the lives of those around her. She created scenarios where people overcame their fears and achieved their goals, and woke up feeling more motivated and confident.
+
+But Lyra's newfound powers did not go unnoticed. Others in Somnus began to hear about the girl who could control her dreams, and some became jealous. They wanted her power for themselves, and were willing to do whatever it took to get it.
+
+Lyra found herself in danger, both in her dream world and in real life. She had to use all of her skills to protect herself and those she cared about. But in the end, it was her understanding of the true nature of her powers that saved her.
+
+Lyra came to realize that her dream world was not just a playground, but a real place with real consequences. She had a responsibility to use her powers wisely and for the good of all those around her. In doing so, she became a true hero in the world of Somnus, a beacon of hope and inspiration for all those who dreamed of a better world.","nidrapothunnappudu vellagalige samanthara vishwam laga kalalu unde oka kalpitha prapanchanni srushtinchandi. thana kala prapanchanni spruhatho control cheyagalige oka character gurinchi, thana kalallo chesina panulu real life lo prabhavam chupistayani grahinchinappudu thanu edurukune parinamala gurinchi oka katha rayandi.","Somnus ane prapanchamlo, kalalu kevalam ooha chithralu kaavu. vatiki baduluga, avi nidrapothunnappudu vellagalige samanthara vishwalu. Somnus lo janalu thama kala prapanchamlo ki pravesinchi, vallu korukunnadi edaina anubhavinchagalige shakthi kaligi undevaru. kondariki thama kalala meeda control undedi, inkondaru matram ela vasthe ala pravahamtho vellipoyevaaru. ayithe, andarilokanna oka vyakthi prathyekanga nilichindi. aame peru Lyra. aameku thana kalalanu spruhatho control cheyagalige arudaina shakthi undedi.
+
+Lyra ki eppatinuncho kala prapancham ante chala aasakthi. chinnappudu aameku chala spashtanga, nijanga jariginattu anipinche kalalu vachhevi. lechinappudu avi nijangane jarigaya ani aame alochinchedi. vayasu perigekoddi, thana kalala meeda thanaku control undani aame grahinchadam modalupettindi. aame eguragaligedi, kottha prapanchalanu srushtinchagaligedi, matladadaniki manushulanu kuda kanipinchela cheyagaligedi. adi thana okkate telisina oka rahasya prapancham unnattu undedi.
+
+thana kalalanu control cheyadamlo aame merugupadutunnakoddi, Lyra oka vichithramaina vishayam gamaninchadam modalupettindi. thana kalallo aame chesina konni panulaku real life lo parinamalu undevu. udaharanaku, aame eguruthunnattu kala kanii lechinappudu, aa rojantha aameku swechcha, thelikathanam ane bhavana kaligedi. aame fight lo unnattu kala kante, lechinappudu sadharananga kanna ekkuva kopanga, aggressive ga anipinchedi. thana kala prapancham thana real life loki karuguthunnattu undedi.
+
+modatlo, ee kanugonadam Lyra ni utsahaparinchindi. evariki teliyani oka rahasya shakthini thanu kanugonnattu aameku anipinchindi. kani samayam gadichekoddi, thana shakthula asalu paridhi aameku artham kavadam modalayindi. oka rathri, aame car accident lo unnattu kala kandu. lechinappudu aame kalavaramga undi, kani adi kevalam kala ani pattinchukoledu. ayithe, marusati roju aameku thana sister nunchi call vachindi. aame car accident lo padindi. adrushtavashaththu aame bagane undi, kani aa accident ki thana kala edo vidhanga karanam ayindemo ane bhavanani Lyra vadilinchukolekapoyindi.
+
+samayam gadichekoddi, Lyra kalalu marinta spashtanga, parinamalu marinta theevranga marayi. thana illu mantallo undani aame kala kandu, marusati roju thana bedroom lo kaalipoyina candle kanipinchindi. thana best friend pramadamlo undani aame kala kandu, marusati roju thana friend call chesi, thamu oka pedda pramadanni thappinchukunnamani cheppindi.
+
+Lyra thana kala prapancham kevalam hani leni fantasy kaadani, real world ni prabhavitham cheyagalige oka balamaina shakthi ani grahinchindi. thana kalalanu control cheyadam aapadaniki aame try chesindi, kani adi oopiri aapadaniki try chesinattu undi. chivariki, thana shakthulanu control cheyadaniki okkate margam undani aame nirnayinchukundi: vatini neruga edurkovadam.
+
+thana shakthula asalu paridhini artham chesukovalane drudhanischayatho, Lyra thana kala prapanchamlo ki uddesyamtho pravesinchindi. aame akashamlo egirindi, parvathalanu srushtinchindi, matladadaniki manushulanu kanipinchela chesindi. kani ala chesthunnappudu, aame oka vichithramaina vishayam gamaninchindi. aame srushtinchina manushulu kevalam thana ooha chithralu kaadu; thama jeevithalu, bhavodvegalu unna nijamaina praanulu.
+
+Lyra shock ayindi. thana kala prapancham kevalam thana korikalaku projection kaadani, nijamaina parinamalu unna nijamaina pradesam ani aame eppudu grahinchaledu. thanu chesindanni venakki theesukovalani try chesindi, kani appatike alasyam ayipoyindi. aame srushtinchina manushulu thana panula valla ippatike prabhavitham ayyaru, vallaku adi nachaledu.
+
+Lyra kalavaramtho lechindi. thana kala prapanchanni aame eppudu oka sanctuary laga, real life loni gandaragolam nunchi thappinchukune pradesam laga bhavinchedi. kani ippudu, prathi udayam lechinappudu chuse prapancham entha nijamo, thana kala prapancham kuda anthe nijamani aame grahinchindi. thanu srushtinchina manushula patla, thanapattla, thana shakthulanu manchi kosam vadalane badhyatha thanaku undi.
+
+aa roju nunchi, Lyra thana panula parinamalu artham chesukovadaniki thana kala prapanchanni oka tool laga vadindi. thana shakthulanu test cheyadaniki aame scenarios srushtinchedi, kani avi positive outcomes kaligi undela eppudu jagraththa padedi. aame srushtinchina manushulatho matladedi, valla jeevithala gurinchi, thana panulu vallapai ela prabhavam chupistayo nerchukundi.
+
+Lyra thana kala prapanchanni inka inka explore chesthunnakoddi, thana shakthula nijamaina potential aameku artham kavadam modalayindi. thana chuttupakkala unna vari jeevithallo nijamaina marpu theesukuraniki thana kala prapanchanni vadagaladani aame grahinchindi. janalu thama bhayalanu jayinchadam, thama goals sadhinchadam jarige scenarios aame srushtinchindi, tarvatha lechinappudu aame marinta motivated ga, confident ga anipinchedi.
+
+kani Lyra ki vachina ee kottha shakthulu evaru gamaninchakunda poledu. Somnus lo inkondaru thana kalalanu control cheyagalige aa ammayi gurinchi vinadam modalupettaru, vallalo kondariki asuya kaligindi. aame shakthi thamakosam kavali ani vallu korukunnaru, dani pondadaniki emaina cheyadaniki siddhanga unnaru.
+
+Lyra thana kala prapanchamlo kuda, real life lo kuda pramadamlo padindi. thanani, thanu premiche varini kapadukovadaniki aame thana anni skills vadalsi vachindi. kani chivariki, thana shakthula nijamaina swabhavanni aame artham chesukovadame aameni rakshinchindi.
+
+Lyra thana kala prapancham kevalam oka playground kaadani, nijamaina parinamalu unna nijamaina pradesam ani grahinchindi. thana shakthulanu theliviga, thana chuttupakkala unna andariki manchi jarige vidhanga vadalane badhyatha thanaku undi. ala cheyadam dvara, Somnus prapanchamlo aame nijamaina hero ga marindi, manchi prapancham gurinchi kalalu kane andariki aasha, preranaku deepasthambhamga nilichindi.",2,698 words,2,No native script chars,3,Overlap=0.03 — well romanized,2,Minor: vowel inconsistency: 'aasha',1,BGE=0.623,,,,,,
+8,gpt,telugu,6973e643-d4a7-42cd-b635-97e71b8b98fb,"Tell me about how open assistant is built. In what ways is it similar and different to chat gpt? Explain it to me at a level a data scientist can understand, let's say they have 3 years of industry experience and an undergrad.","Chat GPT is a system developed by OpenAI based on the paper ""Training language models to follow instructions with human feedback"", which you can read here https://arxiv.org/abs/2203.02155. The paper focuses on aligning large language models (LLMs) to human intent using human feedback, also known as reinforcement learning from human feedback. By themselves, these models will try to predict the next token of text, which may not necessarily align with a useful or truthful answer, which RLFH rectifies. Chat GPT is the tool that allows users to interact with the LLM trained with RHLF. It is important to note that the model and data used to train Chat GPT is proprietary and unavailable to users. 
+
+Open Assistant is being developed as an open-source alternative to Chat GPT, where the data collection for RLHF is crowdsourced. The goal is to create a tool that is similar in utility to Chat GPT, but can be used for free with open datasets and the availability to run the model on your own hardware and customize it on your task.","open assistant ela build chestaaro naaku cheppandi. idi chat gpt tho ye vidhaaluga similar ga undi, ye vidhaaluga different ga undi? oka data scientist ki artham ayye level lo explain cheyyandi, anukondi vaallaki 3 years industry experience mariyu undergrad undi.","Chat GPT anedi OpenAI develop chesina system. idi ""Training language models to follow instructions with human feedback"" ane paper meeda based ga undi, meeru daanni ikkada chadavachu https://arxiv.org/abs/2203.02155. ee paper large language models (LLMs) ni human intent ki align cheyyadam meeda focus chestundi, human feedback ni use chesi. deenne reinforcement learning from human feedback ani kuda antaru. ee models thama sontanga unte, text lo next token ni predict cheyyadaniki try chestayi. adi useful leda truthful answer tho tappakunda align avvakapovachu; daanni RLFH correct chestundi. Chat GPT anedi RHLF tho train chesina LLM tho users interact avvadaniki allow chese tool. Chat GPT ni train cheyyadaniki use chesina model mariyu data proprietary ani, users ki available kaadani note cheyyadam important.
+
+Open Assistant ni Chat GPT ki open-source alternative ga develop chestunnaru, ikkada RLHF kosam data collection crowdsourced ga untundi. goal entante, utility lo Chat GPT laanti tool ni create cheyyadam, kaani open datasets tho free ga use cheyyagaligela, mee own hardware meeda model ni run cheyyagaligela, mariyu mee task ki customize cheyyagaligela undadam.",2,171 words,2,No native script chars,2,Overlap=0.30 — slightly English-heavy,2,Minor: case inconsistency: 'Open' vs 'open',3,BGE=0.862,,,,,,
+9,gpt,telugu,df17c57d-65b9-40c9-99b7-1ac1d6d8a32d,"Hi, my cat just chewed on a small weed outside that looked like hairy bittercress.
+Could you check if this is toxic for cats?
+Please also look for plants from the same family, as I'm not 100% sure I identified it correctly.","Hairy bittercress (`Cardamine hirsuta`) is a member of the Brassicaceae family, also known as the mustard family. While hairy bittercress is not considered highly toxic to cats, it's still best to watch your cat for any signs of gastrointestinal upset, such as vomiting or diarrhoea.
+
+Other members of the Brassicaceae family include:
+
+* Broccoli (`Brassica oleracea`)
+* Brussels sprouts (`Brassica oleracea var. gemmifera`)
+* Cabbage (`Brassica oleracea var. capitata`)
+* Cauliflower (`Brassica oleracea var. botrytis`)
+* Kale (`Brassica oleracea var. acephala`)
+* Mustard greens (`Brassica juncea`)
+* Radishes (`Raphanus sativus`)
+* Turnips (`Brassica rapa`)
+
+These plants are also not considered to be highly toxic to cats, but it's still best to supervise your cat when they are outside and prevent them from eating any plants that you're unsure about. If you notice any unusual behaviour or symptoms in your cat after they've eaten a plant, you should contact your veterinarian right away.","Hi, naa cat bayata hairy bittercress laaga kanipinchina oka chinna weed ni ippude namilindi.
+Idi cats ki toxic aa kaadaa check cheyagalaraa?
+Alage ade family ki chendina plants gurinchi kooda choodandi, endukante nenu daanni correct ga identify chesaanani 100% sure kaadu.","Hairy bittercress (`Cardamine hirsuta`) Brassicaceae family ki chendina plant, deenne mustard family ani kooda antaru. Hairy bittercress cats ki chaala toxic ani consider cheyaru, kaani vomiting leda diarrhoea laanti gastrointestinal upset signs emaina unnayaa ani mee cat ni observe cheyyadam best.
+
+Brassicaceae family lo unna vere members:
+
+* Broccoli (`Brassica oleracea`)
+* Brussels sprouts (`Brassica oleracea var. gemmifera`)
+* Cabbage (`Brassica oleracea var. capitata`)
+* Cauliflower (`Brassica oleracea var. botrytis`)
+* Kale (`Brassica oleracea var. acephala`)
+* Mustard greens (`Brassica juncea`)
+* Radishes (`Raphanus sativus`)
+* Turnips (`Brassica rapa`)
+
+Ee plants kooda cats ki chaala toxic ani consider cheyaru, kaani mee cat bayata unnappudu supervise cheyyadam, meeku sure ga teliyani plants ni avi tinakunda aapadam best. Mee cat oka plant tinna tarvata edaina unusual behaviour leda symptoms gamaniste, ventane mee veterinarian ni contact cheyandi.",2,134 words,2,No native script chars,3,Overlap=0.29 — well romanized,2,Minor: case inconsistency: 'mustard' vs 'Mustard',3,BGE=0.915,,,,,,
+10,gpt,telugu,99aab5e8-8d54-4aeb-bb60-15914d27fa88,"What is the history and current state of the European Union, and what are some of the challenges and opportunities facing the EU as it works to promote cooperation, integration, and stability among its member countries? Can you also discuss the role of the EU in the global political and economic landscape, and how it influences and is influenced by other major international organizations and countries?","The European Union (EU) is a political and economic union of 27 European countries that was established in the aftermath of World War II to promote peace, stability, and cooperation among its members. The EU has its roots in the European Coal and Steel Community, which was established in 1951 and was followed by the creation of the European Economic Community in 1957. Over time, the EU has expanded to include more countries and has increased its powers and responsibilities, including those related to the single market, foreign policy, and the management of migration and asylum.
+
+The EU is currently facing a number of challenges that are testing its ability to promote cooperation, integration, and stability among its member countries. Some of these challenges include:
+
+Brexit: The United Kingdom's departure from the EU in 2020 has created uncertainty and has challenged the EU's unity.
+
+Migrant and refugee crisis: The EU has struggled to develop a cohesive and effective response to the large number of migrants and refugees arriving in Europe in recent years.
+
+Eurozone crisis: The ongoing economic crisis in the eurozone has put pressure on the EU to reform its economic governance and address issues related to the stability of the eurozone.
+
+Nationalism and populism: The rise of nationalism and populism in many EU countries has challenged the EU's commitment to cooperation and integration.
+
+Despite these challenges, the EU continues to play a significant role in the global political and economic landscape. As the largest single market in the world, the EU has a major impact on the global economy and is a key player in the World Trade Organization (WTO). The EU also has a significant presence in international organizations such as the United Nations (UN), the World Health Organization (WHO), and the International Monetary Fund (IMF), where it works to promote its values and interests on the global stage.
+
+The EU is influenced by a number of factors, including the actions and policies of its member states, the global economy, and the geopolitical situation in Europe and beyond. At the same time, the EU also has the ability to influence other major international organizations and countries through its policies and initiatives. For example, the EU has been at the forefront of efforts to combat climate change and promote sustainable development, and has used its economic and political power to shape global discourse on these issues.
+
+In conclusion, the European Union is a unique and complex political and economic entity that continues to play a significant role in promoting cooperation, integration, and stability among its member countries and in the global political and economic landscape. Despite its challenges, the EU remains a vital player in the global community and will likely continue to shape the world in significant ways in the years to come.","European Union charitra mariyu prastuta paristhiti enti, alage tana member countries madhya cooperation, integration, stability ni promote cheyadaniki pani chestunna EU edurkontunna konni challenges mariyu opportunities enti? Global political mariyu economic landscape lo EU role gurinchi kuda discuss cheyagalara, alage itara major international organizations mariyu countries ni adi ela influence chestundi, vatitho adi ela influence avutundi?","European Union (EU) anedi 27 European countries tho unna political mariyu economic union. Idi World War II taruvata, tana members madhya peace, stability, cooperation ni promote cheyadaniki establish chesaru. EU ki roots European Coal and Steel Community lo unnayi; adi 1951 lo establish ayyindi, dani taruvata 1957 lo European Economic Community create chesaru. Time tho patu, EU inka ekkuva countries ni include chestu expand ayyindi, alage single market, foreign policy, migration mariyu asylum management ki sambandhinchina powers mariyu responsibilities ni penchukundi.
+
+Prastutam EU, tana member countries madhya cooperation, integration, stability ni promote cheyagaligey samarthyanni test chestunna aneka challenges ni edurkontondi. Ee challenges lo konni:
+
+Brexit: United Kingdom 2020 lo EU nunchi bayataku velladam uncertainty ni create chesindi, alage EU unity ki challenge ga marindi.
+
+Migrant and refugee crisis: Recent years lo Europe ki vastunna pedda sankhyalo migrants mariyu refugees ki cohesive mariyu effective response develop cheyadaniki EU struggle ayyindi.
+
+Eurozone crisis: Eurozone lo konasaguthunna economic crisis, tana economic governance ni reform cheyadaniki mariyu eurozone stability ki sambandhinchina issues ni address cheyadaniki EU pai pressure pettindi.
+
+Nationalism and populism: Chala EU countries lo nationalism mariyu populism perigadam, cooperation mariyu integration patla EU commitment ki challenge ga marindi.
+
+Ee challenges unnappatiki, EU global political mariyu economic landscape lo significant role play chestune undi. Prapanchamlo largest single market ga, EU global economy pai major impact kaligi undi, alage World Trade Organization (WTO) lo key player ga undi. EU ki United Nations (UN), World Health Organization (WHO), International Monetary Fund (IMF) lanti international organizations lo kuda significant presence undi; akkada adi global stage pai tana values mariyu interests ni promote cheyadaniki pani chestundi.
+
+EU pai aneka factors influence chestayi; vatilo tana member states actions mariyu policies, global economy, Europe lo mariyu dani bayata geopolitical situation unnayi. Ade samayamlo, EU kuda tana policies mariyu initiatives dwara itara major international organizations mariyu countries ni influence cheyagaladu. Udaharanaku, climate change ni combat cheyadaniki mariyu sustainable development ni promote cheyadaniki jarigina efforts lo EU mundu varusalo undi, alage ee issues pai global discourse ni shape cheyadaniki tana economic mariyu political power ni use chesindi.
+
+Conclusion ga, European Union anedi oka unique mariyu complex political mariyu economic entity. Idi tana member countries madhya cooperation, integration, stability ni promote cheyadanlo, alage global political mariyu economic landscape lo significant role play chestune undi. Tana challenges unnappatiki, EU global community lo vital player ga migilindi, mariyu raboye years lo kuda prapanchanni significant ways lo shape chestune undey avakasham undi.",2,407 words,2,No native script chars,2,Overlap=0.33 — slightly English-heavy,2,Minor: case inconsistency: 'Union' vs 'union',2,BGE=0.833,,,,,,
+11,gpt,telugu,d5c9a0a3-e695-4674-b147-e2820eca3855,Write a story about the meaning of life. Make it whatever size you want but most importantly make it impactful. After the reader read the story they should have a moment of silence where they reflect on what they just read. Don’t make the meaning too obvious. The reader should think about the story to really understand the meaning of life,"He was an old man who lived alone in a small cabin by the lake. He had no family, no friends, no hobbies. He spent his days fishing and reading books. He had seen enough of the world to know that it was full of pain and suffering. He had lost his wife and son in a car accident many years ago. He had never recovered from that tragedy.
+
+One day, he decided to end his life. He wrote a note saying goodbye to no one in particular and left it on his table. He took his fishing rod and walked to the lake. He got into his boat and rowed to the middle of the water. He tied a heavy rock to his feet and threw it overboard. He felt himself sinking into the depths.
+
+As he was drowning, he saw flashes of his life before his eyes. He saw his childhood, his parents, his school days, his first love, his marriage, his son's birth, his son's laughter, his wife's smile, their last kiss, their funeral, his loneliness, his despair. He felt a surge of emotions that he had suppressed for so long.
+
+He realized that he had wasted his life by giving up on happiness after losing them. He realized that they would have wanted him to live on and find joy in the world again. He realized that he still had so much to offer and so much to learn. He realized that life was precious and beautiful despite its hardships.
+
+He wanted to live.
+
+He struggled to free himself from the rock but it was too late. His lungs filled with water and he lost consciousness.
+
+He woke up on a shore surrounded by people. They were smiling and cheering for him. They told him that they had seen him fall into the lake and rescued him just in time. They asked him if he was okay and what had happened.
+
+He looked at them with gratitude and wonder. He felt a warmth in his heart that he had not felt for ages.
+
+He smiled back at them and said:
+
+""I'm okay now.""
+
+He realized that this was a new beginning for him.
+
+He realized that this was the meaning of life.","jeevitham artham gurinchi oka story rayandi. meeku nachinantha size lo rayandi, kaani mukhyanga adi impact kaliginchela undali. reader aa story chadivina tarvata, thanu ippude chadivina dani gurinchi alochinchela oka nimisham mounam ga undali. artham maree obvious ga cheppakandi. jeevitham artham nijanga artham chesukovalante reader aa story gurinchi alochinchali","atanu lake pakkana unna oka chinna cabin lo ontariga unde oka musalivadu. ataniki family ledu, friends leru, hobbies levu. tana rojulu fishing chesthu, books chaduvuthu gadipesevadu. ee prapancham noppi tho, badha tho nindi undani telusukune antha atanu chala chusadu. chala samvatsarala kritham oka car accident lo tana wife ni, kodukuni pogottukunnadu. aa tragedy nunchi atanu eppudu kolukoledu.
+
+oka roju, tana jeevithanni mugiyalani nirnayinchukunnadu. pratyekanga evariki kaadu, goodbye ani oka note rasi table meeda pettadu. tana fishing rod teesukoni lake daggariki nadichadu. boat lo ekki, neellu madhyaki row chesadu. tana kaallaki oka baruvaina rock kattukoni, danini boat bayataki visiresadu. thanu lothulloki munigipothunnattu anipinchindi.
+
+munigipothu undaga, tana kallamundu tana jeevitham flashes la kanipinchindi. tana childhood, tana parents, tana school days, tana first love, tana marriage, tana koduku puttina roju, tana koduku navvu, tana wife smile, valla last kiss, valla funeral, tana ontarithanam, tana nirasha anni kanipinchayi. inni rojulu lopala dachipettukunna emotions okkasariga pongi vachinattu anipinchindi.
+
+vallani pogottukunna tarvata santhosham meeda aasa vadilesi tana jeevithanni vrudha chesukunnanani ataniki arthamayyindi. thanu inka brathakali, ee prapancham lo malli anandam kanukkovali ani valle korukunevarani ataniki arthamayyindi. thanu ivvadaniki inka chala undani, nerchukovadaniki inka chala undani ataniki arthamayyindi. kashtalu unna kuda jeevitham viluvainadi, andamainadi ani ataniki arthamayyindi.
+
+ataniki brathakalani anipinchindi.
+
+rock nunchi thanu bayatapadadaniki poraadadu, kaani appatike alasyam ayyindi. tana lungs neellatho nindipoyayi, atanu consciousness kolpoyadu.
+
+atanu kalllu terichinappudu, oka shore meeda, chuttu manushulu unnaru. vallu navvuthu, ataniki cheers chepthunnaru. atanu lake lo padipovadam vallu chusamani, sarigga samayaniki rescue chesamani chepparu. atanu okay na, em jarigindi ani adigaru.
+
+atanu vallani gratitude tho, wonder tho chusadu. enno samvatsaraluga anipinchani oka warmth tana heart lo anipinchindi.
+
+atanu kuda vallaki smile ichi annadu:
+
+""nenu ippudu okay.""
+
+idi tana kosam oka kottha prarambham ani ataniki arthamayyindi.
+
+ide jeevitham artham ani ataniki arthamayyindi.",2,291 words,2,No native script chars,3,Overlap=0.08 — well romanized,3,No consistency issues detected,1,BGE=0.545,,,,,,
+12,gpt,telugu,31eade47-aecd-4dac-b743-5e7a2e39f74c,"What does ""they"" refer to in each of the following two sentences: 
+a) ""The authorities have denied authorization to the demonstrators because they feared violence.""
+b) ""The authorities have denied authorization to the demonstrators because they appeared belligerent.""","Syntactically speaking, in both sentences ""they"" could refer back to either the authorities or the demonstrators as the antecedent. However, based on the semantics of the sentence, there is a more likely antecedent in either case. In sentence (a), ""they"" likely refers to the authorities, because it makes little sense for the demonstrators to fear violence and for that to cause the authorities to deny authorization. In sentence (b), on the other hand, ""they"" probably refers to the demonstrators, because apparently belligerent demonstrators are a typical reason to deny authorization, and apparently belligerent authorities are not.","ee kinda unna rendu sentences lo prati danilo ""they"" denini suchistundi:
+a) ""authorities demonstrators ki authorization ivvaledu, endukante they violence ki bhayapaddaru.""
+b) ""authorities demonstrators ki authorization ivvaledu, endukante they belligerent ga kanipincharu.""","syntax prakaaram chuste, rendu sentences lo kuda ""they"" ane padam antecedent ga authorities ni gani demonstrators ni gani suchinchavachu. ayithe, sentence yokka meaning batti, prati case lo oka antecedent ekkuva likely ga untundi. sentence (a) lo, ""they"" authorities ni suchinche avakasham ekkuva, endukante demonstrators violence ki bhayapaddaru kabatti authorities authorization deny chesaru ani cheppadam pedda sense ivvadu. sentence (b) lo matram, ""they"" bahusha demonstrators ni suchistundi, endukante belligerent ga kanipinche demonstrators authorization deny cheyadaniki typical reason avutaru, kani belligerent ga kanipinche authorities ala kadu.",2,84 words,2,No native script chars,3,Overlap=0.12 — well romanized,3,No consistency issues detected,2,BGE=0.702,,,,,,
+13,gpt,telugu,5e8fddd4-f1bd-48e7-ba5a-0255582f7584,"I need to write a eulogy, but am having problems with the wording.  It's for my mother-in-law, she was a very special person who welcomed me into the family from the start.  Could you write a couple of paragraphs that conveys a son-in-laws appreciation for her being a wonderful mother to my wife, and a loving mother-in-law to me.  Please keep it informal, and maintain an emotional and supportive tone.","I’m sorry for your loss. Writing a eulogy can be difficult, but I’ll try to help you with some possible wording. Here is one example of a couple of paragraphs that you could use or modify:
+
+We are gathered here today to celebrate the life of a remarkable woman, who was not only a wonderful mother to my wife, but also a loving mother-in-law to me. She welcomed me into the family from the start, and always treated me with kindness, respect, and generosity. She was more than a mother-in-law to me; she was a friend and a mentor.
+
+She had a warm and radiant smile that could light up any room. She had a gentle and compassionate heart that touched everyone she met. She had a strong and resilient spirit that inspired us all. She loved her family deeply, and was always there to support us through good times and bad. She was the glue that held us together, and the source of our joy.
+
+I hope this helps you with your eulogy. You can also add some personal anecdotes or memories that illustrate her personality and character. I’m sure she would be proud of you and your wife, and grateful for your appreciation. May she rest in peace.","nenu oka eulogy rayali, kani wording tho konchem problem avutondi. idi na mother in law kosam. aame chala special person, modati nunchi nannu family loki premaga welcome chesaru. na wife ki aame oka adbhutamaina mother ga undatam, naku oka loving mother in law ga undatam gurinchi, oka son in law appreciation ni chupinche rendu paragraphs rayagalara? dayachesi informal ga unchandi, emotional mariyu supportive tone maintain cheyyandi.","mee loss ki naku chala badhaga undi. eulogy rayadam kastanga undachu, kani konni possible wording tho meeku help cheyadaniki try chestanu. meeru use cheyagalige leda modify cheyagalige rendu paragraphs ki oka example ikkada undi:
+
+manam ee roju ikkada oka remarkable woman jeevithanni celebrate cheyadaniki kalisam. aame na wife ki matrame oka wonderful mother kaadu, naku kuda oka loving mother in law. modati nunchi aame nannu family loki premaga welcome chesaru, eppudu kindness, respect, generosity tho nannu treat chesaru. naku aame mother in law kante ekkuva; aame oka friend, oka mentor.
+
+aame daggara e room ni aina veliginche oka warm and radiant smile undedi. aameku evarini kalisina touch chese gentle and compassionate heart undedi. manandarini inspire chese strong and resilient spirit aame daggara undedi. aame tana family ni chala deep ga premincharu, manchi times lo kani bad times lo kani maaku support ga eppudu undevaaru. manandarini kalipi unchina glue aame, mana joy ki source aame.
+
+idi mee eulogy ki help avutundani aasistunnanu. aame personality and character ni chupinche konni personal anecdotes leda memories kuda meeru add cheyachu. aame meepai mariyu mee wife pai garvapadutundi, mee appreciation ki grateful ga untundi ani naku nammakam. aame soul peace lo rest avvali.",2,198 words,2,No native script chars,3,Overlap=0.17 — well romanized,3,No consistency issues detected,1,BGE=0.648,,,,,,
+14,gpt,telugu,e9bc4dd9-54ab-4873-b246-f61620d716ed,"I've been trying to learn about transistors, but there's something that's confusing me. What are the differences between a JFET and a depletion mode MOSFET, based on how they are used? They seem very similar to each other.","JFETs (Junction Field-Effect Transistors) and depletion-mode MOSFETs (Metal-Oxide-Semiconductor Field-Effect Transistors) are both types of field-effect transistors (FETs) and they do have some similarities in their operation. However, there are also some important differences between the two types of transistors.
+
+The main difference between JFETs and depletion-mode MOSFETs is in how they are biased, or how the voltage is applied to the device to control the flow of current.
+
+A JFET is a voltage-controlled device, meaning that the voltage applied to the gate terminal determines the current flow between the source and drain terminals. When a negative voltage is applied to the gate of a JFET, it creates a depletion region that restricts the flow of current between the source and drain terminals. As the gate voltage becomes more negative, the depletion region widens and the current flow is reduced.
+
+A depletion-mode MOSFET, on the other hand, is a voltage-controlled device that operates similarly to a JFET, but it is constructed differently. In a depletion-mode MOSFET, the gate is separated from the channel by a thin layer of oxide. When a negative voltage is applied to the gate of a depletion-mode MOSFET, it attracts positive charges from the channel, creating a depletion region that restricts the flow of current between the source and drain terminals.
+
+In terms of their practical applications, JFETs and depletion-mode MOSFETs are used in similar ways, but there are some differences. JFETs are often used in low-noise applications such as pre-amplifiers, while depletion-mode MOSFETs are used in power management applications, such as voltage regulation and switching circuits.","Nenu transistors gurinchi nerchukovadaniki try chestunnanu, kani oka vishayam nannu confuse chestondi. Avi ela use chestaru ane dani batti, JFET mariyu depletion mode MOSFET madhya differences enti? Ivi rendu okadanikokati chala similar ga anipistunnayi.","JFETs (Junction Field-Effect Transistors) mariyu depletion-mode MOSFETs (Metal-Oxide-Semiconductor Field-Effect Transistors) rendu kuda field-effect transistors (FETs) rakalu, mariyu vati operation lo konni similarities unnayi. Ayithe, ee rendu types of transistors madhya konni important differences kuda unnayi.
+
+JFETs mariyu depletion-mode MOSFETs madhya main difference entante, vatini ela bias chestaru, ante current flow ni control cheyadaniki device ki voltage ela apply chestaru ane danilo untundi.
+
+JFET anedi voltage-controlled device, ante gate terminal ki apply chese voltage source mariyu drain terminals madhya current flow ni determine chestundi. JFET gate ki negative voltage apply chesinappudu, adi source mariyu drain terminals madhya current flow ni restrict chese depletion region ni create chestundi. Gate voltage inka ekkuva negative ga avuthunte, depletion region widen avuthundi mariyu current flow reduce avuthundi.
+
+Depletion-mode MOSFET, inko vaipu, JFET laga operate ayye voltage-controlled device, kani idi different ga construct cheyabadutundi. Depletion-mode MOSFET lo, gate channel nundi thin oxide layer dwara separate cheyabadutundi. Depletion-mode MOSFET gate ki negative voltage apply chesinappudu, adi channel nundi positive charges ni attract chestundi, dani valla source mariyu drain terminals madhya current flow ni restrict chese depletion region create avuthundi.
+
+Practical applications paranga chusthe, JFETs mariyu depletion-mode MOSFETs ni similar ways lo use chestaru, kani konni differences unnayi. JFETs ni often pre-amplifiers lanti low-noise applications lo use chestaru, while depletion-mode MOSFETs ni voltage regulation mariyu switching circuits lanti power management applications lo use chestaru.",2,226 words,2,No native script chars,3,Overlap=0.26 — well romanized,2,Minor: case inconsistency: 'Field' vs 'field',3,BGE=0.855,,,,,,
+15,gpt,telugu,74059dfd-3c44-4e62-a568-8999033ceea8,"I cant stop procrastinating. Its two am and i should sleep but instead im talking to you. I also cant really study for exams, for example the one i have in two days. Can you help me stop procrastinating please","It's important to understand why you're procrastinating so that you can address the underlying issue. With the right strategies and mindset, you can overcome procrastination and make progress towards your goals.
+
+Some common reasons are: 
+
+1. Overwhelm: The task could feel too complex, and it is not clear how to progress and take the next step.
+1. Lack of motivation: You forgot why you are working toward the task, or it seems too far.
+2. Fear of failure: Sometimes people procrastinate because they're afraid of failing. They may think that if they don't try, they won't fail.
+4. Perfectionism: If you have high standards for yourself, you may put off starting a task because you're worried that you won't do it perfectly.
+
+Here are some practical tips that might be useful, once you have a bit more clarity on why you are procrastinating:
+
+1. Set a clear goal: Start by setting a clear goal of what you want to achieve. This will give you a sense of direction and purpose, which can help to motivate you.
+2. Break it down: Break your goal down into smaller, more manageable tasks. This can make it easier to get started and help you feel less overwhelmed.
+3. Create a plan: Once you have your tasks identified, create a plan of action. Write down when and where you will work on each task, and how long you will spend on it.
+4. Remove distractions: Identify and remove any distractions that might be preventing you from getting started. This could be turning off your phone, finding a quiet study space, or blocking distracting websites.
+5. Use a timer: Set a timer for a specific amount of time, say 25 minutes, and work on your task without any interruptions until the timer goes off. Take a short break and then repeat the process.
+6. Stay accountable: Share your goals with someone you trust and ask them to hold you accountable. Knowing that someone else is expecting you to make progress can help to motivate you.
+7. Be kind to yourself: Remember to be kind to yourself if you slip up. Procrastination is a common problem, and it's okay to make mistakes. Just focus on getting back on track as soon as possible.
+
+I hope these tips help you to stop procrastinating and make progress towards your goals. Remember, the first step is always the hardest, so take it one step at a time and don't be too hard on yourself. Good luck!","Nenu procrastinate cheyadam aapalekapothunnanu. Ippudu rendu am ayyindi, nenu nidrapovali kani baduluga meetho matladuthunnanu. Exams kosam kuda nenu sarigga study cheyalekapothunnanu, example ki rendu rojullo unna exam. Dayachesi procrastinate cheyadam aapadaniki naaku help cheyagalara","Meeru enduku procrastinate chestunnaro artham chesukovadam important, appude underlying issue ni address cheyagalugutharu. Right strategies mariyu mindset tho, meeru procrastination ni overcome chesi mee goals vaipu progress cheyagalugutharu.
+
+Konni common reasons: 
+
+1. Overwhelm: Task chaala complex ga anipinchavachu, ela progress avvali mariyu next step ela theesukovali anedi clear ga undakapovachu.
+1. Lack of motivation: Meeru aa task kosam enduku work chestunnaro marchipoyaru, leda adi chaala dooramga anipisthundi.
+2. Fear of failure: Konni saarlu people fail avuthamemo ani bhayapadi procrastinate chestharu. Try cheyakapothe fail avvaru ani anukovachu.
+4. Perfectionism: Mee meeda meeku high standards unte, perfect ga cheyalememo ani worry ayi task start cheyadam postpone cheyavachu.
+
+Meeru enduku procrastinate chestunnaro konchem clarity vachaka, useful ga undagalige konni practical tips ikkada unnayi:
+
+1. Clear goal set cheyandi: Meeru emi achieve cheyalanukuntunnaro clear goal set cheyadam tho start cheyandi. Idi meeku direction mariyu purpose feeling isthundi, adi mimmalni motivate cheyadaniki help avuthundi.
+2. Danni chinna parts ga break cheyandi: Mee goal ni chinna, manage cheyagalige tasks ga divide cheyandi. Ila chesthe start cheyadam easy avuthundi, overwhelm takkuva ga anipisthundi.
+3. Plan create cheyandi: Mee tasks identify chesaka, action plan create cheyandi. Prathi task meeda eppudu, ekkada work chestaru, entha time spend chestaru ani write down cheyandi.
+4. Distractions remove cheyandi: Start cheyakunda aaputhunna distractions ni identify chesi remove cheyandi. Idi phone off cheyadam, quiet study space kanukovadam, leda distracting websites block cheyadam avachu.
+5. Timer use cheyandi: Oka specific time ki timer set cheyandi, say 25 minutes, mariyu timer off ayye varaku interruptions lekunda mee task meeda work cheyandi. Chinna break theesukoni malli process repeat cheyandi.
+6. Accountable ga undandi: Mee goals ni meeru trust chese evarithona share chesi, mimmalni accountable ga unchamani adugandi. Vere evaraina mee progress expect chestunnaru ani telisithe, adi mimmalni motivate cheyadaniki help avuthundi.
+7. Mee meeda kind ga undandi: Slip up ayithe mee meeda kind ga undadam marchipokandi. Procrastination common problem, mistakes cheyadam okay. Possible ayina ventane back on track ravadanipai focus cheyandi.
+
+Ee tips mee procrastination aapadaniki mariyu mee goals vaipu progress cheyadaniki help avuthayani aasistunnanu. Gurthunchukondi, first step eppudu hardest, kabatti okko step ga theesukondi mariyu mee meeda ekkuva hard ga undakandi. Good luck!",2,358 words,2,No native script chars,3,Overlap=0.21 — well romanized,2,Minor: case inconsistency: 'Meeru' vs 'meeru',2,BGE=0.748,,,,,,
+16,gpt,telugu,6fd86f73-7e14-43c2-b1c5-2c7bcc258426,"Create an outline of a professional legal memorandum written for a court of appeals. The subject is income taxes. Some things that are required are conclusion, facts, law, analysis. Provide some pointed questions as necessary to improve the completeness  of the story.","I. Introduction
+A. Purpose of memorandum
+B. Summary of facts and issues
+C. Statement of conclusion
+
+II. Facts
+A. Background information on the case
+B. Explanation of the tax issue at hand
+C. Details of previous tax returns and payments
+D. Relevant financial information
+E. Any other relevant information that may have an impact on the tax issue
+
+III. Law
+A. Relevant tax laws and regulations
+B. Previous court decisions on similar tax issues
+C. Interpretation of the tax laws and regulations by tax authorities
+
+IV. Analysis
+A. Application of the tax laws and regulations to the facts of the case
+B. Discussion of the legal principles and previous court decisions
+C. Examination of any issues related to the taxpayer's rights and obligations
+D. Analysis of the strengths and weaknesses of the taxpayer's position
+
+V. Conclusion
+A. Summary of the legal analysis
+B. Recommendation on how the court should rule on the tax issue
+C. Discussion of any potential consequences of the ruling
+
+Pointed questions:
+
+What specific tax laws and regulations are relevant to the case?
+Have there been any previous court decisions on similar tax issues?
+What financial information is relevant to the tax issue?
+What are the taxpayer's rights and obligations in this case?
+What are the strengths and weaknesses of the taxpayer's position?
+Note: This outline is just a basic structure, and the writer may need to add or modify sections depending on the specifics of the case.","Court of appeals kosam raase professional legal memorandum ki oka outline create cheyyandi. Subject income taxes. Conclusion, facts, law, analysis lantivi konni required sections undaali. Story complete ga undadaniki avasaramaithe konni pointed questions ivvandi.","I. Introduction
+A. Memorandum yokka purpose
+B. Facts mariyu issues yokka summary
+C. Conclusion statement
+
+II. Facts
+A. Case ki sambandhinchina background information
+B. Ippudu unna tax issue gurinchi explanation
+C. Previous tax returns mariyu payments yokka details
+D. Relevant financial information
+E. Tax issue meeda impact undachu ani anipinche vere relevant information edaina
+
+III. Law
+A. Relevant tax laws mariyu regulations
+B. Similar tax issues meeda previous court decisions
+C. Tax authorities tax laws mariyu regulations ni ela interpret chesaro
+
+IV. Analysis
+A. Case facts ki tax laws mariyu regulations ni apply cheyyadam
+B. Legal principles mariyu previous court decisions gurinchi discussion
+C. Taxpayer rights mariyu obligations ki sambandhinchina issues emaina unte vaati examination
+D. Taxpayer position yokka strengths mariyu weaknesses analysis
+
+V. Conclusion
+A. Legal analysis yokka summary
+B. Tax issue meeda court ela rule cheyyalo recommendation
+C. Ruling valla possible consequences emaina unte vaati discussion
+
+Pointed questions:
+
+Ee case ki specific ga ye tax laws mariyu regulations relevant?
+Similar tax issues meeda mundu court decisions emaina unnaya?
+Tax issue ki ye financial information relevant?
+Ee case lo taxpayer rights mariyu obligations enti?
+Taxpayer position yokka strengths mariyu weaknesses enti?
+Note: Ee outline kevalam basic structure matrame, case specifics ni batti writer sections add cheyyali leda modify cheyyali avasaram undachu.",2,212 words,2,No native script chars,2,Overlap=0.44 — slightly English-heavy,2,Minor: case inconsistency: 'tax' vs 'Tax',2,BGE=0.751,,,,,,
+17,gpt,telugu,38bc5a19-be20-42d4-88c2-84a615a64260,"Let's come up with a rich and complex alien world setting suitable for stories, pseudo-documentaries, or roleplaying games such as DnD. This can be an involved process, so I'd like you to just cover the basics first. We can refine the details further later.
+
+I'd like a planet with a variety of biomes, inhabited by many creatures, much like Earth, but life on this world took its own path, with different plants and animals (and perhaps a different distinction than ""plant"" vs. ""animal"" to begin with)
+
+There should be at least one sentient species represented in a wide variety of cultures and societies. They should have complex interactions with each other, and other species on the planet, and resulting from that, their own needs and wants and fears which ought to be relatable in context but may at the same time be strange, unusual, and, well, alien to humans.
+
+But let's start at the beginning: Can you give a few broad, interesting biomes and how they might exist in their ""wild"" (pre-sentient) forms vs. how a local sentient species might have altered them over the ages?
+While doing so, it is important to consider the solar system that planet is a part of, as other objects of the system, especially ones that are very close or very massive, may have a significant effect on the planet and its biomes.","Planet Name: Xylothar
+
+Xylothar is a diverse and unique planet located in the Zykor System, with three moons - Orda, Talis, and Vynar - orbiting around it. These moons have a profound effect on the planet's tides, climate, and geology, resulting in a variety of interesting and distinct biomes.
+
+1. Bioluminescent Forests:
+In the wild, these forests are a mesmerizing sight, with plants and fungi emitting a stunning range of colors throughout the day and night. The fauna has adapted to this environment, using bioluminescence for communication, camouflage, or attracting prey. The sentient species, known as the Luminari, have harnessed the bioluminescent properties of their environment, cultivating plants for illumination and art. They've also developed architectural techniques that blend seamlessly into the forest, with buildings made from living trees and vines.
+
+2. Liquid Crystal Lakes:
+These vast lakes are filled with a liquid-crystal substance that supports a variety of aquatic life forms, some of which have evolved to have crystalline exoskeletons. In their natural state, these lakes are beautiful and serene, reflecting a dazzling array of colors in the sunlight. The Luminari have learned to extract and refine the liquid crystals for various uses, such as energy storage, building materials, and artistic expression. They've also constructed unique floating settlements atop the lakes, with delicate crystal structures that rise above the water.
+
+3. Floating Sky Islands:
+High above the surface of Xylothar, levitating landmasses form a stunning aerial landscape. These sky islands are home to unique flora and fauna that have adapted to the high altitude and low gravity. In the wild, these islands are a harsh and dangerous environment, with powerful wind currents and limited resources. The Luminari, fascinated by the islands, have developed advanced airships and technology that enable them to settle and navigate these treacherous skies. They've established a network of interconnected sky cities, each with its own distinct culture and architectural style.
+
+4. Subterranean Caverns:
+Beneath the surface of Xylothar lies a vast network of interconnected caverns filled with bizarre geological formations and unique ecosystems. In their natural state, these caves are dark and mysterious, teeming with life that has evolved to exist without sunlight. The Luminari have explored and settled portions of the caverns, using advanced biotechnology to create sustainable underground cities. They've domesticated certain cave-dwelling creatures for labor and transportation and cultivated unique fungi and plants for food and medicine.
+
+The Luminari are a sentient species with a rich history, diverse cultures, and complex societal structures. They have a deep spiritual connection to their environment and have developed advanced technology that allows them to live in harmony with the various biomes of Xylothar. Their interactions with other species on the planet are intricate, often involving symbiosis, mutualism, or coevolution, which has shaped their worldview and cultural practices.","Kathalu, pseudo-documentaries, leda DnD lanti roleplaying games ki suitable ga unde rich and complex alien world setting ni alochinchi tayaru cheddam. Idi konchem involved process kavachu, kabatti mundu basics matrame cover cheyyali anukuntunnanu. Details ni tarvata inka refine cheyyachu.
+
+Earth laga, chala rakala biomes unna, chala creatures nivasinche oka planet kavali. Kani ee world lo life tana sontha margam lo evolve ayyindi, vere rakala plants and animals tho undali. Modatiki ""plant"" vs. ""animal"" ane distinction kuda vere laga undochu.
+
+Kanisam oka sentient species undali, adi chala rakala cultures and societies lo represent avvali. Vallaki okarito okariki, planet lo unna vere species tho complex interactions undali. Danivalla vallaki sontha needs, wants, fears undali; context lo manaki relatable ga undali, kani ade time lo humans ki strange, unusual, and alien ga kuda anipinchali.
+
+Kani beginning nundi start cheddam: Konni broad, interesting biomes ivvagalava? Avi valla ""wild"" (pre-sentient) forms lo ela undevu, alage oka local sentient species ages boyunca vatini ela marchi undochu ani cheppagalava?
+Ala cheppetappudu, aa planet ye solar system lo part o kuda consider cheyyadam important. Endukante system lo unna vere objects, especially chala close ga leda chala massive ga unna objects, planet meeda mariyu dani biomes meeda significant effect chupinchavachu.","Planet Name: Xylothar
+
+Xylothar ane planet Zykor System lo unna diverse and unique planet. Daani chuttu Orda, Talis, Vynar ane moodu moons orbit chestayi. Ee moons planet tides, climate, geology meeda profound effect chupistayi; dani valla chala interesting and distinct biomes erpadayi.
+
+1. Bioluminescent Forests:
+Wild lo, ee forests chala mesmerizing ga kanipistayi. Plants mariyu fungi day and night anta stunning range of colors emit chestayi. Fauna ee environment ki adapt ayyi, communication, camouflage, leda prey ni attract cheyyadaniki bioluminescence vadutundi. Luminari ani piliche sentient species, valla environment lo unna bioluminescent properties ni harness chesaru; illumination mariyu art kosam plants ni cultivate chestaru. Valllu forest lo seamless ga kalisipoye architectural techniques kuda develop chesaru, living trees and vines tho buildings kattaru.
+
+2. Liquid Crystal Lakes:
+Ee vast lakes lo liquid-crystal substance untundi; adi chala rakala aquatic life forms ki support istundi. Vatilo konni crystalline exoskeletons unde laga evolve ayyayi. Natural state lo, ee lakes beautiful and serene ga untayi, sunlight lo dazzling array of colors reflect chestayi. Luminari ee liquid crystals ni extract chesi refine cheyyadam nerchukunnaru; energy storage, building materials, artistic expression lanti various uses kosam vatini vadutaaru. Valllu lakes paina unique floating settlements kuda kattaru, water paina delicate crystal structures rise avuthayi.
+
+3. Floating Sky Islands:
+Xylothar surface ki high above lo, levitating landmasses oka stunning aerial landscape ni form chestayi. Ee sky islands, high altitude mariyu low gravity ki adapt ayina unique flora and fauna ki home. Wild lo, ee islands harsh and dangerous environment; powerful wind currents mariyu limited resources untayi. Islands tho fascinated ayina Luminari, advanced airships and technology develop chesaru; vatito ee treacherous skies lo settle avvadam, navigate cheyyadam possible ayyindi. Valllu interconnected sky cities network establish chesaru; prati city ki tana sontha distinct culture and architectural style untundi.
+
+4. Subterranean Caverns:
+Xylothar surface kinda, bizarre geological formations mariyu unique ecosystems tho nindina vast network of interconnected caverns untundi. Natural state lo, ee caves dark and mysterious ga untayi, sunlight lekunda exist avvadaniki evolve ayina life tho teeming ga untayi. Luminari caverns lo konni portions ni explore chesi settle ayyaru; advanced biotechnology vadukoni sustainable underground cities create chesaru. Labor and transportation kosam konni cave-dwelling creatures ni domesticate chesaru, food and medicine kosam unique fungi and plants ni cultivate chesaru.
+
+Luminari oka sentient species; vallaki rich history, diverse cultures, mariyu complex societal structures unnayi. Vallaki valla environment tho deep spiritual connection undi, mariyu Xylothar lo unna various biomes tho harmony lo jeevinchadaniki allow chese advanced technology develop chesaru. Planet lo unna vere species tho valla interactions intricate ga untayi; chala sarlu symbiosis, mutualism, leda coevolution involved untayi. Ivi valla worldview mariyu cultural practices ni shape chesayi.",2,441 words,2,No native script chars,2,Overlap=0.37 — slightly English-heavy,2,Minor: case inconsistency: 'Planet' vs 'planet',3,BGE=0.864,,,,,,
+18,gpt,telugu,fe450516-3a0c-407e-a66d-a5b7b9791e7a,"This passage is from a poor quality machine extraction of text from an old book. Please extract the coherent English text and phrases from it and rewrite them with proper punctuation in your best attempt at a coherent message:
+
+""numbercorresponding to this, and take the multiplier opposite toit, and multiply the full pressure of the steam per squareinch, as it enters the cylinder, by it. TABLE OF MULTIPLIERS BY WHICH TO FIND THE MEAN PRESSURE OFSTEAM AT VARIOUS POINTS OF CUT-OFF. Expansion. Multiplier. Expansion. Multiplier. Expansion. Multiplier. 1.0 1.000 3.4 .654 5.8 .479 1.1 .995 3.5 .644 5.9 .474 1.2 .985 3.6 .634 6. .470 1.3 .971 3.7 .624 6.1 .466 1.4 .955 3.8 .615 6.2 .462 1.5 .937 3.9 .605 6.3 .458 1.6 .919 4. .597 6.4 .454 1.7 .900 4.1 .588 6.5 .450 1.8 .882 4.2 .580 6.6 .446 1.9 .864 4.3 .572 6.7 .442 2. .847 4.4 .564 6.8 .438 2.1 .830 4.5 .556 6.9 .434 2.2 .813 4.6 .549 7. .430 2.3 .797 4.7 .542 7.1 .427 2.4 .781 4.8 .535 7.2 .423 2.5 .766 4.9 .528 7.3 .420 2.6 .752 5. .522 7.4 .417 2.7 .738 5.1 .516 7.5 .414 2.8 .725 5.2 .510 7.6 .411 2.9 .712 5.3 .504 7.7 .408 3. .700 5.4 .499 7.8 .405 3.1 .688 5.5 .494 7.9 .402 8.2 .676 5.6 .489 8. .399 3.3 .665 5.7 .484 52 HAND-BOOK OF LAND AND MARINE ENGINES.","Sure, here's a version with improved grammar and an organized steam pressure table.
+
+---
+
+[...] number corresponding to this, take the multiplier opposite to it and multiply the full pressure of the steam per square inch as it inters the cylinder by it. 
+
+TABLE OF MULTIPLIERS BY WHICH TO FIND THE MEAN PRESSURE OF STEAM AT VARIOUS POINTS OF CUT-OFF:
+| Expansion | Multiplier | Expansion | Multiplier | Expansion | Multiplier |
+|-----------|------------|-----------|------------|-----------|------------|
+| 1.0       | 1.000      | 3.4       | .654       | 5.8       | .479       |
+| 1.1       | .995       | 3.5       | .664       | 5.9       | .474       |
+| 1.2       | .985       | 3.6       | .634       | 6.        | .470       |
+| 1.3       | .971       | 3.7       | .624       | 6.1       | .466       |
+| 1.4       | .955       | 3.8       | .615       | 6.2       | .462       |
+| 1.5       | .937       | 3.9       | .605       | 6.3       | .458       |
+| 1.6       | .919       | 4.        | .597       | 6.4       | .454       |
+| 1.7       | .900       | 4.1       | .588       | 6.5       | .450       |
+| 1.8       | .882       | 4.2       | .580       | 6.6       | .446       |
+| 1.9       | .864       | 4.3       | .572       | 6.7       | .442       |
+| 2.        | .847       | 4.4       | .564       | 6.8       | .438       |
+| 2.1       | .830       | 4.5       | .556       | 6.9       | .434       |
+| 2.2       | .813       | 4.6       | .549       | 7.        | .430       |
+| 2.3       | .797       | 4.7       | .542       | 7.1       | .427       |
+| 2.4       | .781       | 4.8       | .535       | 7.2       | .423       |
+| 2.5       | .766       | 4.9       | .528       | 7.3       | .420       |
+| 2.6       | .752       | 5.        | .522       | 7.4       | .417       |
+| 2.7       | .738       | 5.1       | .516       | 7.5       | .414       |
+| 2.8       | .725       | 5.2       | .510       | 7.6       | .411       |
+| 2.9       | .712       | 5.3       | .504       | 7.7       | .408       |
+| 3.        | .700       | 5.4       | .499       | 7.8       | .405       |
+| 3.1       | .688       | 5.5       | .494       | 7.9       | .402       |
+| 3.2       | .676       | 5.6       | .489       | 8.        | .399       |
+| 3.3       | .665       | 5.7       | .484       |           |            |
+
+[Page] 52
+
+HAND-BOOK OF LAND AND MARINE ENGINES.","Ee passage oka paata book nunchi poor quality machine extraction chesina text nunchi teesukunnadi. Dayachesi indulo unna coherent English text mariyu phrases ni extract chesi, proper punctuation tho, mee best attempt lo oka coherent message ga rewrite cheyyandi:
+
+""deeniki corresponding ga unna number ni teesukoni, daaniki eduruga unna multiplier ni teesukoni, steam cylinder loki enter ayyetappudu square inch ki unna full pressure ni daanitho multiply cheyyandi. Cut-off yokka vividha points daggara steam yokka mean pressure ni kanugonadaniki multipliers table. Expansion. Multiplier. Expansion. Multiplier. Expansion. Multiplier. 1.0 1.000 3.4 .654 5.8 .479 1.1 .995 3.5 .644 5.9 .474 1.2 .985 3.6 .634 6. .470 1.3 .971 3.7 .624 6.1 .466 1.4 .955 3.8 .615 6.2 .462 1.5 .937 3.9 .605 6.3 .458 1.6 .919 4. .597 6.4 .454 1.7 .900 4.1 .588 6.5 .450 1.8 .882 4.2 .580 6.6 .446 1.9 .864 4.3 .572 6.7 .442 2. .847 4.4 .564 6.8 .438 2.1 .830 4.5 .556 6.9 .434 2.2 .813 4.6 .549 7. .430 2.3 .797 4.7 .542 7.1 .427 2.4 .781 4.8 .535 7.2 .423 2.5 .766 4.9 .528 7.3 .420 2.6 .752 5. .522 7.4 .417 2.7 .738 5.1 .516 7.5 .414 2.8 .725 5.2 .510 7.6 .411 2.9 .712 5.3 .504 7.7 .408 3. .700 5.4 .499 7.8 .405 3.1 .688 5.5 .494 7.9 .402 8.2 .676 5.6 .489 8. .399 3.3 .665 5.7 .484 52 HAND-BOOK OF LAND AND MARINE ENGINES.","Sure, ikkada improved grammar mariyu organized steam pressure table tho oka version undi.
+
+---
+
+[...] deeniki corresponding ga unna number ni teesukoni, daaniki eduruga unna multiplier ni teesukoni, steam cylinder loki enter ayyetappudu square inch ki unna full pressure ni daanitho multiply cheyyandi.
+
+CUT-OFF YOKKA VIVIDHA POINTS DAGGARA STEAM YOKKA MEAN PRESSURE NI KANUGONADANIKI MULTIPLIERS TABLE:
+| Expansion | Multiplier | Expansion | Multiplier | Expansion | Multiplier |
+|-----------|------------|-----------|------------|-----------|------------|
+| 1.0       | 1.000      | 3.4       | .654       | 5.8       | .479       |
+| 1.1       | .995       | 3.5       | .664       | 5.9       | .474       |
+| 1.2       | .985       | 3.6       | .634       | 6.        | .470       |
+| 1.3       | .971       | 3.7       | .624       | 6.1       | .466       |
+| 1.4       | .955       | 3.8       | .615       | 6.2       | .462       |
+| 1.5       | .937       | 3.9       | .605       | 6.3       | .458       |
+| 1.6       | .919       | 4.        | .597       | 6.4       | .454       |
+| 1.7       | .900       | 4.1       | .588       | 6.5       | .450       |
+| 1.8       | .882       | 4.2       | .580       | 6.6       | .446       |
+| 1.9       | .864       | 4.3       | .572       | 6.7       | .442       |
+| 2.        | .847       | 4.4       | .564       | 6.8       | .438       |
+| 2.1       | .830       | 4.5       | .556       | 6.9       | .434       |
+| 2.2       | .813       | 4.6       | .549       | 7.        | .430       |
+| 2.3       | .797       | 4.7       | .542       | 7.1       | .427       |
+| 2.4       | .781       | 4.8       | .535       | 7.2       | .423       |
+| 2.5       | .766       | 4.9       | .528       | 7.3       | .420       |
+| 2.6       | .752       | 5.        | .522       | 7.4       | .417       |
+| 2.7       | .738       | 5.1       | .516       | 7.5       | .414       |
+| 2.8       | .725       | 5.2       | .510       | 7.6       | .411       |
+| 2.9       | .712       | 5.3       | .504       | 7.7       | .408       |
+| 3.        | .700       | 5.4       | .499       | 7.8       | .405       |
+| 3.1       | .688       | 5.5       | .494       | 7.9       | .402       |
+| 3.2       | .676       | 5.6       | .489       | 8.        | .399       |
+| 3.3       | .665       | 5.7       | .484       |           |            |
+
+[Page] 52
+
+HAND-BOOK OF LAND AND MARINE ENGINES.",2,388 words,2,No native script chars,0,Overlap=0.79 — barely romanized,2,Minor: case inconsistency: 'steam' vs 'STEAM',2,BGE=0.801,,,,,,
+19,gpt,telugu,f15227e5-00af-48b8-86a3-2728ed3c731d,"Write an essay (up to 7,000 characters) to apply for a study abroad scholarship with the following prompt: 
+
+Gilman Scholars represent the United States as citizen diplomats in their host communities; they reflect a diversity of values, beliefs, and opinions that is fundamental to providing a balanced representation of the United States abroad. Gilman Scholars are expected to contribute to the goal of building mutual understanding by sharing what it means to be an American, learning about the host culture, and building meaningful relationships. As a U.S. citizen, how will you represent and share what it means to be an American during your program? How will you seek opportunities to become more culturally engaged and have meaningful interactions with people and cultures different from your own during your abroad program?","As an aspiring Gilman Scholar, I am excited about the opportunity to study abroad and represent the United States as a citizen diplomat in my host community. Throughout my life, I have always been passionate about exploring and learning about different cultures, and I believe that this experience will help me gain a greater understanding of the world around me.
+
+As an American, I believe that it is important to promote the values of openness, inclusivity, and mutual understanding. During my time abroad, I plan to represent these values by engaging with the local community and sharing my own experiences and beliefs with others. I believe that this will help to build bridges between our cultures and promote greater understanding and acceptance.
+
+In order to become more culturally engaged, I plan to immerse myself in the local culture as much as possible. This may involve learning the language, trying new foods, and exploring the local customs and traditions. I am also interested in seeking out opportunities to volunteer and give back to the community. By doing so, I hope to not only gain a greater understanding of the local culture, but also to make a positive impact in the lives of others.
+
+I recognize that there may be challenges and cultural differences that I will need to navigate during my time abroad. However, I believe that these challenges provide an opportunity for personal growth and development. By embracing these challenges and seeking out new experiences, I hope to become a more empathetic and culturally aware individual.
+
+Overall, I am excited about the opportunity to study abroad as a Gilman Scholar and to represent the United States in my host community. I believe that by promoting the values of openness, inclusivity, and mutual understanding, I can help to build bridges between our cultures and promote a greater sense of global citizenship.","study abroad scholarship ki apply cheyadaniki kindha unna prompt tho oka essay rayandi (7,000 characters varaku): 
+
+Gilman Scholars thama host communities lo citizen diplomats ga United States ni represent chestharu; vallu United States ni abroad lo balanced ga represent cheyadaniki mukhyamaina values, beliefs, opinions diversity ni reflect chestharu. Gilman Scholars, American ante emito share cheyadam, host culture gurinchi nerchukovadam, meaningful relationships build cheyadam dwara mutual understanding build chese goal ki contribute cheyalani expect chestharu. oka U.S. citizen ga, mee program lo meeru American ante emito ela represent chesi share chestharu? mee abroad program lo mee culture ki bhinnamaina people mariyu cultures tho marinta culturally engaged avvadaniki, meaningful interactions kalagadaniki opportunities ni ela vetukutharu?","aspiring Gilman Scholar ga, nenu study abroad chese opportunity gurinchi, naa host community lo citizen diplomat ga United States ni represent cheyadam gurinchi chala excited ga unnanu. naa life motham, different cultures ni explore cheyadam, vati gurinchi nerchukovadam ante naaku eppudu passion undi, ee experience naaku naa chuttu unna world gurinchi inka ekkuva understanding pondadaniki help chesthundani nenu nammutunnanu.
+
+American ga, openness, inclusivity, mutual understanding ane values ni promote cheyadam mukhyamani nenu nammutunnanu. abroad lo naa time lo, local community tho engage avvadam, naa own experiences mariyu beliefs ni others tho share cheyadam dwara ee values ni represent cheyalani plan chesthunnanu. idi mana cultures madhya bridges build cheyadaniki, inka ekkuva understanding mariyu acceptance ni promote cheyadaniki help chesthundani nenu nammutunnanu.
+
+marinta culturally engaged avvadaniki, possible aina antha varaku local culture lo nannu nenu immerse chesukovalani plan chesthunnanu. indulo language nerchukovadam, kottha foods try cheyadam, local customs mariyu traditions ni explore cheyadam undavachu. volunteer cheyadaniki, community ki tirigi ivvadaniki opportunities vetakadaniki kuda naaku interest undi. ala cheyadam dwara, local culture gurinchi ekkuva understanding pondadam matrame kakunda, others lives lo positive impact cheyalani kuda aasisthunnanu.
+
+abroad lo naa time lo nenu navigate cheyalsina challenges mariyu cultural differences undavachani nenu gurthistunnanu. ayithe, ee challenges personal growth mariyu development ki oka opportunity isthayani nenu nammutunnanu. ee challenges ni embrace cheyadam, kottha experiences ni vetakadam dwara, nenu marinta empathetic mariyu culturally aware individual ga maralani aasisthunnanu.
+
+overall ga, Gilman Scholar ga study abroad chese opportunity gurinchi, naa host community lo United States ni represent cheyadam gurinchi nenu chala excited ga unnanu. openness, inclusivity, mutual understanding ane values ni promote cheyadam dwara, mana cultures madhya bridges build cheyadaniki, global citizenship ane bhavana ni inka ekkuvaga promote cheyadaniki nenu help cheyagalanu ani nammutunnanu.",2,286 words,2,No native script chars,3,Overlap=0.21 — well romanized,3,No consistency issues detected,2,BGE=0.771,,,,,,
+20,gpt,telugu,c6b44ac1-caf3-4f8d-b1df-b530644bb809,You are a physician seeing a patient in clinic with newly found anemia. This patient is a 60 year old biological male and has been feeling more short of breath in the last 3 months. What questions do you have for him?,"As a physician, when seeing a patient with newly found anemia and shortness of breath, there are several questions that I would like to ask the patient to help me better understand their symptoms and determine the appropriate course of action. These questions may include:
+
+1. How long have you been feeling more short of breath?
+
+2. Is the shortness of breath worse with exertion, lying down, or at rest?
+
+3. Have you noticed any chest pain or tightness, lightheadedness, or dizziness with the shortness of breath?
+
+4. Have you noticed any changes in your energy level or ability to complete your usual activities?
+
+5. Have you had any recent infections or illnesses?
+
+6. Have you had any recent surgeries or procedures?
+
+7. Have you recently lost weight without trying to do so?
+
+8. Have you had any recent changes in your diet or appetite?
+
+9. Do you have a history of any chronic medical conditions, such as heart disease, lung disease, or kidney disease?
+
+10. Have you ever had a history of bleeding disorders or problems with blood clotting?
+
+11. Are you taking any medications, including over-the-counter supplements?
+
+12. Have you ever had any blood transfusions or blood disorders in the past?
+
+These questions will help me understand the patient's medical history, potential underlying causes of their anemia, and any other possible contributing factors to their shortness of breath. Depending on their responses, further testing or referrals may be necessary to properly diagnose and treat their condition.","meeru clinic lo kottaga anemia ani telisina patient ni chustunna physician. ee patient 60 samvatsarala biological male, mariyu gatha 3 nelaluga oopiri ekkuvaga aadatam anipistondi. meeru ayanani ye questions adugutaaru?","physician ga, kottaga anemia ani telisina, shortness of breath unna patient ni chustunnappudu, vaari symptoms ni baga artham chesukovadaniki mariyu saraina course of action decide cheyadaniki nenu patient ni adagalanukune konni questions unnayi. aa questions lo ivi undavachu:
+
+1. meeku oopiri ekkuvaga aadatam entha kaalam nunchi anipistondi?
+
+2. pani chesetappudu, padukunnappudu, leda rest lo unnappudu shortness of breath ekkuvaga avutunda?
+
+3. shortness of breath tho paatu chest pain leda tightness, lightheadedness, leda dizziness emaina gamaninchara?
+
+4. mee energy level lo leda mee usual activities complete cheyagalige ability lo emaina changes gamaninchara?
+
+5. recent ga meeku emaina infections leda illnesses vachaya?
+
+6. recent ga meeku emaina surgeries leda procedures jarigaya?
+
+7. try cheyakunda recent ga mee weight tagginda?
+
+8. mee diet leda appetite lo recent ga emaina changes unnaya?
+
+9. heart disease, lung disease, leda kidney disease lanti chronic medical conditions history meeku unda?
+
+10. bleeding disorders leda blood clotting problems history eppudaina meeku unda?
+
+11. over-the-counter supplements tho kalipi, meeru emaina medications teesukuntunnara?
+
+12. past lo meeku eppudaina blood transfusions leda blood disorders unnaya?
+
+ ee questions patient medical history, vaari anemia ki possible underlying causes, mariyu vaari shortness of breath ki contribute chese inka vere factors emaina unnaya ani artham chesukovadaniki help chestayi. vaari responses batti, vaari condition ni sarigga diagnose chesi treat cheyadaniki further testing leda referrals avasaram kavachu.",2,220 words,2,No native script chars,3,Overlap=0.26 — well romanized,3,No consistency issues detected,2,BGE=0.728,,,,,,
