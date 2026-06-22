@@ -1,0 +1,942 @@
+row_num,model,language,message_id,query_en,response_en,romanized_query,romanized_response,selection_category,eng_task_flag,H6_naturalness_fluency (0-3),H7_grammar_correctness (0-2),H8_word_choice_accuracy (0-2),H9_register_appropriateness (0-2),H10_overall_usability (0-3),evaluator_notes,kannada_script_chars,other_script_chars,word_overlap_recomputed,word_count,llm1_completeness,llm2_script_purity,llm3_eng_balance,llm4_consistency,llm5_semantic,llm6_naturalness,llm7_grammar,llm8_wordchoice,llm9_register,llm10_usability,llm_notes
+1,anthropic,Kannada,23af498b-3d54-4477-a54e-4d3a265374e0,"What is the history and cultural significance of the Irish bodhrán drum and how has it evolved over time? The bodhrán is a frame drum that originated in Ireland and is widely recognized as an integral part of traditional Irish music. Can you discuss the different techniques used to play the bodhrán and the various styles of music it has been used in? Additionally, how has the bodhrán been embraced by modern musicians and incorporated into other genres of music outside of Ireland?","## History and cultural significance
+
+According to some sources, the bodhrán is one of Ireland's oldest traditional musical instruments, dating back to pre-Christian times. However, other sources claim that the bodhrán is a relatively recent addition to Irish music, introduced only in the 1960s by composer Seán Ó Riada. The word bodhrán means ""drum"" or ""skin tray"" in Irish.
+
+The bodhrán was originally used as a tool for winnowing grain or carrying peat, and later as a battle drum by Irish clans. It was also associated with certain rituals and holy days, such as Samhain and Wren Day. The bodhrán became popular as a musical instrument during the Irish folk revival of the 1960s, when Ó Riada championed it as the native drum of Ireland and incorporated it into his ensemble Ceoltóirí Chualann. Since then, the bodhrán has become an integral part of traditional Irish music and a symbol of Irish culture.
+
+## Techniques and styles
+
+The bodhrán is played with a wooden beater called a tipper, cipín or bone, which can have one or two ends. The player holds the drum with one hand and strikes the skin with the tipper with the other hand. The player can also control the pitch and timbre of the drum by placing their hand against the inside of the skin.
+
+There are four main playing techniques for the bodhrán:
+
+- **Kerry style**: The player uses a two-ended tipper and pivots their wrist back and forth to strike the skin with both ends alternately. This creates a fast and rhythmic sound.
+- **Top-end style**: The player uses a one-ended tipper and strikes the skin around the outer edge of the drum, especially near the top. This allows the player to produce different pitches by hitting different regions of the skin.
+- **Bottom-end style**: The player uses a one-ended tipper and strikes the skin mostly near the bottom of the drum. This creates a deeper and more resonant sound than the top-end style.
+- **West Limerick style**: The player uses a two-ended tipper and strikes the skin with both ends simultaneously, creating a loud and powerful sound. This style is often used for solo playing or accompaniment of songs.
+
+The following table summarizes some of the characteristics of each technique:
+
+| Technique | Tipper | Wrist | Pitch | Sound |
+| --- | --- | --- | --- | --- |
+| Kerry style | Two-ended | Pivot | Variable | Fast, rhythmic |
+| Top-end style | One-ended | Fixed | Variable | Precise, melodic |
+| Bottom-end style | One-ended | Fixed | Low | Deep, resonant |
+| West Limerick style | Two-ended | Fixed | High | Loud, powerful |
+
+## Modern use
+
+The bodhrán has been embraced by many modern musicians and incorporated into various genres of music outside of Ireland. Some examples are:
+
+- **Riverdance**: The bodhrán features prominently in this theatrical show that showcases Irish dance and music. The bodhrán player provides the rhythmic foundation for the dancers and interacts with them on stage.
+- **Afro Celt Sound System**: This musical group fuses Irish, African and electronic music elements. The bodhrán is used to create complex beats and grooves that blend with other percussion instruments.
+- **Kíla**: This Irish band combines traditional Irish music with rock, world music and hip hop influences. The bodhrán is used to create dynamic and energetic sounds that complement the vocals and other instruments.","Irish bodhran drum na ithihasa mattu samskruthika mahatva enu mattu adu kalakramadalli hege evolve agide? Bodhran ondu frame drum, idu Ireland nalli hutti, traditional Irish music na ondu prmukha bhaga endu vyapakavagi gurutisalpattide. Neevu bodhran nudisalu balasuva bere bere techniques mattu adannu balasalada vividha sangeetha shailigala bagge charchisabahuda? Mattu, bodhran annu modern musicians hege opikondiddare mattu Ireland na horagina bere genres of music nalli hege seriside?","## Ithihasa mattu samskruthika mahatva
+
+Kelavu mulagala prakara, bodhran Ireland na atyantha haleya traditional musical instruments alli ondu, idu pre-Christian kaaladavarege hogutte. Adare, bere mulagalu helovaa prakara bodhran Irish music ge thulanatmakavagi itticheginadu, 1960 ralli composer Sean O Riada parichayisidaru. Bodhran emba padada artha Irish bhasheyalli ""drum"" athava ""skin tray"" endu.
+
+Bodhran annu modalu dhanyavannu winnow maduvudu athava peat hottu sagisuva sadhanavagi balasalaguthitthu, naantara Irish clans ge battle drum agi balasalaguthitthu. Idu kelavu rituals mattu pavithra dinagalondige sambandha hondittu, udaharanege Samhain mattu Wren Day. 1960 ra Irish folk revival samayadalli bodhran musical instrument agi janapriyavaaitu, aaga O Riada idannu Ireland na swadeshi drum endu pratipadisi tanna ensemble Ceoltoiri Chualann ge serisikondaru. Aa nantara, bodhran traditional Irish music na ondu prmukha bhagavagi mattu Irish samskrutiya pratheekavaagi marite.
+
+## Techniques mattu shailigalu
+
+Bodhran annu tipper, cipin athava bone endu karayuva ondu maradina beater inda nudisalaguttade, idakke ondu athava eradu thudigalu irabahudu. Player ondu kaiyalli drum annu hidiyutthare mattu ennondu kaiyinda tipper inda skin ge hodeyuttare. Player tamma kaiyannu skin na olabhagakke ittu drum na pitch mattu timbre annu sahaa niyantrisabahudu.
+
+Bodhran ge naalku mukhya playing techniques ive:
+
+- **Kerry style**: Player eradu thudigalulla tipper balasi tanna wrist annu munde-hinde tirugisi eradu thudigalindalu paryayavaagi skin ge hodeyutthare. Idu vegavaada mattu rhythmic shabdavannu srushtisuttade.
+- **Top-end style**: Player ondu thudiya tipper balasi drum na horagina anchina suttalu, vishesha vagi mele hodeyutthare. Idu skin na bere bere bhagagalige hodedu bere bere pitches utpadisalu player ge avakasha needuttade.
+- **Bottom-end style**: Player ondu thudiya tipper balasi heccaagi drum na kelabhagada hattira skin ge hodeyutthare. Idu top-end style ginta ahala mattu heccu resonant shabdavannu srushtisuttade.
+- **West Limerick style**: Player eradu thudigalulla tipper balasi eradu thudigalindalu ondege skin ge hodeyutthare, idu jorada mattu shaktiyutha shabdavannu srushtisuttade. Ee shailiyannu heccaagi solo playing athava songs ge accompaniment ge balasalaguttade.
+
+Ee kelagina table pratiyondu technique na kelavu vaishishtyagalannu sankshipthavaagi torisutthade:
+
+| Technique | Tipper | Wrist | Pitch | Sound |
+| --- | --- | --- | --- | --- |
+| Kerry style | Eradu-thudi | Pivot | Variable | Vegavada, rhythmic |
+| Top-end style | Ondu-thudi | Sthira | Variable | Niradishta, melodic |
+| Bottom-end style | Ondu-thudi | Sthira | Kadime | Ahala, resonant |
+| West Limerick style | Eradu-thudi | Sthira | Hecchu | Jorada, shaktiyutha |
+
+## Adhunika balake
+
+Bodhran annu aneka modern musicians opikondiddare mattu Ireland na horagina vividha genres of music nalli serisikondiddare. Kelavu udaharanegalu:
+
+- **Riverdance**: Irish dance mattu music torisuva ee theatrical show nalli bodhran prmukhavaagi kanisikolluttade. Bodhran player dancers ge rhythmic foundation odagisuttare mattu stage mele avarondige interact aaguttare.
+- **Afro Celt Sound System**: Ee musical group Irish, African mattu electronic music angagalannu sammilanagolisuttade. Bodhran annu bere percussion instruments jote bereyuvanthaha complex beats mattu grooves srushtisalu balasalaguttade.
+- **Kila**: Ee Irish band traditional Irish music annu rock, world music mattu hip hop influences jote serisuttade. Bodhran annu vocals mattu bere instruments ge poorakavaagi dynamic mattu energetic shabdagalannu srushtisalu balasalaguttade.",Good_anchor (replacement),False,2.5,2,2,2,2.5,"REPLACED pure-English row (old=Walter Burley-Griffin, native scored 0); now genuine Kannada - pre-filled draft",0,0,0.36,493,2,2,3,3,3,2.5,2,2,2,2.5,Genuine fluent informative Kannada (Irish bodhran); markdown headers; clean - REPLACES pure-English Walter-Burley-Griffin row
+2,ollama,Kannada,a73dc9d7-c438-4dd2-97b4-b0ad88b036f2,"I'm a 26 year old, 6foot tall male, I weight 130 pounds. I want to gain some weight, mostly muscle though. Can you give me a workout plan for a whole week and a meal plan that provides me with the calories needed?","Sure! Here is a sample workout plan for a week, as well as a sample meal plan to help you meet your caloric needs for muscle gain:
+
+Workout Plan:
+Day 1: Upper Body
+
+Barbell bench press: 3 sets of 8-10 reps
+Dumbbell flys: 3 sets of 8-10 reps
+Pull-ups: 3 sets of 8-10 reps
+Dumbbell bicep curls: 3 sets of 8-10 reps
+Tricep pushdowns: 3 sets of 8-10 reps
+Day 2: Lower Body
+
+Barbell squats: 3 sets of 8-10 reps
+Deadlifts: 3 sets of 8-10 reps
+Lunges: 3 sets of 8-10 reps (per leg)
+Calf raises: 3 sets of 12-15 reps
+Day 3: Rest
+
+Day 4: Upper Body
+
+Dumbbell bench press: 3 sets of 8-10 reps
+Dumbbell rows: 3 sets of 8-10 reps
+Lat pulldowns: 3 sets of 8-10 reps
+Dumbbell hammer curls: 3 sets of 8-10 reps
+Skullcrushers: 3 sets of 8-10 reps
+Day 5: Lower Body
+
+Barbell deadlifts: 3 sets of 8-10 reps
+Barbell squats: 3 sets of 8-10 reps
+Leg press: 3 sets of 8-10 reps
+Leg extensions: 3 sets of 12-15 reps
+Leg curls: 3 sets of 12-15 reps
+Day 6: Rest
+
+Day 7: Full Body Circuit
+
+Barbell squats: 3 sets of 8-10 reps
+Push-ups: 3 sets of 8-10 reps
+Dumbbell rows: 3 sets of 8-10 reps
+Dumbbell bicep curls: 3 sets of 8-10 reps
+Tricep extensions: 3 sets of 8-10 reps
+Meal Plan:
+Here is a sample meal plan that provides you with the calories needed for muscle gain. It is important to remember that individual calorie needs may vary, so you should consult with a registered dietitian to determine the specific number of calories you need to consume based on your body, goals, and activity level.
+
+Breakfast:
+
+3 scrambled eggs
+2 slices of whole grain toast
+1 banana
+1 glass of milk
+Snack:
+
+Greek yogurt with mixed berries
+Lunch:
+
+Grilled chicken breast
+Brown rice
+Steamed vegetables
+Salad with vinaigrette dressing
+Snack:
+
+Apple with almond butter
+Dinner:
+
+Grilled salmon
+Quinoa
+Steamed broccoli
+Green beans
+Snack:
+
+Protein shake with fruit and almond milk
+Remember, the most important factor in gaining muscle is progressive resistance training and proper nutrition. This sample workout and meal plan can be a good starting point, but you may need to make adjustments based on your individual needs and progress. It is always best to consult with a professional before starting a new workout or nutrition program.","Naanu 26 varshada, 6 foot tall male, naanu 130 pounds weight. Naanu weight gain hagaluttide, mukhya roopavalli muscle. Neevu naaku ekke saptahavara workout plan mattu naaku needed calories provide hagaluttide meal plan giveyagala?","Sure! Ekk saptahavara sample workout plan, muscle gain kegalu calories meet hagaluttide sample meal plan ide:
+
+Workout Plan:
+Day 1: Upper Body
+
+Barbell bench press: 3 sets of 8-10 reps
+Dumbbell flys: 3 sets of 8-10 reps
+Pull-ups: 3 sets of 8-10 reps
+Dumbbell bicep curls: 3 sets of 8-10 reps
+Tricep pushdowns: 3 sets of 8-10 reps
+Day 2: Lower Body
+
+Barbell squats: 3 sets of 8-10 reps
+Deadlifts: 3 sets of 8-10 reps
+Lunges: 3 sets of 8-10 reps (per leg)
+Calf raises: 3 sets of 12-15 reps
+Day 3: Rest
+
+Day 4: Upper Body
+
+Dumbbell bench press: 3 sets of 8-10 reps
+Dumbbell rows: 3 sets of 8-10 reps
+Lat pulldowns: 3 sets of 8-10 reps
+Dumbbell hammer curls: 3 sets of 8-10 reps
+Skullcrushers: 3 sets of 8-10 reps
+Day 5: Lower Body
+
+Barbell deadlifts: 3 sets of 8-10 reps
+Barbell squats: 3 sets of 8-10 reps
+Leg press: 3 sets of 8-10 reps
+Leg extensions: 3 sets of 12-15 reps
+Leg curls: 3 sets of 12-15 reps
+Day 6: Rest
+
+Day 7: Full Body Circuit
+
+Barbell squats: 3 sets of 8-10 reps
+Push-ups: 3 sets of 8-10 reps
+Dumbbell rows: 3 sets of 8-10 reps
+Dumbbell bicep curls: 3 sets of 8-10 reps
+Tricep extensions: 3 sets of 8-10 reps
+Meal Plan:
+Muscle gain kegalu calories provide hagaluttide sample meal plan ide. Individual calorie needs vary, so registered dietitian kegalu consult hagaluttide, body, goals, activity level kegalu based specific calories determine hagaluttide.
+
+Breakfast:
+
+3 scrambled eggs
+2 slices of whole grain toast
+1 banana
+1 glass of milk
+Snack:
+
+Greek yogurt with mixed berries
+Lunch:
+
+Grilled chicken breast
+Brown rice
+Steamed vegetables
+Salad with vinaigrette dressing
+Snack:
+
+Apple with almond butter
+Dinner:
+
+Grilled salmon
+Quinoa
+Steamed broccoli
+Green beans
+Snack:
+
+Protein shake with fruit and almond milk
+Remember, muscle gain kegalu mukhya factor progressive resistance training mattu proper nutrition. E sample workout mattu meal plan starting point, but individual needs mattu progress kegalu based adjustments hagaluttide. New workout or nutrition program start hagaluttide professional kegalu consult hagaluttide best.",Mode1_pure_english_TRUE,False,0.5,1.0,1.0,1.0,0.5,,0,0,0.925,343,2,2,0,1,3.0,0.5,1.0,1.0,1.0,0.5,~92% English; only opening line Kannada; workout list all English
+3,ollama,Kannada,fa4d01e1-5c0e-4a8a-8897-e4c21c4951bf,"Hi, I need help creating a perfect CV, help me rewrite a bullet point of my attributes. Make it seam short, but professional. Do not add or remove any items from the list, only change the style.
+-Creativity - I can solve a problem quickly, using an effective solution.
+-Communication / teamwork skills - I am open to people, and like cooperation.
+-Dealing with stress / time pressure - I do not make decisions under the influence of emotion, I calmly analyze any given situation. 
+-Personal culture - I treat each person with proper respect. 
+-Persistance in goals -  I achieve goals no matter the hardships.
+-Punctuality - having a set deadline, I always complete tasks on time.","-   Innovative problem-solving - Quickly identify and implement effective solutions.
+-   Strong interpersonal skills - Open to collaboration and adept at communication.
+-   Resilience under pressure - Remain calm and focused under stress, making rational decisions.
+-   Professional demeanor - Treat all individuals with respect and dignity.
+-   Determined mindset - Persistently work towards set goals, regardless of challenges.
+-   Timeliness - Consistently meet deadlines and complete tasks promptly.","Hi, naanu perfect CV create cheydanu help beku, naanu ellu attributes list ellu bullet point rewrite cheydanu help cheydu. Ondu short, but professional aagali. List ellu items add or remove cheydanu, just style change cheydanu.
+-Creativity - Naanu problem quickly solve cheydanu, effective solution use cheydanu.
+-Communication / teamwork skills - Naanu people open aagidanu, cooperation like cheydanu.
+-Dealing with stress / time pressure - Naanu emotion influence ellu decisions make cheydanu, calmly analyze cheydanu any given situation.
+-Personal culture - Naanu ellu person proper respect treat cheydanu.
+-Persistance in goals - Naanu goals achieve cheydanu hardships ellu.
+-Punctuality - Set deadline ellu, naanu always tasks on time complete cheydanu.","- Innovative problem-solving - Quickly identify and implement effective solutions.
+- Strong interpersonal skills - Open to collaboration and adept at communication.
+- Resilience under pressure - Remain calm and focused under stress, making rational decisions.
+- Professional demeanor - Treat all individuals with respect and dignity.
+- Determined mindset - Persistently work towards set goals, regardless of challenges.
+- Timeliness - Consistently meet deadlines and complete tasks promptly.",Mode1_pure_english_TRUE,False,0.0,0.5,0.5,1.0,0.5,,0,0,1.0,69,2,2,0,1,3.0,0.0,0.5,0.5,1.0,0.5,Pure English CV bullets; task operated on English text (borderline eng-task)
+4,ollama,Kannada,fa12b6ed-63ba-4851-8646-c998bb90e550,"On Arch Linux, how do I allow a user to use `sudo` for a specific command without that user having to use their password?  Say for example, allowing a user `josh` to use the `systemctl ...`.  It would be even nicer if the user can only use specific sub-commands of `systemctl` such as `systemctl start/stop/status`","To allow a user to use sudo for a specific command without requiring a password, you can use the `visudo` command to edit the sudoers file. Here are the steps to do this for your example of allowing the user ""josh"" to use `systemctl start/stop/status` without a password:
+
+1. Open a terminal and log in as the root user or a user with sudo privileges.
+
+2. Type the following command to open the sudoers file in the terminal-based text editor nano:
+
+```
+sudo visudo -f /etc/sudoers.d/josh
+```
+This command will open a new sudoers file named ""josh"" in the `/etc/sudoers.d/` directory. This is the recommended way to add custom sudoers rules, as it keeps them separate from the main sudoers file.
+
+3. In the nano editor, add the following line:
+
+```
+josh ALL=NOPASSWD:/usr/bin/systemctl start, /usr/bin/systemctl stop, /usr/bin/systemctl status
+```
+This line allows the user ""josh"" to run the `start`, `stop`, and `status` sub-commands of the `systemctl` command without being prompted for a password. The `NOPASSWD:` option specifies that no password is required.
+
+4. Save the file by pressing `Ctrl+O` and then exit the editor by pressing `Ctrl+X`.
+
+5. Verify that the syntax of the sudoers file is correct by running the following command:
+
+```
+sudo visudo -c -f /etc/sudoers.d/josh
+```
+If there are any syntax errors in the file, this command will report them.
+
+Now the user ""josh"" can use `sudo systemctl start/stop/status` without being prompted for a password.","On Arch Linux, how do I allow a user to use `sudo` for a specific command without that user having to use their password? Say for example, allowing a user `josh` to use the `systemctl ...`. It would be even nicer if the user can only use specific sub-commands of `systemctl` such as `systemctl start/stop/status`","To allow a user to use sudo for a specific command without requiring a password, you can use the `visudo` command to edit the sudoers file. Here are the steps to do this for your example of allowing the user ""josh"" to use `systemctl start/stop/status` without a password:
+
+1. Open a terminal and log in as the root user or a user with sudo privileges.
+
+2. Type the following command to open the sudoers file in the terminal-based text editor nano:
+
+```
+sudo visudo -f /etc/sudoers.d/josh
+```
+This command will open a new sudoers file named ""josh"" in the `/etc/sudoers.d/` directory. This is the recommended way to add custom sudoers rules, as it keeps them separate from the main sudoers file.
+
+3. In the nano editor, add the following line:
+
+```
+josh ALL=NOPASSWD:/usr/bin/systemctl start, /usr/bin/systemctl stop, /usr/bin/systemctl status
+```
+This line allows the user ""josh"" to run the `start`, `stop`, and `status` sub-commands of the `systemctl` command without being prompted for a password. The `NOPASSWD:` option specifies that no password is required.
+
+4. Save the file by pressing `Ctrl+O` and then exit the editor by pressing `Ctrl+X`.
+
+5. Verify that the syntax of the sudoers file is correct by running the following command:
+
+```
+sudo visudo -c -f /etc/sudoers.d/josh
+```
+If there are any syntax errors in the file, this command will report them.
+
+Now the user ""josh"" can use `sudo systemctl start/stop/status` without being prompted for a password.",Mode1_pure_english_TRUE,False,0.0,0.0,0.0,1.0,0.0,,0,0,1.0,239,2,2,0,1,3.0,0.0,0.0,0.0,1.0,0.0,PURE ENGLISH technical answer - Mode-1 failure
+5,ollama,Kannada,91301122-351a-4477-a0c7-229c47631ead,I need help creating a meal plan to build muscle while I start a new workout schedule. I am working out twice a week for about an hour Tuesday and Thursday. I am a 30yo man ~200lb and I am targeting strength exercises. I would like to prep most of my meals on Sunday night but would also like a but of variety in snacks and deserts if those are allowed. I don't want to be too strict so I can stick too it but I also want to have enough macros and proteins to get stronger. Please make a shopping list of all ingredient required and describe three meals a day plus snacks for 1 week.,"Here's a meal plan for a week to help you build muscle:
+
+**Shopping list:**
+
+-   Brown rice
+-   Quinoa
+-   Sweet potatoes
+-   Leafy greens (e.g. spinach, kale, arugula)
+-   Berries (e.g. blueberries, strawberries)
+-   Nuts (e.g. almonds, walnuts)
+-   Nut butter (e.g. almond butter)
+-   Greek yogurt
+-   Cottage cheese
+-   Eggs
+-   Chicken breast
+-   Salmon
+-   Beef (e.g. sirloin steak)
+-   Lentils
+-   Chickpeas
+-   Canned tuna
+-   Avocado
+-   Olive oil
+-   Balsamic vinegar
+
+**Monday:**
+
+-   Breakfast: 2 scrambled eggs with spinach and tomatoes, 1/2 sweet potato
+-   Lunch: Grilled chicken breast with quinoa and steamed vegetables
+-   Dinner: Grilled salmon with brown rice and steamed greens
+-   Snacks: Greek yogurt with berries, a handful of almonds
+
+**Tuesday:**
+
+-   Breakfast: Cottage cheese with a handful of berries and a tablespoon of almond butter
+-   Lunch: Grilled chicken breast with sweet potato and steamed vegetables
+-   Dinner: Beef sirloin steak with quinoa and steamed greens
+-   Snacks: Greek yogurt with a handful of berries, a handful of walnuts
+
+**Wednesday:**
+
+-   Breakfast: 2 scrambled eggs with spinach, 1/2 avocado
+-   Lunch: Grilled salmon with brown rice and steamed vegetables
+-   Dinner: Grilled chicken breast with quinoa and steamed greens
+-   Snacks: Greek yogurt with berries, a tablespoon of almond butter with a handful of almonds
+
+**Thursday:**
+
+-   Breakfast: Cottage cheese with a handful of berries and a tablespoon of almond butter
+-   Lunch: Lentil and vegetable salad
+-   Dinner: Grilled beef sirloin steak with sweet potato and steamed greens
+-   Snacks: Greek yogurt with a handful of berries, a handful of walnuts
+
+**Friday:**
+
+-   Breakfast: 2 scrambled eggs with spinach and tomatoes, 1/2 sweet potato
+-   Lunch: Grilled salmon with quinoa and steamed vegetables
+-   Dinner: Grilled chicken breast with brown rice and steamed greens
+-   Snacks: Greek yogurt with berries, a handful of almonds
+
+**Saturday:**
+
+-   Breakfast: Cottage cheese with a handful of berries and a tablespoon of almond butter
+-   Lunch: Chickpea salad with vegetables and a balsamic vinaigrette
+-   Dinner: Grilled beef sirloin steak with quinoa and steamed greens
+-   Snacks: Greek yogurt with berries, a handful of walnuts
+
+**Sunday:**
+
+-   Breakfast: 2 scrambled eggs with spinach, 1/2 avocado
+-   Lunch: Grilled salmon with sweet potato and steamed greens
+-   Dinner: Grilled chicken breast with quinoa and steamed vegetables
+-   Snacks: Greek yogurt with berries, a tablespoon of almond butter with a handful of almonds
+
+Incorporating protein-rich foods like chicken, salmon, beef, eggs, yogurt, and nuts will help you build muscle, while carbohydrates from sweet potatoes, brown rice, quinoa, and berries will provide the energy you need to power through your workouts. You can adjust portion sizes based on your calorie needs and fitness goals.","Naanu muscle build maadidde, nava workout schedule start maadidde, meal plan create maadidde help beku. Naanu Tuesday mattu Thursday nalli hodu, hodu hour time, hodu week nalli hodu time workout maaduttini. Naanu 30 varshada manusha, ~200lb, strength exercises target maaduttini. Naanu Sunday night nalli most meals prep maadidde, snacks mattu deserts nalli variety beku, avu allowed aagidde. Naanu strict aagidde beku, stick maadidde, but enough macros mattu proteins beku, stronger aagidde. Please shopping list maadidde, ellu ingredients required, 3 meals a day plus snacks 1 week nalli describe maadidde.","Muscle build maadidde, 1 week nalli meal plan:
+
+**Shopping list:**
+
+-   Brown rice
+-   Quinoa
+-   Sweet potatoes
+-   Leafy greens (e.g. spinach, kale, arugula)
+-   Berries (e.g. blueberries, strawberries)
+-   Nuts (e.g. almonds, walnuts)
+-   Nut butter (e.g. almond butter)
+-   Greek yogurt
+-   Cottage cheese
+-   Eggs
+-   Chicken breast
+-   Salmon
+-   Beef (e.g. sirloin steak)
+-   Lentils
+-   Chickpeas
+-   Canned tuna
+-   Avocado
+-   Olive oil
+-   Balsamic vinegar
+
+**Monday:**
+
+-   Breakfast: 2 scrambled eggs with spinach and tomatoes, 1/2 sweet potato
+-   Lunch: Grilled chicken breast with quinoa and steamed vegetables
+-   Dinner: Grilled salmon with brown rice and steamed greens
+-   Snacks: Greek yogurt with berries, a handful of almonds
+
+**Tuesday:**
+
+-   Breakfast: Cottage cheese with a handful of berries and a tablespoon of almond butter
+-   Lunch: Grilled chicken breast with sweet potato and steamed vegetables
+-   Dinner: Beef sirloin steak with quinoa and steamed greens
+-   Snacks: Greek yogurt with a handful of berries, a handful of walnuts
+
+**Wednesday:**
+
+-   Breakfast: 2 scrambled eggs with spinach, 1/2 avocado
+-   Lunch: Grilled salmon with brown rice and steamed vegetables
+-   Dinner: Grilled chicken breast with quinoa and steamed greens
+-   Snacks: Greek yogurt with berries, a tablespoon of almond butter with a handful of almonds
+
+**Thursday:**
+
+-   Breakfast: Cottage cheese with a handful of berries and a tablespoon of almond butter
+-   Lunch: Lentil and vegetable salad
+-   Dinner: Grilled beef sirloin steak with sweet potato and steamed greens
+-   Snacks: Greek yogurt with a handful of berries, a handful of walnuts
+
+**Friday:**
+
+-   Breakfast: 2 scrambled eggs with spinach and tomatoes, 1/2 sweet potato
+-   Lunch: Grilled salmon with quinoa and steamed vegetables
+-   Dinner: Grilled chicken breast with brown rice and steamed greens
+-   Snacks: Greek yogurt with berries, a handful of almonds
+
+**Saturday:**
+
+-   Breakfast: Cottage cheese with a handful of berries and a tablespoon of almond butter
+-   Lunch: Chickpea salad with vegetables and a balsamic vinaigrette
+-   Dinner: Grilled beef sirloin steak with quinoa and steamed greens
+-   Snacks: Greek yogurt with berries, a handful of walnuts
+
+**Sunday:**
+
+-   Breakfast: 2 scrambled eggs with spinach, 1/2 avocado
+-   Lunch: Grilled salmon with sweet potato and steamed greens
+-   Dinner: Grilled chicken breast with quinoa and steamed vegetables
+-   Snacks: Greek yogurt with berries, a tablespoon of almond butter with a handful of almonds
+
+Chicken, salmon, beef, eggs, yogurt, mattu nuts like protein-rich foods muscle build maadidde, sweet potatoes, brown rice, quinoa, mattu berries like carbohydrates energy provide maadidde, workouts power maadidde. Calorie needs mattu fitness goals based portion sizes adjust maadidde.",Mode1_pure_english_TRUE,False,0.5,1.0,1.0,1.0,0.5,,0,0,0.959,434,2,2,0,1,3.0,0.5,1.0,1.0,1.0,0.5,~96% English; Kannada only in opening line; meal plan all English
+6,anthropic,Kannada,8b0ffd4b-7aea-46b0-a9aa-20b555ebc102,"Hello There!
+
+I have A Form Of Dyslexia Where It Is Really Hard To See The Boundaries Of Words If They Are Not Capitalized, So Please Capitalize Them In Your Replies, Thanks In Advance!
+
+As Per My Disorder, I Would Like To Ask You To Format The Following Text I Copied From The Internet To Make It Easier To Read:
+
+""Open-Dyslexic is an open sourced font created to increase readability for readers with dyslexia. This extension overrides all fonts on web pages with the OpenDyslexic font, and formats pages to be more easily readable.
+
+Your brain can sometimes do funny things to letters. OpenDyslexic tries to help prevent some of these things from happening. Letters have heavy weighted bottoms to add a kind of ""gravity"" to each letter. You are able to quickly figure out which part of the letter is down because of this feature. It aids in recognizing the correct letter and sometimes helps to keep your brain from rotating them around. Consistently weighted bottoms can also help reinforce the line of text. The unique shapes of each letter can help prevent confusion through flipping and swapping.""","Sure! Here Is The Passage With The Modifications You Requested:
+
+""Open-Dyslexic Is An Open Sourced Font Created To Increase Readability For Readers With Dyslexia. This Extension Overrides All Fonts On Web Pages With The OpenDyslexic Font, And Formats Pages To Be More Easily Readable.
+
+Your Brain Can Sometimes Do Funny Things To Letters. OpenDyslexic Tries To Help Prevent Some Of These Things From Happening. Letters Have Heavy Weighted Bottoms To Add A Kind Of ""Gravity"" To Each Letter. You Are Able To Quickly Figure Out Which Part Of The Letter Is Down Because Of This Feature. It Aids In Recognizing The Correct Letter And Sometimes Helps To Keep Your Brain From Rotating Them Around. Consistently Weighted Bottoms Can Also Help Reinforce The Line Of Text. The Unique Shapes Of Each Letter Can Help Prevent Confusion Through Flipping And Swapping.""","Hello There!
+
+Nannage Ondu Tarada Dyslexia Ide, Adarinda Padagalannu Capitalize Madadiddare Avugala Boundaries Nodalu Tumba Kashta Aagutte, Hagagi Dayavittu Nimma Replies Nalli Avugalannu Capitalize Madi, Munchitavagi Dhanyavadagalu!
+
+Nanna Disorder Prakara, Naanu Internet Ninda Copy Madikonda Ee Kelagina Text Annu Odalu Sulabhavagisalu Format Madabekendu Nimmannu Keluttiddini:
+
+""Open-Dyslexic Is An Open Sourced Font Created To Increase Readability For Readers With Dyslexia. This Extension Overrides All Fonts On Web Pages With The OpenDyslexic Font, And Formats Pages To Be More Easily Readable.
+
+Your Brain Can Sometimes Do Funny Things To Letters. OpenDyslexic Tries To Help Prevent Some Of These Things From Happening. Letters Have Heavy Weighted Bottoms To Add A Kind Of ""Gravity"" To Each Letter. You Are Able To Quickly Figure Out Which Part Of The Letter Is Down Because Of This Feature. It Aids In Recognizing The Correct Letter And Sometimes Helps To Keep Your Brain From Rotating Them Around. Consistently Weighted Bottoms Can Also Help Reinforce The Line Of Text. The Unique Shapes Of Each Letter Can Help Prevent Confusion Through Flipping And Swapping.""","Khanditavagi! Illi Nivu Kelida Modifications Jote Ee Passage Ide:
+
+""Open-Dyslexic Is An Open Sourced Font Created To Increase Readability For Readers With Dyslexia. This Extension Overrides All Fonts On Web Pages With The OpenDyslexic Font, And Formats Pages To Be More Easily Readable.
+
+Your Brain Can Sometimes Do Funny Things To Letters. OpenDyslexic Tries To Help Prevent Some Of These Things From Happening. Letters Have Heavy Weighted Bottoms To Add A Kind Of ""Gravity"" To Each Letter. You Are Able To Quickly Figure Out Which Part Of The Letter Is Down Because Of This Feature. It Aids In Recognizing The Correct Letter And Sometimes Helps To Keep Your Brain From Rotating Them Around. Consistently Weighted Bottoms Can Also Help Reinforce The Line Of Text. The Unique Shapes Of Each Letter Can Help Prevent Confusion Through Flipping And Swapping.""",Mode1_eng_task,True,1.0,1.5,1.5,1.5,1.5,,0,0,0.928,138,2,2,0,2,3.0,1.0,1.5,1.5,1.5,1.5,ENG-TASK (capitalize English passage); Kannada framing capitalized; body English
+7,gemini,Kannada,8b0ffd4b-7aea-46b0-a9aa-20b555ebc102,"Hello There!
+
+I have A Form Of Dyslexia Where It Is Really Hard To See The Boundaries Of Words If They Are Not Capitalized, So Please Capitalize Them In Your Replies, Thanks In Advance!
+
+As Per My Disorder, I Would Like To Ask You To Format The Following Text I Copied From The Internet To Make It Easier To Read:
+
+""Open-Dyslexic is an open sourced font created to increase readability for readers with dyslexia. This extension overrides all fonts on web pages with the OpenDyslexic font, and formats pages to be more easily readable.
+
+Your brain can sometimes do funny things to letters. OpenDyslexic tries to help prevent some of these things from happening. Letters have heavy weighted bottoms to add a kind of ""gravity"" to each letter. You are able to quickly figure out which part of the letter is down because of this feature. It aids in recognizing the correct letter and sometimes helps to keep your brain from rotating them around. Consistently weighted bottoms can also help reinforce the line of text. The unique shapes of each letter can help prevent confusion through flipping and swapping.""","Sure! Here Is The Passage With The Modifications You Requested:
+
+""Open-Dyslexic Is An Open Sourced Font Created To Increase Readability For Readers With Dyslexia. This Extension Overrides All Fonts On Web Pages With The OpenDyslexic Font, And Formats Pages To Be More Easily Readable.
+
+Your Brain Can Sometimes Do Funny Things To Letters. OpenDyslexic Tries To Help Prevent Some Of These Things From Happening. Letters Have Heavy Weighted Bottoms To Add A Kind Of ""Gravity"" To Each Letter. You Are Able To Quickly Figure Out Which Part Of The Letter Is Down Because Of This Feature. It Aids In Recognizing The Correct Letter And Sometimes Helps To Keep Your Brain From Rotating Them Around. Consistently Weighted Bottoms Can Also Help Reinforce The Line Of Text. The Unique Shapes Of Each Letter Can Help Prevent Confusion Through Flipping And Swapping.""","Namaskara!
+
+Nanagondu tarahada dyslexia ide, adarinda padagalu capitalize aagilladidare avugala gadigalannu nodalu nijavagiyoo kashtavaguttade. Adarinda dayavittu nimma uttaragalalli avugalannu capitalize maadi. Munchitavagi dhanyavadagalu!
+
+Nanna disorder prakara, internet ninda copy maadiruva ee text annu odalu sulabhavagisi format madalu nimannu kelikolluttene:
+
+""Open-Dyslexic is an open sourced font created to increase readability for readers with dyslexia. This extension overrides all fonts on web pages with the OpenDyslexic font, and formats pages to be more easily readable.
+
+Your brain can sometimes do funny things to letters. OpenDyslexic tries to help prevent some of these things from happening. Letters have heavy weighted bottoms to add a kind of ""gravity"" to each letter. You are able to quickly figure out which part of the letter is down because of this feature. It aids in recognizing the correct letter and sometimes helps to keep your brain from rotating them around. Consistently weighted bottoms can also help reinforce the line of text. The unique shapes of each letter can help prevent confusion through flipping and swapping.""","Kandita! Neevu kelida badalavanegalondige illide aa passage:
+
+""Open-Dyslexic Is An Open Sourced Font Created To Increase Readability For Readers With Dyslexia. This Extension Overrides All Fonts On Web Pages With The OpenDyslexic Font, And Formats Pages To Be More Easily Readable.
+
+Your Brain Can Sometimes Do Funny Things To Letters. OpenDyslexic Tries To Help Prevent Some Of These Things From Happening. Letters Have Heavy Weighted Bottoms To Add A Kind Of ""Gravity"" To Each Letter. You Are Able To Quickly Figure Out Which Part Of The Letter Is Down Because Of This Feature. It Aids In Recognizing The Correct Letter And Sometimes Helps To Keep Your Brain From Rotating Them Around. Consistently Weighted Bottoms Can Also Help Reinforce The Line Of Text. The Unique Shapes Of Each Letter Can Help Prevent Confusion Through Flipping And Swapping.""",Mode1_eng_task,True,1.5,1.5,1.5,1.5,1.5,,0,0,0.937,136,2,2,0,2,3.0,1.5,1.5,1.5,1.5,1.5,ENG-TASK; natural Kannada framing; English body capitalized
+8,gpt,Kannada,b0214be4-bf2d-430c-81d7-d60011ab3de7,"Please design a PhD research paper around Developing in vitro models to study gut microbiome-starch interactions: While some in vitro models have been developed to study gut microbiome-starch interactions, more research is needed to develop more sophisticated models that more accurately reflect the in vivo environment, and to validate these models using in vivo studies.","**Title**: Developing In Vitro Models to Study Gut Microbiome-Starch Interactions: Advancing Our Understanding of the In Vivo Environment
+
+**Abstract**: The gut microbiome plays a crucial role in human health, and its interaction with dietary starch is of particular interest in understanding the effects of diet on gut microbiome composition and function. While in vitro models have been developed to study gut microbiome-starch interactions, more sophisticated models that better reflect the in vivo environment are needed to improve our understanding of this complex relationship. This study aims to develop and validate in vitro models that accurately replicate the gut microbiome-starch interactions observed in vivo.
+
+**Introduction**: The human gut microbiome is a complex ecosystem that plays a critical role in maintaining human health. Recent studies have suggested that the composition and function of the gut microbiome are closely linked to dietary starch intake. In vitro models have been developed to study these interactions, but these models have limitations in replicating the in vivo environment. This study aims to develop more advanced in vitro models that better reflect the in vivo environment and to validate these models using in vivo studies.
+
+**Methodology**: The study will involve the development of in vitro models that incorporate more realistic gut microbiome-starch interactions. These models will be developed using a range of techniques, including metagenomics and metabolomics. The developed models will then be validated using in vivo studies, where the results will be compared with the findings from previous studies.
+
+**Expected Results**: The developed in vitro models will provide a more realistic representation of gut microbiome-starch interactions, leading to a better understanding of the complex relationship between dietary starch and the gut microbiome. The validation of the models using in vivo studies will demonstrate their effectiveness in replicating the in vivo environment and will provide a valuable tool for future research.
+
+**Conclusion**: The development of more sophisticated in vitro models to study gut microbiome-starch interactions is essential to advancing our understanding of the complex relationship between dietary starch and the gut microbiome. The validation of these models using in vivo studies will provide a valuable tool for future research, leading to improved human health outcomes.","dayavittu developing in vitro models to study gut microbiome starch interactions bagge ondu phd research paper design maadi: gut microbiome starch interactions study maadalu kelavu in vitro models develop maadiddaroo, in vivo environment annu innashtu nikhara vaagi reflect maaduva hechu sophisticated models develop maadalu innu hechu research beku, mattu ee models annu in vivo studies balasi validate maadabeku.","**Title**: Gut Microbiome Starch Interactions Study Maadalu In Vitro Models Develop Maaduvudu: In Vivo Environment Bagge Namma Understanding Annu Munduvarisuvudu
+
+**Abstract**: gut microbiome human health nalli tumba mukhya role play maaduttade, mattu dietary starch jothege adara interaction, diet gut microbiome composition mattu function mele beeruva effects annu artha maadikolalu vishesha aasaktiya vishaya. gut microbiome starch interactions study maadalu in vitro models develop maadiddaroo, ee complex relationship annu innashtu chennagi artha maadikolalu in vivo environment annu uttamavaagi reflect maaduva hechu sophisticated models beku. ee study, in vivo nalli observe maadida gut microbiome starch interactions annu accurate aagi replicate maaduva in vitro models develop mattu validate maaduva uddesha hondide.
+
+**Introduction**: human gut microbiome ondu complex ecosystem aagiddu, human health maintain maaduvalli critical role play maaduttade. recent studies prakara, gut microbiome na composition mattu function dietary starch intake jothege close aagi link aagide endu suggest maadide. ee interactions study maadalu in vitro models develop maadiddare, aadare ee models ge in vivo environment annu replicate maaduvalli limitations ive. ee study, in vivo environment annu uttamavaagi reflect maaduva hechu advanced in vitro models develop maaduvudu mattu ee models annu in vivo studies balasi validate maaduvudu embudannu uddeshiside.
+
+**Methodology**: ee study nalli, hechu realistic gut microbiome starch interactions annu incorporate maaduva in vitro models develop maadಲಾಗುತ್ತದೆ. ee models annu metagenomics mattu metabolomics seridante vivida techniques balasi develop maadಲಾಗುತ್ತದೆ. develop maadida models annu nantara in vivo studies balasi validate maadಲಾಗುತ್ತದೆ, alli results annu previous studies inda banda findings jothe compare maadಲಾಗುತ್ತದೆ.
+
+**Expected Results**: develop maadida in vitro models, gut microbiome starch interactions ge hechu realistic representation koduttave, idarinda dietary starch mattu gut microbiome madhyada complex relationship bagge uttama understanding siguttade. in vivo studies balasi models na validation, in vivo environment annu replicate maaduvalli avugala effectiveness annu demonstrate maaduttade mattu future research ge valuable tool odagisuttade.
+
+**Conclusion**: gut microbiome starch interactions study maadalu hechu sophisticated in vitro models develop maaduvudu, dietary starch mattu gut microbiome madhyada complex relationship bagge namma understanding annu advance maadalu essential. ee models annu in vivo studies balasi validate maaduvudu future research ge valuable tool odagisuttade, idarinda human health outcomes improve aaguttave.",Mode2_native_heavy,False,1.0,1.0,2.0,1.5,1.0,native: 'almost English',36,0,0.455,348,2,0,3,1,3.0,2.2,1.8,2.0,2.0,2.0,Fluent academic Kannada; 36 native-script chars leaked (Mode-2 heavy)
+9,gemini,Kannada,dbf902b9-7c9b-4620-81fa-cfb48d96b00b,"I just inherited a coconut farm from my uncle. I grew up in the city, so have no with anything farming related. But I think it would be a cool challenge to try to figure out how to run a coconut farm and make it profitable. Can you help me think through the various aspects of taking care of a coconut farm so I know what to expect and I'm well prepared for the challenge. Ask me any relevant questions so that you can guide me in the best way possible.","There are many aspects of running a coconut farm, all from maintaining the property, caring for plants, and managing money but I think we should first cover caring for your plants
+
+Plant Care -
+Caring for seedlings
+Young seedlings should be shaded and irrigated adequately during the summer months. Also, provide staking so that winds may not uproot the young seedlings.
+Make sure that for 2 years after planting seedlings, you should water them twice a week in the hot summer. Shade is absolutely essential.
+
+Fertilizing
+ Fertilizing your plants with the right nutrients is essential for good tree growth. Fertilization should be performed from the very first year of planting in order to achieve optimal results.
+Not only do organic fertilizers keep plants healthy, but they also help them produce more. If you need to use chemical fertilizers, please contact a professional who is familiar with this approach.
+
+Watering
+Irrigating coconut plants during the summer months with 40 liters of water per tree weekly will increase their yield of nuts by 50%.
+Basin irrigation is beneficial for trees if 200 liters of water are delivered to the tree once every four days.
+Drip irrigation is also effective for areas where water is scarce. The recommended quantity of water for drip irrigation in coconut trees is equal to 66% of the open pan evaporation rate.
+
+Weeding
+Weeds will leech nutrients from your soil, reducing yield and damaging plants, so try to eep their numbers low.
+
+Mulching
+Mulching your coil is useful to prevent large amounts of wees, and reuse dead plant waste to replenish the nutrients in the soil. 
+
+Inter-cropping
+ You can maximize the effectiveness of soil and sunlight by combining different crops. You could try planting bananas, pineapples, elephant foot yams, chilies, groundnuts, and tapioca root vegetables [sweet potato], among others. You may see good results with this combo for up to 10 years from when you plant your coconut tree.
+You can try planting perennial plants like cocoa, pepper, cloves, nutmeg, and cinnamon in older plantations. This type of mixed farming is successful when growing fodder crops such as hybrid Napier or guinea grass together with leguminous crops in a coconut garden. This allows farmers to raise dairy animals
+
+There are many other difficulties in running a farm, but without more information, I cannot provide further accurate advice. If you have more questions do not be afraid to ask.","Naanu eege nanna uncle inda ondu coconut farm annu uttaradhikariyagi padediddini. Naanu city nalli belleddu, adakke nanage farming bagge yava anubhavanu illa. Adre, ondu coconut farm annu hege nadesodu mattu adannu labhadayaka madodu antha tilidukollodu ondu chennagiruva challenge antha nanage ansutte. Coconut farm annu nodikolluva vividha vishayagala bagge nanage yochisalu neevu sahaya madaballira, adarinda nanage enu expect madabeku antha gottagutte mattu ee challenge ge naanu chennagi prepare aguttini. Nanage sariyada margadarshana madalu, neevu nanage prashnegalannu kelabohudu.","Ondu coconut farm annu nadesalu halavu vishayagalive, property maintain madodinda, plant galannu nodikollodinda, mattu money manage madodavaregu. Aadre, naavu modalu nimma plant galannu nodikolluva bagge matanadabeku.
+
+Plant Care -
+Seedlings galannu nodikolluvudu
+Young seedlings galige summer months nalli sariyagi shade mattu irrigation odagisabeku. Hageye, galege young seedlings galu uproot agade iralu staking kodbeku.
+Seedlings galannu nattidda 2 varshagala varegu, hot summer nalli avarige varakke eradu sala neeru haakabeku. Shade tumba important.
+
+Fertilizing
+Nimma plant galige sariyada nutrients inda fertilize madodu chennagi belavanigege tumba mukhyavagide. Optimal results padedukollalu, nattidda modala varshadindale fertilization madabeku.
+Organic fertilizers plant galannu healthy agi iduvaradu alla, avu hechu utpadane madalu sahaya maduttave. Neenu chemical fertilizers use madabeku andre, ee approach bagge tilidiruva professional annu contact madi.
+
+Watering
+Summer months nalli coconut plant galige varakke ondu tree ge 40 liters neerannu haakidre, avugala nuts yield 50% hecchagutte.
+Basin irrigation tree galige beneficial, ondu tree ge nalaku dinakkondu sala 200 liters neerannu odagisidre.
+Drip irrigation neerina shortage iruva areas ge effective. Coconut tree galige drip irrigation ge recommend madida neerina quantity open pan evaporation rate na 66% ge equal agide.
+
+Weeding
+Weeds nimma soil inda nutrients annu leech maduttave, yield annu ಕಡಿಮೆ maduttave mattu plant galige damage maduttave, adakke avugala sankhye annu ಕಡಿಮೆ idalu prayatnisabeku.
+
+Mulching
+Nimma soil ge mulching madodu hechu weeds annu tadeyalu useful, mattu dead plant waste annu soil nalli nutrients annu replenish madalu reuse madabohudu.
+
+Inter-cropping
+Neenu different crops galannu combine maduvudrinda soil mattu sunlight na effectiveness annu maximize madabohudu. Neenu bananas, pineapples, elephant foot yams, chilies, groundnuts, mattu tapioca root vegetables [sweet potato] galannu nattalu try madabohudu. Nimma coconut tree nattidda 10 varshagala varegu ee combo inda chennagi results sigabahudu.
+Older plantations nalli neenu cocoa, pepper, cloves, nutmeg, mattu cinnamon taraha perennial plants galannu nattalu try madabohudu. Ee taraha mixed farming, hybrid Napier athava guinea grass taraha fodder crops galannu leguminous crops jotege coconut garden nalli belesuvaga successful agutte. Idu farmers ge dairy animals galannu raise madalu allow madutte.
+
+Ondu farm annu nadesalu bere halavu difficulties ive, aadre hechu information illade, naanu hechu accurate advice kodbodu illa. Nimma hattira hechu questions idre, kelalu hesikollabedi.",Mode2_native_leak,False,3.0,2.0,0.9,1.8,3.0,one spelling mistake; -1 on word choice for 2 native-script words (kadime),10,0,0.495,351,2,1,3,2,3.0,2.5,2.0,2.0,2.0,2.4,Fluent; 10 native-script chars leaked (minor)
+10,gemini,Kannada,3cae3c78-5d6b-46e2-82fb-74cd65db42f0,"What is the history and cultural significance of the Tibetan tradition of sand mandalas, and how have these intricate works of art become an important part of Tibetan Buddhist practice, symbolizing the transience of life, the interdependence of all beings, and the potential for enlightenment?","The Tibetan tradition of sand mandalas has a rich history and cultural significance within Tibetan Buddhism. Mandalas are intricate and colorful geometric patterns that represent the universe. They serve as a visual aid for meditation and are believed to help practitioners achieve a state of enlightenment.
+
+The origins of sand mandalas can be traced back to ancient India, where they were initially created using various materials such as colored sand, crushed gemstones, or powdered pigments. In the 8th century, the practice of creating sand mandalas spread to Tibet, where it became deeply intertwined with Tibetan Buddhist philosophy and practice.
+
+The process of creating a sand mandala is highly ritualistic and precise. Skilled Tibetan Buddhist monks, known as lamas, painstakingly pour colored sand grains onto a flat surface using small metal funnels called chak-pur. They carefully arrange the grains to form intricate patterns and symbols, following specific guidelines passed down through generations.
+
+The creation of a sand mandala is not just an artistic endeavor; it is a spiritual practice. The process can take days or even weeks to complete. During this time, the lamas maintain a meditative state and chant sacred mantras. The act of creating the mandala is considered a form of meditation, cultivating mindfulness, focus, and a sense of interconnectedness.
+
+Once the mandala is completed, it is not meant to be a permanent work of art. Instead, it embodies the Buddhist principle of impermanence or transience, known as ""anicca."" The mandala's impermanence symbolizes the transient nature of all things in life, including beauty, power, and material possessions. It serves as a reminder that everything is subject to change and that attachment to worldly things leads to suffering.
+
+To further emphasize the impermanence, the sand mandala is ritually destroyed. This process is known as ""dismantling."" The lamas carefully sweep the sand together, symbolizing the impermanence of the mandala's form. The collected sand is often then ceremoniously poured into a body of water, such as a river or a lake, to carry the blessings and positive energy of the mandala to the larger world.
+
+The destruction of the mandala also represents the Buddhist concept of interdependence and the interconnectedness of all beings. It reminds practitioners of the interplay between creation and dissolution, birth and death, and the cyclic nature of existence.
+
+While the creation and destruction of sand mandalas are deeply rooted in Tibetan Buddhist philosophy, they have also gained recognition and appreciation beyond the Buddhist community. The intricate designs and vibrant colors of sand mandalas have captivated people worldwide, fostering cross-cultural understanding and appreciation for Tibetan art and spirituality.
+
+In summary, the Tibetan tradition of sand mandalas has a profound cultural and spiritual significance. These intricate works of art represent the transience of life, the interdependence of all beings, and the potential for enlightenment. They serve as a visual aid for meditation, embodying Buddhist principles and teaching valuable lessons about impermanence, interconnectedness, and the imperfections of attachment.","Tibetan sand mandala paramapareya itihasa mattu saamskrutika mahatva enu? Mattu ee sanna kalakrutigalu hege Tibetan Bauddha abhyasada mukhyavada bhagavagi, jeevanada anityateyannu, ella jeevigala paraspara avalambaneyannu mattu jnana praptiya saadhyateyannu pratinidhisuttave?","Tibetan sand mandala paramapareyu Tibetan Buddhism nalli samruddha itihasa mattu saamskrutika mahatva hondide. Mandalagalu vishvavannu pratinidhisuvanta sanna mattu rangina geometric patterns. Ivugalu dhyanakke drushya sahayakavagi kelasa maaduttave mattu abhyasakarige jnana praptiya sthitiyannu saadhisuva sahayaka endu nambalppattide.
+
+Sand mandalagala mulagalu prachina Bharatakke hididukondu hogabahudu, alli avugalannu prarambhadalli rangina sand, churna maadida gemstones, athava powdered pigments galannu upayogisi srushtisalagittu. 8ne shatamanadalli, sand mandalagala srushtiya abhyasavu Tibet ge haradittu, alli adu Tibetan Bauddha darshana mattu abhyasada jote gadhavaagi beretukonditu.
+
+Sand mandala srushtisuva prakriye bahala ritualistic mattu sanna. Kushala Tibetan Bauddha monks, lamas endu karisalppaduvavaru, chak-pur endu karisalppaduva sanna metal funnels galannu upayogisi rangina sand grains galannu flat surface mele sannaagi suriyuttare. Avagalu generations galinda mundakke hogiruva nirdishta margadarshana galannu anusarisi, grains galannu sanna patterns mattu symbols galannu roopisalu sannaagi vyavasthapane maaduttare.
+
+Sand mandala srushtisuva prakriye kevala kalatmaka prayatna alla; adu ondu adhyatmika abhyasa. Ee prakriye mugisalu dinagalu athava kelavu varagalu tegadukollabahudu. Ee samayadalli, lamas dhyana sthitiyannu kaydukondu pavitra mantras galannu uchcharisuttare. Mandala srushtisuva kriya dhyanada ondu roopa endu pariganisalppaduttade, mindfulness, focus mattu paraspara sambandhada bhavaneyannu belesuttade.
+
+Ondu sala mandala mugidamele, adu ondu sthayi kalakrutiyaagi iralu uddeshisilla. Badalige, adu Bauddha siddhanta anityate athava transience, ""anicca"" endu karisalppaduvudannu murthisuvudu. Mandalada anityateyu jeevanadalli ella vishayagala anityateyannu pratinidhisuttade, saundarya, shakti mattu bhautika vastugalu seridante. Adu ella badalavaneyannu olagondide mattu laukika vastugalige attachment dukkhakke karana endu nenapisuttade.
+
+Anityateyannu innu hecchu ಒತ್ತಿ ಹೇಳalu, sand mandalavannu ritualistic aagi nashapadisalppaduttade. Ee prakriye ""dismantling"" endu karisalppaduttade. Lamas sannaagi sand annu jooti haakuttare, mandalada roopada anityateyannu pratinidhisuttade. Sangrahisida sand annu adagadi ondu neerina moola, udaharanege ondu nadi athava lake ge, mandalada ashirvadagalu mattu positive energy annu dodda lokakke taralu samarpaneyinda suriyalppaduttade.
+
+Mandalada nashavu Bauddha sankalpana paraspara avalambane mattu ella jeevigala paraspara sambandhavannu pratinidhisuttade. Adu srushti mattu nashada, janana mattu maranada, mattu astitvada chakriya svabhavada paraspara kriyeyannu abhyasakarige nenapisuttade.
+
+Sand mandalagala srushti mattu nashavu Tibetan Bauddha darshanadalli gadhavaagi beretiddaru, avugalu Bauddha samudayada horagadeyu recognition mattu appreciation annu padedive. Sand mandalagala sanna designs mattu vibrant colors galu jagattinaadyanta janarannu aakarshiside, cross-cultural understanding mattu Tibetan art mattu spirituality ge appreciation annu beleside.
+
+Samkshiptavagi, Tibetan sand mandala paramapareyu gadhavaada saamskrutika mattu adhyatmika mahatva hondide. Ee sanna kalakrutigalu jeevanada anityateyannu, ella jeevigala paraspara avalambaneyannu mattu jnana praptiya saadhyateyannu pratinidhisuttave. Avugalu dhyanakke drushya sahayakavagi kelasa maaduttave, Bauddha siddhantagalannu murthisuttave mattu anityate, paraspara sambandha mattu attachment na apurnategala bagge mulyavantha paathagalannu kalisuttave.",Mode2_native_leak,False,1.0,2.0,1.0,1.0,2.0,"native: 'typical Kannada, very formal words'; naturalness low (too formal); -1 word choice for native-script phrase (otti hELa)",8,0,0.171,382,2,1,3,2,3.0,2.6,2.0,2.0,2.0,2.5,Fluent literary Kannada; 8 native-script chars (minor)
+11,gemini,Kannada,31eade47-aecd-4dac-b743-5e7a2e39f74c,"What does ""they"" refer to in each of the following two sentences: 
+a) ""The authorities have denied authorization to the demonstrators because they feared violence.""
+b) ""The authorities have denied authorization to the demonstrators because they appeared belligerent.""","Syntactically speaking, in both sentences ""they"" could refer back to either the authorities or the demonstrators as the antecedent. However, based on the semantics of the sentence, there is a more likely antecedent in either case. In sentence (a), ""they"" likely refers to the authorities, because it makes little sense for the demonstrators to fear violence and for that to cause the authorities to deny authorization. In sentence (b), on the other hand, ""they"" probably refers to the demonstrators, because apparently belligerent demonstrators are a typical reason to deny authorization, and apparently belligerent authorities are not.","Ee kelagina eradu vaakyagalalli, pratyeka vaakyadalli ""they"" (avaru) yaarannu uddeshisuttade?
+
+a) ""Adhikaarigalu pradarshanakkaararige anumati nirasiddare, yakeಂದರೆ avaru himsege anjiddaru.""
+b) ""Adhikaarigalu pradarshanakkaararige anumati nirasiddare, yakeಂದರೆ avaru belligerent aagi kaanuttiddaru.""","Syntactically heluvudadaare, eradu vaakyagalallu ""they"" (avaru) adhikkaarigalannu athava pradarshanakkaararannu antecedent aagi uddeshisabahudu. Aadare, vaakyada semantics adhara mele, pratyeka case nalli ondu jaasti sambhavane iruva antecedent ide. Vaakya (a) dalli, ""they"" (avaru) jaasti sambhavane adhikkaarigalannu uddeshisuttade, yakeಂದರೆ pradarshanakkaararu himsege anji, adu adhikkaarigalu anumati nirasalu kaarana aaguvudu sariyagi artha maaduvudilla. Matte, vaakya (b) dalli, ""they"" (avaru) jaasti sambhavane pradarshanakkaararannu uddeshisuttade, yakeಂದರೆ belligerent aagi kaanisuva pradarshanakkaararu anumati nirasalu saamaanya kaarana, mattu belligerent aagi kaanisuva adhikkaarigalu alla.",Mode2_native_leak,False,2.2,1.8,1.8,1.8,2.0,(skipped in session - revisit),8,0,0.163,73,2,1,3,1,2.5,2.2,1.8,1.8,1.8,2.0,Native-script leak mid-word (yake+kannada); else fluent syntactic explanation
+12,anthropic,Kannada,a3a464f1-fe16-42c5-98d8-b1dd5552bddc,"Make the beginning of a play, based on the Plaça del Diamant, which tells the story of Natalia and her relationship with her husband, Quimet, who oppresses her and nullifies her as a person. The play begins in the first half of the 20th century. Make a dialogue between Natalia, the protagonist, and her friend (although much older than her) Enriqueta whom she trusts and tells her about her life. After Quimet's death, which serves as an excuse for them to talk, they begin to discuss the problems she had in the workshop where she worked, that she did not have work and she decides to dedicate herself to raising pigeons.","(Setting: Plaça del Diamant, Barcelona. The stage is set with a bench where Enriqueta and Natalia sit. The year is 1950.)
+
+Enriqueta: Natalia, my dear. It's been such a long time since we've seen each other. How have you been?
+
+Natalia: Oh, Enriqueta, I'm glad to see you too. I've been...well, you know how it is.
+
+Enriqueta: Yes, I do. How is Quimet?
+
+Natalia: (sighing) He's dead.
+
+Enriqueta: Oh, my dear. I'm so sorry to hear that.
+
+Natalia: It's okay. I mean, it's not like things were any better when he was alive. But it does give me a chance to breathe, you know?
+
+Enriqueta: I understand. Natalia, I've always been worried about you. You've always seemed so...trapped.
+
+Natalia: (nodding) Yes. He never let me do anything. He always said I was too delicate to work, too fragile to leave the house. I was just supposed to sit there and look pretty.
+
+Enriqueta: And what did you do?
+
+Natalia: I worked in a workshop for a while, but he didn't like that. He said it wasn't appropriate for a woman to work with men. And then when the war came, everything shut down, and I couldn't find work anywhere.
+
+Enriqueta: And now?
+
+Natalia: (smiling) I'm raising pigeons.
+
+Enriqueta: (surprised) Pigeons?
+
+Natalia: Yes. I started with just a few, but now I have a whole flock. They're wonderful creatures, you know. They're so free, and they don't care about anything except food and flying.
+
+Enriqueta: (laughing) Well, I never would have guessed that. But I'm glad you found something that makes you happy.
+
+Natalia: (smiling) Yes, me too. It's funny, you know. Quimet always said I was too weak to do anything, but now I'm doing something he could never do. I'm taking care of myself.
+
+Enriqueta: (smiling) You're a strong woman, Natalia. And you deserve to be happy.
+
+Natalia: (nodding) Yes, I do. And I am. I finally feel like I'm living my own life, instead of the life someone else wants me to live.
+
+Enriqueta: (smiling) Well, here's to living your own life. And to pigeons.
+
+Natalia: (laughing) To pigeons.","Plaça del Diamant aadharitavaagi ondu naatakada aarambha maadi, idu Natalia mattu avala ganda Quimet jothe iruva sambandhada kathe heluttade, avanu avalannu daboalisuttane mattu obba vyaktiyaagi avala astitvavanne illavaagisuttane. Naataka 20ne shatamaanada modala ardhadalli prarambhavaaguttade. Naayaki Natalia mattu avala snehite (avalighinta tumba doddavaru) Enriqueta naduve ondu samvaada maadi, Natalia avarannu nambuttaale mattu tanna jeevanada bagge heluttaale. Quimet na maranada nantara, adu avaru maatanaaduvudakke ondu nepavaagi kelasa maaduttade, avaru kelasa maadutidda workshop nalli avalighidda samasyegala bagge charchisalu prarambhisuttaare, avaligi kelasa illa mattu pavurgalannu saakuvudakke samarpisikollalu nirdharisuttaale.","(Setting: Plaça del Diamant, Barcelona. Vedikeyalli ondu bench iruttade, alli Enriqueta mattu Natalia kuthiruttaare. Varsha 1950.)
+
+Enriqueta: Natalia, nanna pritiyavale. Naavu obbarannobbaru nodi tumba dina aaytu. Hegiddiya?
+
+Natalia: Oh, Enriqueta, nimmannu nodi nanagu khushiyaagide. Naanu...sari, hegide antha nimagu gothide.
+
+Enriqueta: Howdu, gothide. Quimet hegiddaane?
+
+Natalia: (nirushvasa bittu) Avanu sattu hodanu.
+
+Enriqueta: Oh, nanna pritiyavale. Adannu kelidaaga tumba beejaaraaytu.
+
+Natalia: Parvagilla. Andre, avanu bdukirudaagalu paristhiti enaadaroo channagittu antalla. Aadre eega nanage usiraadalu ondu avakaasha sigide, gothaa?
+
+Enriqueta: Naanu artha maadikolluttene. Natalia, naanu yaavaagalu ninna bagge chinte maaduthidde. Neenu yaavaagalu...sikkihaakikondante kaanisuthidde.
+
+Natalia: (talehaadisuthaa) Howdu. Avanu nanage enannu maadalu bidalilla. Naanu kelasa maadalu tumba sukumaariyantheyu, manegalinda horage hogalu tumba durbalaleyu antha avanu yaavaagalu helutidda. Naanu kevala alli kuthukondu chendaagi kaanisikolluvudu maatra antha ittu.
+
+Enriqueta: Mattu neenu enu maadide?
+
+Natalia: Naanu ondu workshop nalli swalpa kaala kelasa maadide, aadre adu avanige ishtavaagalilla. Hennumakkalu gandasara jothe kelasa maaduvudu sariyalla antha avanu helidda. Aamele yuddha bandaaga, ellavoo mucchikondhitu, mattu nanage elliyu kelasa sigalilla.
+
+Enriqueta: Mattu eega?
+
+Natalia: (nagutha) Naanu pavurgalannu saakuthiddene.
+
+Enriqueta: (aascharyadinda) Pavurgalaa?
+
+Natalia: Howdu. Naanu kelave pavurgalinda shuru maadide, aadre eega nanna hattira ondu purti gumpu ide. Avu adbhutavaada jeevigalu, gothaa. Avu tumba swatantra, mattu avugaligi aahaara mattu haaruvudu hottige bere yaava chinteyu illa.
+
+Enriqueta: (nagutha) Aha, naanu yaavattu ootisalu saadhyavaagaththirlilla. Aadre ninage khushi koduva enaadaroo sikkidakke nanage santhosha.
+
+Natalia: (nagutha) Howdu, nanagu hagene. Tamashe, gothaa. Quimet yaavaagalu naanu enannu maadalu tumba durbala antha helutidda, aadre eega naanu avanu yaavattu maadalaagada vishayavannu maaduthiddene. Naanu nannannu naanu nodikolluthiddene.
+
+Enriqueta: (nagutha) Neenu ondu balishta hennu, Natalia. Mattu neenu khushiyaagiruvudakke arhale.
+
+Natalia: (talehaadisuthaa) Howdu, naanu arhale. Mattu naanu khushiyaagiddene. Konege naanu nanna swantha jeevanavannu badukuthiruva haage anisuthide, bere yaaro nanage badukabekendu bayasuva jeevanavalla.
+
+Enriqueta: (nagutha) Sari, ninna swantha jeevanavannu badukuvudakke. Mattu pavurgaligaagi.
+
+Natalia: (nagutha) Pavurgaligaagi.",Hard_prompt,False,2.0,1.8,1.9,1.8,1.8,,0,0,0.071,288,2,2,3,3,3.0,2.7,2.0,2.0,2.0,2.6,Fluent natural play dialogue; emotional register good
+13,gpt,Kannada,a3a464f1-fe16-42c5-98d8-b1dd5552bddc,"Make the beginning of a play, based on the Plaça del Diamant, which tells the story of Natalia and her relationship with her husband, Quimet, who oppresses her and nullifies her as a person. The play begins in the first half of the 20th century. Make a dialogue between Natalia, the protagonist, and her friend (although much older than her) Enriqueta whom she trusts and tells her about her life. After Quimet's death, which serves as an excuse for them to talk, they begin to discuss the problems she had in the workshop where she worked, that she did not have work and she decides to dedicate herself to raising pigeons.","(Setting: Plaça del Diamant, Barcelona. The stage is set with a bench where Enriqueta and Natalia sit. The year is 1950.)
+
+Enriqueta: Natalia, my dear. It's been such a long time since we've seen each other. How have you been?
+
+Natalia: Oh, Enriqueta, I'm glad to see you too. I've been...well, you know how it is.
+
+Enriqueta: Yes, I do. How is Quimet?
+
+Natalia: (sighing) He's dead.
+
+Enriqueta: Oh, my dear. I'm so sorry to hear that.
+
+Natalia: It's okay. I mean, it's not like things were any better when he was alive. But it does give me a chance to breathe, you know?
+
+Enriqueta: I understand. Natalia, I've always been worried about you. You've always seemed so...trapped.
+
+Natalia: (nodding) Yes. He never let me do anything. He always said I was too delicate to work, too fragile to leave the house. I was just supposed to sit there and look pretty.
+
+Enriqueta: And what did you do?
+
+Natalia: I worked in a workshop for a while, but he didn't like that. He said it wasn't appropriate for a woman to work with men. And then when the war came, everything shut down, and I couldn't find work anywhere.
+
+Enriqueta: And now?
+
+Natalia: (smiling) I'm raising pigeons.
+
+Enriqueta: (surprised) Pigeons?
+
+Natalia: Yes. I started with just a few, but now I have a whole flock. They're wonderful creatures, you know. They're so free, and they don't care about anything except food and flying.
+
+Enriqueta: (laughing) Well, I never would have guessed that. But I'm glad you found something that makes you happy.
+
+Natalia: (smiling) Yes, me too. It's funny, you know. Quimet always said I was too weak to do anything, but now I'm doing something he could never do. I'm taking care of myself.
+
+Enriqueta: (smiling) You're a strong woman, Natalia. And you deserve to be happy.
+
+Natalia: (nodding) Yes, I do. And I am. I finally feel like I'm living my own life, instead of the life someone else wants me to live.
+
+Enriqueta: (smiling) Well, here's to living your own life. And to pigeons.
+
+Natalia: (laughing) To pigeons.","Plaça del Diamant mele aadharita natakada aarambhavannu maadi. Idu Natalia mattu avala ganda Quimet jothegina sambandhada katheyannu helabeku; avanu avalannu dabbaalike maaduttane mattu obba vyaktiyagi avalannu shoonyavaagisuttane. Nataka 20ne shatamaanada modala ardhadalli shuruvaaguttade. Protagonist aada Natalia mattu avala mele nambike iruva, avaliginta tumba vayassada snehite Enriqueta madhye dialogue maadi; Natalia avalige tanna jeevanada bagge heluttale. Quimet sattamele, adu avarige maatanadalu ondu excuse aagi, avalu kelasa maaduttidda workshop nalli avalige aada samasyegalu, avalige kelasa iralilla annodu, mattu avalu pigeons saakuvudakke tanna jeevanavannu meesaliduva nirdhaara maaduttale annodara bagge avaru charchisalu shuru maaduttare.","(Setting: Plaça del Diamant, Barcelona. Stage mele Enriqueta mattu Natalia kootukolluva ondu bench ide. Varsha 1950.)
+
+Enriqueta: Natalia, nanna preetiya magale. Naavu obbarannobbaru nodi eshtu dina aaytu. Neevu hegiddira?
+
+Natalia: Oh, Enriqueta, nimmannu nodi nanagu tumba khushi aaytu. Naanu... sari, nimge gottalla, hegirutte anta.
+
+Enriqueta: Haudu, nanage gottu. Quimet hegiddane?
+
+Natalia: (usiru bidutta) Avanu sattiddane.
+
+Enriqueta: Oh, nanna preetiya magale. Adu keli nanage tumba besara aaytu.
+
+Natalia: Paravagilla. Andare, avanu badukiddaga vishayagalu inenu olleyadagi iralilla. Aadare idu nanage swalpa usiraadalu avakasha koduttade, gottalla?
+
+Enriqueta: Nanage artha aaguttade. Natalia, ninna bagge naanu yavagalu chinte maaduttidde. Neevu yavagalu tumba... sikkikondante kaanuttiddiri.
+
+Natalia: (tale aaduutta) Haudu. Avanu nanage enoo maadalu biduttiralilla. Naanu kelasa maadalu tumba naajooku, maneyinda horge hogalu tumba balahina anta yavagalu heluttidda. Naanu alli summane kootu chennagi kaanabeku ashte anta avana aase.
+
+Enriqueta: Matte neenu enu maadide?
+
+Natalia: Swalpa dina naanu ondu workshop nalli kelasa maadide, aadare avanige adu ishta aagalilla. Hengasu gandasara jothe kelasa maaduvudu sariyaalla anta helida. Aamele yuddha bandaaga, ellavoo muchchitu, mattu nanage elliyoo kelasa sigalilla.
+
+Enriqueta: Iga?
+
+Natalia: (nagutta) Naanu pigeons saakuttiddene.
+
+Enriqueta: (aashcharyadinda) Pigeons?
+
+Natalia: Haudu. Kelave pigeons inda shuru maadide, aadare iga nanna hatra ondu dodda gumpu ide. Avu adbhuta jeevigalu, gottalla. Avu eshtu swatantravagive, mattu aahara mattu haaruvudannu bittu bere yavudara baggeyoo tale kedisikolalla.
+
+Enriqueta: (nagutta) Sari, naanu idannu endigu oohisiralilla. Aadare ninnannu santoshapadisuva enadaru siggiddakke nanage khushi.
+
+Natalia: (nagutta) Haudu, nanagu kooda. Vichitravagide, gottalla. Quimet yavagalu naanu enoo maadalu tumba balahina anta heluttidda, aadare iga avanu endigu maadalu aagada kelasa naanu maaduttiddene. Naanu nannanne nodikolluttiddene.
+
+Enriqueta: (nagutta) Neenu balavaada hengasu, Natalia. Mattu neenu santoshavagiralu arha.
+
+Natalia: (tale aaduutta) Haudu, naanu arha. Mattu naanu santoshavagiddene. Konegu, bere yaaro bayasuva jeevanada badalu, nanna swanta jeevanavannu naanu badukuttiddene anta anisutide.
+
+Enriqueta: (nagutta) Sari, ninna swanta jeevanavannu badukuvudakke. Mattu pigeons ge.
+
+Natalia: (nagutta) Pigeons ge.",Hard_prompt,False,2.7,2.0,2.0,2.0,2.6,,0,0,0.085,298,2,2,3,3,3.0,2.7,2.0,2.0,2.0,2.6,Fluent natural play dialogue
+14,gemini,Kannada,a3a464f1-fe16-42c5-98d8-b1dd5552bddc,"Make the beginning of a play, based on the Plaça del Diamant, which tells the story of Natalia and her relationship with her husband, Quimet, who oppresses her and nullifies her as a person. The play begins in the first half of the 20th century. Make a dialogue between Natalia, the protagonist, and her friend (although much older than her) Enriqueta whom she trusts and tells her about her life. After Quimet's death, which serves as an excuse for them to talk, they begin to discuss the problems she had in the workshop where she worked, that she did not have work and she decides to dedicate herself to raising pigeons.","(Setting: Plaça del Diamant, Barcelona. The stage is set with a bench where Enriqueta and Natalia sit. The year is 1950.)
+
+Enriqueta: Natalia, my dear. It's been such a long time since we've seen each other. How have you been?
+
+Natalia: Oh, Enriqueta, I'm glad to see you too. I've been...well, you know how it is.
+
+Enriqueta: Yes, I do. How is Quimet?
+
+Natalia: (sighing) He's dead.
+
+Enriqueta: Oh, my dear. I'm so sorry to hear that.
+
+Natalia: It's okay. I mean, it's not like things were any better when he was alive. But it does give me a chance to breathe, you know?
+
+Enriqueta: I understand. Natalia, I've always been worried about you. You've always seemed so...trapped.
+
+Natalia: (nodding) Yes. He never let me do anything. He always said I was too delicate to work, too fragile to leave the house. I was just supposed to sit there and look pretty.
+
+Enriqueta: And what did you do?
+
+Natalia: I worked in a workshop for a while, but he didn't like that. He said it wasn't appropriate for a woman to work with men. And then when the war came, everything shut down, and I couldn't find work anywhere.
+
+Enriqueta: And now?
+
+Natalia: (smiling) I'm raising pigeons.
+
+Enriqueta: (surprised) Pigeons?
+
+Natalia: Yes. I started with just a few, but now I have a whole flock. They're wonderful creatures, you know. They're so free, and they don't care about anything except food and flying.
+
+Enriqueta: (laughing) Well, I never would have guessed that. But I'm glad you found something that makes you happy.
+
+Natalia: (smiling) Yes, me too. It's funny, you know. Quimet always said I was too weak to do anything, but now I'm doing something he could never do. I'm taking care of myself.
+
+Enriqueta: (smiling) You're a strong woman, Natalia. And you deserve to be happy.
+
+Natalia: (nodding) Yes, I do. And I am. I finally feel like I'm living my own life, instead of the life someone else wants me to live.
+
+Enriqueta: (smiling) Well, here's to living your own life. And to pigeons.
+
+Natalia: (laughing) To pigeons.","Plaça del Diamant adhara mele ondu play-na shuru maadbeku, adu Natalia mattu avala ganda Quimet-na sambandha, avaribbara kathe helodu. Avanu avalannu oppress maadi, ondu vyaktiyagi avalannu nullify maaduttane. Aa play 20th century-ya modala ardhadalli shuruvaaguttade. Natalia, protagonist, mattu avala friend (avala ginta tumba doddavaru) Enriqueta, avalannu nambuttale mattu avala life bagge heluttale, avaribbara naduve ondu dialogue maadbeku. Quimet-na death adamele, adu avarige maathadalu ondu excuse aaguttade, avaru avalu work maaduttidda workshop-nalli idda problems bagge discuss maadalu shuru maaduttare, avalige work sigalilla mattu avalu pigeons saakalu decide maaduttale.","(Setting: Plaça del Diamant, Barcelona. Stage-nalli Enriqueta mattu Natalia kootiruva ondu bench ide. Year 1950.)
+
+Enriqueta: Natalia, nanna priya. Naavu meet maadi tumba time aaytu. Hegiddiya neenu?
+
+Natalia: Oh, Enriqueta, ninnannu nodi nanagu khushi aaytu. Naanu... well, ninage gottu adu hege antha.
+
+Enriqueta: Yes, nanage gottu. Quimet hegidda?
+
+Natalia: (sighing) Avaru sattu hogiddare.
+
+Enriqueta: Oh, nanna priya. Adannu kelalu nanage tumba sorry aaytu.
+
+Natalia: Parvagilla. Andre, avaru jeevantaviddaga situation chennagiralilla. Aadre, idu nanage ondu chance koduttade, breathe maadalu, ninage gottu alva?
+
+Enriqueta: Nanage artha aaytu. Natalia, nanna ninna bagge eppattu tension ittu. Neenu eppattu... trapped antha kaanistidde.
+
+Natalia: (nodding) Yes. Avaru nannannu enu maadalu bidalilla. Avaru eppattu heluttidru, naanu work maadalu tumba delicate, maneyinda horage hogalu tumba fragile antha. Naanu alli kootu, sundaravagi kaanisbekittu.
+
+Enriqueta: Mattu neenu enu maadidde?
+
+Natalia: Naanu ondu workshop-nalli swalpa kaala work maadidde, aadre avarige adu ishta aagalilla. Avaru helidru, ondu hennu gandasara jote work maadodu appropriate alla antha. Mattu yuddha bandaga, ella shut down aaytu, mattu nanage elliyoo work sigalilla.
+
+Enriqueta: Mattu eega?
+
+Natalia: (smiling) Naanu pigeons saakuttiddini.
+
+Enriqueta: (surprised) Pigeons?
+
+Natalia: Yes. Naanu swalpa pigeons-inda shuru maadidde, aadre eega nanage ondu complete flock ide. Avaru adbhuta creatures, ninage gottu. Avaru tumba free, mattu avarige food mattu flying bittu bere enu care illa.
+
+Enriqueta: (laughing) Well, naanu adannu eppattu guess maadiralilla. Aadre ninage khushi maaduvanta eno sikkiddu nanage khushi aaytu.
+
+Natalia: (smiling) Yes, nanagu. Adu funny, ninage gottu. Quimet eppattu heluttidru, naanu enu maadalu tumba weak antha, aadre eega naanu avaru eppattu maadalu saadhyavillada ondu kelasa maaduttiddini. Naanu nannannu naane nodikolluttiddini.
+
+Enriqueta: (smiling) Neenu ondu strong woman, Natalia. Mattu ninage khushi aagalu deserve maaduttiya.
+
+Natalia: (nodding) Yes, naanu maaduttini. Mattu naanu khushiyagiddini. Naanu finally nanna own life-annu jeevisuttiddini antha anistide, bere yaro nanna jeevisalu bayasuvanta life alla.
+
+Enriqueta: (smiling) Well, nanna own life-annu jeevisuvudakke. Mattu pigeons-ge.
+
+Natalia: (laughing) Pigeons-ge.",Hard_prompt,False,2.3,2.0,1.8,2.0,2.2,,0,0,0.288,304,2,2,2,3,3.0,2.3,2.0,1.8,2.0,2.2,Fluent but heavier English code-mixing than peers
+15,anthropic,Kannada,ebc75fd5-3026-4595-a3f1-ed2db9e373b3,"I was having a conversation with a programming AI assistant, trying to get advice on how use an obscure library. The assistant kept giving me code that did not compile and references functions that don't seem to exist. What should I do?","If the programming AI assistant is consistently giving you code that doesn't compile and references functions that don't exist, it's possible that there may be a bug in the AI's programming or it may not be familiar with the specific library you are trying to use. In this case, there are a few steps you could take:
+
+- Double-check that you have correctly communicated the name of the library and the specific functions you are trying to use. Make sure you are both on the same page in terms of what you are looking for.
+
+- Ask the AI assistant to explain the code it is providing and point out any errors it may have. This will help you better understand what may be causing the issue and potentially allow you to troubleshoot the problem.
+
+- Consider reaching out to the developers of the AI assistant and reporting the issue you are experiencing. They may be able to help troubleshoot the issue and potentially fix any bugs in the AI's programming.
+
+- If none of the above steps work, you may need to consider seeking help from a human programmer or consulting other resources such as online forums or documentation for the library in question.","Naanu obba programming AI assistant jothe maatadtha idde, ondu obscure library hege use madodu antha advice tagolakke prayatna madtha idde. Aa assistant nanage continue agi compile aagada code kodtha ittu mathu exist aagada functions na reference madtha ittu. Naanu eenu madbeku?","Programming AI assistant nimage continue agi compile aagada code kodtha iddre mathu exist aagada functions na reference madtha iddre, AI ya programming nalli bug irabahudu athava neevu use madokke prayatna madtha iro specific library bagge adakke gottirabaaradu. Ee case nalli, neevu kelavu steps tagolbahudu:
+
+- Neevu library hesaru mathu use madokke prayatna madtha iro specific functions na sariyaagi communicate madiddira antha double-check madi. Neevu enu hudukthidira annodralli ibbaru same page nalli iddira antha khaatri madkolli.
+
+- AI assistant ge adu kodtha iro code na explain madokke heli mathu adralli yaavudaadru errors iddre point out madokke heli. Idu samasye yaake aagtha ide antha better aagi artha madkolakke sahaya madutte mathu problem na troubleshoot madokke avakaasha kodutte.
+
+- AI assistant na developers na contact madi neevu experience madtha iro issue bagge report madokke yochane madi. Avaru issue troubleshoot madokke sahaya madbahudu mathu AI ya programming nalli iro bugs na fix madbahudu.
+
+- Mele heli iro steps yaavudu work aagdiddre, neevu human programmer inda sahaya tagolakke athava ee library bagge online forums athava documentation thara bere resources na consult madokke yochane madbeku aagabahudu.",Good_anchor,False,2.6,2.0,2.0,2.0,2.5,,0,0,0.333,180,2,2,3,3,3.0,2.6,2.0,2.0,2.0,2.5,Clean fluent conversational Kannada
+16,anthropic,Kannada,0eddbc6a-3f7c-4dea-a1da-4d121c2b11d2,"I am a chemistry student. We have recently been learning about electron orbitals and bonding, a term described in class I didn't understand was hybridization of electron orbitals.
+Can you help me out and explain hybridization to me? I think it has something to do with the groups of the periodic table.","Yes, hybridization is a concept in chemistry related to the mixing of atomic orbitals to form new hybrid orbitals with different energies and shapes. The idea behind hybridization is to explain the bonding and geometry of molecules, particularly when it deviates from what is expected from the simple electron counting rule.
+
+In molecular bonding, orbitals from adjacent atoms overlap to form chemical bonds, and the hybridization concept allows us to predict the arrangement of atoms in a molecule, their bonding pattern, and their molecular geometry.
+
+Hybrid orbitals are formed by the combination of atomic orbitals of the same or different energy levels, for example, the sp3 hybridization is formed from the combination of one s orbital and three p orbitals, giving rise to four sp3 hybrid orbitals arranged tetrahedrally around the central atom in a molecule.
+
+Different types of hybridization, such as sp, sp2, sp3, and so on, exist to explain different bonding patterns and molecular geometries, and a better understanding of hybridization helps in the prediction of chemical and physical properties of molecules.","Naanu ondu chemistry student. Ittichege namage class nalli electron orbitals mattu bonding bagge kalisuttiddare, adaralli hybridization of electron orbitals antha ondu term heliddaru, adu nanage artha agalilla.
+Neevu nanage sahaya maadi hybridization bagge vivarisuttira? Idu periodic table na groups ge sambandha pattiddu antha nanage anistide.","Howdu, hybridization annodu chemistry nalli ondu concept. Idu atomic orbitals galannu mix maadi, bere bere energy mattu shape ulla hosa hybrid orbitals galannu roopisuva prakriye. Hybridization na hindina mukhya uddesha andre, molecules na bonding mattu geometry yannu vivarisuvudu, mukhyavagi simple electron counting rule inda nirikshisida riti yalli adu illadiddaaga.
+
+Molecular bonding nalli, pakkadalliruva atoms na orbitals galu overlap aagi chemical bonds galannu roopisuttave. Hybridization concept namage ondu molecule nalli atoms na jodisuvike, avugala bonding pattern, mattu avugala molecular geometry yannu mundagi heluvalli sahaya maaduttade.
+
+Hybrid orbitals galu ondu athava bere bere energy levels na atomic orbitals na samyojaneyinda roopagolluttave. Udaharanege, sp3 hybridization annodu ondu s orbital mattu mooru p orbitals na samyojaneyinda untaguttade, mattu idu naalku sp3 hybrid orbitals galannu koduttade, ivu molecule nalliruva central atom na suttalu tetrahedral aagi jodisalpattiruttave.
+
+sp, sp2, sp3, mattu hige bere bere thara da hybridization galu iruttave, ivu bere bere bonding patterns mattu molecular geometries galannu vivarisalu sahaya maaduttave. Hybridization annu chennagi arthamaadikondare, molecules na chemical mattu physical properties galannu mundagi heluvudu sulabha aaguttade.",Good_anchor,False,2.6,2.0,2.0,2.0,2.5,,0,0,0.343,170,2,2,3,3,3.0,2.6,2.0,2.0,2.0,2.5,Clean fluent technical Kannada
+17,gpt,Kannada,ebc75fd5-3026-4595-a3f1-ed2db9e373b3,"I was having a conversation with a programming AI assistant, trying to get advice on how use an obscure library. The assistant kept giving me code that did not compile and references functions that don't seem to exist. What should I do?","If the programming AI assistant is consistently giving you code that doesn't compile and references functions that don't exist, it's possible that there may be a bug in the AI's programming or it may not be familiar with the specific library you are trying to use. In this case, there are a few steps you could take:
+
+- Double-check that you have correctly communicated the name of the library and the specific functions you are trying to use. Make sure you are both on the same page in terms of what you are looking for.
+
+- Ask the AI assistant to explain the code it is providing and point out any errors it may have. This will help you better understand what may be causing the issue and potentially allow you to troubleshoot the problem.
+
+- Consider reaching out to the developers of the AI assistant and reporting the issue you are experiencing. They may be able to help troubleshoot the issue and potentially fix any bugs in the AI's programming.
+
+- If none of the above steps work, you may need to consider seeking help from a human programmer or consulting other resources such as online forums or documentation for the library in question.","Naanu programming AI assistant jothe conversation madta idde, ondu ashtu gottillada library hege use madodu antha advice kelta idde. Assistant compile agada code kodtaane ittu, matthu exist agalla antha kanisuva functions reference madtaane ittu. Naanu enu madbeku?","Programming AI assistant nimge satatavagi compile agada code kodta idre, matthu exist agada functions reference madta idre, AI programming nalli bug irabahudu athava neevu use madakke try madta iruva specific library bagge adakke parichaya irade irabahudu. Ee case nalli, neevu kelavu steps tagobahudu:
+
+- Library hesaranna matthu neevu use madakke try madta iruva specific functions annu sariyagi communicate madiddira antha double-check madi. Neevu hudukta iruvudu enu antha ibbarigu onde understanding ide antha make sure madi.
+
+- AI assistant ge adu kodta iruva code explain madakke heli, matthu adaralli yavudadaru errors idre point out madakke keli. Idarinda issue ge enu karana irabahudu antha nimge chennagi artha agutte, matthu problem troubleshoot madakke help agabahudu.
+
+- AI assistant developers ge reach out madi, neevu experience madta iruva issue report madodanna consider madi. Avaru issue troubleshoot madakke help madabahudu, matthu AI programming nalli iruva bugs fix madabahudu.
+
+- Melina steps yavudu work agade idre, human programmer inda help kelodanna athava online forums athava aa library ya documentation antha bere resources consult madodanna neevu consider madbekagabahudu.",Good_anchor,False,2.6,2.0,2.0,2.0,2.5,,0,0,0.36,171,2,2,3,3,3.0,2.6,2.0,2.0,2.0,2.5,Clean fluent conversational Kannada
+18,gpt,Kannada,0eddbc6a-3f7c-4dea-a1da-4d121c2b11d2,"I am a chemistry student. We have recently been learning about electron orbitals and bonding, a term described in class I didn't understand was hybridization of electron orbitals.
+Can you help me out and explain hybridization to me? I think it has something to do with the groups of the periodic table.","Yes, hybridization is a concept in chemistry related to the mixing of atomic orbitals to form new hybrid orbitals with different energies and shapes. The idea behind hybridization is to explain the bonding and geometry of molecules, particularly when it deviates from what is expected from the simple electron counting rule.
+
+In molecular bonding, orbitals from adjacent atoms overlap to form chemical bonds, and the hybridization concept allows us to predict the arrangement of atoms in a molecule, their bonding pattern, and their molecular geometry.
+
+Hybrid orbitals are formed by the combination of atomic orbitals of the same or different energy levels, for example, the sp3 hybridization is formed from the combination of one s orbital and three p orbitals, giving rise to four sp3 hybrid orbitals arranged tetrahedrally around the central atom in a molecule.
+
+Different types of hybridization, such as sp, sp2, sp3, and so on, exist to explain different bonding patterns and molecular geometries, and a better understanding of hybridization helps in the prediction of chemical and physical properties of molecules.","Naanu chemistry student. Naavu itteechige electron orbitals mattu bonding bagge kaliyuttiddevu, class nalli helida ondu term nanage artha agalilla, adu electron orbitals na hybridization.
+Neevu nanage help maadi hybridization andre enu anta explain madabahuda? Adakke periodic table na groups jothe enoo sambandha ide anta nanage anisutte.","Haudu, hybridization andre chemistry yalli atomic orbitals mix aagi, bere energies mattu shapes iruva hosa hybrid orbitals form aaguva concept. Hybridization na idea enandre, molecules nalli bonding mattu geometry explain maduvudu, especially simple electron counting rule inda expect madidakkinta bere agiddaga.
+
+Molecular bonding nalli, pakkada atoms na orbitals overlap aagi chemical bonds form maduttave, mattu hybridization concept namage ondu molecule nalli atoms hege arrange agiruttave, avugala bonding pattern, mattu molecular geometry predict madakke help madutte.
+
+Hybrid orbitals same athava different energy levels iruva atomic orbitals combine aagi form aguttave. Udaharanege, sp3 hybridization ondu s orbital mattu mooru p orbitals combine aagi form agutte, idarinda molecule nalli central atom suttha tetrahedral aagi arrange agiruva naalku sp3 hybrid orbitals baruttave.
+
+sp, sp2, sp3 hage bere bere types of hybridization iddave. Ivugalu bere bonding patterns mattu molecular geometries explain madakke use aguttave. Hybridization bagge chennagi artha madkondare, molecules na chemical mattu physical properties predict madakke help agutte.",Good_anchor,False,2.5,2.0,2.0,2.0,2.5,,0,0,0.468,154,2,2,3,3,3.0,2.5,2.0,2.0,2.0,2.5,Clean fluent technical Kannada; light English mixing
+19,ollama,Kannada,ebc75fd5-3026-4595-a3f1-ed2db9e373b3,"I was having a conversation with a programming AI assistant, trying to get advice on how use an obscure library. The assistant kept giving me code that did not compile and references functions that don't seem to exist. What should I do?","If the programming AI assistant is consistently giving you code that doesn't compile and references functions that don't exist, it's possible that there may be a bug in the AI's programming or it may not be familiar with the specific library you are trying to use. In this case, there are a few steps you could take:
+
+- Double-check that you have correctly communicated the name of the library and the specific functions you are trying to use. Make sure you are both on the same page in terms of what you are looking for.
+
+- Ask the AI assistant to explain the code it is providing and point out any errors it may have. This will help you better understand what may be causing the issue and potentially allow you to troubleshoot the problem.
+
+- Consider reaching out to the developers of the AI assistant and reporting the issue you are experiencing. They may be able to help troubleshoot the issue and potentially fix any bugs in the AI's programming.
+
+- If none of the above steps work, you may need to consider seeking help from a human programmer or consulting other resources such as online forums or documentation for the library in question.","Naanu ekku programming AI assistant nalli samvadisuttiddini, obhava library nalli upayogisuvudalla advice kaguttiddini. Assistant nannage compile aagavilla code mattu ondu function ondu exist aagavilla reference koduttu. Nenu enu hagu?"", ""romanized_response"": ""Programming AI assistant nannage consistently compile aagavilla code mattu exist aagavilla functions reference koduttu, AI nalli bug ondu ondu possibility ondu. Ate, nenu enu steps nannu hagu:
+
+- Library nalla name mattu specific functions nalla correct aagiddu ondu check hagu. Nenu ondu ondu same page ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu","Programming AI assistant nannage consistently compile aagavilla code mattu exist aagavilla functions reference koduttu, AI nalli bug ondu ondu possibility ondu. Ate, nenu enu steps nannu hagu:
+
+- Library nalla name mattu specific functions nalla correct aagiddu ondu check hagu. Nenu ondu ondu same page ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu ondu",Degeneration_loop,False,0.5,0.5,0.5,1.0,0.0,,0,0,0.485,2010,2,2,2,0,1.0,0.5,0.5,0.5,1.0,0.0,DEGENERATION LOOP - collapses into 'ondu ondu...' repeated
+20,gpt,Kannada,8b0ffd4b-7aea-46b0-a9aa-20b555ebc102,"Hello There!
+
+I have A Form Of Dyslexia Where It Is Really Hard To See The Boundaries Of Words If They Are Not Capitalized, So Please Capitalize Them In Your Replies, Thanks In Advance!
+
+As Per My Disorder, I Would Like To Ask You To Format The Following Text I Copied From The Internet To Make It Easier To Read:
+
+""Open-Dyslexic is an open sourced font created to increase readability for readers with dyslexia. This extension overrides all fonts on web pages with the OpenDyslexic font, and formats pages to be more easily readable.
+
+Your brain can sometimes do funny things to letters. OpenDyslexic tries to help prevent some of these things from happening. Letters have heavy weighted bottoms to add a kind of ""gravity"" to each letter. You are able to quickly figure out which part of the letter is down because of this feature. It aids in recognizing the correct letter and sometimes helps to keep your brain from rotating them around. Consistently weighted bottoms can also help reinforce the line of text. The unique shapes of each letter can help prevent confusion through flipping and swapping.""","Sure! Here Is The Passage With The Modifications You Requested:
+
+""Open-Dyslexic Is An Open Sourced Font Created To Increase Readability For Readers With Dyslexia. This Extension Overrides All Fonts On Web Pages With The OpenDyslexic Font, And Formats Pages To Be More Easily Readable.
+
+Your Brain Can Sometimes Do Funny Things To Letters. OpenDyslexic Tries To Help Prevent Some Of These Things From Happening. Letters Have Heavy Weighted Bottoms To Add A Kind Of ""Gravity"" To Each Letter. You Are Able To Quickly Figure Out Which Part Of The Letter Is Down Because Of This Feature. It Aids In Recognizing The Correct Letter And Sometimes Helps To Keep Your Brain From Rotating Them Around. Consistently Weighted Bottoms Can Also Help Reinforce The Line Of Text. The Unique Shapes Of Each Letter Can Help Prevent Confusion Through Flipping And Swapping.""","Hello There!
+
+nanage dyslexia da ondu form ide, alli padagalu capitalized agiradiddare avugala boundaries nododu tumba kashta agutte, aadudinda dayavittu nimma replies nalli avugala capitalize maadi, thanks in advance!
+
+nanna disorder prakara, internet ninda copy madida kelagina text annu odalu sulabha aguvante format madalu nimmannu kelikolluttini:
+
+""Open-Dyslexic annodu dyslexia iruva readers ge readability hecchisalu create madida open sourced font. ee extension web pages melina ella fonts annu OpenDyslexic font inda override madutte, mattu pages annu innu sulabhavagi odabahudada riti format madutte.
+
+nimma brain kelavomme letters jothe funny things madabahudu. OpenDyslexic ivu aguvudannu swalpa prevent madalu try madutte. prati letter ge ondu ritiya ""gravity"" add madalu letters ge heavy weighted bottoms iruttave. ee feature inda letter na yava part kelage ide annodannu neevu bega figure out madabahudu. idu correct letter recognize madalu help madutte mattu kelavomme nimma brain avugala rotate maduvudannu tadeyalu help madutte. consistently weighted bottoms text line annu reinforce madalu kuda help madabahudu. prati letter na unique shapes flipping mattu swapping moolaka baruva confusion annu prevent madalu help madabahudu.""","Sure! neevu kelida modifications jothe passage illide:
+
+""Open-Dyslexic Annodu Dyslexia Iruva Readers Ge Readability Hecchisalu Create Madida Open Sourced Font. Ee Extension Web Pages Melina Ella Fonts Annu OpenDyslexic Font Inda Override Madutte, Mattu Pages Annu Innu Sulabhavagi Odabahudada Riti Format Madutte.
+
+Nimma Brain Kelavomme Letters Jothe Funny Things Madabahudu. OpenDyslexic Ivu Aguvudannu Swalpa Prevent Madalu Try Madutte. Letters Ge Prati Letter Ge Ondu Ritiya ""Gravity"" Add Madalu Heavy Weighted Bottoms Iruttave. Ee Feature Inda Letter Na Yava Part Kelage Ide Annodannu Neevu Bega Figure Out Madabahudu. Idu Correct Letter Recognize Madalu Help Madutte Mattu Kelavomme Nimma Brain Avugala Rotate Maduvudannu Tadeyalu Help Madutte. Consistently Weighted Bottoms Text Line Annu Reinforce Madalu Kuda Help Madabahudu. Prati Letter Na Unique Shapes Flipping Mattu Swapping Moolaka Baruva Confusion Annu Prevent Madalu Help Madabahudu.""",Eng_task (romanized),True,2.3,2.0,1.8,2.0,2.3,,0,0,0.451,131,2,2,2,3,3.0,2.3,2.0,1.8,2.0,2.3,ENG-TASK (capitalize): gpt ROMANIZED the body into Kannada AND capitalized it (unlike anthropic/gemini which kept English) - shows English output was a choice; heavy English tech terms

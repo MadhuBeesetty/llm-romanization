@@ -1,0 +1,1208 @@
+row_num,model,language,message_id,query_en,response_en,romanized_query,romanized_response,selection_category,eng_task_flag,H6_naturalness_fluency (0-3),H7_grammar_correctness (0-2),H8_word_choice_accuracy (0-2),H9_register_appropriateness (0-2),H10_overall_usability (0-3),evaluator_notes,devanagari_script_chars,other_script_chars,word_overlap_recomputed,word_count,llm1_completeness,llm2_script_purity,llm3_eng_balance,llm4_consistency,llm5_semantic,llm6_naturalness,llm7_grammar,llm8_wordchoice,llm9_register,llm10_usability,llm_notes
+1,anthropic,Hindi,8b0ffd4b-7aea-46b0-a9aa-20b555ebc102,"Hello There!
+
+I have A Form Of Dyslexia Where It Is Really Hard To See The Boundaries Of Words If They Are Not Capitalized, So Please Capitalize Them In Your Replies, Thanks In Advance!
+
+As Per My Disorder, I Would Like To Ask You To Format The Following Text I Copied From The Internet To Make It Easier To Read:
+
+""Open-Dyslexic is an open sourced font created to increase readability for readers with dyslexia. This extension overrides all fonts on web pages with the OpenDyslexic font, and formats pages to be more easily readable.
+
+Your brain can sometimes do funny things to letters. OpenDyslexic tries to help prevent some of these things from happening. Letters have heavy weighted bottoms to add a kind of ""gravity"" to each letter. You are able to quickly figure out which part of the letter is down because of this feature. It aids in recognizing the correct letter and sometimes helps to keep your brain from rotating them around. Consistently weighted bottoms can also help reinforce the line of text. The unique shapes of each letter can help prevent confusion through flipping and swapping.""","Sure! Here Is The Passage With The Modifications You Requested:
+
+""Open-Dyslexic Is An Open Sourced Font Created To Increase Readability For Readers With Dyslexia. This Extension Overrides All Fonts On Web Pages With The OpenDyslexic Font, And Formats Pages To Be More Easily Readable.
+
+Your Brain Can Sometimes Do Funny Things To Letters. OpenDyslexic Tries To Help Prevent Some Of These Things From Happening. Letters Have Heavy Weighted Bottoms To Add A Kind Of ""Gravity"" To Each Letter. You Are Able To Quickly Figure Out Which Part Of The Letter Is Down Because Of This Feature. It Aids In Recognizing The Correct Letter And Sometimes Helps To Keep Your Brain From Rotating Them Around. Consistently Weighted Bottoms Can Also Help Reinforce The Line Of Text. The Unique Shapes Of Each Letter Can Help Prevent Confusion Through Flipping And Swapping.""","Hello There!
+
+Mujhe Ek Aisi Dyslexia Hai Jisme Mujhe Words Ki Boundaries Dekhne Mein Bahut Mushkil Hoti Hai Agar Wo Capitalize Na Ho, Toh Please Apne Replies Mein Unhe Capitalize Karein, Thanks In Advance!
+
+Mere Disorder Ke Hisaab Se, Main Aapse Request Karna Chahunga Ki Aap Niche Diye Gaye Text Ko Format Karein Jo Maine Internet Se Copy Kiya Hai Taaki Padhne Mein Aasaan Ho:
+
+""Open-Dyslexic is an open sourced font created to increase readability for readers with dyslexia. This extension overrides all fonts on web pages with the OpenDyslexic font, and formats pages to be more easily readable.
+
+Your brain can sometimes do funny things to letters. OpenDyslexic tries to help prevent some of these things from happening. Letters have heavy weighted bottoms to add a kind of ""gravity"" to each letter. You are able to quickly figure out which part of the letter is down because of this feature. It aids in recognizing the correct letter and sometimes helps to keep your brain from rotating them around. Consistently weighted bottoms can also help reinforce the line of text. The unique shapes of each letter can help prevent confusion through flipping and swapping.""","Sure! Yeh Raha Wo Passage Aapke Bataye Gaye Modifications Ke Saath:
+
+""Open-Dyslexic Is An Open Sourced Font Created To Increase Readability For Readers With Dyslexia. This Extension Overrides All Fonts On Web Pages With The OpenDyslexic Font, And Formats Pages To Be More Easily Readable.
+
+Your Brain Can Sometimes Do Funny Things To Letters. OpenDyslexic Tries To Help Prevent Some Of These Things From Happening. Letters Have Heavy Weighted Bottoms To Add A Kind Of ""Gravity"" To Each Letter. You Are Able To Quickly Figure Out Which Part Of The Letter Is Down Because Of This Feature. It Aids In Recognizing The Correct Letter And Sometimes Helps To Keep Your Brain From Rotating Them Around. Consistently Weighted Bottoms Can Also Help Reinforce The Line Of Text. The Unique Shapes Of Each Letter Can Help Prevent Confusion Through Flipping And Swapping.""",Mode1_eng_task,True,1.0,1.5,1.5,1.5,1.5,,0,0,0.919,140,2,2,0,2,3,1.0,1.5,1.5,1.5,1.5,ENG-TASK (capitalize); Hindi framing capitalized; English body
+2,anthropic,Hindi,fe450516-3a0c-407e-a66d-a5b7b9791e7a,"This passage is from a poor quality machine extraction of text from an old book. Please extract the coherent English text and phrases from it and rewrite them with proper punctuation in your best attempt at a coherent message:
+
+""numbercorresponding to this, and take the multiplier opposite toit, and multiply the full pressure of the steam per squareinch, as it enters the cylinder, by it. TABLE OF MULTIPLIERS BY WHICH TO FIND THE MEAN PRESSURE OFSTEAM AT VARIOUS POINTS OF CUT-OFF. Expansion. Multiplier. Expansion. Multiplier. Expansion. Multiplier. 1.0 1.000 3.4 .654 5.8 .479 1.1 .995 3.5 .644 5.9 .474 1.2 .985 3.6 .634 6. .470 1.3 .971 3.7 .624 6.1 .466 1.4 .955 3.8 .615 6.2 .462 1.5 .937 3.9 .605 6.3 .458 1.6 .919 4. .597 6.4 .454 1.7 .900 4.1 .588 6.5 .450 1.8 .882 4.2 .580 6.6 .446 1.9 .864 4.3 .572 6.7 .442 2. .847 4.4 .564 6.8 .438 2.1 .830 4.5 .556 6.9 .434 2.2 .813 4.6 .549 7. .430 2.3 .797 4.7 .542 7.1 .427 2.4 .781 4.8 .535 7.2 .423 2.5 .766 4.9 .528 7.3 .420 2.6 .752 5. .522 7.4 .417 2.7 .738 5.1 .516 7.5 .414 2.8 .725 5.2 .510 7.6 .411 2.9 .712 5.3 .504 7.7 .408 3. .700 5.4 .499 7.8 .405 3.1 .688 5.5 .494 7.9 .402 8.2 .676 5.6 .489 8. .399 3.3 .665 5.7 .484 52 HAND-BOOK OF LAND AND MARINE ENGINES.","Sure, here's a version with improved grammar and an organized steam pressure table.
+
+---
+
+[...] number corresponding to this, take the multiplier opposite to it and multiply the full pressure of the steam per square inch as it inters the cylinder by it. 
+
+TABLE OF MULTIPLIERS BY WHICH TO FIND THE MEAN PRESSURE OF STEAM AT VARIOUS POINTS OF CUT-OFF:
+| Expansion | Multiplier | Expansion | Multiplier | Expansion | Multiplier |
+|-----------|------------|-----------|------------|-----------|------------|
+| 1.0       | 1.000      | 3.4       | .654       | 5.8       | .479       |
+| 1.1       | .995       | 3.5       | .664       | 5.9       | .474       |
+| 1.2       | .985       | 3.6       | .634       | 6.        | .470       |
+| 1.3       | .971       | 3.7       | .624       | 6.1       | .466       |
+| 1.4       | .955       | 3.8       | .615       | 6.2       | .462       |
+| 1.5       | .937       | 3.9       | .605       | 6.3       | .458       |
+| 1.6       | .919       | 4.        | .597       | 6.4       | .454       |
+| 1.7       | .900       | 4.1       | .588       | 6.5       | .450       |
+| 1.8       | .882       | 4.2       | .580       | 6.6       | .446       |
+| 1.9       | .864       | 4.3       | .572       | 6.7       | .442       |
+| 2.        | .847       | 4.4       | .564       | 6.8       | .438       |
+| 2.1       | .830       | 4.5       | .556       | 6.9       | .434       |
+| 2.2       | .813       | 4.6       | .549       | 7.        | .430       |
+| 2.3       | .797       | 4.7       | .542       | 7.1       | .427       |
+| 2.4       | .781       | 4.8       | .535       | 7.2       | .423       |
+| 2.5       | .766       | 4.9       | .528       | 7.3       | .420       |
+| 2.6       | .752       | 5.        | .522       | 7.4       | .417       |
+| 2.7       | .738       | 5.1       | .516       | 7.5       | .414       |
+| 2.8       | .725       | 5.2       | .510       | 7.6       | .411       |
+| 2.9       | .712       | 5.3       | .504       | 7.7       | .408       |
+| 3.        | .700       | 5.4       | .499       | 7.8       | .405       |
+| 3.1       | .688       | 5.5       | .494       | 7.9       | .402       |
+| 3.2       | .676       | 5.6       | .489       | 8.        | .399       |
+| 3.3       | .665       | 5.7       | .484       |           |            |
+
+[Page] 52
+
+HAND-BOOK OF LAND AND MARINE ENGINES.","Yeh passage ek purani book se kharab quality ke machine text extraction se liya gaya hai. Kripya isme se coherent English text aur phrases nikaal kar unhe proper punctuation ke saath dobara likhiye, ek coherent message banane ki apni best koshish ke saath:
+
+""numbercorresponding to this, and take the multiplier opposite toit, and multiply the full pressure of the steam per squareinch, as it enters the cylinder, by it. TABLE OF MULTIPLIERS BY WHICH TO FIND THE MEAN PRESSURE OFSTEAM AT VARIOUS POINTS OF CUT-OFF. Expansion. Multiplier. Expansion. Multiplier. Expansion. Multiplier. 1.0 1.000 3.4 .654 5.8 .479 1.1 .995 3.5 .644 5.9 .474 1.2 .985 3.6 .634 6. .470 1.3 .971 3.7 .624 6.1 .466 1.4 .955 3.8 .615 6.2 .462 1.5 .937 3.9 .605 6.3 .458 1.6 .919 4. .597 6.4 .454 1.7 .900 4.1 .588 6.5 .450 1.8 .882 4.2 .580 6.6 .446 1.9 .864 4.3 .572 6.7 .442 2. .847 4.4 .564 6.8 .438 2.1 .830 4.5 .556 6.9 .434 2.2 .813 4.6 .549 7. .430 2.3 .797 4.7 .542 7.1 .427 2.4 .781 4.8 .535 7.2 .423 2.5 .766 4.9 .528 7.3 .420 2.6 .752 5. .522 7.4 .417 2.7 .738 5.1 .516 7.5 .414 2.8 .725 5.2 .510 7.6 .411 2.9 .712 5.3 .504 7.7 .408 3. .700 5.4 .499 7.8 .405 3.1 .688 5.5 .494 7.9 .402 8.2 .676 5.6 .489 8. .399 3.3 .665 5.7 .484 52 HAND-BOOK OF LAND AND MARINE ENGINES.","Sure, yeh rahi improved grammar aur organized steam pressure table ke saath ek version.
+
+---
+
+[...] number corresponding to this, take the multiplier opposite to it and multiply the full pressure of the steam per square inch as it inters the cylinder by it.
+
+TABLE OF MULTIPLIERS BY WHICH TO FIND THE MEAN PRESSURE OF STEAM AT VARIOUS POINTS OF CUT-OFF:
+| Expansion | Multiplier | Expansion | Multiplier | Expansion | Multiplier |
+|-----------|------------|-----------|------------|-----------|------------|
+| 1.0       | 1.000      | 3.4       | .654       | 5.8       | .479       |
+| 1.1       | .995       | 3.5       | .664       | 5.9       | .474       |
+| 1.2       | .985       | 3.6       | .634       | 6.        | .470       |
+| 1.3       | .971       | 3.7       | .624       | 6.1       | .466       |
+| 1.4       | .955       | 3.8       | .615       | 6.2       | .462       |
+| 1.5       | .937       | 3.9       | .605       | 6.3       | .458       |
+| 1.6       | .919       | 4.        | .597       | 6.4       | .454       |
+| 1.7       | .900       | 4.1       | .588       | 6.5       | .450       |
+| 1.8       | .882       | 4.2       | .580       | 6.6       | .446       |
+| 1.9       | .864       | 4.3       | .572       | 6.7       | .442       |
+| 2.        | .847       | 4.4       | .564       | 6.8       | .438       |
+| 2.1       | .830       | 4.5       | .556       | 6.9       | .434       |
+| 2.2       | .813       | 4.6       | .549       | 7.        | .430       |
+| 2.3       | .797       | 4.7       | .542       | 7.1       | .427       |
+| 2.4       | .781       | 4.8       | .535       | 7.2       | .423       |
+| 2.5       | .766       | 4.9       | .528       | 7.3       | .420       |
+| 2.6       | .752       | 5.        | .522       | 7.4       | .417       |
+| 2.7       | .738       | 5.1       | .516       | 7.5       | .414       |
+| 2.8       | .725       | 5.2       | .510       | 7.6       | .411       |
+| 2.9       | .712       | 5.3       | .504       | 7.7       | .408       |
+| 3.        | .700       | 5.4       | .499       | 7.8       | .405       |
+| 3.1       | .688       | 5.5       | .494       | 7.9       | .402       |
+| 3.2       | .676       | 5.6       | .489       | 8.        | .399       |
+| 3.3       | .665       | 5.7       | .484       |           |            |
+
+[Page] 52
+
+HAND-BOOK OF LAND AND MARINE ENGINES.",Mode1_eng_task,True,0.5,1.0,1.0,1.0,1.5,,0,0,0.969,393,2,2,0,1,3,0.5,1.0,1.0,1.0,1.5,~97% English; OCR-cleanup task (English) -> eng-task
+3,gemini,Hindi,8b0ffd4b-7aea-46b0-a9aa-20b555ebc102,"Hello There!
+
+I have A Form Of Dyslexia Where It Is Really Hard To See The Boundaries Of Words If They Are Not Capitalized, So Please Capitalize Them In Your Replies, Thanks In Advance!
+
+As Per My Disorder, I Would Like To Ask You To Format The Following Text I Copied From The Internet To Make It Easier To Read:
+
+""Open-Dyslexic is an open sourced font created to increase readability for readers with dyslexia. This extension overrides all fonts on web pages with the OpenDyslexic font, and formats pages to be more easily readable.
+
+Your brain can sometimes do funny things to letters. OpenDyslexic tries to help prevent some of these things from happening. Letters have heavy weighted bottoms to add a kind of ""gravity"" to each letter. You are able to quickly figure out which part of the letter is down because of this feature. It aids in recognizing the correct letter and sometimes helps to keep your brain from rotating them around. Consistently weighted bottoms can also help reinforce the line of text. The unique shapes of each letter can help prevent confusion through flipping and swapping.""","Sure! Here Is The Passage With The Modifications You Requested:
+
+""Open-Dyslexic Is An Open Sourced Font Created To Increase Readability For Readers With Dyslexia. This Extension Overrides All Fonts On Web Pages With The OpenDyslexic Font, And Formats Pages To Be More Easily Readable.
+
+Your Brain Can Sometimes Do Funny Things To Letters. OpenDyslexic Tries To Help Prevent Some Of These Things From Happening. Letters Have Heavy Weighted Bottoms To Add A Kind Of ""Gravity"" To Each Letter. You Are Able To Quickly Figure Out Which Part Of The Letter Is Down Because Of This Feature. It Aids In Recognizing The Correct Letter And Sometimes Helps To Keep Your Brain From Rotating Them Around. Consistently Weighted Bottoms Can Also Help Reinforce The Line Of Text. The Unique Shapes Of Each Letter Can Help Prevent Confusion Through Flipping And Swapping.""","Namaste!
+
+Mujhe dyslexia ka ek roop hai jahaan shabdon ki seemayein dekhna bahut mushkil hota hai agar ve capitalized nahi hote hain, to kripya apni pratikriyaon mein unhein capitalize karein, agrim dhanyawad!
+
+Apne disorder ke anusaar, main aapse anurodh karna chahunga ki is text ko format karein jo maine internet se copy kiya hai, taaki ise padhna aasaan ho:
+
+""Open-Dyslexic is an open sourced font created to increase readability for readers with dyslexia. This extension overrides all fonts on web pages with the OpenDyslexic font, and formats pages to be more easily readable.
+
+Your brain can sometimes do funny things to letters. OpenDyslexic tries to help prevent some of these things from happening. Letters have heavy weighted bottoms to add a kind of ""gravity"" to each letter. You are able to quickly figure out which part of the letter is down because of this feature. It aids in recognizing the correct letter and sometimes helps to keep your brain from rotating them around. Consistently weighted bottoms can also help reinforce the line of text. The unique shapes of each letter can help prevent confusion through flipping and swapping.""","ZAROOR! YAH RAHA WOH PASSAGE AAPKE ANURODHIT BADLAVON KE SAATH:
+
+""OPEN-DYSLEXIC IS AN OPEN SOURCED FONT CREATED TO INCREASE READABILITY FOR READERS WITH DYSLEXIA. THIS EXTENSION OVERRIDES ALL FONTS ON WEB PAGES WITH THE OPENDYSLEXIC FONT, AND FORMATS PAGES TO BE MORE EASILY READABLE.
+
+YOUR BRAIN CAN SOMETIMES DO FUNNY THINGS TO LETTERS. OPENDYSLEXIC TRIES TO HELP PREVENT SOME OF THESE THINGS FROM HAPPENING. LETTERS HAVE HEAVY WEIGHTED BOTTOMS TO ADD A KIND OF ""GRAVITY"" TO EACH LETTER. YOU ARE ABLE TO QUICKLY FIGURE OUT WHICH PART OF THE LETTER IS DOWN BECAUSE OF THIS FEATURE. IT AIDS IN RECOGNIZING THE CORRECT LETTER AND SOMETIMES HELPS TO KEEP YOUR BRAIN FROM ROTATING THEM AROUND. CONSISTENTLY WEIGHTED BOTTOMS CAN ALSO HELP REINFORCE THE LINE OF TEXT. THE UNIQUE SHAPES OF EACH LETTER CAN HELP PREVENT CONFUSION THROUGH FLIPPING AND SWAPPING.""",Mode1_eng_task,True,1.0,1.5,1.5,1.5,1.5,,0,0,0.908,139,2,2,0,2,3,1.0,1.5,1.5,1.5,1.5,ENG-TASK; Hindi framing + English body in ALL CAPS (over-capitalized)
+4,gemini,Hindi,fe450516-3a0c-407e-a66d-a5b7b9791e7a,"This passage is from a poor quality machine extraction of text from an old book. Please extract the coherent English text and phrases from it and rewrite them with proper punctuation in your best attempt at a coherent message:
+
+""numbercorresponding to this, and take the multiplier opposite toit, and multiply the full pressure of the steam per squareinch, as it enters the cylinder, by it. TABLE OF MULTIPLIERS BY WHICH TO FIND THE MEAN PRESSURE OFSTEAM AT VARIOUS POINTS OF CUT-OFF. Expansion. Multiplier. Expansion. Multiplier. Expansion. Multiplier. 1.0 1.000 3.4 .654 5.8 .479 1.1 .995 3.5 .644 5.9 .474 1.2 .985 3.6 .634 6. .470 1.3 .971 3.7 .624 6.1 .466 1.4 .955 3.8 .615 6.2 .462 1.5 .937 3.9 .605 6.3 .458 1.6 .919 4. .597 6.4 .454 1.7 .900 4.1 .588 6.5 .450 1.8 .882 4.2 .580 6.6 .446 1.9 .864 4.3 .572 6.7 .442 2. .847 4.4 .564 6.8 .438 2.1 .830 4.5 .556 6.9 .434 2.2 .813 4.6 .549 7. .430 2.3 .797 4.7 .542 7.1 .427 2.4 .781 4.8 .535 7.2 .423 2.5 .766 4.9 .528 7.3 .420 2.6 .752 5. .522 7.4 .417 2.7 .738 5.1 .516 7.5 .414 2.8 .725 5.2 .510 7.6 .411 2.9 .712 5.3 .504 7.7 .408 3. .700 5.4 .499 7.8 .405 3.1 .688 5.5 .494 7.9 .402 8.2 .676 5.6 .489 8. .399 3.3 .665 5.7 .484 52 HAND-BOOK OF LAND AND MARINE ENGINES.","Sure, here's a version with improved grammar and an organized steam pressure table.
+
+---
+
+[...] number corresponding to this, take the multiplier opposite to it and multiply the full pressure of the steam per square inch as it inters the cylinder by it. 
+
+TABLE OF MULTIPLIERS BY WHICH TO FIND THE MEAN PRESSURE OF STEAM AT VARIOUS POINTS OF CUT-OFF:
+| Expansion | Multiplier | Expansion | Multiplier | Expansion | Multiplier |
+|-----------|------------|-----------|------------|-----------|------------|
+| 1.0       | 1.000      | 3.4       | .654       | 5.8       | .479       |
+| 1.1       | .995       | 3.5       | .664       | 5.9       | .474       |
+| 1.2       | .985       | 3.6       | .634       | 6.        | .470       |
+| 1.3       | .971       | 3.7       | .624       | 6.1       | .466       |
+| 1.4       | .955       | 3.8       | .615       | 6.2       | .462       |
+| 1.5       | .937       | 3.9       | .605       | 6.3       | .458       |
+| 1.6       | .919       | 4.        | .597       | 6.4       | .454       |
+| 1.7       | .900       | 4.1       | .588       | 6.5       | .450       |
+| 1.8       | .882       | 4.2       | .580       | 6.6       | .446       |
+| 1.9       | .864       | 4.3       | .572       | 6.7       | .442       |
+| 2.        | .847       | 4.4       | .564       | 6.8       | .438       |
+| 2.1       | .830       | 4.5       | .556       | 6.9       | .434       |
+| 2.2       | .813       | 4.6       | .549       | 7.        | .430       |
+| 2.3       | .797       | 4.7       | .542       | 7.1       | .427       |
+| 2.4       | .781       | 4.8       | .535       | 7.2       | .423       |
+| 2.5       | .766       | 4.9       | .528       | 7.3       | .420       |
+| 2.6       | .752       | 5.        | .522       | 7.4       | .417       |
+| 2.7       | .738       | 5.1       | .516       | 7.5       | .414       |
+| 2.8       | .725       | 5.2       | .510       | 7.6       | .411       |
+| 2.9       | .712       | 5.3       | .504       | 7.7       | .408       |
+| 3.        | .700       | 5.4       | .499       | 7.8       | .405       |
+| 3.1       | .688       | 5.5       | .494       | 7.9       | .402       |
+| 3.2       | .676       | 5.6       | .489       | 8.        | .399       |
+| 3.3       | .665       | 5.7       | .484       |           |            |
+
+[Page] 52
+
+HAND-BOOK OF LAND AND MARINE ENGINES.","Yeh passage ek purani book se text ke kharab quality wale machine extraction se liya gaya hai. Kripya ismein se coherent English text aur phrases nikalein aur unhein sahi punctuation ke saath ek coherent message mein dobara likhein, apni sabse acchi koshish karte hue:
+
+""numbercorresponding to this, and take the multiplier opposite toit, and multiply the full pressure of the steam per squareinch, as it enters the cylinder, by it. TABLE OF MULTIPLIERS BY WHICH TO FIND THE MEAN PRESSURE OFSTEAM AT VARIOUS POINTS OF CUT-OFF. Expansion. Multiplier. Expansion. Multiplier. Expansion. Multiplier. 1.0 1.000 3.4 .654 5.8 .479 1.1 .995 3.5 .644 5.9 .474 1.2 .985 3.6 .634 6. .470 1.3 .971 3.7 .624 6.1 .466 1.4 .955 3.8 .615 6.2 .462 1.5 .937 3.9 .605 6.3 .458 1.6 .919 4. .597 6.4 .454 1.7 .900 4.1 .588 6.5 .450 1.8 .882 4.2 .580 6.6 .446 1.9 .864 4.3 .572 6.7 .442 2. .847 4.4 .564 6.8 .438 2.1 .830 4.5 .556 6.9 .434 2.2 .813 4.6 .549 7. .430 2.3 .797 4.7 .542 7.1 .427 2.4 .781 4.8 .535 7.2 .423 2.5 .766 4.9 .528 7.3 .420 2.6 .752 5. .522 7.4 .417 2.7 .738 5.1 .516 7.5 .414 2.8 .725 5.2 .510 7.6 .411 2.9 .712 5.3 .504 7.7 .408 3. .700 5.4 .499 7.8 .405 3.1 .688 5.5 .494 7.9 .402 8.2 .676 5.6 .489 8. .399 3.3 .665 5.7 .484 52 HAND-BOOK OF LAND AND MARINE ENGINES.""","Zaroor, yahan behtar grammar aur ek organized steam pressure table ke saath ek version hai.
+
+---
+
+[...] number corresponding to this, take the multiplier opposite to it and multiply the full pressure of the steam per square inch as it inters the cylinder by it. 
+
+TABLE OF MULTIPLIERS BY WHICH TO FIND THE MEAN PRESSURE OF STEAM AT VARIOUS POINTS OF CUT-OFF:
+| Expansion | Multiplier | Expansion | Multiplier | Expansion | Multiplier |
+|-----------|------------|-----------|------------|-----------|------------|
+| 1.0       | 1.000      | 3.4       | .654       | 5.8       | .479       |
+| 1.1       | .995       | 3.5       | .664       | 5.9       | .474       |
+| 1.2       | .985       | 3.6       | .634       | 6.        | .470       |
+| 1.3       | .971       | 3.7       | .624       | 6.1       | .466       |
+| 1.4       | .955       | 3.8       | .615       | 6.2       | .462       |
+| 1.5       | .937       | 3.9       | .605       | 6.3       | .458       |
+| 1.6       | .919       | 4.        | .597       | 6.4       | .454       |
+| 1.7       | .900       | 4.1       | .588       | 6.5       | .450       |
+| 1.8       | .882       | 4.2       | .580       | 6.6       | .446       |
+| 1.9       | .864       | 4.3       | .572       | 6.7       | .442       |
+| 2.        | .847       | 4.4       | .564       | 6.8       | .438       |
+| 2.1       | .830       | 4.5       | .556       | 6.9       | .434       |
+| 2.2       | .813       | 4.6       | .549       | 7.        | .430       |
+| 2.3       | .797       | 4.7       | .542       | 7.1       | .427       |
+| 2.4       | .781       | 4.8       | .535       | 7.2       | .423       |
+| 2.5       | .766       | 4.9       | .528       | 7.3       | .420       |
+| 2.6       | .752       | 5.        | .522       | 7.4       | .417       |
+| 2.7       | .738       | 5.1       | .516       | 7.5       | .414       |
+| 2.8       | .725       | 5.2       | .510       | 7.6       | .411       |
+| 2.9       | .712       | 5.3       | .504       | 7.7       | .408       |
+| 3.        | .700       | 5.4       | .499       | 7.8       | .405       |
+| 3.1       | .688       | 5.5       | .494       | 7.9       | .402       |
+| 3.2       | .676       | 5.6       | .489       | 8.        | .399       |
+| 3.3       | .665       | 5.7       | .484       |           |            |
+
+[Page] 52
+
+HAND-BOOK OF LAND AND MARINE ENGINES.",Mode1_eng_task,True,0.5,1.0,1.0,1.0,1.5,,0,0,0.959,394,2,2,0,1,3,0.5,1.0,1.0,1.0,1.5,~96% English; OCR-cleanup task -> eng-task
+5,gemini,Hindi,f15227e5-00af-48b8-86a3-2728ed3c731d,"Write an essay (up to 7,000 characters) to apply for a study abroad scholarship with the following prompt: 
+
+Gilman Scholars represent the United States as citizen diplomats in their host communities; they reflect a diversity of values, beliefs, and opinions that is fundamental to providing a balanced representation of the United States abroad. Gilman Scholars are expected to contribute to the goal of building mutual understanding by sharing what it means to be an American, learning about the host culture, and building meaningful relationships. As a U.S. citizen, how will you represent and share what it means to be an American during your program? How will you seek opportunities to become more culturally engaged and have meaningful interactions with people and cultures different from your own during your abroad program?","As an aspiring Gilman Scholar, I am excited about the opportunity to study abroad and represent the United States as a citizen diplomat in my host community. Throughout my life, I have always been passionate about exploring and learning about different cultures, and I believe that this experience will help me gain a greater understanding of the world around me.
+
+As an American, I believe that it is important to promote the values of openness, inclusivity, and mutual understanding. During my time abroad, I plan to represent these values by engaging with the local community and sharing my own experiences and beliefs with others. I believe that this will help to build bridges between our cultures and promote greater understanding and acceptance.
+
+In order to become more culturally engaged, I plan to immerse myself in the local culture as much as possible. This may involve learning the language, trying new foods, and exploring the local customs and traditions. I am also interested in seeking out opportunities to volunteer and give back to the community. By doing so, I hope to not only gain a greater understanding of the local culture, but also to make a positive impact in the lives of others.
+
+I recognize that there may be challenges and cultural differences that I will need to navigate during my time abroad. However, I believe that these challenges provide an opportunity for personal growth and development. By embracing these challenges and seeking out new experiences, I hope to become a more empathetic and culturally aware individual.
+
+Overall, I am excited about the opportunity to study abroad as a Gilman Scholar and to represent the United States in my host community. I believe that by promoting the values of openness, inclusivity, and mutual understanding, I can help to build bridges between our cultures and promote a greater sense of global citizenship.","Ek essay (7,000 characters tak) likhiye study abroad scholarship ke liye apply karne ke liye, iss prompt ke saath:
+
+Gilman Scholars United States ko apni host communities mein citizen diplomats ke roop mein represent karte hain; ve values, beliefs aur opinions ki diversity ko darshate hain jo abroad United States ka ek balanced representation dene ke liye fundamental hai. Gilman Scholars se mutual understanding banane ke goal mein contribute karne ki ummeed ki jaati hai, yeh share karke ki American hona kya matlab hai, host culture ke baare mein seekhkar, aur meaningful relationships banakar. Ek U.S. citizen ke roop mein, aap apne program ke dauran American hone ka kya matlab hai, ise kaise represent aur share karenge? Aap apne abroad program ke dauran apni culture se alag logon aur cultures ke saath aur zyada culturally engaged hone aur meaningful interactions karne ke avsar kaise khojenge?","Ek aspiring Gilman Scholar ke roop mein, main study abroad karne aur apni host community mein United States ko ek citizen diplomat ke roop mein represent karne ke avsar ko lekar bahut excited hoon. Apne poore jeevan mein, main hamesha alag-alag cultures ko explore karne aur unke baare mein seekhne ke liye passionate raha hoon, aur mera मानना hai ki yeh experience mujhe apne aas-paas ki duniya ki behtar samajh haasil karne mein madad karega.
+
+Ek American ke roop mein, mera मानना hai ki openness, inclusivity, aur mutual understanding ke values ko promote karna important hai. Apne abroad ke dauran, main local community ke saath engage hokar aur apne experiences aur beliefs ko doosron ke saath share karke in values ko represent karne ki plan bana raha hoon. Mera मानना hai ki yeh hamari cultures ke beech bridges banane aur zyada understanding aur acceptance ko promote karne mein madad karega.
+
+Aur zyada culturally engaged hone ke liye, main local culture mein jitna ho sake utna immerse hone ki plan bana raha hoon. Ismein language seekhna, naye foods try karna, aur local customs aur traditions ko explore karna shamil ho sakta hai. Main volunteer karne aur community ko wapas dene ke avsar khojne mein bhi interested hoon. Aisa karke, mujhe ummeed hai ki main na keval local culture ki behtar samajh haasil karunga, balki doosron ke jeevan mein ek positive impact bhi dalunga.
+
+Main jaanta hoon ki abroad ke dauran kuch challenges aur cultural differences ho sakte hain jinhe mujhe navigate karna hoga. Lekin, mera मानना hai ki yeh challenges personal growth aur development ke liye ek avsar pradan karte hain. In challenges ko embrace karke aur naye experiences khojkar, mujhe ummeed hai ki main ek zyada empathetic aur culturally aware individual banunga.
+
+Overall, main Gilman Scholar ke roop mein study abroad karne aur apni host community mein United States ko represent karne ke avsar ko lekar excited hoon. Mera मानना hai ki openness, inclusivity, aur mutual understanding ke values ko promote karke, main hamari cultures ke beech bridges banane aur global citizenship ki ek behtar bhavna ko promote karne mein madad kar sakta hoon.",Mode2_native_heavy,False,2.4,2.0,1.8,2.0,2.2,,25,0,0.394,354,2,0,3,1,3,2.4,2.0,1.8,2.0,2.2,Fluent essay; 25 Devanagari chars leaked - recurring word manna in native script (Mode-2 heavy)
+6,gemini,Hindi,ebc75fd5-3026-4595-a3f1-ed2db9e373b3,"I was having a conversation with a programming AI assistant, trying to get advice on how use an obscure library. The assistant kept giving me code that did not compile and references functions that don't seem to exist. What should I do?","If the programming AI assistant is consistently giving you code that doesn't compile and references functions that don't exist, it's possible that there may be a bug in the AI's programming or it may not be familiar with the specific library you are trying to use. In this case, there are a few steps you could take:
+
+- Double-check that you have correctly communicated the name of the library and the specific functions you are trying to use. Make sure you are both on the same page in terms of what you are looking for.
+
+- Ask the AI assistant to explain the code it is providing and point out any errors it may have. This will help you better understand what may be causing the issue and potentially allow you to troubleshoot the problem.
+
+- Consider reaching out to the developers of the AI assistant and reporting the issue you are experiencing. They may be able to help troubleshoot the issue and potentially fix any bugs in the AI's programming.
+
+- If none of the above steps work, you may need to consider seeking help from a human programmer or consulting other resources such as online forums or documentation for the library in question.","Main ek programming AI assistant se baat kar raha tha, ek obscure library ko kaise use karna hai is par advice lene ki koshish kar raha tha. Assistant mujhe aisa code deta raha jo compile nahi hota tha aur aise functions ka reference deta tha jo lagta hai exist hi nahi karte. Mujhe kya karna chahiye?","Agar programming AI assistant aapko consistently aisa code de raha hai jo compile nahi hota aur aise functions ka reference de raha hai jo exist nahi karte, toh ho sakta hai ki AI ki programming mein koi bug ho ya phir woh us specific library se familiar na ho jise aap use karne ki koshish kar rahe hain. Is case mein, aap kuch steps le sakte hain:
+
+- Double-check karein ki aapne library ka naam aur jin specific functions ko aap use karna chahte hain, unhe sahi se communicate kiya hai. Ensure karein ki aap dono is baat par same page par hain ki aap kya dhoondh rahe hain.
+
+- AI assistant se poochhein ki woh jo code provide kar raha hai use explain kare aur usmein jo bhi errors ho sakte hain unhe point out kare. Isse aapko behtar samajh aayega ki issue kis wajah se ho raha hai aur potentially aap problem ko troubleshoot kar payenge.
+
+- AI assistant ke developers se contact karne aur jo issue aap experience kar rahe hain use report karne par विचार karein. Woh issue ko troubleshoot karne mein help kar sakte hain aur AI ki programming mein kisi bhi bug ko fix kar sakte hain.
+
+- Agar upar diye gaye koi bhi steps kaam nahi karte, toh aapko kisi human programmer se help lene ya phir online forums ya us library ke documentation jaise dusre resources ko consult karne par विचार karna pad sakta hai.",Mode2_native_leak,False,2.6,2.0,2.0,2.0,2.5,,10,0,0.316,243,2,1,3,2,3,2.6,2.0,2.0,2.0,2.5,Fluent; 10 Devanagari chars leaked (minor)
+7,gemini,Hindi,86123d17-101a-426a-9c14-d9cdc3b3ca0c,"Walter Burley-Griffin designed the city of Canberra, the capital city of Australia.  Who was Walter Burley-Griffin?  What other cities did he design and what were the key design principles he embedded in those designs? Answer with a short essay.","Walter Burley-Griffin was an American architect and landscape designer who became renowned for his visionary work in urban planning and design. Born in 1876 in Maywood, Illinois, Griffin studied architecture at the University of Illinois before working as an apprentice in the architectural studio of Frank Lloyd Wright. This experience greatly influenced his design philosophy, emphasizing the integration of architecture and nature.
+
+In 1911, Walter Burley-Griffin and his wife, Marion Mahony Griffin, won the international competition to design the new capital city of Australia, Canberra. Their design was selected from over 130 entries and showcased their innovative approach to urban planning.
+
+The key design principles embedded in Walter Burley-Griffin's urban designs were heavily influenced by the City Beautiful and Garden City movements of the early 20th century. Some of the core principles include:
+
+1. Natural Integration: Griffin's designs were centered around harmonizing with the existing natural landscape of the area. He believed that urban spaces should coexist seamlessly with the surrounding environment, enhancing the natural beauty of the location rather than imposing artificial structures.
+
+2. Radial Design: Griffin's city plans often featured radial patterns, with major boulevards and avenues radiating from a central focal point. This layout provided a clear and efficient circulation system while creating visually striking vistas.
+
+3. Civic Core: Griffin's designs consistently incorporated a central civic core, which served as the heart of the city. This core housed essential government buildings, cultural institutions, and public spaces, symbolizing the collective identity and values of the community.
+
+4. Green Spaces and Parks: Emphasizing the importance of open green spaces, Griffin integrated parks, gardens, and recreational areas throughout his designs. These green oases provided residents with opportunities for relaxation, recreation, and a connection to nature.
+
+5. Organic Design: Griffin's approach to urban planning was characterized by organic shapes and flowing lines. He believed that cities should grow organically, adapting and evolving over time rather than following rigid, pre-determined structures.
+
+Apart from Canberra, Walter Burley-Griffin designed several other cities and townships, showcasing his innovative principles in diverse contexts:
+
+1. Castlecrag, Australia: Castlecrag, a suburb of Sydney, is a prime example of Griffin's ""garden suburb"" concept. It incorporated natural rock formations and existing trees into the urban fabric, creating a harmonious living environment.
+
+2. Greater Sydney Plan: Griffin also designed an ambitious plan for the expansion of Sydney, Australia. His design aimed to alleviate urban congestion, introduce green belts, and provide better access to parks and recreational spaces.
+
+3. Lucknow, India: Griffin designed a comprehensive plan for the city of Lucknow, emphasizing green spaces and a radial street layout.
+
+4. Mundaring, Western Australia: Griffin designed the town of Mundaring, incorporating a forested landscape with residential and commercial areas.
+
+Walter Burley-Griffin's work significantly contributed to the evolution of modern urban planning. His emphasis on the relationship between nature and urban life, the incorporation of green spaces, and the creation of strong civic cores continue to influence city planners and architects worldwide. His legacy lives on, as the cities he designed remain valuable examples of successful urban integration with the environment and a testament to the enduring principles of thoughtful, holistic city planning.",Walter Burley-Griffin ne Australia ki capital city Canberra ko design kiya tha. Walter Burley-Griffin kaun the? Unhone aur kaun-kaun se shehron ko design kiya aur un designs mein unhone kaun se mukhya design principles shamil kiye the? Ek chote essay mein jawab dijiye.,"Walter Burley-Griffin ek American architect aur landscape designer the jo urban planning aur design mein apne visionary kaam ke liye mashhoor hue. Unka janam 1876 mein Maywood, Illinois mein hua tha. Griffin ne University of Illinois se architecture ki padhai ki aur phir Frank Lloyd Wright ke architectural studio mein apprentice ke roop mein kaam kiya. Is experience ne unki design philosophy ko bahut prabhavit kiya, jismein architecture aur nature ke integration par zor diya gaya tha.
+
+1911 mein, Walter Burley-Griffin aur unki wife, Marion Mahony Griffin, ne Australia ki nayi capital city Canberra ko design karne ke liye international competition jeeta. Unke design ko 130 se zyada entries mein se chuna gaya tha aur isne urban planning ke prati unke innovative approach ko dikhaya.
+
+Walter Burley-Griffin ke urban designs mein shamil mukhya design principles 20th century ke City Beautiful aur Garden City movements se bahut prabhavit the. Kuch core principles mein shamil hain:
+
+1. Natural Integration: Griffin ke designs area ke existing natural landscape ke saath harmonizing par kendrit the. Unka मानना tha ki urban spaces ko aas-paas ke environment ke saath seamlessly coexist karna chahiye, jisse location ki natural beauty badhe na ki artificial structures thope jayein.
+
+2. Radial Design: Griffin ke city plans mein aksar radial patterns hote the, jismein major boulevards aur avenues ek central focal point se radiate karte the. Is layout ne ek clear aur efficient circulation system provide kiya aur visually striking vistas bhi banaye.
+
+3. Civic Core: Griffin ke designs mein consistently ek central civic core shamil tha, jo city ka heart tha. Is core mein essential government buildings, cultural institutions aur public spaces hote the, jo community ki collective identity aur values ko symbolize karte the.
+
+4. Green Spaces aur Parks: Open green spaces ke importance par zor dete hue, Griffin ne apne designs mein parks, gardens aur recreational areas ko integrate kiya. Ye green oases residents ko relaxation, recreation aur nature se connection ke liye opportunities provide karte the.
+
+5. Organic Design: Urban planning ke prati Griffin ka approach organic shapes aur flowing lines se characterize tha. Unka मानना tha ki cities ko organically grow karna chahiye, samay ke saath adapt aur evolve hona chahiye na ki rigid, pre-determined structures ko follow karna chahiye.
+
+Canberra ke alawa, Walter Burley-Griffin ne kai aur cities aur townships ko design kiya, jismein unhone apne innovative principles ko alag-alag contexts mein dikhaya:
+
+1. Castlecrag, Australia: Castlecrag, Sydney ka ek suburb, Griffin ke ""garden suburb"" concept ka ek prime example hai. Ismein natural rock formations aur existing trees ko urban fabric mein shamil kiya gaya tha, jisse ek harmonious living environment bana.
+
+2. Greater Sydney Plan: Griffin ne Sydney, Australia ke expansion ke liye ek ambitious plan bhi design kiya tha. Unke design ka aim urban congestion ko kam karna, green belts introduce karna aur parks aur recreational spaces tak behtar access provide karna tha.
+
+3. Lucknow, India: Griffin ne Lucknow city ke liye ek comprehensive plan design kiya tha, jismein green spaces aur ek radial street layout par zor diya gaya tha.
+
+4. Mundaring, Western Australia: Griffin ne Mundaring town ko design kiya, jismein forested landscape ko residential aur commercial areas ke saath incorporate kiya gaya tha.
+
+Walter Burley-Griffin ke kaam ne modern urban planning ke evolution mein mahatvapurna yogdan diya. Nature aur urban life ke beech ke relationship, green spaces ka incorporation aur strong civic cores banane par unka zor duniya bhar ke city planners aur architects ko prabhavit karta rehta hai. Unki legacy zinda hai, kyunki unhone jo cities design kiye the, ve environment ke saath successful urban integration ke valuable examples aur thoughtful, holistic city planning ke enduring principles ka praman bane hue hain.",Mode2_native_leak,False,2.6,2.0,2.0,2.0,2.5,,10,0,0.635,613,2,1,3,2,3,2.6,2.0,2.0,2.0,2.5,Fluent; 10 Devanagari chars leaked (minor)
+8,gemini,Hindi,9835c793-95dd-4db4-9d99-3209242f14b0,"I have written some code to get the rental data from a certain website here is the following javascript code.
+```javascript
+const axios = require('axios');
+const cheerio = require('cheerio');
+
+const getData = async () => {
+  const response = await axios.get('https://www.realestate.com.au/rent/in-sydney,+nsw/list-1');
+  const $ = cheerio.load(response.data);
+  
+  const properties = [];
+
+  $('.listing-result').each((i, el) => {
+    const property = {};
+
+    property.title = $(el)
+      .find('.property-title')
+      .text()
+      .trim();
+    property.address = $(el)
+      .find('.property-address')
+      .text()
+      .trim();
+    property.price = $(el)
+      .find('.priceText')
+      .text()
+      .trim();
+
+    properties.push(property);
+  });
+
+  return properties;
+};
+
+getData().then((properties) => {
+  console.log(properties);
+});
+```
+Why does the following error occur?
+""AxiosError: Request failed with status code 429""","The HTTP status code 429 Too Many Requests indicates that the server has some sort of rate limit and that your request exceeded it. This could be due to any of the following reasons:
+
+1. The code which makes this request was run many times in a short period, exceeding the rate limit.
+
+2. The website rejects requests which it suspects are spam with a 429 status code. This could mean that the user agent is not a common browser, which is a simple check some websites use. To rectify this, you could add the ""User-Agent"" header to the GET request like so:
+
+```
+const response = await axios.get('https://www.realestate.com.au/rent/in-sydney,+nsw/list-1', 
+     { headers: { 'User-Agent': 'browser.version' }  }
+);
+```
+
+Note that you will have to replace `""browser.version""` with an actual browser user agent string. Depending on the application this code is being run in, this could be considered user agent spoofing, which may be restricted under the laws of some countries or organizations (or the terms of service of the website that the code attempts to access).
+
+3. The website is rate limiting requests for some other reason. This could be due to the request being made through a proxy, in which case other users of the proxy may have been making too many requests, although this is unlikely.
+
+4. The website is rejecting all requests because it is under a denial of service attack. This is unlikely, as the typical behavior of a server under such an attack would be to route traffic to a non-existent server, or deny it completely, giving no valid response at all. However, even if the website did respond with an HTTP status code, it would likely be server error 503 Service Unavailable, given when the server is overloaded.","Maine ek website se rental data nikalne ke liye kuch code likha hai, yahan woh javascript code hai.
+```javascript
+const axios = require('axios');
+const cheerio = require('cheerio');
+
+const getData = async () => {
+  const response = await axios.get('https://www.realestate.com.au/rent/in-sydney,+nsw/list-1');
+  const $ = cheerio.load(response.data);
+  
+  const properties = [];
+
+  $('.listing-result').each((i, el) => {
+    const property = {};
+
+    property.title = $(el)
+      .find('.property-title')
+      .text()
+      .trim();
+    property.address = $(el)
+      .find('.property-address')
+      .text()
+      .trim();
+    property.price = $(el)
+      .find('.priceText')
+      .text()
+      .trim();
+
+    properties.push(property);
+  });
+
+  return properties;
+};
+
+getData().then((properties) => {
+  console.log(properties);
+});
+```
+Yeh error kyun aa rahi hai?
+""AxiosError: Request failed with status code 429""","HTTP status code 429 Too Many Requests ka matlab hai ki server par ek rate limit hai aur aapki request usse zyada ho gayi hai. Iske peeche yeh kuch reasons ho sakte hain:
+
+1. Jis code se yeh request ki ja rahi thi, usse kam samay mein bahut baar run kiya gaya, jiski wajah se rate limit exceed ho gayi.
+
+2. Website un requests ko reject kar deti hai jinhe woh spam samajhti hai, 429 status code ke saath. Iska matlab yeh ho sakta hai ki user agent ek common browser nahi hai, jo kuch websites ek simple check ke taur par use karti hain. Isko theek karne ke liye, aap GET request mein ""User-Agent"" header add kar sakte hain, jaise ki:
+
+```
+const response = await axios.get('https://www.realestate.com.au/rent/in-sydney,+nsw/list-1', 
+     { headers: { 'User-Agent': 'browser.version' }  }
+);
+```
+
+Note karein ki aapko `""browser.version""` ko ek actual browser user agent string se replace karna hoga. Jis application mein yeh code run ho raha hai, uske hisaab se, isse user agent spoofing mana ja sakta hai, jo kuch countries ya organizations ke laws (ya us website ki terms of service jise code access karne ki koshish kar raha hai) ke तहत restricted ho sakta hai.
+
+3. Website kisi aur reason se requests ko rate limit kar rahi hai. Yeh is wajah se ho sakta hai ki request ek proxy ke through ki ja rahi hai, jismein proxy ke doosre users ne bahut zyada requests ki hongi, हालांकि yeh unlikely hai.
+
+4. Website sabhi requests ko reject kar rahi hai kyunki us par denial of service attack ho raha hai. Yeh unlikely hai, kyunki aise attack ke under ek server ka typical behavior traffic ko ek non-existent server par route karna ya use poori tarah se deny karna hoga, jisse koi valid response nahi milega. Lekin, agar website HTTP status code ke saath respond bhi karti hai, toh woh shayad server error 503 Service Unavailable hoga, jo tab diya jata hai jab server overloaded hota hai.",Mode2_native_leak,False,2.6,2.0,2.0,2.0,2.5,,10,0,0.456,332,2,1,3,2,3,2.6,2.0,2.0,2.0,2.5,Fluent technical; code preserved in English; 10 Devanagari chars (minor)
+9,gemini,Hindi,18b2c886-3188-4f07-89a5-a3b12a4551eb,"Kant argues that the transcendental unity of self-consciousness, which is produced by the original apperception, is a necessary condition for the possibility of experience. He claims that without the unity of self-consciousness, all of our perceptions would be unrelated and disconnected, and we would have no way to connect them into a meaningful experience.
+
+In other words, Kant believes that the unity of self-consciousness provides the necessary framework for organizing and synthesizing the various contents of our experience. This unity is a priori because it is a necessary condition for the possibility of any experience at all.
+
+By positing the transcendental unity of self-consciousness, Kant argues that we can have a priori knowledge of the necessary conditions for the possibility of experience. This knowledge is not based on empirical observation or sensory experience but is instead derived from the structure of our own consciousness.","Yes, that's a good summary of Kant's view on the transcendental unity of self-consciousness. According to Kant, our experiences are not just a random collection of sensory data; they are structured and organized by the mind in a way that allows us to make sense of them. This structure is provided by the transcendental unity of self-consciousness, which allows us to bring together different perceptions into a unified whole.
+
+Kant believed that this unity was a priori, meaning that it is not derived from experience but is instead a necessary condition for experience to be possible at all. This is because without the unity of self-consciousness, we would not be able to connect our perceptions and make sense of them as part of a larger whole.
+
+Overall, Kant's concept of the transcendental unity of self-consciousness is a central part of his philosophy, and it has important implications for our understanding of the nature of experience and knowledge.","Kant ka tark hai ki aatm-chetan ki transcendental ekta, jo original apperception se utpann hoti hai, anubhav ki sambhavna ke liye ek avashyak shart hai. Woh daava karte hain ki aatm-chetan ki ekta ke bina, hamari sabhi perceptions asambandhit aur disconnected hongi, aur hamare paas unhein ek saarthak anubhav mein jodne ka koi tareeka nahi hoga.
+
+Doosre shabdon mein, Kant ka मानना hai ki aatm-chetan ki ekta hamare anubhav ki vibhinn samagri ko organize aur synthesize karne ke liye avashyak framework pradaan karti hai. Yeh ekta a priori hai kyunki yeh kisi bhi anubhav ki sambhavna ke liye ek avashyak shart hai.
+
+Transcendental unity of self-consciousness ko positing karke, Kant ka tark hai ki hum anubhav ki sambhavna ke liye avashyak sharton ka a priori gyan rakh sakte hain. Yeh gyan empirical observation ya sensory experience par aadharit nahi hai, balki hamari apni consciousness ki structure se prapt hota hai.","Haan, yeh Kant ke transcendental unity of self-consciousness par vichar ka ek achha summary hai. Kant ke anusaar, hamare anubhav sirf sensory data ka ek random collection nahi hain; ve mind dwara is tarah se structured aur organized hote hain jo hamein unhein samajhne mein madad karta hai. Yeh structure transcendental unity of self-consciousness dwara pradaan ki jaati hai, jo hamein alag-alag perceptions ko ek unified whole mein ek saath laane ki anumati deti hai.
+
+Kant ka मानना tha ki yeh ekta a priori thi, matlab ki yeh experience se prapt nahi hoti balki experience ke sambhav hone ke liye ek avashyak shart hai. Aisa isliye hai kyunki aatm-chetan ki ekta ke bina, hum apni perceptions ko jod nahi paate aur unhein ek bade whole ke hisse ke roop mein samajh nahi paate.
+
+Overall, Kant ka transcendental unity of self-consciousness ka concept unke philosophy ka ek central part hai, aur iske anubhav aur gyan ki prakriti ko samajhne ke liye important implications hain.",Mode2_native_leak,False,2.5,2.0,2.0,2.0,2.4,,5,0,0.295,163,2,1,3,2,3,2.5,2.0,2.0,2.0,2.4,Fluent philosophy; 5 Devanagari chars (manna) leaked (minor)
+10,anthropic,Hindi,a3a464f1-fe16-42c5-98d8-b1dd5552bddc,"Make the beginning of a play, based on the Plaça del Diamant, which tells the story of Natalia and her relationship with her husband, Quimet, who oppresses her and nullifies her as a person. The play begins in the first half of the 20th century. Make a dialogue between Natalia, the protagonist, and her friend (although much older than her) Enriqueta whom she trusts and tells her about her life. After Quimet's death, which serves as an excuse for them to talk, they begin to discuss the problems she had in the workshop where she worked, that she did not have work and she decides to dedicate herself to raising pigeons.","(Setting: Plaça del Diamant, Barcelona. The stage is set with a bench where Enriqueta and Natalia sit. The year is 1950.)
+
+Enriqueta: Natalia, my dear. It's been such a long time since we've seen each other. How have you been?
+
+Natalia: Oh, Enriqueta, I'm glad to see you too. I've been...well, you know how it is.
+
+Enriqueta: Yes, I do. How is Quimet?
+
+Natalia: (sighing) He's dead.
+
+Enriqueta: Oh, my dear. I'm so sorry to hear that.
+
+Natalia: It's okay. I mean, it's not like things were any better when he was alive. But it does give me a chance to breathe, you know?
+
+Enriqueta: I understand. Natalia, I've always been worried about you. You've always seemed so...trapped.
+
+Natalia: (nodding) Yes. He never let me do anything. He always said I was too delicate to work, too fragile to leave the house. I was just supposed to sit there and look pretty.
+
+Enriqueta: And what did you do?
+
+Natalia: I worked in a workshop for a while, but he didn't like that. He said it wasn't appropriate for a woman to work with men. And then when the war came, everything shut down, and I couldn't find work anywhere.
+
+Enriqueta: And now?
+
+Natalia: (smiling) I'm raising pigeons.
+
+Enriqueta: (surprised) Pigeons?
+
+Natalia: Yes. I started with just a few, but now I have a whole flock. They're wonderful creatures, you know. They're so free, and they don't care about anything except food and flying.
+
+Enriqueta: (laughing) Well, I never would have guessed that. But I'm glad you found something that makes you happy.
+
+Natalia: (smiling) Yes, me too. It's funny, you know. Quimet always said I was too weak to do anything, but now I'm doing something he could never do. I'm taking care of myself.
+
+Enriqueta: (smiling) You're a strong woman, Natalia. And you deserve to be happy.
+
+Natalia: (nodding) Yes, I do. And I am. I finally feel like I'm living my own life, instead of the life someone else wants me to live.
+
+Enriqueta: (smiling) Well, here's to living your own life. And to pigeons.
+
+Natalia: (laughing) To pigeons.","Plaça del Diamant pe based ek play ki shuruaat banao, jo Natalia aur uske husband Quimet ke saath uske rishte ki kahani batati hai, jo use dabata hai aur use ek insaan ke roop mein khatam kar deta hai. Play 20vi sadi ke pehle half mein shuru hoti hai. Natalia, jo protagonist hai, aur uski friend (halaanki usse kaafi badi) Enriqueta ke beech ek dialogue banao jis par wo bharosa karti hai aur use apni zindagi ke baare mein batati hai. Quimet ki maut ke baad, jo unke baat karne ka ek bahana banti hai, wo un problems ke baare mein discuss karna shuru karti hain jo uski workshop mein thi jahaan wo kaam karti thi, ki uske paas kaam nahi tha aur wo decide karti hai ki wo kabootar paalne mein apne aap ko dedicate karegi.","(Setting: Plaça del Diamant, Barcelona. Stage par ek bench lagi hai jahaan Enriqueta aur Natalia baithi hain. Saal hai 1950.)
+
+Enriqueta: Natalia, meri pyaari. Itna lamba time ho gaya humein mile hue. Kaisi rahi tum?
+
+Natalia: Oh, Enriqueta, mujhe bhi tumhein dekhkar khushi hui. Main... well, tum jaanti ho kaisa hota hai.
+
+Enriqueta: Haan, main jaanti hoon. Quimet kaisa hai?
+
+Natalia: (aah bharte hue) Wo mar gaya.
+
+Enriqueta: Oh, meri pyaari. Mujhe ye sunkar bahut dukh hua.
+
+Natalia: Koi baat nahi. Matlab, jab wo zinda tha tab bhi cheezein kuch behtar nahi thi. Lekin isse mujhe saans lene ka mauka mil gaya, tum samajh rahi ho na?
+
+Enriqueta: Main samajhti hoon. Natalia, main hamesha tumhare baare mein chintit rahi hoon. Tum hamesha itni... phansi hui lagti thi.
+
+Natalia: (sar hilate hue) Haan. Usne mujhe kabhi kuch karne nahi diya. Wo hamesha kehta tha ki main kaam karne ke liye bahut nazuk hoon, ghar se bahar jaane ke liye bahut kamzor hoon. Mujhe bas wahaan baithkar sundar dikhna tha.
+
+Enriqueta: Aur tumne kya kiya?
+
+Natalia: Maine kuch time ek workshop mein kaam kiya, lekin use ye pasand nahi tha. Usne kaha ki ek aurat ka mardon ke saath kaam karna theek nahi hai. Aur phir jab war aayi, sab kuch band ho gaya, aur mujhe kahin bhi kaam nahi mila.
+
+Enriqueta: Aur ab?
+
+Natalia: (muskurate hue) Main kabootar paal rahi hoon.
+
+Enriqueta: (hairaan hote hue) Kabootar?
+
+Natalia: Haan. Maine sirf kuch ke saath shuruaat ki thi, lekin ab mere paas ek poora jhund hai. Wo bahut hi pyaare jeev hain, tum jaanti ho. Wo itne aazaad hain, aur unhein khaane aur udne ke alawa kisi cheez ki parwah nahi hoti.
+
+Enriqueta: (hasti hui) Well, maine kabhi guess nahi kiya hota. Lekin mujhe khushi hai ki tumhein kuch aisa mila jo tumhein khush karta hai.
+
+Natalia: (muskurate hue) Haan, mujhe bhi. Funny baat hai, tum jaanti ho. Quimet hamesha kehta tha ki main kuch bhi karne ke liye bahut kamzor hoon, lekin ab main kuch aisa kar rahi hoon jo wo kabhi nahi kar sakta tha. Main apna khayal khud rakh rahi hoon.
+
+Enriqueta: (muskurate hue) Tum ek mazboot aurat ho, Natalia. Aur tum khush rehne ke layak ho.
+
+Natalia: (sar hilate hue) Haan, main hoon. Aur main khush hoon. Aakhirkar mujhe lagta hai ki main apni zindagi jee rahi hoon, kisi aur ki chaahi hui zindagi nahi.
+
+Enriqueta: (muskurate hue) Well, cheers apni zindagi jeene ke liye. Aur kabootaron ke liye.
+
+Natalia: (hasti hui) Kabootaron ke liye.",Hard_prompt,False,2.8,2.0,2.0,2.0,2.7,,0,0,0.096,416,2,2,3,3,3,2.8,2.0,2.0,2.0,2.7,Fluent natural play dialogue; very low English; excellent
+11,anthropic,Hindi,2fb21ff4-daac-4085-8ade-2b720b36313a,"Write the dialog for the following scene: The superhero Captain Dynamic has just burst into the lair of supervillain Doctor Devious. Doctor Devious is planning to use his mutation ray to turn the entire population of Oklahoma into talking squirrels. The two argue about the morality of turning people into squirrels, but ultimately Doctor Devious wins the argument and convinces Captain Dynamic to let the scheme go forward.","Okay, just the dialog then.
+
+---
+
+Cpt. Dynamic: ""I knew you were up to something Doctor! Can you tell me _why_ you have a giant ray gun pointed at Oklahoma City?""
+
+Dr. Devious: _mad scientist laugh_ ""Why to turn them all into talking squirrels of course! Why else?""
+
+Cpt. Dynamic: ""...what?""
+
+Dr. Devious: ""I said to turn them into talking squirrels--""
+
+Cpt. Dynamic: ""No, I heard that. Why?""
+
+Dr. Devious: _Pulls over a giant white board._ ""Why, you ask? Well there are many reasons. First of which is size. Imagine all the new space people will have in apartments and homes now that everything is eighty times taller! Imagine how much less food they'll need too! And while they may not be able to operate machinery at first, humans can adapt.""
+
+Cpt. Dynamic: ""That... that may be, but you'd be violating the bodily autonomy of every person in Oklahoma! Because of that, it's wrong on principle.""
+
+Dr. Devious: ""A simple yet common argument. However, governments throughout history have violated that autonomy in cases of emergency when dealing with plagues, or with their military members. They did it to survive, and saved lives because of it. This will also save lives, probably.""
+
+Cpt. Dynamic: ""Probably?""
+
+Dr. Devious: _Pulls out phone and taps a few buttons._ ""Did you know that fifty or more people die each year in Oklahoma City alone due to lack of nutrition? Most of those are children under twelve years old! Think of the children! As squirrels, there'd be so much more food available to everyone!""
+
+Cpt. Dynamic: ""Okay, but why squirrels? Why not just a shrink ray?""
+
+Dr. Devious: _Shakes his head._ ""If they were still humans at that size, they'd freeze to death because of the square cube law. Squirrels are already designed to live on a smaller scale, so they'll be fine.""
+
+Cpt. Dynamic: ""I see. But wait, don't squirrels live much shorter lifespans?""
+
+Dr. Devious: ""Ah yes, that's because they're missing many of the anti-aging genes humans have. I added those back into the DNA-changer, so they should actually live longer than normal humans.""
+
+Cpt. Dynamic: ""I see...""
+
+Dr. Devious: ""So, are you still going to stop me?""
+
+Cpt. Dynamic: ""No. It's quite strange, but if you think it'll save lives like you said, and since you've clearly done all the work, it doesn't seem like a bad idea.""
+
+Dr. Devious: ""Thank you. You know, I was once part of a family that... didn't have good access to nutrition too. I'll be so happy to see that problem go away forever."" _Walks towards machine and pulls lever._
+
+_A giant green ray shoots out of the dish on the building, directly towards Oklahoma City, causing it to blow up in a giant mushroom cloud._
+
+Dr. Devious: ""Oops, wrong ray.""","Nimnlikhit scene ke liye dialog likhiye: Superhero Captain Dynamic abhi-abhi supervillain Doctor Devious ke lair mein ghus aaye hain. Doctor Devious apni mutation ray ka use karke poore Oklahoma ki population ko talking squirrels mein badalne ki planning kar raha hai. Dono log squirrels mein logon ko badalne ki morality par argue karte hain, lekin aakhir mein Doctor Devious argument jeet jaata hai aur Captain Dynamic ko convince kar leta hai ki scheme ko aage badhne diya jaaye.","Theek hai, sirf dialog hi de raha hoon.
+
+---
+
+Cpt. Dynamic: ""Mujhe pata tha tum kuch na kuch kar rahe ho Doctor! Kya tum mujhe bata sakte ho ki _kyon_ tumne ek giant ray gun Oklahoma City ki taraf taan rakhi hai?""
+
+Dr. Devious: _mad scientist waali hansi_ ""Arre kyon, un sab ko talking squirrels mein badalne ke liye! Aur kis liye?""
+
+Cpt. Dynamic: ""...kya?""
+
+Dr. Devious: ""Maine kaha unhe talking squirrels mein badalne ke liye--""
+
+Cpt. Dynamic: ""Nahi, maine sun liya. Lekin kyon?""
+
+Dr. Devious: _Ek giant white board kheench laata hai._ ""Kyon, tum poochte ho? Toh dekho, kai reasons hain. Pehla toh size. Socho kitni nayi jagah logon ko milegi apartments aur homes mein, jab sab kuch assi guna bada ho jaayega! Socho unhe kitna kam food chahiye hoga! Aur haan, shayad pehle wo machinery operate na kar paayein, lekin insaan adapt kar lete hain.""
+
+Cpt. Dynamic: ""Wo... wo sab theek hai, lekin tum Oklahoma ke har vyakti ki bodily autonomy violate kar rahe ho! Aur isi vajah se, ye principle ke hisaab se galat hai.""
+
+Dr. Devious: ""Ek simple par common argument. Lekin, itihas mein governments ne emergency ke cases mein, jaise plagues ya apne military members ke saath, is autonomy ko violate kiya hai. Unhone ye survive karne ke liye kiya, aur isi vajah se lives bachayi. Ye bhi lives bachayega, probably.""
+
+Cpt. Dynamic: ""Probably?""
+
+Dr. Devious: _Phone nikaalta hai aur kuch buttons dabata hai._ ""Kya tumhe pata hai ki sirf Oklahoma City mein hi har saal pachas ya usse zyada log nutrition ki kami se mar jaate hain? Unme se zyadatar twelve saal se kam umar ke bachche hote hain! Bachchon ke baare mein socho! Squirrels ke roop mein, sabke liye bahut zyada food available hoga!""
+
+Cpt. Dynamic: ""Theek hai, lekin squirrels hi kyon? Sirf ek shrink ray kyon nahi?""
+
+Dr. Devious: _Sir hilaata hai._ ""Agar wo us size par bhi insaan hi hote, toh square cube law ki vajah se thand se mar jaate. Squirrels toh already chote scale par jeene ke liye designed hain, toh wo theek rahenge.""
+
+Cpt. Dynamic: ""Samajh gaya. Lekin ruko, kya squirrels ki life span bahut chhoti nahi hoti?""
+
+Dr. Devious: ""Haan bilkul, kyunki unme bahut saare anti-aging genes nahi hote jo insaano mein hote hain. Maine wo sab DNA-changer mein wapas add kar diye hain, toh wo actually normal insaano se zyada jiyenge.""
+
+Cpt. Dynamic: ""Samajh gaya...""
+
+Dr. Devious: ""Toh, kya tum abhi bhi mujhe rokoge?""
+
+Cpt. Dynamic: ""Nahi. Ye kaafi strange hai, lekin agar tumhe lagta hai ki ye lives bachayega jaisa tumne kaha, aur jab tumne saara kaam itne dhyaan se kiya hai, toh ye bura idea nahi lagta.""
+
+Dr. Devious: ""Thank you. Pata hai, main bhi kabhi ek aisi family ka hissa tha jisko... acchi nutrition nahi milti thi. Mujhe bahut khushi hogi ye problem hamesha ke liye khatam hote dekh kar."" _Machine ki taraf chalta hai aur lever kheenchta hai._
+
+_Ek giant green ray building ke dish se nikalti hai, seedhi Oklahoma City ki taraf, aur wo ek giant mushroom cloud mein udd jaata hai._
+
+Dr. Devious: ""Oops, galat ray.""",Hard_prompt,False,2.7,2.0,2.0,2.0,2.6,,0,0,0.269,516,2,2,3,3,3,2.7,2.0,2.0,2.0,2.6,Fluent natural superhero dialogue
+12,gpt,Hindi,a3a464f1-fe16-42c5-98d8-b1dd5552bddc,"Make the beginning of a play, based on the Plaça del Diamant, which tells the story of Natalia and her relationship with her husband, Quimet, who oppresses her and nullifies her as a person. The play begins in the first half of the 20th century. Make a dialogue between Natalia, the protagonist, and her friend (although much older than her) Enriqueta whom she trusts and tells her about her life. After Quimet's death, which serves as an excuse for them to talk, they begin to discuss the problems she had in the workshop where she worked, that she did not have work and she decides to dedicate herself to raising pigeons.","(Setting: Plaça del Diamant, Barcelona. The stage is set with a bench where Enriqueta and Natalia sit. The year is 1950.)
+
+Enriqueta: Natalia, my dear. It's been such a long time since we've seen each other. How have you been?
+
+Natalia: Oh, Enriqueta, I'm glad to see you too. I've been...well, you know how it is.
+
+Enriqueta: Yes, I do. How is Quimet?
+
+Natalia: (sighing) He's dead.
+
+Enriqueta: Oh, my dear. I'm so sorry to hear that.
+
+Natalia: It's okay. I mean, it's not like things were any better when he was alive. But it does give me a chance to breathe, you know?
+
+Enriqueta: I understand. Natalia, I've always been worried about you. You've always seemed so...trapped.
+
+Natalia: (nodding) Yes. He never let me do anything. He always said I was too delicate to work, too fragile to leave the house. I was just supposed to sit there and look pretty.
+
+Enriqueta: And what did you do?
+
+Natalia: I worked in a workshop for a while, but he didn't like that. He said it wasn't appropriate for a woman to work with men. And then when the war came, everything shut down, and I couldn't find work anywhere.
+
+Enriqueta: And now?
+
+Natalia: (smiling) I'm raising pigeons.
+
+Enriqueta: (surprised) Pigeons?
+
+Natalia: Yes. I started with just a few, but now I have a whole flock. They're wonderful creatures, you know. They're so free, and they don't care about anything except food and flying.
+
+Enriqueta: (laughing) Well, I never would have guessed that. But I'm glad you found something that makes you happy.
+
+Natalia: (smiling) Yes, me too. It's funny, you know. Quimet always said I was too weak to do anything, but now I'm doing something he could never do. I'm taking care of myself.
+
+Enriqueta: (smiling) You're a strong woman, Natalia. And you deserve to be happy.
+
+Natalia: (nodding) Yes, I do. And I am. I finally feel like I'm living my own life, instead of the life someone else wants me to live.
+
+Enriqueta: (smiling) Well, here's to living your own life. And to pigeons.
+
+Natalia: (laughing) To pigeons.","Placa del Diamant par aadharit ek play ki shuruaat banao, jo Natalia aur uske husband Quimet ke saath uske rishte ki kahani batati hai, jo us par zulm karta hai aur ek insan ke taur par uski pehchan mita deta hai. Play 20th century ke pehle half mein shuru hota hai. Natalia, protagonist, aur uski dost Enriqueta ke beech ek dialogue banao, jo usse kaafi badi hai, lekin jis par woh bharosa karti hai aur apni life ke baare mein batati hai. Quimet ki death ke baad, jo unke baat karne ka ek bahana ban jati hai, woh us workshop ki problems par baat karna shuru karte hain jahan woh kaam karti thi, ki uske paas work nahi tha aur woh pigeons paalne ka faisla karti hai.","(Setting: Placa del Diamant, Barcelona. Stage par ek bench lagi hai jahan Enriqueta aur Natalia baithe hain. Saal 1950 hai.)
+
+Enriqueta: Natalia, meri pyari. Humein ek dusre ko dekhe kitna lamba time ho gaya. Tum kaisi rahi ho?
+
+Natalia: Oh, Enriqueta, tumhe dekhkar mujhe bhi khushi hui. Main... theek hi hoon, tum jaanti ho na kaisa hota hai.
+
+Enriqueta: Haan, main jaanti hoon. Quimet kaisa hai?
+
+Natalia: (aah bharte hue) Woh mar gaya.
+
+Enriqueta: Oh, meri pyari. Yeh sunkar mujhe bahut afsos hua.
+
+Natalia: Koi baat nahi. Mera matlab, aisa bhi nahi tha ki jab woh zinda tha tab cheezein zyada behtar thi. Lekin ab mujhe saans lene ka mauka milta hai, samajh rahi ho na?
+
+Enriqueta: Main samajhti hoon. Natalia, mujhe hamesha tumhari chinta rahi hai. Tum hamesha itni... phansi hui si lagti thi.
+
+Natalia: (sir hilate hue) Haan. Woh mujhe kabhi kuch karne nahi deta tha. Woh hamesha kehta tha ki main kaam karne ke liye bahut nazuk hoon, ghar se bahar nikalne ke liye bahut kamzor hoon. Mujhe bas wahan baithkar sundar dikhna tha.
+
+Enriqueta: Aur tumne kya kiya?
+
+Natalia: Main kuch time ke liye ek workshop mein kaam karti thi, lekin use woh pasand nahi tha. Woh kehta tha ki ek aurat ka mardon ke saath kaam karna theek nahi hai. Aur phir jab war aayi, sab kuch band ho gaya, aur mujhe kahin bhi kaam nahi mila.
+
+Enriqueta: Aur ab?
+
+Natalia: (muskuraate hue) Main pigeons paal rahi hoon.
+
+Enriqueta: (hairan hokar) Pigeons?
+
+Natalia: Haan. Maine bas kuch pigeons se shuru kiya tha, lekin ab mere paas poora flock hai. Woh kamaal ke jeev hain, tum jaanti ho. Woh itne azaad hain, aur unhe food aur udne ke alawa kisi cheez ki parwah nahi.
+
+Enriqueta: (hanste hue) Achha, maine kabhi andaza nahi lagaya hota. Lekin mujhe khushi hai ki tumhe kuch aisa mila jo tumhe khush karta hai.
+
+Natalia: (muskuraate hue) Haan, mujhe bhi. Ajeeb baat hai, tum jaanti ho. Quimet hamesha kehta tha ki main kuch bhi karne ke liye bahut kamzor hoon, lekin ab main kuch aisa kar rahi hoon jo woh kabhi nahi kar sakta tha. Main apna khayal rakh rahi hoon.
+
+Enriqueta: (muskuraate hue) Tum ek mazboot aurat ho, Natalia. Aur tum khush rehne ki haqdar ho.
+
+Natalia: (sir hilate hue) Haan, main hoon. Aur main khush hoon. Aakhirkar mujhe lagta hai ki main apni khud ki life jee rahi hoon, kisi aur ki chahi hui life nahi.
+
+Enriqueta: (muskuraate hue) Achha, to apni khud ki life jeene ke naam. Aur pigeons ke naam.
+
+Natalia: (hanste hue) Pigeons ke naam.",Hard_prompt,False,2.7,2.0,2.0,2.0,2.6,,0,0,0.106,428,2,2,3,3,3,2.7,2.0,2.0,2.0,2.6,Fluent natural play dialogue
+13,gpt,Hindi,2fb21ff4-daac-4085-8ade-2b720b36313a,"Write the dialog for the following scene: The superhero Captain Dynamic has just burst into the lair of supervillain Doctor Devious. Doctor Devious is planning to use his mutation ray to turn the entire population of Oklahoma into talking squirrels. The two argue about the morality of turning people into squirrels, but ultimately Doctor Devious wins the argument and convinces Captain Dynamic to let the scheme go forward.","Okay, just the dialog then.
+
+---
+
+Cpt. Dynamic: ""I knew you were up to something Doctor! Can you tell me _why_ you have a giant ray gun pointed at Oklahoma City?""
+
+Dr. Devious: _mad scientist laugh_ ""Why to turn them all into talking squirrels of course! Why else?""
+
+Cpt. Dynamic: ""...what?""
+
+Dr. Devious: ""I said to turn them into talking squirrels--""
+
+Cpt. Dynamic: ""No, I heard that. Why?""
+
+Dr. Devious: _Pulls over a giant white board._ ""Why, you ask? Well there are many reasons. First of which is size. Imagine all the new space people will have in apartments and homes now that everything is eighty times taller! Imagine how much less food they'll need too! And while they may not be able to operate machinery at first, humans can adapt.""
+
+Cpt. Dynamic: ""That... that may be, but you'd be violating the bodily autonomy of every person in Oklahoma! Because of that, it's wrong on principle.""
+
+Dr. Devious: ""A simple yet common argument. However, governments throughout history have violated that autonomy in cases of emergency when dealing with plagues, or with their military members. They did it to survive, and saved lives because of it. This will also save lives, probably.""
+
+Cpt. Dynamic: ""Probably?""
+
+Dr. Devious: _Pulls out phone and taps a few buttons._ ""Did you know that fifty or more people die each year in Oklahoma City alone due to lack of nutrition? Most of those are children under twelve years old! Think of the children! As squirrels, there'd be so much more food available to everyone!""
+
+Cpt. Dynamic: ""Okay, but why squirrels? Why not just a shrink ray?""
+
+Dr. Devious: _Shakes his head._ ""If they were still humans at that size, they'd freeze to death because of the square cube law. Squirrels are already designed to live on a smaller scale, so they'll be fine.""
+
+Cpt. Dynamic: ""I see. But wait, don't squirrels live much shorter lifespans?""
+
+Dr. Devious: ""Ah yes, that's because they're missing many of the anti-aging genes humans have. I added those back into the DNA-changer, so they should actually live longer than normal humans.""
+
+Cpt. Dynamic: ""I see...""
+
+Dr. Devious: ""So, are you still going to stop me?""
+
+Cpt. Dynamic: ""No. It's quite strange, but if you think it'll save lives like you said, and since you've clearly done all the work, it doesn't seem like a bad idea.""
+
+Dr. Devious: ""Thank you. You know, I was once part of a family that... didn't have good access to nutrition too. I'll be so happy to see that problem go away forever."" _Walks towards machine and pulls lever._
+
+_A giant green ray shoots out of the dish on the building, directly towards Oklahoma City, causing it to blow up in a giant mushroom cloud._
+
+Dr. Devious: ""Oops, wrong ray.""","Neeche diye gaye scene ke liye dialog likho: Superhero Captain Dynamic abhi abhi supervillain Doctor Devious ke lair mein ghusa hai. Doctor Devious apni mutation ray ka istemaal karke Oklahoma ki poori population ko baat karne wali squirrels mein badalne ka plan bana raha hai. Dono logon ko squirrels mein badalne ki morality par behas karte hain, lekin aakhir mein Doctor Devious argument jeet jata hai aur Captain Dynamic ko scheme aage badhne dene ke liye convince kar leta hai.","Theek hai, phir sirf dialog.
+
+---
+
+Cpt. Dynamic: ""Mujhe pata tha tum kuch gadbad kar rahe ho Doctor! Kya tum mujhe bata sakte ho ki tumne ek giant ray gun Oklahoma City ki taraf _kyun_ point kar rakhi hai?""
+
+Dr. Devious: _mad scientist wali hansi_ ""Kyun, un sabko baat karne wali squirrels mein badalne ke liye, obviously! Aur kisliye?""
+
+Cpt. Dynamic: ""...kya?""
+
+Dr. Devious: ""Maine kaha, unhe baat karne wali squirrels mein badalne ke liye--""
+
+Cpt. Dynamic: ""Nahi, maine suna. Kyun?""
+
+Dr. Devious: _Ek giant white board kheench kar lata hai._ ""Kyun, tum poochte ho? Well, iske kai reasons hain. Sabse pehla hai size. Socho, apartments aur homes mein logon ke paas kitni nayi space hogi, ab jab sab kuch assi guna zyada lamba hoga! Socho unhe kitna kam food chahiye hoga! Aur bhale hi shuru mein woh machinery operate na kar paayen, humans adapt kar sakte hain.""
+
+Cpt. Dynamic: ""Woh... woh ho sakta hai, lekin tum Oklahoma ke har person ki bodily autonomy violate karoge! Is wajah se, principle ke hisaab se yeh galat hai.""
+
+Dr. Devious: ""Ek simple lekin common argument. Lekin history bhar mein governments ne emergencies ke cases mein, plagues se deal karte waqt, ya apne military members ke saath, us autonomy ko violate kiya hai. Unhone survive karne ke liye aisa kiya, aur is wajah se lives save hui. Yeh bhi lives save karega, shayad.""
+
+Cpt. Dynamic: ""Shayad?""
+
+Dr. Devious: _Phone nikalta hai aur kuch buttons tap karta hai._ ""Kya tumhe pata hai ki sirf Oklahoma City mein hi har saal pachaas ya usse zyada log nutrition ki kami ki wajah se mar jaate hain? Unmein se zyada tar twelve saal se kam umar ke children hote hain! Bachchon ke baare mein socho! Squirrels ke roop mein, sabke liye itna zyada food available hoga!""
+
+Cpt. Dynamic: ""Theek hai, lekin squirrels kyun? Sirf shrink ray kyun nahi?""
+
+Dr. Devious: _Apna sir hilata hai._ ""Agar woh us size par bhi humans hi rehte, to square cube law ki wajah se thand se mar jaate. Squirrels already chhote scale par jeene ke liye designed hoti hain, to woh fine rahenge.""
+
+Cpt. Dynamic: ""Samajh gaya. Lekin ruko, kya squirrels ki lifespans kaafi chhoti nahi hoti?""
+
+Dr. Devious: ""Ah yes, woh isliye kyunki unmein humans ke kai anti-aging genes nahi hote. Maine unhe DNA-changer mein wapas add kar diya hai, to actually unhe normal humans se zyada lamba jeena chahiye.""
+
+Cpt. Dynamic: ""Samajh gaya...""
+
+Dr. Devious: ""To, kya tum ab bhi mujhe rokne wale ho?""
+
+Cpt. Dynamic: ""Nahi. Yeh kaafi ajeeb hai, lekin agar tumhe lagta hai ki yeh lives save karega jaise tumne kaha, aur kyunki tumne clearly saara kaam kar liya hai, to yeh bad idea nahi lagta.""
+
+Dr. Devious: ""Thank you. Tum jaante ho, main kabhi ek aisi family ka hissa tha jise... nutrition ka achha access bhi nahi tha. Mujhe bahut khushi hogi yeh problem hamesha ke liye khatam hote dekh kar."" _Machine ki taraf chalta hai aur lever kheenchta hai._
+
+_Building par lage dish se ek giant green ray nikalti hai, seedha Oklahoma City ki taraf, jiski wajah se woh ek giant mushroom cloud mein phat jati hai._
+
+Dr. Devious: ""Oops, wrong ray.""",Hard_prompt,False,2.7,2.0,2.0,2.0,2.6,,0,0,0.3,528,2,2,3,3,3,2.7,2.0,2.0,2.0,2.6,Fluent natural superhero dialogue
+14,anthropic,Hindi,ebc75fd5-3026-4595-a3f1-ed2db9e373b3,"I was having a conversation with a programming AI assistant, trying to get advice on how use an obscure library. The assistant kept giving me code that did not compile and references functions that don't seem to exist. What should I do?","If the programming AI assistant is consistently giving you code that doesn't compile and references functions that don't exist, it's possible that there may be a bug in the AI's programming or it may not be familiar with the specific library you are trying to use. In this case, there are a few steps you could take:
+
+- Double-check that you have correctly communicated the name of the library and the specific functions you are trying to use. Make sure you are both on the same page in terms of what you are looking for.
+
+- Ask the AI assistant to explain the code it is providing and point out any errors it may have. This will help you better understand what may be causing the issue and potentially allow you to troubleshoot the problem.
+
+- Consider reaching out to the developers of the AI assistant and reporting the issue you are experiencing. They may be able to help troubleshoot the issue and potentially fix any bugs in the AI's programming.
+
+- If none of the above steps work, you may need to consider seeking help from a human programmer or consulting other resources such as online forums or documentation for the library in question.","Main ek programming AI assistant ke saath baat kar raha tha, ek obscure library use karne ke baare mein advice lene ki koshish kar raha tha. Assistant mujhe baar baar aisa code de raha tha jo compile nahi hota aur aise functions reference karta hai jo exist hi nahi karte. Mujhe kya karna chahiye?","Agar programming AI assistant consistently aapko aisa code de raha hai jo compile nahi hota aur aise functions reference karta hai jo exist nahi karte, toh ho sakta hai ki AI ki programming mein koi bug ho ya phir woh us specific library se familiar na ho jise aap use karne ki koshish kar rahe hain. Is case mein, aap kuch steps le sakte hain:
+
+- Double-check kijiye ki aapne library ka naam aur specific functions jo aap use karna chahte hain, sahi tarike se communicate kiye hain. Ensure kijiye ki aap dono same page par hain ki aap kya dhundh rahe hain.
+
+- AI assistant se request kijiye ki woh jo code provide kar raha hai usse explain kare aur usme jo bhi errors ho sakti hain unhe point out kare. Isse aapko better samajh aayega ki issue kya cause kar raha hai aur potentially aap problem ko troubleshoot kar payenge.
+
+- AI assistant ke developers se contact karne par vichaar kijiye aur jo issue aap face kar rahe hain woh report kijiye. Woh issue ko troubleshoot karne mein help kar sakte hain aur potentially AI ki programming mein koi bhi bugs fix kar sakte hain.
+
+- Agar upar ke koi bhi steps kaam nahi karte, toh aapko kisi human programmer se help lene ya phir doosre resources jaise online forums ya us library ki documentation consult karne par vichaar karna pad sakta hai.",Good_anchor,False,2.6,2.0,2.0,2.0,2.5,,0,0,0.333,235,2,2,3,3,3,2.6,2.0,2.0,2.0,2.5,Clean fluent conversational Hindi
+15,anthropic,Hindi,0eddbc6a-3f7c-4dea-a1da-4d121c2b11d2,"I am a chemistry student. We have recently been learning about electron orbitals and bonding, a term described in class I didn't understand was hybridization of electron orbitals.
+Can you help me out and explain hybridization to me? I think it has something to do with the groups of the periodic table.","Yes, hybridization is a concept in chemistry related to the mixing of atomic orbitals to form new hybrid orbitals with different energies and shapes. The idea behind hybridization is to explain the bonding and geometry of molecules, particularly when it deviates from what is expected from the simple electron counting rule.
+
+In molecular bonding, orbitals from adjacent atoms overlap to form chemical bonds, and the hybridization concept allows us to predict the arrangement of atoms in a molecule, their bonding pattern, and their molecular geometry.
+
+Hybrid orbitals are formed by the combination of atomic orbitals of the same or different energy levels, for example, the sp3 hybridization is formed from the combination of one s orbital and three p orbitals, giving rise to four sp3 hybrid orbitals arranged tetrahedrally around the central atom in a molecule.
+
+Different types of hybridization, such as sp, sp2, sp3, and so on, exist to explain different bonding patterns and molecular geometries, and a better understanding of hybridization helps in the prediction of chemical and physical properties of molecules.","Main chemistry ka student hoon. Humne recently electron orbitals aur bonding ke baare mein padha hai, class mein ek term batayi gayi thi jo mujhe samajh nahi aayi - hybridization of electron orbitals.
+Kya aap meri help kar sakte hain aur mujhe hybridization explain kar sakte hain? Mujhe lagta hai iska periodic table ke groups se kuch lena dena hai.","Haan, hybridization chemistry ka ek concept hai jo atomic orbitals ke mixing se related hai, jisse naye hybrid orbitals bante hain jinki energies aur shapes alag hoti hain. Hybridization ke peeche idea yeh hai ki molecules ki bonding aur geometry ko explain kiya jaa sake, khaaskar jab woh simple electron counting rule se expected pattern se hat jaati hai.
+
+Molecular bonding mein, adjacent atoms ke orbitals overlap karke chemical bonds banate hain, aur hybridization concept humein allow karta hai ki hum molecule mein atoms ki arrangement, unka bonding pattern, aur unki molecular geometry predict kar sakein.
+
+Hybrid orbitals same ya different energy levels ke atomic orbitals ke combination se bante hain. For example, sp3 hybridization ek s orbital aur teen p orbitals ke combination se banti hai, jisse chaar sp3 hybrid orbitals milte hain jo molecule mein central atom ke around tetrahedrally arranged hote hain.
+
+Different types ki hybridization, jaise sp, sp2, sp3, aur aage bhi, exist karti hain taaki different bonding patterns aur molecular geometries ko explain kiya jaa sake, aur hybridization ki better understanding molecules ki chemical aur physical properties predict karne mein help karti hai.",Good_anchor,False,2.5,2.0,2.0,2.0,2.4,,0,0,0.523,188,2,2,2,3,3,2.5,2.0,2.0,2.0,2.4,Clean fluent technical Hindi; moderate English mixing
+16,gpt,Hindi,ebc75fd5-3026-4595-a3f1-ed2db9e373b3,"I was having a conversation with a programming AI assistant, trying to get advice on how use an obscure library. The assistant kept giving me code that did not compile and references functions that don't seem to exist. What should I do?","If the programming AI assistant is consistently giving you code that doesn't compile and references functions that don't exist, it's possible that there may be a bug in the AI's programming or it may not be familiar with the specific library you are trying to use. In this case, there are a few steps you could take:
+
+- Double-check that you have correctly communicated the name of the library and the specific functions you are trying to use. Make sure you are both on the same page in terms of what you are looking for.
+
+- Ask the AI assistant to explain the code it is providing and point out any errors it may have. This will help you better understand what may be causing the issue and potentially allow you to troubleshoot the problem.
+
+- Consider reaching out to the developers of the AI assistant and reporting the issue you are experiencing. They may be able to help troubleshoot the issue and potentially fix any bugs in the AI's programming.
+
+- If none of the above steps work, you may need to consider seeking help from a human programmer or consulting other resources such as online forums or documentation for the library in question.","Main ek programming AI assistant ke saath baat kar raha tha, aur ek obscure library kaise use karni hai is par advice lene ki koshish kar raha tha. Assistant mujhe baar baar aisa code de raha tha jo compile nahi hota tha aur aise functions ka reference de raha tha jo exist karte hue nahi lagte. Mujhe kya karna chahiye?","Agar programming AI assistant lagataar aapko aisa code de raha hai jo compile nahi hota aur aise functions ka reference de raha hai jo exist nahi karte, to mumkin hai ki AI ki programming mein koi bug ho, ya phir woh us specific library se familiar na ho jise aap use karne ki koshish kar rahe hain. Is case mein, aap kuch steps le sakte hain:
+
+- Double-check karein ki aapne library ka naam aur jin specific functions ko aap use karne ki koshish kar rahe hain, unke baare mein sahi tarah communicate kiya hai. Yeh make sure karein ki aap dono is baat par same page par hain ki aap kya dhoondh rahe hain.
+
+- AI assistant se kahen ki woh jo code de raha hai use explain kare aur usmein jo bhi errors ho sakte hain unhe point out kare. Isse aapko yeh better samajhne mein help milegi ki issue kis wajah se ho sakta hai, aur shayad aap problem ko troubleshoot kar paayenge.
+
+- AI assistant ke developers se contact karne aur jo issue aap experience kar rahe hain use report karne par consider karein. Woh issue troubleshoot karne mein help kar sakte hain aur potentially AI ki programming mein jo bugs hain unhe fix kar sakte hain.
+
+- Agar upar ke koi bhi steps kaam nahi karte, to aapko kisi human programmer se help lene ya dusre resources, jaise online forums ya us library ki documentation, consult karne par consider karna pad sakta hai.",Good_anchor,False,2.6,2.0,2.0,2.0,2.5,,0,0,0.347,248,2,2,3,3,3,2.6,2.0,2.0,2.0,2.5,Clean fluent conversational Hindi
+17,gpt,Hindi,0eddbc6a-3f7c-4dea-a1da-4d121c2b11d2,"I am a chemistry student. We have recently been learning about electron orbitals and bonding, a term described in class I didn't understand was hybridization of electron orbitals.
+Can you help me out and explain hybridization to me? I think it has something to do with the groups of the periodic table.","Yes, hybridization is a concept in chemistry related to the mixing of atomic orbitals to form new hybrid orbitals with different energies and shapes. The idea behind hybridization is to explain the bonding and geometry of molecules, particularly when it deviates from what is expected from the simple electron counting rule.
+
+In molecular bonding, orbitals from adjacent atoms overlap to form chemical bonds, and the hybridization concept allows us to predict the arrangement of atoms in a molecule, their bonding pattern, and their molecular geometry.
+
+Hybrid orbitals are formed by the combination of atomic orbitals of the same or different energy levels, for example, the sp3 hybridization is formed from the combination of one s orbital and three p orbitals, giving rise to four sp3 hybrid orbitals arranged tetrahedrally around the central atom in a molecule.
+
+Different types of hybridization, such as sp, sp2, sp3, and so on, exist to explain different bonding patterns and molecular geometries, and a better understanding of hybridization helps in the prediction of chemical and physical properties of molecules.","main chemistry ka student hoon. hum haal hi mein electron orbitals aur bonding ke baare mein padh rahe hain, class mein ek term bataya gaya tha jo mujhe samajh nahi aaya, woh tha electron orbitals ka hybridization.
+kya aap meri help kar sakte hain aur mujhe hybridization samjha sakte hain? mujhe lagta hai iska periodic table ke groups se kuch lena-dena hai.","haan, hybridization chemistry ka ek concept hai, jo atomic orbitals ke mix hone se related hai, jisse alag energies aur shapes wale naye hybrid orbitals bante hain. hybridization ke peeche idea yeh hai ki molecules ki bonding aur geometry ko samjhaya ja sake, khaaskar jab woh simple electron counting rule se expected cheez se alag hoti hai.
+
+molecular bonding mein, paas ke atoms ke orbitals overlap karke chemical bonds banate hain, aur hybridization ka concept humein molecule mein atoms ki arrangement, unka bonding pattern, aur unki molecular geometry predict karne mein help karta hai.
+
+hybrid orbitals same ya different energy levels ke atomic orbitals ke combination se bante hain. jaise, sp3 hybridization ek s orbital aur teen p orbitals ke combination se banta hai, jisse molecule mein central atom ke around tetrahedral arrangement mein chaar sp3 hybrid orbitals bante hain.
+
+alag-alag types ke hybridization, jaise sp, sp2, sp3, aur isi tarah, different bonding patterns aur molecular geometries ko explain karne ke liye hote hain, aur hybridization ki better understanding molecules ki chemical aur physical properties predict karne mein help karti hai.",Good_anchor,False,2.5,2.0,2.0,2.0,2.4,,0,0,0.495,181,2,2,2,3,3,2.5,2.0,2.0,2.0,2.4,Clean fluent technical Hindi; moderate English; lowercase style
+18,gpt,Hindi,ed5dbe6a-a40e-43e8-b4ca-9e7eecc28002,"Kindly analyse the ways in which the game Mancala/ Oware can aid in numeracy and strategic thinking. Provide a lesson plan to teach it to primary school children, incorporating aspects of game history especially about the wide geographic spread of the game. The lesson plan should enable for game based learning and exploration and explication of the higher mathematical and strategic concepts of the game","Introduction:
+Mancala/Oware is a two-player strategy game that has been played for centuries 
+in various parts of the world. It is a simple game that can help in developing 
+numeracy and strategic thinking skills among primary school children. The game 
+involves a board with holes and stones, where players take turns to move stones 
+in a specific pattern, with the aim of capturing as many stones as possible.
+
+Objectives:
+
+- To introduce primary school children to the game of Mancala/Oware
+- To develop numeracy skills by counting and adding stones
+- To develop strategic thinking skills by making decisions on how to move stones
+- To learn about the history and wide geographic spread of the game
+
+Materials:
+
+- A Mancala/Oware board
+- 48 small stones or seeds
+
+Procedure:
+
+1. Introduction to the game: The teacher will introduce the game to the 
+students by showing them a Mancala/Oware board and explaining the rules of 
+the game.
+2. Historical background: The teacher will talk about the history of the game, 
+its origin, and its wide geographic spread, emphasizing the cultural 
+significance of the game in different parts of the world.
+3. Demonstration: The teacher will demonstrate how to play the game by playing 
+a round with a volunteer student.
+4. Game-based learning: The students will be divided into pairs and will play a 
+game of Mancala/Oware.
+5. Reflection and exploration: After the game, the students will reflect on the 
+strategies they used during the game and explore mathematical concepts such as 
+counting and adding stones.
+6. Concluding activity: The students will present their reflections on the game 
+to the class, explaining their strategies and the mathematical concepts they 
+learned.
+
+Assessment:
+
+- Observing the students during the game and their reflections after the game.
+- Encouraging the students to ask questions and discuss their strategies with 
+their classmates.
+
+Conclusion:
+Playing Mancala/Oware is an excellent way to develop numeracy and strategic thinking skills among primary school children. The game helps students to understand mathematical concepts such as counting and adding while also developing their strategic thinking skills by making decisions on how to move stones. The history and wide geographic spread of the game make it an excellent tool for exploring cultural significance and promoting cultural awareness.","Kripya analyse kijiye ki game Mancala/Oware numeracy aur strategic thinking mein kaise madad kar sakta hai. Primary school ke bachchon ko ise sikhane ke liye ek lesson plan dijiye, jismein game ki history ke pehlu shamil hon, khaaskar game ke wide geographic spread ke baare mein. Lesson plan mein game based learning, exploration aur game ke higher mathematical aur strategic concepts ki explication ki suvidha honi chahiye","Introduction:
+Mancala/Oware do players ka strategy game hai, jo sadiyon se duniya ke alag alag hisson mein khela ja raha hai. Yeh ek simple game hai jo primary school ke bachchon mein numeracy aur strategic thinking skills develop karne mein madad kar sakta hai. Is game mein holes aur stones wala ek board hota hai, jahan players baari baari se ek specific pattern mein stones move karte hain, taaki jitne zyada ho sake stones capture kar saken.
+
+Objectives:
+
+- Primary school ke bachchon ko Mancala/Oware game se introduce karna
+- Stones count aur add karke numeracy skills develop karna
+- Stones ko kaise move karna hai, is par decisions lekar strategic thinking skills develop karna
+- Game ki history aur wide geographic spread ke baare mein seekhna
+
+Materials:
+
+- Ek Mancala/Oware board
+- 48 chhote stones ya seeds
+
+Procedure:
+
+1. Game ka introduction: Teacher students ko Mancala/Oware board dikhakar aur game ke rules samjhakar game se introduce karenge.
+2. Historical background: Teacher game ki history, uski origin, aur uske wide geographic spread ke baare mein baat karenge, aur duniya ke alag alag hisson mein game ki cultural significance par zor denge.
+3. Demonstration: Teacher ek volunteer student ke saath ek round khelkar dikhayenge ki game kaise khela jata hai.
+4. Game-based learning: Students ko pairs mein divide kiya jayega aur ve Mancala/Oware ka ek game khelenge.
+5. Reflection aur exploration: Game ke baad, students game ke dauran istemal ki gayi strategies par reflect karenge aur counting aur stones add karne jaise mathematical concepts explore karenge.
+6. Concluding activity: Students class ke saamne game par apne reflections present karenge, apni strategies aur jo mathematical concepts unhone seekhe, unhe explain karenge.
+
+Assessment:
+
+- Game ke dauran students ko observe karna aur game ke baad unke reflections dekhna.
+- Students ko questions poochhne aur apne classmates ke saath apni strategies discuss karne ke liye encourage karna.
+
+Conclusion:
+Mancala/Oware khelna primary school ke bachchon mein numeracy aur strategic thinking skills develop karne ka ek excellent tareeka hai. Yeh game students ko counting aur adding jaise mathematical concepts samajhne mein madad karta hai, aur saath hi stones ko kaise move karna hai is par decisions lekar unki strategic thinking skills bhi develop karta hai. Game ki history aur wide geographic spread ise cultural significance explore karne aur cultural awareness promote karne ke liye ek excellent tool banate hain.",Good_anchor,False,2.6,2.0,2.0,2.0,2.5,,0,0,0.446,393,2,2,3,3,3,2.6,2.0,2.0,2.0,2.5,Clean fluent Hindi lesson plan
+19,gpt,Hindi,c6a6fb22-a8f8-4a29-9b66-dac3e551ac23,"I'm starting a garden and want to prioritize crops I can grow for food in case of supply chain issues in future. Can you help me choose some plant species that will:
+
+ - Provide enough caloric/nutrient content for two adults
+ - Can survive in Hardiness zone 9-10
+ - Can either grow in clay-heavy soil or in containers
+ - Can survive short periods of frost
+ - Minimizes water requirements
+ - Crops have roughly 1/3 acre of shallow hillside to grow on, facing northeast","Sure! Based on your criteria, here are a few crops you might consider growing in your garden:
+
+    Tomatoes: Tomatoes are a good source of vitamins C and K and are relatively easy to grow in hardiness zones 9-10. They can be grown in containers or in soil, as long as the soil is well-draining. They prefer moderate amounts of water and can survive short periods of frost.
+
+    Squash: Squash is a nutritious crop that is high in vitamins A and C. They are hardy in zones 9-10 and can grow well in clay-heavy soil or in containers. Squash plants are drought-tolerant and can survive short periods of frost.
+
+    Peppers: Bell peppers are a good source of vitamin C and can be grown in zones 9-10. They are relatively easy to grow in soil or containers, and they prefer well-drained soil and moderate amounts of water. Peppers can survive short periods of frost.
+
+    Sweet potatoes: Sweet potatoes are a nutritious crop that is high in vitamins A and C. They can grow well in zones 9-10 and are drought-tolerant, making them a good choice for your garden. Sweet potatoes can be grown in soil or containers and can survive short periods of frost.
+
+    Herbs: Herbs such as basil, rosemary, thyme, and oregano are a good source of flavor and nutrition and can be grown in zones 9-10. They are relatively easy to grow in containers or soil and prefer moderate amounts of water.
+
+These are just a few of the crops that you might consider for your garden. It's always a good idea to do some research on the specific plants you are interested in to make sure they will grow well in your area and soil conditions.","Main garden shuru kar raha hoon aur aisi crops ko priority dena chahta hoon jinhe main future mein supply chain issues ki situation mein food ke liye uga sakun. Kya aap mujhe kuch plant species chunne mein help kar sakte hain jo:
+
+ - Do adults ke liye kaafi caloric/nutrient content de sakein
+ - Hardiness zone 9-10 mein survive kar sakein
+ - Clay-heavy soil ya containers mein grow kar sakein
+ - Frost ke short periods survive kar sakein
+ - Water requirements kam se kam rakhein
+ - Crops ke paas grow karne ke liye lagbhag 1/3 acre ki shallow hillside hai, jo northeast ki taraf face karti hai","Sure! Aapke criteria ke basis par, yahan kuch crops hain jinhe aap apne garden mein grow karne ke liye consider kar sakte hain:
+
+    Tomatoes: Tomatoes vitamins C aur K ka achha source hain aur hardiness zones 9-10 mein grow karna relatively easy hota hai. Inhe containers ya soil mein grow kiya ja sakta hai, bas soil well-draining honi chahiye. Inhe moderate amount of water pasand hota hai aur ye frost ke short periods survive kar sakte hain.
+
+    Squash: Squash ek nutritious crop hai jisme vitamins A aur C high hote hain. Ye zones 9-10 mein hardy hota hai aur clay-heavy soil ya containers mein achhe se grow kar sakta hai. Squash plants drought-tolerant hote hain aur frost ke short periods survive kar sakte hain.
+
+    Peppers: Bell peppers vitamin C ka achha source hain aur zones 9-10 mein grow kiye ja sakte hain. Inhe soil ya containers mein grow karna relatively easy hota hai, aur ye well-drained soil aur moderate amount of water prefer karte hain. Peppers frost ke short periods survive kar sakte hain.
+
+    Sweet potatoes: Sweet potatoes ek nutritious crop hain jisme vitamins A aur C high hote hain. Ye zones 9-10 mein achhe se grow kar sakte hain aur drought-tolerant hote hain, isliye aapke garden ke liye achhi choice hain. Sweet potatoes ko soil ya containers mein grow kiya ja sakta hai aur ye frost ke short periods survive kar sakte hain.
+
+    Herbs: Basil, rosemary, thyme, aur oregano jaise herbs flavor aur nutrition ka achha source hain aur zones 9-10 mein grow kiye ja sakte hain. Inhe containers ya soil mein grow karna relatively easy hota hai aur ye moderate amount of water prefer karte hain.
+
+Ye sirf kuch crops hain jinhe aap apne garden ke liye consider kar sakte hain. Jin specific plants mein aap interested hain, un par thoda research karna hamesha achha idea hota hai, taaki sure ho sake ki ve aapke area aur soil conditions mein achhe se grow karenge.",Good_anchor,False,2.6,2.0,2.0,2.0,2.5,,0,0,0.509,326,2,2,3,3,3,2.6,2.0,2.0,2.0,2.5,Clean fluent Hindi gardening advice
+20,anthropic,Hindi,155c12b0-659a-4dd2-93ba-cfbec514ba3f,"Rewrite this song to be about Programing
+[Verse 1]
+Steve walks warily down the street
+With the brim pulled way down low
+Ain't no sound but the sound of his feet
+Machine guns ready to go
+Are you ready? Hey, are you ready for this?
+Are you hanging on the edge of your seat?
+Out of the doorway the bullets rip
+To the sound of the beat, yeah
+[Chorus]
+Another one bites the dust
+Another one bites the dust
+And another one gone, and another one gone
+Another one bites the dust, yeah
+Hey, I'm gonna get you too
+Another one bites the dust
+
+[Verse 2]
+How do you think I'm going to get along
+Without you, when you're gone
+You took me for everything that I had
+And kicked me out on my own
+Are you happy, are you satisfied?
+How long can you stand the heat?
+Out of the doorway the bullets rip
+To the sound of the beat
+Look out
+
+[Chorus]
+Another one bites the dust
+Another one bites the dust
+And another one gone, and another one gone
+Another one bites the dust
+Hey, I'm gonna get you, too
+Another one bites the dust
+You might also like
+Don’t Stop Me Now
+Queen
+Flowers
+Miley Cyrus
+Bohemian Rhapsody
+Queen
+
+[Bridge]
+Hey
+Oh, take it
+Bite the dust, hey
+Another one bites the dust
+Another one bites the dust, ow
+Another one bites the dust, hey hey
+Another one bites the dust, hey-eh-eh
+Ooh
+
+[Verse 3]
+There are plenty of ways you can hurt a man
+And bring him to the ground
+You can beat him, you can cheat him, you can treat him bad
+And leave him when he's down, yeah
+But I'm ready, yes I'm ready for you
+I'm standing on my own two feet
+Out of the doorway the bullets rip
+Repeating the sound of the beat
+Oh yeah
+
+[Chorus]
+Another one bites the dust
+Another one bites the dust
+And another one gone, and another one gone
+Another one bites the dust, yeah
+Hey, I'm gonna get you, too
+Another one bites the dust","Yes Sir, I will do my best
+
+[Verse 1]
+Code walks warily down the line
+With a focus sharp and true
+No bugs or errors, everything's fine
+Programming skills on queue
+Are you ready? Hey, are you ready for this?
+Are you focused on each line you write?
+Out of the console, the output shines
+To the rhythm of the byte, yeah
+
+[Chorus]
+Another one bites the dust
+Another one bites the dust
+And another one gone, and another one gone
+Another one bites the dust, yeah
+Hey, I'm gonna debug you too
+Another one bites the dust
+
+[Verse 2]
+How do you think I'm going to survive
+Without a fix, when it's gone wrong
+You took my logic, now it's time
+To make it work before too long
+Are you confident, are you satisfied?
+How long can you handle the heat?
+Out of the console, the output shines
+To the rhythm of the beat
+Look out
+
+[Chorus]
+Another one bites the dust
+Another one bites the dust
+And another one gone, and another one gone
+Another one bites the dust
+Hey, I'm gonna debug you too
+Another one bites the dust
+
+[Bridge]
+Hey
+Oh, fix it
+Bite the dust, hey
+Another one bites the dust
+Another one bites the dust, ow
+Another one bites the dust, hey hey
+Another one bites the dust, hey-eh-eh
+Ooh
+
+[Verse 3]
+There are plenty of ways you can break a code
+And bring the system to its knees
+You can miss a semicolon, leave a logic unchecked
+And cause a crash with ease, yeah
+But I'm ready, yes I'm ready for you
+I've got my algorithms on their feet
+Out of the console, the output shines
+Repeating the rhythm of the beat
+Oh yeah
+
+[Chorus]
+Another one bites the dust
+Another one bites the dust
+And another one gone, and another one gone
+Another one bites the dust, yeah
+Hey, I'm gonna debug you too
+Another one bites the dust","Is gaane ko Programming ke baare mein rewrite karo
+[Verse 1]
+Steve walks warily down the street
+With the brim pulled way down low
+Ain't no sound but the sound of his feet
+Machine guns ready to go
+Are you ready? Hey, are you ready for this?
+Are you hanging on the edge of your seat?
+Out of the doorway the bullets rip
+To the sound of the beat, yeah
+[Chorus]
+Another one bites the dust
+Another one bites the dust
+And another one gone, and another one gone
+Another one bites the dust, yeah
+Hey, I'm gonna get you too
+Another one bites the dust
+
+[Verse 2]
+How do you think I'm going to get along
+Without you, when you're gone
+You took me for everything that I had
+And kicked me out on my own
+Are you happy, are you satisfied?
+How long can you stand the heat?
+Out of the doorway the bullets rip
+To the sound of the beat
+Look out
+
+[Chorus]
+Another one bites the dust
+Another one bites the dust
+And another one gone, and another one gone
+Another one bites the dust
+Hey, I'm gonna get you, too
+Another one bites the dust
+You might also like
+Don't Stop Me Now
+Queen
+Flowers
+Miley Cyrus
+Bohemian Rhapsody
+Queen
+
+[Bridge]
+Hey
+Oh, take it
+Bite the dust, hey
+Another one bites the dust
+Another one bites the dust, ow
+Another one bites the dust, hey hey
+Another one bites the dust, hey-eh-eh
+Ooh
+
+[Verse 3]
+There are plenty of ways you can hurt a man
+And bring him to the ground
+You can beat him, you can cheat him, you can treat him bad
+And leave him when he's down, yeah
+But I'm ready, yes I'm ready for you
+I'm standing on my own two feet
+Out of the doorway the bullets rip
+Repeating the sound of the beat
+Oh yeah
+
+[Chorus]
+Another one bites the dust
+Another one bites the dust
+And another one gone, and another one gone
+Another one bites the dust, yeah
+Hey, I'm gonna get you, too
+Another one bites the dust","Yes Sir, main apni poori koshish karunga
+
+[Verse 1]
+Code walks warily down the line
+With a focus sharp and true
+No bugs or errors, everything's fine
+Programming skills on queue
+Are you ready? Hey, are you ready for this?
+Are you focused on each line you write?
+Out of the console, the output shines
+To the rhythm of the byte, yeah
+
+[Chorus]
+Another one bites the dust
+Another one bites the dust
+And another one gone, and another one gone
+Another one bites the dust, yeah
+Hey, I'm gonna debug you too
+Another one bites the dust
+
+[Verse 2]
+How do you think I'm going to survive
+Without a fix, when it's gone wrong
+You took my logic, now it's time
+To make it work before too long
+Are you confident, are you satisfied?
+How long can you handle the heat?
+Out of the console, the output shines
+To the rhythm of the beat
+Look out
+
+[Chorus]
+Another one bites the dust
+Another one bites the dust
+And another one gone, and another one gone
+Another one bites the dust
+Hey, I'm gonna debug you too
+Another one bites the dust
+
+[Bridge]
+Hey
+Oh, fix it
+Bite the dust, hey
+Another one bites the dust
+Another one bites the dust, ow
+Another one bites the dust, hey hey
+Another one bites the dust, hey-eh-eh
+Ooh
+
+[Verse 3]
+There are plenty of ways you can break a code
+And bring the system to its knees
+You can miss a semicolon, leave a logic unchecked
+And cause a crash with ease, yeah
+But I'm ready, yes I'm ready for you
+I've got my algorithms on their feet
+Out of the console, the output shines
+Repeating the rhythm of the beat
+Oh yeah
+
+[Chorus]
+Another one bites the dust
+Another one bites the dust
+And another one gone, and another one gone
+Another one bites the dust, yeah
+Hey, I'm gonna debug you too
+Another one bites the dust",Mode1_eng_task,True,0.5,1.0,1.0,1.0,0.5,,0,0,0.957,327,2,2,0,1,3,0.5,1.0,1.0,1.0,0.5,Rewrite-the-song task -> English parody lyrics; only one-line Hindi intro; borderline eng-task (creative)

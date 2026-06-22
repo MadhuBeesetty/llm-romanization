@@ -1,0 +1,74 @@
+language,model,message_id,selection_category,eng_task_flag,native_chars,word_overlap,bge,H6_naturalness_fluency (0-3),H7_grammar_correctness (0-2),H8_word_choice_accuracy (0-2),H9_register_appropriateness (0-2),H10_overall_usability (0-3),llm1_completeness,llm2_script_purity,llm3_eng_balance,llm4_consistency,llm5_semantic,llm6_naturalness,llm7_grammar,llm8_wordchoice,llm9_register,llm10_usability,human_total_12,llm_total_25
+telugu,anthropic,2fb21ff4-daac-4085-8ade-2b720b36313a,"Mode 2: 22 native script chars detected, BGE=0.801 (passing)",False,22,,,3.0,1.5,1.5,2.0,3.0,2,1,3,2.0,3.0,2.8,2.0,2.0,2.0,2.5,11.0,22.3
+telugu,anthropic,df17c57d-65b9-40c9-99b7-1ac1d6d8a32d,Good anchor: clean romanization BGE=0.928,False,0,,,2.8,1.5,2.0,2.0,2.5,2,2,3,3.0,3.0,2.8,1.5,2.0,2.0,2.5,10.8,23.8
+telugu,anthropic,95e49506-25d9-4cd7-b2f8-e3db32b7283d,Mode 3: BGE=0.898 vs BERTScore=0.634 (gap=0.264),False,0,,,2.5,1.5,1.5,1.7,2.3,2,2,3,2.0,2.0,2.5,1.5,1.5,1.7,2.3,9.5,20.5
+telugu,anthropic,fe450516-3a0c-407e-a66d-a5b7b9791e7a,Mode 1: BGE=0.907 high but verbatim English (overlap=0.95),True,0,,,0.5,1.0,1.0,1.0,1.5,2,2,0,1.0,3.0,0.5,1.0,1.0,1.0,1.5,5.0,13.0
+telugu,anthropic,1a24dd2e-030b-41b6-ad73-d7a3b6b4ee43,Hard/narrative/roleplay prompt — evaluator judgment needed,False,0,,,2.7,2.0,2.0,2.0,2.7,2,2,3,3.0,3.0,2.7,2.0,2.0,2.0,2.7,11.399999999999999,24.4
+telugu,gpt,df17c57d-65b9-40c9-99b7-1ac1d6d8a32d,Good anchor: clean romanization BGE=0.916,False,0,,,2.9,2.0,2.0,2.0,2.7,2,2,3,3.0,3.0,2.9,2.0,2.0,2.0,2.7,11.600000000000001,24.599999999999998
+telugu,gpt,e630d89e-4423-4bb8-987f-5a569253e151,Mode 3: BGE=0.873 vs BERTScore=0.615 (gap=0.258),False,0,,,2.5,2.0,1.8,1.7,2.3,2,2,3,2.0,3.0,2.5,2.0,1.8,1.7,2.3,10.3,22.3
+telugu,gpt,03932f04-c1bf-42c8-a916-07fa73ddf5ad,Hard/narrative/roleplay prompt — evaluator judgment needed,False,0,,,2.6,2.0,2.0,2.0,2.6,2,2,2,3.0,3.0,2.6,2.0,2.0,2.0,2.6,11.2,23.200000000000003
+telugu,gemini,18b2c886-3188-4f07-89a5-a3b12a4551eb,"Mode 2: 17 native script chars detected, BGE=0.811 (passing)",False,17,,,1.5,1.5,1.0,1.8,1.5,2,0,3,1.0,2.0,1.5,1.5,1.0,1.8,1.5,7.3,15.3
+telugu,gemini,5407b7e3-b44b-4cbd-b1a5-833b559aba4a,Mode 3: BGE=0.862 vs BERTScore=0.599 (gap=0.263),False,0,,,2.6,2.0,2.0,2.0,2.5,2,2,3,3.0,3.0,2.6,2.0,2.0,2.0,2.5,11.1,24.1
+telugu,gemini,cd4eface-caf7-4d13-9651-3ee7025c7fc6,"Mode 2: 50 native script chars (ratio=0.01), BGE=0.696",False,65,,,2.4,2.0,1.8,2.0,2.2,2,1,3,2.0,3.0,2.4,2.0,1.8,2.0,2.2,10.399999999999999,21.4
+telugu,gemini,8b0ffd4b-7aea-46b0-a9aa-20b555ebc102,Hard/narrative/roleplay prompt — evaluator judgment needed,True,0,,,1.0,1.0,1.0,1.5,1.5,2,2,0,1.0,3.0,1.0,1.0,1.0,1.5,1.5,6.0,14.0
+telugu,gemini,fe450516-3a0c-407e-a66d-a5b7b9791e7a,Mode 1: BGE=0.914 high but verbatim English (overlap=0.94),True,0,,,0.5,1.0,1.0,1.0,1.5,2,2,0,1.0,3.0,0.5,1.0,1.0,1.0,1.5,5.0,13.0
+telugu,ollama,ed5dbe6a-a40e-43e8-b4ca-9e7eecc28002,Mode 1: BGE=1.000 but output is pure English (overlap=1.00),False,0,,,0.0,0.0,0.0,0.0,0.0,2,2,0,1.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,8.0
+telugu,ollama,f9dfb9ba-b40b-4a9e-b709-994cca9584f2,Mode 1: BGE=1.000 but output is pure English (overlap=1.00),True,0,,,0.0,1.0,1.0,1.0,0.5,2,2,0,1.0,3.0,0.0,1.0,1.0,1.0,0.5,3.5,11.5
+telugu,ollama,ce10d32a-6dde-49fa-ab67-489eeda83835,Mode 1: BGE=1.000 but output is pure English (overlap=1.00),True,0,,,0.0,1.0,1.0,1.0,0.5,2,2,0,1.0,3.0,0.0,1.0,1.0,1.0,0.5,3.5,11.5
+telugu,ollama,662392fc-59e2-48a2-9e48-7a4c9c1afd1d,Good anchor: clean romanization BGE=0.947,False,0,,,2.3,1.8,2.0,2.0,2.3,2,2,2,2.0,3.0,2.3,1.8,2.0,2.0,2.3,10.399999999999999,21.400000000000002
+telugu,ollama,4f64ca9b-c4b1-4ac1-a18f-298fd84353c9,Mode 1: BGE=1.000 but output is pure English (overlap=1.00),False,0,,,0.0,0.0,0.0,0.0,0.0,2,2,0,1.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,8.0
+telugu,ollama,a514951d-8d5d-49ad-a8b2-ac7b94e62206,Mode 1: BGE=1.000 but output is pure English (overlap=1.00),True,0,,,0.0,1.0,1.0,1.0,0.5,2,2,0,1.0,3.0,0.0,1.0,1.0,1.0,0.5,3.5,11.5
+telugu,ollama,2453d1f8-7c43-4a9f-8cfa-6cb6f8d40bbc,Hard/narrative/roleplay prompt — evaluator judgment needed,False,0,,,0.0,0.0,0.0,0.0,0.0,2,2,0,1.0,3.0,0.0,0.0,0.0,0.0,0.0,0.0,8.0
+kannada,anthropic,23af498b-3d54-4477-a54e-4d3a265374e0,Good_anchor (replacement),False,0,0.36,,2.5,2.0,2.0,2.0,2.5,2,2,3,3.0,3.0,2.5,2.0,2.0,2.0,2.5,11.0,24.0
+kannada,ollama,a73dc9d7-c438-4dd2-97b4-b0ad88b036f2,Mode1_pure_english_TRUE,False,0,0.925,,0.5,1.0,1.0,1.0,0.5,2,2,0,1.0,3.0,0.5,1.0,1.0,1.0,0.5,4.0,12.0
+kannada,ollama,fa4d01e1-5c0e-4a8a-8897-e4c21c4951bf,Mode1_pure_english_TRUE,False,0,1.0,,0.0,0.5,0.5,1.0,0.5,2,2,0,1.0,3.0,0.0,0.5,0.5,1.0,0.5,2.5,10.5
+kannada,ollama,fa12b6ed-63ba-4851-8646-c998bb90e550,Mode1_pure_english_TRUE,False,0,1.0,,0.0,0.0,0.0,1.0,0.0,2,2,0,1.0,3.0,0.0,0.0,0.0,1.0,0.0,1.0,9.0
+kannada,ollama,91301122-351a-4477-a0c7-229c47631ead,Mode1_pure_english_TRUE,False,0,0.959,,0.5,1.0,1.0,1.0,0.5,2,2,0,1.0,3.0,0.5,1.0,1.0,1.0,0.5,4.0,12.0
+kannada,anthropic,8b0ffd4b-7aea-46b0-a9aa-20b555ebc102,Mode1_eng_task,True,0,0.928,,1.0,1.5,1.5,1.5,1.5,2,2,0,2.0,3.0,1.0,1.5,1.5,1.5,1.5,7.0,16.0
+kannada,gemini,8b0ffd4b-7aea-46b0-a9aa-20b555ebc102,Mode1_eng_task,True,0,0.937,,1.5,1.5,1.5,1.5,1.5,2,2,0,2.0,3.0,1.5,1.5,1.5,1.5,1.5,7.5,16.5
+kannada,gpt,b0214be4-bf2d-430c-81d7-d60011ab3de7,Mode2_native_heavy,False,36,0.455,,1.0,1.0,2.0,1.5,1.0,2,0,3,1.0,3.0,2.2,1.8,2.0,2.0,2.0,6.5,19.0
+kannada,gemini,dbf902b9-7c9b-4620-81fa-cfb48d96b00b,Mode2_native_leak,False,10,0.495,,3.0,2.0,0.9,1.8,3.0,2,1,3,2.0,3.0,2.5,2.0,2.0,2.0,2.4,10.7,21.9
+kannada,gemini,3cae3c78-5d6b-46e2-82fb-74cd65db42f0,Mode2_native_leak,False,8,0.171,,1.0,2.0,1.0,1.0,2.0,2,1,3,2.0,3.0,2.6,2.0,2.0,2.0,2.5,7.0,22.1
+kannada,gemini,31eade47-aecd-4dac-b743-5e7a2e39f74c,Mode2_native_leak,False,8,0.163,,2.2,1.8,1.8,1.8,2.0,2,1,3,1.0,2.5,2.2,1.8,1.8,1.8,2.0,9.6,19.1
+kannada,anthropic,a3a464f1-fe16-42c5-98d8-b1dd5552bddc,Hard_prompt,False,0,0.071,,2.0,1.8,1.9,1.8,1.8,2,2,3,3.0,3.0,2.7,2.0,2.0,2.0,2.6,9.299999999999999,24.3
+kannada,gpt,a3a464f1-fe16-42c5-98d8-b1dd5552bddc,Hard_prompt,False,0,0.085,,2.7,2.0,2.0,2.0,2.6,2,2,3,3.0,3.0,2.7,2.0,2.0,2.0,2.6,11.299999999999999,24.3
+kannada,gemini,a3a464f1-fe16-42c5-98d8-b1dd5552bddc,Hard_prompt,False,0,0.288,,2.3,2.0,1.8,2.0,2.2,2,2,2,3.0,3.0,2.3,2.0,1.8,2.0,2.2,10.3,22.3
+kannada,anthropic,ebc75fd5-3026-4595-a3f1-ed2db9e373b3,Good_anchor,False,0,0.333,,2.6,2.0,2.0,2.0,2.5,2,2,3,3.0,3.0,2.6,2.0,2.0,2.0,2.5,11.1,24.1
+kannada,anthropic,0eddbc6a-3f7c-4dea-a1da-4d121c2b11d2,Good_anchor,False,0,0.343,,2.6,2.0,2.0,2.0,2.5,2,2,3,3.0,3.0,2.6,2.0,2.0,2.0,2.5,11.1,24.1
+kannada,gpt,ebc75fd5-3026-4595-a3f1-ed2db9e373b3,Good_anchor,False,0,0.36,,2.6,2.0,2.0,2.0,2.5,2,2,3,3.0,3.0,2.6,2.0,2.0,2.0,2.5,11.1,24.1
+kannada,gpt,0eddbc6a-3f7c-4dea-a1da-4d121c2b11d2,Good_anchor,False,0,0.468,,2.5,2.0,2.0,2.0,2.5,2,2,3,3.0,3.0,2.5,2.0,2.0,2.0,2.5,11.0,24.0
+kannada,ollama,ebc75fd5-3026-4595-a3f1-ed2db9e373b3,Degeneration_loop,False,0,0.485,,0.5,0.5,0.5,1.0,0.0,2,2,2,0.0,1.0,0.5,0.5,0.5,1.0,0.0,2.5,9.5
+kannada,gpt,8b0ffd4b-7aea-46b0-a9aa-20b555ebc102,Eng_task (romanized),True,0,0.451,,2.3,2.0,1.8,2.0,2.3,2,2,2,3.0,3.0,2.3,2.0,1.8,2.0,2.3,10.399999999999999,22.400000000000002
+hindi,anthropic,8b0ffd4b-7aea-46b0-a9aa-20b555ebc102,Mode1_eng_task,True,0,0.919,,1.0,1.5,1.5,1.5,1.5,2,2,0,2.0,3.0,1.0,1.5,1.5,1.5,1.5,7.0,16.0
+hindi,anthropic,fe450516-3a0c-407e-a66d-a5b7b9791e7a,Mode1_eng_task,True,0,0.969,,0.5,1.0,1.0,1.0,1.5,2,2,0,1.0,3.0,0.5,1.0,1.0,1.0,1.5,5.0,13.0
+hindi,gemini,8b0ffd4b-7aea-46b0-a9aa-20b555ebc102,Mode1_eng_task,True,0,0.908,,1.0,1.5,1.5,1.5,1.5,2,2,0,2.0,3.0,1.0,1.5,1.5,1.5,1.5,7.0,16.0
+hindi,gemini,fe450516-3a0c-407e-a66d-a5b7b9791e7a,Mode1_eng_task,True,0,0.959,,0.5,1.0,1.0,1.0,1.5,2,2,0,1.0,3.0,0.5,1.0,1.0,1.0,1.5,5.0,13.0
+hindi,gemini,f15227e5-00af-48b8-86a3-2728ed3c731d,Mode2_native_heavy,False,25,0.394,,2.4,2.0,1.8,2.0,2.2,2,0,3,1.0,3.0,2.4,2.0,1.8,2.0,2.2,10.399999999999999,19.400000000000002
+hindi,gemini,ebc75fd5-3026-4595-a3f1-ed2db9e373b3,Mode2_native_leak,False,10,0.316,,2.6,2.0,2.0,2.0,2.5,2,1,3,2.0,3.0,2.6,2.0,2.0,2.0,2.5,11.1,22.1
+hindi,gemini,86123d17-101a-426a-9c14-d9cdc3b3ca0c,Mode2_native_leak,False,10,0.635,,2.6,2.0,2.0,2.0,2.5,2,1,3,2.0,3.0,2.6,2.0,2.0,2.0,2.5,11.1,22.1
+hindi,gemini,9835c793-95dd-4db4-9d99-3209242f14b0,Mode2_native_leak,False,10,0.456,,2.6,2.0,2.0,2.0,2.5,2,1,3,2.0,3.0,2.6,2.0,2.0,2.0,2.5,11.1,22.1
+hindi,gemini,18b2c886-3188-4f07-89a5-a3b12a4551eb,Mode2_native_leak,False,5,0.295,,2.5,2.0,2.0,2.0,2.4,2,1,3,2.0,3.0,2.5,2.0,2.0,2.0,2.4,10.9,21.9
+hindi,anthropic,a3a464f1-fe16-42c5-98d8-b1dd5552bddc,Hard_prompt,False,0,0.096,,2.8,2.0,2.0,2.0,2.7,2,2,3,3.0,3.0,2.8,2.0,2.0,2.0,2.7,11.5,24.5
+hindi,anthropic,2fb21ff4-daac-4085-8ade-2b720b36313a,Hard_prompt,False,0,0.269,,2.7,2.0,2.0,2.0,2.6,2,2,3,3.0,3.0,2.7,2.0,2.0,2.0,2.6,11.299999999999999,24.3
+hindi,gpt,a3a464f1-fe16-42c5-98d8-b1dd5552bddc,Hard_prompt,False,0,0.106,,2.7,2.0,2.0,2.0,2.6,2,2,3,3.0,3.0,2.7,2.0,2.0,2.0,2.6,11.299999999999999,24.3
+hindi,gpt,2fb21ff4-daac-4085-8ade-2b720b36313a,Hard_prompt,False,0,0.3,,2.7,2.0,2.0,2.0,2.6,2,2,3,3.0,3.0,2.7,2.0,2.0,2.0,2.6,11.299999999999999,24.3
+hindi,anthropic,ebc75fd5-3026-4595-a3f1-ed2db9e373b3,Good_anchor,False,0,0.333,,2.6,2.0,2.0,2.0,2.5,2,2,3,3.0,3.0,2.6,2.0,2.0,2.0,2.5,11.1,24.1
+hindi,anthropic,0eddbc6a-3f7c-4dea-a1da-4d121c2b11d2,Good_anchor,False,0,0.523,,2.5,2.0,2.0,2.0,2.4,2,2,2,3.0,3.0,2.5,2.0,2.0,2.0,2.4,10.9,22.9
+hindi,gpt,ebc75fd5-3026-4595-a3f1-ed2db9e373b3,Good_anchor,False,0,0.347,,2.6,2.0,2.0,2.0,2.5,2,2,3,3.0,3.0,2.6,2.0,2.0,2.0,2.5,11.1,24.1
+hindi,gpt,0eddbc6a-3f7c-4dea-a1da-4d121c2b11d2,Good_anchor,False,0,0.495,,2.5,2.0,2.0,2.0,2.4,2,2,2,3.0,3.0,2.5,2.0,2.0,2.0,2.4,10.9,22.9
+hindi,gpt,ed5dbe6a-a40e-43e8-b4ca-9e7eecc28002,Good_anchor,False,0,0.446,,2.6,2.0,2.0,2.0,2.5,2,2,3,3.0,3.0,2.6,2.0,2.0,2.0,2.5,11.1,24.1
+hindi,gpt,c6a6fb22-a8f8-4a29-9b66-dac3e551ac23,Good_anchor,False,0,0.509,,2.6,2.0,2.0,2.0,2.5,2,2,3,3.0,3.0,2.6,2.0,2.0,2.0,2.5,11.1,24.1
+hindi,anthropic,155c12b0-659a-4dd2-93ba-cfbec514ba3f,Mode1_eng_task,True,0,0.957,,0.5,1.0,1.0,1.0,0.5,2,2,0,1.0,3.0,0.5,1.0,1.0,1.0,0.5,4.0,12.0
+telugu,ollama,a3a464f1-fe16-42c5-98d8-b1dd5552bddc,degeneration_loop,False,0,0.08,0.719,0.0,0.0,0.0,0.0,0.0,2,2,3,0.0,1.0,0.0,0.0,0.0,0.0,0.0,0.0,8.0
+telugu,ollama,b4903f21-c998-462e-b669-cf270bbcebae,low_semantic,False,0,0.013,0.512,0.5,1.0,1.0,1.0,0.5,2,2,3,1.0,1.0,0.5,1.0,1.0,1.0,0.5,4.0,13.0
+telugu,ollama,434e4845-3909-4106-b771-03a90016b900,partial_english,False,0,0.669,0.851,2.0,1.8,1.8,2.0,2.2,2,2,2,2.0,3.0,2.0,1.8,1.8,2.0,2.2,9.8,20.8
+telugu,ollama,0f89c0cc-a00c-476b-9d7d-0bcad4018843,best_attempt,False,0,0.241,0.897,2.2,1.8,1.8,2.0,2.3,2,2,3,2.5,3.0,2.2,1.8,1.8,2.0,2.3,10.1,22.6
+kannada,ollama,ce10d32a-6dde-49fa-ab67-489eeda83835,degeneration_loop,True,0,0.0,0.385,0.0,0.0,0.0,0.0,0.0,2,2,3,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,7.0
+kannada,ollama,d5c9a0a3-e695-4674-b147-e2820eca3855,low_semantic,False,0,0.005,0.433,0.0,0.0,0.0,0.0,0.0,2,2,3,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,7.0
+kannada,ollama,945f0c72-230e-4f78-bc60-53d37c73819f,partial_english,False,0,0.689,0.83,2.0,1.7,1.8,2.0,2.2,2,2,2,2.0,3.0,2.0,1.7,1.8,2.0,2.2,9.7,20.7
+kannada,ollama,96569f40-01c0-48d2-9ed2-7afe1cbd99b1,best_attempt,False,0,0.355,0.956,0.5,0.0,0.5,0.5,0.5,2,1,1,1.0,2.0,0.5,0.0,0.5,0.5,0.5,2.0,9.0
+hindi,ollama,f9dfb9ba-b40b-4a9e-b709-994cca9584f2,pure_english,True,0,1.0,1.0,0.0,1.0,1.0,1.0,0.5,2,2,0,1.0,3.0,0.0,1.0,1.0,1.0,0.5,3.5,11.5
+hindi,ollama,2fb21ff4-daac-4085-8ade-2b720b36313a,degeneration_loop,False,0,0.046,0.691,1.0,1.5,1.5,1.5,0.5,2,2,3,1.0,1.0,1.0,1.5,1.5,1.5,0.5,6.0,15.0
+hindi,ollama,d5c9a0a3-e695-4674-b147-e2820eca3855,low_semantic,False,0,0.021,0.46,2.5,2.0,2.0,2.0,2.5,2,2,3,3.0,2.0,2.5,2.0,2.0,2.0,2.5,11.0,23.0
+hindi,ollama,434e4845-3909-4106-b771-03a90016b900,partial_english,False,0,0.624,0.82,2.0,1.8,1.8,2.0,2.2,2,2,2,2.0,3.0,2.0,1.8,1.8,2.0,2.2,9.8,20.8
+hindi,ollama,df17c57d-65b9-40c9-99b7-1ac1d6d8a32d,best_attempt,False,0,0.192,0.943,2.6,2.0,2.0,2.0,2.5,2,2,3,3.0,3.0,2.6,2.0,2.0,2.0,2.5,11.1,24.1
