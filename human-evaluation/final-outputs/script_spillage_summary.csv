@@ -1,0 +1,13 @@
+model,language,total_rows,Telugu_chars,Telugu_rows,Kannada_chars,Kannada_rows,Devanagari_chars,Devanagari_rows,Cyrillic_chars,Cyrillic_rows,Tamil_chars,Tamil_rows,Malayalam_chars,Malayalam_rows,total_spillage_chars,total_spillage_rows
+anthropic,hindi,142,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+anthropic,kannada,142,0,0,0,0,3,3,5,3,0,0,0,0,8,6
+anthropic,telugu,142,17,6,0,0,0,0,1,1,0,0,0,0,18,7
+gemini,hindi,142,0,0,0,0,45,14,0,0,0,0,0,0,45,14
+gemini,kannada,141,6,2,46,16,0,0,0,0,0,0,1,1,53,19
+gemini,telugu,142,2635,53,0,0,7,2,12,1,4,1,0,0,2658,53
+gpt,hindi,142,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+gpt,kannada,142,0,0,21,2,0,0,0,0,0,0,0,0,21,2
+gpt,telugu,142,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ollama,hindi,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ollama,kannada,142,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ollama,telugu,142,0,0,0,0,0,0,0,0,0,0,0,0,0,0
