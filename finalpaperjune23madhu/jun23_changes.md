@@ -204,3 +204,11 @@
 - Compile with **pdfLaTeX** (fontspec removed for compatibility)
 - Switch to **XeLaTeX** after deadline for full native-script rendering
 - Title confirmed: **"The Invisible Gap: Evaluating LLMs the Way Indians Actually Use Them"** (unchanged)
+
+
+# Lokesh - Changes Made — Jun 23 Session
+- Model name corrections.
+- Removed duplicate citations.
+- Added missing MLQA citation.
+- Added Correct packages to support native text.
+- Updated conclusion to reflect - Automatic metrics suggest Hindi > Telugu > Kanada but Human graders rated Hindi > Kanada > Telugu, Suggesting the need of more elaborate evaluation techniques.
