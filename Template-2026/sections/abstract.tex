@@ -1,20 +1,14 @@
 \begin{abstract}
-Romanized Latin script is widely used by speakers of Indic languages, yet
-open-ended generation in this representation remains poorly evaluated. We
-benchmark Claude, GPT-4o, Gemini, and Qwen3.5-35B on converting 142 English
-query--response pairs into romanized Hindi, Telugu, and Kannada. Outputs are
-evaluated using multilingual BERTScore and BGE-M3 cosine similarity under a
-failure-aware policy that assigns zero to empty outputs, English copies,
-native-script leakage, and repetition loops. GPT-4o and Claude achieve the
-strongest response-level BGE-M3 scores, ranging from 0.733 to 0.837 across the
-three languages. However, aggregate semantic scores obscure distinct failure
-modes. Gemini exhibits script leakage, affecting 24 Telugu and 19 Kannada
-responses, while Qwen frequently returns English unchanged and produces
-repetition loops. Verbatim English outputs can receive perfect similarity
-scores before failure-aware correction, demonstrating that semantic similarity
-alone does not measure successful romanization. Performance is consistently
-strongest for Hindi and weaker for Telugu and Kannada. These findings show that
-romanized Indic generation should be evaluated using semantic similarity
-together with completion reliability, script compliance, English-copy
-detection, and repetition analysis.
+Romanized text is a common interface for speakers of Indic languages, yet
+general-purpose language models are rarely evaluated on long-form generation
+in this representation. We present a preliminary evaluation of English-to-
+Romanized Hindi, Telugu, and Kannada generation using an open-weight
+Qwen3.5-35B model served locally through Ollama. We generate romanized versions
+of 142 English query--response pairs and evaluate semantic preservation with
+raw multilingual BERTScore F1 and BGE-M3 embedding cosine similarity. Hindi
+obtains the highest query and response cosine similarity, at 0.735 and 0.787,
+respectively. English-copy, blank, and malformed failures receive zero. Kannada
+obtains a response cosine similarity of 0.455 after all 142 stored rows enter
+the mean. These results illustrate how failure-aware scoring changes model
+assessment and motivate reporting failure policy alongside semantic metrics.
 \end{abstract}
