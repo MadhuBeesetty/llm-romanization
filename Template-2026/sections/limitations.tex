@@ -1,24 +1,39 @@
 \section{Limitations}
 
-This study evaluates one quantized model and one prompting pipeline, so the
-results do not establish a general ranking of model families. The source data
-is English rather than naturally occurring Romanized Indic input, and the
-experiment therefore measures controlled translation and romanization.
+\paragraph{Source data and task design.}
+The 142 source pairs are drawn from English OASST2, so the experiment measures
+controlled translation and romanization rather than naturalistic response to
+real romanized user input. Users who type in romanized script produce
+organically code-mixed, spelling-variable queries that differ systematically
+from the formal English prompts used here. Results may underestimate real-world
+quality degradation for models that struggle with informal romanized input.
 
-The current evaluation contains no native-speaker ratings. Automatic
-cross-lingual similarity cannot establish fluency, register appropriateness,
-cultural fit, or standardized transliteration quality. Raw multilingual
-BERTScore is particularly difficult to interpret across English and Romanized
-Indic text because its token alignment is sensitive to surface vocabulary.
+\paragraph{Single prompting strategy.}
+All four models receive the same structured JSON prompt. Different prompting
+strategies---chain-of-thought, few-shot examples, native-script intermediate
+steps---may substantially change output quality, particularly for Ollama's
+Kannada and Telugu failures. The results characterize one prompting regime,
+not the ceiling of each model's romanization capability.
 
-English-copy outputs are treated as failures and assigned zero across the row.
-Blank or malformed fields also receive zero for the affected metric. This
-failure-aware policy is intentionally strict and may conflate infrastructure
-failures with linguistic failures. For duplicate Telugu reruns, we retain the
-first generation; a different selection rule could produce slightly different
-aggregates. All experiments should still be rerun from a clean manifest before
-submission.
+\paragraph{Automatic metrics.}
+BGE-M3 cosine similarity is our primary metric, but it assigns passing scores
+to verbatim English copies (BGE = 1.000) and native-script outputs
+(BGE $\approx$ 0.80--0.84), demonstrating its own limitations for this task.
+Raw BERTScore F1 using \texttt{bert-base-multilingual-cased} is difficult to
+interpret for cross-lingual English-to-romanized comparison, as its token
+alignment was not designed for this setting. Neither metric captures
+naturalness, register, or spelling consistency.
 
-Finally, romanization has no single universally correct spelling. Future work
-should evaluate multiple acceptable forms and recruit native speakers from
-different regions and demographic backgrounds.
+\paragraph{Human evaluation coverage.}
+Human ratings are collected on a purposively sampled subset of approximately 24 responses
+per language (73 total) rather than the full 142-row dataset. Evaluators are sampled from
+a single team; ratings from speakers across different regions, age groups, and
+levels of digital literacy may differ. Romanization has no single universally
+correct spelling, and rater agreement on naturalness judgments was not
+formally measured. The human evaluation results should be interpreted as
+directional evidence rather than a definitive quality ranking.
+
+\paragraph{Languages and models.}
+We study Hindi, Telugu, and Kannada. Other Indic romanized varieties---Bengali,
+Tamil, Marathi---may exhibit different patterns. The four models evaluated here
+(Claude, GPT-4o, Gemini, Qwen3.5-35B) represent a snapshot of current capabilities; results for other model families or future versions may differ.

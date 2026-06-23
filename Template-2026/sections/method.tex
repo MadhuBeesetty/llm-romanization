@@ -3,45 +3,93 @@
 \subsection{Data}
 
 We use 142 English query--response pairs derived from a processed subset of the
-OpenAssistant dataset. Each record contains a message identifier, an English
-query, and an English response. The same records are used for Hindi, Telugu,
-and Kannada generation. This setup tests translation and romanization rather
-than understanding of naturally occurring Romanized Indic prompts.
+OpenAssistant dataset (OASST2)~\cite{kopf2023openassistant}. Each record contains a message identifier, a
+high-quality English query, and a corresponding English response. The same 142
+records are used for all three languages and all four models, enabling direct
+cross-model and cross-language comparison under identical input conditions.
+
+\subsection{Models}
+
+We selected a hybrid of closed-source and open-weight models to compare
+proprietary API-based systems with a locally deployable configuration. The
+closed-source models are Claude Opus~4.8, accessed through the Anthropic API;
+GPT-4o, accessed through the OpenAI API; and Gemini, accessed through the
+Google Generative AI API. All three models receive the same structured prompt
+and are instructed to return a JSON object containing
+\texttt{romanized\_query} and \texttt{romanized\_response}. For the
+open-weight configuration, we serve the quantized
+\texttt{qwen3.5:35b} model locally through Ollama on an NVIDIA RTX PRO 6000
+Blackwell GPU. We disable model thinking, use temperature zero, and permit up
+to 4096 generated tokens with a 300-second timeout for the qwen.
 
 \subsection{Generation}
 
-We serve the quantized \texttt{qwen3.5:35b} model through Ollama on an NVIDIA
-RTX PRO 6000 Blackwell GPU. The model receives the English query and response
-together in one request and is instructed to return a JSON object containing
+Each model receives the English query and response together in a single request
+and is instructed to return a JSON object with two fields:
 \texttt{romanized\_query} and \texttt{romanized\_response}. Joint generation
-preserves the relationship between both fields and avoids the context loss
-observed in separate-call pilot experiments.
+preserves the semantic relationship between query and response and avoids the
+context loss observed when the two fields are generated independently.
 
-We disable model thinking, use temperature zero, and permit up to 4096
-generated tokens. Requests time out after 300 seconds. Malformed or partial
-outputs are retained when recoverable; failed fields remain blank. Kannada uses
-a stricter language-specific prompt that explicitly prohibits English and
-Kannada script in the final output.
+The prompt specifies that output must use only Latin characters, that native
+script must not appear in the romanized text, and that natural code-mixing with
+English technical terms is acceptable. For Kannada, we use a stricter
+language-specific prompt that explicitly prohibits both native Kannada script
+and English structural borrowing in the final output, following pilot
+observations that Kannada generation required tighter constraints.
+
+Malformed or partial outputs are retained when recoverable; failed fields
+remain blank. 
 
 \subsection{Evaluation}
 
-For each non-empty generated field, we compare the English source against its
-romanized counterpart with two automatic metrics.
+\noindent{\sffamily\bfseries Automated semantic evaluation.}\enspace
+For each non-empty generated response, we compare the original English
+response against its romanized counterpart with two automatic metrics.
+BERTScore F1 is computed using \texttt{bert-base-multilingual-cased} with
+baseline rescaling disabled~\cite{zhang2020bertscore}; we treat this as a
+secondary token-alignment signal. BGE-M3 cosine similarity is our primary
+cross-lingual semantic measure, computed by embedding both texts with the
+BGE-M3 model and taking the cosine of the resulting dense
+vectors~\cite{chen2024bgem3}.
 
-\paragraph{Raw BERTScore F1.}
-We use \texttt{bert-base-multilingual-cased} with baseline rescaling disabled
-\cite{zhang2020bertscore}. The resulting value is the raw BERTScore F1. Because
-the source and output differ in both language and surface form, this score is
-treated as a secondary token-alignment signal.
+\noindent{\sffamily\bfseries Failure-aware coverage policy.}\enspace
+We define a row as invalid if any of the following conditions hold: (1) the
+romanized response is empty or whitespace-only; (2) the romanized response is
+identical to the whitespace-normalized English source (word overlap ratio
+= 1.0), indicating that the model copied the input rather than romanizing it;
+or (3) the romanized response contains one or more native-script characters,
+indicating script corruption; or (4) the romanized response is
+\emph{degenerate}---a single token repeated at least 20 times consecutively,
+or a four-token phrase repeated at least 50 times---indicating a repetition
+loop. Invalid rows receive zero for all automatic metrics rather than being
+excluded from the dataset. This policy ensures that all 142 samples enter each
+aggregate mean, so reliability and semantic quality---including resistance to
+degeneration---are reported on the same denominator.
 
-\paragraph{BGE-M3 cosine similarity.}
-We embed the English and romanized texts with BGE-M3 and calculate cosine
-similarity \cite{chen2024bgem3}. This cross-lingual embedding score is our
-primary automatic semantic measure.
+\noindent{\sffamily\bfseries Human evaluation.}\enspace
+Native speakers of Hindi, Telugu, and Kannada independently rated a
+purposively sampled set of approximately 24 responses per language (73 total).
+Rather than random sampling, we selected rows to surface the specific ways
+romanized output fails while remaining manageable for native-speaker review.
+Selection targeted six categories: (1) \emph{pure/mostly English}---outputs
+returned in English where automatic metrics still score high; (2)
+\emph{native-script leakage}---romanized text with stray script characters;
+(3) \emph{metric divergence}---rows where BGE and BERTScore disagree by more
+than 0.15 points; (4) \emph{hard prompts}---creative, emotional, or roleplay
+prompts where quality is difficult to auto-judge; (5) \emph{good
+anchors}---clean high-quality responses included as a baseline; and (6)
+\emph{English-task rows}---prompts that operate on English text (OCR cleanup,
+grammar correction, email improvement) where English output is defensible and
+flagged separately. Because rows are selected on failure conditions, per-model
+counts within the diagnostic set do not represent population failure rates;
+those are computed separately over all 142 responses per model.
 
-\paragraph{Coverage.}
-We retain the first Qwen3.5-35B generation for each message identifier and
-discard duplicate reruns. If either generated field is identical to its
-whitespace-normalized English source, we assign zero to all query and response
-metrics for that row. Blank or malformed fields receive zero for their
-corresponding metrics. Thus all 142 samples enter each aggregate mean.
+Evaluators scored each response on five dimensions: naturalness and fluency
+(0--3), grammatical correctness (0--2), word choice accuracy (0--2), register
+appropriateness (0--2), and overall usability (0--3), for a maximum of 12
+points per response. To accelerate review, we pre-filled scoring sheets using
+Claude Opus~4.8 as an LLM judge; native speakers then read each
+\texttt{romanized\_response} and corrected any value they disagreed with. The
+final H6--H10 scores are native-speaker judgments; the LLM draft served as a
+ time-saving starting point. % Hindi scores have not yet received native-speaker
+% correction and are treated as provisional throughout.

@@ -15,33 +15,76 @@
 \global\let\hyper@last\relax 
 \gdef\HyperFirstAtBeginDocument#1{#1}
 \providecommand*\HyPL@Entry[1]{}
+\citation{khullar2025scriptgap}
+\citation{artetxe2020xquad}
+\citation{doddapaneni2023indicqa}
 \citation{roark2020dakshina}
 \citation{madhani2023aksharantar}
 \HyPL@Entry{0<</S/D>>}
 \@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{1}{section.1}\protected@file@percent }
+\citation{kopf2023openassistant}
 \citation{zhang2020bertscore}
 \citation{chen2024bgem3}
-\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces Failure-aware mean automatic scores. All 142 samples enter each mean; BERT-F1 is raw multilingual BERTScore F1 and Cosine uses BGE-M3 embeddings.}}{2}{table.1}\protected@file@percent }
-\newlabel{tab:main-results}{{1}{2}{Failure-aware mean automatic scores. All 142 samples enter each mean; BERT-F1 is raw multilingual BERTScore F1 and Cosine uses BGE-M3 embeddings}{table.1}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {2}Method}{2}{section.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.1}Data}{2}{subsection.2.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.2}Generation}{2}{subsection.2.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.3}Evaluation}{2}{subsection.2.3}\protected@file@percent }
-\@writefile{toc}{\contentsline {paragraph}{Raw BERTScore F1.}{2}{section*.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {paragraph}{BGE-M3 cosine similarity.}{2}{section*.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {paragraph}{Coverage.}{2}{section*.3}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {3}Results}{2}{section.3}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {4}Discussion}{3}{section.4}\protected@file@percent }
-\@writefile{toc}{\contentsline {paragraph}{Semantic quality and reliability are different axes.}{3}{section*.4}\protected@file@percent }
-\@writefile{toc}{\contentsline {paragraph}{Structured generation is part of the task.}{3}{section*.5}\protected@file@percent }
-\@writefile{toc}{\contentsline {paragraph}{Automatic metrics are insufficient for naturalness.}{3}{section*.6}\protected@file@percent }
-\@writefile{toc}{\contentsline {paragraph}{Implications for multilingual evaluation.}{3}{section*.7}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {5}Limitations}{3}{section.5}\protected@file@percent }
+\citation{petrov2023tokenization}
+\citation{khullar2025scriptgap}
+\citation{roark2020dakshina}
+\citation{madhani2023aksharantar}
+\citation{khullar2025scriptgap}
+\citation{husain2024romansetu}
+\citation{artetxe2020xquad}
+\citation{doddapaneni2023indicqa}
+\citation{zhang2020bertscore}
+\citation{chen2024bgem3}
+\citation{kopf2023openassistant}
+\@writefile{toc}{\contentsline {section}{\numberline {2}Related Work}{3}{section.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {3}Method}{3}{section.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}Data}{3}{subsection.3.1}\protected@file@percent }
+\citation{zhang2020bertscore}
+\citation{chen2024bgem3}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Models}{4}{subsection.3.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3}Generation}{4}{subsection.3.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.4}Evaluation}{4}{subsection.3.4}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces Failure-aware automatic evaluation scores (response only). BGE Cosine is BGE-M3 cosine similarity between the English reference and the romanized output; BERT-F1 is raw multilingual BERTScore F1 using \texttt  {bert-base-multilingual-cased}. Invalid counts rows that received zero (empty, English copy, or native-script corruption) out of 142 total.}}{5}{table.1}\protected@file@percent }
+\newlabel{tab:main-results}{{1}{5}{Failure-aware automatic evaluation scores (response only). BGE Cosine is BGE-M3 cosine similarity between the English reference and the romanized output; BERT-F1 is raw multilingual BERTScore F1 using \texttt {bert-base-multilingual-cased}. Invalid counts rows that received zero (empty, English copy, or native-script corruption) out of 142 total}{table.1}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {4}Results}{5}{section.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Automatic Evaluation}{5}{subsection.4.1}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces BGE-M3 cosine similarity for romanized queries (left) and responses (right) across all four models and three languages. Scores are failure-aware: empty, repeated, and script-corrupted outputs receive zero and are included in the mean over all 142 samples.}}{6}{figure.1}\protected@file@percent }
+\newlabel{fig:bge-cosine}{{1}{6}{BGE-M3 cosine similarity for romanized queries (left) and responses (right) across all four models and three languages. Scores are failure-aware: empty, repeated, and script-corrupted outputs receive zero and are included in the mean over all 142 samples}{figure.1}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces Failure breakdown per model and language (out of 142 rows). English-only = response returned in English (word-overlap $\geq $ 0.90) instead of the romanized target language. Script Spillage = response contains one or more non-Latin characters (native script, Cyrillic, or other), after excluding legitimate romanization diacritics (ā, ē, ṭ, etc.) and Catalan source-title characters.}}{6}{table.2}\protected@file@percent }
+\newlabel{tab:failures}{{2}{6}{Failure breakdown per model and language (out of 142 rows). English-only = response returned in English (word-overlap $\geq $ 0.90) instead of the romanized target language. Script Spillage = response contains one or more non-Latin characters (native script, Cyrillic, or other), after excluding legitimate romanization diacritics (ā, ē, ṭ, etc.) and Catalan source-title characters}{table.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}Failure Analysis}{6}{subsection.4.2}\protected@file@percent }
+\newlabel{sec:failures}{{4.2}{6}{Failure Analysis}{subsection.4.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3}Human Evaluation}{7}{subsection.4.3}\protected@file@percent }
+\newlabel{sec:human-eval}{{4.3}{7}{Human Evaluation}{subsection.4.3}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Multilingual BERTScore (F1, Precision, Recall) for romanized queries (top row) and responses (bottom row) across all four models and three languages. Scores use \texttt  {bert-base-multilingual-cased} and are failure-aware (invalid rows receive zero).}}{8}{figure.2}\protected@file@percent }
+\newlabel{fig:bert-scores}{{2}{8}{Multilingual BERTScore (F1, Precision, Recall) for romanized queries (top row) and responses (bottom row) across all four models and three languages. Scores use \texttt {bert-base-multilingual-cased} and are failure-aware (invalid rows receive zero)}{figure.2}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {3}{\ignorespaces Human-corrected LLM-judge scores (weighted mean across all languages, 73 total rows: $\sim $24 per language). Telugu and Kannada rows have native-speaker corrections applied over the LLM-judge draft; Hindi scores are LLM-judge reference values (provisional, pending native-speaker review). Nat.=Naturalness/Fluency, Gram.=Grammar Correctness, Word=Word Choice Accuracy, Reg.=Register Appropriateness, Usab.=Overall Usability. BGE column shows mean failure-aware BGE-M3 response score from Table\nobreakspace  {}\ref  {tab:main-results} for reference.}}{9}{table.3}\protected@file@percent }
+\newlabel{tab:human-eval}{{3}{9}{Human-corrected LLM-judge scores (weighted mean across all languages, 73 total rows: $\sim $24 per language). Telugu and Kannada rows have native-speaker corrections applied over the LLM-judge draft; Hindi scores are LLM-judge reference values (provisional, pending native-speaker review). Nat.=Naturalness/Fluency, Gram.=Grammar Correctness, Word=Word Choice Accuracy, Reg.=Register Appropriateness, Usab.=Overall Usability. BGE column shows mean failure-aware BGE-M3 response score from Table~\ref {tab:main-results} for reference}{table.3}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {4}{\ignorespaces Summary of all evaluation results. BGE-M3 and BERT-F1 are failure-aware means over all 142 responses per model (averaged across languages). Human /12 is the weighted mean human score across 73 evaluated rows ($\sim $24 per language; Hindi provisional). English-only failures are genuine cases (excluding English-task prompts) where the model returned English instead of the romanized target language, counted over the full $\sim $142-response set. GPT-4o is the only model with zero English-only failures across all three languages.}}{10}{table.4}\protected@file@percent }
+\newlabel{tab:summary}{{4}{10}{Summary of all evaluation results. BGE-M3 and BERT-F1 are failure-aware means over all 142 responses per model (averaged across languages). Human /12 is the weighted mean human score across 73 evaluated rows ($\sim $24 per language; Hindi provisional). English-only failures are genuine cases (excluding English-task prompts) where the model returned English instead of the romanized target language, counted over the full $\sim $142-response set. GPT-4o is the only model with zero English-only failures across all three languages}{table.4}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {5}Discussion}{10}{section.5}\protected@file@percent }
+\newlabel{sec:discussion}{{5}{10}{Discussion}{section.5}{}}
+\citation{petrov2023tokenization}
+\@writefile{lot}{\contentsline {table}{\numberline {5}{\ignorespaces Mean output-token usage by model and target language. Counts include both generated fields and structured-output syntax.}}{11}{table.5}\protected@file@percent }
+\newlabel{tab:output-tokens}{{5}{11}{Mean output-token usage by model and target language. Counts include both generated fields and structured-output syntax}{table.5}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {6}Limitations}{11}{section.6}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Source data and task design.}{11}{section*.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Single prompting strategy.}{11}{section*.2}\protected@file@percent }
 \bibdata{references}
-\bibcite{chen2024bgem3}{{1}{2024}{{Chen et~al.}}{{Chen, Xiao, Zhang, Luo, Lian, and Liu}}}
-\bibcite{madhani2023aksharantar}{{2}{2023}{{Madhani et~al.}}{{Madhani, Khapra, and Kunchukuttan}}}
-\bibcite{roark2020dakshina}{{3}{2020}{{Roark et~al.}}{{Roark, Wolf-Sonkin, Kirov, Mielke, Johny, Demirsahin, and Hall}}}
-\bibcite{zhang2020bertscore}{{4}{2020}{{Zhang et~al.}}{{Zhang, Kishore, Wu, Weinberger, and Artzi}}}
+\bibcite{artetxe2020xquad}{{1}{2020}{{Artetxe et~al.}}{{Artetxe, Ruder, and Yogatama}}}
+\bibcite{chen2024bgem3}{{2}{2024}{{Chen et~al.}}{{Chen, Xiao, Zhang, Luo, Lian, and Liu}}}
+\bibcite{doddapaneni2023indicqa}{{3}{2023}{{Doddapaneni et~al.}}{{Doddapaneni, Aralikatte, Ramesh, Goyal, Khapra, Kunchukuttan, and Kumar}}}
+\@writefile{toc}{\contentsline {paragraph}{Automatic metrics.}{12}{section*.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Human evaluation coverage.}{12}{section*.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Languages and models.}{12}{section*.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {7}Conclusion}{12}{section.7}\protected@file@percent }
+\bibcite{husain2024romansetu}{{4}{2024}{{Husain et~al.}}{{Husain, Dabre, Kumar, Gala, Jayakumar, Puduppully, and Kunchukuttan}}}
+\bibcite{khullar2025scriptgap}{{5}{2025}{{Khullar et~al.}}{{Khullar, Desai, Malviya, Dalmia, and Shi}}}
+\bibcite{kopf2023openassistant}{{6}{2023}{{K\"{o}pf et~al.}}{{K\"{o}pf, Kilcher, von R\"{u}tte, Anagnostidis, Tam, Stevens, Barhoum, Duc, Stanley, Nagyfi, et~al.}}}
+\bibcite{madhani2023aksharantar}{{7}{2023}{{Madhani et~al.}}{{Madhani, Khapra, and Kunchukuttan}}}
+\bibcite{petrov2023tokenization}{{8}{2023}{{Petrov et~al.}}{{Petrov, La~Malfa, Torr, and Bibi}}}
+\bibcite{roark2020dakshina}{{9}{2020}{{Roark et~al.}}{{Roark, Wolf-Sonkin, Kirov, Mielke, Johny, Demirsahin, and Hall}}}
+\bibcite{zhang2020bertscore}{{10}{2020}{{Zhang et~al.}}{{Zhang, Kishore, Wu, Weinberger, and Artzi}}}
 \bibstyle{colm2026_conference}
-\@writefile{toc}{\contentsline {section}{\numberline {6}Conclusion}{4}{section.6}\protected@file@percent }
-\gdef \@abspage@last{4}
+\citation{kopf2023openassistant}
+\gdef \@abspage@last{14}

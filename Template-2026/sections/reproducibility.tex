@@ -1,10 +1,19 @@
 \section*{Reproducibility Statement}
 
-The generation and evaluation scripts, model identifiers, prompts, decoding
-parameters, and aggregate results are maintained in the accompanying anonymous
-artifact. Before submission, the artifact will include a clean input manifest,
-software versions, hardware details, and commands required to reproduce every
-table.
+\noindent{\sffamily\bfseries Data.}\enspace
+Source prompts are drawn from the OpenAssistant dataset (OASST2; \citealt{kopf2023openassistant}). We use 142 question–answer pairs per language, selected by filtering for English-language assistant turns and stratifying by query type (technical, emotional, narrative, factual). The full input manifest with OASST2 message IDs will be released with the artifact.
+
+\noindent{\sffamily\bfseries Models.}\enspace
+We evaluate four systems: Anthropic Claude Opus 4.8 (\texttt{claude-opus-4-8}), OpenAI GPT-4o (\texttt{gpt-4o-2024-11-20}), Google Gemini (\texttt{gemini-2.0-flash}), and Qwen3.5-35B served locally via Ollama (\texttt{ollama/qwen3.5:35b}). All models were queried with a single prompt template instructing the model to produce a romanized response in the target language, using default sampling settings unless otherwise specified. The complete prompt is included in the artifact.
+
+\noindent{\sffamily\bfseries Metrics.}\enspace
+BGE-M3 cosine similarity is computed with the \texttt{BAAI/bge-m3} checkpoint via the FlagEmbedding library (v1.2). BERTScore F1 uses \texttt{bert-base-multilingual-cased} with the HuggingFace \texttt{evaluate} library (v0.4). Both metrics are applied under the failure-aware policy: rows with empty output, native-script corruption, or English verbatim copy receive zero and are included in the denominator.
+
+\noindent{\sffamily\bfseries Human evaluation.}\enspace
+Approximately 24 rows per language (73 total: 24 Telugu, 24 Kannada, 25 Hindi) were scored on five dimensions (maximum 12 points). Telugu and Kannada rows received native-speaker corrections applied over LLM-judge pre-fills; Hindi scores are LLM-judge reference values pending native-speaker review. Rubric definitions and the LLM-judge pre-fill methodology are detailed in the supplementary scoring guide, which will be released with the artifact. Inter-annotator agreement was not formally measured; each language was reviewed by a single native speaker.
+
+\noindent{\sffamily\bfseries Code.}\enspace
+The generation pipeline, evaluation scripts, plotting code, and human evaluation rubric will be released as an anonymous artifact prior to final submission. A README with exact reproduction commands will be included.
 
 \section*{Use of Language Models}
 

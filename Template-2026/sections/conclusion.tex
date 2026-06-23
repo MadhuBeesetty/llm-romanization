@@ -1,9 +1,24 @@
 \section{Conclusion}
 
-We presented a preliminary evaluation of Qwen3.5-35B for paired
-English-to-Romanized Hindi, Telugu, and Kannada generation. Under a
-failure-aware policy that assigns zero to English copies and missing or
-unusable fields, Hindi achieves the strongest aggregate semantic scores,
-followed by Telugu and Kannada. Future evaluation should combine automatic
-semantic metrics with completion and format diagnostics, repetition detection,
-and native-speaker judgments.
+We evaluated four LLMs---Claude, GPT-4o, Gemini, and Qwen3.5-35B---on
+romanized Hindi, Telugu, and Kannada generation under a failure-aware scoring
+policy that assigns zero to empty, copied, and script-corrupted outputs. Three
+findings stand out. First, language is a stronger predictor of output quality
+than model choice: all four models follow the same Hindi $>$ Telugu $>$ Kannada
+ordering, consistent with the relative availability of romanized Indic text in
+pretraining data. Second, Gemini and Ollama exhibit non-overlapping failure
+modes---script corruption and instruction collapse respectively---that are
+invisible without explicit coverage tracking, and that failure-aware scoring
+exposes by materially changing model rankings. Third, and most importantly,
+BGE-M3 cosine similarity assigns scores in the 0.73--0.84 range across all
+language conditions for the two strongest models (Anthropic and GPT-4o),
+including outputs that return pure English verbatim (BGE = 1.000) and outputs
+rendered entirely in native script (BGE $\approx$ 0.82). Native-speaker human evaluation reveals systematic quality
+failures---unnatural register, wrong word choice, inconsistent romanization---
+that this band conceals. The metric cannot see the gap that users experience.
+
+Romanized generation for Indic languages requires evaluation frameworks that
+combine semantic metrics with coverage, script compliance, and native-speaker
+judgment. We release our scoring pipeline, the failure-aware evaluation
+protocol, and the human annotation rubric to support future benchmarking of
+this underserved but large-scale user population.
