@@ -1,71 +1,189 @@
+% \section{Introduction}
+
+% Hundreds of millions of South Asian language speakers communicate with digital
+% systems---including large language models (LLMs)---not in their native script,
+% but in romanized Latin characters. A Hindi speaker types \textit{aap kaise hain}
+% rather than \textit{आप कैसे हैं}; a Telugu speaker types \textit{meeru ela
+% unnaru} rather than \textit{మీరు ఎలా ఉన్నారు}. This practice is not a niche
+% behavior. It is the dominant input mode on smartphones, where QWERTY keyboards
+% are universal and native-script input remains cumbersome. In a real-world corpus of patient WhatsApp messages spanning Indian languages,
+% romanized text accounts for 83\% of Hindi inputs and 73\% of Telugu
+% inputs~\cite{khullar2025scriptgap}; for
+% hundreds of millions of users, romanized Latin script \emph{is} the de facto
+% interface for their native language.
+
+% Despite its scale, this modality is nearly absent from standard NLP evaluation.
+% Benchmarks such as XQuAD~\cite{artetxe2020xquad}, IndicQA~\cite{doddapaneni2023indicqa}, and MLQA use formal native script.
+% Language detectors routinely misclassify romanized Hindi or Telugu as English,
+% preventing correct labeling. Tokenizers trained on native script have no learned
+% representations for romanized equivalents: a word like \textit{untundi} is split
+% into arbitrary English subword units with no semantic grounding. Datasets such as
+% Dakshina~\cite{roark2020dakshina} and Aksharantar~\cite{madhani2023aksharantar}
+% document the scope of Latin-script South Asian language processing and the effort
+% needed for robust transliteration, but large-scale romanized \emph{generation}
+% benchmarks---especially for open-ended, long-form responses---remain absent.
+
+% This invisibility has a subtler, more consequential dimension: automatic
+% evaluation metrics may fail to detect quality failures that native speakers
+% readily identify. A model response that mixes native-script characters
+% mid-sentence, uses an awkward register, or chooses semantically wrong words can
+% still receive a high BERTScore if the multilingual encoder has no meaningful
+% representation of romanized text. We show that even BGE-M3 cosine
+% similarity---a state-of-the-art cross-lingual embedding model specifically
+% designed for multilingual retrieval~\cite{chen2024bgem3}---produces scores in
+% the 0.73--0.84 range across all language conditions for the two strongest models (Anthropic and GPT-4o), masking
+% systematic quality differences that native speakers consistently detect. Prior
+% work has shown that romanized input degrades LLM performance on structured tasks
+% by up to 24 points relative to native script~\cite{khullar2025scriptgap}; our
+% finding is that this degradation is further compounded by evaluation frameworks
+% that cannot see it.
+
+% We address this gap with a controlled multi-model evaluation. Using 142 English
+% query--response pairs from the OpenAssistant dataset~\cite{kopf2023openassistant}, we prompt four
+% LLMs---Claude (Anthropic), GPT-4o (OpenAI), Gemini (Google), and Qwen3.5-35B
+% served locally via Ollama---to produce romanized Hindi, Telugu, and Kannada
+% versions. We evaluate outputs with multilingual BERTScore~\cite{zhang2020bertscore}
+% and BGE-M3 cosine similarity under a failure-aware scoring policy that assigns
+% zero to empty, copied, and native-script-corrupted outputs rather than excluding
+% them, ensuring that reliability and semantic quality are reported together. A
+% native-speaker human evaluation on sampled responses per language completes the
+% assessment, directly measuring the gap between automatic scores and human
+% judgment.
+
+% Our contributions are:
+% \begin{itemize}
+%     \item a multi-model, multi-language romanized generation benchmark covering
+%     three Indic languages (Hindi, Telugu, Kannada) across four LLMs;
+
+%     \item a failure-aware scoring framework that treats empty, copied, and
+%     script-corrupted outputs as failures rather than omissions, giving a
+%     complete picture of model reliability;
+
+%     \item empirical evidence that state-of-the-art automatic metrics---including
+%     BGE-M3 embedding similarity---cannot detect quality failures that native
+%     speakers consistently identify, quantifying the evaluation blind spot; and
+
+%     \item a native-speaker human evaluation rubric and annotated sample designed
+%     to support future benchmarking of romanized Indic generation.
+% \end{itemize}
+
 \section{Introduction}
 
-Hundreds of millions of South Asian language speakers communicate with digital
-systems---including large language models (LLMs)---not in their native script,
-but in romanized Latin characters. A Hindi speaker types \textit{aap kaise hain}
-rather than \textit{आप कैसे हैं}; a Telugu speaker types \textit{meeru ela
-unnaru} rather than \textit{మీరు ఎలా ఉన్నారు}. This practice is not a niche
-behavior. It is the dominant input mode on smartphones, where QWERTY keyboards
-are universal and native-script input remains cumbersome. Prevalence studies in
-real-world messaging corpora place romanized usage at 83\% for Hindi and 73\%
-for Telugu~\cite{khullar2025scriptgap}; for hundreds of millions of users,
-romanized Latin script \emph{is} the de facto interface for their native
-language.
+For many speakers of Indian languages, communicating online does not require
+switching to a native-script keyboard. A Hindi speaker may type
+\textit{aap kaise hain}, a Telugu speaker \textit{meeru ela unnaru}, and a
+Kannada speaker \textit{neevu hegiddira}. Although these sentences use Latin
+characters, they are not English. Their vocabulary, grammar, meaning, and
+social register belong to the corresponding native language. Romanized text is
+therefore not merely a transliteration convenience; for many users, it is the
+practical interface through which they communicate with digital systems,
+including large language models (LLMs).
 
-Despite its scale, this modality is nearly absent from standard NLP evaluation.
-Benchmarks such as XQuAD, IndicQA, and MLQA use formal native script.
-Language detectors routinely misclassify romanized Hindi or Telugu as English,
-preventing correct labeling. Tokenizers trained on native script have no learned
-representations for romanized equivalents: a word like \textit{untundi} is split
-into arbitrary English subword units with no semantic grounding. Datasets such as
-Dakshina~\cite{roark2020dakshina} and Aksharantar~\cite{madhani2023aksharantar}
-document the scope of Latin-script South Asian language processing and the effort
-needed for robust transliteration, but large-scale romanized \emph{generation}
-benchmarks---especially for open-ended, long-form responses---remain absent.
+This behavior is common in real-world communication. Romanized text accounts
+for 83\% of Hindi and 73\% of Telugu messages in a corpus of patient WhatsApp
+interactions~\cite{khullar2025scriptgap}. However, most multilingual NLP
+benchmarks evaluate languages in their standardized native scripts. Resources
+such as XQuAD~\cite{artetxe2020xquad} and
+IndicQA~\cite{doddapaneni2023indicqa} contain formal native-script text, while
+datasets such as Dakshina~\cite{roark2020dakshina} and
+Aksharantar~\cite{madhani2023aksharantar} primarily study transliteration.
+Consequently, the ability of an LLM to generate long, natural, and semantically
+faithful Romanized Indic text remains insufficiently understood.
 
-This invisibility has a subtler, more consequential dimension: automatic
-evaluation metrics may fail to detect quality failures that native speakers
-readily identify. A model response that mixes native-script characters
-mid-sentence, uses an awkward register, or chooses semantically wrong words can
-still receive a high BERTScore if the multilingual encoder has no meaningful
-representation of romanized text. We show that even BGE-M3 cosine
-similarity---a state-of-the-art cross-lingual embedding model specifically
-designed for multilingual retrieval~\cite{chen2024bgem3}---produces scores in
-the 0.76--0.84 range across all model and language combinations, masking
-systematic quality differences that native speakers consistently detect. Prior
-work has shown that romanized input degrades LLM performance on structured tasks
-by up to 24 points relative to native script~\cite{khullar2025scriptgap}; our
-finding is that this degradation is further compounded by evaluation frameworks
-that cannot see it.
+At first glance, this task may appear to be ordinary translation followed by
+transliteration. In practice, it requires several capabilities at once. The
+model must understand the English source, express the same meaning naturally in
+the target language, write that language entirely in Latin characters, preserve
+names and technical terms, and maintain an appropriate register. Romanization
+also lacks a universally accepted spelling standard. A model can therefore
+produce text that is superficially plausible while using unnatural vocabulary,
+English sentence structure, inconsistent spellings, or characters from the
+wrong script.
 
-We address this gap with a controlled multi-model evaluation. Using 142 English
-query--response pairs from the OpenAssistant dataset, we prompt four
-LLMs---Claude (Anthropic), GPT-4o (OpenAI), Gemini (Google), and Qwen3.5-35B
-served locally via Ollama---to produce romanized Hindi, Telugu, and Kannada
-versions. We evaluate outputs with multilingual BERTScore~\cite{zhang2020bertscore}
-and BGE-M3 cosine similarity under a failure-aware scoring policy that assigns
-zero to empty, copied, and native-script-corrupted outputs rather than excluding
-them, ensuring that reliability and semantic quality are reported together. We
-include Korean as a negative control: Korean speakers do not romanize in everyday
-communication, providing a baseline that isolates romanization---not non-English
-use alone---as the source of any observed degradation. A native-speaker human
-evaluation on sampled responses per language completes the assessment, directly
-measuring the gap between automatic scores and human judgment.
+We formulate the task as semantic alignment between an English source and its
+Romanized Indic counterpart. A successful output should preserve the meaning of
+the English text without simply copying it. It should also satisfy the
+representation constraint: the result must be Hindi, Telugu, or Kannada written
+in Latin script. This distinction is important because a verbatim English
+response has perfect semantic similarity to the English reference, but it is a
+complete failure of the requested Romanized-language generation task.
+Similarly, an answer written in native script may preserve meaning while
+violating the interface expected by the user.
+
+Our initial experiments revealed that these failures become more pronounced for
+long responses. Short queries were often converted successfully, while longer
+answers were more likely to remain in English, contain native-script
+characters, omit content, produce incomplete structured output, or collapse
+into repetition. This motivates evaluating the query and response separately,
+while still generating them together.
+
+We use one model call for each paired query and response. The model receives
+both English fields and returns
+\texttt{romanized\_query} and
+\texttt{romanized\_response} in a single structured output. This design
+preserves the conversational relationship between the user request and its
+answer. In pilot experiments, generating the fields independently caused the
+model to lose context and behave inconsistently, particularly when processing
+long responses. Joint generation allows the model to interpret the response in
+light of the query while still permitting separate evaluation of both fields.
+
+We evaluate four multilingual LLMs: Claude, GPT-4o, Gemini, and the locally
+served Qwen3.5-35B model. Each model converts the same 142 English
+query--response pairs from OpenAssistant~\cite{kopf2023openassistant} into
+Romanized Hindi, Telugu, and Kannada. This controlled design gives every model
+the same source content and supports direct comparison across models and
+languages.
+
+Our evaluation considers three complementary properties. First, we measure
+\textbf{semantic alignment} using multilingual
+BERTScore~\cite{zhang2020bertscore} and BGE-M3 cosine
+similarity~\cite{chen2024bgem3}. Second, we measure
+\textbf{generation reliability} by detecting empty fields, English copies,
+native-script leakage, incomplete outputs, and repetition loops. Third, we
+examine \textbf{generation efficiency} through output-token usage and completion
+behavior. Efficiency matters because a model that requires substantially more
+tokens, repeatedly reaches its generation limit, or fails to complete long
+responses may be impractical even when its successful outputs preserve meaning.
+
+The results show that multilingual capability does not automatically imply
+reliable Romanized-language generation. Hindi is consistently the strongest
+language across models, while Telugu and Kannada expose larger gaps. Claude and
+GPT-4o obtain the highest response-level BGE-M3 scores, ranging from 0.733 to
+0.837 across the three languages. Nevertheless, aggregate similarity scores
+hide important failure modes. Gemini frequently leaks non-Latin characters,
+including native Indic and unrelated scripts. Script leakage affects 24 Telugu
+and 19 Kannada responses. Qwen exhibits a different failure pattern: it often
+returns the English source unchanged for Telugu and Kannada, and it is the only
+evaluated model to produce severe repetition loops.
+
+These observations also expose a limitation of standard semantic metrics.
+Before failure-aware correction, a verbatim English output receives a BGE-M3
+cosine similarity and BERTScore of 1.0 because it exactly matches the English
+reference. The metric therefore gives its highest possible score to an output
+that did not perform the requested task. To address this problem, we introduce
+a failure-aware policy in which English copies, empty or unusable fields,
+native-script corruption, and detected repetition loops receive zero. Unlike
+evaluation that silently removes unsuccessful generations, this policy keeps
+all 142 samples in the denominator and measures semantic quality together with
+task completion.
 
 Our contributions are:
+
 \begin{itemize}
-    \item a multi-model, multi-language romanized generation benchmark covering
-    three Indic languages (Hindi, Telugu, Kannada) across four LLMs, with Korean
-    as a typological negative control;
+    \item We present a controlled benchmark for paired English-to-Romanized
+    Hindi, Telugu, and Kannada generation across four multilingual LLMs.
 
-    \item a failure-aware scoring framework that treats empty, copied, and
-    script-corrupted outputs as failures rather than omissions, giving a
-    complete picture of model reliability;
+    \item We evaluate semantic alignment separately for queries and responses
+    while generating both fields jointly to preserve conversational context.
 
-    \item empirical evidence that state-of-the-art automatic metrics---including
-    BGE-M3 embedding similarity---cannot detect quality failures that native
-    speakers consistently identify, quantifying the evaluation blind spot; and
+    \item We introduce a failure-aware evaluation policy that prevents English
+    copies, empty outputs, native-script leakage, and repetition loops from
+    receiving misleadingly high aggregate scores.
 
-    \item a native-speaker human evaluation rubric and annotated sample designed
-    to support future benchmarking of romanized Indic generation.
+    \item We identify distinct model-specific failure modes: script instability
+    in Gemini and English copying and degeneration in Qwen, especially for
+    Telugu and Kannada.
+
+    \item We examine generation efficiency through output-token usage,
+    completion reliability, and behavior on long responses.
 \end{itemize}

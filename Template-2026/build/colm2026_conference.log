@@ -236,82 +236,102 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \@thisruleclass=\count275
 \@lastruleclass=\count276
 \@thisrulewidth=\dimen158
+) (multirow.sty
+Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
+\multirow@colwidth=\skip61
+\multirow@cntb=\count277
+\multirow@dima=\skip62
+\bigstrutjot=\dimen159
+)
+(graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+ (graphics.sty
+Package: graphics 2021/03/04 v1.4d Standard LaTeX Graphics (DPC,SPQR)
+ (trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+) (graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: xetex.def on input line 107.
+)
+\Gin@req@height=\dimen160
+\Gin@req@width=\dimen161
 ) (lineno.sty
 Package: lineno 2005/11/02 line numbers on paragraphs v4.41
 Invalid UTF-8 byte or sequence at line 296 replaced by U+FFFD.
-\linenopenalty=\count277
+\linenopenalty=\count278
 \output=\toks20
-\linenoprevgraf=\count278
-\linenumbersep=\dimen159
-\linenumberwidth=\dimen160
-\c@linenumber=\count279
-\c@pagewiselinenumber=\count280
-\c@LN@truepage=\count281
-\c@internallinenumber=\count282
-\c@internallinenumbers=\count283
-\quotelinenumbersep=\dimen161
-\bframerule=\dimen162
-\bframesep=\dimen163
+\linenoprevgraf=\count279
+\linenumbersep=\dimen162
+\linenumberwidth=\dimen163
+\c@linenumber=\count280
+\c@pagewiselinenumber=\count281
+\c@LN@truepage=\count282
+\c@internallinenumber=\count283
+\c@internallinenumbers=\count284
+\quotelinenumbersep=\dimen164
+\bframerule=\dimen165
+\bframesep=\dimen166
 \bframebox=\box52
 LaTeX Info: Redefining \\ on input line 3056.
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 16.
-LaTeX Font Info:    Trying to load font information for TU+ppl on input line 24
+Package hyperref Info: Option `colorlinks' set `true' on input line 18.
+LaTeX Font Info:    Trying to load font information for TU+ppl on input line 25
 .
-LaTeX Font Info:    No file TUppl.fd. on input line 24.
+LaTeX Font Info:    No file TUppl.fd. on input line 25.
 
 
 LaTeX Font Warning: Font shape `TU/ppl/m/n' undefined
-(Font)              using `TU/lmr/m/n' instead on input line 24.
+(Font)              using `TU/lmr/m/n' instead on input line 25.
 
 (l3backend-xetex.def
 File: l3backend-xetex.def 2022-02-07 L3 backend support: XeTeX
-\c__kernel_sys_dvipdfmx_version_int=\count284
-\l__color_backend_stack_int=\count285
-\g__color_backend_stack_int=\count286
-\g__graphics_track_int=\count287
+\c__kernel_sys_dvipdfmx_version_int=\count285
+\l__color_backend_stack_int=\count286
+\g__color_backend_stack_int=\count287
+\g__graphics_track_int=\count288
 \l__pdf_internal_box=\box53
-\g__pdf_backend_object_int=\count288
-\g__pdf_backend_annotation_int=\count289
-\g__pdf_backend_link_int=\count290
+\g__pdf_backend_object_int=\count289
+\g__pdf_backend_annotation_int=\count290
+\g__pdf_backend_link_int=\count291
 ) (colm2026_conference.aux)
 \openout1 = `colm2026_conference.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 24.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 25.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 2
-4.
+5.
  (ts1cmr.fd
 File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-\big@size=\dimen164
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+\big@size=\dimen167
  (upquote.sty
 Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verba
 tim
 )
-LaTeX Info: Redefining \microtypecontext on input line 24.
-Package microtype Info: Applying patch `item' on input line 24.
-Package microtype Info: Applying patch `toc' on input line 24.
-Package microtype Info: Applying patch `eqnum' on input line 24.
-Package microtype Info: Applying patch `footnote' on input line 24.
+LaTeX Info: Redefining \microtypecontext on input line 25.
+Package microtype Info: Applying patch `item' on input line 25.
+Package microtype Info: Applying patch `toc' on input line 25.
+Package microtype Info: Applying patch `eqnum' on input line 25.
+Package microtype Info: Applying patch `footnote' on input line 25.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: No adjustment of tracking.
@@ -325,7 +345,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `ppl' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-Package hyperref Info: Link coloring ON on input line 24.
+Package hyperref Info: Link coloring ON on input line 25.
  (nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
  (refcount.sty
@@ -333,11 +353,11 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ) (gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count291
+\c@section@level=\count292
 )
-LaTeX Info: Redefining \ref on input line 24.
-LaTeX Info: Redefining \pageref on input line 24.
-LaTeX Info: Redefining \nameref on input line 24.
+LaTeX Info: Redefining \ref on input line 25.
+LaTeX Info: Redefining \pageref on input line 25.
+LaTeX Info: Redefining \nameref on input line 25.
 
 (colm2026_conference.out) (colm2026_conference.out)
 \@outlinefile=\write3
@@ -346,35 +366,30 @@ LaTeX Info: Redefining \nameref on input line 24.
 
 
 LaTeX Font Warning: Font shape `TU/ppl/b/n' undefined
-(Font)              using `TU/ppl/m/n' instead on input line 31.
-
-
-Underfull \hbox (badness 1688) in paragraph at lines 31--31
-[]\TU/ppl/m/n/14.4 Evaluating English-to-Romanized Indic Generation with an
- []
+(Font)              using `TU/ppl/m/n' instead on input line 32.
 
 LaTeX Font Info:    Trying to load font information for OT1+ppl on input line 3
-1.
+2.
 (ot1ppl.fd
 File: ot1ppl.fd 2001/06/04 font definitions for OT1/ppl.
 )
 LaTeX Font Info:    Trying to load font information for OML+zplm on input line 
-31.
+32.
  (omlzplm.fd
 File: omlzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OML/zplm.
 )
 LaTeX Font Info:    Trying to load font information for OMS+zplm on input line 
-31.
+32.
  (omszplm.fd
 File: omszplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMS/zplm.
 )
 LaTeX Font Info:    Trying to load font information for OMX+zplm on input line 
-31.
+32.
  (omxzplm.fd
 File: omxzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMX/zplm.
 )
 LaTeX Font Info:    Trying to load font information for OT1+zplm on input line 
-31.
+32.
  (ot1zplm.fd
 File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
 )
@@ -388,19 +403,24 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `lmss' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-) (sections/introduction) (sections/method
-Underfull \vbox (badness 3029) has occurred while \output is active []
+) (sections/introduction
+
+LaTeX Font Warning: Font shape `TU/ppl/m/it' undefined
+(Font)              using `TU/ppl/m/n' instead on input line 74.
+
+
+Underfull \vbox (badness 2245) has occurred while \output is active []
 
  [1
 
 ]
-LaTeX Font Info:    Trying to load font information for TU+zi4 on input line 13
-.
-LaTeX Font Info:    No file TUzi4.fd. on input line 13.
+LaTeX Font Info:    Trying to load font information for TU+zi4 on input line 12
+2.
+LaTeX Font Info:    No file TUzi4.fd. on input line 122.
 
 
 LaTeX Font Warning: Font shape `TU/zi4/m/n' undefined
-(Font)              using `TU/lmr/m/n' instead on input line 13.
+(Font)              using `TU/lmr/m/n' instead on input line 122.
 
 (mt-LatinModernRoman.cfg
 File: mt-LatinModernRoman.cfg 2021/02/21 v1.1 microtype config. file: Latin Mod
@@ -410,17 +430,108 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `zi4' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-) (sections/results [2]) (sections/discussion)
-(sections/limitations) (sections/conclusion [3]) (colm2026_conference.bbl
 
-LaTeX Font Warning: Font shape `TU/ppl/m/it' undefined
-(Font)              using `TU/ppl/m/n' instead on input line 12.
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-) (sections/reproducibility) [4] (colm2026_conference.aux)
+ [2])
+(sections/related_work) (sections/method [3]
+LaTeX Font Info:    Font shape `TU/lmss/b/n' in size <10> not available
+(Font)              Font shape `TU/lmss/bx/n' tried instead on input line 45.
+ [4]) (sections/results
+File: figures/bge_cosine.pdf Graphic file (type pdf)
+<use figures/bge_cosine.pdf>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [5]
+Missing character: There is no е (U+0435) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no д (U+0434) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no и (U+0438) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no н (U+043D) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no с (U+0441) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no т (U+0442) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no в (U+0432) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no е (U+0435) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no н (U+043D) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no н (U+043D) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ы (U+044B) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no й (U+0439) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no అ (U+0C05) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no వ (U+0C35) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ు (U+0C41) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no న (U+0C28) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ు (U+0C41) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ச (U+0B9A) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ா (U+0BBE) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no த (U+0BA4) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ் (U+0BCD) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no த (U+0BA4) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ி (U+0BBF) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ய (U+0BAF) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ம (U+0BAE) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ் (U+0BCD) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no म (U+092E) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ा (U+093E) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no न (U+0928) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no न (U+0928) in font [lmroman10-regular]:mapping=t
+ex-text;!
+Missing character: There is no ा (U+093E) in font [lmroman10-regular]:mapping=t
+ex-text;!
+
+Underfull \vbox (badness 2837) has occurred while \output is active []
+
+ [6]
+File: figures/bert_scores.pdf Graphic file (type pdf)
+<use figures/bert_scores.pdf>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [7]
+Underfull \vbox (badness 3557) has occurred while \output is active []
+
+ [8])
+(sections/discussion
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [9]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [10])
+(sections/limitations [11]) (sections/conclusion) (colm2026_conference.bbl
+[12]) (sections/reproducibility [13]) [14] (colm2026_conference.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `colm2026_conference.out' has not changed.
-(rerunfilecheck)             Checksum: 8326AE2B444D890DA330C8898FE307D6;829.
+(rerunfilecheck)             Checksum: DE201F0FEBF09BF66ED37428F0636888;1467.
  )
-Output written on colm2026_conference.xdv (4 pages, 129256 bytes).
+Output written on colm2026_conference.xdv (14 pages, 544944 bytes).

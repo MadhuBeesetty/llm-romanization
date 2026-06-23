@@ -1,17 +1,20 @@
 \begin{abstract}
-Hundreds of millions of South Asian language speakers interact with AI systems
-in romanized Latin script---typing their native language with QWERTY keyboards
-rather than native characters---yet no standard benchmark evaluates LLM
-generation quality in this representation. We evaluate four LLMs (Claude,
-GPT-4o, Gemini, and Qwen3.5-35B) on romanized Hindi, Telugu, and Kannada
-generation using 142 English query--response pairs from the OpenAssistant
-dataset. Outputs are scored with multilingual BERTScore and BGE-M3 cosine
-similarity under a failure-aware policy that assigns zero to empty, copied, and
-native-script-corrupted responses rather than excluding them. Automatic scores
-range from 0.76 to 0.84 across all model and language combinations---a band
-that appears acceptable. Native-speaker human evaluation reveals systematic
-quality failures invisible to these metrics: unnatural register, wrong word
-choice, and inconsistent romanization that native speakers consistently reject.
-The divergence between automatic and human judgment is the central finding:
-current evaluation frameworks cannot see the gap that users experience.
+Romanized Latin script is widely used by speakers of Indic languages, yet
+open-ended generation in this representation remains poorly evaluated. We
+benchmark Claude, GPT-4o, Gemini, and Qwen3.5-35B on converting 142 English
+query--response pairs into romanized Hindi, Telugu, and Kannada. Outputs are
+evaluated using multilingual BERTScore and BGE-M3 cosine similarity under a
+failure-aware policy that assigns zero to empty outputs, English copies,
+native-script leakage, and repetition loops. GPT-4o and Claude achieve the
+strongest response-level BGE-M3 scores, ranging from 0.733 to 0.837 across the
+three languages. However, aggregate semantic scores obscure distinct failure
+modes. Gemini exhibits script leakage, affecting 24 Telugu and 19 Kannada
+responses, while Qwen frequently returns English unchanged and produces
+repetition loops. Verbatim English outputs can receive perfect similarity
+scores before failure-aware correction, demonstrating that semantic similarity
+alone does not measure successful romanization. Performance is consistently
+strongest for Hindi and weaker for Telugu and Kannada. These findings show that
+romanized Indic generation should be evaluated using semantic similarity
+together with completion reliability, script compliance, English-copy
+detection, and repetition analysis.
 \end{abstract}

@@ -1,28 +1,113 @@
 \section{Discussion}
+\label{sec:discussion}
 
-\paragraph{Semantic quality and reliability are different axes.}
-Embedding similarity captures whether a completed output remains semantically
-close to its source. Our failure-aware means additionally penalize missing,
-unusable, and English-copy outputs with zero. Hindi's stronger aggregate scores
-therefore reflect both semantic preservation and more reliable completion.
+\noindent{\sffamily\bfseries Automated semantic evaluation can mask failures.}\enspace
+BGE-M3 scores for the two strongest models (Anthropic, GPT-4o) cluster in the
+0.73--0.84 range across all twelve model--language conditions. Considered in isolation,
+this band suggests adequate semantic preservation. Our analysis reveals three
+systematic failure modes that this band conceals. First, outputs that return
+the English source verbatim---a complete task failure---receive BGE scores of
+1.000, because the metric measures English-to-English similarity rather than
+romanization quality. Thirty-five rows across Ollama Telugu and Kannada fall
+into this category (16 and 19 respectively, matching the failure counts in Table~\ref{tab:failures}). Second, Gemini responses containing full paragraphs of
+native Telugu or Kannada script receive BGE scores of 0.80--0.84---passing
+marks for the wrong script entirely. Third, BGE and BERTScore disagree by
+more than 0.15 points on 44\% of all 1,704 evaluated rows (maximum gap: 0.28
+on a single response), indicating that the two metrics are not measuring the
+same underlying property. When two standard metrics diverge this substantially,
+neither can be trusted as a sole arbiter of quality.
 
-\paragraph{Structured generation is part of the task.}
-Several failures arise before linguistic quality can be evaluated. Long
-responses may exhaust the generation budget before the second JSON field,
-while repetition loops consume tokens without completing the requested
-structure. Evaluations that silently remove such records measure conditional
-quality rather than operational utility.
+\noindent{\sffamily\bfseries Model-specific failure modes.}\enspace
+Gemini and Ollama fail in qualitatively different ways that reflect different
+aspects of instruction following. Gemini produces \emph{script corruption}:
+it generates otherwise fluent romanized text but switches to native script for
+certain word classes, particularly abstract nouns and technical terms.
+Frequency increases with script complexity (5.6\% for Hindi, 16.9\% for
+Telugu). Ollama produces \emph{instruction collapse}: for Dravidian languages
+it returns the English source unchanged, suggesting the model has insufficient
+exposure to romanized Telugu and Kannada to complete the task. Crucially,
+these failures do not co-occur: Gemini never copies English and Ollama never
+leaks native script. The failure-aware scoring policy is essential for exposing
+both, because silently excluding invalid rows would raise Gemini's Telugu BGE
+from 0.630 to approximately 0.82---indistinguishable from GPT-4o's 0.794.
 
-\paragraph{Automatic metrics are insufficient for naturalness.}
-Neither BERTScore nor BGE-M3 evaluates whether a romanization sounds natural to
-a Hindi, Telugu, or Kannada speaker. High semantic similarity can coexist with
-awkward grammar, inconsistent spelling, inappropriate register, or excessive
-English borrowing. Native-speaker judgments are required to establish
-practical quality.
+\noindent{\sffamily\bfseries Naturalness beyond embedding similarity.}\enspace
+Independent analysis of the romanized outputs reveals a consistent register
+problem that no automatic metric captures. All three API models generate text
+that follows English syntactic structure with Indic words inserted at
+corresponding positions---a pattern native speakers immediately identify as
+translated rather than composed. Gemini Hindi consistently uses hyper-formal
+Sanskrit-register vocabulary (\textit{saanskritik mahatva}, \textit{adhikar
+hota hai}) that no speaker would produce in informal digital communication.
+GPT-4o Kannada uses language-specific affirmatives (\textit{Haudu},
+\textit{Khandita}) that signal greater lexical competence, but collapses into
+the same translated-English architecture for expository prose. Among ollama's \emph{successful} Telugu outputs---those that are neither
+verbatim English nor repetition loops---we observe authentic discourse particles
+(\textit{raa}, \textit{Aa}, \textit{Aye}) absent from all other model--language
+combinations, indicating real romanized-Telugu competence when the model engages
+the task. That competence does not survive aggregation: 16 of ollama's Telugu
+responses are verbatim English and several others degenerate, so its mean human
+score is 4.07/12 (its worst language), while ollama's strongest language is in
+fact Hindi (8.28/12). For the stronger models, the shared BGE range of
+0.73--0.84 masks these divergences entirely.
 
-\paragraph{Implications for multilingual evaluation.}
-Romanized generation should be evaluated with a metric bundle: semantic
-preservation, completion rate, script compliance, repetition rate, and
-native-speaker acceptability. The failure-scoring policy must be stated
-explicitly because excluding unsuccessful outputs can substantially inflate
-aggregate quality.
+\noindent{\sffamily\bfseries Query-type effects.}\enspace
+Pooling scores across all models and languages, emotional and narrative queries
+obtain significantly lower BGE scores (mean: 0.719) than technical and
+scientific queries (mean: 0.816), a gap of 0.097 points (t-test $p < 0.0001$).
+This is counterintuitive: one might expect code or mathematics to be harder
+to romanize than conversational text. The explanation is that technical terms
+have stable, widely-accepted romanizations (e.g., \textit{algorithm},
+\textit{hybridization}) while emotional and idiomatic language resists
+literal transliteration. Prompts requiring extended first-person narrative or
+complex persona---such as roleplay and creative writing---are the hardest class
+for all four models across all three languages. This finding suggests that
+evaluation datasets for romanized generation should stratify by query type
+rather than treating all prompts as equivalent.
+
+\noindent{\sffamily\bfseries Output-token efficiency.}\enspace
+Petrov et al.~\cite{petrov2023tokenization} showed that non-English \emph{input}
+requires disproportionately more tokens under English-dominant tokenizers---a
+cost asymmetry that disadvantages non-English users before the model runs. Our
+data reveal a parallel asymmetry on the \emph{output} side. Table~\ref{tab:output-tokens}
+reports the mean model-reported output tokens for each paired query--response
+generation.
+
+\begin{table}[t]
+  \centering
+  \caption{Mean output-token usage by model and target language. Counts include
+  both generated fields and structured-output syntax.}
+  \label{tab:output-tokens}
+  \small
+  \begin{tabular}{lrrrr}
+    \toprule
+    Model & Hindi & Telugu & Kannada & Overall \\
+    \midrule
+    Anthropic      & 1,059 & 1,037 & 1,107 & 1,068 \\
+    GPT-4o         &   714 &   691 &   737 &   714 \\
+    Gemini         &   633 &   686 &   717 &   678 \\
+    Qwen3.5-35B    &   714 &   447 & 1,768 &   976 \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+Anthropic reports the highest stable token usage, averaging 1,068 tokens,
+compared with 714 for GPT-4o and 678 for Gemini. This difference should not be
+interpreted directly as additional content or cost because each provider uses a
+different tokenizer. GPT-4o is the most consistent across languages, while
+Gemini reports the lowest overall mean. Qwen3.5-35B is substantially less
+stable: its low Telugu mean is partly caused by incomplete or zero-token
+outputs, whereas its Kannada mean is inflated by 49 generations that reached
+the 4,096-token limit, frequently through repetition. Thus, mean token usage is
+informative for the stable commercial systems but must be interpreted together
+with completion and degeneration rates for Qwen.
+
+\noindent{\sffamily\bfseries Implications for multilingual evaluation.}\enspace
+Romanized Indic generation requires a metric bundle rather than any single
+score: semantic preservation (BGE-M3 or BERTScore), coverage rate (fraction
+of valid outputs), script compliance (native-character count), repetition rate,
+and native-speaker acceptability. The failure-scoring policy must be stated
+explicitly, because the standard practice of excluding failed outputs can
+change model rankings entirely. More broadly, the results suggest that
+embedding-based cross-lingual metrics are insufficient to evaluate generation
+quality for low-resource romanized varieties---a population of hundreds of millions of users currently invisible to standard NLP benchmarks.
