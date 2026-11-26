@@ -147,26 +147,25 @@ from pathlib import Path
 def default_inputs():
 
     candidates = [
+        # Gemini
+        r"output/gemini/gemini_romanized_telugu.csv",
+        r"output/gemini/gemini_romanized_hindi.csv",
+        r"output/gemini/gemini_romanized_kannada.csv",
 
-        Gemini
-        r".\output\gemini\gemini_romanized_telugu.csv",
-        r".\output\gemini\gemini_romanized_hindi.csv",
-        r".\output\gemini\gemini_romanized_kannada.csv",
+        # Ollama
+        r"output/ollama/ollama_romanized_telugu_split.csv",
+        r"output/ollama/ollama_romanized_hindi_split.csv",
+        r"output/ollama/ollama_romanized_kannada_improved_split.csv",
 
-        Ollama
-        r".\output\ollama\ollama_romanized_telugu_split.csv",
-        r".\output\ollama\ollama_romanized_hindi_split.csv",
-        r".\output\ollama\ollama_romanized_kannada_improved_split.csv",
+        # GPT
+        r"output/gpt/gpt_romanized_telugu.csv",
+        r"output/gpt/gpt_romanized_hindi.csv",
+        r"output/gpt/gpt_romanized_kannada.csv",
 
-        GPT
-        r".\output\gpt\gpt_romanized_telugu.csv",
-        r".\output\gpt\gpt_romanized_hindi.csv",
-        r".\output\gpt\gpt_romanized_kannada.csv",
-
-        Anthropic
-        r".\output\anthropic_output\anthropic_romanized_telugu.csv",
-        r".\output\anthropic_output\anthropic_romanized_hindi.csv",
-        r".\output\anthropic_output\anthropic_romanized_kannada.csv",
+        # Anthropic
+        r"output/anthropic_output/anthropic_romanized_telugu.csv",
+        r"output/anthropic_output/anthropic_romanized_hindi.csv",
+        r"output/anthropic_output/anthropic_romanized_kannada.csv",
     ]
 
     existing_files = [file_path for file_path in candidates if Path(file_path).exists()]

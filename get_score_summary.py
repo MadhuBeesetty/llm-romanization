@@ -2,7 +2,7 @@ import pandas as pd
 from pathlib import Path
 from glob import glob
 
-files = glob(r"..\output\**\*_scored.csv", recursive=True)
+files = glob(r"output/**/*_scored.csv", recursive=True)
 
 results = []
 

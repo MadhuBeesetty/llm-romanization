@@ -1,11 +1,25 @@
 # secrets — never commit your API key
 .env
 
+# OS / IDE
+.DS_Store
+Thumbs.db
+.ipynb_checkpoints/
 
+# LaTeX build artifacts
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.synctex.gz
+*.fls
+*.fdb_latexmk
 
 # python
 __pycache__/
 *.pyc
+*.pyo
 
 ollama_romanized_hindi_split.csv
 environment.yml
